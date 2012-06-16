@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/plusperso/jobs.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/affaire-moov.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/opensource2010-10.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/itasy2010.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/plusperso/jobs.html">
+	<title>Se faire de la bile</title>
+	<link>http://blog.barijaona.com/plusperso/jobs.html</link>
+	<description>Alors que j'ignorais presque tout de cette maladie il y a encore 7-8 ans, j'ai du mal aujourd'hui à compter les personnes qui comptent pour moi qui sont mortes depuis d'un cancer du pancréas...</description>
+    
+    <dc:subject>/plusperso</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-10-09T23:51:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/rip_steve.html">
+	<title>Steve Jobs, 1955-2011</title>
+	<link>http://blog.barijaona.com/monde/rip_steve.html</link>
+	<description>
+</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-10-06T05:15:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/futur-demenagement.html">
+	<title>Message de service</title>
+	<link>http://blog.barijaona.com/web/futur-demenagement.html</link>
+	<description>Pour faire bref : l'URL devient http://blog...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-07-14T16:35:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/blogosphere/affaire-moov.html">
+	<title>Internet Devastation</title>
+	<link>http://blog.barijaona.com/blogosphere/affaire-moov.html</link>
+	<description>Comment un fournisseur d'accès peut-il à ce point méconnaître la sociologie d'Internet ...</description>
+    
+    <dc:subject>/blogosphere</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-05-09T03:30:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/culture-generale-2011.html">
+	<title>Culture générale</title>
+	<link>http://blog.barijaona.com/monde/culture-generale-2011.html</link>
+	<description>Je repense à un échange de plaisanteries avec ma femme...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-05-01T07:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/innovant/opensource2010-10.html">
+	<title>De l&apos;ouverture et de l&apos;amateurisme</title>
+	<link>http://blog.barijaona.com/innovant/opensource2010-10.html</link>
+	<description>Ce blog n'était absolument pas en sommeil, il était en mode maintenance...</description>
+    
+    <dc:subject>/innovant</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2010-10-17T08:11:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/itasy2010.html">
+	<title>Pourtant que la montagne est saine...</title>
+	<link>http://blog.barijaona.com/photos/itasy2010.html</link>
+	<description>Ayant oublié les appareils photo, il ne restait plus que le téléphone qui avait heureusement le bon goût de ne pas sonner...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2010-03-29T22:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html">
+	<title>Du bois, il faut parfois sortir</title>
+	<link>http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html</link>
+	<description>M'enfin, vous-dites vous, qu'arrive-t-il au maître de céans ...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-03-31T07:13:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

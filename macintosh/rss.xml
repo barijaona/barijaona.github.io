@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Quai Sud, 2 minutes d'arrêt</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/writing-mac.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/souvenirs7.5.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/safari3.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/macworld2007-apres.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/25ansautremonde.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/shiira1.1.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/constitution_plan_b.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/avant_macworldsf2005.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/macintosh/writing-mac.html">
+	<title>Hello, I'm a Mac...</title>
+	<link>http://blog.barijaona.com/macintosh/writing-mac.html</link>
+	<description>Barack Obama is a Mac...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-11-08T20:28:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/souvenirs7.5.html">
+	<title>1995-2010 : utilisateurs de Vista, je vous ai compris...</title>
+	<link>http://blog.barijaona.com/macintosh/souvenirs7.5.html</link>
+	<description>Les pires années d'Apple furent 1995-1997 : celles des Systèmes 7...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-10-31T07:13:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/safari3.html">
+	<title>Safari 3</title>
+	<link>http://blog.barijaona.com/macintosh/safari3.html</link>
+	<description>WebKit étant utilisé ailleurs que dans Safari, j'avais par fainéantise évité les betas de Safari...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-11-16T03:45:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/macworld2007-apres.html">
+	<title>La 3ème impression est la bonne.</title>
+	<link>http://blog.barijaona.com/macintosh/macworld2007-apres.html</link>
+	<description>Je ne me ferais pas avoir une troisième fois...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-01-10T04:56:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/25ansautremonde.html">
+	<title>Santé</title>
+	<link>http://blog.barijaona.com/macintosh/25ansautremonde.html</link>
+	<description>D'aucuns diront reconnaître ma mauvaise foi légendaire...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-08-15T21:43:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/shiira1.1.html">
+	<title>... et celui-là est réservé aux Applemaniaques.</title>
+	<link>http://blog.barijaona.com/macintosh/shiira1.1.html</link>
+	<description>En dehors du bureau, le navigateur web est certainement le logiciel dans lequel je passe le plus de temps (l'asocial n'a même pas honte de dire que ce n'est pas la messagerie ...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-07-24T22:12:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/constitution_plan_b.html">
+	<title>Le plan B</title>
+	<link>http://blog.barijaona.com/macintosh/constitution_plan_b.html</link>
+	<description>Pas celui au refus de la constitution européenne...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-06-09T06:41:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/macintosh/avant_macworldsf2005.html">
+	<title>Spéculation</title>
+	<link>http://blog.barijaona.com/macintosh/avant_macworldsf2005.html</link>
+	<description>Ah, Apple et les rumeurs à quelques jours d'une Macworld expo...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-01-07T06:54:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

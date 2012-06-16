@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Quai Sud, 2 minutes d'arrêt</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/andy-naissance.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/ialy-naissance.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/archives_radio.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/poussins.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/25juin2005.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/sitemap.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/cv_bjr.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/accessibilite.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/andy-naissance.html">
+	<title>Bien au contraire, plein de vie...</title>
+	<link>http://blog.barijaona.com/equipe/evenements/andy-naissance.html</link>
+	<description>Je rassure Vola, les dinosaures ne meurent pas à dix ans...</description>
+    
+    <dc:subject>/equipe/evenements</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-06-27T05:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/ialy-naissance.html">
+	<title>Fondant</title>
+	<link>http://blog.barijaona.com/equipe/evenements/ialy-naissance.html</link>
+	<description>Sur le coup, j'ai été tenté de reprendre l'ancien titre du blog "Étonnements rapides et durables"...</description>
+    
+    <dc:subject>/equipe/evenements</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-11-06T07:24:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/archives_radio.html">
+	<title>﻿Archives Radio Userland</title>
+	<link>http://blog.barijaona.com/equipe/archives_radio.html</link>
+	<description>
+Février 2002
+
+16/02/2002
+18/02/2002
+23/02/2002
+24/02/2002
+25/02/2002
+27/02/2002
+
+Mars 2002 
+
+02/03/2002
+03/03/2002
+05/03/2002
+06/03/2002
+07/03/2002
+09/03/2002
+10/03/2002
+11/03/2002
+12/03/2002
+13/03/2002
+16/03/2002
+20/03/2002
+21/03/2002
+23/03/2002
+24/03/2002
+26/03/2002
+29/03/2002
+31/03/2002
+
+Avril 2002
+
+07/04/2002
+08/04/2002
+11/04/2002
+12/04/2002
+13/04/2002
+14/04/2002
+18/04/2002
+21/04/2002
+23/04/2002
+26/04/2002
+28/04/2002
+29/04/2002
+
+Mai 2002
+
+03/05/2002
+04/05/2002
+05/05/2002
+06/05/2002
+09/05/2002
+13/05/2002
+15/05/2002
+16/05/2002
+19/05/2002
+20/05/2002
+23/05/2002
+26/05/2002
+29/05/2002
+30/05/2002
+31/05/2002
+
+Juin 2002
+
+01/06/2002
+02/06/2002
+06/06/2002
+10/06/2002
+11/06/2002
+12/06/2002
+13/06/2002
+14/06/2002
+18/06/2002
+19/06/2002
+20/06/2002
+22/06/2002
+23/06/2002
+24/06/2002
+26/06/2002
+
+Juillet 2002 
+
+14/07/2002
+22/07/2002
+23/07/2002
+25/07/2002
+27/07/2002
+28/07/2002
+30/07/2002
+
+Août 2002
+
+01/08/2002
+03/08/2002
+04/08/2002
+05/08/2002
+06/08/2002
+24/08/2002
+25/08/2002
+31/08/2002
+
+Septembre 2002
+
+01/09/2002
+15/09/2002
+
+Octobre 2002 
+
+06/10/2002
+09/10/2002
+13/10/2002
+
+Novembre 2002 
+
+14/11/2002
+16/11/2002
+17/11/2002
+18/11/2002
+19/11/2002
+21/11/2002
+24/11/2002
+25/11/2002
+28/11/2002
+
+Décembre 2002 
+
+11/12/2002
+13/12/2002
+15/12/2002
+16/12/2002
+17/12/2002
+18/12/2002
+19/12/2002
+20/12/2002
+22/12/2002
+23/12/2002
+24/12/2002
+25/12/2002
+29/12/2002
+31/12/2002
+
+Janvier 2003 
+
+01/01/2003
+06/01/2003
+07/01/2003
+08/01/2003
+09/01/2003
+10/01/2003
+11/01/2003
+12/01/2003
+14/01/2003
+15/01/2003
+16/01/2003
+17/01/2003
+18/01/2003
+22/01/2003
+29/01/2003
+31/01/2003
+
+Février 2003 
+
+01/02/2003
+02/02/2003
+03/02/2003
+
+Mars 2003 
+
+20/03/2003
+21/03/2003
+22/03/2003
+24/03/2003
+25/03/2003
+26/03/2003
+27/03/2003
+30/03/2003
+
+Avril 2003
+
+03/04/2003
+04/04/2003
+06/04/2003
+08/04/2003
+15/04/2003
+27/04/2003
+29/04/2003
+30/04/2003
+
+Mai 2003 
+
+02/05/2003
+03/05/2003
+05/05/2003
+06/05/2003
+08/05/2003
+11/05/2003
+12/05/2003
+25/05/2003
+26/05/2003
+29/05/2003
+30/05/2003
+31/05/2003
+
+Juin 2003 
+
+04/06/2003
+05/06/2003
+07/06/2003
+08/06/2003
+09/06/2003
+14/06/2003
+19/06/2003
+21/06/2003
+24/06/2003
+26/06/2003
+28/06/2003
+29/06/2003
+30/06/2003
+
+Juillet 2003 
+
+12/07/2003
+13/07/2003
+14/07/2003
+18/07/2003
+19/07/2003
+20/07/2003
+22/07/2003
+26/07/2003
+29/07/2003
+31/07/2003
+
+Août 2003 
+
+05/08/2003
+06/08/2003
+07/08/2003
+10/08/2003
+23/08/2003
+
+Septembre 2003 
+
+04/09/2003
+09/09/2003
+17/09/2003
+
+
+</description>
+    
+    <dc:subject>/equipe</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-01-07T08:43:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/poussins.html">
+	<title>À dix ans, j'étais mère porteuse...</title>
+	<link>http://blog.barijaona.com/equipe/evenements/poussins.html</link>
+	<description>&lt;psychoanalysis mode&gt;
+
+Voilà où peut mener la geekerie...</description>
+    
+    <dc:subject>/equipe/evenements</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-07-13T06:24:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/25juin2005.html">
+	<title>Rencontre viagière...</title>
+	<link>http://blog.barijaona.com/equipe/evenements/25juin2005.html</link>
+	<description>À la naissance de ce site, la mode n'était point aux blogs, mais aux pages personnelles, qui tombaient assez facilement dans le piège du "Papa, Maman, mon chien et moi...</description>
+    
+    <dc:subject>/equipe/evenements</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-07-08T04:59:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/sitemap.html">
+	<title>﻿À propos de ce site</title>
+	<link>http://blog.barijaona.com/equipe/sitemap.html</link>
+	<description>Ce site est essentiellement le carnet web (définition par Laurent Gloaguen, étude du phénomène par Morgan Magnin et Christina Pasteur) de Barijaona Ramaholimihaso, commencé en 1998 et migré ici depuis février 2002...</description>
+    
+    <dc:subject>/equipe</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-01-07T22:12:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/cv_bjr.html">
+	<title>Ne m'appelez pas Barjot...</title>
+	<link>http://blog.barijaona.com/equipe/cv_bjr.html</link>
+	<description>Barijaona Ramaholimihaso
+
+40 ans finalement bien assumés...</description>
+    
+    <dc:subject>/equipe</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2003-01-28T13:53:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/equipe/accessibilite.html">
+	<title>Charte d'accessibilité</title>
+	<link>http://blog.barijaona.com/equipe/accessibilite.html</link>
+	<description>Pourquoi ...</description>
+    
+    <dc:subject>/equipe</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2003-01-28T13:12:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

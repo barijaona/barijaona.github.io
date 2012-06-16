@@ -1,0 +1,1 @@
+function postCount(id){if (hs[id]){ if (hs[id] == 1) { document.write("[1 r&eacute;action]"); }else { document.write("[" + hs[id] + " r&eacute;actions]" );} }else { document.write("[R&eacute;agir]"); } }

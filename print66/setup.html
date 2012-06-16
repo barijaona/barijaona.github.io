@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head><link rel="canonical" href="http://blog.barijaona.com/print66/setup.html">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Setting Up</title>
+<base href="http://blog.barijaona.com/">
+<meta name="DESCRIPTION" content="A freeware print server for the Macintosh">
+<meta name="keywords" content="print server, macintosh, tcp/ip, lpd, lpr, rfc1179, free, freeware">
+<meta name="ICBM" content="-18.9, 47.53"> 
+<meta name="geo.region" content="MG-T"> 
+<link href="http://blog.barijaona.com/style/barijaona4.css" rel="styleSheet" type="text/css">
+<link href="http://blog.barijaona.com/style/theme4.css" rel="styleSheet" type="text/css">
+<link href="http://blog.barijaona.com/style/screenlayout4.css" rel="styleSheet" media="screen" type="text/css">
+<link href="http://blog.barijaona.com/style/print.css" rel="stylesheet" media="print" type="text/css">
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><h1>Setting Up</h1><h2>Setting up Print66 on a Macintosh server</h2>
+
+<p>Print66 looks for a folder called "Spool Folder" in your system folder and a text file called <span class="caps">LPD</span>.config in this "Spool Folder" folder. A sample <span class="caps">LPD</span>.config file is included in this package. The sample contains very detailed information about setting up for your installation, but in fact a very few lines are really useful and need to be edited.</p>
+
+<p>For a quick setting :</p>
+
+
+<ul>
+<li>in the file <span class="caps">LPD</span>.config in the "Spool Folder", edit the <span class="caps">PRINTER</span> section and <span class="caps">HOST</span> section to define which printers are connected and which remote computers are allowed to print.<br>
+For instance :<br>
+<code>PRINTER pslaser PAP &quot;Laserjet 5&quot; POSTSCRIPT</code><br>
+<code>PRINTER raw1 SERIAL &quot;Printer port&quot; 57600 10 N 8 XON # a printer connected using PowerPrint� serial to parallel cable</code><br>
+<code>PRINTER raw2 USB &quot;Stylus Photo 750:Stylus Photo 750&quot;</code><br>
+<code>HOST 192.168.1.5</code><br>
+<code>HOST s2345678.acme.com</code></li>
+<li>copy the "Spool Folder" into your system folder.</li>
+</ul>
+
+<p><em>Known issue</em> : with my Epson Stylus Photo 750 and my <span class="caps">G4 </span>Cube under MacOS 9.0.4, after a cold start, it seems that you have to print something using Epson's driver before Print66 and other applications addressing directly the <span class="caps">USB</span> port achieve to send data. It seems to be a hardware issue, as there is no problem after a warm reboot. If you encounter something similar, please let me know.</p>
+
+<h2>What's in the LogFile</h2>
+
+<p>The log file keeps a record of everything printed through the spooler as well as all errors. This file can be cleared by using the "Clear Log File" entry under the "File" menu.</p>
+
+<p>If you are experiencing problems you may want to turn debugging on by adding a <code>DEBUG</code> command to the config file. This causes extra debugging information to be sent to the log file.</p>
+
+<p>The log file may be cleared using the "Clear Log File" entry in the file menu. When this is done the contents are first mailed to the <span class="caps">ADMIN</span> specified in the config file.</p>
+
+<h2>What if I Send a non-PostScript file to a PostScript printer</h2>
+
+<p>The program checks the first 2 characters in the file looking for %! which it would assume to be in all postscript file. If these two characters are not there, Print66 will reject the file and mail the owner.</p>
+
+<h2>What to do on an Unix box to set it up as a print client</h2>
+
+<p>//Based on information's provided by Casper Boon//</p>
+
+<p>The Unix machine needs to be told about the printer. This is done by adding an entry to the printcap file. The following shows such an entry :</p>
+
+<p><code style="align:left">pslaser|PostScript LaserWriter:\</code><br>
+<code style="align:left">:rp=pslaser:lp=:\</code><br>
+<code style="align:left">:rm=server-mac:sd=/usr/spool/maclpd:\</code><br>
+<code style="align:left">:lf=/usr/adm/lpd-errs: </code></p>
+
+<p>To print to this printer you use the command :<br>
+<kbd>lpr -Ppslaser <filename> </kbd></p>
+
+<p>The "rm" entry tells lpr which machine the printer is connected to, in our case where Print66 is running.</p>
+
+<p>The "rp" entry tells lpr which of the printers connected to this rm to print on. This name will be passed on to Print66 which will map the name to a printer as specified in the config file.</p>
+
+<p>The "sd" entry tells the pathname of a spool directory. The "lf" entry tells the log file name.</p>
+
+<p>If your <span class="caps">LPD</span>.config file on the Macintosh has an entry :<br>
+<code>PRINTER pslaser PAP &quot;&quot; POSTSCRIPT # default </code><br>
+the print command above would print to your default Appletalk Laserwriter printer.</p>
+
+<h2>What to do on an <span class="caps">IBM AS</span>/400 system to set it up as a print client
+</h2>
+The syntax of a print request in the AS/400 is :<br>
+<code>LPR RMTSYS(name_of_mac_in_DNS | *INTNETADR) PRTQ(name_of_mac_queue) FILE(name_of_as400_printfile) JOB(job_number/user_name/job_name | *) SPLNBR(number | *ONLY | *LAST) MFRTYPMDL(printer_model)[ INTNETADR(ip_adress) ] </code>
+
+<p>You can specify the Mac host by providing either a name which can be resolved by the AS/400 or an IP numerical address (INTNETADR option).</p>
+
+<p>If you do not specify the job which generated the spool file, the AS/400 assumes it is the current job.<br>
+For instance, I routinely used the command :<br>
+<code>LPR RMTSYS(BJRMAC) /* Name of my macintosh in our domain */ PRTQ(RAW) FILE(QSYSPRT) /* or any other print file */ SPLNBR(*LAST) MFRTYPMDL(*HPII)</code></p>
+
+<p>If the name of the Macintosh host (here <span class="caps">BJRMAC</span>) is defined correctly in your network <span class="caps">DNS</span> or in the AS/400's <span class="caps">TCP</span>/IP host table, and if there is an entry like the following inside the Config.LPD file on that Macintosh :<br>
+<code>PRINTER &quot;RAW&quot; SERIAL &quot;Printer port&quot; 57600 10 N 8 </code><br>
+then the print request above should print correctly to a <span class="caps">PCL</span> printer (like <span class="caps">HP </span>Laserjet) connected to the Printer Port of the Macintosh.</p>
+
+<p>Nota : on these examples, the name <span class="caps">RAW</span> is arbitrary, but was chosen because Hewlett-Packard network printers use the same.</p>
+
+<p>If you are to print regularly, you can create on the AS/400 an outqueue object (OUTQ). This can be achieved through a command like this :<br>
+<code>CRTOUTQ OUTQ(QGPL/BJRMACLPD) /* name of the OUTQ */
+RMTSYS(BJRMAC) /*name of my macintosh in our domain */
+RMTPRTQ(RAW) /* name defined on my mac's LPD.config */
+AUTOSTRWTR(1) CNNTYPE(*IP) DESTTYPE(*OTHER)
+MFRTYPMDL(*WSCSTA4) /* A4 paper format */
+WSCST(QWPHPLSR4) /* IBM's driver for the HP Laser 4 */
+/* for other printers, look for objects which type is *WSCST */</code></p>
+
+<p>After that, all you will have to do in order to print is to send your spool files to the created outqueue.</p>
+
+<h2>What to do on another Macintosh to set it up as a print client</h2>
+
+<p><em>Nota</em> : Remember that Print66 is a print server. Print formatting is to be achieved by the client.</p>
+
+<p>You can use Apple's LaserWriter 8.5.1 or Later as a <span class="caps">LPR</span> postscript client. The Apple package includes a utility named "Desktop Printer Utility" (the name may vary in international versions of MacOS ; for instance, in French MacOS, it is "Utilitaire Service d�impression"). You could then connect an old postscript printer to a Mac, run Print66 on this machine to add <span class="caps">LPR</span>/LPD ability and avoid the use of AppleTalk for the rest of the network.</p>
+
+<p>On the Macintoshes who will request print jobs :</p>
+
+
+<ul>
+<li>Launch the Desktop Printer Utility.</li>
+<li>Select "Printer (LPR)" and click <span class="caps">OK.</span></li>
+<li>In the "PostScript Printer Description (PPD) File" section, click on "Change..." and select the <span class="caps">PPD</span> for your printer.</li>
+<li>In the "Internet Printer" section, click on "Change...".</li>
+<li>Enter the IP address or domain name of the Mac which runs Print66 for "Printer Address".</li>
+<li>Enter the queue name as specified in the <span class="caps">PRINTER</span> line in the <span class="caps">LPD</span>.config file on the Mac where Print66 runs.</li>
+<li>Go to the File menu and select "Save". Enter a name and location for the desktop printer icon and click <span class="caps">OK. </span>The default name is the printer's IP address, and the default location is on the desktop.</li>
+<li>Quit.</li>
+</ul>
+
+<p>Nota : Info based on Apple's <span class="caps">TIL</span> article 24409</p>
+
+<h2>What to do on a Windoze system to set it up as a print client</h2>
+
+<p>Windows NT/2000/XP and Windows 98 support <span class="caps">LPR</span> printing. It is not always included in the  OS install : you may have to explicitly install or start a service named Microsoft <span class="caps">TCP</span>/IP printing.</p>
+
+<p>For Windows 95, you will have to use a third party software, for instance Axis Print Monitor for Windows <a href="http://www.axis.com/techsup/software/">http://www.axis.com/techsup/software/</a></p>
+
+<p>I have checked that these solutions work, but you will have to read the documentation, because my doctor warned me not to spend a long time dealing with stuff related to a certain monopoly because it tends to make me horribly angry :-)</p>
+
+<p class="right" style="text-align:right"><a href="http://blog.barijaona.com/print66/faq.html" title="Frequently asked questions">Next : <span class="caps">FAQ</span></a></p>
+</div></div>
+<div class="topnav2">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br>
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/print66/presentation.html" class="submenu" title="Description">What is it ?</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/setup.html" class="submenu" title="How to...">Setup</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/faq.html" class="submenu" title="Read before complaining">Frequently asked questions</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/legal.html" class="submenu" title="I am not a lawyer">Legal</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilit&eacute;" accesskey="0">Accessibilité</a></div>
+</div>
+<div class="contentfooter">Dernière mise à jour : 7/2/2004 21:05:23<form method="get" action="http://search.atomz.com/search/"><span class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label></span><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s"><input type="submit" value="Rechercher"><input type="hidden" name="sp-a" value="sp1000a7cc"><input type="hidden" name="sp-f" value="utf-8"></form>&copy; 2003 <a href="http://blog.barijaona.com/equipe/cv_bjr.html" title="reactions@barijaona.com" accesskey="9">Barijaona Ramaholimihaso</a>
+</div>
+</body>
+</html>

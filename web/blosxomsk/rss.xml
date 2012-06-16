@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>TZ=Indian/Antananarivo</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/international_english.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update20060102.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/bugfix20051101.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/standalones.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html">
+	<title>The zen of blogging, the return</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html</link>
+	<description>There is a renewed interest for Blosxom at the development mailing list...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-08-18T16:27:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html">
+	<title>Blosxom 2.0.2</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/update20060826.html</link>
+	<description>Blosxom starter kit version 20060826 :
+
+
+Updated to Blosxom 2...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-08-28T07:17:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/international_english.html">
+	<title>For English speaking hackers...</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/international_english.html</link>
+	<description>Some English speaking people have complained that Blosxomsk has only french menus : this download might help...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-01-13T00:40:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/update20060102.html">
+	<title>New version of Blosxom Starter Kit</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/update20060102.html</link>
+	<description>Late Christmas gift is available for download...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-01-02T23:59:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/bugfix20051101.html">
+	<title>Bugfix</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/bugfix20051101.html</link>
+	<description>A new release of Blosxom starter kit is available for download ...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-11-01T10:54:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/standalones.html">
+	<title>Three plugins for blosxom users...</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/standalones.html</link>
+	<description>This is to (re-)publish as standalones three plugins included in my blosxom starter kit :
+
+
+prevnextstory : populates the prevnexstory namespace with links for pointing to preceding 
+and following stories (arranged chronologically)...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2005-06-10T05:29:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html">
+	<title>Announcement : Blosxom starter kit</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html</link>
+	<description>Blosxom is a web publishing tool which has a good following...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2004-09-21T01:43:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html">
+	<title>Retour en mode bricolage</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html</link>
+	<description>Oyez, oyez, braves gens : le maître de céans s'excuse, mais il semble qu'il soit condamné aux éclipses annuelles vers la fin du mois d'Août et le début du mois de Septembre...</description>
+    
+    <dc:subject>/web/blosxomsk/fr</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2004-09-21T01:25:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

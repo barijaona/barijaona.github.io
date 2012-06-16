@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/plusperso/jobs.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/affaire-moov.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/opensource2010-10.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/itasy2010.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/plusperso/jobs.html">
+	<title>Se faire de la bile</title>
+	<link>http://blog.barijaona.com/plusperso/jobs.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Alors que j&apos;ignorais presque tout de cette maladie il y a encore 7-8 ans, j&apos;ai du mal aujourd&apos;hui à compter les personnes qui comptent pour moi qui sont mortes depuis d&apos;un cancer du pancréas.&lt;/p&gt;
+
+&lt;p&gt;Wikipedia dit pudiquement : le cancer du pancréas est une tumeur de très mauvais pronostic. On survit rarement longtemps à ce cancer qu&apos;on ne détecte le plus souvent que lorsqu&apos;il commence à être au stade de la métastase. À ce moment, il est déjà inopérable et la survie médiane est de 6 mois. Je ne peux que confirmer.&lt;/p&gt;
+
+&lt;p&gt;Simple coïncidence ou illustration du fait que, en raison de la meilleure détection des autres cancers, celui-ci est condamné à devenir plus visible, il y eut cette semaine deux cas très médiatiques de décès suite à un cancer de pancréas.&lt;/p&gt;
+
+&lt;p&gt;Le comité Nobel s&apos;est fait surprendre. Alors que depuis 1974, les statuts du célèbre Prix interdisent une remise à titre posthume, il annonçait lundi la remise du Nobel de médecine au Canadien Ralph Steinman (conjointement avec l&apos;Américain Bruce Beutler et le Français Jules Hoffmann), alors que celui-ci était décédé trois jours plus tôt.&lt;/p&gt;
+
+&lt;p&gt;Il semble que Ralph Steinman ait pu prolonger sa vie en s&apos;appliquant le résultat de ses propres recherches sur le système immunitaire. &lt;a href=&quot;http://www.nationalpost.com/news/Bittersweet+timing/5497206/story.html&quot; title=&quot;Bittersweet timing&quot; hreflang=&quot;en&quot;&gt;Pas suffisamment efficacement cependant pour apprendre sa récompense&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;L&apos;autre décès bien plus médiatisé est celui de Steve Jobs. Un survivant particulièrement conscient du caractère rarissime de sa situation et qui en avait retiré une leçon très forte.&lt;/p&gt;
+
+&lt;iframe frameborder=&quot;0&quot; width=&quot;450&quot; height=&quot;337&quot; src=&quot;http://www.dailymotion.com/embed/video/x5m47b&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a href=&quot;http://www.dailymotion.com/video/x5m47b_vostfr-steve-jobs-stanford-commenc_news&quot; target=&quot;_blank&quot;&gt;[VOSTFR] Discours de Steve Jobs devant les étudiants de Stanford en 2005&lt;/a&gt; recueilli par &lt;a href=&quot;http://www.dailymotion.com/Cladouros&quot;&gt;Cladouros&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;L&apos;émotion autour de la mort de Jobs est logique, car cela ne peut que glacer le sang que quelqu&apos;un vous annonce qu&apos;il part pour mourir, et qu&apos;il meurt si peu de temps après. Nous sommes mortels, nous pouvons tous mourir beaucoup plus tôt que nous le croyons ; mais rares sont ceux qui apprécient qu&apos;on le leur rappelle. Là réside sans doute une bonne part de la différence d&apos;ampleur des réactions autour des morts de Steinman et de Jobs.&lt;/p&gt;
+
+&lt;p&gt;Mais l&apos;émotion autour du décès de Jobs n&apos;est pas due qu&apos;à cela. &lt;a href=&quot;http://laplumedaliocha.wordpress.com/2011/10/06/la-planete-consommation-en-deuil/&quot; title=&quot;Aliocha - la planète consommation en deuil&quot;&gt;Certains se glosent de cette émotion&lt;/a&gt;, sous prétexte qu&apos;il n&apos;était « qu&apos;un » capitaine d&apos;industrie. Comme si un capitaine d&apos;industrie ne pouvait pas faire de sa vie une magistrale oeuvre d&apos;art, comme si cela devait être réservé aux chefs d&apos;orchestre, aux scientifiques, aux écrivains, ou à l&apos;extrême rigueur, à un Enzo Ferrari...&lt;/p&gt;
+
+&lt;p&gt;Pour parodier un slogan publicitaire : on n&apos;en rêvait même pas, et Jobs le faisait. Il a ouvert la route à ces bicyclettes pour nos esprits, et il l&apos;a fait avec un sens du beau qui ne pouvait que nous rendre plus créatifs et plus inventifs. Rien à voir avec de la banale consommation.&lt;/p&gt;
+
+&lt;p&gt;Et encore moins avec des questions d&apos;argent. &quot;&lt;em&gt;Being the richest man in the cemetery doesn’t matter to me… Going to bed at night saying we’ve done something wonderful… that’s what matters to me.&lt;/em&gt;” &lt;/p&gt;
+
+&lt;p&gt;Normal alors qu&apos;on se fasse un peu de bile...&lt;/p&gt;
+
+&lt;p&gt;À lire aussi :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;« &lt;a href=&quot;http://www.lemonde.fr/idees/article/2011/10/07/steve-jobs-mon-ami_1583941_3232.html&quot; title=&quot;LeMonde.fr, extrait du livre iWoz&quot;&gt;Steve Jobs, mon ami...&lt;/a&gt; », par l&apos;autre Steve ;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://padawan.info/fr/2011/10/steve-jobs.html&quot; title=&quot;Steve Jobs&quot;&gt;François Nonnenmacher&lt;/a&gt; ;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://plus.google.com/103541083956939218100/posts/8piU3YKcW6j&quot; title=&quot;Google Plus&quot;&gt;Ma propre réaction&lt;/a&gt; au post de Maître Eolas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/plusperso/jobs.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/plusperso</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-10-09T23:51:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/rip_steve.html">
+	<title>Steve Jobs, 1955-2011</title>
+	<link>http://blog.barijaona.com/monde/rip_steve.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/dX9GTUMh490?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/rip_steve.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-10-06T05:15:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/futur-demenagement.html">
+	<title>Message de service</title>
+	<link>http://blog.barijaona.com/web/futur-demenagement.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Pour faire bref : l&apos;URL devient &lt;a href=&quot;http://blog.barijaona.com&quot; title=&quot;Étonnements rapides et durables&quot;&gt;http://blog.barijaona.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dans les logiciels et dans les services, l&apos;obsolescence n&apos;est pas forcément programmée, mais elle doit parfois être accélérée pour que la sève continue de circuler. Apple ayant décidé de faire partiellement table rase du passé, l&apos;iDisk deviendra inaccessible en juillet 2012 et il va falloir déménager les infos ici présentes.&lt;/p&gt;
+
+&lt;p&gt;Ce sera le deuxième déménagement de ces pages après la migration de Geocities (je crois que le quartier d&apos;origine chez Geocities était SiliconValley). C&apos;était en l&apos;an 2000, et comme &lt;a href=&quot;http://en.wikipedia.org/wiki/MobileMe#iTools&quot; title=&quot;Wikipedia&quot; hreflang=&quot;en&quot;&gt;iTools était alors gratuit&lt;/a&gt;, c&apos;était une occasion idéale de se débarasser de la publicité qui rendait les pages non conformes aux standards HTML. À l&apos;époque, ces pages étaient faites « à la mimine », les liens étaient relatifs, et je n&apos;avais eu qu&apos;à supprimer les balises permettant à Geocities d&apos;insérer ses publicités.&lt;/p&gt;
+
+&lt;p&gt;Aujourd&apos;hui, la migration est subie plutôt que choisie : même s&apos;il n&apos;y a pas encore urgence, la nostalgie justifie un peu de boulot pour ne pas perdre complètement tout le travail antérieur d&apos;indexation fait par les humains et les machines. La nouvelle adresse blog.barijaona.com continuera donc de pointer provisoirement sur l&apos;ancienne, mais l&apos;ajout de la balise &lt;a href=&quot;http://www.google.com/support/webmasters/bin/answer.py?hl=fr&amp;amp;answer=139394&quot; title=&quot;À propos de l&apos;attribut rel=\&amp;quot;canonical\&amp;quot;&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;...&quot;&amp;gt;&lt;/code&gt;&lt;/a&gt; devrait permettre aux moteurs de recherche de comprendre mes intentions et de faire le lien entre passé, présent et futur. Merci, &lt;code&gt;find&lt;/code&gt;, &lt;code&gt;xargs&lt;/code&gt; et &lt;code&gt;sed&lt;/code&gt; pour avoir facilité les substitutions fines.&lt;/p&gt;
+
+&lt;p&gt;Il me reste un peu moins d&apos;un an pour trouver un hébergement pas trop cher et dans la tradition de l&apos;internet libre et &lt;i lang=&quot;en&quot;&gt;geek friendly&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;Souvenirs, souvenirs...&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/web/futur-demenagement.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-07-14T16:35:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/blogosphere/affaire-moov.html">
+	<title>Internet Devastation</title>
+	<link>http://blog.barijaona.com/blogosphere/affaire-moov.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Comment un fournisseur d&apos;accès peut-il à ce point méconnaître la sociologie d&apos;Internet ? Je fais bien évidemment référence aux &lt;a href=&quot;http://paper.li/tag/Madagascar/2011/05/07&quot; title=&quot;Paper.li #Madagascar du samedi 7 mai 2011&quot;&gt;réactions suite au procès qu&apos;intente au blogueur SSD Dago la société DTS pour des propos qu&apos;elle qualifie d&apos;injurieux et diffamatoires&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il était prévisible que la blogosphère malgache allait s&apos;indigner, car SSD n&apos;a fait que traduire en termes un peu crûs un sentiment largement répandu, et il était également prévisible que l&apos;incendie n&apos;allait pas en rester là et qu&apos;il y aurait une &lt;a href=&quot;http://w0ofer.net/moov-de-la-blogger/&quot; title=&quot;MOOV de là blogger : w0ofer&quot;&gt;solidarité dépassant les frontières de Madagascar&lt;/a&gt;. Pour DTS, les effets négatifs de la contre-publicité immédiate sur la marque Moov dépassent sans doute d&apos;ores et déjà tous les gains qui avaient été  espérés en lançant une action judiciaire. Ces gains restent d&apos;ailleurs aujourd&apos;hui complètement hypothétiques.&lt;/p&gt;
+
+&lt;p&gt;Cela me désole d&apos;autant plus que j&apos;ai quelques connaissances chez DTS, avec qui j&apos;entretiens des relations cordiales ; et je n&apos;ai aucun grief particulier à adresser à la société en tant que client. Je peux me mettre assez facilement à leur place et leur trouver bon nombre de circonstances atténuantes sur les événements du mois de Mars. Ce qui leur est arrivé à cette époque, un blocage quasi-complet des liaisons internationales pendant plusieurs jours, était certainement pour eux une catastrophe.&lt;/p&gt;
+
+&lt;p&gt;Le propre des catastrophes est de ne pas avoir être prévues. Autrement, il n&apos;y aurait pas eu de Fukushima, pas eu d&apos;effondrement des tours du World Trade Center, et toute &lt;a href=&quot;http://fr.wikipedia.org/wiki/Tempêtes_de_fin_décembre_1999_en_Europe&quot; title=&quot;Tempêtes Lothar et Martin : Wikipedia&quot;&gt;la Bretagne serait entrée dans l&apos;an 2000 sans se rendre compte que la Fée Électricité n&apos;était pas un avantage complètement acquis&lt;/a&gt;. Les catastrophes arrivent même aux meilleurs, et sans connaître les détails, je suis prêt à parier que les gens de DTS pensaient auparavant qu&apos;ils avaient des assurances raisonnables que cela n&apos;arriverait pas. Il n&apos;empêche que c&apos;est arrivé. &lt;i lang=&quot;en&quot;&gt;Too bad&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;Je peux même comprendre que DTS/Moov ait peu et mal communiqué au mois de Mars. Lorsqu&apos;une catastrophe arrive, tous ceux qui sont disponibles sont sur le pont et ne dorment plus suffisamment. Le stress fait perdre ses moyens, et il devient forcément difficile de penser à tout, notamment à communiquer, surtout lorsque l&apos;information dont on dispose soi-même reste limitée et pas forcément fiable.&lt;/p&gt;
+
+&lt;p&gt;Alors oui, dans ces circonstances, on peut trouver particulièrement injuste que les clients se montrent acerbes, et l&apos;on doit avoir des moments où l&apos;on a envie d&apos;envoyer balader tous ces emm...eurs qui ne sont pas confrontés à vos réalités du terrain.&lt;/p&gt;
+
+&lt;p&gt;OK, tout cela explique les réactions à chaud. Aussi bien celles de Moov que celles de SSD Dago au mois de Mars.&lt;/p&gt;
+
+&lt;p&gt;Mais réagir à froid comme si on était encore dans le feu de l&apos;action avait-il un sens ? Pourquoi avoir décidé de sortir la bombe atomique face au seul SSD Dago une fois la situation rétablie, plutôt que d&apos;entamer un dialogue (certes difficile) avec les mécontents ? Pour faire un exemple ? C&apos;est plutôt un contre-exemple de ce qu&apos;il ne faut pas faire que DTS/Moov est en train de réaliser ici. Et je ne peux m&apos;empêcher de repenser à un des enseignements qu&apos;ont retiré de la gestion par Total de la catastrophe de l&apos;Erika les experts en management de crise : il peut être fatal de donner un poids excessif aux juristes dans la gestion de telles situations.&lt;/p&gt;
+
+&lt;p&gt;J&apos;ai été amené à prendre une part active à la défense de SSD Dago, notamment sur Twitter, pour une raison simple. Depuis que j&apos;ai commencé à écrire sur internet en 1998, j&apos;avais en tête que ce genre d&apos;événement pouvait arriver. Je ne savais seulement pas quand et sur qui cela allait tomber. Peut-être sur moi.&lt;/p&gt;
+
+&lt;p&gt;Il s&apos;est passé treize ans, sous trois régimes politiques pas forcément très ouverts, avec des lecteurs potentiellement très divers, avec deux crises politiques majeures (une pendant laquelle j&apos;ai beaucoup écrit ici, l&apos;autre beaucoup moins, non pas par peur ou par désintérêt, mais parce que je ne voyais pas beaucoup d&apos;intérêt à polluer un espace personnel avec des débats largement ressassés ailleurs) : l&apos;on se pose forcément des questions sur ce qui est acceptable ou pas. Treize années pendant lesquelles il y a eu le &lt;a href=&quot;http://embruns.net/carnet/blogosphere/petite-histoire-blogosphere.html&quot; title=&quot;Petite histoire de la blogosphère: Embruns&quot;&gt;temps des pionniers&lt;/a&gt;, la grande mode des blogs, leur déclin relatif. Parce qu&apos;il n&apos;est pas toujours motivant d&apos;écrire sans être trop lu, mais aussi parce que tout le monde n&apos;est pas forcément très doué pour écrire. Mais personne ne conteste qu&apos;il vaut mieux s&apos;exprimer que vandaliser. Crier est un signal, pas un crime.&lt;/p&gt;
+
+&lt;p&gt;Dommage que dans notre pays, ce soit un grand acteur au coeur de l&apos;internet qui le premier ait dérapé par rapport à ces espaces de liberté qu&apos;apporte la toile. D&apos;autant plus que cet acteur s&apos;affuble du slogan &quot;Internet Revolution&quot;, et qu&apos;on aurait pu croire, surtout avec un DG dont le patronyme n&apos;est pas sans évoquer la Tunisie, qu&apos;il ne perdrait pas de vue l&apos;effet révolutionnaire que peut avoir Internet. Il semble alors que nous ne parlions pas tout à fait du même espace.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/blogosphere/affaire-moov.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/blogosphere</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-05-09T03:30:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/culture-generale-2011.html">
+	<title>Culture générale</title>
+	<link>http://blog.barijaona.com/monde/culture-generale-2011.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Je repense à un échange de plaisanteries avec ma femme. Est-il scandaleux que jusqu&apos;à vendredi dans la soirée, je n&apos;avais aucune idée de la tête que pouvait avoir Kate Middleton ? Et que jusqu&apos;à ce vendredi matin, j&apos;avais certes entendu parler d&apos;un mariage royal, mais que j&apos;étais dans le doute s&apos;il s&apos;agissait de celui de l&apos;héritier direct de la Couronne britannique ou de celui de son frère ?&lt;/p&gt;
+
+&lt;p&gt;À mon humble avis, « non », il n&apos;y a pas réellement scandale sur le premier point. Le deuxième se débat, mais vu que l&apos;accès de l&apos;intéressé au trône ne parait pas forcément immédiat, il ne me parait pas scandaleux que je ne me sois concentré sur la question qu&apos;à partir du moment où un commentaire radio parlant du « mariage du siècle » a réveillé mon scepticisme.&lt;/p&gt;
+
+&lt;p&gt;Le scepticisme, depuis un peu plus de deux ans, je le cultive. Indispensable lorsque dans son pays, on a deux camps qui s&apos;affirment (peut-être en toute bonne foi) être complètement légitimes sur la base d&apos;informations qui s&apos;avèrent complètement mythiques dès lors qu&apos;on gratte un peu.&lt;/p&gt;
+
+&lt;p&gt;Mais là n&apos;est pas vraiment la question. Sauf que dégonfler les mythes pour se faire une opinion éclairée, je sais &lt;a href=&quot;http://blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html&quot; title=&quot;Comptes, recomptes et mécomptes&quot;&gt;d&apos;expérience&lt;/a&gt; que cela prend énormément de temps, et ce pour un rendement pas toujours convaincant, sauf pour sa propre petite satisfaction personnelle.&lt;/p&gt;
+
+&lt;p&gt;Donc, par paresse, je pose la question aux trois pelés et quatre tondus qui pourraient passer ici. Est-il scandaleux que jusqu&apos;à cette heure, je n&apos;ai aucune idée de la tête que peut avoir un Lionel Messi ? Et donc que j&apos;ignore tout de son style de jeu ? Je me pose soudainement la question, &lt;a href=&quot;http://www.arretsurimages.net/contenu.php?id=3967&quot; title=&quot;Racisme : les dirigeants du foot français condamnés sans preuve - Arrêt sur images / Daniel Schneidermann&quot;&gt;en ces heures où la question devient un peu plus importante&lt;/a&gt; : Messi est-il un technicien génial, et doit-il faire partie de la culture générale de l&apos;année 2011 ? Et accessoirement, est-il noir ou est-il blanc, et son talent aurait-il pu passer indétecté par les centres de formation ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;mars2011:affichesurleschampslyses&quot; src=&quot;http://blog.barijaona.com/monde/IMG_0777-small.JPG&quot; alt=&quot;Mars 2011 : affiche sur les Champs Élysées&quot; title=&quot;Mars 2011 : affiche sur les Champs Élysées&quot; width=&quot;480&quot; height=&quot;640&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autre question : est-il scandaleux que je n&apos;ai pas vu un seul épisode de « &lt;i lang=&quot;en&quot;&gt;The West Wing&lt;/i&gt; » ? Et qu&apos;un geek comme moi ait préféré voir « &lt;i&gt;Le discours d&apos;un roi&lt;/i&gt; » (que j&apos;ai beaucoup aimé) plutôt que « &lt;i lang=&quot;en&quot;&gt;The Social Network&lt;/i&gt; » ?&lt;/p&gt;
+
+&lt;p&gt;Tout cela vous parait un peu en désordre, mais c&apos;est suite à la lecture d&apos;un &lt;a href=&quot;http://www.diasteme.net/2011/05/01/messi/&quot; title=&quot;Messi&quot;&gt;billet de Diastème&lt;/a&gt; qui n&apos;est pas non plus particulièrement en ordre... Billet qui me fait penser qu&apos;il n&apos;y a plus « une » culture générale en cet an de grâce 2011, mais que la sienne ne devrait pas me déplaire tant que cela, vu qu&apos;il rajoute dans son fourre-tout un peu de Stefan Zweig.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/culture-generale-2011.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-05-01T07:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/innovant/opensource2010-10.html">
+	<title>De l&apos;ouverture et de l&apos;amateurisme</title>
+	<link>http://blog.barijaona.com/innovant/opensource2010-10.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ce blog n&apos;était absolument pas en sommeil, il était en mode maintenance.&lt;/p&gt;
+
+&lt;p&gt;Parce qu&apos;il y avait deux ou trois trucs dans le &lt;i lang=&quot;en&quot;&gt;workflow&lt;/i&gt; de sa mise à jour qui m&apos;agaçaient un peu.&lt;/p&gt;
+
+&lt;p&gt;Et que je ne trouvais pas vraiment mon bonheur pour y remédier. Rageant d&apos;avoir la flemme, alors qu&apos;il y a plein de brouillons de billets qui traînent sur le disque dur.&lt;/p&gt;
+
+&lt;p&gt;La frustration a traîné jusqu&apos;à ce que ce vendredi soir, je trouve &lt;a href=&quot;http://fletcherpenney.net/multimarkdown/&quot; title=&quot;A natural markup language for producing XHTML, LaTex and PDF documents&quot; hreflang=&quot;en&quot;&gt;Multimarkdown&lt;/a&gt;, évolution de Markdown avec qui j&apos;ai écrit l&apos;essentiel de mes billets. Multimarkdown résoud un certain nombre des limitations de syntaxe qui m&apos;agaçaient.&lt;/p&gt;
+
+&lt;p&gt;Déception relative cependant en tentant d&apos;installer le bébé, car son intégration dans Blosxom n&apos;était pas si évidente que cela. Une bonne occasion de replonger dans les arcanes de ma configuration et de dérouiller ma pratique du Perl. Et du coup de découvrir avec &lt;a href=&quot;http://www.alexgirard.com/git-book/index.html&quot; title=&quot;Git Livre communautaire&quot;&gt;Git&lt;/a&gt; que la gestion de version décentralisée, ça change vraiment la vie.&lt;/p&gt;
+
+&lt;p&gt;Le problème des projets Open Source, c&apos;est qu&apos;on ne peut pas toujours être tous d&apos;accord au sein d&apos;une communauté. Et que cela peut considérablement ralentir le développement.&lt;/p&gt;
+
+&lt;p&gt;Le problème ne se pose pas trop quand il y a un &lt;i lang=&quot;en&quot;&gt;leader&lt;/i&gt; charismatique qui est très actif. Ça le devient quand la continuité du projet repose sur un tas de contributeurs qui ont d&apos;autres chats à fouetter que de suivre nuit et jour tout ce qui se passe autour.&lt;/p&gt;
+
+&lt;p&gt;Résultat : lorsque les &lt;i lang=&quot;it&quot;&gt;dilettantes&lt;/i&gt; se réintéressent à la chose, ils ont la trouille de se retrouver largués par ce qui s&apos;est passé entretemps et de casser ce qui marchait bien chez eux.&lt;/p&gt;
+
+&lt;p&gt;« Chez nous ça marche » est l&apos;expression qui pourrit tout effort de développement concerté. Entre ceux qui ont un problème pressant et ceux qui ne veulent pas prendre de risques, les conflits sont inévitables. Surtout lorsque les « gardiens du temple » ont des ressources limitées. Si quelqu&apos;un sait comment avoir des journées de 72 heures, merci de laisser un mot en commentaire.&lt;/p&gt;
+
+&lt;p&gt;Avec un outil décentralisé, chacun peut travailler dans son coin et publier immédiatemment ce qu&apos;il a fait. Libre à chacun de décider à quel moment il rattrape le train.&lt;/p&gt;
+
+&lt;p&gt;J&apos;ai ainsi résolu mon problème avec MultiMarkdown. À moi désormais de &lt;a href=&quot;http://github.com/barijaona/MultiMarkdown/network&quot; title=&quot;The MultiMarkdown network graph&quot; hreflang=&quot;en&quot;&gt;surveiller&lt;/a&gt; si « ma » modification sera reprise, et si ce n&apos;est pas le cas, de réincorper dans « ma » version ce qui sera fait par les autres et qui me paraîtra intéressant.&lt;/p&gt;
+
+&lt;p&gt;La vie, c&apos;est mieux en &lt;i lang=&quot;en&quot;&gt;open&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt; : &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;il y a un peu de politique dans ce billet, mais c&apos;est totalement involontaire.&lt;/li&gt;
+&lt;li&gt;discussion intéressante &lt;a href=&quot;http://www.red-sweater.com/blog/1078/open-source-obligations&quot; title=&quot;Open Source Obligations - Red sweater&quot; hreflang=&quot;en&quot;&gt;sur ce blog&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/innovant/opensource2010-10.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/innovant</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2010-10-17T08:11:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/itasy2010.html">
+	<title>Pourtant que la montagne est saine...</title>
+	<link>http://blog.barijaona.com/photos/itasy2010.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ayant oublié les appareils photo, il ne restait plus que le téléphone qui avait heureusement le bon goût de ne pas sonner...&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/barijaona/4473468649/&quot; title=&quot;Chutes de la Lily&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4059/4473468649_3e625d6e10.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Itasy4&quot; class=&quot;photo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/barijaona/4473474981/&quot; title=&quot;La Lily&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4045/4473474981_3c2a194295.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Itasy6&quot; class=&quot;photo&quot;  /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/barijaona/4473478205/&quot; title=&quot;Débonnaires&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4003/4473478205_9c7158124d.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Itasy7&quot; class=&quot;photo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/barijaona/4474239128/&quot; title=&quot;Insouciance de l&apos;enfance...&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4011/4474239128_e71af04982.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Itasy2&quot; class=&quot;photo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/photos/itasy2010.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2010-03-29T22:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html">
+	<title>Du bois, il faut parfois sortir</title>
+	<link>http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;M&apos;enfin, vous-dites vous, qu&apos;arrive-t-il au maître de céans ? Il tape 25 dollars pour consolider son blog, et puis après il le laisse en déshérence ?&lt;/p&gt;
+
+&lt;p&gt;Je vous dois donc quelques explications. Mon activité en ligne est toujours là, mais il faut savoir être en ces temps efficace.&lt;/p&gt;
+
+&lt;p&gt;Mes réactions les plus immédiates sont sur &lt;a href=&quot;http://twitter.com/barijaona&quot; title=&quot;Barijaona sur Twitter&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le niveau suivant de réflexion est constitué par les &lt;a href=&quot;http://delicious.com/barijaona/&quot; hreflang=&quot;en&quot; title=&quot;Barijaona&apos;s Bookmarks on Delicious&quot;&gt;marque-pages Delicious&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enfin, pour les billets un peu plus développés, les plus attentifs auront peut-être remarqué une évolution récente sur un média en ligne malgache dont les initiales sont les mêmes que Mike Tango. &lt;i lang=&quot;en&quot;&gt;Full disclosure&lt;/i&gt; : il y a des liens de parenté avec le directeur de publication... ;-)&lt;/p&gt;
+
+&lt;p&gt;Mes plus fidèles lecteurs savent que j&apos;ai toujours pensé qu&apos;assumer ses propos était un des premiers échelons de la responsabilité. Ils n&apos;auront sans doute pas trop de mal à retrouver mes billets que je publie sous mon prénom de baptême et l&apos;initiale de mon deuxième prénom officiel.&lt;/p&gt;
+
+&lt;p&gt;Bon, le principal inconvénient de cette situation, c&apos;est que je ne peux adopter le ton très personnel que je peux me permettre ici... Vivement le retour à la normale.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-03-31T07:13:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

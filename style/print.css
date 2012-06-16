@@ -1,0 +1,34 @@
+body { background : white ; font-size: 12pt;}
+
+.topnav, .topnav2, .nav1, .nav2, .contentfooter, .sextant, .js-CreateComment .jsk-CommentFormWrapper { display : none ; }
+
+.contentwrapper { margin : 0;
+	width:auto ;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	background: transparent; }
+
+
+.content {	 margin: 0 5%;
+	width: auto;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	background: transparent;
+	font-family : Georgia, "Times New Roman", Times, serif ;}
+
+a:link, a:visited {
+	color: blue ;
+	background: transparent;
+	text-decoration: underline;
+	}
+
+.content a:link:after, .content a:visited:after {
+   content: " <" attr(href) "> ";
+   font-size: 90%;
+   }
+
+.timestamp { font-size: 12pt; color : #333 ;}
+
+.dateofday {  border-top : 1px dotted gray ;  border-bottom : 1px dotted gray ; background-color : transparent ; }

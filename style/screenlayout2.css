@@ -1,0 +1,14 @@
+/* feuille redondante :
+redefinit pour un bug de MSIE Win 4 et 5
+feuille qui peut perturber Netscape 4,
+aussi l'importer par une directive import */
+
+.contentwrapper {position: relative; z-index : 3 ; width:auto ; margin: 0 0 0 160px ; padding : 5px 165px 5px -315px ; 
+/* hack pour IE5/Win qui ne comprend pas correctement le box model : voir http://glish.com/css/hacks.asp */
+	voice-family: "\"}\""; voice-family:inherit;
+	/* ici les vraies valeurs */
+	padding: 5px; }
+/* Opera5 tombe dans le hack ci-dessus mais comprend bien le box-model */
+html>body .contentwrapper { padding: 5px;}
+/* fin hack */
+

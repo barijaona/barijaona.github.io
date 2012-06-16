@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/obama-inauguration.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Barack-premier.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/insulaires.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/france-06-05-07-2.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/france-06-05-07.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/france-22-04-2007-3.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/monde/rip_steve.html">
+	<title>Steve Jobs, 1955-2011</title>
+	<link>http://blog.barijaona.com/monde/rip_steve.html</link>
+	<description>
+</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-10-06T05:15:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/culture-generale-2011.html">
+	<title>Culture générale</title>
+	<link>http://blog.barijaona.com/monde/culture-generale-2011.html</link>
+	<description>Je repense à un échange de plaisanteries avec ma femme...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-05-01T07:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/obama-inauguration.html">
+	<title>«Yes, we...»</title>
+	<link>http://blog.barijaona.com/monde/obama-inauguration.html</link>
+	<description>Senator Dianne Feinstein :
+
+
+  Mijery izao tontolo izao, mahita ity demokrasia goavana miditra am-pilaminana amin'ny famindram-pahefana...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-01-21T06:39:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/Barack-premier.html">
+	<title>Kicks our asses</title>
+	<link>http://blog.barijaona.com/monde/Barack-premier.html</link>
+	<description>Les américains ont voté pour lui...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-11-06T04:45:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/insulaires.html">
+	<title>Insulaires</title>
+	<link>http://blog.barijaona.com/monde/insulaires.html</link>
+	<description>Tromelin vue du ciel - (c) Ifremer
+
+L'insularité est un des moteurs de ce blog...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-10-12T14:13:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/france-06-05-07-2.html">
+	<title>C&apos;est plié...</title>
+	<link>http://blog.barijaona.com/monde/france-06-05-07-2.html</link>
+	<description>Estimations (extrapolations à partir de dépouillements réels et non plus sondages à la sortie des urnes) autour de 54% pour le récupérateur de FN...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-05-06T19:45:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/france-06-05-07.html">
+	<title>Démonstration à tenir...</title>
+	<link>http://blog.barijaona.com/monde/france-06-05-07.html</link>
+	<description>Jonathan Littel (prix Goncourt 2006 pour son premier roman "Les Bienveillantes") : Ma famille est de tradition démocrate, je me suis toujours intéressé à la politique, mais je n'ai commencé à voter qu'en 2000, lors de la première candidature de Bush, contre lui, bien sûr...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-05-06T18:33:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/monde/france-22-04-2007-3.html">
+	<title>Il a piqué les idées...</title>
+	<link>http://blog.barijaona.com/monde/france-22-04-2007-3.html</link>
+	<description>...</description>
+    
+    <dc:subject>/monde</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-04-22T21:03:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

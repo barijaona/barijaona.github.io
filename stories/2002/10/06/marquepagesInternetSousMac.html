@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML lang="fr">
+<HEAD><LINK rel="canonical" href="http://blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html">
+<META http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<TITLE>Marque-pages Internet sous MacOS X</TITLE>
+<META name="DESCRIPTION" content="Un applescript pour sauvegarder l'adresse d'une page Internet sans la bookmarker">
+<META name="keywords" content="bookmarks, applescript, fichier, adresse, internet, location, file, web, .webloc, internet explorer, mozilla, chimera, navigator, macos x, macosx">
+<LINK href="http://blog.barijaona.com/style/barijaona.css" rel="styleSheet" type="text/css">
+<LINK href="http://blog.barijaona.com/style/theme3.css" rel="styleSheet" type="text/css">
+<LINK href="http://blog.barijaona.com/style/screenlayout.css" rel="styleSheet" media="screen" type="text/css">
+<LINK href="http://blog.barijaona.com/style/print.css" rel="stylesheet" media="print" type="text/css">
+</HEAD>
+<BODY bgcolor="white">
+<DIV class="topnav"><SPAN class="theme1">&nbsp;<A href="http://blog.barijaona.com/" class="menu" title="Les &eacute;ditoriaux" accesskey="1">Accueil</A>&nbsp;</SPAN>|<SPAN class="theme2">&nbsp;
+<A href="http://blog.barijaona.com/humour/" title="Et vous trouvez &ccedil;a dr&ocirc;le ?" class="menu">Humour</A>&nbsp;</SPAN>|<SPAN class="theme3">&nbsp;<A href="http://blog.barijaona.com/macintosh/" title="Mac Pride" class="menu">Macintosh</A>&nbsp;</SPAN>|<SPAN class="theme4">&nbsp;<A href="http://blog.barijaona.com/print66/" lang="en" title="A free printer daemon for the Macintosh" class="menu">Print66</A>&nbsp;</SPAN>|<SPAN class="theme5">&nbsp;<A href="http://blog.barijaona.com/best_of/" title="Sites Web, photos..." class="menu">S&eacute;lection</A>&nbsp;</SPAN>|<SPAN class="theme6">&nbsp;<A href="http://blog.barijaona.com/equipe/" title="Qui &eacute;crit ce machin ?" class="menu">&Eacute;diteur</A>&nbsp;</SPAN></DIV>
+<DIV class="nav1">&nbsp;<span class="submenu"><a href="http://blog.barijaona.com/" class="navigatorLink">Weblog</a></span>&nbsp;|&nbsp;<span class="submenu"><a href="http://blog.barijaona.com/stories/" class="navigatorLink">Articles</a></span></DIV>
+<DIV class="content"><H2>Marque-pages Internet sous MacOS X</H2><P></P><p>
+
+Lorsque vous utilisez intensivement l'internet, vous vous retrouvez facilement dans une des situations suivantes :
+<ul>
+	<li>en naviguant avec un navigateur donn&eacute; (par exemple Internet Explorer), vous tombez sur une page que vous voudrez plus tard revisiter avec un autre navigateur (par exemple Netscape),
+	</li>
+	<li>vous tombez sur une page que vous souhaitez conserver, mais sans la bookmarker.
+</li>
+</ul><p>
+
+L'id&eacute;e que j'ai reprise d'un <a href="http://www.blankreb.com/studioarticles.php?ID=16" title="Better Bookmarks: Create Internet Location Files from the Browser">article de Studio Log</a>, est de cr&eacute;er un script qui va r&eacute;cup&eacute;rer les informations pertinentes de la fen&ecirc;tre du navigateur, et demander au Finder de cr&eacute;er un fichier adresse web (<cite lang="en">Internet Location file</cite>) dans un dossier de mon choix.<p>
+
+Ces fichiers peuvent &ecirc;tre ouverts d'un double-clic &agrave; partir du Finder pour lancer votre navigateur par d&eacute;faut.<p>
+
+Le script permet aussi d'enregistrer un commentaire visible notamment avec la commande "<cite>Lire les informations</cite>" du Finder. Une bonne m&eacute;thode est de cr&eacute;er un dossier o&ugrave; vous allez d&eacute;poser tous vos fichiers d'adresse et de choisir une pr&eacute;sentation par liste. En utilisant la commande "Afficher les options de pr&eacute;sentation" du Finder, ne faites appara&icirc;tre que les informations Nom, Date de cr&eacute;ation et Commentaire. Les autres informations ne sont pas r&eacute;ellement int&eacute;ressantes, mais l'information Commentaire est essentielle.<p>
+
+Enregistrez ce script de mani&egrave;re &agrave; pouvoir l'ex&eacute;cuter &agrave; partir du menu Script (enregistrement sous forme de script compil&eacute; dans ~:Biblioth&egrave;que:Scripts).<p>
+
+Au premier lancement, il vous demandera d'indiquer un dossier pour stocker les fichiers d'adresse. Ce choix est &eacute;galement accessible en choisissant l'option "R&eacute;glage dossier..." dans le dialogue de s&eacute;lection du navigateur qui appara&icirc;t ensuite.<p>
+
+Le dialogue suivant vous propose le nom sous lequel le fichier sera enregistr&eacute;. Ce nom est plus parlant qu'une URL et peut &ecirc;tre &eacute;dit&eacute; &agrave; votre convenance.<p>
+
+Le dialogue suivant vous permet de saisir le commentaire au fichier qui appara&icirc;tra si vous adoptez la pr&eacute;sentation sugg&eacute;r&eacute;e ci-dessus. Cela permet de trier vos signets dans la vue par liste du Finder, et de vous souvenir pourquoi vous avez sauvegard&eacute; cette adresse.<p>
+
+Modifications apport&eacute;es au script original :
+<ul><li>contournement d'un probl&egrave;me d'&eacute;dition des noms sous Netscape/Mozilla </li>
+<li>extension du nombre de navigateurs pouvant &ecirc;tre support&eacute;s, et support de <a href="http://www.mozilla.org/projects/chimera/" title="a Cocoa browser that embeds the Gecko layout engine">Chimera</a> (n&eacute;cessite <a href="http://perso.club-internet.fr/phupe/YKIndex.html" title="Utilitaire d'automatisation gratuit">YoupiKey</a> qui va faire transiter les informations d'URL par le presse-papier) et de <a href="http://www.apple.com/safari/" title="Navigateur d'Apple">Safari</a>
+</li>
+<li>gestion d'erreur am&eacute;lior&eacute;e
+</li>
+<li>ergonomie revue et corrig&eacute;e
+</li>
+</ul><p>
+
+Une archive compl&egrave;te est disponible <a href="http://blog.barijaona.com/download/Sauvez%20l'URL.sit" title="Scripts AppleScript et YoupiKey">au t&eacute;l&eacute;chargement ici</a>, mais le source Applescript suit :
+<pre>
+(* voir <a href="http://blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html">http://blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html</a> *)
+(* original idea : StudioLog <a href="http://www.blankreb.com/studioarticles.php?ID=16">http://www.blankreb.com/studioarticles.php?ID=16</a> *)
+(* Modified by Barijaona Ramaholimihaso *)
+(* v1.1 14 jan 2003 : supports Safari, displays the URL in dialog box *)
+(* v1.0 initial version *)
+property URLFolder : ""
+property dialog_timeout : 30
+global theT
+global TheU
+global newFile<br>
+if URLFolder is "" then
+    setFolder()
+end if<br>
+doBrowser()<br>
+on setFolder()
+    set URLFolder to choose folder with prompt "Choisissez un dossier pour classer vos adresses Internet :"
+end setFolder<br>
+on doBrowser()
+    choose from list {"Chimera", "Explorer", "Mozilla", "Safari", "R&eacute;glage dossier..."} with prompt "Choisissez votre navigateur :" default items {"Safari"}
+    set bRet to result as text
+    if bRet is "R&eacute;glage dossier..." then
+        set URLFolder to ""
+        setFolder()
+        doBrowser()
+    else if bRet is "Explorer" then
+        tell application "Internet Explorer"
+            Activate
+            set theT to do script "TheT=document.title;"
+            set TheU to do script "TheU=document.URL;"
+        end tell
+    else if bRet is "Mozilla" then
+        tell application "Mozilla"
+            activate
+            set theT to name of window 1 as string
+            (* sp&eacute;cifique Mozilla : supprimer le suffixe ' - Mozilla' dans le nom de fen&ecirc;tre *)
+            set theT to (characters 1 through ((count of characters of theT) - 10) of theT) as string
+            set TheU to URL of window 1
+        end tell
+    else if bRet is "Chimera" then
+        tell application "Navigator"
+            activate
+            set theT to name of window 1 as string
+        end tell
+        tell application "Youpi Key"
+            run shortcut "Copier l'URL" of shortcutset "Navigator"
+            set TheU to the clipboard as text
+        end tell
+    else if bRet is "Safari" then
+        tell application "Safari"
+            activate
+            set theT to name of window 1 as string
+            set TheU to URL of document 1
+        end tell
+    end if
+    set theCap to ((("Sauver l'adresse de la fen&ecirc;tre :" &amp; return as text) &amp; "'" &amp; theT &amp; "'" &amp; return as text) &amp; "&lt;" &amp; TheU &amp; "&gt;" &amp; return as text) &amp; "sous le nom de fichier :"
+    display dialog theCap default answer theT with icon note giving up after dialog_timeout
+    set the new_name to text returned of the result
+    set theCap to "Ajoutez un commentaire au fichier URL :"
+    display dialog theCap default answer theT with icon note giving up after dialog_timeout
+    set the new_comment to text returned of the result
+    my makeFile(new_name, new_comment)
+    
+end doBrowser<br>
+on makeFile(new_name, new_comment)
+    
+    set theURL to TheU
+    
+    tell application "Finder"
+        make new internet location file to theURL at URLFolder
+    end tell
+    
+    set theULength to count of characters of TheU
+    set thePU to characters 8 through theULength of TheU as string
+    
+    set newFile to (URLFolder &amp; thePU &amp; ".webloc") as string
+    --    set fileInfo to info for alias newFile
+    finishFile(new_name, new_comment)
+    say "OK"
+end makeFile<br>
+on finishFile(new_name, new_comment)
+    tell application "Finder"
+        set comment of file newFile to new_comment
+        try
+            set name of file newFile to new_name
+        on error error_message number error_number
+            if (error_number is -37 or error_number is -59) then
+                set error_message to "Ce nom contient des caract&egrave;res incorrects, comme (:)."
+            else --the suggested name is too long
+                set error_message to error_message
+            end if
+            beep
+            display dialog error_message default answer new_name
+            set new_name to text returned of the result
+            my finishFile(new_name, new_comment)
+        end try
+    end tell
+end finishFile
+</pre></DIV>
+<DIV class="contentfooter">&copy; 2003 Barijaona Ramaholimihaso<BR>Derni&egrave;re mise &agrave; jour : 14/01/03; 9:47:38</DIV>
+</BODY>
+</HTML>

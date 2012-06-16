@@ -1,0 +1,44 @@
+.topnav2 { position: absolute; top : 0em ; left: 0px ; width : 100% ;border : none ; clear : both }
+.topnav { width : 100% ; border : none ; clear : both ;}
+
+.nav1 { width : 100% ; text-align : left ; vertical-align : top ; border : none ; clear : both ; }
+
+.content { width: auto; border : 0; padding : 5em 4% 1em 4% ;}
+
+.nav2 {
+/*/*/
+position: absolute; top : 8em ; left: 2px ;  width: 10em ; border : 1px solid gray ; background-color : #f3f3f3; 
+/* */
+}
+
+.topnav2 { color : #ccc }
+.contentfooter { text-align : center ;  width : 100%; border : none ; color : #ccc }
+
+.dateofday {  border-top : 1px dotted gray ;  border-bottom : 1px dotted gray ; background-color : #f3f3f3; }
+
+a:link { font-weight: bold ; color: #507070 ; } 
+a:visited { font-weight: bold ; color: #545454; } 
+a:hover { font-weight: bold ; color: teal; text-decoration: underline ;} 
+a:active { font-weight: bold ; color: aqua ; text-decoration: underline ;}
+
+.theme1 { background-color : #933 }
+.theme2 { background-color : #393 }
+.theme3 { background-color : #339 }
+.theme4 { background-color : #993 }
+.theme5 { background-color : #939 }
+.theme6 { background-color : #399 }
+
+.topnav2 a:link, .contentfooter a:link, .topnav a:link, .nav1 a:link {color:white }
+.topnav2 a:visited, .topnav a:visited, .contentfooter a:visited, .nav1 a:visited {color:white}
+.topnav2 a:hover, .contentfooter a:hover, .topnav a:hover, .nav1 a:hover {color: teal; text-decoration:underline ; background-color : #dcdcdc}
+
+.nav2 a:hover {color: teal; text-decoration:underline ; background-color : #dcdcdc}
+
+.timestamp { font-size: x-small; color : gray ;}
+.content a:hover .timestamp { color : teal; text-decoration: none ;}
+.month-calendar-day-this-day {  background-color : #DCDCDC}
+.month-calendar { font-size: xx-small}
+.month-calendar-head { font-size: x-small}
+.tableau {display: table ; table-layout: fixed ;}
+.gauche {display:table-cell ; text-align:left;}
+.droite {display:table-cell ; text-align:right;}

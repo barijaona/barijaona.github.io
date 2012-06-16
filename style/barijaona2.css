@@ -1,0 +1,78 @@
+/* apparence générale */
+body { background-color: white; font-family: Optima, 'Lucida Grande', Futura, Verdana, Tahoma, Geneva, Lucida, Helvetica, Arial, sans-serif ; }
+
+.topnav { font-family: Copperplate, "Trebuchet MS", Verdana, Helvetica, Arial, Geneva, Swiss, SunSans-Regular, sans-serif; }
+
+.topnav2 { font-family: Copperplate, "Trebuchet MS", Verdana, Helvetica, Arial, Geneva, Swiss, SunSans-Regular, sans-serif; }
+
+.nav1 { font-family: Copperplate, "Trebuchet MS", Verdana, Helvetica, Arial, Geneva, Swiss, SunSans-Regular, sans-serif; }
+
+.content { font-family: Optima, "Lucida Grande", Futura, Verdana, Tahoma, Geneva, Lucida, Helvetica, Arial, sans-serif ; line-height: 1.5}
+     
+.contentfooter { font-family:"Copperplate Light", Copperplate, "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+
+/* définition de l'apparence de certains tags HTML */
+h1 { font-family:  Copperplate, "Trebuchet MS", Verdana, Helvetica, Arial, Geneva, Swiss, SunSans-Regular, sans-serif; color: #668888 ; }
+h2 { font-family:  Copperplate, "Trebuchet MS", Verdana, Helvetica, Arial, Geneva, Swiss, SunSans-Regular, sans-serif; color: #668888 ; font-weight: normal; }
+h3 { color: #333 ;}
+kbd { color: #333; font-weight: normal; font-size: medium; font-family: "Courier New", Courier, Monaco, monospace ; }
+
+a:link {  text-decoration: none ;}
+a:visited {  text-decoration: none ; }
+
+p { text-align : justify; }
+td { border-style: none; }
+
+caption { text-align: center; font-weight: bold ; }
+blockquote {line-height: 1.1 ; border-left : thin solid gray ; padding-left : 1em ; font-size: 100%;}
+address {line-height: 1.1}
+dfn {line-height: 1.2}
+code {line-height: 1.2}
+samp {line-height: 1.2}
+kbd {line-height: 1.2}
+
+/* reproduction du comportement d'iCab et de Mozilla dans autres navigateurs */
+abbr, acronym, .help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  }
+
+/* styles spécifiques */
+.dateofday {  font-family: Optima, 'Lucida Grande', Futura, Verdana, Tahoma, Geneva, Lucida, Helvetica, Arial, sans-serif ; color: #000000; }
+
+.menu { font-size: medium; font-weight: bold ; }
+.submenu { font-size: small; font-weight: bold ;}
+.scrollmenu { font-size: small; }
+.menucnt { font-size: medium; }
+
+.navigatorLinkCurrent { font-size: small; font-weight: bold; font-style: italic;}
+.navigatorLink { font-size: small; font-weight: bold ;}
+.hCalendarDayLinked { background-color: #fcfcfc }
+
+.note { font-size: small ; font-style: italic ;}
+.searchoption { font-size: small; }
+.searchresult { font-size: medium; }
+.red {color : red ; }
+
+.content P:first-letter { font-size: 120%; }
+.content blockquote P:first-letter { font-size: 100%; }
+
+/* devrait être placé dans screenlayout.css, mais placé ici parce que voice-inherit n'existe pas pour le media screen */
+
+.contentwrapper {position: relative; width: auto; border: 0  ; background-color : transparent ; padding : 0 0 0 175px ;
+/* hack pour IE5/Win qui ne gere pas padding spécifié en em : voir http://glish.com/css/hacks.asp */
+	/* ci-apr�s les vraies valeurs */
+	/* �liminons aussi Netscape 4 */
+	/*/*/
+	voice-family: "\"}\""; voice-family:inherit;
+	padding: 0 0 0 10em;
+	/* */
+ }  
+
+/* Js-Kit Echo theme */
+.js-singleCommentBg { border:1px solid gray ; background-color:#f3f3f3;  padding-left:2%; padding-right:2%; }
+.jskit-MenuTitle, .js-CreateComment .js-kit-tab-title, .jsk-LinkFont, .jsk-ThreadWrapper a { color:#508080 !important; }
+.jskit-MenuTitle a:hover, .jsk-ThreadWrapper a:hover { font-weight:bold !important; color:#0000dd !important ; text-decoration:underline !important}
+.jsk-ThreadWrapper a:visited { font-weight:bold !important; color:#546464 !important ; text-decoration:underline !important}
+.jskit-MenuTitle a:active, .jsk-ThreadWrapper a:active { font-weight:bold ; color:aqua !important ; text-decoration:underline !important}
+

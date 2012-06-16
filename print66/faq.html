@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head><link rel="canonical" href="http://blog.barijaona.com/print66/faq.html">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Print66 Frequently Asked Questions</title>
+<base href="http://blog.barijaona.com/">
+<meta name="DESCRIPTION" content="A freeware print server for the Macintosh">
+<meta name="keywords" content="print server, macintosh, tcp/ip, lpd, lpr, rfc1179, free, freeware">
+<meta name="ICBM" content="-18.9, 47.53"> 
+<meta name="geo.region" content="MG-T"> 
+<link href="http://blog.barijaona.com/style/barijaona4.css" rel="styleSheet" type="text/css">
+<link href="http://blog.barijaona.com/style/theme4.css" rel="styleSheet" type="text/css">
+<link href="http://blog.barijaona.com/style/screenlayout4.css" rel="styleSheet" media="screen" type="text/css">
+<link href="http://blog.barijaona.com/style/print.css" rel="stylesheet" media="print" type="text/css">
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><h1>Print66 Frequently Asked Questions</h1><p><a name="top"></a></p>
+
+
+<ol>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a1">Features</a>
+<ol>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a11">Can I use Print66 to print from a Macintosh to another computer via <span class="caps">TCP</span>/IP ?</a></li>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a12">What have I to do if my machines have dynamic IP addresses ?</a></li>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a13">Can I use it to generate <span class="caps">PDF</span> files ?</a></li>
+</ol>
+</li>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a2">Troubleshooting with some printers</a> 
+<ol>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a21">How do I get the right settings for a serial printer ?</a></li>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a22">Why can't I make it work with my Apple printer ?</a></li>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a23">Why can't I print using <span class="caps">USB </span>?</a></li>
+<li><a href="http://blog.barijaona.com/print66/faq.html#a24">Why do I have Postscript errors ?</a></li>
+</ol>
+</li>
+</ol>
+
+<a name="a1"></a>
+<h2>1 Features</h2>
+
+<a name="a11"></a>
+<h3>1.1 Can I use Print66 to print from a Macintosh to another computer via <span class="caps">TCP</span>/IP ?
+</h3>
+No. I have to remind you that Print66 is a print server not a print client... Print 66 can be used to print from a remote client to a printer attached to the Macintosh, not the reverse.
+
+<p>To print via <span class="caps">TCP</span>/IP from a Mac, the only free print client on the Mac that I know is Apple's Laserwriter 8.5.1 (or later) which can handle Postscript printer (see Print66 homepage at the section "What to do on another Macintosh to set it up as a client").</p>
+
+<p>If you want to print to a non Postscript printer and you have access to an Unix or a Windows machine, you might consider setting up it as a print server, and use the Ghostscript application. I have successfully tested the <a href="http://www.cs.wisc.edu/~ghost/redmon/index.htm" title="Redirection Port Monitor"><span class="caps">REDMON</span> utility</a> in Windows environment. <a href="http://www.denver.com.au/html/downloads/downloadpcl3.htm" title="Windows Ghostscript Driver for HP compatible printers">Denver Technology's build</a> of <a href="http://home.t-online.de/home/Martin.Lottermoser/pcl3.html" title="Martin Lottermoser"><span class="caps">PCL3</span></a> may be easier to install.</p>
+
+<a name="a12"></a>
+<h3>1.2 What have I to do if my machines have dynamic IP addresses ?</h3>
+
+<p><span class="caps">TCP</span>/IP implies addressing to a machine using a <span class="caps">TCP</span>/IP numerical address. If the Mac running Print66 uses <span class="caps">DHCP</span> or <span class="caps">PPP</span> to get its <span class="caps">TCP</span>/IP parameters, its <span class="caps">TCP</span>/IP address may change from day to day, and remote hosts would have difficulties knowing to which IP address they have to send their print data.</p>
+
+<p>A similar problem applies to hosts you allow to print on your printers... You have to give fixed IP addresses or host names known by your <span class="caps">DNS</span> in the config file...</p>
+
+<p>If you have a Domain Name Server (DNS) which handles dynamic <span class="caps">DNS</span> updates, you can use machine names. I know that <a href="http://www.vicomsoft.com">Vicomsoft</a> InterGate or Internet Gateway, <a href="http://www.isc.org/products/DHCP/" title="ISC Dynamic Host Configuration Protocol"><span class="caps">ISC</span>'s <span class="caps">DHCP</span> server</a> version 3 and Windows 2000 Server have this ability but haven't tested them.</p>
+
+<p>On the Internet, you could use one of the services like <a href="http://www.dyndns.org/" title="DynDNS.org">DynDNS</a>.</p>
+
+<p>Yet, Print66 loads and resolves its config file at startup. So Print66 clients have to be correctly registered before it starts.</p>
+
+<a name="a13"></a>
+<h3>1.3 Can I use it to generate <span class="caps">PDF</span> files ?</h3>
+
+<p>This was a feature often asked for... People would like to "print" from a foreign host to a Mac running Print66, but would like to get an Adobe Acrobat <span class="caps">PDF</span> file instead of sending data to a real printer.</p>
+
+<p>Basically, this means that the data have to be sent to Acrobat Distiller or Ghostscript.</p>
+
+<p>This is how I did it :</p>
+
+
+<ul>
+<li>put a <span class="caps">NOACTION</span> line in the config, to make Print66 not print but just store the files it receives,</li>
+<li>print as you like to a Print66 queue from your remote host(s),</li>
+<li>inside the Spool Folder, select the files whose names begin with "dfA" (without quotes) and bring them to a folder watched by Acrobat Distiller or to your Ghostscript application,</li>
+<li>trash the files whose names begin with "cfA" (these are control files).</li>
+</ul>
+
+<p>I think the two last actions can be automated with AppleScript...</p>
+
+<a name="a2"></a>
+<h2>2 Troubleshooting with some printers</h2>
+
+<a name="a21"></a>
+<h3>2.1 How do I get the right settings for a serial printer ?</h3>
+
+<p>One important thing to understand is that Print66 basic job is catching print data addressed via the network, and redirect it to the serial port... There is no sophisticated management done by the application : all the formatting is performed by the remote host which must have an adequate driver.</p>
+
+<p>This explains why in your setup, you just need to provide Print66 with the adequate informations on how to "speak" to the serial port : baud speed, bit number, parity, etc... If you don't find the information in your printer's documentation, the best solution is to test with a terminal emulation software like Communicate Lite, Zterm, BlackNight or even ClarisWorks/AppleWorks.</p>
+
+
+<ol>
+<li>switch off, then on, your printer</li>
+<li>in the terminal emulation software, set the communication to 57600 bps, 8 bit data, no parity, 1 stop bit, no handshake... If your emulation software options permit it, choose Local echo (to see what you type), and Send linefeeds (for the Enter key to send Carriage Return plus Line Feed as in the PC world, opposed to just CR in the Mac world...)...</li>
+<li>open the connection, type any text you like at your keyboard, and finish by sending a form feed (FF), because some page printers (like laser printers) require this code to recognize the end of instructions related to the page to print.<br>
+(CR = carriage return = Ascii code 13 = Control-M on most terminal emulation software<br>
+<span class="caps">LF </span>= line feed = Ascii code 10 = Control-J<br>
+<span class="caps">FF </span>= form feed = Ascii code 12 = Control-L)</li>
+</ol>
+
+<p>If nothing prints at all (or if what prints does not fit what you typed), change the speed... If this still does not work, try 7 bit data, parity even, 1 stop bit, no handshake... If you find a working combination, configure Print66 with it.</p>
+
+<p>You will probably get truncated print jobs. Try adding <span class="caps">CTS</span> or <span class="caps">XON</span>/XOFF handshake. <span class="caps">CTS</span> is most often used, but with the PowerPrint serial to parallel cable, the adequate setting is <span class="caps">XON</span>/XOFF (57600/8/N/1).</p>
+
+<a name="a22"></a>
+<h3>2.2 Why can't I make it work with my Apple printer ?</h3>
+
+<p>Unfortunately, some earlier Apple printers are an illustration of the need for Cupertino at those times to reinvent the wheel... Rather than simply put an Apple logo on a standard printer, Apple chose to make specific printers which seem only able to speak QuickDraw, which has been largely ignored by the rest of the hardware world... The StyleWriter, StyleWriter Pro, StyleWriter 2200, 2400, 2500, and the LaserWriter 300/LS, even if they are all based on Canon hardware, "speak" a so specific protocol that I doubt you will ever get a PC or Linux box able to print to it...</p>
+
+<p>The following other ones could be managed by their PC-equivalent drivers (I haven't tried this, but have found the info on Ghostscript documentation and various other sources) :</p>
+
+
+<ul>
+<li>ImageWriter : C-Itoh <span class="caps">M8510</span></li>
+<li>StyleWriter 4100 : <span class="caps">HP </span>DeskWriter 660 C</li>
+<li>StyleWriter 4500 : <span class="caps">HP </span>DeskWriter 690 C</li>
+<li>StyleWriter 6500 : <span class="caps">HP </span>DeskWriter 870 Cxi (Epson LQ might work too...)</li>
+</ul>
+
+<a name="a23"></a>
+<h3>2.3 Why can't I print using <span class="caps">USB </span>?</h3>
+
+<p>Try to print a page first from a normal Mac application. On some models of Macintosh, after a cold start, it seems that you have to print something using the printer manufacturer's driver before Print66 and other applications addressing directly the <span class="caps">USB</span> port achieve to send data. It seems to be a hardware issue, as there is no problem after a warm reboot. If someone is able to give me a clue, it would be welcomed...</p>
+
+<a name="a24"></a>
+<h3>2.4 Why do I have Postscript errors ?</h3>
+
+<p>There are some well known issues with binary Postscript with Apple's <span class="caps">PAP</span> protocol. I suggest sending Postscript data from the remote host as <span class="caps">ASCII</span> rather than binary (this can be configured on the print dialog for Apple Laserwriter driver, and I think a similar setup exists on PC).</p>
+
+<p>Similarly, it is safer sending Postscript Level 1 compatible data, and enabling <span class="caps">NOACNT </span>(no accounting) in the config file.</p>
+
+<p class="right" style="text-align:right"><a href="http://blog.barijaona.com/print66/legal.html" title="Let's do it the American way...">Final word : legal warning</a></p>
+</div></div>
+<div class="topnav2">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br>
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/print66/presentation.html" class="submenu" title="Description">What is it ?</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/setup.html" class="submenu" title="How to...">Setup</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/faq.html" class="submenu" title="Read before complaining">Frequently asked questions</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/legal.html" class="submenu" title="I am not a lawyer">Legal</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilit&eacute;" accesskey="0">Accessibilité</a></div>
+</div>
+<div class="contentfooter">Dernière mise à jour : 7/2/2004 20:56:35<form method="get" action="http://search.atomz.com/search/"><span class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label></span><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s"><input type="submit" value="Rechercher"><input type="hidden" name="sp-a" value="sp1000a7cc"><input type="hidden" name="sp-f" value="utf-8"></form>&copy; 2003 <a href="http://blog.barijaona.com/equipe/cv_bjr.html" title="reactions@barijaona.com" accesskey="9">Barijaona Ramaholimihaso</a>
+</div>
+</body>
+</html>

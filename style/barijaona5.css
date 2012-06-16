@@ -1,0 +1,197 @@
+/* éliminons Netscape 4 */
+/*/*/
+
+body,html {
+	background:#e7e7e7; margin:0; padding:0;
+	font-family:Optima,"Lucida Grande",Futura,Verdana,"Bitstream Vera Sans",Tahoma,Geneva,Lucida,Helvetica,Arial,sans-serif
+}
+
+.contentfooter,.nav1,.topnav2,.topnav {
+	font-family:"Copperplate Light",Copperplate,"Trebuchet MS",Verdana,"Bitstream Vera Sans",Helvetica,Arial,Geneva,Swiss,SunSans-Regular,sans-serif
+}
+
+.content, .photo {
+	background:white ; background-color: white;
+}
+
+.content {
+	line-height:1.5
+}
+
+h2,h1 {
+	color:#688
+}
+
+h3, h3 a:link, h3 a:visited, h3 a:hover, h3 a:active {
+	color:#555 !important
+}
+
+kbd {
+	font:medium "courier new",courier,monaco,monospace normal;
+	color:#333
+}
+
+p {
+	text-align:justify
+}
+
+td {
+	border-style:none
+}
+
+/* Js-Kit Echo theme */
+.js-singleCommentBg { border:1px solid gray ; background-color:#f3f3f3;  padding-left:2%; padding-right:2%; }
+.jskit-MenuTitle, .js-CreateComment .js-kit-tab-title, .jsk-LinkFont, .jsk-ThreadWrapper a { color:#508080 !important; }
+.jskit-MenuTitle a:hover, .jsk-ThreadWrapper a:hover { font-weight:bold !important; color:#0000dd !important ; text-decoration:underline !important}
+.jsk-ThreadWrapper a:visited { font-weight:bold !important; color:#546464 !important ; text-decoration:underline !important}
+.jskit-MenuTitle a:active, .jsk-ThreadWrapper a:active { font-weight:bold ; color:aqua !important ; text-decoration:underline !important}
+
+caption {
+	text-align:center
+}
+
+caption,.menu,.submenu {
+	font-weight:bold
+}
+
+blockquote,address {
+	line-height:1.1
+}
+
+blockquote {
+	border-left:thin solid gray;
+	padding-left:1em;
+	font-size:100%
+}
+
+kbd,samp,code,dfn {
+	line-height:1.2
+}
+/* */
+
+/* reproduction du comportement d'iCab et de Mozilla dans autres navigateurs */
+/*/*/
+.help,acronym,abbr {
+	border-bottom:1px dotted #333;
+	cursor:help
+}
+
+.dateofday {
+	font-family:Optima,'Lucida Grande',Futura,Verdana,"Bitstream Vera Sans",Tahoma,Geneva,Lucida,Helvetica,Arial,sans-serif;
+	color:#000;
+	text-align:right;
+	border-top:1px dotted gray;
+	border-left:10px dotted #999;
+	font-weight:normal
+}
+
+.menu,.menucnt,.searchresult {
+	font-size:medium
+}
+
+.submenu,.scrollmenu,.note,.searchoption {
+	font-size:small
+}
+
+.note {
+	font-style:italic
+}
+
+.red {
+	color:red
+}
+
+.accent1 {
+	border-top:1px dotted #933;
+	border-left:5px outset #933;
+	text-shadow:3px 3px 0.4em #C66
+}
+
+.accent1,.accent2,.accent3,.accent4,.accent5,.accent6 {
+	padding-left:0.3em
+}
+
+.accent2 {
+	border-top:1px dotted #393;
+	border-left:5px dashed #393;
+	text-shadow:3px 3px 0.4em #6C6
+}
+
+.accent3 {
+	border-top:1px dotted #339;
+	border-left:5px solid #339;
+	text-shadow:3px 3px 0.4em #66C
+}
+
+.accent4 {
+	border-top:1px dotted #993;
+	border-left:5px dotted #993;
+	text-shadow:3px 3px 0.4em #CC6
+}
+
+.accent5 {
+	border-top:1px dotted #939;
+	border-left:5px double #939;
+	text-shadow:3px 3px 0.4em #C6C
+}
+
+.accent6 {
+	border-top:1px dotted #399;
+	border-left:5px groove #399;
+	text-shadow:3px 3px 0.4em #6CC
+}
+
+.contentwrapper {
+	background:transparent;
+	position:relative;
+	width:auto;
+	border:0;
+	padding:0 0 0 12em
+ }
+ 
+ * html .contentwrapper {
+ 	padding : 0 0 0 200px;
+ }
+
+.timestamp {
+	text-shadow:none
+}
+
+.photo {
+	border:solid 1px black;
+	padding:10px
+}
+
+.content table {
+border:3px solid #111;
+border-collapse:collapse;
+width:90%;
+margin:auto;
+}
+.content thead, .content tfoot {
+background-color:#ddd;
+border:1px solid #111;
+}
+.content tbody {
+background-color:#FFFFFF;
+border:1px solid #111;
+}
+.content th {
+border:1px dotted #111;
+padding:5px;
+background-color:#eee;
+width:25%;
+}
+.content td {
+font-family:sans-serif;
+font-size:80%;
+border:1px solid #111;
+padding:5px;
+text-align:right;
+}
+
+.MessageCell {
+border:1px solid gray ; background-color:#f3f3f3; font-size:small ; padding-left:2%; padding-right:2%; }
+
+.InputCell { font-size:small ;}
+/* */

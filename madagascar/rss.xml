@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Quai Sud, 2 minutes d'arrêt</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/protections-asiatiques.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr_recap_200902.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090216.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090211.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090209.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr7fevrier2009.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/double-messieurs.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/coup-d-etat-andry.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/madagascar/protections-asiatiques.html">
+	<title>Comment écrit-on &quot;vérifier&quot; en mandarin ?</title>
+	<link>http://blog.barijaona.com/madagascar/protections-asiatiques.html</link>
+	<description>Bon, beaucoup ont beau critiquer l'appareil photo de l'iPhone, il peut rendre service...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-03-05T22:38:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/cr_recap_200902.html">
+	<title>Bon, on en est où ?</title>
+	<link>http://blog.barijaona.com/madagascar/cr_recap_200902.html</link>
+	<description>Après onze ans d'écriture sporadique sur le Net, je suis chaque jour davantage conforté dans ma position : se cacher derrière un pseudonyme peut paraître commode, mais au final présente pas mal d'inconvénients...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-03-02T06:12:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/cr20090216.html">
+	<title>Mauvaises habitudes</title>
+	<link>http://blog.barijaona.com/madagascar/cr20090216.html</link>
+	<description>Une des règles d'or de ce blog est qu'on évite d'y parler du boulot...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-02-17T07:46:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/cr20090211.html">
+	<title>Merci...</title>
+	<link>http://blog.barijaona.com/madagascar/cr20090211.html</link>
+	<description>Les offres d'aides pour un compte FlickrPro ont été presqu'aussi nombreuses que les offres de médiateurs pour résoudre la crise politique malgache...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-02-12T07:34:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/cr20090209.html">
+	<title>Petit bilan de l'aube</title>
+	<link>http://blog.barijaona.com/madagascar/cr20090209.html</link>
+	<description>Les questions du jour : quelqu'un peut-il m'aider à identifier le monsieur au centre de la photo ...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-02-10T07:09:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/cr7fevrier2009.html">
+	<title>Goût amer</title>
+	<link>http://blog.barijaona.com/madagascar/cr7fevrier2009.html</link>
+	<description>Journaliste semi-professionnel, en ce sens que j'ai pu obtenir une accréditation d'un organe connu, mais  ne suis qu'un bénévole "intermittent du spectacle", j'ai pu bénéficier d'un point d'observation privilégié des derniers événements d'Antananarivo...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-02-09T07:02:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/double-messieurs.html">
+	<title>Double messieurs</title>
+	<link>http://blog.barijaona.com/madagascar/double-messieurs.html</link>
+	<description>Youhouuu ...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-02-06T06:43:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/madagascar/coup-d-etat-andry.html">
+	<title>Opposant systématique, moi ?</title>
+	<link>http://blog.barijaona.com/madagascar/coup-d-etat-andry.html</link>
+	<description>Bon, pour le factuel pur et dur, j'ai déjà contribué en ce qui concerne les deux camps, et les photos viennent d'être chargées sur Flickr...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-02-01T10:13:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

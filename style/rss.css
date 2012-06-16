@@ -1,0 +1,72 @@
+/* Copied from <http://www.w3.org/2000/08/w3c-synd/style.css> and hacked
+   by Eric Kidd <eric.kidd@pobox.com>. */
+
+rss, channel, item, title, description, link
+{
+  display: block;
+}
+
+rss { width: 45em; }
+
+image, language, managingEditor, webMaster, docs, copyright,
+lastBuildDate, pubDate, rating, day, hour,
+skipDays, skipHours, textinput, name, guid, source, id, subject, issued, modified, generator
+{
+  display: none;
+}
+
+title
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+}
+
+link
+{
+  text-align: center;
+  margin-left: 0em;
+  text-decoration: underline;
+  color: blue;
+}
+
+description
+{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+item
+{
+  z-index: 1;
+  border: 2px solid black; 
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+item title
+{
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-size: large;
+}
+
+item link
+{ 
+  text-align: left;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+item description
+{
+  text-align: left;
+  margin-bottom: 0em;
+}
+
+a:link {  text-decoration: none ; font-weight: bold ;  color: #507070 }
+a:visited {  text-decoration: none ; font-weight: bold ; color: #545454}
+a:hover { font-weight: bold ; color: teal; text-decoration: underline ;} 
+a:active { font-weight: bold ; color: aqua ; text-decoration: underline ;}
+

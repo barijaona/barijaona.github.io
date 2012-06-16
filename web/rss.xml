@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/navigateurs-madagascar.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/technorati.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/commentaires_ajah.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/pbie.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/web/futur-demenagement.html">
+	<title>Message de service</title>
+	<link>http://blog.barijaona.com/web/futur-demenagement.html</link>
+	<description>Pour faire bref : l'URL devient http://blog...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2011-07-14T16:35:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html">
+	<title>Du bois, il faut parfois sortir</title>
+	<link>http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html</link>
+	<description>M'enfin, vous-dites vous, qu'arrive-t-il au maître de céans ...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-03-31T07:13:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/navigateurs-madagascar.html">
+	<title>Concours de popularité</title>
+	<link>http://blog.barijaona.com/web/navigateurs-madagascar.html</link>
+	<description>Ce n'était pas forcément évident...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2009-03-05T22:39:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/technorati.html">
+	<title></title>
+	<link>http://blog.barijaona.com/web/technorati.html</link>
+	<description>
+</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-02-23T14:14:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/commentaires_ajah.html">
+	<title>En ce nouvel an, on lave plus blanc...</title>
+	<link>http://blog.barijaona.com/web/commentaires_ajah.html</link>
+	<description>C'est encore l'époque des cadeaux, donc qu'est ce qu'on pouvait bien donner en ce nouvel an à des gens situés parfois à l'autre bout de la planète ...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-01-13T00:46:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/pbie.html">
+	<title>Appel à témoins</title>
+	<link>http://blog.barijaona.com/web/pbie.html</link>
+	<description>Non, je ne recherche pas un Vico...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-10-20T08:38:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html">
+	<title>The zen of blogging, the return</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html</link>
+	<description>There is a renewed interest for Blosxom at the development mailing list...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-08-18T16:27:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html">
+	<title>Blosxom 2.0.2</title>
+	<link>http://blog.barijaona.com/web/blosxomsk/en/update20060826.html</link>
+	<description>Blosxom starter kit version 20060826:
+
+
+Updated to Blosxom 2...</description>
+    
+    <dc:subject>/web/blosxomsk/en</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-08-28T07:17:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

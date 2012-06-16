@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/itasy2010.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/ufraw-natif.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow4.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow3.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow2.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow1.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/mains.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/old_dai.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/photos/itasy2010.html">
+	<title>Pourtant que la montagne est saine...</title>
+	<link>http://blog.barijaona.com/photos/itasy2010.html</link>
+	<description>Ayant oublié les appareils photo, il ne restait plus que le téléphone qui avait heureusement le bon goût de ne pas sonner...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2010-03-29T22:22:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/ufraw-natif.html">
+	<title>Un parfum de pingouin</title>
+	<link>http://blog.barijaona.com/photos/ufraw-natif.html</link>
+	<description>[Update Jan 3rd 2009/Mise à jour 3 janvier 2009 : version 0...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-09-07T10:45:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/workflow4.html">
+	<title>Tant de photos, si peu de temps...</title>
+	<link>http://blog.barijaona.com/photos/workflow4.html</link>
+	<description>Il n'est pas besoin d'être grand clerc, à la lecture du précédent billet, pour se douter que je prends pas mal de photos ces temps-ci...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2008-07-19T22:49:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/workflow3.html">
+	<title>Les petits détails qui améliorent la vie</title>
+	<link>http://blog.barijaona.com/photos/workflow3.html</link>
+	<description>Deux petites évolutions pratico-pratiques dans le kit photo :
+
+
+les traitement de fichiers Raws sont lancés avec une priorité de traitement Unix moins importante, ce qui rend l'ordinateur plus réactif pour d'autres tâches,
+une option pour aligner la date et l'heure de modification d'un fichier sur celle de la prise de vue, telle qu'elle figure dans les données Exif a été rajoutée...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-07-22T02:52:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/workflow2.html">
+	<title>Méthode LPMM : les logiciels</title>
+	<link>http://blog.barijaona.com/photos/workflow2.html</link>
+	<description>(Téléchargement outil version française : &lt;http://homepage...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-07-09T04:10:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/workflow1.html">
+	<title>Méthode LPMM : introduction</title>
+	<link>http://blog.barijaona.com/photos/workflow1.html</link>
+	<description>C'est pour la bonne cause, Vola...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-12-17T15:30:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/mains.html">
+	<title>Où est l&apos;accessoire, où est le principal ?</title>
+	<link>http://blog.barijaona.com/photos/mains.html</link>
+	<description>Spécialement dédicacé à Tarquine, Tarquinette et Tarquinou...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-11-08T08:26:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/photos/old_dai.html">
+	<title>Fouille de placards</title>
+	<link>http://blog.barijaona.com/photos/old_dai.html</link>
+	<description>Laurent m'a incité à ressortir quelques vieilleries...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-05-13T21:42:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

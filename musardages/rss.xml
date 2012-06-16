@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="http://blog.barijaona.com">
+    <title>TZ=Indian/Antananarivo</title>
+    <link>http://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2007-08-23.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2007-07-29.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2007-01-16.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2006-12-30.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2006-11-09.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2006-07-18.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2006-04-22.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/musardages/vary2006-04-17.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="http://blog.barijaona.com/musardages/vary2007-08-23.html">
+	<title>Ça vous donne des regrets...</title>
+	<link>http://blog.barijaona.com/musardages/vary2007-08-23.html</link>
+	<description>...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-08-23T02:57:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2007-07-29.html">
+	<title>Mama Africa</title>
+	<link>http://blog.barijaona.com/musardages/vary2007-07-29.html</link>
+	<description>
+Ce week-end, Jogany s'est pliée en quatre...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-07-29T09:49:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2007-01-16.html">
+	<title>Étranges animaux de l'île et leurs boissons</title>
+	<link>http://blog.barijaona.com/musardages/vary2007-01-16.html</link>
+	<description>
+Ordre des blogueurs : selon Global Voices, ils se caractérisent par leur grégarité...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2007-01-16T18:45:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2006-12-30.html">
+	<title>Statistiques</title>
+	<link>http://blog.barijaona.com/musardages/vary2006-12-30.html</link>
+	<description>
+Un migrant sur six meurt en tentant de gagner les îles Canaries...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-12-30T05:21:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2006-11-09.html">
+	<title>Spécial santé</title>
+	<link>http://blog.barijaona.com/musardages/vary2006-11-09.html</link>
+	<description>Vous savez comment c'est, on commence en se posant une ou deux questions, et on finira par acheter l'encyclopédie médicale en vingt volumes...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-11-09T07:02:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2006-07-18.html">
+	<title>H... et F...</title>
+	<link>http://blog.barijaona.com/musardages/vary2006-07-18.html</link>
+	<description>H...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-07-18T04:52:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2006-04-22.html">
+	<title>Quels moustiques nous piquent ?</title>
+	<link>http://blog.barijaona.com/musardages/vary2006-04-22.html</link>
+	<description>Enervé que les médias ne parlent que du chikungunya ...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-04-25T06:16:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/musardages/vary2006-04-17.html">
+	<title>Modes et travaux</title>
+	<link>http://blog.barijaona.com/musardages/vary2006-04-17.html</link>
+	<description>Après avoir lu les difficultés de Greg Knauss à adopter le style de Jason Kottke, je me suis dit que faute de temps pour des analyses d'expérience, commettre un billet de références conviendrait...</description>
+    
+    <dc:subject>/musardages</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2006-04-17T23:06:00+03:00</dc:date>
+    
+  </item>
+
+</rdf:RDF>

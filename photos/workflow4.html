@@ -1,0 +1,814 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head><link rel="canonical" href="http://blog.barijaona.com/photos/workflow4.html">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<title>Tant de photos, si peu de temps... : Quai Sud, 2 minutes d'arrêt</title>
+<meta name="DESCRIPTION" content="Une petite sélection arbitraire" />
+<meta name="keywords" content="macintosh, print66, geek, madagascar, malgache, madagasikara, malagasy, barijaona, ramaholimihaso, blog" />
+<meta name="ICBM" content="-18.9079, 47.5333" /> 
+<meta name="geo.region" content="MG-T" /> 
+
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona5.css" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme5.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout5.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
+<link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
+<link rel="prev" href="http://blog.barijaona.com/equipe/evenements/andy-naissance.html" title="Bien au contraire, plein de vie..." />
+<link rel="next" href="http://blog.barijaona.com/photos/ufraw-natif.html" title="Un parfum de pingouin" /><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-598147-1";
+urchinTracker();
+</script>
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><h1>Quai Sud, 2 minutes d'arrêt</h1><em>Ahanements d'octets austraux</em><br /><br /><h2 class="dateofday"><a name="0719"></a>samedi 19 juillet 2008</h2>
+<div class="post"><div class="post-full"><h3 class="accent5"><span class="timestamp"><a href="http://blog.barijaona.com/photos/workflow4.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;22:49&nbsp;]</a></span>&nbsp;Tant de photos, si peu de temps...</h3><p>Il n'est pas besoin d'être grand clerc, à la lecture du <a href="http://blog.barijaona.com/equipe/evenements/andy-naissance.html" title="Naissance de Andy">précédent billet</a>, pour se douter que je prends pas mal de photos ces temps-ci.</p>
+
+<p>Toutes ne sont pas très bonnes, mais les moments capturés étant rares, je jette très peu. Euh, peut-être aussi que je suis un peu trop vaniteux, et que je me dis que n'importe quel cliché pris pourra un jour avoir un réel intérêt...</p>
+
+<p>Ceci m'a obligé à affiner <a href="http://blog.barijaona.com/photos/workflow2.html" title="Méthode LPMM : les logiciels">mon flux de traitement</a> des fichiers RAWs. D'autant qu'un malheur (vol) étant arrivé au Fuji E900, <a href="http://www.cuk.ch/articles/3833" title="Cuk.ch : Nikon D60: un petit appareil qui mérite le détour.">un article m'a fait céder aux charmes du Nikon D60</a>. Et avec cet appareil, aucune raison valable de ne pas utiliser systématiquement le mode Raw : contrairement à la plupart des compacts, cet appareil ne souffre d'aucun ralentissement lorsqu'il travaille en raw.</p>
+
+<p>Par contre, vous savez sans doute ce que c'est... Lorsqu'on a plus de plaisir à faire une chose, on le fait plus, donc les volumes augmentent... Bref, il est nécessaire d'être bien organisé.</p>
+
+<p>Le menu contextuel qui apparaît dans le Finder a donc légèrement évolué :</p>
+
+<p><img src="http://blog.barijaona.com/photos/workflow4-menu.jpg" alt="Menu contextuel sous MacOS X" title="9 commandes sous Automator" width="627" height="216" /></p>
+
+<p>Le coeur du traitement demeure le traitement des fichiers Raws, qui fait désormais apparaître un dialogue permettant de choisir quelques options de traitement pour le lot concerné.</p>
+
+<p><img src="http://blog.barijaona.com/photos/workflow4-dialog.jpg" alt="Dialogue de Develop" title="Options de traitement" width="481" height="181" /></p>
+
+<p>Sous le capot, pas mal d'astuces et de découvertes ont été incorporées. L'objectif reste toujours de traiter rapidement et sans avoir à se poser de grandes questions métaphysiques un grand nombre de fichiers RAW, tout en assurant une qualité standard tout à fait comparable à celle de logiciels commerciaux.</p>
+
+<p>Ce traitement standard laisse cependant la possibilité de retravailler des fichiers pleine résolution, et ce sans perdre la richesse d'information contenue dans le fichier RAW.</p>
+
+<p>Pour utiliser ce petit outil que je trouve ma foi fort pratique, on peut le télécharger à &lt;<a href="http://blog.barijaona.com/download/LPMM-photokit.zip" title="Archive ZIP 760 Ko">http://blog.barijaona.com/download/LPMM-photokit.zip</a>&gt;</p>
+
+<p>Le tout est livré sous licence libre BSD. Les "intégristes" de l'open source pourront supprimer la partie créant un fichier DNG qui fait appel à Adobe DNG Converter (en mode ligne de commande), et qui ne me sert en fait que très rarement, et les non Macqueux n'ont que faire des appels à la commande sips.</p>
+
+<p>Pour ceux qui sont intéressés par les détails, c'est après le saut.</p>
+
+<p></p><a name="more"></a><hr class="seemore" /><p></p>
+
+<p>Le logiciel a bénéficié principalement d'une correction de (grosse) bug, une amélioration du traitement des hautes lumières, et une meilleure prise en compte des besoins effectifs quotidiens.</p>
+
+<h4>Aïe, aïe, aïe, on écrit parfois de ces bêtises...</h4>
+
+<p>Le développement de base des fichiers raw se fait avec dcraw (actuellement en version 8.86).</p>
+
+<p>La version précédente de dcraw que j'utilisais ne gérait pas explicitement les profils colorimétriques, aussi pensais-je qu'il n'appliquait aucun profil aux fichiers qu'il produisait lorsque je lui demandais une sortie en 16 bits (option <code>-4</code>).</p>
+
+<p>Funeste pensée. Après m'être embrouillé entre les sorties au format PPM, au format TIFF, et avoir essayé avec différents appareils photos, j'ai finalement compris...</p>
+
+<p>dcraw applique bien un profil colorimétrique à ses sorties ; cependant en mode 16 bits, les profils appliqués ont un <a href="http://fr.wikipedia.org/wiki/Correction_gamma" title="Définition sur Wikipedia">gamma</a> de 1, et ne sont absolument pas à confondre avec leurs homonymes qu'on rencontre un peu partout ailleurs et qui sont en général à un gamma 2,2, ou parfois 1,8.</p>
+
+<p>Ayant compris cela, j'ai choisi de travailler en profil Prophoto (en version Gamma 1, donc), qui est un profil suffisamment large pour couvrir les capacités de la plupart des appareils existants...</p>
+
+<p>Il faudra cependant savoir rester prudent si l'on fait des retouches intensives, car le spectre potentiellement couvert dépassera probablement celui de son écran de travail, et on a un petit risque de "créer" des couleurs dont on ne peut pas se rendre compte du rendu réel à l'écran... </p>
+
+<h4>dcraw, on croit commencer à le connaître, mais...</h4>
+
+<p>Pour je ne sais plus quelle raison, j'avais demandé précédemment à dcraw de traiter le RGB en 4 couleurs (option <code>-f</code>). Sans me rendre compte que cela forçait l'interpolation VNG, alors que par ailleurs je souhaitait l'interpolation AHD... Ah, ces logiciels en ligne de commande, il faut parfois activer leurs options de déboguage pour tout vérifier et tout comprendre...</p>
+
+<p>Bref, on laisse désormais dcraw choisir lui-même l'interpolation qui lui paraît la meilleure : à en croire la documentation, l'AHD est sélectionné dans la plupart des cas, sauf pour les Fuji qui préfèrent le PNG.</p>
+
+<p>Même en cherchant à simplifier, en informatique le dépouillement n'est jamais qu'apparent... Pour le traitement des hautes lumières, j'ai découvert les vertus de l'option <code>-H 2</code>. Grâce à des coefficients multiplicateurs des canaux RGB inférieurs à 1, cette option évite de perdre des informations dans les hautes lumières, tout en empêchant les blancs "purs" de prendre une teinte rose ou violette. Résultat : des transitions parfois plus naturelles entre les différents niveaux de hautes lumières.</p>
+
+<p>Par contre, la tonalité générale de l'image "brute de raw" est encore plus sombre qu'avec l'option par défaut (<code>-H 0</code>), donc il faudra en tenir compte dans les traitements suivants.</p>
+
+<h4>A part le tirage 30x40...</h4>
+
+<p>2, 3, 5, 7... Tout le monde nous disait que la course aux mégapixels allait s'arrêter. En fait, elle ralentit à peine.</p>
+
+<p>Apparemment condamnés par le marketing à bouffer toujours plus de pixels, nous finissons par être obligés de nous demander quoi en faire.</p>
+
+<p>Certes, en garder toujours un peu "sous la pédale", ce n'est pas désagréable. Mais force est de constater qu'aller au delà de 2 millions de pixels est rarement utile... Une telle résolution suffit pour un tirage 13x18cm, qui est le maximum que l'on retrouve dans la plupart des albums de famille.</p>
+
+<p>Donc, sauf besoin spécifique, on peut se contenter de demander à dcraw la demi-résolution. Le logiciel peut ainsi combiner simplement 4 pixels monochromes en un pixel RGB, sans avoir à faire une délicate interpolation de la matrice de Bayer : le gain en vitesse est conséquent, et cela garantit des couleurs justes et moins bruitées.</p>
+
+<p>Avec le Nikon D60, cette option <code>-h</code> fournit des fichiers de 2,5 millions de pixels : 1950x1307, c'est plus qu'il n'en faut en mode plein écran sur un écran de 27 pouces (que je n'ai pas)... Le jour où je serai possesseur d'un écran Apple Cinema HD de 30 pouces (2560x1600 pixels quand même, soit 4 mégapixels, mais aussi 1800 dollars...), on rediscutera peut-être du besoin de manipuler de plus gros fichiers...</p>
+
+<h4>Contraste, en toute subtilité...</h4>
+
+<p>En présentant <a href="http://blog.barijaona.com/photos/workflow2.html" title="Méthode LPMM : les logiciels">la version précédente</a>, j'avais dit mon affection pour le <a href="http://www.volkergilbertphoto.com/contraste.htm" title="Gilbert Volker : l'amélioration du contraste local à l'aide de la commande &quot;accentuation&quot;">rehaussement du contraste local</a> qui permet de retrouver l'acutance du film. Mais j'avais aussi fait part de mes difficultés à mettre en oeuvre cette technique.</p>
+
+<p>L'option <code>-unsharp</code> d'ImageMagick semblait bien trop lente avec les valeurs élevées de rayon nécessaires pour cette technique, et j'avais dû rechercher un succédané... Succédané qui sur le long terme aller se révéler moyennement satisfaisant.</p>
+
+<p>Je me suis donc retrouvé à chercher à nouveau si on pouvait contourner cette lenteur d'<code>-unsharp</code>.</p>
+
+<p>En fait, ImageMagick souffre principalement de deux choses dans ce type de traitement : <a href="http://osdir.com/ml/video.image-magick.devel/2004-04/msg00033.html" title="Re: very slow operation with big convolve radius" hreflang="en">sa rigueur mathématique, et une matrice de convolution qui peut prendre des proportions énormes</a>. </p>
+
+<p>Expliquons nous. Pour ce type d'opération, ImageMagick demande deux paramètres : un rayon (<i>radius</i>), et un écart-type (<i>sigma</i>). La <a href="http://www.imagemagick.org/Usage/convolve/#neighbourhood" title="ImageMagick v6 Examples : Convolving" hreflang="en">documentation</a> précise qu'il est recommandé d'avoir un rayon supérieur à l'écart-type, et même que le mieux est d'indiquer la valeur 0 pour le rayon afin de laisser le logiciel choisir lui-même le rayon en fonction de l'écart-type.</p>
+
+<p>Parfait. Sauf qu'en opérant ainsi, une grande valeur d'écart-type entraîne une "monstrueuse" valeur de rayon. Si un écart-type de 1 entraîne un rayon de 3, un écart-type de 20 aboutit à un rayon de 151...</p>
+
+<p>Pour m'éviter d'avoir à arborer une barbe blanche avant de montrer mes photos, j'ai choisi de brider les ambitions du logiciel en le restreignant à un rayon égal à 1,2 fois la valeur de l'écart-type... C'est peut-être une aberration mathématique (on s'éloigne de la belle et académique courbe de Gauss), mais honnêtement, je ne perçois pas la différence visuelle sur les photos...</p>
+
+<p>Mais voilà encore un autre problème... Vous souvenez vous que je travaille avec des fichiers sans correction de gamma (gamma = 1) ? Cela assure en général une meilleure stabilité des couleurs lors des différents traitements... Sauf que dans le cas présent (rayon et sigma élevés), ça se traduit surtout par l'apparition de fort disgracieuses franges sombres, qui n'ont absolument rien de naturel...</p>
+
+<p>Seule solution : passer temporairement dans un espace colorimétrique ayant une correction de gamma adaptée à l'oeil, avant d'appliquer le masque de flou, puis revenir en gamma 1 pour refusionner harmonieusement l'image accentuée et l'image originelle.</p>
+
+<p>Le résultat attendu (une amélioration subtile de la netteté apparente de l'image) est enfin au rendez vous.</p>
+
+<h4>Contraste, comme un éléphant...</h4>
+
+<p>Le contraste local, c'est efficace et subtil, mais ça ne compense pas la différence de souplesse entre notre oeil et un capteur numérique. Ce n'est d'ailleurs pas fait pour ça...</p>
+
+<p>Compte tenu des possibilités limitées du matériel, je suis en général amené, pour se rapprocher de ma perception, à privilégier le contraste dans les tons moyens, et pour cela à sacrifier celui dans les tons sombres et clairs. C'est ce que l'on fait en appliquant une courbe en S. Et ma foi, en général, ça suffit bien.</p>
+
+<p>Mais il est parfois des cas où, au contraire, la partie intéressante ne se trouve pas vraiment dans les tons moyens, mais plutôt dans les ombres (ou plus rarement dans les hautes lumières), ce qui implique de travailler avec une courbe différente.</p>
+
+<p>Par exemple, depuis la version CS, Photoshop offre un outil assez pratique pour ce type de situations, la commande "Tons foncés/Tons clairs...". Je dois admettre qu'on peut arriver à des résultats assez heureux, en général en précisant un rayon assez élevé (de l'ordre de 100 pixels), et en ayant la patte assez légère (sous peine de voir apparaître des transitions désagréables, caractéristiques de l'amplification de "marches d'escalier" dans les niveaux de lumière).</p>
+
+<p>Mais malheureusement, on reste dans le cas par cas : je n'ai pas identifié un réglage "sans grand risque" que l'on puisse appliquer à toute une série d'images. Un contrôle visuel interactif pour chaque image reste quasi-obligatoire, donc cela va à l'encontre de mon objectif de productivité...</p>
+
+<p>Pour faire du tout venant, j'ai trouvé une méthode que l'on pourrait qualifier de <i lang="en">tone-mapping</i> de <i lang="en">pseudo-HDR</i>.</p>
+
+<p>Pseudo, en ce sens qu'au lieu de travailler à partir de plusieurs images exposées différemment pour étendre effectivement la dynamique de la capture, on utilise plusieurs versions du même fichier RAW : impossible donc de prétendre trouver plus d'informations que ce que notre capteur est capable d'enregistrer en une seule fois.</p>
+
+<p><i lang="en">Tone-mapping</i>, parce qu'on recompose trois versions : une sous-exposée, une moyennement exposée et une surexposée, pour revenir à une image de dynamique "moyenne".</p>
+
+<p>Et là encore, pseudo, parce que pour privilégier la lisibilité générale de l'image, j'"exagère" le contraste de la version à exposition moyenne, ce qui m'éloigne du rendu HDR habituel et me ramène à un rendu plus classique.</p>
+
+<p>Bref, la cuisine est tout à fait bizarre, mais les plats produits sont assez comestibles lorsqu'il s'agit de déboucher des ombres ou plus rarement de rendre plus lisible des hautes lumières quasi-brulées.</p>
+
+<p>Et cela rend également bien lorsque des options propriétaires comme le "D-Lighting actif" entraînent une image sous-exposée avec la plupart des logiciels.</p>
+
+<h4>Vous pouvez sûrement améliorer tout cela...</h4>
+
+<p>Si je fais de l'open source, c'est (aussi) dans l'espoir que quelqu'un m'apportera la contradiction.</p>
+
+<p>L'installation est relativement simple ; quitte à donner l'impression de me répéter, je vous encourage à le faire. Le plus délicat sera sans doute d'installer les pré-requis, mais il ne sera pas nécessaire de les compiler :</p>
+
+<ul>
+<li><a href="http://cybercom.net/~dcoffin/dcraw/" title="Dave Coffin : Decoding raw digital photos in Linux" hreflang="en">dcraw</a> : le couteau suisse du décodage RAW se trouve en versions précompilées pour MacOSX et Windows <a href="http://www.insflug.org/raw/" title="Digital Darkroom corner" hreflang="en">chez Francisco Montilla</a>. Pour ma part, j'ai installé ma version dans <code>/usr/local/bin/</code>.</li>
+<li>Imagemagick, dont on trouvera des <a href="http://www.imagemagick.org/script/binary-releases.php" title="ImageMagick : Install from Binary Distribution" hreflang="en">versions prêtes à installer pour pas mal d'OS ici</a>. Dans mon installation sous MacOSX, j'ai créé un lien symbolique pour ne plus avoir à me soucier du numéro de version dans la suite des événements : <code>sudo ln -s  /usr/local/ImageMagick-6.4.0 /usr/local/ImageMagick</code> (en supposant que l'on en soit à la version 6.4.0).</li>
+<li><a href="http://www.sno.phy.queensu.ca/~phil/exiftool/" title="ExifTool by Phil Harvey" hreflang="en">exiftool</a> qui existe en version prête à installer sous MacOSX et Windows.</li>
+</ul>
+
+<p>Le coeur de mon usine à gaz personnelle est un simple script, facile à modifier, et qui sous MacOSX (10.4 minimum), est directement accessible dans le fichier ~/Library/Automator/Develop.action/Contents/Resources/main.command. Le code source est aussi inclus dans l'archive disponible au téléchargement, et un portage sous Linux devrait être assez trivial.</p>
+
+<p>Vous pouvez par exemple ajouter le support d'autres appareils photos gérés par dcraw que ceux que j'ai eu la chance de rencontrer. Il vous faudra trouver la valeur de saturation du capteur, en lisant ce qu'affiche <code>dcraw -v fichier.raw</code> ou, plus finement, en observant les valeurs correspondant à la luminosité maximum affichées par <code>dcraw -c -D -4 -j fichier.raw | identify -verbose -</code>&nbsp;.</p>
+
+<p>Vous aurez vraisemblablement envie de tester d'autres options que les miennes pour certains réglages. N'hésitez surtout pas à bidouiller. Dans tous les cas, faites moi savoir le résultat de vos recherches !</p>
+
+<p>Pour ceux qui ont la flemme de télécharger, voici le contenu du script :</p>
+
+<div>
+<span class="code_default">
+
+<span class="p_commentline">#!/usr/bin/env&nbsp;sh</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_commentline">#&nbsp;main.command</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;Develop</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;Created&nbsp;by&nbsp;Barijaona&nbsp;Ramaholimihaso&nbsp;on&nbsp;20/06/08.</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_commentline">#&nbsp;Copyright&nbsp;(c)&nbsp;2007-2008,&nbsp;Barijaona&nbsp;Ramaholimihaso&nbsp;&lt;photokit@barijaona.com&gt;</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_commentline">#&nbsp;All&nbsp;rights&nbsp;reserved.</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;Redistribution&nbsp;and&nbsp;use&nbsp;in&nbsp;source&nbsp;and&nbsp;binary&nbsp;forms,&nbsp;with&nbsp;or&nbsp;without&nbsp;modification,</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;are&nbsp;permitted&nbsp;provided&nbsp;that&nbsp;the&nbsp;following&nbsp;conditions&nbsp;are&nbsp;met:</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Redistributions&nbsp;of&nbsp;source&nbsp;code&nbsp;must&nbsp;retain&nbsp;the&nbsp;above&nbsp;copyright&nbsp;notice,</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this&nbsp;list&nbsp;of&nbsp;conditions&nbsp;and&nbsp;the&nbsp;following&nbsp;disclaimer.</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Redistributions&nbsp;in&nbsp;binary&nbsp;form&nbsp;must&nbsp;reproduce&nbsp;the&nbsp;above&nbsp;copyright&nbsp;notice,</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this&nbsp;list&nbsp;of&nbsp;conditions&nbsp;and&nbsp;the&nbsp;following&nbsp;disclaimer&nbsp;in&nbsp;the&nbsp;documentation</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and/or&nbsp;other&nbsp;materials&nbsp;provided&nbsp;with&nbsp;the&nbsp;distribution.</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither&nbsp;the&nbsp;name&nbsp;of&nbsp;Barijaona&nbsp;Ramaholimihaso&nbsp;nor&nbsp;the&nbsp;names&nbsp;of&nbsp;its&nbsp;contributors</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;endorse&nbsp;or&nbsp;promote&nbsp;products&nbsp;derived&nbsp;from&nbsp;this&nbsp;software</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;without&nbsp;specific&nbsp;prior&nbsp;written&nbsp;permission.</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_commentline">#&nbsp;Environment&nbsp;variables&nbsp;used</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;$rotation&nbsp;:&nbsp;input&nbsp;variable</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;:&nbsp;rotate&nbsp;the&nbsp;picture&nbsp;90°&nbsp;left&nbsp;;&nbsp;1&nbsp;:&nbsp;don't&nbsp;rotate&nbsp;;&nbsp;2&nbsp;:&nbsp;rotate&nbsp;90°&nbsp;right</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;$hires&nbsp;:&nbsp;input&nbsp;variable</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;:&nbsp;create&nbsp;half-size&nbsp;JPEG&nbsp;;&nbsp;1&nbsp;:&nbsp;create&nbsp;full-size&nbsp;PNG&nbsp;(in&nbsp;folder&nbsp;"hires")</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;$relight&nbsp;:&nbsp;input&nbsp;variable</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;:&nbsp;apply&nbsp;a&nbsp;simple&nbsp;contrast&nbsp;curve&nbsp;;&nbsp;1&nbsp;:&nbsp;create&nbsp;a&nbsp;large&nbsp;dynamic&nbsp;range&nbsp;image&nbsp;(pseudo&nbsp;HDR)</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_identifier">PATH</span><span class="p_operator">=/</span><span class="p_identifier">usr</span><span class="p_operator">/</span><span class="p_identifier">local</span><span class="p_operator">/</span><span class="p_identifier">bin</span><span class="p_operator">:/</span><span class="p_identifier">usr</span><span class="p_operator">/</span><span class="p_identifier">local</span><span class="p_operator">/</span><span class="p_identifier">ImageMagick</span><span class="p_operator">/</span><span class="p_identifier">bin</span><span class="p_operator">:/</span><span class="p_identifier">bin</span><span class="p_operator">:/</span><span class="p_identifier">sbin</span><span class="p_operator">:/</span><span class="p_identifier">usr</span><span class="p_operator">/</span><span class="p_identifier">bin</span><span class="p_operator">:/</span><span class="p_identifier">usr</span><span class="p_operator">/</span><span class="p_identifier">sbin</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">export</span><span class="p_default">&nbsp;</span><span class="p_identifier">PATH</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_commentline">#&nbsp;Uncomment&nbsp;the&nbsp;following&nbsp;for&nbsp;debugging</span><span class="p_default">
+<br/>
+</span><span class="p_commentline">#&nbsp;set&nbsp;-xv</span><span class="p_default">
+<br/>
+</span><span class="p_word">exec</span><span class="p_default">&nbsp;</span><span class="p_number">2</span><span class="p_operator">&gt;/</span><span class="p_identifier">dev</span><span class="p_operator">/</span><span class="p_identifier">console</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">IFS</span><span class="p_operator">=</span><span class="p_stringeol">'
+<br/>
+'
+<br/>
+</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">export</span><span class="p_default">&nbsp;</span><span class="p_identifier">MAGICK_HOME</span><span class="p_operator">=</span><span class="p_string">"/usr/local/ImageMagick"</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">export</span><span class="p_default">&nbsp;</span><span class="p_identifier">DYLD_LIBRARY_PATH</span><span class="p_operator">=</span><span class="p_string">"$MAGICK_HOME/lib"</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_identifier">versionscript</span><span class="p_operator">=</span><span class="p_character">'dcraw&nbsp;'</span><span class="p_operator">`</span><span class="p_identifier">dcraw</span><span class="p_default">&nbsp;</span><span class="p_number">2</span><span class="p_operator">&gt;&amp;</span><span class="p_number">1</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">grep</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">i</span><span class="p_default">&nbsp;\</span><span class="p_stringeol">"dcraw\"&nbsp;|&nbsp;awk&nbsp;'{print&nbsp;$NF&nbsp;}'`'/BJR&nbsp;script&nbsp;v20080727'
+<br/>
+</span><span class="p_default">
+<br/>
+</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">relight</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">eq</span><span class="p_default">&nbsp;</span><span class="p_number">1</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">versionscript</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_identifier">versionscript</span><span class="p_character">'&nbsp;-&nbsp;Relight'</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_identifier">case</span><span class="p_default">&nbsp;</span><span class="p_string">"$rotation"</span><span class="p_default">&nbsp;</span><span class="p_word">in</span><span class="p_default">
+<br/>
+</span><span class="p_number">0</span><span class="p_operator">)</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_identifier">rotcommand</span><span class="p_operator">=</span><span class="p_string">"-rotate&nbsp;-90"</span><span class="p_default">&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+</span><span class="p_number">1</span><span class="p_operator">)</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_identifier">rotcommand</span><span class="p_operator">=</span><span class="p_string">""</span><span class="p_default">&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+</span><span class="p_number">2</span><span class="p_operator">)</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_identifier">rotcommand</span><span class="p_operator">=</span><span class="p_string">"-rotate&nbsp;90"</span><span class="p_default">&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">esac</span><span class="p_default">
+<br/>
+
+<br/>
+</span><span class="p_word">while</span><span class="p_default">&nbsp;</span><span class="p_identifier">read</span><span class="p_default">&nbsp;</span><span class="p_identifier">i</span><span class="p_default">
+<br/>
+</span><span class="p_identifier">do</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">cd</span><span class="p_default">&nbsp;</span><span class="p_string">"`dirname&nbsp;"</span><span class="p_default">$</span><span class="p_identifier">i</span><span class="p_string">"`"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">dirlastname</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">pwd</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">awk</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">F</span><span class="p_default">&nbsp;</span><span class="p_operator">/</span><span class="p_default">&nbsp;</span><span class="p_character">'{print&nbsp;$NF&nbsp;}'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;</span><span class="p_string">"$dirlastname"</span><span class="p_default">&nbsp;</span><span class="p_operator">==</span><span class="p_default">&nbsp;</span><span class="p_character">'raws'</span><span class="p_default">&nbsp;</span><span class="p_operator">];</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">cd</span><span class="p_default">&nbsp;</span><span class="p_operator">..</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;</span><span class="p_operator">!</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">d</span><span class="p_default">&nbsp;</span><span class="p_identifier">raws</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">mkdir</span><span class="p_default">&nbsp;</span><span class="p_identifier">raws</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">hires</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">eq</span><span class="p_default">&nbsp;</span><span class="p_number">1</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">&amp;&amp;</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;</span><span class="p_operator">!</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">d</span><span class="p_default">&nbsp;</span><span class="p_identifier">hires</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">mkdir</span><span class="p_default">&nbsp;</span><span class="p_identifier">hires</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;Camera&nbsp;specific&nbsp;settings</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;rawfileext&nbsp;=&nbsp;raw&nbsp;files&nbsp;extension&nbsp;(NEF,&nbsp;CR2,&nbsp;RAF...)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;nrintensity&nbsp;=&nbsp;noise&nbsp;reduction&nbsp;intensity</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;isomaxisharpen&nbsp;=&nbsp;ISO&nbsp;value&nbsp;above&nbsp;which&nbsp;we&nbsp;will</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not&nbsp;try&nbsp;to&nbsp;sharpen&nbsp;(too&nbsp;much&nbsp;noise)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;we&nbsp;will&nbsp;blur&nbsp;colors&nbsp;informations</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;noiseunder&nbsp;=&nbsp;brightness&nbsp;value&nbsp;under&nbsp;which&nbsp;we&nbsp;will&nbsp;blur&nbsp;colors&nbsp;informations</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(portion&nbsp;of&nbsp;saturation&nbsp;for&nbsp;100&nbsp;ISO)&nbsp;</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">cameramodel</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">exiftool</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">s</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">Model</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">awk</span><span class="p_default">&nbsp;</span><span class="p_character">'{print&nbsp;$3"-"$4&nbsp;}'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">case</span><span class="p_default">&nbsp;$</span><span class="p_identifier">cameramodel</span><span class="p_default">&nbsp;</span><span class="p_word">in</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_character">'FinePix-E900'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rawfileext</span><span class="p_operator">=</span><span class="p_string">".RAF"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">saturation</span><span class="p_operator">=</span><span class="p_number">15872</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nrintensity</span><span class="p_operator">=</span><span class="p_number">75</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">isomaxisharpen</span><span class="p_operator">=</span><span class="p_number">400</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noiseunder</span><span class="p_operator">=</span><span class="p_number">0.258</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_character">'NIKON-D60'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rawfileext</span><span class="p_operator">=</span><span class="p_string">".NEF"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">saturation</span><span class="p_operator">=</span><span class="p_number">4095</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nrintensity</span><span class="p_operator">=</span><span class="p_number">12.5</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">isomaxisharpen</span><span class="p_operator">=</span><span class="p_number">1600</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noiseunder</span><span class="p_operator">=</span><span class="p_number">0.06</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_character">'NIKON-D70'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rawfileext</span><span class="p_operator">=</span><span class="p_string">".NEF"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">saturation</span><span class="p_operator">=</span><span class="p_number">4095</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nrintensity</span><span class="p_operator">=</span><span class="p_number">12.5</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">isomaxisharpen</span><span class="p_operator">=</span><span class="p_number">1600</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noiseunder</span><span class="p_operator">=</span><span class="p_number">0.06</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_character">'NIKON-D200'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rawfileext</span><span class="p_operator">=</span><span class="p_string">".NEF"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">saturation</span><span class="p_operator">=</span><span class="p_number">4095</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nrintensity</span><span class="p_operator">=</span><span class="p_number">12.5</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">isomaxisharpen</span><span class="p_operator">=</span><span class="p_number">1600</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noiseunder</span><span class="p_operator">=</span><span class="p_number">0.06</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">;;</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_character">'DMC-FZ18-'</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rawfileext</span><span class="p_operator">=</span><span class="p_string">".RAW"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">saturation</span><span class="p_operator">=</span><span class="p_number">3967</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nrintensity</span><span class="p_operator">=</span><span class="p_number">75</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">isomaxisharpen</span><span class="p_operator">=</span><span class="p_number">400</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noiseunder</span><span class="p_operator">=</span><span class="p_number">0.258</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">esac</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">name</span><span class="p_operator">=`</span><span class="p_identifier">basename</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_string">"$rawfileext"</span><span class="p_operator">`</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;Develop&nbsp;with&nbsp;dcraw&nbsp;;&nbsp;assign&nbsp;a&nbsp;linear&nbsp;profile</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;get&nbsp;ISO&nbsp;value</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">iso</span><span class="p_operator">=`</span><span class="p_identifier">exiftool</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">ISO</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">awk</span><span class="p_default">&nbsp;</span><span class="p_character">'{print&nbsp;$NF&nbsp;}'</span><span class="p_operator">`</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noisethold</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"scale=0&nbsp;;&nbsp;$nrintensity*$iso/100"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">noisethold</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">ge</span><span class="p_default">&nbsp;</span><span class="p_number">400</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">noisethold</span><span class="p_default">&nbsp;</span><span class="p_operator">=</span><span class="p_default">&nbsp;</span><span class="p_number">400</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">hires</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">eq</span><span class="p_default">&nbsp;</span><span class="p_number">1</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">dcraw</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">c</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;$</span><span class="p_identifier">noisethold</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_number">4</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">w</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">H</span><span class="p_default">&nbsp;</span><span class="p_number">2</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">o</span><span class="p_default">&nbsp;</span><span class="p_number">4</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_default">&nbsp;$</span><span class="p_identifier">rotcommand</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">profile</span><span class="p_default">&nbsp;</span><span class="p_operator">~/</span><span class="p_identifier">Library</span><span class="p_operator">/</span><span class="p_identifier">ColorSync</span><span class="p_operator">/</span><span class="p_identifier">Profiles</span><span class="p_operator">/</span><span class="p_identifier">DCRAWGamma1ProPhoto</span><span class="p_operator">.</span><span class="p_identifier">icc</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">else</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">dcraw</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">c</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;$</span><span class="p_identifier">noisethold</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">h</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_number">4</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">w</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">H</span><span class="p_default">&nbsp;</span><span class="p_number">2</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">o</span><span class="p_default">&nbsp;</span><span class="p_number">4</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_default">&nbsp;$</span><span class="p_identifier">rotcommand</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">profile</span><span class="p_default">&nbsp;</span><span class="p_operator">~/</span><span class="p_identifier">Library</span><span class="p_operator">/</span><span class="p_identifier">ColorSync</span><span class="p_operator">/</span><span class="p_identifier">Profiles</span><span class="p_operator">/</span><span class="p_identifier">DCRAWGamma1ProPhoto</span><span class="p_operator">.</span><span class="p_identifier">icc</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;Apply&nbsp;local&nbsp;contrast.</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;We&nbsp;use&nbsp;Imagemagick's&nbsp;unsharp&nbsp;option</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;We&nbsp;switch&nbsp;temporarily&nbsp;to&nbsp;a&nbsp;Gamma&nbsp;2.2&nbsp;Profile</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;which&nbsp;is&nbsp;closer&nbsp;to&nbsp;human&nbsp;eye&nbsp;response</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;Sigma&nbsp;is&nbsp;around&nbsp;50&nbsp;for&nbsp;a&nbsp;10&nbsp;megapixels&nbsp;picture</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;For&nbsp;speed&nbsp;reasons&nbsp;(kernel&nbsp;size),&nbsp;we&nbsp;fix&nbsp;radius&nbsp;to&nbsp;sigma*1.2</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;(instead&nbsp;of&nbsp;letting&nbsp;Imagemagick&nbsp;determine&nbsp;it&nbsp;itself)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;To&nbsp;avoid&nbsp;noise,&nbsp;threshold&nbsp;is&nbsp;equivalent&nbsp;to&nbsp;Photoshop's&nbsp;2</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">sigma</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"e(0.5*l($(identify&nbsp;-format&nbsp;%w*%h&nbsp;"</span><span class="p_operator">/</span><span class="p_identifier">tmp</span><span class="p_operator">/</span><span class="p_default">$</span><span class="p_identifier">name</span><span class="p_operator">.</span><span class="p_identifier">mpc</span><span class="p_string">")))/65"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">l</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">radius</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"scale=0&nbsp;;&nbsp;$sigma*1.2/1"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">profile</span><span class="p_default">&nbsp;</span><span class="p_operator">~/</span><span class="p_identifier">Library</span><span class="p_operator">/</span><span class="p_identifier">ColorSync</span><span class="p_operator">/</span><span class="p_identifier">Profiles</span><span class="p_operator">/</span><span class="p_identifier">ProPhoto</span><span class="p_operator">.</span><span class="p_identifier">icm</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">RGBA</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">unsharp</span><span class="p_default">&nbsp;</span><span class="p_string">"$radius"</span><span class="p_identifier">x</span><span class="p_default">$</span><span class="p_identifier">sigma</span><span class="p_operator">+</span><span class="p_number">1</span><span class="p_operator">+</span><span class="p_number">0.0079</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">profile</span><span class="p_default">&nbsp;</span><span class="p_operator">~/</span><span class="p_identifier">Library</span><span class="p_operator">/</span><span class="p_identifier">ColorSync</span><span class="p_operator">/</span><span class="p_identifier">Profiles</span><span class="p_operator">/</span><span class="p_identifier">DCRAWGamma1ProPhoto</span><span class="p_operator">.</span><span class="p_identifier">icc</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/cont-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;equivalent&nbsp;to&nbsp;20%&nbsp;sharpening&nbsp;</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">blend</span><span class="p_default">&nbsp;</span><span class="p_number">20</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/cont-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">&nbsp;
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">pivot</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"scale=9&nbsp;;&nbsp;$saturation/1983"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">relight</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">eq</span><span class="p_default">&nbsp;</span><span class="p_number">0</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">RGBA</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">resize</span><span class="p_default">&nbsp;</span><span class="p_string">"160x160&gt;"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">colorspace</span><span class="p_default">&nbsp;</span><span class="p_identifier">HSL</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">Blue</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">separate</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/thumb-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;indication&nbsp;of&nbsp;general&nbsp;contrast</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">stddev</span><span class="p_operator">=`</span><span class="p_identifier">identify</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">verbose</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">colorspace</span><span class="p_default">&nbsp;</span><span class="p_identifier">Gray</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/thumb-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">grep</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">i</span><span class="p_default">&nbsp;</span><span class="p_string">"Standard&nbsp;deviation"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">awk</span><span class="p_default">&nbsp;</span><span class="p_character">'{print&nbsp;$3}'</span><span class="p_operator">`</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">stddev</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"&nbsp;scale=0&nbsp;;&nbsp;&nbsp;$stddev/100"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">pivot</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"scale=9&nbsp;;&nbsp;$saturation/1983"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;apply&nbsp;an&nbsp;S-Curve&nbsp;;&nbsp;intensity&nbsp;is&nbsp;chosen&nbsp;to&nbsp;avoid&nbsp;burning&nbsp;highlights</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">stddev</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">le</span><span class="p_default">&nbsp;</span><span class="p_number">100</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">sigma</span><span class="p_operator">=</span><span class="p_string">"6x$pivot%"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">else</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">sigma</span><span class="p_operator">=</span><span class="p_string">"5x$pivot%"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">sigmoidal</span><span class="p_operator">-</span><span class="p_identifier">contrast</span><span class="p_default">&nbsp;$</span><span class="p_identifier">sigma</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">contrast</span><span class="p_operator">-</span><span class="p_identifier">stretch</span><span class="p_default">&nbsp;</span><span class="p_number">0.01x99.999</span><span class="p_operator">%</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;cleanup</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rm</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">f</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/thumb-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/thumb-$name.cache"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">else</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;if&nbsp;user&nbsp;has&nbsp;asked&nbsp;for&nbsp;relighting&nbsp;of&nbsp;dark&nbsp;areas,&nbsp;apply&nbsp;a&nbsp;HDR&nbsp;technique</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;Peter&nbsp;Gawthrop&nbsp;script&nbsp;at&nbsp;<a href="http://wiki.panotools.org/Contrast_Blending">http://wiki.panotools.org/Contrast_Blending</a></span><span class="p_default">
+<br/>
+
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">sigmoidal</span><span class="p_operator">-</span><span class="p_identifier">contrast</span><span class="p_default">&nbsp;</span><span class="p_number">8x</span><span class="p_default">$</span><span class="p_identifier">pivot</span><span class="p_operator">%</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">contrast</span><span class="p_operator">-</span><span class="p_identifier">stretch</span><span class="p_default">&nbsp;</span><span class="p_number">0.01x99.999</span><span class="p_operator">%</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">sigmoidal</span><span class="p_operator">-</span><span class="p_identifier">contrast</span><span class="p_default">&nbsp;</span><span class="p_number">15x0</span><span class="p_operator">%</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">contrast</span><span class="p_operator">-</span><span class="p_identifier">stretch</span><span class="p_default">&nbsp;</span><span class="p_number">0.01x99.999</span><span class="p_operator">%</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/clear-$name.mpc"</span><span class="p_default">
+<br/>
+
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">type</span><span class="p_default">&nbsp;</span><span class="p_identifier">Grayscale</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mask-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">compose</span><span class="p_default">&nbsp;</span><span class="p_identifier">CopyOpacity</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mask-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_string">"/tmp/under_masked-$name.mpc"</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">compose</span><span class="p_default">&nbsp;</span><span class="p_identifier">Darken</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/under_masked-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/composite-$name.mpc"</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/clear-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">negate</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">type</span><span class="p_default">&nbsp;</span><span class="p_identifier">Grayscale</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mask-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">compose</span><span class="p_default">&nbsp;</span><span class="p_identifier">CopyOpacity</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mask-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/clear-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/over_masked-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">compose</span><span class="p_default">&nbsp;</span><span class="p_identifier">Lighten</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/over_masked-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/composite-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;cleanup</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rm</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">f</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/clear-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/clear-$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/mask-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mask-$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/under_masked-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/under_masked-$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/composite-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/composite-$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/over_masked-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/over_masked-$name.cache"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">hires</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">eq</span><span class="p_default">&nbsp;</span><span class="p_number">1</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;apply&nbsp;low&nbsp;radius&nbsp;sharpening&nbsp;if&nbsp;noise&nbsp;is&nbsp;reasonable</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;$</span><span class="p_identifier">iso</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">le</span><span class="p_default">&nbsp;$</span><span class="p_identifier">isomaxisharpen</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;selective&nbsp;("smart")&nbsp;sharpening</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span><span class="p_operator">(</span><span class="p_default">&nbsp;</span><span class="p_operator">+</span><span class="p_identifier">clone</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">RGBA</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">unsharp</span><span class="p_default">&nbsp;</span><span class="p_number">0x1</span><span class="p_operator">+</span><span class="p_number">2</span><span class="p_operator">+</span><span class="p_number">0</span><span class="p_default">&nbsp;\</span><span class="p_operator">)</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span><span class="p_operator">(</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">clone</span><span class="p_default">&nbsp;</span><span class="p_number">0</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">edge</span><span class="p_default">&nbsp;</span><span class="p_number">5</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">colorspace</span><span class="p_default">&nbsp;</span><span class="p_identifier">GRAY</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">level</span><span class="p_default">&nbsp;</span><span class="p_number">20</span><span class="p_operator">%,</span><span class="p_number">95</span><span class="p_operator">%</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">blur</span><span class="p_default">&nbsp;</span><span class="p_number">0x1</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">level</span><span class="p_default">&nbsp;</span><span class="p_number">10</span><span class="p_operator">%,</span><span class="p_number">95</span><span class="p_operator">%</span><span class="p_default">&nbsp;\</span><span class="p_operator">)</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;general&nbsp;sharpening</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">mogrify</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">RGBA</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">unsharp</span><span class="p_default">&nbsp;</span><span class="p_number">0x0.7</span><span class="p_operator">+</span><span class="p_number">0.7</span><span class="p_operator">+</span><span class="p_number">0</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">else</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;reduce&nbsp;color&nbsp;noise&nbsp;for&nbsp;dark&nbsp;areas&nbsp;(more&nbsp;for&nbsp;high&nbsp;ISOs)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">step</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_operator">(</span><span class="p_identifier">echo</span><span class="p_default">&nbsp;</span><span class="p_string">"scale=9&nbsp;;&nbsp;$iso*$noiseunder*saturation/100"</span><span class="p_default">&nbsp;</span><span class="p_operator">|</span><span class="p_default">&nbsp;</span><span class="p_identifier">bc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">q</span><span class="p_operator">)</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span><span class="p_operator">(</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">despeckle</span><span class="p_default">&nbsp;\</span><span class="p_operator">)</span><span class="p_default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span><span class="p_operator">(</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">clone</span><span class="p_default">&nbsp;</span><span class="p_number">0</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">RGBA</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">blur</span><span class="p_default">&nbsp;</span><span class="p_number">0x3</span><span class="p_default">&nbsp;\</span><span class="p_operator">)</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</span><span class="p_operator">(</span><span class="p_default">&nbsp;</span><span class="p_operator">+</span><span class="p_identifier">clone</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">white</span><span class="p_operator">-</span><span class="p_identifier">threshold</span><span class="p_default">&nbsp;$</span><span class="p_identifier">step</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">negate</span><span class="p_default">&nbsp;\</span><span class="p_operator">)</span><span class="p_default">&nbsp;\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">compose</span><span class="p_default">&nbsp;</span><span class="p_identifier">Colorize</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">composite</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">outputdir</span><span class="p_operator">=</span><span class="p_string">"hires/"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">outputextension</span><span class="p_operator">=</span><span class="p_string">"png"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">else</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">outputdir</span><span class="p_operator">=</span><span class="p_string">""</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">outputextension</span><span class="p_operator">=</span><span class="p_string">"jpg"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">nice</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">n</span><span class="p_default">&nbsp;</span><span class="p_number">16</span><span class="p_default">&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">channel</span><span class="p_default">&nbsp;</span><span class="p_identifier">RGBA</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">unsharp</span><span class="p_default">&nbsp;</span><span class="p_number">0x0.3</span><span class="p_operator">+</span><span class="p_number">1.5</span><span class="p_operator">+</span><span class="p_number">0</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">profile</span><span class="p_default">&nbsp;</span><span class="p_operator">/</span><span class="p_identifier">System</span><span class="p_operator">/</span><span class="p_identifier">Library</span><span class="p_operator">/</span><span class="p_identifier">ColorSync</span><span class="p_operator">/</span><span class="p_identifier">Profiles</span><span class="p_operator">/</span><span class="p_identifier">sRGB</span><span class="p_default">\&nbsp;</span><span class="p_identifier">Profile</span><span class="p_operator">.</span><span class="p_identifier">icc</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">quality</span><span class="p_default">&nbsp;</span><span class="p_number">95</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;update&nbsp;Exif&nbsp;infos</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">exiftool</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">Orientation</span><span class="p_operator">=</span><span class="p_default">&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">TagsFromFile</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">x</span><span class="p_default">&nbsp;</span><span class="p_identifier">Orientation</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">x</span><span class="p_default">&nbsp;</span><span class="p_identifier">ThumbnailImage</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">x</span><span class="p_default">&nbsp;</span><span class="p_identifier">PreviewImage</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">Software</span><span class="p_operator">=</span><span class="p_string">"$versionscript"</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">convert</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">resize</span><span class="p_default">&nbsp;</span><span class="p_string">"160x160&gt;"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">profile</span><span class="p_default">&nbsp;</span><span class="p_operator">/</span><span class="p_identifier">System</span><span class="p_operator">/</span><span class="p_identifier">Library</span><span class="p_operator">/</span><span class="p_identifier">ColorSync</span><span class="p_operator">/</span><span class="p_identifier">Profiles</span><span class="p_operator">/</span><span class="p_identifier">sRGB</span><span class="p_default">\&nbsp;</span><span class="p_identifier">Profile</span><span class="p_operator">.</span><span class="p_identifier">icc</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">strip</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">format</span><span class="p_default">&nbsp;</span><span class="p_identifier">JPG</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">compress</span><span class="p_default">&nbsp;</span><span class="p_identifier">JPEG</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/thumb-$name.jpg"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">exiftool</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">thumbnailimage</span><span class="p_character">'&lt;='</span><span class="p_string">"/tmp/thumb-$name.jpg"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;correct&nbsp;ISO&nbsp;value&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;in&nbsp;the&nbsp;standard&nbsp;exif:iso&nbsp;tag</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">exiftool</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">exif</span><span class="p_operator">:</span><span class="p_identifier">iso</span><span class="p_operator">=</span><span class="p_default">$</span><span class="p_identifier">iso</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_character">'not&nbsp;$exif:iso'</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rm</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">f</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_identifier">_original</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;create&nbsp;a&nbsp;MacOS&nbsp;preview</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">sips</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">i</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;same&nbsp;change&nbsp;date&nbsp;as&nbsp;our&nbsp;Raw&nbsp;file</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">touch</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">r</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_string">"$outputdir$name.$outputextension"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rm</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">f</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/cont-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/cont-$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/mid-$name.mpc"</span><span class="p_default">&nbsp;</span><span class="p_string">"/tmp/mid-$name.cache"</span><span class="p_default">\
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_string">"/tmp/thumb-$name.jpg"</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;move&nbsp;our&nbsp;raw&nbsp;file&nbsp;in&nbsp;'raws'&nbsp;folder</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_word">if</span><span class="p_default">&nbsp;</span><span class="p_operator">[</span><span class="p_default">&nbsp;</span><span class="p_string">"$dirlastname"</span><span class="p_default">&nbsp;</span><span class="p_operator">!=</span><span class="p_default">&nbsp;</span><span class="p_character">'raws'</span><span class="p_default">&nbsp;</span><span class="p_operator">]</span><span class="p_default">&nbsp;</span><span class="p_operator">;</span><span class="p_default">&nbsp;</span><span class="p_identifier">then</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">mv</span><span class="p_default">&nbsp;</span><span class="p_string">"$i"</span><span class="p_default">&nbsp;</span><span class="p_identifier">raws</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">fi</span><span class="p_default">
+<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_commentline">#&nbsp;cleanup</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="p_identifier">rm</span><span class="p_default">&nbsp;</span><span class="p_operator">-</span><span class="p_identifier">f</span><span class="p_default">&nbsp;</span><span class="p_identifier">cache</span><span class="p_operator">:-</span><span class="p_default">
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+</span><span class="p_identifier">done</span><span class="p_default">
+<br/>
+
+<br/>
+
+<br/>
+</span><span class="p_identifier">exit</span><span class="p_default">&nbsp;</span><span class="p_number">0</span>
+</span>
+</div>
+
+<p>Questions et commentaires également bienvenues.</p>
+</div><div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 20/7/2008 05:25</span><br /><script type="text/javascript"><!--
+document.write("<div class=\"js-kit-comments timestamp\" uniq=\"200807192249\" domain=\"blog.barijaona.com\"></div>");
+//-->
+</script>
+<noscript>
+<a href="http://js-kit.com/html/blog.barijaona.com/200807192249" title="Commentaires des lecteurs">[Commentaire(s)]</a>
+</noscript></div><div id="HSd200807192249"></div></div><br />
+
+
+<br /><em>Billet classé dans la catégorie :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/photos/index.html">Photos</a>&nbsp;&gt;&nbsp;Workflow4
+<br /><br /></div></div>
+
+<div class="nav2">
+<div class="box"><form method="get" action="http://search.atomz.com/search/"><div class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s" /></div><div><input type="submit" value="Rechercher" /></div><p><input type="hidden" name="sp-a" value="sp1000a7cc" /></p><p><input type="hidden" name="sp-f" value="utf-8" /></p></form>
+<br />
+<span class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</span><br /></div>
+
+</div>
+
+<div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/equipe/evenements/andy-naissance.html" title="billet du 27 juin 2008">&lt;-&nbsp;Bien au contraire, plein de vie...</a></div><div class="droite"><a href="http://blog.barijaona.com/photos/ufraw-natif.html" title="billet du 7 septembre 2008">Un parfum de pingouin&nbsp;-&gt;</a></div></div>
+
+<div class="contentfooter">
+<br />
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2008 Barijaona Ramaholimihaso<br />Réagissez par les liens de commentaires ou par courriel : <a title="reactions" rel="barijaona.com" onclick="this.href='mailto:'+this.getAttribute('title')+'@'+this.getAttribute('rel')">reactions (arobace) barijaona.com</a>
+</div>
+
+<div class="topnav">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br />
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" class="submenu" title="Sites préférés">Hotlist</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/musardages/" class="submenu" title="Collectionnite">Musardages</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/photos/" class="submenu" title="Quelques photos...">Photos</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/musique/" class="submenu" title="Oreille défaillante">Musique</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div>
+<iframe name="RSIFrame" style="width:0px; height:0px; border: 0px"></iframe><script type="text/javascript" src="http://blog.barijaona.com/style/pphlogger.js"></script>
+<noscript><p><img alt="" src="http://www.sabbatnet.com/pphlogger/pphlogger.php?id=barijaona&amp;st=img" width="1" height="1" /></p></noscript>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript"><!--
+_uacct = "UA-598147-1";
+urchinTracker();
+//-->
+</script>
+<script type="text/javascript"><!--
+function JSKitCommentsCountFilter(N)
+{
+    if (!N) return '[R&eacute;agir]';
+	if (N == 1){ return '[1 r&eacute;action]';}
+	else { return '[' + N + ' r&eacute;actions]';}
+}
+//-->
+</script>
+<noscript></noscript>
+<script src="http://js-kit.com/for/blog.barijaona.com/comments.js" type="text/javascript"></script>
+<noscript></noscript>
+</body>
+</html>

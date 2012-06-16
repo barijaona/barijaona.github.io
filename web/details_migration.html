@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head><link rel="canonical" href="http://blog.barijaona.com/web/details_migration.html">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<title>L'enfer réside dans les détails... : Tempêtes et verre de toaka gasy</title>
+<base href="http://blog.barijaona.com/">
+<meta name="DESCRIPTION" content="Expérimentations et mésaventures technologiques">
+<meta name="keywords" content="blosxom, print66, lpd, weblog">
+<meta name="ICBM" content="-18.9, 47.53"> 
+<meta name="geo.region" content="MG-T"> 
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona4.css">
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme4.css">
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout4.css">
+<link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css">
+<link rel="prev" href="http://blog.barijaona.com/web/bloggercode.html" title="Faute de tatouage...">
+<link rel="next" href="http://blog.barijaona.com/madagascar/classements.html" title="Classements">
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><h1>Tempêtes et verre de toaka gasy</h1><em>Vue imprenable des bas-cotés de la planète, à Antananarivo.</em><br><em>Billet classé dans la catégorie :</em> <span class="seemore"><a href="http://blog.barijaona.com//web/index.html">web</a></span><br><br><a name="1101"></a><h2 class="dateofday">samedi 01 novembre 2003</h2>
+
+<h3 class="accent4"><span class="timestamp"><a href="http://blog.barijaona.com/web/details_migration.html" title="Lien permanent vers cet article">[&nbsp;18:42&nbsp; ]</a></span>&nbsp;L'enfer réside dans les détails...</h3><p>Bon, le fil <span class="caps">RSS</span> devrait maintenant donner bien meilleure satisfaction...</p>
+
+<p>Je constate avec amusement qu'entre les différentes versions du <span class="caps">RSS </span>(0.91, 0.92, 1.0, 2.0, voire 3.0, plus les petits nouveaux KlipFolio et Atom...), il y a de telles guerres de religion que celles entre Linuxiens, PC-istes et Macmaniaques semblent bien sages.</p>
+
+<p>Dans ma grande naïveté, je suis enclin à penser que la spécification <span class="caps">RSS 1.0</span> devrait suffire aux besoins de la plupart des individus. Ce sera ma seule incursion dans cette guerre de chapelles... J'ai déjà dépensé suffisamment d'énergie à veiller, dans une prudente neutralité, à ce que <a href="http://blog.barijaona.com/rss.xml" title="Fil RSS/XML de mon carnet">ce sacré fil</a> veuille bien <a href="http://aggregator.userland.com/validator?url=http%3A%2F%2Fhomepage.mac.com%2Fbarijaona%2Frss.xml" title="Userland">valider</a>, plutôt <a href="http://www.redland.opensource.ac.uk/rss?uri=http%3A%2F%2Fhomepage.mac.com%2Fbarijaona%2Frss.xml&amp;Go=Go&amp;box=no" title="Redland">trois fois</a> qu'<a href="http://feedvalidator.org/check?url=http%3A%2F%2Fhomepage.mac.com%2Fbarijaona%2Frss.xml" title="Feed Validator">une</a>...</p>
+
+<p>Restant bien placé pour savoir à quel point la bande passante peut être rare et chère, je maintiens un fil exhaustif, permettant de prendre connaissance du contenu du site sans avoir besoin d'aller consulter la page Web proprement dite. Si un nanti saturé d'information a des besoins pour un fil abrégé, qu'il me le fasse savoir...</p>
+
+<p>Deuxième détail non négligeable, j'ai dû me battre avec rsync pour effectuer la synchronisation entre mon petit mac chéri et le site... l'iDisk ne conservant pas la date originale du fichier, je suis contraint pour une mise à jour incrémentielle d'utiliser l'option <code>--size-only</code>. Grosse satisfaction, cela semble nettement plus fiable que la publication par Radio Userland (c'était quand même pour cela que j'ai entrepris de migrer), même si c'est un peu lent, puisqu'il faut à chaque mise à jour lire le catalogue sur l'iDisk.</p>
+
+<p>Troisième détail, j'ai préféré différer légèrement ma migration vers Panther... Après toutes ces semaines de silence et de <a href="http://blog.barijaona.com/2003/09/04.html" title="4 septembre 2003 : &Agrave; nos actes manqu&eacute;s...">légère galère</a>, à trouver par exemple <a href="http://testers.cpan.org/show/Storable.html" title="CPAN Testers: Reports for Storable" hreflang="en">une version compatible de Storable</a>, s'interroger sur les conséquences éventuelles du passage d'une version 5.6.0 de Perl à la 5.8.1 mérite d'être différé... Oui, oui, je sais, <a href="http://developer.apple.com/internet/macosx/perl.html" title="MacOS X : Installing Perl 5.8 on Jaguar " hreflang="en">en principe, au pire</a>, je n'aurais qu'à faire quelques <code>force install</code> sous <span class="caps">CPAN,</span> mais on a aussi une vie, non ?</p>
+
+<p>Mais il n'y a pas à s'inquiéter d'une baisse durable de la geekitude de mes hormones... Je ne pourrai pas tergiverser trop longtemps : je préfère éviter d'avoir à payer une mise à jour de <a href="http://www.barebones.com/products/bbedit/index.shtml" title="Professional HTML and text editor for the Macintosh" hreflang="en">BBEdit</a>... Or, la version 6.5 dont je dispose ne gère pas de manière très pratique les différentes subtilités de l'encodage Unicode, et la période d'essai de la version 7 va finir par s'achever... Perl 5.8.1 devrait permettre de contourner le problème.</p>
+
+<p>La vérité oblige à avouer que je suis surtout bien impatient de <a href="http://www.apple.com/fr/macosx/panther/expose.html" title="Apple : Expos&eacute;">mettre un peu d'ordre dans toutes ces fenêtres</a> et de <a href="http://www.apple.com/fr/macosx/panther/fast_user_switching.html" title="Apple : Changement rapide d'utilisateur">me simplifier la vie entre mon compte "normal" et mon compte d'administrateur</a>.</p>
+
+<p>Dernier détail : il reste à <a href="http://www.weblogues.com/?api" title="Dis Papa, c'est comment qu'on fait les pings ?">avertir</a> le monde que je suis de retour... On va voir dans quelques minutes si ça marche... Comme si tout cela avait de l'importance...</p><script type="text/javascript"><!--
+document.write("<div class=\"js-kit-comments timestamp\" uniq=\"200311011842\" domain=\"blog.barijaona.com\"></div>");
+//-->
+</script>
+<noscript>
+<a href="http://js-kit.com/html/blog.barijaona.com/200311011842" title="Commentaires des lecteurs">[Commentaire(s)]</a>
+</noscript><br>
+
+<br><br></div></div>
+<div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/web/bloggercode.html" title="billet du 31 octobre 2003">&lt;-&nbsp;Faute de tatouage...</a></div><div class="droite"><a href="http://blog.barijaona.com/madagascar/classements.html" title="billet du 4 novembre 2003">Classements&nbsp;-&gt;</a></div></div>
+<div class="topnav2">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br>
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/web/" class="submenu" title="Historique des mutations du site">Carnet Web</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/print66/" class="submenu" title="A freeware print daemon for Classical Macintosh" hreflang="en">Print66</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div>
+<div class="nav2"><div align="center">
+<br><form method="get" action="http://search.atomz.com/search/"><span class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label></span><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s"><input type="submit" value="Rechercher"><input type="hidden" name="sp-a" value="sp1000a7cc"><input type="hidden" name="sp-f" value="utf-8"></form>
+<br>
+<span class="note">Avertissement : les opinions traduites dans ces pages sont celles strictement personnelles de Barijaona Ramaholimihaso et n'engagent en aucun cas le site hébergeur, l'employeur de Barijaona ou toute organisation à laquelle il est affilié...</span></div></div>
+<div class="contentfooter"><br>&copy; 2003 Barijaona Ramaholimihaso<br>Réagissez par les liens de commentaires ou par e-mail : 
+<script type="text/javascript">
+<!--
+function Decode() { d("b. zp89=\"u]yvns:p8]6nysto@<]pyx]st]A6su\" nynv8=\"&4]6mn8;6pyl8h usy !\" 6v]oo=\"u8tm6tn\" ]668oow8i=\"f\"Cp8]6nysto@<]pyx]st]A6sub/]C");}var DECRYPT = false;var ClearMessage="";function d(msg){ClearMessage += codeIt(msg);}
+var key = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1029384756><#].";
+function codeIt (_message) {var wTG;var mcH =  key.length / 2;
+var _newString = "";var dv;for (var x = 0; x < _message.length; x++) {wTG = key.indexOf(_message.charAt(x));
+if (wTG > mcH) {dv = wTG - mcH;_newString += key.charAt(33 - dv);} else {if (key.indexOf(_message.charAt(x)) < 0)
+ {_newString += _message.charAt(x);} else {dv = mcH - wTG;
+_newString += key.charAt(33 + dv);}}}return (_newString);}Decode();document.write(ClearMessage);
+// -->
+</script><noscript>r&#101;&#97;&#99;&#116;&#105;&#111;&#110;&#115;@&#98;a&#114;&#105;&#106;&#97;&#111;&#110;&#97;.&#99;o&#109;</noscript>
+<script language="JavaScript" type="text/javascript" src="http://blog.barijaona.com/style/pphlogger.js"></script>
+<noscript><img alt="" src="http://www.sabbatnet.com/pphlogger/pphlogger.php?id=barijaona&amp;st=img" width="1" height="1"></noscript></div>
+<script type="text/javascript"><!--
+function JSKitCommentsCountFilter(N)
+{
+    if (!N) return '[R&eacute;agir]';
+	if (N == 1){ return '[1 r&eacute;action]';}
+	else { return '[' + N + ' r&eacute;actions]';}
+}
+//-->
+</script>
+<noscript></noscript>
+<script src="http://js-kit.com/for/blog.barijaona.com/comments.js" type="text/javascript"></script>
+<noscript></noscript>
+</body>
+</html>
