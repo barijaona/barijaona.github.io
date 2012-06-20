@@ -10,9 +10,9 @@
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'barijaona-blog';
     arg=document.location.href.slice(document.location.href.search(/\?/)+1);
-    disqus_identifier=arg.match(/id=[^&]+/);
+    disqus_identifier=arg.match(/id=[^&#]+/);
     if(disqus_identifier) {disqus_identifier=disqus_identifier[0].slice(3);};
-    disqus_url=arg.match(/p\=[^&]+/);
+    disqus_url=arg.match(/p\=[^&#]+/);
     if(disqus_url) {disqus_url=disqus_url[0].slice(2);}
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
