@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="
-<?xml-stylesheet href="
-<?xml-stylesheet href="
-<?xml-stylesheet href="http://blog.barijaona.com/style/atom.css" type="text/css"?>" type="text/css"?>" type="text/css"?>" type="text/css"?>
+<?xml-stylesheet href="http://blog.barijaona.com/style/atom.css" type="text/css"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://barijaona.com"
 >
   <title type="text">Étonnements rapides et durables</title>
@@ -19,7 +16,7 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2011-10-09T20:55:00Z</updated>
+  <updated>2012-06-01T19:50:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2011:/plusperso/jobs</id>
@@ -27,7 +24,7 @@
 
     <title type="text">Se faire de la bile</title>
     <published>2011-10-09T20:51:00Z</published>
-    <updated>2011-10-09T20:55:00Z</updated>
+    <updated>2012-06-01T19:49:00Z</updated>
     <category term="/plusperso"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -47,7 +44,7 @@
 
 <p>L'autre décès bien plus médiatisé est celui de Steve Jobs. Un survivant particulièrement conscient du caractère rarissime de sa situation et qui en avait retiré une leçon très forte.</p>
 
-<iframe frameborder="0" width="450" height="337" src="http://www.dailymotion.com/embed/video/x5m47b"></iframe>
+<iframe style="border:0" width="450" height="337" src="http://www.dailymotion.com/embed/video/x5m47b"></iframe>
 
 <p><br /><a href="http://www.dailymotion.com/video/x5m47b_vostfr-steve-jobs-stanford-commenc_news" target="_blank">[VOSTFR] Discours de Steve Jobs devant les étudiants de Stanford en 2005</a> recueilli par <a href="http://www.dailymotion.com/Cladouros">Cladouros</a>.</p>
 
@@ -78,16 +75,16 @@
 
     <title type="text">Steve Jobs, 1955-2011</title>
     <published>2011-10-06T02:15:00Z</published>
-    <updated>2011-10-06T02:19:00Z</updated>
+    <updated>2012-06-01T19:50:00Z</updated>
     <category term="/monde"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
       <uri>http://blog.barijaona.com</uri>
       <email>reactions@barijaona.com</email>
     </author>
-    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
-&lt;p&gt;&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/dX9GTUMh490?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://blog.barijaona.com/monde/rip_steve.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><iframe width="420" height="315" src="http://www.youtube.com/embed/dX9GTUMh490?rel=0"  style="border:0"></iframe>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/rip_steve.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

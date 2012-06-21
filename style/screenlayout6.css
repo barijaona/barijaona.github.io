@@ -1,0 +1,223 @@
+/*/*/
+
+.topnav { position:absolute; top:0em ; left:0px ; width:100% ;border:none ; clear:both }
+
+.nav1 { width:100% ; text-align:left ; vertical-align:top ; border:none ; clear:both }
+
+.content { max-width:35em ; border:0; padding:3em 4% 1em 4% ; margin:2em 0 0 0}
+
+.nav2 { position:absolute; top:10ex ; left:2px ;  width:13em ; text-align:center ; font-size:small ;}
+
+.box, #friendfeed-badge { position:relative; top:2ex; padding:0.5em ; margin-top: 1em; border:1px solid gray ; background-color:#f3f3f3; text-align:left;}
+
+#friendfeed-badge ul {margin-left: 0; padding-left:8px ; }
+
+#friendfeed-badge ul ul {list-style-type:none ; font-style:italic ; }
+
+.topnav { color:#ccc }
+.contentfooter { text-align:center ;  width:100%; border:none ; color:#ccc ; clear:both }
+
+.dateofday { background-color:#f3f3f3}
+
+.theme1 { background-color:#933 }
+.theme2 { background-color:#393 }
+.theme3 { background-color:#339 }
+.theme4 { background-color:#993 }
+.theme5 { background-color:#939 }
+.theme6 { background-color:#399 }
+
+.timestamp { font-size:x-small; color:gray ;  }
+
+h3 .timestamp { float:right; 
+	text-shadow:none
+}
+
+* html h3 .timestamp {
+	float:none;
+}
+
+a:link {  text-decoration:none ; font-weight:bold ;  color:#508080 }
+a:visited {  text-decoration:none ; font-weight:bold ; color:#545454}
+a:hover { font-weight:bold ; color:teal; text-decoration:underline } 
+a:active { font-weight:bold ; color:aqua ; text-decoration:underline }
+
+a[hreflang]:after {
+	content: "\0000a0[" attr(hreflang) "]";
+ 	font-size: smaller;
+    vertical-align: baseline;
+    position: relative;
+    bottom: 0.5em;
+}
+
+
+.content a:visited { color:#546464} 
+.content a:hover { color:#0000dd} 
+
+.timestamp a:link  { color:#507070  }
+.timestamp a:visited { color:#507070  }
+ 
+.topnav a:link, .contentfooter a:link, .nav1 a:link, .topnav a:visited, .contentfooter a:visited, .nav1 a:visited {color:white}
+.topnav a:hover, .contentfooter a:hover, .nav1 a:hover { color:teal; background-color:#dcdcdc}
+
+.post {	
+	position:relative;
+}
+
+.post-full {
+	max-width: 35em;
+}
+
+.post-tools {
+	position:absolute;
+	bottom:15px;
+	right:-20em;
+	width:15em;
+	line-height:1em;
+	text-align:left ; 
+}
+
+* html .post-tools {
+	position:static;
+}
+
+.comment-link {
+	text-align:right ; 
+}
+
+
+.month-calendar-day-this-day {  background-color:#E8E8E8}
+.month-calendar { font-size:xx-small}
+.month-calendar-head { font-size:x-small}
+.tableau {display:table ; table-layout:fixed }
+.gauche {display:table-cell ; text-align:left}
+.droite {display:table-cell ; text-align:right}
+
+.inline-button {
+   font-weight:bold ;
+   font-size:65%;
+   line-height:1em ;
+   font-family:Verdana, sans-serif;
+   margin:0 0.2em; padding:0.1em 0;
+   border:1px solid black;
+   white-space:nowrap;
+   text-decoration:none;
+   vertical-align:middle;
+   }
+.inline-button span {
+   margin:0; padding:0.1em 0.5em 0.1em 0.3em;
+   background:#ccc;
+   color:black;
+   }
+.inline-button em {
+   font-style:normal;
+   margin:0; padding:0.1em 0.5em;
+   background:white;
+   color:black;
+   }
+.inline-button:hover span {
+   background:#666;
+   color:black;
+   text-decoration:none ;
+   }
+.inline-button:hover em {
+   background:black;
+   color:white;
+   text-decoration:none ;
+   }
+.brown { background:#BC4200; color:white} 
+.brown span { background:#BC4200; color:white}
+.brown em { background:white ; color:#BC4200}
+.orange { background:#f60; color:white} 
+.orange span { background:#f60; color:white}
+.orange em { background:white; color:#f60}
+.green { background:#082; color:white} 
+.green span { background:#082; color:white}
+.green em { background:white; color:#082}
+.yellow { background:#993; color:white} 
+.yellow span { background:#993; color:white}
+.yellow em { background:white; color:#993}
+
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333;}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(images/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
+
+#error {background:#ff6969; color:#fff; text-shadow:1px 1px #cf5454; border-right:1px solid #000; border-bottom:1px solid #000; padding:0}
+#error .tcontent {padding:10px 14px 11px; border:1px solid #ffb8b8; -moz-border-radius:5px; border-radius:5px}
+#success {background:#2ea125; color:#fff; text-shadow:1px 1px #1b6116; border-right:1px solid #000; border-bottom:1px solid #000; padding:10px; -moz-border-radius:0; border-radius:0}
+#bluemask {background:#4195aa}
+#frameless {padding:0}
+#frameless .tclose {left:6px}
+
+/* */
+
+
+@media (max-width: 640px) {
+/* adapté de http://www.alsacreations.com/astuce/lire/1177-une-feuille-de-styles-de-base-pour-le-web-mobile.html */
+
+
+ /* passer tous les éléments de largeur fixe en largeur automatique */
+body, .topnav, .nav1, .nav2, .content, .contentwrapper, .post-tools {
+   width: auto;
+   margin: auto ;
+   padding: 0;
+ }
+
+/* adaptation d'éléments spécifiques */
+.contentwrapper {top:2em}
+.nav2 { position : relative; top:0; padding-bottom:2em}
+.inline-button, .menu, .submenu {display:inline-block ;}
+.topnav {top: 1em; text-align:center; }
+.nav1 { text-align:center; }
+.post-tools {
+	position:relative;
+	bottom:15px;
+	top:5px;
+	right:0;
+}
+h3 .timestamp { float:none; display:block;}
+
+ /* fixer une largeur maximale  de 100 % aux éléments potentiellement problématiques */
+ img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+   max-width: 100%;
+ }
+/* conserver le ratio des images et empêcher les débordements de boîtes dûs aux border ou padding */
+ img {
+   height: auto; width: auto;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+ }
+
+ /* gestion des mots longs */
+ textarea, table, td, th, code, pre, samp {
+   word-wrap:  break-word; /* passage à la ligne forcé */
+   -webkit-hyphens: auto; /* césure propre */
+   -moz-hyphens: auto;
+   hyphens: auto;
+ }
+ code, pre, samp {
+   white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+ }
+
+ /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+element1 {
+   float: none !important;
+   width: auto !important
+ }
+
+ /* masquer les éléments superflus */
+ .hide_mobile {
+   display: none !important;
+ }
+
+ /* Un message personnalisé */
+ body:before {
+   content: "Agencement pour mobile du site";
+   display: block;
+   color: #777;
+   text-align: center;
+   font-style: italic;
+ }
+}
