@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/navigateurs-madagascar.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/web/commentaires_ajah.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/pbie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,16 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/web/migration_ok.html">
+	<title>Et bien voilà, nous revoilà</title>
+	<link>http://blog.barijaona.com/web/migration_ok.html</link>
+	<description>La migration du site est achevée...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-06-22T02:46:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/web/futur-demenagement.html">
 	<title>Message de service</title>
 	<link>http://blog.barijaona.com/web/futur-demenagement.html</link>
@@ -107,19 +117,6 @@
     <dc:subject>/web/blosxomsk/en</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2007-08-18T16:27:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html">
-	<title>Blosxom 2.0.2</title>
-	<link>http://blog.barijaona.com/web/blosxomsk/en/update20060826.html</link>
-	<description>Blosxom starter kit version 20060826:
-
-
-Updated to Blosxom 2...</description>
-    
-    <dc:subject>/web/blosxomsk/en</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2006-08-28T07:17:00+03:00</dc:date>
     
   </item>
 
