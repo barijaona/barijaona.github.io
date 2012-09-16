@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/plusperso/jobs.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/affaire-moov.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/opensource2010-10.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/photos/itasy2010.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,36 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
+	<title>Ça gratte...</title>
+	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
+	<description>Les langages informatiques, c'est un peu comme les goûts et les couleurs...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-09-16T01:42:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html">
+	<title>Mme Figaro et Mme Streisand</title>
+	<link>http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html</link>
+	<description>Il y a un certain groupe de presse qui ne manque pas d'air, et qui n'a pas la légèreté d'un Mozart...</description>
+    
+    <dc:subject>/blogosphere</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-06-27T23:02:00+03:00</dc:date>
+    
+  </item>
+<item rdf:about="http://blog.barijaona.com/web/migration_ok.html">
+	<title>Revoilà l&apos;ancien combattant féru de nouvelles technologies</title>
+	<link>http://blog.barijaona.com/web/migration_ok.html</link>
+	<description>La migration du blog est achevée...</description>
+    
+    <dc:subject>/web</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-06-22T01:46:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/plusperso/jobs.html">
 	<title>Se faire de la bile</title>
 	<link>http://blog.barijaona.com/plusperso/jobs.html</link>
@@ -87,36 +117,6 @@
     <dc:subject>/monde</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2011-05-01T07:22:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/innovant/opensource2010-10.html">
-	<title>De l&apos;ouverture et de l&apos;amateurisme</title>
-	<link>http://blog.barijaona.com/innovant/opensource2010-10.html</link>
-	<description>Ce blog n'était absolument pas en sommeil, il était en mode maintenance...</description>
-    
-    <dc:subject>/innovant</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2010-10-17T08:11:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/photos/itasy2010.html">
-	<title>Pourtant que la montagne est saine...</title>
-	<link>http://blog.barijaona.com/photos/itasy2010.html</link>
-	<description>Ayant oublié les appareils photo, il ne restait plus que le téléphone qui avait heureusement le bon goût de ne pas sonner...</description>
-    
-    <dc:subject>/photos</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2010-03-29T22:22:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html">
-	<title>Du bois, il faut parfois sortir</title>
-	<link>http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html</link>
-	<description>M'enfin, vous-dites vous, qu'arrive-t-il au maître de céans ...</description>
-    
-    <dc:subject>/web</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-03-31T07:13:00+03:00</dc:date>
     
   </item>
 

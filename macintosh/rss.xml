@@ -11,7 +11,7 @@
 > 
 
   <channel rdf:about="http://blog.barijaona.com">
-    <title>Quai Sud, 2 minutes d'arrêt</title>
+    <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/writing-mac.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/souvenirs7.5.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/safari3.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/25ansautremonde.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/shiira1.1.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/constitution_plan_b.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/avant_macworldsf2005.html" />
 
       </rdf:Seq>
     </items>
@@ -38,8 +38,18 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
+	<title>Ça gratte...</title>
+	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
+	<description>Les langages informatiques, c'est un peu comme les goûts et les couleurs...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-09-16T01:42:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/writing-mac.html">
-	<title>Hello, I'm a Mac...</title>
+	<title>Hello, I&apos;m a Mac...</title>
 	<link>http://blog.barijaona.com/macintosh/writing-mac.html</link>
 	<description>Barack Obama is a Mac...</description>
     
@@ -106,16 +116,6 @@
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2005-06-09T06:41:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/avant_macworldsf2005.html">
-	<title>Spéculation</title>
-	<link>http://blog.barijaona.com/macintosh/avant_macworldsf2005.html</link>
-	<description>Ah, Apple et les rumeurs à quelques jours d'une Macworld expo...</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2005-01-07T06:54:00+03:00</dc:date>
     
   </item>
 

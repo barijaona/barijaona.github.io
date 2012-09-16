@@ -39,13 +39,13 @@
   </channel>
   
 <item rdf:about="http://blog.barijaona.com/web/migration_ok.html">
-	<title>Et bien voilà, nous revoilà</title>
+	<title>Revoilà l&apos;ancien combattant féru de nouvelles technologies</title>
 	<link>http://blog.barijaona.com/web/migration_ok.html</link>
-	<description>La migration du site est achevée...</description>
+	<description>La migration du blog est achevée...</description>
     
     <dc:subject>/web</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-06-22T02:46:00+03:00</dc:date>
+    <dc:date>2012-06-22T01:46:00+03:00</dc:date>
     
   </item>
 <item rdf:about="http://blog.barijaona.com/web/futur-demenagement.html">

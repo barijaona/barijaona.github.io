@@ -4,7 +4,7 @@
 >
   <title type="text">Étonnements rapides et durables</title>
   <subtitle type="text">Ahanements d'octets austraux</subtitle>
-  <link rel="self" type="application/atom+xml" href="http://blog.barijaona.com/index.atom" />
+  <link rel="self" type="application/atom+xml" href="http://blog.barijaona.com/atom.xml" />
   <link rel="alternate" type="text/html" hreflang="en" href="http://blog.barijaona.com" />
   <id>tag:barijaona.com,1999:/</id>
   <generator uri="http://blosxom.sourceforge.net/" version="2.1.2+dev">Blosxom</generator>
@@ -16,7 +16,96 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2012-06-01T19:50:00Z</updated>
+  <updated>2012-09-16T00:26:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2012:/macintosh/vienna</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/vienna.html" />
+
+    <title type="text">Ça gratte...</title>
+    <published>2012-09-15T22:42:00Z</published>
+    <updated>2012-09-16T00:26:00Z</updated>
+    <category term="/macintosh"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Les langages informatiques, c'est un peu comme les goûts et les couleurs. Quitte à passer pour un vieux ringard, j'avoue rester un peu Pascalien dans l'âme. J'aime les <code>THEN</code> bien lisibles, et prise fort peu les langages où la ponctuation joue un rôle clé.</p>
+
+<p>Les syntaxes dérivées des shells Unix ou du C et leurs exigences côté <code>{</code>, <code>}</code> et <code>;</code> ont un petit côté masochiste à mes yeux. Oui, on s'y fait : <a href="http://blosxom.git.sourceforge.net/git/gitweb.cgi?p=blosxom/blosxom;a=search;s=barijaona;st=author" title="Contributions to Blosxom" hreflang="en">j'ai même pratiqué avec intérêt le Perl</a>, langage cryptique s'il en est.</p>
+
+<p>Mais ces syntaxes restent peu naturelles à mes yeux. Lorsque je lis par exemple du code Javascript et du code Applescript, je ne ressens pas du tout le même plaisir. Inexplicable et pas forcément rationnel, mais c'est comme cela.</p>
+
+<p>Et puis, à la fin de l'année dernière, j'ai lu la <a href="http://www.cocoalab.com/?q=BecomeAnXcoder-Francais" title="Cocoalab">version française de « <i lang="en">Become an Xcoder</i> »</a>. Et le côté intimidant du C et des surcouches objet s'est d'un coup sérieusement éloigné : foin de pointeurs, de complications liées à l'allocation d'objets... à condition d'accepter d'oublier tout ce qu'on avait appris auparavant.</p>
+
+<p>Dans la réalité, les choses sont parfois un peu plus compliquées. Le langage a connu des évolutions dans le temps, et l'on rencontre notamment différentes approches en matière de gestion de mémoire. Me faisant la main en tentant d'améliorer du code existant, je découvrais plein de choses et ne voulait surtout pas tout casser ; et mon côté « développement durable » m'incite particulièrement à ne pas rendre des machines encore vaillantes prématurément <a href="http://cocoaforge.com/viewtopic.php?f=18&amp;t=23907&amp;p=133050&amp;hilit=leopard&amp;sid=cb5598283d3ab2eb4ad624661c905b1d#p132056" title="Discussion on PowerPC support : Vienna forums" hreflang="en">obsolètes</a>.</p>
+
+<p>Mais en seulement huit mois, que de progrès ! Coïncidence, <a href="http://www.vienna-rss.org/?p=371" title="Vienna 3 BETA with Google Reader Synch" hreflang="en">l'annonce publique du travail fait</a> coïncidait avec une longue discussion un brin idéologique avec @tandriamandrato (<a href="https://twitter.com/barijaona/status/247069339822460928" title="Twitter">premier</a>, <a href="https://twitter.com/barijaona/status/247070879329181696" title="Twitter">deuxième</a> et <a href="https://twitter.com/barijaona/status/247073353184186368" title="Twitter">troisième</a> arguments) qui m'en <a href="http://cocoaforge.com/viewtopic.php?f=18&amp;t=24469&amp;p=133635" title="Cocoaforge forum : feature request" hreflang="en">rappelait une autre</a> pas si lointaine.</p>
+
+<p>Je ne suis pas un idéologue, mais s'il est une chose que je peux assurer, c'est que coder sur Mac, ça me fait du bien. Et l'<i lang="en">open source</i>, il vaut mieux en faire qu'en parler.</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/vienna.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
+
+  <entry>
+    <id>tag:barijaona.com,2012:/blogosphere/mme-figaro-la-vraie</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
+
+    <title type="text">Mme Figaro et Mme Streisand</title>
+    <published>2012-06-27T20:02:00Z</published>
+    <updated>2012-09-15T19:30:00Z</updated>
+    <category term="/blogosphere"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Il y a un certain groupe de presse qui ne manque pas d'air, et qui n'a pas la légèreté d'un Mozart...</p>
+
+<p>J'invite tous les blogs à créer un lien <code>&lt;a href="http://leschantiersdelapprentissage.eklablog.com/"&gt;Madame Figaro&lt;/a&gt;</code> pour bien marquer que la vraie <a href="http://leschantiersdelapprentissage.eklablog.com/">Madame Figaro, c'est elle</a>.</p>
+
+<p>Pourquoi ? <a href="http://leschantiersdelapprentissage.eklablog.com/the-f-word-ou-la-coccinelle-contre-l-elephant-a47033181" title="The F word ou la coccinelle contre l’éléphant">Parce que c'est l'histoire du pot de terre et du pot de fer</a>... Et même si le groupe de presse qui ne manque pas d'air change d'avis, que sa politique de gros sabots reste en mémoire.</p>
+
+<p><strong>Edit :</strong> J'ai un gros faible pour cette <a href="http://teachercharlotte.blogspot.fr/2012/06/la-fable-de-la-coccinelle-et-de.html" title="Teacher Charlotte">fable de la coccinelle et de l'éléphant</a>.</p>
+
+<p><strong>Edit 2:</strong> <a href="http://laclassedemmefigaro.eklablog.com/le-retour-de-la-classe-de-mme-figaro-a47367506" title="Le retour de la classe de Mme Figaro">Tout est bien qui finit bien</a> (sauf que c'est désormais Mme et non pas Madame...) </p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
+
+  <entry>
+    <id>tag:barijaona.com,2012:/web/migration_ok</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/web/migration_ok.html" />
+
+    <title type="text">Revoilà l'ancien combattant féru de nouvelles technologies</title>
+    <published>2012-06-21T22:46:00Z</published>
+    <updated>2012-09-15T19:21:00Z</updated>
+    <category term="/web"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>La migration du blog est achevée. La politique d'Apple, qui consiste à jeter sans pitié à la poubelle toute technologie qui n'est plus jugée suffisamment bonne, a certes des inconvénients, mais aussi des avantages. Après avoir subi la disparition finalement oubliée des lecteurs de disquettes, des ports série et SCSI, il a fallu cette année faire passer à la trappe MobileMe, précédemment Mac.com, anciennement iTools...</p>
+
+<p>Mais cette politique de la terre brûlée technologique a sa contrepartie bénéfique : en obligeant à repartir d'une feuille blanche, elle amène à s'interroger sur ce que l'on estime vraiment essentiel et à concentrer toute son énergie sur l'amélioration de l'avenir.</p>
+
+<p>À l'abandon de mac.com s'est ajouté celui de Haloscan/JS-Kit, celui-ci renonçant à ses activités d'hébergement de commentaires de blogs en Octobre prochain. C'est finalement cette seconde migration qui m'aura demandé le plus de travail et causé des frustrations ; car en examinant les alternatives, seul Disqus s'est avéré en mesure de récupérer le stock (dont une partie est vieille de dix ans) et même cela a loin d'être sans difficultés, l'alchimie de la liaison entre un billet et ses commentaires s'étant avérée plutôt subtile... Quant aux frustrations, elles tiennent d'une part à la nouvelle obligation d'avoir Javascript pour lire les commentaires, et d'autre part à la perte des Gravatars liés aux anciens commentaires.</p>
+
+<p>Malgré cela, j'avoue que je reste plutôt satisfait de ce double <i lang="en">reset</i> technologique. Tout en préservant une philosophie minimaliste et un certain dépouillement graphique, il y a de réels rafraichissements dans la version 2012 :
+- celui qui, à mon sens, était le plus indispensable consiste en une lecture facilitée sur les petits écrans des téléphones portables ; sur ce point, le résultat visuel me semble plus personnel que ce que j'ai vu ailleurs (Wordpress et tes plugins, je m'adresse à toi) ;
+- pour la page principale, Disqus ne supporte pas officiellement l'affichage de commentaires de plusieurs articles sur une seule page, mais uniquement l'affichage du nombre de commentaires avec des renvois vers les pages individuelles. N'ayant pas l'habitude de me laisser impressionner par ce genre de challenge, j'ai hésité entre inclusions AJAH à l'intérieur de la page (<a href="http://blog.barijaona.com/web/commentaires_ajah.html" title="Billet de janvier 2008">ça rappellera peut-être quelque chose aux anciens</a>) et les popups en dialogue modal. Les deux solutions ont été réalisées, mais quelques effets de bord avec l'inclusion AJAH m'ont amené à m'en tenir à la seconde solution (Disqus 2012 n'était pas encore disponible au moment des tests). Ce choix n'est peut-être pas définitif, bien que j'ai réussi à me passer du lourd jQuery (merci Tinybox 2) tout en conciliant écrans traditionnels et tactiles, du moins sur navigateurs basés sur Webkit.</p>
+
+<p>Vos commentaires sur la fonction commentaires (ah ah) seront particulièrement bienvenus : avec un intérêt particulier sur les préférences en matière d'accessibilité, les suggestions d'améliorations pour les mobiles sous Opera, Mozilla et même (pas si sectaire que ça) Internet Explorer, voire des alternatives <i lang="en">opensource</i> à Disqus... Tout est possible, y compris l'impossible.</p>
+
+<p>Autrement, par simplicité administrative et parce que ça ne fait pas de mal de commercer avec des gens qu'on connaît IRL (Mahefa est un ancien collègue de travail, et pas le plus mauvais), je me suis adressé pour l'hébergement à <a href="http://dot.mg/" title="internet pour les cools">dot.mg</a> (qui lui même s'approvisionne chez Hostigation). Prix très compétitif, support sympa et efficace, et un environnement Debian Squeeze familier qui me permet d'utiliser <code>ssh</code> et <code>git</code> : bien plus rapide pour transférer les mises à jour que la combinaison antérieure WebDAV/<code>rsync</code>. De quoi m'inciter peut-être à faire des billets plus nombreux et plus courts. Au bénéfice de mes 3 lecteurs ?</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/migration_ok.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2011:/plusperso/jobs</id>
@@ -186,112 +275,6 @@
 
 <p>Tout cela vous parait un peu en désordre, mais c'est suite à la lecture d'un <a href="http://www.diasteme.net/2011/05/01/messi/" title="Messi">billet de Diastème</a> qui n'est pas non plus particulièrement en ordre... Billet qui me fait penser qu'il n'y a plus « une » culture générale en cet an de grâce 2011, mais que la sienne ne devrait pas me déplaire tant que cela, vu qu'il rajoute dans son fourre-tout un peu de Stefan Zweig.</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/culture-generale-2011.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2010:/innovant/opensource2010-10</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/innovant/opensource2010-10.html" />
-
-    <title type="text">De l'ouverture et de l'amateurisme</title>
-    <published>2010-10-17T05:11:00Z</published>
-    <updated>2010-10-18T10:33:00Z</updated>
-    <category term="/innovant"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Ce blog n'était absolument pas en sommeil, il était en mode maintenance.</p>
-
-<p>Parce qu'il y avait deux ou trois trucs dans le <i lang="en">workflow</i> de sa mise à jour qui m'agaçaient un peu.</p>
-
-<p>Et que je ne trouvais pas vraiment mon bonheur pour y remédier. Rageant d'avoir la flemme, alors qu'il y a plein de brouillons de billets qui traînent sur le disque dur.</p>
-
-<p>La frustration a traîné jusqu'à ce que ce vendredi soir, je trouve <a href="http://fletcherpenney.net/multimarkdown/" title="A natural markup language for producing XHTML, LaTex and PDF documents" hreflang="en">Multimarkdown</a>, évolution de Markdown avec qui j'ai écrit l'essentiel de mes billets. Multimarkdown résoud un certain nombre des limitations de syntaxe qui m'agaçaient.</p>
-
-<p>Déception relative cependant en tentant d'installer le bébé, car son intégration dans Blosxom n'était pas si évidente que cela. Une bonne occasion de replonger dans les arcanes de ma configuration et de dérouiller ma pratique du Perl. Et du coup de découvrir avec <a href="http://www.alexgirard.com/git-book/index.html" title="Git Livre communautaire">Git</a> que la gestion de version décentralisée, ça change vraiment la vie.</p>
-
-<p>Le problème des projets Open Source, c'est qu'on ne peut pas toujours être tous d'accord au sein d'une communauté. Et que cela peut considérablement ralentir le développement.</p>
-
-<p>Le problème ne se pose pas trop quand il y a un <i lang="en">leader</i> charismatique qui est très actif. Ça le devient quand la continuité du projet repose sur un tas de contributeurs qui ont d'autres chats à fouetter que de suivre nuit et jour tout ce qui se passe autour.</p>
-
-<p>Résultat : lorsque les <i lang="it">dilettantes</i> se réintéressent à la chose, ils ont la trouille de se retrouver largués par ce qui s'est passé entretemps et de casser ce qui marchait bien chez eux.</p>
-
-<p>« Chez nous ça marche » est l'expression qui pourrit tout effort de développement concerté. Entre ceux qui ont un problème pressant et ceux qui ne veulent pas prendre de risques, les conflits sont inévitables. Surtout lorsque les « gardiens du temple » ont des ressources limitées. Si quelqu'un sait comment avoir des journées de 72 heures, merci de laisser un mot en commentaire.</p>
-
-<p>Avec un outil décentralisé, chacun peut travailler dans son coin et publier immédiatemment ce qu'il a fait. Libre à chacun de décider à quel moment il rattrape le train.</p>
-
-<p>J'ai ainsi résolu mon problème avec MultiMarkdown. À moi désormais de <a href="http://github.com/barijaona/MultiMarkdown/network" title="The MultiMarkdown network graph" hreflang="en">surveiller</a> si « ma » modification sera reprise, et si ce n'est pas le cas, de réincorper dans « ma » version ce qui sera fait par les autres et qui me paraîtra intéressant.</p>
-
-<p>La vie, c'est mieux en <i lang="en">open</i>.</p>
-
-<p><strong>PS</strong> : </p>
-
-<ul>
-<li>il y a un peu de politique dans ce billet, mais c'est totalement involontaire.</li>
-<li>discussion intéressante <a href="http://www.red-sweater.com/blog/1078/open-source-obligations" title="Open Source Obligations - Red sweater" hreflang="en">sur ce blog</a>.</li>
-</ul>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/innovant/opensource2010-10.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2010:/photos/itasy2010</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/photos/itasy2010.html" />
-
-    <title type="text">Pourtant que la montagne est saine...</title>
-    <published>2010-03-29T19:22:00Z</published>
-    <updated>2010-03-30T03:01:00Z</updated>
-    <category term="/photos"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Ayant oublié les appareils photo, il ne restait plus que le téléphone qui avait heureusement le bon goût de ne pas sonner...</p>
-
-<p><a href="http://www.flickr.com/photos/barijaona/4473468649/" title="Chutes de la Lily"><img src="http://farm5.static.flickr.com/4059/4473468649_3e625d6e10.jpg" width="500" height="375" alt="Itasy4" class="photo" /></a></p>
-
-<p><a href="http://www.flickr.com/photos/barijaona/4473474981/" title="La Lily"><img src="http://farm5.static.flickr.com/4045/4473474981_3c2a194295.jpg" width="500" height="375" alt="Itasy6" class="photo"  /></a></p>
-
-<p><a href="http://www.flickr.com/photos/barijaona/4473478205/" title="Débonnaires"><img src="http://farm5.static.flickr.com/4003/4473478205_9c7158124d.jpg" width="500" height="375" alt="Itasy7" class="photo" /></a></p>
-
-<p><a href="http://www.flickr.com/photos/barijaona/4474239128/" title="Insouciance de l'enfance..."><img src="http://farm5.static.flickr.com/4011/4474239128_e71af04982.jpg" width="500" height="375" alt="Itasy2" class="photo" /></a></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/photos/itasy2010.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2009:/web/ou-suis-je-en-ce-moment</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
-
-    <title type="text">Du bois, il faut parfois sortir</title>
-    <published>2009-03-31T04:13:00Z</published>
-    <updated>2009-03-31T05:10:00Z</updated>
-    <category term="/web"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>M'enfin, vous-dites vous, qu'arrive-t-il au maître de céans ? Il tape 25 dollars pour consolider son blog, et puis après il le laisse en déshérence ?</p>
-
-<p>Je vous dois donc quelques explications. Mon activité en ligne est toujours là, mais il faut savoir être en ces temps efficace.</p>
-
-<p>Mes réactions les plus immédiates sont sur <a href="http://twitter.com/barijaona" title="Barijaona sur Twitter">Twitter</a>.</p>
-
-<p>Le niveau suivant de réflexion est constitué par les <a href="http://delicious.com/barijaona/" hreflang="en" title="Barijaona's Bookmarks on Delicious">marque-pages Delicious</a>.</p>
-
-<p>Enfin, pour les billets un peu plus développés, les plus attentifs auront peut-être remarqué une évolution récente sur un média en ligne malgache dont les initiales sont les mêmes que Mike Tango. <i lang="en">Full disclosure</i> : il y a des liens de parenté avec le directeur de publication... ;-)</p>
-
-<p>Mes plus fidèles lecteurs savent que j'ai toujours pensé qu'assumer ses propos était un des premiers échelons de la responsabilité. Ils n'auront sans doute pas trop de mal à retrouver mes billets que je publie sous mon prénom de baptême et l'initiale de mon deuxième prénom officiel.</p>
-
-<p>Bon, le principal inconvénient de cette situation, c'est que je ne peux adopter le ton très personnel que je peux me permettre ici... Vivement le retour à la normale.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
