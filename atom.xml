@@ -16,7 +16,38 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2012-09-19T03:33:00Z</updated>
+  <updated>2012-09-19T11:23:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2012:/macintosh/beatnik</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/beatnik.html" />
+
+    <title type="text">Beatnik</title>
+    <published>2012-09-19T11:21:00Z</published>
+    <updated>2012-09-19T11:23:00Z</updated>
+    <category term="/macintosh"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://www.cuk.ch/articles/5188" title="Ça y est ! J’ai enfin un Mac Moche, Bruyant et Instable ! - Cuk.ch">Discussion enflammée sur Cuk</a> sur la moralité et/ou la légalité de fabriquer un Hackintosh ; autrement dit de faire tourner un PC avec MacOSX, ce qui est interdit par la license utilisateur Apple. Le commentaire le plus lumineux me semble celui de Yanfi :</p>
+
+<blockquote>
+  <p>En ce qui concerne la license Apple “seulement sur du Matériel Apple”, je vois ça non pas comme une interdiction, mais comme une protection légale. Personne ne peut attaquer Apple en justice parce que OS X ne marche pas bien sur son matériel générique, non-Apple. Si Apple se mettait à vendre OS X séparément ils auraient alors la charge du support. Et je suis sûr que ça n’arrivera jamais.</p>
+
+<p>Cette opinion (qui n’engage que moi) est supportée par le fait qu’Apple a fait ZÉRO efforts pour fermer les sites de Hackintosh. Ils ont pignon sur Web, si l’on peut dire. Aucun n’a reçu de mise en demeure et autres plaisanteries légales dont Apple sait très bien faire usage quand elle est déterminée à faire valoir ses intérêts. Je pense qu’il laissent faire en sachant que ceux qui aiment OS X après y avoir gouté, et qui se lassent de bricoler finissent par s’acheter un Mac, parce que “ça marche” (sauf quand ça tombe en panne, mais bon…).</p>
+</blockquote>
+
+<p>Cette attitude me paraît complètement cohérente avec la culture Beatnik et libertaire qui imbibe une société comme Apple... Elle n'a aucune envie de trop s'embêter avec ce que le reste du monde bidouille. S'il y avait obligation morale de tenir compte de tout ce que les ateliers de Taïwan et de Chine produisent, ce serait beaucoup moins fun pour ses ingénieurs...</p>
+
+<p>Parce que c'est déjà suffisamment contraignant d'avoir à s'assurer de la compatibilité avec ses propres matériels, Apple la libertaire se réserve le droit souverain de laisser tomber un truc « pas assez bien » ou « trop vieux ». Elle se souvient avec un brin de terreur que Mac OS n'avait jamais eu autant de problèmes et stagné que lors de la brève période où elle avait autorisé les clones. Qui plus est, elle garde à l'esprit qu'elle est capable de faire de vrais miracles lorsqu'elle est hyper-concentrée sur l'intégration très poussée de matériels choisis sans faire de concession au passé et d'un logiciel qu'elle maîtrise seule : ainsi naquit le premier Macintosh, ainsi se fit sa résurrection, et ainsi vit l'iPhone.</p>
+
+<p>Certains déploreront une conception plutôt individualiste du <i lang="en">"free and open"</i>. Mais on ne reste pas <i lang="en">fun</i> sans n'en faire parfois qu'à sa tête.</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/beatnik.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2012:/humour/andraso-eo-i-Paul</id>
@@ -228,45 +259,6 @@
 
 <p>Souvenirs, souvenirs...</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/futur-demenagement.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2011:/blogosphere/affaire-moov</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/blogosphere/affaire-moov.html" />
-
-    <title type="text">Internet Devastation</title>
-    <published>2011-05-09T00:30:00Z</published>
-    <updated>2011-05-09T01:27:00Z</updated>
-    <category term="/blogosphere"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Comment un fournisseur d'accès peut-il à ce point méconnaître la sociologie d'Internet ? Je fais bien évidemment référence aux <a href="http://paper.li/tag/Madagascar/2011/05/07" title="Paper.li #Madagascar du samedi 7 mai 2011">réactions suite au procès qu'intente au blogueur SSD Dago la société DTS pour des propos qu'elle qualifie d'injurieux et diffamatoires</a>.</p>
-
-<p>Il était prévisible que la blogosphère malgache allait s'indigner, car SSD n'a fait que traduire en termes un peu crûs un sentiment largement répandu, et il était également prévisible que l'incendie n'allait pas en rester là et qu'il y aurait une <a href="http://w0ofer.net/moov-de-la-blogger/" title="MOOV de là blogger : w0ofer">solidarité dépassant les frontières de Madagascar</a>. Pour DTS, les effets négatifs de la contre-publicité immédiate sur la marque Moov dépassent sans doute d'ores et déjà tous les gains qui avaient été  espérés en lançant une action judiciaire. Ces gains restent d'ailleurs aujourd'hui complètement hypothétiques.</p>
-
-<p>Cela me désole d'autant plus que j'ai quelques connaissances chez DTS, avec qui j'entretiens des relations cordiales ; et je n'ai aucun grief particulier à adresser à la société en tant que client. Je peux me mettre assez facilement à leur place et leur trouver bon nombre de circonstances atténuantes sur les événements du mois de Mars. Ce qui leur est arrivé à cette époque, un blocage quasi-complet des liaisons internationales pendant plusieurs jours, était certainement pour eux une catastrophe.</p>
-
-<p>Le propre des catastrophes est de ne pas avoir être prévues. Autrement, il n'y aurait pas eu de Fukushima, pas eu d'effondrement des tours du World Trade Center, et toute <a href="http://fr.wikipedia.org/wiki/Tempêtes_de_fin_décembre_1999_en_Europe" title="Tempêtes Lothar et Martin : Wikipedia">la Bretagne serait entrée dans l'an 2000 sans se rendre compte que la Fée Électricité n'était pas un avantage complètement acquis</a>. Les catastrophes arrivent même aux meilleurs, et sans connaître les détails, je suis prêt à parier que les gens de DTS pensaient auparavant qu'ils avaient des assurances raisonnables que cela n'arriverait pas. Il n'empêche que c'est arrivé. <i lang="en">Too bad</i>.</p>
-
-<p>Je peux même comprendre que DTS/Moov ait peu et mal communiqué au mois de Mars. Lorsqu'une catastrophe arrive, tous ceux qui sont disponibles sont sur le pont et ne dorment plus suffisamment. Le stress fait perdre ses moyens, et il devient forcément difficile de penser à tout, notamment à communiquer, surtout lorsque l'information dont on dispose soi-même reste limitée et pas forcément fiable.</p>
-
-<p>Alors oui, dans ces circonstances, on peut trouver particulièrement injuste que les clients se montrent acerbes, et l'on doit avoir des moments où l'on a envie d'envoyer balader tous ces emm...eurs qui ne sont pas confrontés à vos réalités du terrain.</p>
-
-<p>OK, tout cela explique les réactions à chaud. Aussi bien celles de Moov que celles de SSD Dago au mois de Mars.</p>
-
-<p>Mais réagir à froid comme si on était encore dans le feu de l'action avait-il un sens ? Pourquoi avoir décidé de sortir la bombe atomique face au seul SSD Dago une fois la situation rétablie, plutôt que d'entamer un dialogue (certes difficile) avec les mécontents ? Pour faire un exemple ? C'est plutôt un contre-exemple de ce qu'il ne faut pas faire que DTS/Moov est en train de réaliser ici. Et je ne peux m'empêcher de repenser à un des enseignements qu'ont retiré de la gestion par Total de la catastrophe de l'Erika les experts en management de crise : il peut être fatal de donner un poids excessif aux juristes dans la gestion de telles situations.</p>
-
-<p>J'ai été amené à prendre une part active à la défense de SSD Dago, notamment sur Twitter, pour une raison simple. Depuis que j'ai commencé à écrire sur internet en 1998, j'avais en tête que ce genre d'événement pouvait arriver. Je ne savais seulement pas quand et sur qui cela allait tomber. Peut-être sur moi.</p>
-
-<p>Il s'est passé treize ans, sous trois régimes politiques pas forcément très ouverts, avec des lecteurs potentiellement très divers, avec deux crises politiques majeures (une pendant laquelle j'ai beaucoup écrit ici, l'autre beaucoup moins, non pas par peur ou par désintérêt, mais parce que je ne voyais pas beaucoup d'intérêt à polluer un espace personnel avec des débats largement ressassés ailleurs) : l'on se pose forcément des questions sur ce qui est acceptable ou pas. Treize années pendant lesquelles il y a eu le <a href="http://embruns.net/carnet/blogosphere/petite-histoire-blogosphere.html" title="Petite histoire de la blogosphère: Embruns">temps des pionniers</a>, la grande mode des blogs, leur déclin relatif. Parce qu'il n'est pas toujours motivant d'écrire sans être trop lu, mais aussi parce que tout le monde n'est pas forcément très doué pour écrire. Mais personne ne conteste qu'il vaut mieux s'exprimer que vandaliser. Crier est un signal, pas un crime.</p>
-
-<p>Dommage que dans notre pays, ce soit un grand acteur au coeur de l'internet qui le premier ait dérapé par rapport à ces espaces de liberté qu'apporte la toile. D'autant plus que cet acteur s'affuble du slogan "Internet Revolution", et qu'on aurait pu croire, surtout avec un DG dont le patronyme n'est pas sans évoquer la Tunisie, qu'il ne perdrait pas de vue l'effet révolutionnaire que peut avoir Internet. Il semble alors que nous ne parlions pas tout à fait du même espace.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/blogosphere/affaire-moov.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

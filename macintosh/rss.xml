@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/writing-mac.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/souvenirs7.5.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/macworld2007-apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/25ansautremonde.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/shiira1.1.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/constitution_plan_b.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,16 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/beatnik.html">
+	<title>Beatnik</title>
+	<link>http://blog.barijaona.com/macintosh/beatnik.html</link>
+	<description>Discussion enflammée sur Cuk sur la moralité et/ou la légalité de fabriquer un Hackintosh ; autrement dit de faire tourner un PC avec MacOSX, ce qui est interdit par la license utilisateur Apple...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-09-19T14:21:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
 	<title>Ça gratte...</title>
 	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
@@ -106,16 +116,6 @@
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2005-07-24T22:12:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/constitution_plan_b.html">
-	<title>Le plan B</title>
-	<link>http://blog.barijaona.com/macintosh/constitution_plan_b.html</link>
-	<description>Pas celui au refus de la constitution européenne...</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2005-06-09T06:41:00+03:00</dc:date>
     
   </item>
 
