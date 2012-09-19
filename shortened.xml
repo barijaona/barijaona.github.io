@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/affaire-moov.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,19 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html">
+	<title>Tordu (de rire)</title>
+	<link>http://blog.barijaona.com/humour/andraso-eo-i-Paul.html</link>
+	<description>Tombé sur ça :
+
+
+  Popup Facebook: "Facebook wants to know your place...</description>
+    
+    <dc:subject>/humour</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-09-19T06:30:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
 	<title>Ça gratte...</title>
 	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
@@ -107,16 +120,6 @@
     <dc:subject>/blogosphere</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2011-05-09T03:30:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/monde/culture-generale-2011.html">
-	<title>Culture générale</title>
-	<link>http://blog.barijaona.com/monde/culture-generale-2011.html</link>
-	<description>Je repense à un échange de plaisanteries avec ma femme...</description>
-    
-    <dc:subject>/monde</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2011-05-01T07:22:00+03:00</dc:date>
     
   </item>
 

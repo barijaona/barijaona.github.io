@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/affaire-moov.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,23 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html">
+	<title>Tordu (de rire)</title>
+	<link>http://blog.barijaona.com/humour/andraso-eo-i-Paul.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Tombé sur &lt;a href=&quot;http://etreloin.blogspot.com/2012/09/blog-post_17.html&quot; title=&quot;Être loin&quot;&gt;ça&lt;/a&gt; :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Popup Facebook: &quot;Facebook wants to know your place.&quot; Moi: &quot;Don&apos;t know, just ask Google... What? You&apos;re not friends with Google?&quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Il y a de quoi être un rien jaloux à voir une telle catégorie baptisée « Fastoche... »&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/humour</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-09-19T06:30:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
 	<title>Ça gratte...</title>
 	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
@@ -207,31 +224,6 @@
     <dc:subject>/blogosphere</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2011-05-09T03:30:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/monde/culture-generale-2011.html">
-	<title>Culture générale</title>
-	<link>http://blog.barijaona.com/monde/culture-generale-2011.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Je repense à un échange de plaisanteries avec ma femme. Est-il scandaleux que jusqu&apos;à vendredi dans la soirée, je n&apos;avais aucune idée de la tête que pouvait avoir Kate Middleton ? Et que jusqu&apos;à ce vendredi matin, j&apos;avais certes entendu parler d&apos;un mariage royal, mais que j&apos;étais dans le doute s&apos;il s&apos;agissait de celui de l&apos;héritier direct de la Couronne britannique ou de celui de son frère ?&lt;/p&gt;
-
-&lt;p&gt;À mon humble avis, « non », il n&apos;y a pas réellement scandale sur le premier point. Le deuxième se débat, mais vu que l&apos;accès de l&apos;intéressé au trône ne parait pas forcément immédiat, il ne me parait pas scandaleux que je ne me sois concentré sur la question qu&apos;à partir du moment où un commentaire radio parlant du « mariage du siècle » a réveillé mon scepticisme.&lt;/p&gt;
-
-&lt;p&gt;Le scepticisme, depuis un peu plus de deux ans, je le cultive. Indispensable lorsque dans son pays, on a deux camps qui s&apos;affirment (peut-être en toute bonne foi) être complètement légitimes sur la base d&apos;informations qui s&apos;avèrent complètement mythiques dès lors qu&apos;on gratte un peu.&lt;/p&gt;
-
-&lt;p&gt;Mais là n&apos;est pas vraiment la question. Sauf que dégonfler les mythes pour se faire une opinion éclairée, je sais &lt;a href=&quot;http://blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html&quot; title=&quot;Comptes, recomptes et mécomptes&quot;&gt;d&apos;expérience&lt;/a&gt; que cela prend énormément de temps, et ce pour un rendement pas toujours convaincant, sauf pour sa propre petite satisfaction personnelle.&lt;/p&gt;
-
-&lt;p&gt;Donc, par paresse, je pose la question aux trois pelés et quatre tondus qui pourraient passer ici. Est-il scandaleux que jusqu&apos;à cette heure, je n&apos;ai aucune idée de la tête que peut avoir un Lionel Messi ? Et donc que j&apos;ignore tout de son style de jeu ? Je me pose soudainement la question, &lt;a href=&quot;http://www.arretsurimages.net/contenu.php?id=3967&quot; title=&quot;Racisme : les dirigeants du foot français condamnés sans preuve - Arrêt sur images / Daniel Schneidermann&quot;&gt;en ces heures où la question devient un peu plus importante&lt;/a&gt; : Messi est-il un technicien génial, et doit-il faire partie de la culture générale de l&apos;année 2011 ? Et accessoirement, est-il noir ou est-il blanc, et son talent aurait-il pu passer indétecté par les centres de formation ?&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;mars2011:affichesurleschampslyses&quot; src=&quot;http://blog.barijaona.com/monde/IMG_0777-small.JPG&quot; alt=&quot;Mars 2011 : affiche sur les Champs Élysées&quot; title=&quot;Mars 2011 : affiche sur les Champs Élysées&quot; width=&quot;480&quot; height=&quot;640&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Autre question : est-il scandaleux que je n&apos;ai pas vu un seul épisode de « &lt;i lang=&quot;en&quot;&gt;The West Wing&lt;/i&gt; » ? Et qu&apos;un geek comme moi ait préféré voir « &lt;i&gt;Le discours d&apos;un roi&lt;/i&gt; » (que j&apos;ai beaucoup aimé) plutôt que « &lt;i lang=&quot;en&quot;&gt;The Social Network&lt;/i&gt; » ?&lt;/p&gt;
-
-&lt;p&gt;Tout cela vous parait un peu en désordre, mais c&apos;est suite à la lecture d&apos;un &lt;a href=&quot;http://www.diasteme.net/2011/05/01/messi/&quot; title=&quot;Messi&quot;&gt;billet de Diastème&lt;/a&gt; qui n&apos;est pas non plus particulièrement en ordre... Billet qui me fait penser qu&apos;il n&apos;y a plus « une » culture générale en cet an de grâce 2011, mais que la sienne ne devrait pas me déplaire tant que cela, vu qu&apos;il rajoute dans son fourre-tout un peu de Stefan Zweig.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/culture-generale-2011.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/monde</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2011-05-01T07:22:00+03:00</dc:date>
     
   </item>
 
