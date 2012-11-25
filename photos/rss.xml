@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/itasy2010.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/ufraw-natif.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow4.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow2.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/workflow1.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/mains.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/photos/old_dai.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,18 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/photos/photivo-binary.html">
+	<title>Photivo</title>
+	<link>http://blog.barijaona.com/photos/photivo-binary.html</link>
+	<description>[fr]
+
+Un peu lassé du manque de support de la gestion de couleur dans les versions d'ImageMagick sur Mac, je teste photivo pour traiter mes fichiers...</description>
+    
+    <dc:subject>/photos</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2012-11-25T22:48:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/photos/itasy2010.html">
 	<title>Pourtant que la montagne est saine...</title>
 	<link>http://blog.barijaona.com/photos/itasy2010.html</link>
@@ -85,7 +97,7 @@ une option pour aligner la date et l'heure de modification d'un fichier sur cell
 <item rdf:about="http://blog.barijaona.com/photos/workflow2.html">
 	<title>Méthode LPMM : les logiciels</title>
 	<link>http://blog.barijaona.com/photos/workflow2.html</link>
-	<description>(Téléchargement outil version française : &lt;http://homepage...</description>
+	<description>(Téléchargement outil version française : &lt;http://blog...</description>
     
     <dc:subject>/photos</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -110,16 +122,6 @@ une option pour aligner la date et l'heure de modification d'un fichier sur cell
     <dc:subject>/photos</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2006-11-08T08:26:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/photos/old_dai.html">
-	<title>Fouille de placards</title>
-	<link>http://blog.barijaona.com/photos/old_dai.html</link>
-	<description>Laurent m'a incité à ressortir quelques vieilleries...</description>
-    
-    <dc:subject>/photos</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2006-05-13T21:42:00+03:00</dc:date>
     
   </item>
 
