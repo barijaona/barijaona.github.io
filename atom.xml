@@ -16,7 +16,7 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2012-11-25T20:25:00Z</updated>
+  <updated>2012-11-27T04:02:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2012:/photos/photivo-binary</id>
@@ -49,7 +49,7 @@
 
     <title type="text">Building photivo on Mac OS X Mountain Lion.</title>
     <published>2012-11-25T19:39:00Z</published>
-    <updated>2012-11-25T20:25:00Z</updated>
+    <updated>2012-11-27T04:02:00Z</updated>
     <category term="/macintosh"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -235,9 +235,9 @@ macdeployqt photivo.app
 # useful to people having an Apple developer ID for signing the build
 codesign -f -s 'Developer ID Application' photivo.app
 # Make a DMG
-hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDZO</code></pre>
+hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDBZ</code></pre>
 
-<p>That's it, a photivo.app you can install on any recent machine !</p>
+<p>That's it, a <a href="http://blog.barijaona.com/photos/photivo.dmg" title="photivo.dmg 13.3 Mo">photivo.app</a> you can install on any recent machine !</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/photivo-build.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>

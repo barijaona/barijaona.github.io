@@ -236,9 +236,9 @@ macdeployqt photivo.app
 # useful to people having an Apple developer ID for signing the build
 codesign -f -s &apos;Developer ID Application&apos; photivo.app
 # Make a DMG
-hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder photivo.app/ -format UDZO&lt;/code&gt;&lt;/pre&gt;
+hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder photivo.app/ -format UDBZ&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;That&apos;s it, a photivo.app you can install on any recent machine !&lt;/p&gt;
+&lt;p&gt;That&apos;s it, a &lt;a href=&quot;http://blog.barijaona.com/photos/photivo.dmg&quot; title=&quot;photivo.dmg 13.3 Mo&quot;&gt;photivo.app&lt;/a&gt; you can install on any recent machine !&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/photivo-build.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
     
     <dc:subject>/macintosh</dc:subject>
