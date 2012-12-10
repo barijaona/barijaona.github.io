@@ -143,7 +143,7 @@ os.environ["F77"] = "/usr/local/bin/gfortran"</code></pre>
 
 <p>For some reason, exiv2 is the single dependency which should not be build under jhbuild (it crashes photivo otherwise). Open a <strong>normal shell</strong>, <a href="http://www.exiv2.org" title="Image metadata library">get exiv2</a> and build it :</p>
 
-<pre><code>&#036; ./configure  --prefix=/Users/barijaon/gtk/inst --enable-shared  --disable-static
+<pre><code>&#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
 &#036; make
 &#036; make install</code></pre>
 
@@ -155,7 +155,7 @@ os.environ["F77"] = "/usr/local/bin/gfortran"</code></pre>
 &#036; hg clone https://photivo.googlecode.com/hg/ photivo</code></pre>
 
 <p>Replace every occurrence of <code>/usr/bin/gcc</code> with <code>/usr/local/bin/gcc</code> in the .pro files.
-Replace every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local/bin/g++</code> in the .pro files.</p>
+Replace also every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local/bin/g++</code> in the .pro files.</p>
 
 <p>Make sure you are under a <strong>jhbuild shell</strong> again, and type these commands :</p>
 
@@ -211,7 +211,7 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p>That's it, a <a href="http://blog.barijaona.com/photos/photivo.dmg" title="photivo.dmg 13.3 Mo">photivo.app</a> you can install on any recent machine !</p>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 27/11/2012 07:02</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 10/12/2012 05:47</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

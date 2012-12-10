@@ -16,7 +16,7 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2012-11-27T04:02:00Z</updated>
+  <updated>2012-12-10T02:47:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2012:/photos/photivo-binary</id>
@@ -49,7 +49,7 @@
 
     <title type="text">Building photivo on Mac OS X Mountain Lion.</title>
     <published>2012-11-25T19:39:00Z</published>
-    <updated>2012-11-27T04:02:00Z</updated>
+    <updated>2012-12-10T02:47:00Z</updated>
     <category term="/macintosh"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -171,7 +171,7 @@ os.environ["F77"] = "/usr/local/bin/gfortran"</code></pre>
 
 <p>For some reason, exiv2 is the single dependency which should not be build under jhbuild (it crashes photivo otherwise). Open a <strong>normal shell</strong>, <a href="http://www.exiv2.org" title="Image metadata library">get exiv2</a> and build it :</p>
 
-<pre><code>&#036; ./configure  --prefix=/Users/barijaon/gtk/inst --enable-shared  --disable-static
+<pre><code>&#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
 &#036; make
 &#036; make install</code></pre>
 
@@ -183,7 +183,7 @@ os.environ["F77"] = "/usr/local/bin/gfortran"</code></pre>
 &#036; hg clone https://photivo.googlecode.com/hg/ photivo</code></pre>
 
 <p>Replace every occurrence of <code>/usr/bin/gcc</code> with <code>/usr/local/bin/gcc</code> in the .pro files.
-Replace every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local/bin/g++</code> in the .pro files.</p>
+Replace also every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local/bin/g++</code> in the .pro files.</p>
 
 <p>Make sure you are under a <strong>jhbuild shell</strong> again, and type these commands :</p>
 

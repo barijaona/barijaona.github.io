@@ -172,7 +172,7 @@ os.environ[&quot;F77&quot;] = &quot;/usr/local/bin/gfortran&quot;&lt;/code&gt;&l
 
 &lt;p&gt;For some reason, exiv2 is the single dependency which should not be build under jhbuild (it crashes photivo otherwise). Open a &lt;strong&gt;normal shell&lt;/strong&gt;, &lt;a href=&quot;http://www.exiv2.org&quot; title=&quot;Image metadata library&quot;&gt;get exiv2&lt;/a&gt; and build it :&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;#036; ./configure  --prefix=/Users/barijaon/gtk/inst --enable-shared  --disable-static
+&lt;pre&gt;&lt;code&gt;&amp;#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
 &amp;#036; make
 &amp;#036; make install&lt;/code&gt;&lt;/pre&gt;
 
@@ -184,7 +184,7 @@ os.environ[&quot;F77&quot;] = &quot;/usr/local/bin/gfortran&quot;&lt;/code&gt;&l
 &amp;#036; hg clone https://photivo.googlecode.com/hg/ photivo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Replace every occurrence of &lt;code&gt;/usr/bin/gcc&lt;/code&gt; with &lt;code&gt;/usr/local/bin/gcc&lt;/code&gt; in the .pro files.
-Replace every occurrence of &lt;code&gt;/usr/bin/g++&lt;/code&gt; with &lt;code&gt;/usr/local/bin/g++&lt;/code&gt; in the .pro files.&lt;/p&gt;
+Replace also every occurrence of &lt;code&gt;/usr/bin/g++&lt;/code&gt; with &lt;code&gt;/usr/local/bin/g++&lt;/code&gt; in the .pro files.&lt;/p&gt;
 
 &lt;p&gt;Make sure you are under a &lt;strong&gt;jhbuild shell&lt;/strong&gt; again, and type these commands :&lt;/p&gt;
 
