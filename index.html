@@ -207,7 +207,7 @@ Replace also every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local
 
 <ul>
 <li>remove  <code>-rdynamic</code> occurrences in ptclearProject/Makefile and photivoProject/Makefile</li>
-<li>comment line 16 of photivoProject/Makefile</li>
+<li>remove spaces before line 16 of photivoProject/Makefile in order to have the parameter of -DAPPVERSION= correctly recognized</li>
 </ul>
 
 <p>To make photivo.app run correctly, I also had to :</p>
@@ -459,8 +459,8 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 <td class="month-calendar-day-nolink Dimanche">9</td>
 </tr>
 <tr>
-<td class="month-calendar-day-this-day Lundi">10</td>
-<td class="month-calendar-day-future Mardi">11</td>
+<td class="month-calendar-day-nolink Lundi">10</td>
+<td class="month-calendar-day-this-day Mardi">11</td>
 <td class="month-calendar-day-future Mercredi">12</td>
 <td class="month-calendar-day-future Jeudi">13</td>
 <td class="month-calendar-day-future Vendredi">14</td>

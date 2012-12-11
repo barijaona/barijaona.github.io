@@ -171,7 +171,7 @@ Replace also every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local
 
 <ul>
 <li>remove  <code>-rdynamic</code> occurrences in ptclearProject/Makefile and photivoProject/Makefile</li>
-<li>comment line 16 of photivoProject/Makefile</li>
+<li>remove spaces before line 16 of photivoProject/Makefile in order to have the parameter of -DAPPVERSION= correctly recognized</li>
 </ul>
 
 <p>To make photivo.app run correctly, I also had to :</p>
@@ -211,7 +211,7 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p>That's it, a <a href="http://blog.barijaona.com/photos/photivo.dmg" title="photivo.dmg 13.3 Mo">photivo.app</a> you can install on any recent machine !</p>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 10/12/2012 05:47</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 11/12/2012 09:25</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

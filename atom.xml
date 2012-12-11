@@ -16,7 +16,7 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2012-12-10T02:47:00Z</updated>
+  <updated>2012-12-11T06:25:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2012:/photos/photivo-binary</id>
@@ -49,7 +49,7 @@
 
     <title type="text">Building photivo on Mac OS X Mountain Lion.</title>
     <published>2012-11-25T19:39:00Z</published>
-    <updated>2012-12-10T02:47:00Z</updated>
+    <updated>2012-12-11T06:25:00Z</updated>
     <category term="/macintosh"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -199,7 +199,7 @@ Replace also every occurrence of <code>/usr/bin/g++</code> with <code>/usr/local
 
 <ul>
 <li>remove  <code>-rdynamic</code> occurrences in ptclearProject/Makefile and photivoProject/Makefile</li>
-<li>comment line 16 of photivoProject/Makefile</li>
+<li>remove spaces before line 16 of photivoProject/Makefile in order to have the parameter of -DAPPVERSION= correctly recognized</li>
 </ul>
 
 <p>To make photivo.app run correctly, I also had to :</p>

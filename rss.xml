@@ -200,7 +200,7 @@ Replace also every occurrence of &lt;code&gt;/usr/bin/g++&lt;/code&gt; with &lt;
 
 &lt;ul&gt;
 &lt;li&gt;remove  &lt;code&gt;-rdynamic&lt;/code&gt; occurrences in ptclearProject/Makefile and photivoProject/Makefile&lt;/li&gt;
-&lt;li&gt;comment line 16 of photivoProject/Makefile&lt;/li&gt;
+&lt;li&gt;remove spaces before line 16 of photivoProject/Makefile in order to have the parameter of -DAPPVERSION= correctly recognized&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;To make photivo.app run correctly, I also had to :&lt;/p&gt;
