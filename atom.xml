@@ -16,7 +16,59 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2012-12-11T06:25:00Z</updated>
+  <updated>2013-03-24T07:10:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2013:/macintosh/days-of-doom</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/days-of-doom.html" />
+
+    <title type="text">Remembering the days of doom</title>
+    <published>2013-03-24T06:40:00Z</published>
+    <updated>2013-03-24T07:10:00Z</updated>
+    <category term="/macintosh"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>I am often amused and sometimes irked by financial "analysts", "tech pundits" and <a href="http://www.facebook.com/barijaona.r/posts/10151258364363262?comment_id=24814247" title="Andrianjo RAR on Facebook" hreflang="fr">social networks</a> comments about Apple being cornered by competition, losing its sense of innovation, and so on...</p>
+
+<p>Countering these comments was not on my priority. Thanks to <a href="http://seekingalpha.com/article/1261501-why-you-should-buy-apple-now" title="Why You Should Buy Apple Now" hreflang="en">Timothy Pereira</a> for gathering the demonstration that we are hearing the cover of an older song. <br />
+Real life is more complicated than A + B. Like any firm, Apple is reinventing itself ; the only real "problem" is that outsiders don't know yet how this is being done.</p>
+
+<hr />
+
+<p><a href="http://www.businessweek.com/bwdaily/dnflash/dec2000/nf20001211_005.htm" title="Business Week" hreflang="en">Why Apple Is Losing Its Appeal Again</a> <br />
+by Sam Jaffe, published in BusinessWeek - Dec. 11, 2000</p>
+
+<blockquote>
+  <p>Investors may be asking themselves what Apple can do to revive its fortunes. The likely answer, unfortunately, is that Steve Jobs has no white rabbits left in his hat. Apple appears to be facing a dead end in its business growth, the victim of mismanagement and unmitigated hubris.</p>
+</blockquote>
+
+<p><a href="http://zdnet.com.com/2100-1107-526779.html?legacy=zdnn" title="Zdnet.com" hreflang="en">Technology's walking dead</a> <br />
+by Michael Kanellos, published in ZDNet - Jan. 5, 2001</p>
+
+<blockquote>
+  <p>2004: Apple - Watch for the big fire sale. Pretty designs and overpriced blue plastic can only get you so far.</p>
+</blockquote>
+
+<p><a href="http://www.newsfactor.com/perl/story/21715.html" title="NewsFactor" hreflang="en">Mac G5: Too Little, Too Late</a> <br />
+by James Maguire, published in NewsFactor - Jun 12, 2003</p>
+
+<blockquote>
+  <p>Looking at the future of the PC market, Apple's premium pricing structure becomes ever more outdated. A few years downstream, Linux desktops will force Windows to get cheaper. At that point even Windows boxes, seriously cheaper than Apple, will be in the "too expensive" category.</p>
+</blockquote>
+
+<p><a href="http://archive.windowsitpro.com/article/audio/will-the-ipod-become-the-next-pet-rock--43957" title="WindowsITPro" hreflang="en">Will the iPod Become the Next Pet Rock?</a> <br />
+by Paul Thurrott, published in Connected Home Magazine - Sep 15, 2004</p>
+
+<blockquote>
+  <p>Apple's short-term success is very real and quite admirable, but the company's inability to see coming trends in video, subscription content, and interoperability suggests that Apple is repeating the mistakes of the past. In the 1980s, the Mac held an early lead over the PC but was quickly buried after the industry standardized on a common Microsoft technology. Today, that series of events is repeating itself, and online music services -- and to a greater degree, the digital delivery of all media types -- is very much at a nascent stage. If Apple doesn't change its ways, the company simply won't survive.</p>
+</blockquote>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/days-of-doom.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2012:/photos/photivo-binary</id>
@@ -49,7 +101,7 @@
 
     <title type="text">Building photivo on Mac OS X Mountain Lion.</title>
     <published>2012-11-25T19:39:00Z</published>
-    <updated>2012-12-11T06:25:00Z</updated>
+    <updated>2012-12-11T07:16:00Z</updated>
     <category term="/macintosh"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -237,7 +289,7 @@ codesign -f -s 'Developer ID Application' photivo.app
 # Make a DMG
 hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDBZ</code></pre>
 
-<p>That's it, a <a href="http://blog.barijaona.com/photos/photivo.dmg" title="photivo.dmg 13.3 Mo">photivo.app</a> you can install on any recent machine !</p>
+<p>That's it, a <a href="http://blog.barijaona.com/photos/photivo.dmg" title="photivo.dmg 16.2 Mo">photivo.app</a> you can install on any recent machine !</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/photivo-build.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
@@ -384,57 +436,6 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p>Autrement, par simplicité administrative et parce que ça ne fait pas de mal de commercer avec des gens qu'on connaît IRL (Mahefa est un ancien collègue de travail, et pas le plus mauvais), je me suis adressé pour l'hébergement à <a href="http://dot.mg/" title="internet pour les cools">dot.mg</a> (qui lui même s'approvisionne chez Hostigation). Prix très compétitif, support sympa et efficace, et un environnement Debian Squeeze familier qui me permet d'utiliser <code>ssh</code> et <code>git</code> : bien plus rapide pour transférer les mises à jour que la combinaison antérieure WebDAV/<code>rsync</code>. De quoi m'inciter peut-être à faire des billets plus nombreux et plus courts. Au bénéfice de mes 3 lecteurs ?</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/migration_ok.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2011:/plusperso/jobs</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/plusperso/jobs.html" />
-
-    <title type="text">Se faire de la bile</title>
-    <published>2011-10-09T20:51:00Z</published>
-    <updated>2012-06-01T19:49:00Z</updated>
-    <category term="/plusperso"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Alors que j'ignorais presque tout de cette maladie il y a encore 7-8 ans, j'ai du mal aujourd'hui à compter les personnes qui comptent pour moi qui sont mortes depuis d'un cancer du pancréas.</p>
-
-<p>Wikipedia dit pudiquement : le cancer du pancréas est une tumeur de très mauvais pronostic. On survit rarement longtemps à ce cancer qu'on ne détecte le plus souvent que lorsqu'il commence à être au stade de la métastase. À ce moment, il est déjà inopérable et la survie médiane est de 6 mois. Je ne peux que confirmer.</p>
-
-<p>Simple coïncidence ou illustration du fait que, en raison de la meilleure détection des autres cancers, celui-ci est condamné à devenir plus visible, il y eut cette semaine deux cas très médiatiques de décès suite à un cancer de pancréas.</p>
-
-<p>Le comité Nobel s'est fait surprendre. Alors que depuis 1974, les statuts du célèbre Prix interdisent une remise à titre posthume, il annonçait lundi la remise du Nobel de médecine au Canadien Ralph Steinman (conjointement avec l'Américain Bruce Beutler et le Français Jules Hoffmann), alors que celui-ci était décédé trois jours plus tôt.</p>
-
-<p>Il semble que Ralph Steinman ait pu prolonger sa vie en s'appliquant le résultat de ses propres recherches sur le système immunitaire. <a href="http://www.nationalpost.com/news/Bittersweet+timing/5497206/story.html" title="Bittersweet timing" hreflang="en">Pas suffisamment efficacement cependant pour apprendre sa récompense</a>.</p>
-
-<p>L'autre décès bien plus médiatisé est celui de Steve Jobs. Un survivant particulièrement conscient du caractère rarissime de sa situation et qui en avait retiré une leçon très forte.</p>
-
-<iframe style="border:0" width="450" height="337" src="http://www.dailymotion.com/embed/video/x5m47b"></iframe>
-
-<p><br /><a href="http://www.dailymotion.com/video/x5m47b_vostfr-steve-jobs-stanford-commenc_news" target="_blank">[VOSTFR] Discours de Steve Jobs devant les étudiants de Stanford en 2005</a> recueilli par <a href="http://www.dailymotion.com/Cladouros">Cladouros</a>.</p>
-
-<p>L'émotion autour de la mort de Jobs est logique, car cela ne peut que glacer le sang que quelqu'un vous annonce qu'il part pour mourir, et qu'il meurt si peu de temps après. Nous sommes mortels, nous pouvons tous mourir beaucoup plus tôt que nous le croyons ; mais rares sont ceux qui apprécient qu'on le leur rappelle. Là réside sans doute une bonne part de la différence d'ampleur des réactions autour des morts de Steinman et de Jobs.</p>
-
-<p>Mais l'émotion autour du décès de Jobs n'est pas due qu'à cela. <a href="http://laplumedaliocha.wordpress.com/2011/10/06/la-planete-consommation-en-deuil/" title="Aliocha - la planète consommation en deuil">Certains se glosent de cette émotion</a>, sous prétexte qu'il n'était « qu'un » capitaine d'industrie. Comme si un capitaine d'industrie ne pouvait pas faire de sa vie une magistrale oeuvre d'art, comme si cela devait être réservé aux chefs d'orchestre, aux scientifiques, aux écrivains, ou à l'extrême rigueur, à un Enzo Ferrari...</p>
-
-<p>Pour parodier un slogan publicitaire : on n'en rêvait même pas, et Jobs le faisait. Il a ouvert la route à ces bicyclettes pour nos esprits, et il l'a fait avec un sens du beau qui ne pouvait que nous rendre plus créatifs et plus inventifs. Rien à voir avec de la banale consommation.</p>
-
-<p>Et encore moins avec des questions d'argent. "<em>Being the richest man in the cemetery doesn’t matter to me… Going to bed at night saying we’ve done something wonderful… that’s what matters to me.</em>” </p>
-
-<p>Normal alors qu'on se fasse un peu de bile...</p>
-
-<p>À lire aussi :</p>
-
-<ul>
-<li>« <a href="http://www.lemonde.fr/idees/article/2011/10/07/steve-jobs-mon-ami_1583941_3232.html" title="LeMonde.fr, extrait du livre iWoz">Steve Jobs, mon ami...</a> », par l'autre Steve ;</li>
-<li><a href="http://padawan.info/fr/2011/10/steve-jobs.html" title="Steve Jobs">François Nonnenmacher</a> ;</li>
-<li><a href="https://plus.google.com/103541083956939218100/posts/8piU3YKcW6j" title="Google Plus">Ma propre réaction</a> au post de Maître Eolas.</li>
-</ul>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/plusperso/jobs.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

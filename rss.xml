@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/plusperso/jobs.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,50 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
+	<title>Remembering the days of doom</title>
+	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;I am often amused and sometimes irked by financial &quot;analysts&quot;, &quot;tech pundits&quot; and &lt;a href=&quot;http://www.facebook.com/barijaona.r/posts/10151258364363262?comment_id=24814247&quot; title=&quot;Andrianjo RAR on Facebook&quot; hreflang=&quot;fr&quot;&gt;social networks&lt;/a&gt; comments about Apple being cornered by competition, losing its sense of innovation, and so on...&lt;/p&gt;
+
+&lt;p&gt;Countering these comments was not on my priority. Thanks to &lt;a href=&quot;http://seekingalpha.com/article/1261501-why-you-should-buy-apple-now&quot; title=&quot;Why You Should Buy Apple Now&quot; hreflang=&quot;en&quot;&gt;Timothy Pereira&lt;/a&gt; for gathering the demonstration that we are hearing the cover of an older song. &lt;br /&gt;
+Real life is more complicated than A + B. Like any firm, Apple is reinventing itself ; the only real &quot;problem&quot; is that outsiders don&apos;t know yet how this is being done.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.businessweek.com/bwdaily/dnflash/dec2000/nf20001211_005.htm&quot; title=&quot;Business Week&quot; hreflang=&quot;en&quot;&gt;Why Apple Is Losing Its Appeal Again&lt;/a&gt; &lt;br /&gt;
+by Sam Jaffe, published in BusinessWeek - Dec. 11, 2000&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Investors may be asking themselves what Apple can do to revive its fortunes. The likely answer, unfortunately, is that Steve Jobs has no white rabbits left in his hat. Apple appears to be facing a dead end in its business growth, the victim of mismanagement and unmitigated hubris.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://zdnet.com.com/2100-1107-526779.html?legacy=zdnn&quot; title=&quot;Zdnet.com&quot; hreflang=&quot;en&quot;&gt;Technology&apos;s walking dead&lt;/a&gt; &lt;br /&gt;
+by Michael Kanellos, published in ZDNet - Jan. 5, 2001&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2004: Apple - Watch for the big fire sale. Pretty designs and overpriced blue plastic can only get you so far.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.newsfactor.com/perl/story/21715.html&quot; title=&quot;NewsFactor&quot; hreflang=&quot;en&quot;&gt;Mac G5: Too Little, Too Late&lt;/a&gt; &lt;br /&gt;
+by James Maguire, published in NewsFactor - Jun 12, 2003&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Looking at the future of the PC market, Apple&apos;s premium pricing structure becomes ever more outdated. A few years downstream, Linux desktops will force Windows to get cheaper. At that point even Windows boxes, seriously cheaper than Apple, will be in the &quot;too expensive&quot; category.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://archive.windowsitpro.com/article/audio/will-the-ipod-become-the-next-pet-rock--43957&quot; title=&quot;WindowsITPro&quot; hreflang=&quot;en&quot;&gt;Will the iPod Become the Next Pet Rock?&lt;/a&gt; &lt;br /&gt;
+by Paul Thurrott, published in Connected Home Magazine - Sep 15, 2004&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Apple&apos;s short-term success is very real and quite admirable, but the company&apos;s inability to see coming trends in video, subscription content, and interoperability suggests that Apple is repeating the mistakes of the past. In the 1980s, the Mac held an early lead over the PC but was quickly buried after the industry standardized on a common Microsoft technology. Today, that series of events is repeating itself, and online music services -- and to a greater degree, the digital delivery of all media types -- is very much at a nascent stage. If Apple doesn&apos;t change its ways, the company simply won&apos;t survive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/days-of-doom.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-03-24T09:40:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/photos/photivo-binary.html">
 	<title>Photivo</title>
 	<link>http://blog.barijaona.com/photos/photivo-binary.html</link>
@@ -238,7 +282,7 @@ codesign -f -s &apos;Developer ID Application&apos; photivo.app
 # Make a DMG
 hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder photivo.app/ -format UDBZ&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;That&apos;s it, a &lt;a href=&quot;http://blog.barijaona.com/photos/photivo.dmg&quot; title=&quot;photivo.dmg 13.3 Mo&quot;&gt;photivo.app&lt;/a&gt; you can install on any recent machine !&lt;/p&gt;
+&lt;p&gt;That&apos;s it, a &lt;a href=&quot;http://blog.barijaona.com/photos/photivo.dmg&quot; title=&quot;photivo.dmg 16.2 Mo&quot;&gt;photivo.app&lt;/a&gt; you can install on any recent machine !&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/photivo-build.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
     
     <dc:subject>/macintosh</dc:subject>
@@ -349,49 +393,6 @@ hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder 
     <dc:subject>/web</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-06-22T01:46:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/plusperso/jobs.html">
-	<title>Se faire de la bile</title>
-	<link>http://blog.barijaona.com/plusperso/jobs.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Alors que j&apos;ignorais presque tout de cette maladie il y a encore 7-8 ans, j&apos;ai du mal aujourd&apos;hui à compter les personnes qui comptent pour moi qui sont mortes depuis d&apos;un cancer du pancréas.&lt;/p&gt;
-
-&lt;p&gt;Wikipedia dit pudiquement : le cancer du pancréas est une tumeur de très mauvais pronostic. On survit rarement longtemps à ce cancer qu&apos;on ne détecte le plus souvent que lorsqu&apos;il commence à être au stade de la métastase. À ce moment, il est déjà inopérable et la survie médiane est de 6 mois. Je ne peux que confirmer.&lt;/p&gt;
-
-&lt;p&gt;Simple coïncidence ou illustration du fait que, en raison de la meilleure détection des autres cancers, celui-ci est condamné à devenir plus visible, il y eut cette semaine deux cas très médiatiques de décès suite à un cancer de pancréas.&lt;/p&gt;
-
-&lt;p&gt;Le comité Nobel s&apos;est fait surprendre. Alors que depuis 1974, les statuts du célèbre Prix interdisent une remise à titre posthume, il annonçait lundi la remise du Nobel de médecine au Canadien Ralph Steinman (conjointement avec l&apos;Américain Bruce Beutler et le Français Jules Hoffmann), alors que celui-ci était décédé trois jours plus tôt.&lt;/p&gt;
-
-&lt;p&gt;Il semble que Ralph Steinman ait pu prolonger sa vie en s&apos;appliquant le résultat de ses propres recherches sur le système immunitaire. &lt;a href=&quot;http://www.nationalpost.com/news/Bittersweet+timing/5497206/story.html&quot; title=&quot;Bittersweet timing&quot; hreflang=&quot;en&quot;&gt;Pas suffisamment efficacement cependant pour apprendre sa récompense&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;L&apos;autre décès bien plus médiatisé est celui de Steve Jobs. Un survivant particulièrement conscient du caractère rarissime de sa situation et qui en avait retiré une leçon très forte.&lt;/p&gt;
-
-&lt;iframe style=&quot;border:0&quot; width=&quot;450&quot; height=&quot;337&quot; src=&quot;http://www.dailymotion.com/embed/video/x5m47b&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a href=&quot;http://www.dailymotion.com/video/x5m47b_vostfr-steve-jobs-stanford-commenc_news&quot; target=&quot;_blank&quot;&gt;[VOSTFR] Discours de Steve Jobs devant les étudiants de Stanford en 2005&lt;/a&gt; recueilli par &lt;a href=&quot;http://www.dailymotion.com/Cladouros&quot;&gt;Cladouros&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;L&apos;émotion autour de la mort de Jobs est logique, car cela ne peut que glacer le sang que quelqu&apos;un vous annonce qu&apos;il part pour mourir, et qu&apos;il meurt si peu de temps après. Nous sommes mortels, nous pouvons tous mourir beaucoup plus tôt que nous le croyons ; mais rares sont ceux qui apprécient qu&apos;on le leur rappelle. Là réside sans doute une bonne part de la différence d&apos;ampleur des réactions autour des morts de Steinman et de Jobs.&lt;/p&gt;
-
-&lt;p&gt;Mais l&apos;émotion autour du décès de Jobs n&apos;est pas due qu&apos;à cela. &lt;a href=&quot;http://laplumedaliocha.wordpress.com/2011/10/06/la-planete-consommation-en-deuil/&quot; title=&quot;Aliocha - la planète consommation en deuil&quot;&gt;Certains se glosent de cette émotion&lt;/a&gt;, sous prétexte qu&apos;il n&apos;était « qu&apos;un » capitaine d&apos;industrie. Comme si un capitaine d&apos;industrie ne pouvait pas faire de sa vie une magistrale oeuvre d&apos;art, comme si cela devait être réservé aux chefs d&apos;orchestre, aux scientifiques, aux écrivains, ou à l&apos;extrême rigueur, à un Enzo Ferrari...&lt;/p&gt;
-
-&lt;p&gt;Pour parodier un slogan publicitaire : on n&apos;en rêvait même pas, et Jobs le faisait. Il a ouvert la route à ces bicyclettes pour nos esprits, et il l&apos;a fait avec un sens du beau qui ne pouvait que nous rendre plus créatifs et plus inventifs. Rien à voir avec de la banale consommation.&lt;/p&gt;
-
-&lt;p&gt;Et encore moins avec des questions d&apos;argent. &quot;&lt;em&gt;Being the richest man in the cemetery doesn’t matter to me… Going to bed at night saying we’ve done something wonderful… that’s what matters to me.&lt;/em&gt;” &lt;/p&gt;
-
-&lt;p&gt;Normal alors qu&apos;on se fasse un peu de bile...&lt;/p&gt;
-
-&lt;p&gt;À lire aussi :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;« &lt;a href=&quot;http://www.lemonde.fr/idees/article/2011/10/07/steve-jobs-mon-ami_1583941_3232.html&quot; title=&quot;LeMonde.fr, extrait du livre iWoz&quot;&gt;Steve Jobs, mon ami...&lt;/a&gt; », par l&apos;autre Steve ;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://padawan.info/fr/2011/10/steve-jobs.html&quot; title=&quot;Steve Jobs&quot;&gt;François Nonnenmacher&lt;/a&gt; ;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://plus.google.com/103541083956939218100/posts/8piU3YKcW6j&quot; title=&quot;Google Plus&quot;&gt;Ma propre réaction&lt;/a&gt; au post de Maître Eolas.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/plusperso/jobs.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/plusperso</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2011-10-09T23:51:00+03:00</dc:date>
     
   </item>
 

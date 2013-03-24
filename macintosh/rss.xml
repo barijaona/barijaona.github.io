@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/souvenirs7.5.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/safari3.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/macworld2007-apres.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/25ansautremonde.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,16 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
+	<title>Remembering the days of doom</title>
+	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
+	<description>I am often amused and sometimes irked by financial "analysts", "tech pundits" and social networks comments about Apple being cornered by competition, losing its sense of innovation, and so on...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-03-24T09:40:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/photivo-build.html">
 	<title>Building photivo on Mac OS X Mountain Lion.</title>
 	<link>http://blog.barijaona.com/macintosh/photivo-build.html</link>
@@ -106,16 +116,6 @@
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2007-01-10T04:56:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/25ansautremonde.html">
-	<title>Santé</title>
-	<link>http://blog.barijaona.com/macintosh/25ansautremonde.html</link>
-	<description>D'aucuns diront reconnaître ma mauvaise foi légendaire...</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2006-08-15T21:43:00+03:00</dc:date>
     
   </item>
 
