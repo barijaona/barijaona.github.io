@@ -36,7 +36,7 @@
 			header('Location: backend.php?op=digest');
 			exit;
 		} else if ($mobile->isMobile()) {
-			header('Location: mobile/index.php');
+			header('Location: ttrss-mobile/');
 			exit;
 		}
 	}
