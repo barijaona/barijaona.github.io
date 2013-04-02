@@ -1,4 +1,0 @@
-RewriteEngine On
-# redirige reader.barijaona.com (quelque soit la casse) vers https:/blog.barijaona.com/tt-rss/
-RewriteCond %{HTTP_HOST} ^reader\.barijaona\.com$ [NC]
-RewriteRule (.*) https://blog.barijaona.com/tt-rss/$1
