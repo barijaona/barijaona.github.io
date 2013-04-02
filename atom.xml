@@ -16,7 +16,48 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2013-03-24T07:10:00Z</updated>
+  <updated>2013-04-02T04:22:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2013:/innovant/alternatives-google-reader</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
+
+    <title type="text">Après Google Reader, quelles alternatives ?</title>
+    <published>2013-04-02T04:21:00Z</published>
+    <updated>2013-04-02T04:22:00Z</updated>
+    <category term="/innovant"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Google Reader est bientôt mort, et l'on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu'un aggrégateur local de fils RSS ? Dans mon cas, je vois quatre justifications possibles à l'utilisation de Google Reader pour la collecte des fils RSS. Par ordre décroissant d'importance :</p>
+
+<ul>
+<li>La mobilité : il existe quelques sites que je veux pouvoir suivre en déplacement avec tous les moyens informatiques disponibles, qu'il s'agisse d'un ordinateur emprunté quelques minutes dans un lieu de passage, d'une tablette ou d'un <i lang="en">smartphone</i>, et pour lesquels il est bien commode de synchroniser l'état de lecture entre les différents appareils utilisés ;</li>
+<li>Le souci de discrétion : une connexion sécurisée (<code>https</code>) vers Google.com est moins révélatrice qu'une connexion directe (et qui plus est non sécurisée) vers un site susceptible de déplaire à votre gouvernement ou à tout autre organisme qui prétend vouloir votre bien (et qui pourrait confondre facilement votre bien ou celui de la communauté avec le sien). Cette approche n'a cependant de sens que pour les cas où l'on peut faire raisonnablement confiance à Google. Or, le halo croissant de mystère autour de cette société doit faire s'interroger de plus en plus sur l'équilibre entre avantages et inconvénients.</li>
+<li>Plus marginalement, la courtoisie envers certains sites : envoyer une requête à Google plutôt que directement à ces sites permet de mutualiser l'utilisation de leur bande passante. Si vous envoyez à un site une requête toutes les cinq minutes alors qu'il publie seulement une fois par semaine, c'est que vous êtes un sagouin qui n'a pas vraiment réfléchi sur l'utilité des flux RSS. En passant par Google Reader, vous reportez sur la société de Mountain View la responsabilité de réfléchir.</li>
+<li>Ce n'est pas mon cas, mais <a href="http://forums.cocoaforge.com/viewtopic.php?t=26132&amp;p=136557" title="Ten hours of articles missing after restart (Cocoaforge)" hreflang="en">certaines personnes peuvent être confrontées à des sites particulièrement bavards</a>, qui nécessitent une collecte permanente des articles publiés. Un serveur allumé en permanence est la meilleure solution dans de tels cas.</li>
+</ul>
+
+<p>Il fut un temps où je lisais tous mes flux en allant les chercher chez Google. Depuis le début de 2013, et même en tenant compte des raisons cités plus haut, moins de 10% des flux que je lis passent par Google. Ajoutons que je n'ai jamais utilisé l'interface web de Google Reader qu'à titre de solution de dépannage temporaire, car un client RSS dédié est bien plus réactif et sollicite moins la bande passante. C'est encore mieux lorsque ce client est capable de stocker les images afin de les afficher même en l'absence de connexion.</p>
+
+<p>Il n'empêche que Google Reader ferme le 1er juillet, et l'on ressent comme un manque. Vers quoi se tourner ?</p>
+
+<p>Pour beaucoup, l'alternative s'appelle <a href="http://feedly.com" title="Feedly. A Better Reader" hreflang="en">Feedly</a>. Feedly a gagné 500.000 utilisateurs dans les 48 heures qui ont suivi l'annonce de l'arrêt de Google Reader, et cela n'a rien d'étonnant : le produit est séduisant à l'oeil et plutôt bien fait. De plus, Feedly a été un des premiers services à annoncer qu'il s'efforcerait de reproduire l'API de Google Reader, ce qui ne peut qu'intéresser tous les développeurs de clients RSS comme moi.</p>
+
+<p>Mais à titre personnel, je crains que Feedly ne soit pas le produit qui s'adapte à mes besoins :</p>
+
+<ul>
+<li>l'accès est largement moins universel que je ne le voudrais. Pour le moment, l'accès à Feedly n'est possible qu'après l'installation d'une application dédiée pour iOS ou Android ou d'une extension spécifique à certains navigateurs web (Safari, Firefox ou Chrome seulement).</li>
+<li>le <i lang="en">business model</i> de Feedly est encore plus mystérieux que celui de Google. Maintenir des serveurs pour satisfaire des utilisateurs coûte de l'argent, qu'entend faire Feedly pour faire bouillir la marmite ? Quelles seront plus tard les contreparties à payer pour ces "clients" ? ("clients" est mis ici entre guillemets, car le vrai client est celui qui paye en argent sonnant et trébuchant).</li>
+</ul>
+
+<p>Ce billet devait traiter des petites astuces nécessaires pour mettre en place une installation de Tiny Tiny RSS. <a href="https://github.com/ViennaRSS/vienna-rss/issues/160#issuecomment-15705208" title="Vienna RSS : comment on issue #160" hreflang="en">Mais il m'est entretemps apparu que NewsBlur.com était une meilleure alternative</a>.</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/innovant/alternatives-google-reader.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2013:/macintosh/days-of-doom</id>
@@ -405,37 +446,6 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p><strong>Edit 2:</strong> <a href="http://laclassedemmefigaro.eklablog.com/le-retour-de-la-classe-de-mme-figaro-a47367506" title="Le retour de la classe de Mme Figaro">Tout est bien qui finit bien</a> (sauf que c'est désormais Mme et non pas Madame...) </p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2012:/web/migration_ok</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/web/migration_ok.html" />
-
-    <title type="text">Revoilà l'ancien combattant féru de nouvelles technologies</title>
-    <published>2012-06-21T22:46:00Z</published>
-    <updated>2012-09-15T19:21:00Z</updated>
-    <category term="/web"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>La migration du blog est achevée. La politique d'Apple, qui consiste à jeter sans pitié à la poubelle toute technologie qui n'est plus jugée suffisamment bonne, a certes des inconvénients, mais aussi des avantages. Après avoir subi la disparition finalement oubliée des lecteurs de disquettes, des ports série et SCSI, il a fallu cette année faire passer à la trappe MobileMe, précédemment Mac.com, anciennement iTools...</p>
-
-<p>Mais cette politique de la terre brûlée technologique a sa contrepartie bénéfique : en obligeant à repartir d'une feuille blanche, elle amène à s'interroger sur ce que l'on estime vraiment essentiel et à concentrer toute son énergie sur l'amélioration de l'avenir.</p>
-
-<p>À l'abandon de mac.com s'est ajouté celui de Haloscan/JS-Kit, celui-ci renonçant à ses activités d'hébergement de commentaires de blogs en Octobre prochain. C'est finalement cette seconde migration qui m'aura demandé le plus de travail et causé des frustrations ; car en examinant les alternatives, seul Disqus s'est avéré en mesure de récupérer le stock (dont une partie est vieille de dix ans) et même cela a loin d'être sans difficultés, l'alchimie de la liaison entre un billet et ses commentaires s'étant avérée plutôt subtile... Quant aux frustrations, elles tiennent d'une part à la nouvelle obligation d'avoir Javascript pour lire les commentaires, et d'autre part à la perte des Gravatars liés aux anciens commentaires.</p>
-
-<p>Malgré cela, j'avoue que je reste plutôt satisfait de ce double <i lang="en">reset</i> technologique. Tout en préservant une philosophie minimaliste et un certain dépouillement graphique, il y a de réels rafraichissements dans la version 2012 :
-- celui qui, à mon sens, était le plus indispensable consiste en une lecture facilitée sur les petits écrans des téléphones portables ; sur ce point, le résultat visuel me semble plus personnel que ce que j'ai vu ailleurs (Wordpress et tes plugins, je m'adresse à toi) ;
-- pour la page principale, Disqus ne supporte pas officiellement l'affichage de commentaires de plusieurs articles sur une seule page, mais uniquement l'affichage du nombre de commentaires avec des renvois vers les pages individuelles. N'ayant pas l'habitude de me laisser impressionner par ce genre de challenge, j'ai hésité entre inclusions AJAH à l'intérieur de la page (<a href="http://blog.barijaona.com/web/commentaires_ajah.html" title="Billet de janvier 2008">ça rappellera peut-être quelque chose aux anciens</a>) et les popups en dialogue modal. Les deux solutions ont été réalisées, mais quelques effets de bord avec l'inclusion AJAH m'ont amené à m'en tenir à la seconde solution (Disqus 2012 n'était pas encore disponible au moment des tests). Ce choix n'est peut-être pas définitif, bien que j'ai réussi à me passer du lourd jQuery (merci Tinybox 2) tout en conciliant écrans traditionnels et tactiles, du moins sur navigateurs basés sur Webkit.</p>
-
-<p>Vos commentaires sur la fonction commentaires (ah ah) seront particulièrement bienvenus : avec un intérêt particulier sur les préférences en matière d'accessibilité, les suggestions d'améliorations pour les mobiles sous Opera, Mozilla et même (pas si sectaire que ça) Internet Explorer, voire des alternatives <i lang="en">opensource</i> à Disqus... Tout est possible, y compris l'impossible.</p>
-
-<p>Autrement, par simplicité administrative et parce que ça ne fait pas de mal de commercer avec des gens qu'on connaît IRL (Mahefa est un ancien collègue de travail, et pas le plus mauvais), je me suis adressé pour l'hébergement à <a href="http://dot.mg/" title="internet pour les cools">dot.mg</a> (qui lui même s'approvisionne chez Hostigation). Prix très compétitif, support sympa et efficace, et un environnement Debian Squeeze familier qui me permet d'utiliser <code>ssh</code> et <code>git</code> : bien plus rapide pour transférer les mises à jour que la combinaison antérieure WebDAV/<code>rsync</code>. De quoi m'inciter peut-être à faire des billets plus nombreux et plus courts. Au bénéfice de mes 3 lecteurs ?</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/migration_ok.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

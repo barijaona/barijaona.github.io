@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/opensource2010-10.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/iphone.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/macworld2007-avant.html" />
@@ -36,6 +37,16 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/innovant/alternatives-google-reader.html">
+	<title>Après Google Reader, quelles alternatives ?</title>
+	<link>http://blog.barijaona.com/innovant/alternatives-google-reader.html</link>
+	<description>Google Reader est bientôt mort, et l'on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu'un aggrégateur local de fils RSS ...</description>
+    
+    <dc:subject>/innovant</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-04-02T07:21:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/innovant/opensource2010-10.html">
 	<title>De l&apos;ouverture et de l&apos;amateurisme</title>
 	<link>http://blog.barijaona.com/innovant/opensource2010-10.html</link>

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,39 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/innovant/alternatives-google-reader.html">
+	<title>Après Google Reader, quelles alternatives ?</title>
+	<link>http://blog.barijaona.com/innovant/alternatives-google-reader.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Google Reader est bientôt mort, et l&apos;on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu&apos;un aggrégateur local de fils RSS ? Dans mon cas, je vois quatre justifications possibles à l&apos;utilisation de Google Reader pour la collecte des fils RSS. Par ordre décroissant d&apos;importance :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La mobilité : il existe quelques sites que je veux pouvoir suivre en déplacement avec tous les moyens informatiques disponibles, qu&apos;il s&apos;agisse d&apos;un ordinateur emprunté quelques minutes dans un lieu de passage, d&apos;une tablette ou d&apos;un &lt;i lang=&quot;en&quot;&gt;smartphone&lt;/i&gt;, et pour lesquels il est bien commode de synchroniser l&apos;état de lecture entre les différents appareils utilisés ;&lt;/li&gt;
+&lt;li&gt;Le souci de discrétion : une connexion sécurisée (&lt;code&gt;https&lt;/code&gt;) vers Google.com est moins révélatrice qu&apos;une connexion directe (et qui plus est non sécurisée) vers un site susceptible de déplaire à votre gouvernement ou à tout autre organisme qui prétend vouloir votre bien (et qui pourrait confondre facilement votre bien ou celui de la communauté avec le sien). Cette approche n&apos;a cependant de sens que pour les cas où l&apos;on peut faire raisonnablement confiance à Google. Or, le halo croissant de mystère autour de cette société doit faire s&apos;interroger de plus en plus sur l&apos;équilibre entre avantages et inconvénients.&lt;/li&gt;
+&lt;li&gt;Plus marginalement, la courtoisie envers certains sites : envoyer une requête à Google plutôt que directement à ces sites permet de mutualiser l&apos;utilisation de leur bande passante. Si vous envoyez à un site une requête toutes les cinq minutes alors qu&apos;il publie seulement une fois par semaine, c&apos;est que vous êtes un sagouin qui n&apos;a pas vraiment réfléchi sur l&apos;utilité des flux RSS. En passant par Google Reader, vous reportez sur la société de Mountain View la responsabilité de réfléchir.&lt;/li&gt;
+&lt;li&gt;Ce n&apos;est pas mon cas, mais &lt;a href=&quot;http://forums.cocoaforge.com/viewtopic.php?t=26132&amp;amp;p=136557&quot; title=&quot;Ten hours of articles missing after restart (Cocoaforge)&quot; hreflang=&quot;en&quot;&gt;certaines personnes peuvent être confrontées à des sites particulièrement bavards&lt;/a&gt;, qui nécessitent une collecte permanente des articles publiés. Un serveur allumé en permanence est la meilleure solution dans de tels cas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il fut un temps où je lisais tous mes flux en allant les chercher chez Google. Depuis le début de 2013, et même en tenant compte des raisons cités plus haut, moins de 10% des flux que je lis passent par Google. Ajoutons que je n&apos;ai jamais utilisé l&apos;interface web de Google Reader qu&apos;à titre de solution de dépannage temporaire, car un client RSS dédié est bien plus réactif et sollicite moins la bande passante. C&apos;est encore mieux lorsque ce client est capable de stocker les images afin de les afficher même en l&apos;absence de connexion.&lt;/p&gt;
+
+&lt;p&gt;Il n&apos;empêche que Google Reader ferme le 1er juillet, et l&apos;on ressent comme un manque. Vers quoi se tourner ?&lt;/p&gt;
+
+&lt;p&gt;Pour beaucoup, l&apos;alternative s&apos;appelle &lt;a href=&quot;http://feedly.com&quot; title=&quot;Feedly. A Better Reader&quot; hreflang=&quot;en&quot;&gt;Feedly&lt;/a&gt;. Feedly a gagné 500.000 utilisateurs dans les 48 heures qui ont suivi l&apos;annonce de l&apos;arrêt de Google Reader, et cela n&apos;a rien d&apos;étonnant : le produit est séduisant à l&apos;oeil et plutôt bien fait. De plus, Feedly a été un des premiers services à annoncer qu&apos;il s&apos;efforcerait de reproduire l&apos;API de Google Reader, ce qui ne peut qu&apos;intéresser tous les développeurs de clients RSS comme moi.&lt;/p&gt;
+
+&lt;p&gt;Mais à titre personnel, je crains que Feedly ne soit pas le produit qui s&apos;adapte à mes besoins :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;l&apos;accès est largement moins universel que je ne le voudrais. Pour le moment, l&apos;accès à Feedly n&apos;est possible qu&apos;après l&apos;installation d&apos;une application dédiée pour iOS ou Android ou d&apos;une extension spécifique à certains navigateurs web (Safari, Firefox ou Chrome seulement).&lt;/li&gt;
+&lt;li&gt;le &lt;i lang=&quot;en&quot;&gt;business model&lt;/i&gt; de Feedly est encore plus mystérieux que celui de Google. Maintenir des serveurs pour satisfaire des utilisateurs coûte de l&apos;argent, qu&apos;entend faire Feedly pour faire bouillir la marmite ? Quelles seront plus tard les contreparties à payer pour ces &quot;clients&quot; ? (&quot;clients&quot; est mis ici entre guillemets, car le vrai client est celui qui paye en argent sonnant et trébuchant).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce billet devait traiter des petites astuces nécessaires pour mettre en place une installation de Tiny Tiny RSS. &lt;a href=&quot;https://github.com/ViennaRSS/vienna-rss/issues/160#issuecomment-15705208&quot; title=&quot;Vienna RSS : comment on issue #160&quot; hreflang=&quot;en&quot;&gt;Mais il m&apos;est entretemps apparu que NewsBlur.com était une meilleure alternative&lt;/a&gt;.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/innovant/alternatives-google-reader.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/innovant</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-04-02T07:21:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
 	<title>Remembering the days of doom</title>
 	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
@@ -370,29 +403,6 @@ hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder 
     <dc:subject>/blogosphere</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-06-27T23:02:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/web/migration_ok.html">
-	<title>Revoilà l&apos;ancien combattant féru de nouvelles technologies</title>
-	<link>http://blog.barijaona.com/web/migration_ok.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;La migration du blog est achevée. La politique d&apos;Apple, qui consiste à jeter sans pitié à la poubelle toute technologie qui n&apos;est plus jugée suffisamment bonne, a certes des inconvénients, mais aussi des avantages. Après avoir subi la disparition finalement oubliée des lecteurs de disquettes, des ports série et SCSI, il a fallu cette année faire passer à la trappe MobileMe, précédemment Mac.com, anciennement iTools...&lt;/p&gt;
-
-&lt;p&gt;Mais cette politique de la terre brûlée technologique a sa contrepartie bénéfique : en obligeant à repartir d&apos;une feuille blanche, elle amène à s&apos;interroger sur ce que l&apos;on estime vraiment essentiel et à concentrer toute son énergie sur l&apos;amélioration de l&apos;avenir.&lt;/p&gt;
-
-&lt;p&gt;À l&apos;abandon de mac.com s&apos;est ajouté celui de Haloscan/JS-Kit, celui-ci renonçant à ses activités d&apos;hébergement de commentaires de blogs en Octobre prochain. C&apos;est finalement cette seconde migration qui m&apos;aura demandé le plus de travail et causé des frustrations ; car en examinant les alternatives, seul Disqus s&apos;est avéré en mesure de récupérer le stock (dont une partie est vieille de dix ans) et même cela a loin d&apos;être sans difficultés, l&apos;alchimie de la liaison entre un billet et ses commentaires s&apos;étant avérée plutôt subtile... Quant aux frustrations, elles tiennent d&apos;une part à la nouvelle obligation d&apos;avoir Javascript pour lire les commentaires, et d&apos;autre part à la perte des Gravatars liés aux anciens commentaires.&lt;/p&gt;
-
-&lt;p&gt;Malgré cela, j&apos;avoue que je reste plutôt satisfait de ce double &lt;i lang=&quot;en&quot;&gt;reset&lt;/i&gt; technologique. Tout en préservant une philosophie minimaliste et un certain dépouillement graphique, il y a de réels rafraichissements dans la version 2012 :
-- celui qui, à mon sens, était le plus indispensable consiste en une lecture facilitée sur les petits écrans des téléphones portables ; sur ce point, le résultat visuel me semble plus personnel que ce que j&apos;ai vu ailleurs (Wordpress et tes plugins, je m&apos;adresse à toi) ;
-- pour la page principale, Disqus ne supporte pas officiellement l&apos;affichage de commentaires de plusieurs articles sur une seule page, mais uniquement l&apos;affichage du nombre de commentaires avec des renvois vers les pages individuelles. N&apos;ayant pas l&apos;habitude de me laisser impressionner par ce genre de challenge, j&apos;ai hésité entre inclusions AJAH à l&apos;intérieur de la page (&lt;a href=&quot;http://blog.barijaona.com/web/commentaires_ajah.html&quot; title=&quot;Billet de janvier 2008&quot;&gt;ça rappellera peut-être quelque chose aux anciens&lt;/a&gt;) et les popups en dialogue modal. Les deux solutions ont été réalisées, mais quelques effets de bord avec l&apos;inclusion AJAH m&apos;ont amené à m&apos;en tenir à la seconde solution (Disqus 2012 n&apos;était pas encore disponible au moment des tests). Ce choix n&apos;est peut-être pas définitif, bien que j&apos;ai réussi à me passer du lourd jQuery (merci Tinybox 2) tout en conciliant écrans traditionnels et tactiles, du moins sur navigateurs basés sur Webkit.&lt;/p&gt;
-
-&lt;p&gt;Vos commentaires sur la fonction commentaires (ah ah) seront particulièrement bienvenus : avec un intérêt particulier sur les préférences en matière d&apos;accessibilité, les suggestions d&apos;améliorations pour les mobiles sous Opera, Mozilla et même (pas si sectaire que ça) Internet Explorer, voire des alternatives &lt;i lang=&quot;en&quot;&gt;opensource&lt;/i&gt; à Disqus... Tout est possible, y compris l&apos;impossible.&lt;/p&gt;
-
-&lt;p&gt;Autrement, par simplicité administrative et parce que ça ne fait pas de mal de commercer avec des gens qu&apos;on connaît IRL (Mahefa est un ancien collègue de travail, et pas le plus mauvais), je me suis adressé pour l&apos;hébergement à &lt;a href=&quot;http://dot.mg/&quot; title=&quot;internet pour les cools&quot;&gt;dot.mg&lt;/a&gt; (qui lui même s&apos;approvisionne chez Hostigation). Prix très compétitif, support sympa et efficace, et un environnement Debian Squeeze familier qui me permet d&apos;utiliser &lt;code&gt;ssh&lt;/code&gt; et &lt;code&gt;git&lt;/code&gt; : bien plus rapide pour transférer les mises à jour que la combinaison antérieure WebDAV/&lt;code&gt;rsync&lt;/code&gt;. De quoi m&apos;inciter peut-être à faire des billets plus nombreux et plus courts. Au bénéfice de mes 3 lecteurs ?&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/web/migration_ok.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/web</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-06-22T01:46:00+03:00</dc:date>
     
   </item>
 
