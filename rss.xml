@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,53 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
+	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
+	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;em&gt;Initialement paru sur &lt;a href=&quot;http://www.madagascar-tribune.com/Lettre-ouverte-a-Mme-Beatrice,19274.html&quot;&gt;Madagascar-Tribune.com&lt;/a&gt; le 28 octobre 2013&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Madame,&lt;/p&gt;
+
+&lt;p&gt;J’ai été interloquée par une de vos déclarations &lt;a href=&quot;http://www.france24.com/fr/20131026-madagascar-vers-second-tour-candidats-ravalomanana-rajoelina?ns_campaign=editorial&amp;amp;ns_source=twitter&amp;amp;ns_mchannel=reseaux_sociaux&amp;amp;ns_fee=&amp;amp;ns_linkname=20131026_madagascar_vers_second_tour_candidats_ravalomanana&amp;amp;utm_source=dlvr.it&amp;amp;utm_medium=twitter&quot; title=&quot;France24&quot;&gt;rapportée par l’AFP&lt;/a&gt; : « Je ne sais pas d’où peuvent venir les fraudes ». Ces propos étaient-ils seulement maladroits ou traduisaient-ils le véritable fond de votre pensée ? Toujours est-il que je n’ai pu m’empêcher de penser : « que de certitudes aveugles ! ou alors quel cruel manque d’imagination ! ». Je sais de vous fort peu de chose, si ce n’est que vous êtes magistrate. Je ne sais si vous avez exercé plutôt dans le domaine pénal ou dans le domaine administratif, mais quoi qu’il en soit, vous ne pouvez ignorer que la quasi-totalité des fraudes trouvent leur origine dans l’exploitation par des personnes malintentionnées des faiblesses d’un système.&lt;/p&gt;
+
+&lt;p&gt;Je ne dis pas qu’il y a eu beaucoup de fraudes ce vendredi, mais je ne peux vous laisser dans l’ignorance que des faiblesses existent toujours, et il est malheureux que ce soit dans deux domaines dont on savait pertinemment qu’ils étaient déjà fragiles :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;l’établissement de la liste électorale&lt;/li&gt;
+&lt;li&gt;les opérations d’après scrutin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oui, la loi dit que tout électeur doit vérifier son inscription sur la liste électorale, et que l’absence de vérification entraîne ipso facto la perte de tout droit à réclamation. Mais la loi dit aussi qu’un avis de la disponibilité de la liste électorale auprès des fokontany doit être affiché aux bureaux des services publics de la localité et aux principaux points de rassemblement. Je n’ai rien vu de tel dans les bureaux de poste, les bureaux de la CNaPS, dans les dispensaires publics ou à proximité des arrêts de taxi-be ou des marchés. Sur les médias audio-visuels, le timing des campagnes de sensibilisation était tout simplement incongru. Aux moments clés, pas un seul spot pour dire que c’était le moment de se précipiter auprès du fokontany pour vérifier la liste définitive. &lt;/p&gt;
+
+&lt;p&gt;Personnellement, je ne l’ai appris que par lecture attentive des journaux et écoute des longs journaux de la RNM. Plus tard, vous avez aussi déclaré qu’il ne restait que quelque jours pour aller au district afin de vérifier que son nom était bien inscrit, mais qui a entendu votre message, et combien de paysans auront eu le temps de se déplacer jusqu’au chef lieu de district ? Je n’ai entendu de réels spots de sensibilisation à la vérification de la liste électorale que lorsque cette liste était déjà close : argent jeté par la fenêtre et « médecin après la mort » comme le dit l’expression populaire…&lt;/p&gt;
+
+&lt;p&gt;Quant aux opérations d’après scrutin, elles ne donnent pas l’impression d’avoir évolué dans le bon sens. Je suis régulièrement scrutateur dans mon quartier&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt; pour toutes les élections importantes depuis 1993. Je n’ai jamais trouvé le processus aussi fragile que cette année. Certes, il y a des progrès, comme le système de fermeture des plis, plus pratique et sans doute plus fiable que les cachets d’antan, ou encore la lampe à LEDs fournie par la CENIT qui permet de travailler un peu plus confortablement lors de l’établissement des PVs. Mais malgré la meilleur volonté du monde, les membres du bureau de vote étaient à la peine : ils avouaient n’avoir reçu qu’une heure trente de formation, et devaient sans cesse se référer à un livret d’instructions pas si explicite que cela. Aberration, la contexture des documents laissait croire que les scrutateurs devaient signer le PV avant que les mentions sur le nombre de voix de chaque candidat soient complétées. Beaucoup l’ont d’ailleurs fait et sont partis tout de suite après… et ils ont peut-être eu « raison » de procéder ainsi, car, pour moi qui par déformation professionnelle refuse de signer un document incomplet, les opérations n’étaient finies qu’à 22 heures 30 ! Évidemment, il n’y avait plus grand monde dans le bureau de vote à ce moment là pour vérifier qu’on ne substituait pas des documents, substitution d’autant plus facile qu’avec le nombre d’exemplaires nécessaires, le papier autocopiant montrait ses limites. Heureusement pour moi, j’ai l’habitude de me coucher tard…&lt;/p&gt;
+
+&lt;p&gt;Quant aux délégués des candidats, ne comptons pas sur eux… Il n’y en avait que deux dans le bureau de vote où j’ai déposé mon scrutin (pourtant situé dans la capitale), et l’un est parti dès 19 heures…&lt;/p&gt;
+
+&lt;p&gt;Au final, Madame, tout cela donne l’impression que la CENIT s’est particulièrement attachée à soigner certains aspects directement visibles par les électeurs, mais que ce que l’on pourrait appeler le &lt;i lang=&quot;en&quot;&gt;back-office&lt;/i&gt;&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;, c’est à dire la logistique du bureau de vote à l’issue du scrutin, a été un rien négligée, tant en ce qui concerne son organisation que sur la communication autour. J’espère que vous serez attentive à redresser cela.&lt;/p&gt;
+
+&lt;p&gt;Cordialement,&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Barijaona Ramaholimihaso&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Note qui parait nécessaire vu les questions qui m’ont été posées sur les réseaux sociaux : la tâche de scrutateur n’a absolument rien à voir avec la tenue du bureau de vote et est ouverte à tout citoyen volontaire qui est présent au moment des opérations de comptage de voix.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Appellation à moitié satisfaisante ici, car ces opérations doivent être faites en public, mais vu que le public était depuis longtemps parti se coucher…&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-10-29T02:27:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/innovant/alternatives-google-reader.html">
 	<title>Après Google Reader, quelles alternatives ?</title>
 	<link>http://blog.barijaona.com/innovant/alternatives-google-reader.html</link>
@@ -384,25 +431,6 @@ hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder 
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-09-16T01:42:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html">
-	<title>Mme Figaro et Mme Streisand</title>
-	<link>http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Il y a un certain groupe de presse qui ne manque pas d&apos;air, et qui n&apos;a pas la légèreté d&apos;un Mozart...&lt;/p&gt;
-
-&lt;p&gt;J&apos;invite tous les blogs à créer un lien &lt;code&gt;&amp;lt;a href=&quot;http://leschantiersdelapprentissage.eklablog.com/&quot;&amp;gt;Madame Figaro&amp;lt;/a&amp;gt;&lt;/code&gt; pour bien marquer que la vraie &lt;a href=&quot;http://leschantiersdelapprentissage.eklablog.com/&quot;&gt;Madame Figaro, c&apos;est elle&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pourquoi ? &lt;a href=&quot;http://leschantiersdelapprentissage.eklablog.com/the-f-word-ou-la-coccinelle-contre-l-elephant-a47033181&quot; title=&quot;The F word ou la coccinelle contre l’éléphant&quot;&gt;Parce que c&apos;est l&apos;histoire du pot de terre et du pot de fer&lt;/a&gt;... Et même si le groupe de presse qui ne manque pas d&apos;air change d&apos;avis, que sa politique de gros sabots reste en mémoire.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit :&lt;/strong&gt; J&apos;ai un gros faible pour cette &lt;a href=&quot;http://teachercharlotte.blogspot.fr/2012/06/la-fable-de-la-coccinelle-et-de.html&quot; title=&quot;Teacher Charlotte&quot;&gt;fable de la coccinelle et de l&apos;éléphant&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit 2:&lt;/strong&gt; &lt;a href=&quot;http://laclassedemmefigaro.eklablog.com/le-retour-de-la-classe-de-mme-figaro-a47367506&quot; title=&quot;Le retour de la classe de Mme Figaro&quot;&gt;Tout est bien qui finit bien&lt;/a&gt; (sauf que c&apos;est désormais Mme et non pas Madame...) &lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-06-27T23:02:00+03:00</dc:date>
     
   </item>
 

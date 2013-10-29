@@ -11,7 +11,7 @@
 > 
 
   <channel rdf:about="http://blog.barijaona.com">
-    <title>Quai Sud, 2 minutes d'arrêt</title>
+    <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/protections-asiatiques.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr_recap_200902.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090216.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090209.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr7fevrier2009.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/double-messieurs.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/coup-d-etat-andry.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,16 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
+	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
+	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
+	<description>Initialement paru sur Madagascar-Tribune...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-10-29T02:27:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/madagascar/protections-asiatiques.html">
 	<title>Comment écrit-on &quot;vérifier&quot; en mandarin ?</title>
 	<link>http://blog.barijaona.com/madagascar/protections-asiatiques.html</link>
@@ -79,7 +89,7 @@
     
   </item>
 <item rdf:about="http://blog.barijaona.com/madagascar/cr20090209.html">
-	<title>Petit bilan de l'aube</title>
+	<title>Petit bilan de l&apos;aube</title>
 	<link>http://blog.barijaona.com/madagascar/cr20090209.html</link>
 	<description>Les questions du jour : quelqu'un peut-il m'aider à identifier le monsieur au centre de la photo ...</description>
     
@@ -106,16 +116,6 @@
     <dc:subject>/madagascar</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2009-02-06T06:43:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/madagascar/coup-d-etat-andry.html">
-	<title>Opposant systématique, moi ?</title>
-	<link>http://blog.barijaona.com/madagascar/coup-d-etat-andry.html</link>
-	<description>Bon, pour le factuel pur et dur, j'ai déjà contribué en ce qui concerne les deux camps, et les photos viennent d'être chargées sur Flickr...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-02-01T10:13:00+03:00</dc:date>
     
   </item>
 

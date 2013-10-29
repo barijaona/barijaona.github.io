@@ -187,4 +187,25 @@ text-align:right;
 border:1px solid gray ; background-color:#f3f3f3; font-size:small ; padding-left:2%; padding-right:2%; }
 
 .InputCell { font-size:small ;}
+
+a.footnote {
+	background-color: #fff9c7;
+	font-size: smaller;
+	vertical-align: baseline;
+	position: relative;
+	bottom: 0.5em;
+}
+
+a.footnote:before {
+	content: "{";
+}
+
+a.footnote:after {
+	content: "}";
+}
+
+a.reversefootnote {
+	background-color: #fff9c7;
+}
+
 /* */
