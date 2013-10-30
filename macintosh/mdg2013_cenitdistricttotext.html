@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
+<title>#mdg2013 Code de traitement informatique : Étonnements rapides et durables</title>
+<meta name="DESCRIPTION" content="Mac-maniaque incurable" />
+<meta name="keywords" content="macintosh, print66, geek, madagascar, malgache, madagasikara, malagasy, barijaona, ramaholimihaso, blog" />
+<meta name="ICBM" content="-18.9079, 47.5333" /> 
+<meta name="geo.region" content="MG-T" />
+<meta name="viewport" content="initial-scale=1" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://blog.barijaona.com/favicon.ico" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona6.css" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme3.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
+<link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
+<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="prev" href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" title="#mdg2013 Lettre ouverte à Mme Béatrice Atallah" />
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-598147-1";
+urchinTracker();
+</script>
+
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><br /><br /><h2 class="dateofday">mercredi 30 octobre 2013</h2>
+
+<div class="post"><article class="hentry">
+<h3 class="accent3 entry-title instapaper_title"><time datetime="2013-10-30" class="timestamp"><a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;07:56&nbsp;]</a></time>&nbsp;#mdg2013 Code de traitement informatique</h3>
+<div class="post-full entry-content instapaper_body"><pre>
+#!/bin/bash
+#
+# cenitdistricttotext
+#
+# Script qui convertit les fichiers PDF par région / district de la CENIT
+# en un fichier plat plus facilement exploitable
+#
+# Copyright 2013 Barijaona Ramaholimihaso (http://blog.barijaona.com)
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#  http:#www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+#
+
+# référence technique pour les choses les plus mystérieuses : sed one liners http://sed.sourceforge.net/sed1line_fr.html
+# et/ou http://www.corporesano.org/doc-site/grepawksed.html
+
+Filename="consolidation.txt"
+rm -f $Filename
+
+#
+# on part d'un fichier PDF par région
+# à récupérer avec un aspirateur de site Web comme SiteSucker
+# L'adresse à aspirer est http://www.cenit-madagascar.mg/res/Recap_Region_.php
+#
+
+for i in *.pdf
+do
+    # récupérer dans un fichier temporaire la conversion en texte du PDF
+    #
+    # pdftotext est une petite partie du package Xpdf http://www.foolabs.com/xpdf/home.html
+    # Mac OS X version : http://www.bluem.net/en/mac/packages/ 
+    pdftotext -enc UTF-8 -nopgbrk "$i" buffer.txt
+
+    # récupérer les lignes contenant 'Votants', 'obtenues' ou 'Total'
+    egrep -e .*Votants.* -e .*obtenues.* -e .*Total.*  buffer.txt |\
+    # éliminer les données après tout signe %
+    # (c'est les numéros des candidats et autres choses qui prêtent à confusion à cause des sauts de pages)
+        sed  's@%.*@%@g' |\
+    # fusionner les lignes commencant par un chiffre avec la ligne précédente
+    # (ruptures de données provoquées par les sauts de pages)
+        sed -e :a -e '$!N;s/\n\([0-9]\)/ \1/;ta' -e 'P;D' |\
+    # fusionner les lignes deux à deux
+        sed '$!N;s/\n/ /'|\
+    # supprimer éventuellement le nom de la région qui reste souvent accroché au premier district
+        sed 's@REGION: \(.*\)District:@District:@' |\
+    # remplacer l'espace après "District:" et l'espace avant "Inscrits:" par une tabulation
+        awk '{ gsub("District.?.", "District:\t") ; print $0 }' |\
+        awk '{ gsub(" Inscrits:", "\tInscrits:") ; print $0}' |\
+    # mettre en début de ligne le nom de la région et une tabulation
+        awk -v region=`basename "$i" pdf` '{printf region; printf "\t" ; print}' >> $Filename
+
+    # TODO : non parfait
+    # vous aurez à redistribuer dans Excel ou Open Office la colonne 4 en précisant comme séparateur l'espace
+    # puis, à supprimer les colonnes non pertinentes
+done
+rm buffer.txt
+</pre>
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 30/10/2013 07:57</span><br /></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'barijaona-blog';
+    var disqus_identifier='a201310300756';
+    var disqus_url='http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">Commentaires du blog hébergés par <span class="logo-disqus">Disqus</span></a>
+
+</div><br />
+
+<br /><em>Billet classé dans la catégorie :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/macintosh/index.html">Macintosh</a>&nbsp;&gt;&nbsp;Mdg2013 Cenitdistricttotext
+<br /><br /></div></div>
+
+<nav><div class="topnav">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br />
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/macintosh/" class="submenu" title="Le présent">Actualités</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/macosx.html" class="submenu" title="Les débuts de l'ère moderne">MacOS X</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/os8et9.html" class="submenu" title="Le passé...">MacOS classique</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/macrules.html" class="submenu" title="Guerre de religions ?">Pourquoi ?</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div></nav>
+
+<aside><div class="nav2">
+
+
+<div class="box"><form method="get" action="http://search.atomz.com/search/"><div class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s" /></div><div><input type="submit" value="Rechercher" /></div><p><input type="hidden" name="sp-a" value="sp1000a7cc" /></p><p><input type="hidden" name="sp-f" value="utf-8" /></p></form>
+<br />
+<span class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</span><br /></div>
+
+</div></aside>
+
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" title="billet du 29 octobre 2013">&lt;-&nbsp;#mdg2013 Lettre ouverte à Mme Béatrice Atallah</a></div></div></nav>
+
+<footer><div class="contentfooter">
+<br />
+<div class="source-org vcard copyright">
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2013 Barijaona Ramaholimihaso</div><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "SmE28OKlB@cESODEKlE.2KG"
+  key = "s1mFOjarbKtnukgZ6p39RQMBNGHCDEScU8lI5J7fVe4ixzWYoAydPh2LvqT0wX"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>reactions (arobace) barijaona.com</noscript>
+
+</div></footer>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript"><!--
+_uacct = "UA-598147-1";
+urchinTracker();
+//-->
+</script>
+
+</body>
+</html>

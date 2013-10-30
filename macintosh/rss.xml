@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/writing-mac.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/souvenirs7.5.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/safari3.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/macworld2007-apres.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html">
+	<title>#mdg2013 Code de traitement informatique</title>
+	<link>http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html</link>
+	<description>
+#...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-10-30T07:56:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
 	<title>Remembering the days of doom</title>
 	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
@@ -106,16 +117,6 @@
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2007-11-16T03:45:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/macworld2007-apres.html">
-	<title>La 3ème impression est la bonne.</title>
-	<link>http://blog.barijaona.com/macintosh/macworld2007-apres.html</link>
-	<description>Je ne me ferais pas avoir une troisième fois...</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-01-10T04:56:00+03:00</dc:date>
     
   </item>
 

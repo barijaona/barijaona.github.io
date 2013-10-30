@@ -16,7 +16,92 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2013-10-29T00:22:00Z</updated>
+  <updated>2013-10-30T04:57:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2013:/macintosh/mdg2013_cenitdistricttotext</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
+
+    <title type="text">#mdg2013 Code de traitement informatique</title>
+    <published>2013-10-30T04:56:00Z</published>
+    <updated>2013-10-30T04:57:00Z</updated>
+    <category term="/macintosh"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><pre>
+#!/bin/bash
+#
+# cenitdistricttotext
+#
+# Script qui convertit les fichiers PDF par région / district de la CENIT
+# en un fichier plat plus facilement exploitable
+#
+# Copyright 2013 Barijaona Ramaholimihaso (http://blog.barijaona.com)
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#  http:#www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+#
+
+# référence technique pour les choses les plus mystérieuses : sed one liners http://sed.sourceforge.net/sed1line_fr.html
+# et/ou http://www.corporesano.org/doc-site/grepawksed.html
+
+Filename="consolidation.txt"
+rm -f $Filename
+
+#
+# on part d'un fichier PDF par région
+# à récupérer avec un aspirateur de site Web comme SiteSucker
+# L'adresse à aspirer est http://www.cenit-madagascar.mg/res/Recap_Region_.php
+#
+
+for i in *.pdf
+do
+    # récupérer dans un fichier temporaire la conversion en texte du PDF
+    #
+    # pdftotext est une petite partie du package Xpdf http://www.foolabs.com/xpdf/home.html
+    # Mac OS X version : http://www.bluem.net/en/mac/packages/ 
+    pdftotext -enc UTF-8 -nopgbrk "$i" buffer.txt
+
+    # récupérer les lignes contenant 'Votants', 'obtenues' ou 'Total'
+    egrep -e .*Votants.* -e .*obtenues.* -e .*Total.*  buffer.txt |\
+    # éliminer les données après tout signe %
+    # (c'est les numéros des candidats et autres choses qui prêtent à confusion à cause des sauts de pages)
+        sed  's@%.*@%@g' |\
+    # fusionner les lignes commencant par un chiffre avec la ligne précédente
+    # (ruptures de données provoquées par les sauts de pages)
+        sed -e :a -e '$!N;s/\n\([0-9]\)/ \1/;ta' -e 'P;D' |\
+    # fusionner les lignes deux à deux
+        sed '$!N;s/\n/ /'|\
+    # supprimer éventuellement le nom de la région qui reste souvent accroché au premier district
+        sed 's@REGION: \(.*\)District:@District:@' |\
+    # remplacer l'espace après "District:" et l'espace avant "Inscrits:" par une tabulation
+        awk '{ gsub("District.?.", "District:\t") ; print $0 }' |\
+        awk '{ gsub(" Inscrits:", "\tInscrits:") ; print $0}' |\
+    # mettre en début de ligne le nom de la région et une tabulation
+        awk -v region=`basename "$i" pdf` '{printf region; printf "\t" ; print}' >> $Filename
+
+    # TODO : non parfait
+    # vous aurez à redistribuer dans Excel ou Open Office la colonne 4 en précisant comme séparateur l'espace
+    # puis, à supprimer les colonnes non pertinentes
+done
+rm buffer.txt
+</pre>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2013:/madagascar/mdg2013_lettre_ouverte</id>
@@ -443,37 +528,6 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p>Il y a de quoi être un rien jaloux à voir une telle catégorie baptisée « Fastoche... »</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2012:/macintosh/vienna</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/vienna.html" />
-
-    <title type="text">Ça gratte...</title>
-    <published>2012-09-15T22:42:00Z</published>
-    <updated>2012-09-16T17:42:00Z</updated>
-    <category term="/macintosh"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Les langages informatiques, c'est un peu comme les goûts et les couleurs. Quitte à passer pour un vieux ringard, j'avoue rester un peu Pascalien dans l'âme. J'aime les <code>THEN</code> bien lisibles, et prise fort peu les langages où la ponctuation joue un rôle clé.</p>
-
-<p>Les syntaxes dérivées des shells Unix ou du C et leurs exigences côté <code>{</code>, <code>}</code>, <code>&amp;&amp;</code>, <code>||</code> et <code>;</code> ont un petit côté masochiste à mes yeux. Oui, on s'y fait : <a href="http://blosxom.git.sourceforge.net/git/gitweb.cgi?p=blosxom/blosxom;a=search;s=barijaona;st=author" title="Contributions to Blosxom" hreflang="en">j'ai même pratiqué avec intérêt le Perl</a>, langage cryptique s'il en est.</p>
-
-<p>Mais ces syntaxes restent peu naturelles à mes yeux. Lorsque je lis par exemple du code Javascript et du code Applescript, je ne ressens pas du tout le même plaisir. Inexplicable et pas forcément rationnel, mais c'est comme cela.</p>
-
-<p>Et puis, à la fin de l'année dernière, j'ai lu la <a href="http://www.cocoalab.com/?q=BecomeAnXcoder-Francais" title="Cocoalab">version française de « <i lang="en">Become an Xcoder</i> »</a>. Et le côté intimidant du C et des surcouches objet s'est d'un coup sérieusement éloigné : foin de pointeurs, de complications liées à l'allocation d'objets... à condition d'accepter d'oublier tout ce qu'on avait appris auparavant.</p>
-
-<p>Dans la réalité, les choses sont parfois un peu plus compliquées. Le langage a connu des évolutions dans le temps, et l'on rencontre notamment différentes approches en matière de gestion de mémoire. Me faisant la main en tentant d'améliorer du code existant, je découvrais plein de choses et ne voulait surtout pas tout casser ; et mon côté « développement durable » m'incite particulièrement à ne pas rendre des machines encore vaillantes prématurément <a href="http://cocoaforge.com/viewtopic.php?f=18&amp;t=23907&amp;p=133050&amp;hilit=leopard&amp;sid=cb5598283d3ab2eb4ad624661c905b1d#p132056" title="Discussion on PowerPC support : Vienna forums" hreflang="en">obsolètes</a>.</p>
-
-<p>Mais en seulement huit mois, que de progrès ! Coïncidence, <a href="http://www.vienna-rss.org/?p=371" title="Vienna 3 BETA with Google Reader Synch" hreflang="en">l'annonce publique du travail fait</a> coïncidait avec une longue discussion un brin idéologique avec @tandriamirado (<a href="https://twitter.com/barijaona/status/247069339822460928" title="Twitter">premier</a>, <a href="https://twitter.com/barijaona/status/247070879329181696" title="Twitter">deuxième</a> et <a href="https://twitter.com/barijaona/status/247073353184186368" title="Twitter">troisième</a> arguments) qui m'en <a href="http://cocoaforge.com/viewtopic.php?f=18&amp;t=24469&amp;p=133635" title="Cocoaforge forum : feature request" hreflang="en">rappelait une autre</a> pas si lointaine.</p>
-
-<p>Je ne suis pas un idéologue, mais s'il est une chose que je peux assurer, c'est que coder sur Mac, ça me fait du bien. Et l'<i lang="en">open source</i>, il vaut mieux en faire qu'en parler.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/vienna.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

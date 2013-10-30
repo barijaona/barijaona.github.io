@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,83 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html">
+	<title>#mdg2013 Code de traitement informatique</title>
+	<link>http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;pre&gt;
+#!/bin/bash
+#
+# cenitdistricttotext
+#
+# Script qui convertit les fichiers PDF par région / district de la CENIT
+# en un fichier plat plus facilement exploitable
+#
+# Copyright 2013 Barijaona Ramaholimihaso (http://blog.barijaona.com)
+#
+#  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#  http:#www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+#
+
+# référence technique pour les choses les plus mystérieuses : sed one liners http://sed.sourceforge.net/sed1line_fr.html
+# et/ou http://www.corporesano.org/doc-site/grepawksed.html
+
+Filename=&quot;consolidation.txt&quot;
+rm -f $Filename
+
+#
+# on part d&apos;un fichier PDF par région
+# à récupérer avec un aspirateur de site Web comme SiteSucker
+# L&apos;adresse à aspirer est http://www.cenit-madagascar.mg/res/Recap_Region_.php
+#
+
+for i in *.pdf
+do
+    # récupérer dans un fichier temporaire la conversion en texte du PDF
+    #
+    # pdftotext est une petite partie du package Xpdf http://www.foolabs.com/xpdf/home.html
+    # Mac OS X version : http://www.bluem.net/en/mac/packages/ 
+    pdftotext -enc UTF-8 -nopgbrk &quot;$i&quot; buffer.txt
+
+    # récupérer les lignes contenant &apos;Votants&apos;, &apos;obtenues&apos; ou &apos;Total&apos;
+    egrep -e .*Votants.* -e .*obtenues.* -e .*Total.*  buffer.txt |\
+    # éliminer les données après tout signe %
+    # (c&apos;est les numéros des candidats et autres choses qui prêtent à confusion à cause des sauts de pages)
+        sed  &apos;s@%.*@%@g&apos; |\
+    # fusionner les lignes commencant par un chiffre avec la ligne précédente
+    # (ruptures de données provoquées par les sauts de pages)
+        sed -e :a -e &apos;$!N;s/\n\([0-9]\)/ \1/;ta&apos; -e &apos;P;D&apos; |\
+    # fusionner les lignes deux à deux
+        sed &apos;$!N;s/\n/ /&apos;|\
+    # supprimer éventuellement le nom de la région qui reste souvent accroché au premier district
+        sed &apos;s@REGION: \(.*\)District:@District:@&apos; |\
+    # remplacer l&apos;espace après &quot;District:&quot; et l&apos;espace avant &quot;Inscrits:&quot; par une tabulation
+        awk &apos;{ gsub(&quot;District.?.&quot;, &quot;District:\t&quot;) ; print $0 }&apos; |\
+        awk &apos;{ gsub(&quot; Inscrits:&quot;, &quot;\tInscrits:&quot;) ; print $0}&apos; |\
+    # mettre en début de ligne le nom de la région et une tabulation
+        awk -v region=`basename &quot;$i&quot; pdf` &apos;{printf region; printf &quot;\t&quot; ; print}&apos; &gt;&gt; $Filename
+
+    # TODO : non parfait
+    # vous aurez à redistribuer dans Excel ou Open Office la colonne 4 en précisant comme séparateur l&apos;espace
+    # puis, à supprimer les colonnes non pertinentes
+done
+rm buffer.txt
+&lt;/pre&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-10-30T07:56:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
 	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
 	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
@@ -408,29 +485,6 @@ hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder 
     <dc:subject>/humour</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-09-19T06:30:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
-	<title>Ça gratte...</title>
-	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Les langages informatiques, c&apos;est un peu comme les goûts et les couleurs. Quitte à passer pour un vieux ringard, j&apos;avoue rester un peu Pascalien dans l&apos;âme. J&apos;aime les &lt;code&gt;THEN&lt;/code&gt; bien lisibles, et prise fort peu les langages où la ponctuation joue un rôle clé.&lt;/p&gt;
-
-&lt;p&gt;Les syntaxes dérivées des shells Unix ou du C et leurs exigences côté &lt;code&gt;{&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt;, &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;, &lt;code&gt;||&lt;/code&gt; et &lt;code&gt;;&lt;/code&gt; ont un petit côté masochiste à mes yeux. Oui, on s&apos;y fait : &lt;a href=&quot;http://blosxom.git.sourceforge.net/git/gitweb.cgi?p=blosxom/blosxom;a=search;s=barijaona;st=author&quot; title=&quot;Contributions to Blosxom&quot; hreflang=&quot;en&quot;&gt;j&apos;ai même pratiqué avec intérêt le Perl&lt;/a&gt;, langage cryptique s&apos;il en est.&lt;/p&gt;
-
-&lt;p&gt;Mais ces syntaxes restent peu naturelles à mes yeux. Lorsque je lis par exemple du code Javascript et du code Applescript, je ne ressens pas du tout le même plaisir. Inexplicable et pas forcément rationnel, mais c&apos;est comme cela.&lt;/p&gt;
-
-&lt;p&gt;Et puis, à la fin de l&apos;année dernière, j&apos;ai lu la &lt;a href=&quot;http://www.cocoalab.com/?q=BecomeAnXcoder-Francais&quot; title=&quot;Cocoalab&quot;&gt;version française de « &lt;i lang=&quot;en&quot;&gt;Become an Xcoder&lt;/i&gt; »&lt;/a&gt;. Et le côté intimidant du C et des surcouches objet s&apos;est d&apos;un coup sérieusement éloigné : foin de pointeurs, de complications liées à l&apos;allocation d&apos;objets... à condition d&apos;accepter d&apos;oublier tout ce qu&apos;on avait appris auparavant.&lt;/p&gt;
-
-&lt;p&gt;Dans la réalité, les choses sont parfois un peu plus compliquées. Le langage a connu des évolutions dans le temps, et l&apos;on rencontre notamment différentes approches en matière de gestion de mémoire. Me faisant la main en tentant d&apos;améliorer du code existant, je découvrais plein de choses et ne voulait surtout pas tout casser ; et mon côté « développement durable » m&apos;incite particulièrement à ne pas rendre des machines encore vaillantes prématurément &lt;a href=&quot;http://cocoaforge.com/viewtopic.php?f=18&amp;amp;t=23907&amp;amp;p=133050&amp;amp;hilit=leopard&amp;amp;sid=cb5598283d3ab2eb4ad624661c905b1d#p132056&quot; title=&quot;Discussion on PowerPC support : Vienna forums&quot; hreflang=&quot;en&quot;&gt;obsolètes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mais en seulement huit mois, que de progrès ! Coïncidence, &lt;a href=&quot;http://www.vienna-rss.org/?p=371&quot; title=&quot;Vienna 3 BETA with Google Reader Synch&quot; hreflang=&quot;en&quot;&gt;l&apos;annonce publique du travail fait&lt;/a&gt; coïncidait avec une longue discussion un brin idéologique avec @tandriamirado (&lt;a href=&quot;https://twitter.com/barijaona/status/247069339822460928&quot; title=&quot;Twitter&quot;&gt;premier&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/barijaona/status/247070879329181696&quot; title=&quot;Twitter&quot;&gt;deuxième&lt;/a&gt; et &lt;a href=&quot;https://twitter.com/barijaona/status/247073353184186368&quot; title=&quot;Twitter&quot;&gt;troisième&lt;/a&gt; arguments) qui m&apos;en &lt;a href=&quot;http://cocoaforge.com/viewtopic.php?f=18&amp;amp;t=24469&amp;amp;p=133635&quot; title=&quot;Cocoaforge forum : feature request&quot; hreflang=&quot;en&quot;&gt;rappelait une autre&lt;/a&gt; pas si lointaine.&lt;/p&gt;
-
-&lt;p&gt;Je ne suis pas un idéologue, mais s&apos;il est une chose que je peux assurer, c&apos;est que coder sur Mac, ça me fait du bien. Et l&apos;&lt;i lang=&quot;en&quot;&gt;open source&lt;/i&gt;, il vaut mieux en faire qu&apos;en parler.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/vienna.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-09-16T01:42:00+03:00</dc:date>
     
   </item>
 

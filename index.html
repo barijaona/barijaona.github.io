@@ -15,7 +15,7 @@
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
 <link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
-<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="Atom (courtes notes)" href="http://twitter.com/statuses/user_timeline/19493475.rss" /><link rel="prev" href="http://blog.barijaona.com/plusperso/jobs.html" title="Se faire de la bile" />
+<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="Atom (courtes notes)" href="http://twitter.com/statuses/user_timeline/19493475.rss" /><link rel="prev" href="http://blog.barijaona.com/web/migration_ok.html" title="Revoilà l'ancien combattant féru de nouvelles technologies" />
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
 <script type="text/javascript">
@@ -49,6 +49,80 @@ function getComment(threadId,refPageURL){
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><h2></h2>
+<div class="post"><article class="hentry">
+<h3 class="accent3 entry-title instapaper_title"><a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2013-10-30" class="timestamp">[&nbsp;mercredi 30 octobre 2013,&nbsp;07:56&nbsp;]</time>&nbsp;#mdg2013 Code de traitement informatique</a></h3>
+<div class="post-full entry-content instapaper_body"><pre>
+#!/bin/bash
+#
+# cenitdistricttotext
+#
+# Script qui convertit les fichiers PDF par région / district de la CENIT
+# en un fichier plat plus facilement exploitable
+#
+# Copyright 2013 Barijaona Ramaholimihaso (http://blog.barijaona.com)
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#  http:#www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+#
+
+# référence technique pour les choses les plus mystérieuses : sed one liners http://sed.sourceforge.net/sed1line_fr.html
+# et/ou http://www.corporesano.org/doc-site/grepawksed.html
+
+Filename="consolidation.txt"
+rm -f $Filename
+
+#
+# on part d'un fichier PDF par région
+# à récupérer avec un aspirateur de site Web comme SiteSucker
+# L'adresse à aspirer est http://www.cenit-madagascar.mg/res/Recap_Region_.php
+#
+
+for i in *.pdf
+do
+    # récupérer dans un fichier temporaire la conversion en texte du PDF
+    #
+    # pdftotext est une petite partie du package Xpdf http://www.foolabs.com/xpdf/home.html
+    # Mac OS X version : http://www.bluem.net/en/mac/packages/ 
+    pdftotext -enc UTF-8 -nopgbrk "$i" buffer.txt
+
+    # récupérer les lignes contenant 'Votants', 'obtenues' ou 'Total'
+    egrep -e .*Votants.* -e .*obtenues.* -e .*Total.*  buffer.txt |\
+    # éliminer les données après tout signe %
+    # (c'est les numéros des candidats et autres choses qui prêtent à confusion à cause des sauts de pages)
+        sed  's@%.*@%@g' |\
+    # fusionner les lignes commencant par un chiffre avec la ligne précédente
+    # (ruptures de données provoquées par les sauts de pages)
+        sed -e :a -e '$!N;s/\n\([0-9]\)/ \1/;ta' -e 'P;D' |\
+    # fusionner les lignes deux à deux
+        sed '$!N;s/\n/ /'|\
+    # supprimer éventuellement le nom de la région qui reste souvent accroché au premier district
+        sed 's@REGION: \(.*\)District:@District:@' |\
+    # remplacer l'espace après "District:" et l'espace avant "Inscrits:" par une tabulation
+        awk '{ gsub("District.?.", "District:\t") ; print $0 }' |\
+        awk '{ gsub(" Inscrits:", "\tInscrits:") ; print $0}' |\
+    # mettre en début de ligne le nom de la région et une tabulation
+        awk -v region=`basename "$i" pdf` '{printf region; printf "\t" ; print}' >> $Filename
+
+    # TODO : non parfait
+    # vous aurez à redistribuer dans Excel ou Open Office la colonne 4 en précisant comme séparateur l'espace
+    # puis, à supprimer les colonnes non pertinentes
+done
+rm buffer.txt
+</pre>
+</div></article>
+<div class="post-tools">[<a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html#disqus_thread" onclick="return(getComment('a201310300756','http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html'));" data-disqus-identifier="a201310300756">Réagir</a>]</div>
+</div><br />
+
+
 <div class="post"><article class="hentry">
 <h3 class="accent1 entry-title instapaper_title"><a href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2013-10-29" class="timestamp">[&nbsp;mardi 29 octobre 2013,&nbsp;02:27&nbsp;]</time>&nbsp;#mdg2013 Lettre ouverte à Mme Béatrice Atallah</a></h3>
 <div class="post-full entry-content instapaper_body"><p><em>Initialement paru sur <a href="http://www.madagascar-tribune.com/Lettre-ouverte-a-Mme-Beatrice,19274.html">Madagascar-Tribune.com</a> le 28 octobre 2013</em></p>
@@ -436,26 +510,6 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 </div><br />
 
 
-<div class="post"><article class="hentry">
-<h3 class="accent4 entry-title instapaper_title"><a href="http://blog.barijaona.com/web/migration_ok.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2012-06-22" class="timestamp">[&nbsp;vendredi 22 juin 2012,&nbsp;01:46&nbsp;]</time>&nbsp;Revoilà l'ancien combattant féru de nouvelles technologies</a></h3>
-<div class="post-full entry-content instapaper_body"><p>La migration du blog est achevée. La politique d'Apple, qui consiste à jeter sans pitié à la poubelle toute technologie qui n'est plus jugée suffisamment bonne, a certes des inconvénients, mais aussi des avantages. Après avoir subi la disparition finalement oubliée des lecteurs de disquettes, des ports série et SCSI, il a fallu cette année faire passer à la trappe MobileMe, précédemment Mac.com, anciennement iTools...</p>
-
-<p>Mais cette politique de la terre brûlée technologique a sa contrepartie bénéfique : en obligeant à repartir d'une feuille blanche, elle amène à s'interroger sur ce que l'on estime vraiment essentiel et à concentrer toute son énergie sur l'amélioration de l'avenir.</p>
-
-<p>À l'abandon de mac.com s'est ajouté celui de Haloscan/JS-Kit, celui-ci renonçant à ses activités d'hébergement de commentaires de blogs en Octobre prochain. C'est finalement cette seconde migration qui m'aura demandé le plus de travail et causé des frustrations ; car en examinant les alternatives, seul Disqus s'est avéré en mesure de récupérer le stock (dont une partie est vieille de dix ans) et même cela a loin d'être sans difficultés, l'alchimie de la liaison entre un billet et ses commentaires s'étant avérée plutôt subtile... Quant aux frustrations, elles tiennent d'une part à la nouvelle obligation d'avoir Javascript pour lire les commentaires, et d'autre part à la perte des Gravatars liés aux anciens commentaires.</p>
-
-<p>Malgré cela, j'avoue que je reste plutôt satisfait de ce double <i lang="en">reset</i> technologique. Tout en préservant une philosophie minimaliste et un certain dépouillement graphique, il y a de réels rafraichissements dans la version 2012 :
-- celui qui, à mon sens, était le plus indispensable consiste en une lecture facilitée sur les petits écrans des téléphones portables ; sur ce point, le résultat visuel me semble plus personnel que ce que j'ai vu ailleurs (Wordpress et tes plugins, je m'adresse à toi) ;
-- pour la page principale, Disqus ne supporte pas officiellement l'affichage de commentaires de plusieurs articles sur une seule page, mais uniquement l'affichage du nombre de commentaires avec des renvois vers les pages individuelles. N'ayant pas l'habitude de me laisser impressionner par ce genre de challenge, j'ai hésité entre inclusions AJAH à l'intérieur de la page (<a href="http://blog.barijaona.com/web/commentaires_ajah.html" title="Billet de janvier 2008">ça rappellera peut-être quelque chose aux anciens</a>) et les popups en dialogue modal. Les deux solutions ont été réalisées, mais quelques effets de bord avec l'inclusion AJAH m'ont amené à m'en tenir à la seconde solution (Disqus 2012 n'était pas encore disponible au moment des tests). Ce choix n'est peut-être pas définitif, bien que j'ai réussi à me passer du lourd jQuery (merci Tinybox 2) tout en conciliant écrans traditionnels et tactiles, du moins sur navigateurs basés sur Webkit.</p>
-
-<p>Vos commentaires sur la fonction commentaires (ah ah) seront particulièrement bienvenus : avec un intérêt particulier sur les préférences en matière d'accessibilité, les suggestions d'améliorations pour les mobiles sous Opera, Mozilla et même (pas si sectaire que ça) Internet Explorer, voire des alternatives <i lang="en">opensource</i> à Disqus... Tout est possible, y compris l'impossible.</p>
-
-<p>Autrement, par simplicité administrative et parce que ça ne fait pas de mal de commercer avec des gens qu'on connaît IRL (Mahefa est un ancien collègue de travail, et pas le plus mauvais), je me suis adressé pour l'hébergement à <a href="http://dot.mg/" title="internet pour les cools">dot.mg</a> (qui lui même s'approvisionne chez Hostigation). Prix très compétitif, support sympa et efficace, et un environnement Debian Squeeze familier qui me permet d'utiliser <code>ssh</code> et <code>git</code> : bien plus rapide pour transférer les mises à jour que la combinaison antérieure WebDAV/<code>rsync</code>. De quoi m'inciter peut-être à faire des billets plus nombreux et plus courts. Au bénéfice de mes 3 lecteurs ?</p>
-</div></article>
-<div class="post-tools">[<a href="http://blog.barijaona.com/web/migration_ok.html#disqus_thread" onclick="return(getComment('a201206220146','http://blog.barijaona.com/web/migration_ok.html'));" data-disqus-identifier="a201206220146">Réagir</a>]</div>
-</div><br />
-
-
 
 <br /><br /></div></div>
 
@@ -517,8 +571,7 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 </tr>
 <tr>
 <td class="month-calendar-day-nolink Lundi">28</td>
-<td class="month-calendar-day-this-day Mardi"><a title="Mardi 29 octobre 2013" href="http://blog.barijaona.com/2013/10/index.html#1029">29</a></td><td class="month-calendar-day-future Mercredi">30</td>
-<td class="month-calendar-day-future Jeudi">31</td>
+<td class="month-calendar-day-link Mardi"><a title="Mardi 29 octobre 2013" href="http://blog.barijaona.com/2013/10/index.html#1029">29</a></td><td class="month-calendar-day-this-day Mercredi"><a title="Mercredi 30 octobre 2013" href="http://blog.barijaona.com/2013/10/index.html#1030">30</a></td><td class="month-calendar-day-future Jeudi">31</td>
 <td class="month-calendar-day-noday Vendredi">&nbsp;</td>
 <td class="month-calendar-day-noday Samedi">&nbsp;</td>
 <td class="month-calendar-day-noday Dimanche">&nbsp;</td>
@@ -538,7 +591,7 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/plusperso/jobs.html" title="billet du 9 octobre 2011">&lt;-&nbsp;Se faire de la bile</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/web/migration_ok.html" title="billet du 22 juin 2012">&lt;-&nbsp;Revoilà l'ancien combattant féru de nouvelles technologies</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br />
