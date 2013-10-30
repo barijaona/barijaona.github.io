@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,260 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/projections_mdg2013.html">
+	<title>#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
+	<link>http://blog.barijaona.com/madagascar/projections_mdg2013.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar. Ça me rappelle quelques vieux souvenirs. De mauvais souvenirs.&lt;/p&gt;
+
+&lt;p&gt;Qui sait ? Madagascar aurait peut-être pu éviter deux crises majeures si :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;la liste des électeurs avait été arrêtée à l&apos;avance,&lt;/li&gt;
+&lt;li&gt;certaines personnes avaient lu ce &lt;a href=&quot;http://www.ndi.org/files/1417_elect_quickcounthdbk_0.pdf&quot; title=&quot;The Quick Count and Election Observation&quot; hreflang=&quot;en&quot;&gt;document&lt;/a&gt; (PDF).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pas trop de regret à avoir cependant. Aucune donnée sur la liste électorale n&apos;était disponible à l&apos;avance, et le document cité ci-dessus n&apos;a été publié qu&apos;en Juin 2002.&lt;/p&gt;
+
+&lt;p&gt;En 2002, les délicates questions qui s&apos;étaient posées aux observateurs des élections étaient celles-ci :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;comment avoir une bonne idée de ce qui s&apos;est effectivement passé dans les bureaux de vote où on n&apos;arrive pas à être présent ? même lorsqu&apos;on a des données pour près de 74% des bureaux de vote, peut-on généraliser le résultat à tout le pays ?&lt;/li&gt;
+&lt;li&gt;même s&apos;ils se présentent comme indépendants, les observateurs sur terrain et les gens qui font ensuite la compilation des données sont-ils vraiment plus honnêtes que ceux qui le font pour les autorités ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si l&apos;objectif n&apos;est pas de déceler toutes les fraudes (mission quasi-impossible), mais d&apos;avoir une assurance suffisante qu&apos;il n&apos;y a pas eu de manipulations dans la remontée des résultats qui pourraient complètement fausser les résultats (comme on l&apos;avait suspecté en 1996 et 2001), il n&apos;est plus nécessaire aujourd&apos;hui de se torturer avec ce genre de questions .&lt;/p&gt;
+
+&lt;p&gt;À partir d&apos;un nombre limité de résultats de bureaux de vote, à peu près correctement répartis dans l&apos;espace, il est possible d&apos;avoir une bonne idée du résultat final : la méthode consiste à extrapoler les informations sur le nombre de voix dans chaque district proportionnellement aux informations sur le nombre d&apos;électeurs inscrits dans chaque district.&lt;/p&gt;
+
+&lt;p&gt;J&apos;ai fait une telle projection avec les données de la Cenit dimanche soir, qui sur la base de 1395 bureaux de vote, affichait alors Jean Louis Robinson à plus de 30%. La baisse de ce score était déjà prévisible.&lt;/p&gt;
+
+&lt;p&gt;Avec la même méthodologie, j&apos;ai refait une telle projection avec les données de la Cenit de ce mardi vers 18h30.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col align=&quot;center&quot; /&gt;
+&lt;col align=&quot;center&quot; /&gt;
+&lt;col align=&quot;right&quot; /&gt;
+&lt;col align=&quot;right&quot; /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;N°&lt;/th&gt;
+	&lt;th&gt;Candidat&lt;/th&gt;
+	&lt;th&gt;Traitement à partir données dimanche 27 vers 18h00&lt;/th&gt;
+	&lt;th&gt;Traitement à partir données mardi 29 vers 18h30&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;1&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAVALISAONA Clément Zafisolo&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,59%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,92%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;3&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAJAONARIMAMPIANINA RAKOTOARIMANANA Hery Martial&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;15,49%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;15,62%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;4&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RABEHARISON Roland Dieu Donné dit VAHÖMBEY&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,52%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,63%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;5&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RATSIRAKA Iarovana Roland&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;8,62%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;8,53%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;6&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;ANDRIANAINARIVELO Hajo Herivelona&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;9,28%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;10,20%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;7&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAKOTO ANDRIANIRINA Fetison&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,63%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,91%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;8&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RABEMANANANTSOA Brigitte Ihantanirina&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,03%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,27%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;9&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RADAVIDSON ANDRIAMPARANY Benjamin&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;2,16%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;2,30%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;10&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;VITAL Albert Camille&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;7,57%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;7,45%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;11&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAKOTO Jean Pierre&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,21%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,22%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;12&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;DOFO Mickaël Bréchard&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,23%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,31%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;13&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RANDRIAMAMPIONONA Joseph Martin dit DADAFARA&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;3,13%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;2,68%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;15&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAJAONARY Patrick Ratsimba&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,59%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,75%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;16&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RABEHARISOA Saraha épouse GEORGET&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;4,67%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;4,67%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;18&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;TINASOA Freddy&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,18%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,20%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;19&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAZAFIARISON Laza&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,85%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,85%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;20&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;MONJA Roindefo Zafitsimivalo&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,05%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,42%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;22&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;TEHINDRAZANARIVELO Djacoba Alain&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,49%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,53%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;23&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAJEMISON RAKOTOMAHARO&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,66%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,82%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;25&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;LAHINIRIKO Jean&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,62%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,78%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;27&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;VONINAHITSY Jean Eugène&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,50%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,75%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;28&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAJAONARIVELO Pierrot Jocelyn&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;3,32%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;2,75%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;31&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RANDRIAMANANTSOA Tabera&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,73%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,80%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;32&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RATREMA William&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,79%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;2,07%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;33&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;ROBINSON Jean-Louis Richard&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;24,64%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;22,36%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;34&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAZAFINDRAVAHY Edgard&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;5,24%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;4,57%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;35&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAHARIMANANA Venance Patrick&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,32%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,41%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;36&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RATRIMOARIVONY Guy&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,21%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,23%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;37&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RAZAFIMANAZATO Julien&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,30%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,51%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;38&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RATSIMBALSON Faharo&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,35%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,52%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;39&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;RABETSAROANA Willy Sylvain&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,23%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;1,30%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;40&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;NOELSON William&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,57%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,41%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td align=&quot;center&quot;&gt;41&lt;/td&gt;
+	&lt;td align=&quot;center&quot;&gt;LEZAVA Fleury RABARISON&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,22%&lt;/td&gt;
+	&lt;td align=&quot;right&quot;&gt;0,24%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Les résultats me paraissent remarquablement stables entre ces deux traitements, et si les résultats finaux s&apos;écartent beaucoup de ces chiffres, il y aura vraiment de quoi s&apos;étonner…&lt;/p&gt;
+
+&lt;p&gt;Il n&apos;y a plus de suspense à mes yeux. Là où ça devient vraiment intéressant, c&apos;est qu&apos;il doit être possible d&apos;annoncer les résultats du deuxième tour dès le lendemain de celui-ci. Une tâche largement à la portée d&apos;organisations comme Zahavato ou Andrimaso, et de quoi nous éviter des crises (si ce n&apos;est post-électorales, au moins de nerf).&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/projections_mdg2013.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-10-30T14:16:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html">
 	<title>#mdg2013 Code de traitement informatique</title>
 	<link>http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html</link>
@@ -468,23 +722,6 @@ hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder 
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-09-19T14:21:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html">
-	<title>Tordu (de rire)</title>
-	<link>http://blog.barijaona.com/humour/andraso-eo-i-Paul.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Tombé sur &lt;a href=&quot;http://etreloin.blogspot.com/2012/09/blog-post_17.html&quot; title=&quot;Être loin&quot;&gt;ça&lt;/a&gt; :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Popup Facebook: &quot;Facebook wants to know your place.&quot; Moi: &quot;Don&apos;t know, just ask Google... What? You&apos;re not friends with Google?&quot;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Il y a de quoi être un rien jaloux à voir une telle catégorie baptisée « Fastoche... »&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/humour</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-09-19T06:30:00+03:00</dc:date>
     
   </item>
 

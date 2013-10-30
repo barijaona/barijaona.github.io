@@ -16,7 +16,269 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2013-10-30T04:57:00Z</updated>
+  <updated>2013-10-30T11:26:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2013:/madagascar/projections_mdg2013</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
+
+    <title type="text">#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
+    <published>2013-10-30T11:16:00Z</published>
+    <updated>2013-10-30T11:26:00Z</updated>
+    <category term="/madagascar"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar. Ça me rappelle quelques vieux souvenirs. De mauvais souvenirs.</p>
+
+<p>Qui sait ? Madagascar aurait peut-être pu éviter deux crises majeures si :</p>
+
+<ul>
+<li>la liste des électeurs avait été arrêtée à l'avance,</li>
+<li>certaines personnes avaient lu ce <a href="http://www.ndi.org/files/1417_elect_quickcounthdbk_0.pdf" title="The Quick Count and Election Observation" hreflang="en">document</a> (PDF).</li>
+</ul>
+
+<p>Pas trop de regret à avoir cependant. Aucune donnée sur la liste électorale n'était disponible à l'avance, et le document cité ci-dessus n'a été publié qu'en Juin 2002.</p>
+
+<p>En 2002, les délicates questions qui s'étaient posées aux observateurs des élections étaient celles-ci :</p>
+
+<ul>
+<li>comment avoir une bonne idée de ce qui s'est effectivement passé dans les bureaux de vote où on n'arrive pas à être présent ? même lorsqu'on a des données pour près de 74% des bureaux de vote, peut-on généraliser le résultat à tout le pays ?</li>
+<li>même s'ils se présentent comme indépendants, les observateurs sur terrain et les gens qui font ensuite la compilation des données sont-ils vraiment plus honnêtes que ceux qui le font pour les autorités ?</li>
+</ul>
+
+<p>Si l'objectif n'est pas de déceler toutes les fraudes (mission quasi-impossible), mais d'avoir une assurance suffisante qu'il n'y a pas eu de manipulations dans la remontée des résultats qui pourraient complètement fausser les résultats (comme on l'avait suspecté en 1996 et 2001), il n'est plus nécessaire aujourd'hui de se torturer avec ce genre de questions .</p>
+
+<p>À partir d'un nombre limité de résultats de bureaux de vote, à peu près correctement répartis dans l'espace, il est possible d'avoir une bonne idée du résultat final : la méthode consiste à extrapoler les informations sur le nombre de voix dans chaque district proportionnellement aux informations sur le nombre d'électeurs inscrits dans chaque district.</p>
+
+<p>J'ai fait une telle projection avec les données de la Cenit dimanche soir, qui sur la base de 1395 bureaux de vote, affichait alors Jean Louis Robinson à plus de 30%. La baisse de ce score était déjà prévisible.</p>
+
+<p>Avec la même méthodologie, j'ai refait une telle projection avec les données de la Cenit de ce mardi vers 18h30.</p>
+
+<table>
+<col align="center" />
+<col align="center" />
+<col align="right" />
+<col align="right" />
+<thead>
+<tr>
+	<th>N°</th>
+	<th>Candidat</th>
+	<th>Traitement à partir données dimanche 27 vers 18h00</th>
+	<th>Traitement à partir données mardi 29 vers 18h30</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td align="center">1</td>
+	<td align="center">RAVALISAONA Clément Zafisolo</td>
+	<td align="right">0,59%</td>
+	<td align="right">0,92%</td>
+</tr>
+<tr>
+	<td align="center">3</td>
+	<td align="center">RAJAONARIMAMPIANINA RAKOTOARIMANANA Hery Martial</td>
+	<td align="right">15,49%</td>
+	<td align="right">15,62%</td>
+</tr>
+<tr>
+	<td align="center">4</td>
+	<td align="center">RABEHARISON Roland Dieu Donné dit VAHÖMBEY</td>
+	<td align="right">0,52%</td>
+	<td align="right">0,63%</td>
+</tr>
+<tr>
+	<td align="center">5</td>
+	<td align="center">RATSIRAKA Iarovana Roland</td>
+	<td align="right">8,62%</td>
+	<td align="right">8,53%</td>
+</tr>
+<tr>
+	<td align="center">6</td>
+	<td align="center">ANDRIANAINARIVELO Hajo Herivelona</td>
+	<td align="right">9,28%</td>
+	<td align="right">10,20%</td>
+</tr>
+<tr>
+	<td align="center">7</td>
+	<td align="center">RAKOTO ANDRIANIRINA Fetison</td>
+	<td align="right">0,63%</td>
+	<td align="right">0,91%</td>
+</tr>
+<tr>
+	<td align="center">8</td>
+	<td align="center">RABEMANANANTSOA Brigitte Ihantanirina</td>
+	<td align="right">1,03%</td>
+	<td align="right">1,27%</td>
+</tr>
+<tr>
+	<td align="center">9</td>
+	<td align="center">RADAVIDSON ANDRIAMPARANY Benjamin</td>
+	<td align="right">2,16%</td>
+	<td align="right">2,30%</td>
+</tr>
+<tr>
+	<td align="center">10</td>
+	<td align="center">VITAL Albert Camille</td>
+	<td align="right">7,57%</td>
+	<td align="right">7,45%</td>
+</tr>
+<tr>
+	<td align="center">11</td>
+	<td align="center">RAKOTO Jean Pierre</td>
+	<td align="right">0,21%</td>
+	<td align="right">0,22%</td>
+</tr>
+<tr>
+	<td align="center">12</td>
+	<td align="center">DOFO Mickaël Bréchard</td>
+	<td align="right">0,23%</td>
+	<td align="right">0,31%</td>
+</tr>
+<tr>
+	<td align="center">13</td>
+	<td align="center">RANDRIAMAMPIONONA Joseph Martin dit DADAFARA</td>
+	<td align="right">3,13%</td>
+	<td align="right">2,68%</td>
+</tr>
+<tr>
+	<td align="center">15</td>
+	<td align="center">RAJAONARY Patrick Ratsimba</td>
+	<td align="right">0,59%</td>
+	<td align="right">0,75%</td>
+</tr>
+<tr>
+	<td align="center">16</td>
+	<td align="center">RABEHARISOA Saraha épouse GEORGET</td>
+	<td align="right">4,67%</td>
+	<td align="right">4,67%</td>
+</tr>
+<tr>
+	<td align="center">18</td>
+	<td align="center">TINASOA Freddy</td>
+	<td align="right">0,18%</td>
+	<td align="right">0,20%</td>
+</tr>
+<tr>
+	<td align="center">19</td>
+	<td align="center">RAZAFIARISON Laza</td>
+	<td align="right">0,85%</td>
+	<td align="right">0,85%</td>
+</tr>
+<tr>
+	<td align="center">20</td>
+	<td align="center">MONJA Roindefo Zafitsimivalo</td>
+	<td align="right">1,05%</td>
+	<td align="right">1,42%</td>
+</tr>
+<tr>
+	<td align="center">22</td>
+	<td align="center">TEHINDRAZANARIVELO Djacoba Alain</td>
+	<td align="right">0,49%</td>
+	<td align="right">0,53%</td>
+</tr>
+<tr>
+	<td align="center">23</td>
+	<td align="center">RAJEMISON RAKOTOMAHARO</td>
+	<td align="right">0,66%</td>
+	<td align="right">0,82%</td>
+</tr>
+<tr>
+	<td align="center">25</td>
+	<td align="center">LAHINIRIKO Jean</td>
+	<td align="right">0,62%</td>
+	<td align="right">0,78%</td>
+</tr>
+<tr>
+	<td align="center">27</td>
+	<td align="center">VONINAHITSY Jean Eugène</td>
+	<td align="right">1,50%</td>
+	<td align="right">1,75%</td>
+</tr>
+<tr>
+	<td align="center">28</td>
+	<td align="center">RAJAONARIVELO Pierrot Jocelyn</td>
+	<td align="right">3,32%</td>
+	<td align="right">2,75%</td>
+</tr>
+<tr>
+	<td align="center">31</td>
+	<td align="center">RANDRIAMANANTSOA Tabera</td>
+	<td align="right">0,73%</td>
+	<td align="right">0,80%</td>
+</tr>
+<tr>
+	<td align="center">32</td>
+	<td align="center">RATREMA William</td>
+	<td align="right">1,79%</td>
+	<td align="right">2,07%</td>
+</tr>
+<tr>
+	<td align="center">33</td>
+	<td align="center">ROBINSON Jean-Louis Richard</td>
+	<td align="right">24,64%</td>
+	<td align="right">22,36%</td>
+</tr>
+<tr>
+	<td align="center">34</td>
+	<td align="center">RAZAFINDRAVAHY Edgard</td>
+	<td align="right">5,24%</td>
+	<td align="right">4,57%</td>
+</tr>
+<tr>
+	<td align="center">35</td>
+	<td align="center">RAHARIMANANA Venance Patrick</td>
+	<td align="right">0,32%</td>
+	<td align="right">0,41%</td>
+</tr>
+<tr>
+	<td align="center">36</td>
+	<td align="center">RATRIMOARIVONY Guy</td>
+	<td align="right">0,21%</td>
+	<td align="right">0,23%</td>
+</tr>
+<tr>
+	<td align="center">37</td>
+	<td align="center">RAZAFIMANAZATO Julien</td>
+	<td align="right">1,30%</td>
+	<td align="right">1,51%</td>
+</tr>
+<tr>
+	<td align="center">38</td>
+	<td align="center">RATSIMBALSON Faharo</td>
+	<td align="right">0,35%</td>
+	<td align="right">0,52%</td>
+</tr>
+<tr>
+	<td align="center">39</td>
+	<td align="center">RABETSAROANA Willy Sylvain</td>
+	<td align="right">1,23%</td>
+	<td align="right">1,30%</td>
+</tr>
+<tr>
+	<td align="center">40</td>
+	<td align="center">NOELSON William</td>
+	<td align="right">0,57%</td>
+	<td align="right">0,41%</td>
+</tr>
+<tr>
+	<td align="center">41</td>
+	<td align="center">LEZAVA Fleury RABARISON</td>
+	<td align="right">0,22%</td>
+	<td align="right">0,24%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Les résultats me paraissent remarquablement stables entre ces deux traitements, et si les résultats finaux s'écartent beaucoup de ces chiffres, il y aura vraiment de quoi s'étonner…</p>
+
+<p>Il n'y a plus de suspense à mes yeux. Là où ça devient vraiment intéressant, c'est qu'il doit être possible d'annoncer les résultats du deuxième tour dès le lendemain de celui-ci. Une tâche largement à la portée d'organisations comme Zahavato ou Andrimaso, et de quoi nous éviter des crises (si ce n'est post-électorales, au moins de nerf).</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/madagascar/projections_mdg2013.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2013:/macintosh/mdg2013_cenitdistricttotext</id>
@@ -503,31 +765,6 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p>Certains déploreront une conception plutôt individualiste du <i lang="en">"free and open"</i>. Mais on ne reste pas <i lang="en">fun</i> sans n'en faire parfois qu'à sa tête.</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/beatnik.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2012:/humour/andraso-eo-i-Paul</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html" />
-
-    <title type="text">Tordu (de rire)</title>
-    <published>2012-09-19T03:30:00Z</published>
-    <updated>2012-09-19T03:33:00Z</updated>
-    <category term="/humour"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Tombé sur <a href="http://etreloin.blogspot.com/2012/09/blog-post_17.html" title="Être loin">ça</a> :</p>
-
-<blockquote>
-  <p>Popup Facebook: "Facebook wants to know your place." Moi: "Don't know, just ask Google... What? You're not friends with Google?"</p>
-</blockquote>
-
-<p>Il y a de quoi être un rien jaloux à voir une telle catégorie baptisée « Fastoche... »</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/humour/andraso-eo-i-Paul.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
