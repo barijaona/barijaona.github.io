@@ -16,7 +16,38 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2013-10-30T11:26:00Z</updated>
+  <updated>2013-11-14T03:44:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2013:/madagascar/etat-de-droit</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
+
+    <title type="text">« Droit » et état de droit</title>
+    <published>2013-11-14T03:38:00Z</published>
+    <updated>2013-11-14T03:44:00Z</updated>
+    <category term="/madagascar"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Commentaire actuellement en attente de modération chez <a href="http://andrianjorar.wordpress.com/2013/11/14/ainsi-parla-la-ces/" title="Ainsi parla la CES">Zo Razanamasy</a> suite à la <a href="http://www.hcc.gov.mg/election/decisions-election/decision-n21-cesd-du-9-novembre-2013-relative-a-une-requete-aux-fins-de-disqualification/" title="Décision n°21-CES/D du 9 novembre 2013 relative à une requête aux fins de disqualification">décision</a> de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina.</p>
+
+<blockquote>
+  <p>Zo, je suis moi aussi un relatif profane en droit. Mais il y a une leçon essentielle que j’ai retenu assez vite : le droit et la morale sont deux choses différentes. <br />
+Ex : <a href="http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-rien-que-le-droit" title="“Le droit, rien que le droit…”">Maître Eolas, pièce n°1</a> <br />
+<a href="http://www.maitre-eolas.fr/post/2009/02/24/1324-quand-je-vous-dis-que-le-droit-et-la-morale" title="Quand je vous dis que le droit et la morale…">Maître Eolas et Mamod Taki, pièce numéro 2</a>.</p>
+
+<p>Après quelques temps de perplexité, on se dit finalement que c’est très bien comme ça, et que c’est même une des caractéristiques clés de l’état de droit : il vaut bien mieux avoir affaire à un adversaire très fort en techniques et artifices juridiques qu’à un de ces juges qui décident sur des critères sentimentaux comme on les rencontre un peu trop souvent chez nous.</p>
+
+<p>Tu vois ce qu’il te reste possible de faire… Attaquer au pénal les auteurs directs des actes (s’ils peuvent être clairement identifiés), ou demander l’annulation de voix au deuxième tour… J’imagine que ni ton temps, ni celui de Me Jacques Rakotomalala ne sont gratuits et qu’il faut peser le coût que représente le fait d’être patriote…</p>
+</blockquote>
+
+<p>J'ajouterais qu'à partir du moment où un juge est soupçonnable de chercher à faire plaisir, il devient soupçonnable d'être achetable. En détournant la citation de <a href="http://www.investorwords.com/tips/1286/the-popularity-of-bankers.html" title="A banker need not be popular. Indeed, a good banker in a healthy capitalist society should probably be much disliked." hreflang="en" rel="nofollow">John Kenneth Galbraith</a>, on pourrait dire : <q>Un juge n'a pas à être populaire. En fait, dans un solide état de droit, chaque juge devrait être détesté par la moitié de la population.</q></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/madagascar/etat-de-droit.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2013:/madagascar/projections_mdg2013</id>
@@ -734,37 +765,6 @@ hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.ap
 
 <p>That's it, a <a href="http://blog.barijaona.com/photos/photivo.dmg" title="photivo.dmg 16.2 Mo">photivo.app</a> you can install on any recent machine !</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/photivo-build.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2012:/macintosh/beatnik</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/beatnik.html" />
-
-    <title type="text">Beatnik</title>
-    <published>2012-09-19T11:21:00Z</published>
-    <updated>2012-09-19T11:23:00Z</updated>
-    <category term="/macintosh"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://www.cuk.ch/articles/5188" title="Ça y est ! J’ai enfin un Mac Moche, Bruyant et Instable ! - Cuk.ch">Discussion enflammée sur Cuk</a> sur la moralité et/ou la légalité de fabriquer un Hackintosh ; autrement dit de faire tourner un PC avec MacOSX, ce qui est interdit par la license utilisateur Apple. Le commentaire le plus lumineux me semble celui de Yanfi :</p>
-
-<blockquote>
-  <p>En ce qui concerne la license Apple “seulement sur du Matériel Apple”, je vois ça non pas comme une interdiction, mais comme une protection légale. Personne ne peut attaquer Apple en justice parce que OS X ne marche pas bien sur son matériel générique, non-Apple. Si Apple se mettait à vendre OS X séparément ils auraient alors la charge du support. Et je suis sûr que ça n’arrivera jamais.</p>
-
-<p>Cette opinion (qui n’engage que moi) est supportée par le fait qu’Apple a fait ZÉRO efforts pour fermer les sites de Hackintosh. Ils ont pignon sur Web, si l’on peut dire. Aucun n’a reçu de mise en demeure et autres plaisanteries légales dont Apple sait très bien faire usage quand elle est déterminée à faire valoir ses intérêts. Je pense qu’il laissent faire en sachant que ceux qui aiment OS X après y avoir gouté, et qui se lassent de bricoler finissent par s’acheter un Mac, parce que “ça marche” (sauf quand ça tombe en panne, mais bon…).</p>
-</blockquote>
-
-<p>Cette attitude me paraît complètement cohérente avec la culture Beatnik et libertaire qui imbibe une société comme Apple... Elle n'a aucune envie de trop s'embêter avec ce que le reste du monde bidouille. S'il y avait obligation morale de tenir compte de tout ce que les ateliers de Taïwan et de Chine produisent, ce serait beaucoup moins fun pour ses ingénieurs...</p>
-
-<p>Parce que c'est déjà suffisamment contraignant d'avoir à s'assurer de la compatibilité avec ses propres matériels, Apple la libertaire se réserve le droit souverain de laisser tomber un truc « pas assez bien » ou « trop vieux ». Elle se souvient avec un brin de terreur que Mac OS n'avait jamais eu autant de problèmes et stagné que lors de la brève période où elle avait autorisé les clones. Qui plus est, elle garde à l'esprit qu'elle est capable de faire de vrais miracles lorsqu'elle est hyper-concentrée sur l'intégration très poussée de matériels choisis sans faire de concession au passé et d'un logiciel qu'elle maîtrise seule : ainsi naquit le premier Macintosh, ainsi se fit sa résurrection, et ainsi vit l'iPhone.</p>
-
-<p>Certains déploreront une conception plutôt individualiste du <i lang="en">"free and open"</i>. Mais on ne reste pas <i lang="en">fun</i> sans n'en faire parfois qu'à sa tête.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/beatnik.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/protections-asiatiques.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090216.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090211.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090209.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr7fevrier2009.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,16 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/etat-de-droit.html">
+	<title>« Droit » et état de droit</title>
+	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
+	<description>Commentaire actuellement en attente de modération chez Zo Razanamasy suite à la décision de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina...</description>
+    
+    <dc:subject>/madagascar</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-11-14T06:38:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/madagascar/projections_mdg2013.html">
 	<title>#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
 	<link>http://blog.barijaona.com/madagascar/projections_mdg2013.html</link>
@@ -106,16 +116,6 @@
     <dc:subject>/madagascar</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2009-02-10T07:09:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/madagascar/cr7fevrier2009.html">
-	<title>Goût amer</title>
-	<link>http://blog.barijaona.com/madagascar/cr7fevrier2009.html</link>
-	<description>Journaliste semi-professionnel, en ce sens que j'ai pu obtenir une accréditation d'un organe connu, mais  ne suis qu'un bénévole "intermittent du spectacle", j'ai pu bénéficier d'un point d'observation privilégié des derniers événements d'Antananarivo...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-02-09T07:02:00+03:00</dc:date>
     
   </item>
 
