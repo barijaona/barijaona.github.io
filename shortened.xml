@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,19 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/apple-apres-steve.html">
+	<title>Ma compréhension d&apos;Apple</title>
+	<link>http://blog.barijaona.com/macintosh/apple-apres-steve.html</link>
+	<description>Relisant quelque jours après une note de blog écrite par Jean Louis Gassée, note à la confluence de la technologie et des finances et qui ne pouvait donc me laisser indifférent, j'ai laissé le commentaire suivant que je traduis :
+
+
+  Comme vous dites, pour certains analystes de Wall Street, Apple peut présenter des ressemblances avec certains studios de cinéma qui sont trop dépendants de la popularité d'une petite poignée de vedettes...</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-11-21T05:50:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/madagascar/etat-de-droit.html">
 	<title>« Droit » et état de droit</title>
 	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
@@ -109,16 +122,6 @@ Un peu lassé du manque de support de la gestion de couleur dans les versions d'
     <dc:subject>/photos</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-11-25T22:48:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/photivo-build.html">
-	<title>Building photivo on Mac OS X Mountain Lion.</title>
-	<link>http://blog.barijaona.com/macintosh/photivo-build.html</link>
-	<description>photivo is a photo processor for handing RAW files...</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-11-25T22:39:00+03:00</dc:date>
     
   </item>
 

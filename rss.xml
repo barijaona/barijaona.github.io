@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,27 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/apple-apres-steve.html">
+	<title>Ma compréhension d&apos;Apple</title>
+	<link>http://blog.barijaona.com/macintosh/apple-apres-steve.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Relisant quelque jours après une &lt;a href=&quot;&quot; title=&quot;Amazon and Apple Business Models&quot; hreflang=&quot;en&quot;&gt;note de blog écrite par Jean Louis Gassée&lt;/a&gt;, note à la confluence de la technologie et des finances et qui ne pouvait donc me laisser indifférent, j&apos;ai laissé le commentaire suivant que je traduis :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comme vous dites, pour certains analystes de Wall Street, Apple peut présenter des ressemblances avec certains studios de cinéma qui sont trop dépendants de la popularité d&apos;une petite poignée de vedettes.&lt;/p&gt;
+
+&lt;p&gt;Mais cette poignée de vedettes n&apos;est plus si étroite que ça ; et même privée de Steve Jobs et de sa légendaire capacité à dévoiler des produits « révolutionnaires », Apple semble actuellement particulièrement forte pour pousser chaque année sa ligne de produits un peu plus loin chaque année : &lt;a href=&quot;http://www.marco.org/2013/11/13/significantly-hotter&quot; title=&quot;Marco Arment: &amp;quot;Significantly Hotter&amp;quot;&quot; hreflang=&quot;en&quot;&gt;http://www.marco.org/2013/11/13/significantly-hotter&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apple n&apos;est pas une firme qui fait des produits « révolutionnaires ». Elle n&apos;a pas « inventé » l&apos;ordinateur personnel, les interfaces graphiques, le lecteur MP3, le &lt;i lang=&quot;en&quot;&gt;smartphone&lt;/i&gt; ou la tablette… Sa grande force est sa capacité à se concentrer sur les fonctionnalités qu&apos;elle estime essentielles et à soigner tous les détails autour afin d&apos;arriver à pousser chaque objet beaucoup plus loin.&lt;/p&gt;
+
+&lt;p&gt;J&apos;avoue que j&apos;ai du mal à me retenir d&apos;acheter un exemplaire de tous les produits qu&apos;ils ont annoncé récemment.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/apple-apres-steve.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+    
+    <dc:subject>/macintosh</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2013-11-21T05:50:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/madagascar/etat-de-droit.html">
 	<title>« Droit » et état de droit</title>
 	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
@@ -531,197 +552,6 @@ by Paul Thurrott, published in Connected Home Magazine - Sep 15, 2004&lt;/p&gt;
     <dc:subject>/photos</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2012-11-25T22:48:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/photivo-build.html">
-	<title>Building photivo on Mac OS X Mountain Lion.</title>
-	<link>http://blog.barijaona.com/macintosh/photivo-build.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;http://photivo.org/&quot; title=&quot;free and open source (GPL3) photo processor&quot;&gt;photivo&lt;/a&gt; is a photo processor for handing RAW files.&lt;/p&gt;
-
-&lt;p&gt;The following instructions updates on those found on &lt;a href=&quot;http://photivo.org/photivo/download_and_setup/mac&quot; title=&quot;Mac OS X&quot;&gt;photivo wiki&lt;/a&gt; as they were written by user &lt;a href=&quot;http://photivo.org/doku.php?id=photivo:download_and_setup:mac&amp;amp;rev=1321579972&quot; title=&quot;Retrieved Nov 25th, 2012&quot;&gt;kwip&lt;/a&gt;. These were tested on Mac OS X Mountain Lion, but the final result should probably run on Lion as well.&lt;/p&gt;
-
-&lt;h1 id=&quot;installingandsettingacurrentgcccompiler&quot;&gt;Installing and setting a current gcc compiler&lt;/h1&gt;
-
-&lt;h2 id=&quot;getarecentgcc&quot;&gt;Get a recent gcc&lt;/h2&gt;
-
-&lt;p&gt;photivo requires gcc &gt;= 4.6, because it needs a good support of OpenMP. But Apple freezed its support of gcc at level 4.2.1, in favor of LLVM compilers.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, you won&apos;t need building gcc yourself. You can find recent builds of gcc and gfortran, thanks to the &lt;a href=&quot;http://hpc.sourceforge.net&quot; title=&quot;hpc&quot;&gt;High Performance Computing for Mac OS X&lt;/a&gt; project.&lt;/p&gt;
-
-&lt;p&gt;Go there, and download both gcc 4.7.1 and gfortran 4.7.1 (fortran is needed for building fftw). Follow the site&apos;s instructions, and these components will get installed in &lt;code&gt;/usr/local&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Make sure that &lt;code&gt;/usr/local/bin&lt;/code&gt; is in your &lt;code&gt;&amp;#036;PATH&lt;/code&gt;, but is behind &lt;code&gt;/usr/bin&lt;/code&gt;, where are located Apple Xcode&apos;s command line tools. This is the default. (We will see later how to make sure gcc 4.7 is called when needed.)&lt;/p&gt;
-
-&lt;h2 id=&quot;improveonthestandardgcc&quot;&gt;Improve on the standard gcc&lt;/h2&gt;
-
-&lt;p&gt;Apple&apos;s gcc incorporates the &lt;code&gt;-arch&lt;/code&gt; extension, which is especially useful for building fat binaries. When they detect that they are run on a Macintosh, many configuration scripts expect gcc to support this extension ; the problem is that it is not incorporated in the standard gcc trunk, nor in HPC builds.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, John Bowers &lt;a href=&quot;http://www.implbits.com/About/Blog/tabid/78/post/building-with-gcc-4-6-on-osx/Default.aspx&quot; title=&quot;Building With GCC 4.6 on OSX&quot;&gt;found some creative solutions to these shortcomings&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;He uses MacPorts in his examples, but my &lt;strong&gt;hpcgccfixup&lt;/strong&gt; is a transposition to HPC&apos;s gcc. &lt;a href=&quot;http://blog.barijaona.com/macintosh/hpcgccfixup.zip&quot; title=&quot;Zip archive&quot;&gt;Download it&lt;/a&gt;, and do the usual &quot;./configure, make, make install&quot; stuff.&lt;/p&gt;
-
-&lt;p&gt;Notes :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;you will need &lt;a href=&quot;http://cmake.org&quot; title=&quot;Cross-platform build system&quot;&gt;cmake&lt;/a&gt; if it is not installed yet on your system,&lt;/li&gt;
-&lt;li&gt;in case of problem, compare the variables set at the beginning of the CMakeLists.txt file to the structure of the archives downloaded from HPC (the Zipeg utility might be handy to inspect the archives)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;getqt&quot;&gt;Get Qt&lt;/h1&gt;
-
-&lt;p&gt;The following frameworks from Qt are needed :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;QtCore&lt;/li&gt;
-&lt;li&gt;QtGui&lt;/li&gt;
-&lt;li&gt;QtNetwork&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I got them for the &lt;a href=&quot;http://qt-project.org/downloads&quot; title=&quot;Download Qt, the cross-platform application framework&quot;&gt;open source version of qt libraries 4.8.3 for Mac&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;buildgtkformacosx&quot;&gt;Build Gtk+ for MacOS X&lt;/h1&gt;
-
-&lt;p&gt;Download &lt;a href=&quot;http://git.gnome.org/browse/gtk-osx/plain/gtk-osx-build-setup.sh&quot; title=&quot;Available at Gnome&quot;&gt;gtk-osx-setup.sh&lt;/a&gt; to your home directory and run it:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-sh gtk-osx-build-setup.sh
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If necessary, make ~/.local/bin added to your $PATH.&lt;/p&gt;
-
-&lt;p&gt;To tell jhbuild to use the 4.7 version of GCC, add these instructions at the end of the ~/.jhbuilrc-custom script : &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;os.environ[&quot;CC&quot;] = &quot;/usr/local/bin/gcc&quot;
-os.environ[&quot;OBJC&quot;] = &quot;/usr/local/bin/gcc&quot;
-os.environ[&quot;CXX&quot;] = &quot;/usr/local/bin/g++&quot;
-os.environ[&quot;F77&quot;] = &quot;/usr/local/bin/gfortran&quot;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, do : &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036;jhbuild bootstrap
-&amp;#036;jhbuild build meta-gtk-osx-bootstrap
-&amp;#036;jhbuild build meta-gtk-osx-core&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In case of trouble, see https://live.gnome.org/GTK+/OSX/Building&lt;/p&gt;
-
-&lt;h1 id=&quot;builddependancies&quot;&gt;Build dependancies&lt;/h1&gt;
-
-&lt;p&gt;Important : enter a jhbuild environment by typing the command:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$jhbuild shell&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Grab some &lt;a href=&quot;ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/delegates/&quot; title=&quot;GraphicsMagick website&quot;&gt;GraphicsMagick delegates&lt;/a&gt; (FTP) :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;libpng&lt;/li&gt;
-&lt;li&gt;tiff&lt;/li&gt;
-&lt;li&gt;libjpeg&lt;/li&gt;
-&lt;li&gt;lcms2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Grab other elements :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.fftw.org&quot; title=&quot;Fast Fourier Transformation&quot;&gt;fftw3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://liblqr.wikidot.com&quot; title=&quot;Liquid Rescale Library&quot;&gt;liblqr&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Build the above elements in the order they are listed, using for each of them the sequence :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
-&amp;#036; make
-&amp;#036; make install&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;(Replace YOURUSERNAMEHERE with your Unix user name).&lt;/p&gt;
-
-&lt;p&gt;Get and build &lt;a href=&quot;http://developer.berlios.de/project/showfiles.php?group_id=9034&quot; title=&quot;Library to mitigate photographic lenses defaults&quot;&gt;lensfun&lt;/a&gt; :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst
-&amp;#036; make
-&amp;#036; make install&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Still under a jhbuild shell, get and build &lt;a href=&quot;ftp://tp.graphicsmagick.org/pub/GraphicsMagick/GraphicsMagick-LATEST.tar.bz2&quot; title=&quot;Image Processing System&quot;&gt;GraphicsMagick&lt;/a&gt; (FTP) :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared --disable-static --without-x --without-bzlib --without-zlib --without-xml --with-quantum-depth=16
-&amp;#036; make
-&amp;#036; make install&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note : after the ./configure stage, I recommend you check that JPEG, TIFF and PNG supports are enabled. If not, you might have missed something from above.&lt;/p&gt;
-
-&lt;p&gt;For some reason, exiv2 is the single dependency which should not be build under jhbuild (it crashes photivo otherwise). Open a &lt;strong&gt;normal shell&lt;/strong&gt;, &lt;a href=&quot;http://www.exiv2.org&quot; title=&quot;Image metadata library&quot;&gt;get exiv2&lt;/a&gt; and build it :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
-&amp;#036; make
-&amp;#036; make install&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;buildphotivo&quot;&gt;Build photivo&lt;/h1&gt;
-
-&lt;p&gt;You will need Mercurial (or a Mercurial client, I use SourceTree) to get the photivo code : &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; cd
-&amp;#036; hg clone https://photivo.googlecode.com/hg/ photivo&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Replace every occurrence of &lt;code&gt;/usr/bin/gcc&lt;/code&gt; with &lt;code&gt;/usr/local/bin/gcc&lt;/code&gt; in the .pro files.
-Replace also every occurrence of &lt;code&gt;/usr/bin/g++&lt;/code&gt; with &lt;code&gt;/usr/local/bin/g++&lt;/code&gt; in the .pro files.&lt;/p&gt;
-
-&lt;p&gt;Make sure you are under a &lt;strong&gt;jhbuild shell&lt;/strong&gt; again, and type these commands :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; cd photivo
-&amp;#036; PATH=/usr/local/bin:&amp;#036;PATH qmake -spec macx-g++ CONFIG+=WithoutGimp
-&amp;#036; PATH=/usr/local/bin:&amp;#036;PATH make&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;(We force the use of the HPC gcc here).&lt;/p&gt;
-
-&lt;p&gt;You will probably get errors at this stage. You will have to fiddle with some of the Makefiles and repeat many times the &lt;code&gt;PATH=/usr/local/bin:&amp;#036;PATH make&lt;/code&gt; command to get photivo.app build.&lt;/p&gt;
-
-&lt;p&gt;Personally, I had to :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;remove  &lt;code&gt;-rdynamic&lt;/code&gt; occurrences in ptclearProject/Makefile and photivoProject/Makefile&lt;/li&gt;
-&lt;li&gt;remove spaces before line 16 of photivoProject/Makefile in order to have the parameter of -DAPPVERSION= correctly recognized&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To make photivo.app run correctly, I also had to :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;copy ~/gtk/inst/lib/liblensfun.dylib in ~/lib&lt;/li&gt;
-&lt;li&gt;copy the Themes directory in photivo.app/Contents/MacOS/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;packagephotivo&quot;&gt;Package photivo&lt;/h1&gt;
-
-&lt;p&gt;If you do a &lt;code&gt;otool -L photivo.app/Contents/MacOS/photivo&lt;/code&gt;, you will notice there are references to libraries stored in your specific machine&apos;s directories. The following script will do the right stuff, using &lt;code&gt;install_name_tool&lt;/code&gt; and Qt&apos;s &lt;code&gt;macdeployqt&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
-cd ~/photivo
-rm -rf photivo.app
-rm -rf photivo.dmg
-PATH=/usr/local/bin:&amp;#036;PATH make
-mkdir ./photivo.app/Contents/Resources/data
-cp -R ChannelMixers Profiles Presets LensfunDatabase Icons Curves Themes ./photivo.app/Contents/Resources/data
-mkdir ./photivo.app/Contents/Resources/data/images
-cp *.png ./photivo.app/Contents/Resources/data/images/
-cd photivo.app/Contents/MacOS
-ln -s ../Resources/data/* .
-unlink images
-ln -s ../Resources/data/images/* .
-cd -
-install_name_tool -change liblensfun.dylib ~/gtk/inst/lib/liblensfun.dylib photivo.app/Contents/MacOS/photivo
-cp photivo-appicon.icns ./photivo.app/Contents/Resources/
-cp Info.plist ./photivo.app/Contents/
-macdeployqt photivo.app
-# The following instruction is optional :
-# useful to people having an Apple developer ID for signing the build
-codesign -f -s &apos;Developer ID Application&apos; photivo.app
-# Make a DMG
-hdiutil create photivo.dmg -ov -volname &quot;Photivo Mac OS X&quot; -srcfolder photivo.app/ -format UDBZ&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&apos;s it, a &lt;a href=&quot;http://blog.barijaona.com/photos/photivo.dmg&quot; title=&quot;photivo.dmg 16.2 Mo&quot;&gt;photivo.app&lt;/a&gt; you can install on any recent machine !&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/photivo-build.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-    
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-11-25T22:39:00+03:00</dc:date>
     
   </item>
 
