@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/photos/photivo-binary.html" />
 
       </rdf:Seq>
     </items>
@@ -38,21 +38,23 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
+	<title>FAQ sur l&apos;affaire BNI</title>
+	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
+	<description>Ah, les réseaux sociaux ...</description>
+
+    <dc:subject>/bni</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2014-01-24T14:43:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/macintosh/apple-apres-steve.html">
 	<title>Ma compréhension d&apos;Apple</title>
 	<link>http://blog.barijaona.com/macintosh/apple-apres-steve.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Relisant quelque jours après une &lt;a href=&quot;http://www.mondaynote.com/2013/11/18/amazon-and-apple-business-models/&quot; title=&quot;Amazon and Apple Business Models&quot; hreflang=&quot;en&quot;&gt;note de blog écrite par Jean Louis Gassée&lt;/a&gt;, note à la confluence de la technologie et des finances et qui ne pouvait donc me laisser indifférent, j&apos;ai laissé le commentaire suivant que je traduis :&lt;/p&gt;
+	<description>Relisant quelque jours après une note de blog écrite par Jean Louis Gassée, note à la confluence de la technologie et des finances et qui ne pouvait donc me laisser indifférent, j'ai laissé le commentaire suivant que je traduis :
 
-&lt;blockquote&gt;
-  &lt;p&gt;Comme vous dites, pour certains analystes de Wall Street, Apple peut présenter des ressemblances avec certains studios de cinéma qui sont trop dépendants de la popularité d&apos;une petite poignée de vedettes.&lt;/p&gt;
 
-&lt;p&gt;Mais cette poignée de vedettes n&apos;est plus si étroite que ça ; et même privée de Steve Jobs et de sa légendaire capacité à dévoiler des produits « révolutionnaires », Apple semble actuellement particulièrement forte pour pousser chaque année sa ligne de produits un peu plus loin chaque année : &lt;a href=&quot;http://www.marco.org/2013/11/13/significantly-hotter&quot; title=&quot;Marco Arment: &amp;quot;Significantly Hotter&amp;quot;&quot; hreflang=&quot;en&quot;&gt;http://www.marco.org/2013/11/13/significantly-hotter&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Apple n&apos;est pas une firme qui fait des produits « révolutionnaires ». Elle n&apos;a pas « inventé » l&apos;ordinateur personnel, les interfaces graphiques, le lecteur MP3, le &lt;i lang=&quot;en&quot;&gt;smartphone&lt;/i&gt; ou la tablette… Sa grande force est sa capacité à se concentrer sur les fonctionnalités qu&apos;elle estime essentielles et à soigner tous les détails autour afin d&apos;arriver à pousser chaque objet beaucoup plus loin.&lt;/p&gt;
-
-&lt;p&gt;J&apos;avoue que j&apos;ai du mal à me retenir d&apos;acheter un exemplaire de tous les produits qu&apos;ils ont annoncé récemment.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/apple-apres-steve.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+  Comme vous dites, pour certains analystes de Wall Street, Apple peut présenter des ressemblances avec certains studios de cinéma qui sont trop dépendants de la popularité d'une petite poignée de vedettes...</description>
 
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -62,20 +64,7 @@
 <item rdf:about="http://blog.barijaona.com/madagascar/etat-de-droit.html">
 	<title>« Droit » et état de droit</title>
 	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Commentaire actuellement en attente de modération chez &lt;a href=&quot;http://andrianjorar.wordpress.com/2013/11/14/ainsi-parla-la-ces/&quot; title=&quot;Ainsi parla la CES&quot;&gt;Zo Razanamasy&lt;/a&gt; suite à la &lt;a href=&quot;http://www.hcc.gov.mg/election/decisions-election/decision-n21-cesd-du-9-novembre-2013-relative-a-une-requete-aux-fins-de-disqualification/&quot; title=&quot;Décision n°21-CES/D du 9 novembre 2013 relative à une requête aux fins de disqualification&quot;&gt;décision&lt;/a&gt; de la Cour électorale spéciale (CES) de rejeter sa requête de demande d&apos;annulation de la candidature de Hery Rajaonarimampianina.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Zo, je suis moi aussi un relatif profane en droit. Mais il y a une leçon essentielle que j’ai retenu assez vite : le droit et la morale sont deux choses différentes. &lt;br /&gt;
-Ex : &lt;a href=&quot;http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-rien-que-le-droit&quot; title=&quot;“Le droit, rien que le droit…”&quot;&gt;Maître Eolas, pièce n°1&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://www.maitre-eolas.fr/post/2009/02/24/1324-quand-je-vous-dis-que-le-droit-et-la-morale&quot; title=&quot;Quand je vous dis que le droit et la morale…&quot;&gt;Maître Eolas et Mamod Taki, pièce numéro 2&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Après quelques temps de perplexité, on se dit finalement que c’est très bien comme ça, et que c’est même une des caractéristiques clés de l’état de droit : il vaut bien mieux avoir affaire à un adversaire très fort en techniques et artifices juridiques qu’à un de ces juges qui décident sur des critères sentimentaux comme on les rencontre un peu trop souvent chez nous.&lt;/p&gt;
-
-&lt;p&gt;Tu vois ce qu’il te reste possible de faire… Attaquer au pénal les auteurs directs des actes (s’ils peuvent être clairement identifiés), ou demander l’annulation de voix au deuxième tour… J’imagine que ni ton temps, ni celui de Me Jacques Rakotomalala ne sont gratuits et qu’il faut peser le coût que représente le fait d’être patriote…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;J&apos;ajouterais qu&apos;à partir du moment où un juge est soupçonnable de chercher à faire plaisir, il devient soupçonnable d&apos;être achetable. En détournant la citation de &lt;a href=&quot;http://www.investorwords.com/tips/1286/the-popularity-of-bankers.html&quot; title=&quot;A banker need not be popular. Indeed, a good banker in a healthy capitalist society should probably be much disliked.&quot; hreflang=&quot;en&quot; rel=&quot;nofollow&quot;&gt;John Kenneth Galbraith&lt;/a&gt;, on pourrait dire : &lt;q&gt;Un juge n&apos;a pas à être populaire. En fait, dans un solide état de droit, chaque juge devrait être détesté par la moitié de la population.&lt;/q&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/etat-de-droit.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<description>Commentaire actuellement en attente de modération chez Zo Razanamasy suite à la décision de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina...</description>
 
     <dc:subject>/madagascar</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -85,251 +74,7 @@ Ex : &lt;a href=&quot;http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-r
 <item rdf:about="http://blog.barijaona.com/madagascar/projections_mdg2013.html">
 	<title>#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
 	<link>http://blog.barijaona.com/madagascar/projections_mdg2013.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar. Ça me rappelle quelques vieux souvenirs. De mauvais souvenirs.&lt;/p&gt;
-
-&lt;p&gt;Qui sait ? Madagascar aurait peut-être pu éviter deux crises majeures si :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;la liste des électeurs avait été arrêtée à l&apos;avance,&lt;/li&gt;
-&lt;li&gt;certaines personnes avaient lu ce &lt;a href=&quot;http://www.ndi.org/files/1417_elect_quickcounthdbk_0.pdf&quot; title=&quot;The Quick Count and Election Observation&quot; hreflang=&quot;en&quot;&gt;document&lt;/a&gt; (PDF).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pas trop de regret à avoir cependant. Aucune donnée sur la liste électorale n&apos;était disponible à l&apos;avance, et le document cité ci-dessus n&apos;a été publié qu&apos;en Juin 2002.&lt;/p&gt;
-
-&lt;p&gt;En 2002, les délicates questions qui s&apos;étaient posées aux observateurs des élections étaient celles-ci :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;comment avoir une bonne idée de ce qui s&apos;est effectivement passé dans les bureaux de vote où on n&apos;arrive pas à être présent ? même lorsqu&apos;on a des données pour près de 74% des bureaux de vote, peut-on généraliser le résultat à tout le pays ?&lt;/li&gt;
-&lt;li&gt;même s&apos;ils se présentent comme indépendants, les observateurs sur terrain et les gens qui font ensuite la compilation des données sont-ils vraiment plus honnêtes que ceux qui le font pour les autorités ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Si l&apos;objectif n&apos;est pas de déceler toutes les fraudes (mission quasi-impossible), mais d&apos;avoir une assurance suffisante qu&apos;il n&apos;y a pas eu de manipulations dans la remontée des résultats qui pourraient complètement fausser les résultats (comme on l&apos;avait suspecté en 1996 et 2001), il n&apos;est plus nécessaire aujourd&apos;hui de se torturer avec ce genre de questions .&lt;/p&gt;
-
-&lt;p&gt;À partir d&apos;un nombre limité de résultats de bureaux de vote, à peu près correctement répartis dans l&apos;espace, il est possible d&apos;avoir une bonne idée du résultat final : la méthode consiste à extrapoler les informations sur le nombre de voix dans chaque district proportionnellement aux informations sur le nombre d&apos;électeurs inscrits dans chaque district.&lt;/p&gt;
-
-&lt;p&gt;J&apos;ai fait une telle projection avec les données de la Cenit dimanche soir, qui sur la base de 1395 bureaux de vote, affichait alors Jean Louis Robinson à plus de 30%. La baisse de ce score était déjà prévisible.&lt;/p&gt;
-
-&lt;p&gt;Avec la même méthodologie, j&apos;ai refait une telle projection avec les données de la Cenit de ce mardi vers 18h30.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;col align=&quot;center&quot; /&gt;
-&lt;col align=&quot;center&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-	&lt;th&gt;N°&lt;/th&gt;
-	&lt;th&gt;Candidat&lt;/th&gt;
-	&lt;th&gt;Traitement à partir données dimanche 27 vers 18h00&lt;/th&gt;
-	&lt;th&gt;Traitement à partir données mardi 29 vers 18h30&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;1&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAVALISAONA Clément Zafisolo&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,59%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,92%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;3&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAJAONARIMAMPIANINA RAKOTOARIMANANA Hery Martial&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;15,49%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;15,62%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;4&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RABEHARISON Roland Dieu Donné dit VAHÖMBEY&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,52%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,63%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;5&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RATSIRAKA Iarovana Roland&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;8,62%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;8,53%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;6&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;ANDRIANAINARIVELO Hajo Herivelona&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;9,28%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;10,20%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;7&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAKOTO ANDRIANIRINA Fetison&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,63%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,91%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;8&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RABEMANANANTSOA Brigitte Ihantanirina&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,03%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,27%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;9&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RADAVIDSON ANDRIAMPARANY Benjamin&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;2,16%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;2,30%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;10&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;VITAL Albert Camille&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;7,57%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;7,45%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;11&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAKOTO Jean Pierre&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,21%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,22%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;12&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;DOFO Mickaël Bréchard&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,23%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,31%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;13&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RANDRIAMAMPIONONA Joseph Martin dit DADAFARA&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;3,13%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;2,68%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;15&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAJAONARY Patrick Ratsimba&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,59%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,75%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;16&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RABEHARISOA Saraha épouse GEORGET&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;4,67%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;4,67%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;18&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;TINASOA Freddy&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,18%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,20%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;19&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAZAFIARISON Laza&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,85%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,85%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;20&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;MONJA Roindefo Zafitsimivalo&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,05%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,42%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;22&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;TEHINDRAZANARIVELO Djacoba Alain&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,49%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,53%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;23&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAJEMISON RAKOTOMAHARO&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,66%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,82%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;25&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;LAHINIRIKO Jean&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,62%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,78%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;27&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;VONINAHITSY Jean Eugène&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,50%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,75%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;28&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAJAONARIVELO Pierrot Jocelyn&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;3,32%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;2,75%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;31&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RANDRIAMANANTSOA Tabera&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,73%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,80%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;32&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RATREMA William&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,79%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;2,07%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;33&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;ROBINSON Jean-Louis Richard&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;24,64%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;22,36%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;34&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAZAFINDRAVAHY Edgard&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;5,24%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;4,57%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;35&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAHARIMANANA Venance Patrick&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,32%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,41%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;36&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RATRIMOARIVONY Guy&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,21%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,23%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;37&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RAZAFIMANAZATO Julien&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,30%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,51%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;38&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RATSIMBALSON Faharo&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,35%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,52%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;39&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;RABETSAROANA Willy Sylvain&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,23%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1,30%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;40&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;NOELSON William&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,57%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,41%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;center&quot;&gt;41&lt;/td&gt;
-	&lt;td align=&quot;center&quot;&gt;LEZAVA Fleury RABARISON&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,22%&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;0,24%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Les résultats me paraissent remarquablement stables entre ces deux traitements, et si les résultats finaux s&apos;écartent beaucoup de ces chiffres, il y aura vraiment de quoi s&apos;étonner…&lt;/p&gt;
-
-&lt;p&gt;Il n&apos;y a plus de suspense à mes yeux. Là où ça devient vraiment intéressant, c&apos;est qu&apos;il doit être possible d&apos;annoncer les résultats du deuxième tour dès le lendemain de celui-ci. Une tâche largement à la portée d&apos;organisations comme Zahavato ou Andrimaso, et de quoi nous éviter des crises (si ce n&apos;est post-électorales, au moins de nerf).&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/projections_mdg2013.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<description>Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar...</description>
 
     <dc:subject>/madagascar</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -339,74 +84,8 @@ Ex : &lt;a href=&quot;http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-r
 <item rdf:about="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html">
 	<title>#mdg2013 Code de traitement informatique</title>
 	<link>http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;pre&gt;
-#!/bin/bash
-#
-# cenitdistricttotext
-#
-# Script qui convertit les fichiers PDF par région / district de la CENIT
-# en un fichier plat plus facilement exploitable
-#
-# Copyright 2013 Barijaona Ramaholimihaso (http://blog.barijaona.com)
-#
-#  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
-#  you may not use this file except in compliance with the License.
-#  You may obtain a copy of the License at
-#
-#  http:#www.apache.org/licenses/LICENSE-2.0
-#
-#  Unless required by applicable law or agreed to in writing, software
-#  distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#  See the License for the specific language governing permissions and
-#  limitations under the License.
-#
-
-# référence technique pour les choses les plus mystérieuses : sed one liners http://sed.sourceforge.net/sed1line_fr.html
-# et/ou http://www.corporesano.org/doc-site/grepawksed.html
-
-Filename=&quot;consolidation.txt&quot;
-rm -f $Filename
-
-#
-# on part d&apos;un fichier PDF par région
-# à récupérer avec un aspirateur de site Web comme SiteSucker
-# L&apos;adresse à aspirer est http://www.cenit-madagascar.mg/res/Recap_Region_.php
-#
-
-for i in *.pdf
-do
-    # récupérer dans un fichier temporaire la conversion en texte du PDF
-    #
-    # pdftotext est une petite partie du package Xpdf http://www.foolabs.com/xpdf/home.html
-    # Mac OS X version : http://www.bluem.net/en/mac/packages/ 
-    pdftotext -enc UTF-8 -nopgbrk &quot;$i&quot; buffer.txt
-
-    # récupérer les lignes contenant &apos;Votants&apos;, &apos;obtenues&apos; ou &apos;Total&apos;
-    egrep -e .*Votants.* -e .*obtenues.* -e .*Total.*  buffer.txt |\
-    # éliminer les données après tout signe %
-    # (c&apos;est les numéros des candidats et autres choses qui prêtent à confusion à cause des sauts de pages)
-        sed  &apos;s@%.*@%@g&apos; |\
-    # fusionner les lignes commencant par un chiffre avec la ligne précédente
-    # (ruptures de données provoquées par les sauts de pages)
-        sed -e :a -e &apos;$!N;s/\n\([0-9]\)/ \1/;ta&apos; -e &apos;P;D&apos; |\
-    # fusionner les lignes deux à deux
-        sed &apos;$!N;s/\n/ /&apos;|\
-    # supprimer éventuellement le nom de la région qui reste souvent accroché au premier district
-        sed &apos;s@REGION: \(.*\)District:@District:@&apos; |\
-    # remplacer l&apos;espace après &quot;District:&quot; et l&apos;espace avant &quot;Inscrits:&quot; par une tabulation
-        awk &apos;{ gsub(&quot;District.?.&quot;, &quot;District:\t&quot;) ; print $0 }&apos; |\
-        awk &apos;{ gsub(&quot; Inscrits:&quot;, &quot;\tInscrits:&quot;) ; print $0}&apos; |\
-    # mettre en début de ligne le nom de la région et une tabulation
-        awk -v region=`basename &quot;$i&quot; pdf` &apos;{printf region; printf &quot;\t&quot; ; print}&apos; &gt;&gt; $Filename
-
-    # TODO : non parfait
-    # vous aurez à redistribuer dans Excel ou Open Office la colonne 4 en précisant comme séparateur l&apos;espace
-    # puis, à supprimer les colonnes non pertinentes
-done
-rm buffer.txt
-&lt;/pre&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<description>
+#...</description>
 
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -416,44 +95,7 @@ rm buffer.txt
 <item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
 	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
 	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;em&gt;Initialement paru sur &lt;a href=&quot;http://www.madagascar-tribune.com/Lettre-ouverte-a-Mme-Beatrice,19274.html&quot;&gt;Madagascar-Tribune.com&lt;/a&gt; le 28 octobre 2013&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Madame,&lt;/p&gt;
-
-&lt;p&gt;J’ai été interloquée par une de vos déclarations &lt;a href=&quot;http://www.france24.com/fr/20131026-madagascar-vers-second-tour-candidats-ravalomanana-rajoelina?ns_campaign=editorial&amp;amp;ns_source=twitter&amp;amp;ns_mchannel=reseaux_sociaux&amp;amp;ns_fee=&amp;amp;ns_linkname=20131026_madagascar_vers_second_tour_candidats_ravalomanana&amp;amp;utm_source=dlvr.it&amp;amp;utm_medium=twitter&quot; title=&quot;France24&quot;&gt;rapportée par l’AFP&lt;/a&gt; : « Je ne sais pas d’où peuvent venir les fraudes ». Ces propos étaient-ils seulement maladroits ou traduisaient-ils le véritable fond de votre pensée ? Toujours est-il que je n’ai pu m’empêcher de penser : « que de certitudes aveugles ! ou alors quel cruel manque d’imagination ! ». Je sais de vous fort peu de chose, si ce n’est que vous êtes magistrate. Je ne sais si vous avez exercé plutôt dans le domaine pénal ou dans le domaine administratif, mais quoi qu’il en soit, vous ne pouvez ignorer que la quasi-totalité des fraudes trouvent leur origine dans l’exploitation par des personnes malintentionnées des faiblesses d’un système.&lt;/p&gt;
-
-&lt;p&gt;Je ne dis pas qu’il y a eu beaucoup de fraudes ce vendredi, mais je ne peux vous laisser dans l’ignorance que des faiblesses existent toujours, et il est malheureux que ce soit dans deux domaines dont on savait pertinemment qu’ils étaient déjà fragiles :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;l’établissement de la liste électorale&lt;/li&gt;
-&lt;li&gt;les opérations d’après scrutin&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Oui, la loi dit que tout électeur doit vérifier son inscription sur la liste électorale, et que l’absence de vérification entraîne ipso facto la perte de tout droit à réclamation. Mais la loi dit aussi qu’un avis de la disponibilité de la liste électorale auprès des fokontany doit être affiché aux bureaux des services publics de la localité et aux principaux points de rassemblement. Je n’ai rien vu de tel dans les bureaux de poste, les bureaux de la CNaPS, dans les dispensaires publics ou à proximité des arrêts de taxi-be ou des marchés. Sur les médias audio-visuels, le timing des campagnes de sensibilisation était tout simplement incongru. Aux moments clés, pas un seul spot pour dire que c’était le moment de se précipiter auprès du fokontany pour vérifier la liste définitive. &lt;/p&gt;
-
-&lt;p&gt;Personnellement, je ne l’ai appris que par lecture attentive des journaux et écoute des longs journaux de la RNM. Plus tard, vous avez aussi déclaré qu’il ne restait que quelque jours pour aller au district afin de vérifier que son nom était bien inscrit, mais qui a entendu votre message, et combien de paysans auront eu le temps de se déplacer jusqu’au chef lieu de district ? Je n’ai entendu de réels spots de sensibilisation à la vérification de la liste électorale que lorsque cette liste était déjà close : argent jeté par la fenêtre et « médecin après la mort » comme le dit l’expression populaire…&lt;/p&gt;
-
-&lt;p&gt;Quant aux opérations d’après scrutin, elles ne donnent pas l’impression d’avoir évolué dans le bon sens. Je suis régulièrement scrutateur dans mon quartier&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt; pour toutes les élections importantes depuis 1993. Je n’ai jamais trouvé le processus aussi fragile que cette année. Certes, il y a des progrès, comme le système de fermeture des plis, plus pratique et sans doute plus fiable que les cachets d’antan, ou encore la lampe à LEDs fournie par la CENIT qui permet de travailler un peu plus confortablement lors de l’établissement des PVs. Mais malgré la meilleur volonté du monde, les membres du bureau de vote étaient à la peine : ils avouaient n’avoir reçu qu’une heure trente de formation, et devaient sans cesse se référer à un livret d’instructions pas si explicite que cela. Aberration, la contexture des documents laissait croire que les scrutateurs devaient signer le PV avant que les mentions sur le nombre de voix de chaque candidat soient complétées. Beaucoup l’ont d’ailleurs fait et sont partis tout de suite après… et ils ont peut-être eu « raison » de procéder ainsi, car, pour moi qui par déformation professionnelle refuse de signer un document incomplet, les opérations n’étaient finies qu’à 22 heures 30 ! Évidemment, il n’y avait plus grand monde dans le bureau de vote à ce moment là pour vérifier qu’on ne substituait pas des documents, substitution d’autant plus facile qu’avec le nombre d’exemplaires nécessaires, le papier autocopiant montrait ses limites. Heureusement pour moi, j’ai l’habitude de me coucher tard…&lt;/p&gt;
-
-&lt;p&gt;Quant aux délégués des candidats, ne comptons pas sur eux… Il n’y en avait que deux dans le bureau de vote où j’ai déposé mon scrutin (pourtant situé dans la capitale), et l’un est parti dès 19 heures…&lt;/p&gt;
-
-&lt;p&gt;Au final, Madame, tout cela donne l’impression que la CENIT s’est particulièrement attachée à soigner certains aspects directement visibles par les électeurs, mais que ce que l’on pourrait appeler le &lt;i lang=&quot;en&quot;&gt;back-office&lt;/i&gt;&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;, c’est à dire la logistique du bureau de vote à l’issue du scrutin, a été un rien négligée, tant en ce qui concerne son organisation que sur la communication autour. J’espère que vous serez attentive à redresser cela.&lt;/p&gt;
-
-&lt;p&gt;Cordialement,&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Barijaona Ramaholimihaso&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Note qui parait nécessaire vu les questions qui m’ont été posées sur les réseaux sociaux : la tâche de scrutateur n’a absolument rien à voir avec la tenue du bureau de vote et est ouverte à tout citoyen volontaire qui est présent au moment des opérations de comptage de voix.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Appellation à moitié satisfaisante ici, car ces opérations doivent être faites en public, mais vu que le public était depuis longtemps parti se coucher…&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<description>Initialement paru sur Madagascar-Tribune...</description>
 
     <dc:subject>/madagascar</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -463,30 +105,7 @@ rm buffer.txt
 <item rdf:about="http://blog.barijaona.com/innovant/alternatives-google-reader.html">
 	<title>Après Google Reader, quelles alternatives ?</title>
 	<link>http://blog.barijaona.com/innovant/alternatives-google-reader.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Google Reader est bientôt mort, et l&apos;on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu&apos;un aggrégateur local de fils RSS ? Dans mon cas, je vois quatre justifications possibles à l&apos;utilisation de Google Reader pour la collecte des fils RSS. Par ordre décroissant d&apos;importance :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La mobilité : il existe quelques sites que je veux pouvoir suivre en déplacement avec tous les moyens informatiques disponibles, qu&apos;il s&apos;agisse d&apos;un ordinateur emprunté quelques minutes dans un lieu de passage, d&apos;une tablette ou d&apos;un &lt;i lang=&quot;en&quot;&gt;smartphone&lt;/i&gt;, et pour lesquels il est bien commode de synchroniser l&apos;état de lecture entre les différents appareils utilisés ;&lt;/li&gt;
-&lt;li&gt;Le souci de discrétion : une connexion sécurisée (&lt;code&gt;https&lt;/code&gt;) vers Google.com est moins révélatrice qu&apos;une connexion directe (et qui plus est non sécurisée) vers un site susceptible de déplaire à votre gouvernement ou à tout autre organisme qui prétend vouloir votre bien (et qui pourrait confondre facilement votre bien ou celui de la communauté avec le sien). Cette approche n&apos;a cependant de sens que pour les cas où l&apos;on peut faire raisonnablement confiance à Google. Or, le halo croissant de mystère autour de cette société doit faire s&apos;interroger de plus en plus sur l&apos;équilibre entre avantages et inconvénients.&lt;/li&gt;
-&lt;li&gt;Plus marginalement, la courtoisie envers certains sites : envoyer une requête à Google plutôt que directement à ces sites permet de mutualiser l&apos;utilisation de leur bande passante. Si vous envoyez à un site une requête toutes les cinq minutes alors qu&apos;il publie seulement une fois par semaine, c&apos;est que vous êtes un sagouin qui n&apos;a pas vraiment réfléchi sur l&apos;utilité des flux RSS. En passant par Google Reader, vous reportez sur la société de Mountain View la responsabilité de réfléchir.&lt;/li&gt;
-&lt;li&gt;Ce n&apos;est pas mon cas, mais &lt;a href=&quot;http://forums.cocoaforge.com/viewtopic.php?t=26132&amp;amp;p=136557&quot; title=&quot;Ten hours of articles missing after restart (Cocoaforge)&quot; hreflang=&quot;en&quot;&gt;certaines personnes peuvent être confrontées à des sites particulièrement bavards&lt;/a&gt;, qui nécessitent une collecte permanente des articles publiés. Un serveur allumé en permanence est la meilleure solution dans de tels cas.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Il fut un temps où je lisais tous mes flux en allant les chercher chez Google. Depuis le début de 2013, et même en tenant compte des raisons cités plus haut, moins de 10% des flux que je lis passent par Google. Ajoutons que je n&apos;ai jamais utilisé l&apos;interface web de Google Reader qu&apos;à titre de solution de dépannage temporaire, car un client RSS dédié est bien plus réactif et sollicite moins la bande passante. C&apos;est encore mieux lorsque ce client est capable de stocker les images afin de les afficher même en l&apos;absence de connexion.&lt;/p&gt;
-
-&lt;p&gt;Il n&apos;empêche que Google Reader ferme le 1er juillet, et l&apos;on ressent comme un manque. Vers quoi se tourner ?&lt;/p&gt;
-
-&lt;p&gt;Pour beaucoup, l&apos;alternative s&apos;appelle &lt;a href=&quot;http://feedly.com&quot; title=&quot;Feedly. A Better Reader&quot; hreflang=&quot;en&quot;&gt;Feedly&lt;/a&gt;. Feedly a gagné 500.000 utilisateurs dans les 48 heures qui ont suivi l&apos;annonce de l&apos;arrêt de Google Reader, et cela n&apos;a rien d&apos;étonnant : le produit est séduisant à l&apos;oeil et plutôt bien fait. De plus, Feedly a été un des premiers services à annoncer qu&apos;il s&apos;efforcerait de reproduire l&apos;API de Google Reader, ce qui ne peut qu&apos;intéresser tous les développeurs de clients RSS comme moi.&lt;/p&gt;
-
-&lt;p&gt;Mais à titre personnel, je crains que Feedly ne soit pas le produit qui s&apos;adapte à mes besoins :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;l&apos;accès est largement moins universel que je ne le voudrais. Pour le moment, l&apos;accès à Feedly n&apos;est possible qu&apos;après l&apos;installation d&apos;une application dédiée pour iOS ou Android ou d&apos;une extension spécifique à certains navigateurs web (Safari, Firefox ou Chrome seulement).&lt;/li&gt;
-&lt;li&gt;le &lt;i lang=&quot;en&quot;&gt;business model&lt;/i&gt; de Feedly est encore plus mystérieux que celui de Google. Maintenir des serveurs pour satisfaire des utilisateurs coûte de l&apos;argent, qu&apos;entend faire Feedly pour faire bouillir la marmite ? Quelles seront plus tard les contreparties à payer pour ces &quot;clients&quot; ? (&quot;clients&quot; est mis ici entre guillemets, car le vrai client est celui qui paye en argent sonnant et trébuchant).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ce billet devait traiter des petites astuces nécessaires pour mettre en place une installation de Tiny Tiny RSS. &lt;a href=&quot;https://github.com/ViennaRSS/vienna-rss/issues/160#issuecomment-15705208&quot; title=&quot;Vienna RSS : comment on issue #160&quot; hreflang=&quot;en&quot;&gt;Mais il m&apos;est entretemps apparu que NewsBlur.com était une meilleure alternative&lt;/a&gt;.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/innovant/alternatives-google-reader.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<description>Google Reader est bientôt mort, et l'on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu'un aggrégateur local de fils RSS ...</description>
 
     <dc:subject>/innovant</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -496,62 +115,11 @@ rm buffer.txt
 <item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
 	<title>Remembering the days of doom</title>
 	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;I am often amused and sometimes irked by financial &quot;analysts&quot;, &quot;tech pundits&quot; and &lt;a href=&quot;http://www.facebook.com/barijaona.r/posts/10151258364363262?comment_id=24814247&quot; title=&quot;Andrianjo RAR on Facebook&quot; hreflang=&quot;fr&quot;&gt;social networks&lt;/a&gt; comments about Apple being cornered by competition, losing its sense of innovation, and so on...&lt;/p&gt;
-
-&lt;p&gt;Countering these comments was not on my priority. Thanks to &lt;a href=&quot;http://seekingalpha.com/article/1261501-why-you-should-buy-apple-now&quot; title=&quot;Why You Should Buy Apple Now&quot; hreflang=&quot;en&quot;&gt;Timothy Pereira&lt;/a&gt; for gathering the demonstration that we are hearing the cover of an older song. &lt;br /&gt;
-Real life is more complicated than A + B. Like any firm, Apple is reinventing itself ; the only real &quot;problem&quot; is that outsiders don&apos;t know yet how this is being done.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.businessweek.com/bwdaily/dnflash/dec2000/nf20001211_005.htm&quot; title=&quot;Business Week&quot; hreflang=&quot;en&quot;&gt;Why Apple Is Losing Its Appeal Again&lt;/a&gt; &lt;br /&gt;
-by Sam Jaffe, published in BusinessWeek - Dec. 11, 2000&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Investors may be asking themselves what Apple can do to revive its fortunes. The likely answer, unfortunately, is that Steve Jobs has no white rabbits left in his hat. Apple appears to be facing a dead end in its business growth, the victim of mismanagement and unmitigated hubris.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://zdnet.com.com/2100-1107-526779.html?legacy=zdnn&quot; title=&quot;Zdnet.com&quot; hreflang=&quot;en&quot;&gt;Technology&apos;s walking dead&lt;/a&gt; &lt;br /&gt;
-by Michael Kanellos, published in ZDNet - Jan. 5, 2001&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;2004: Apple - Watch for the big fire sale. Pretty designs and overpriced blue plastic can only get you so far.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.newsfactor.com/perl/story/21715.html&quot; title=&quot;NewsFactor&quot; hreflang=&quot;en&quot;&gt;Mac G5: Too Little, Too Late&lt;/a&gt; &lt;br /&gt;
-by James Maguire, published in NewsFactor - Jun 12, 2003&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Looking at the future of the PC market, Apple&apos;s premium pricing structure becomes ever more outdated. A few years downstream, Linux desktops will force Windows to get cheaper. At that point even Windows boxes, seriously cheaper than Apple, will be in the &quot;too expensive&quot; category.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://archive.windowsitpro.com/article/audio/will-the-ipod-become-the-next-pet-rock--43957&quot; title=&quot;WindowsITPro&quot; hreflang=&quot;en&quot;&gt;Will the iPod Become the Next Pet Rock?&lt;/a&gt; &lt;br /&gt;
-by Paul Thurrott, published in Connected Home Magazine - Sep 15, 2004&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Apple&apos;s short-term success is very real and quite admirable, but the company&apos;s inability to see coming trends in video, subscription content, and interoperability suggests that Apple is repeating the mistakes of the past. In the 1980s, the Mac held an early lead over the PC but was quickly buried after the industry standardized on a common Microsoft technology. Today, that series of events is repeating itself, and online music services -- and to a greater degree, the digital delivery of all media types -- is very much at a nascent stage. If Apple doesn&apos;t change its ways, the company simply won&apos;t survive.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/days-of-doom.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<description>I am often amused and sometimes irked by financial "analysts", "tech pundits" and social networks comments about Apple being cornered by competition, losing its sense of innovation, and so on...</description>
 
     <dc:subject>/macintosh</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2013-03-24T09:40:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/photos/photivo-binary.html">
-	<title>Photivo</title>
-	<link>http://blog.barijaona.com/photos/photivo-binary.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;strong&gt;[fr]&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Un peu lassé du manque de support de la gestion de couleur dans les versions d&apos;ImageMagick sur Mac, je teste photivo pour traiter mes fichiers. Vous pouvez télécharger une version Macintosh &lt;a href=&quot;http://blog.barijaona.com/photos/photivo.dmg&quot; title=&quot;Image disque&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[en]&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I made a Mac OS X build of photivo, an interesting tool for processing photographic RAW files. Download it &lt;a href=&quot;http://blog.barijaona.com/photos/photivo.dmg&quot; title=&quot;Disk image&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/photos/photivo-binary.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-
-    <dc:subject>/photos</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-11-25T22:48:00+03:00</dc:date>
     
   </item>
 

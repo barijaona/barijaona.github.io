@@ -60,6 +60,11 @@ blockquote {
 kbd,samp,code,dfn {
 	line-height:1.2
 }
+
+dt {
+	font-size:110%;
+	font-weight:bold;
+}
 /* */
 
 /* reproduction du comportement d'iCab et de Mozilla dans autres navigateurs */
