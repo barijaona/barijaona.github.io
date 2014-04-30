@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,19 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
+	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
+	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
+	<description>La citation est un peu longue, mais loin d'être inutile :
+
+
+  Tout le monde admet que les salariés doivent participer à la vie de leur entreprise...</description>
+
+    <dc:subject>/bni</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2014-04-30T06:04:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
 	<title>FAQ sur l&apos;affaire BNI</title>
 	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
@@ -110,16 +123,6 @@
     <dc:subject>/innovant</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2013-04-02T07:21:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
-	<title>Remembering the days of doom</title>
-	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
-	<description>I am often amused and sometimes irked by financial "analysts", "tech pundits" and social networks comments about Apple being cornered by competition, losing its sense of innovation, and so on...</description>
-
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-03-24T09:40:00+03:00</dc:date>
     
   </item>
 

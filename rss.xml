@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,44 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
+	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
+	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;La citation est un peu longue, mais loin d&apos;être inutile :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tout le monde admet que les salariés doivent participer à la vie de leur entreprise. Mais qu&apos;est-ce que cela signifie au juste ? Il doit être clair, dès le départ, que nous excluons ici tout ce qui concerne la participation financière aux profits de l&apos;entreprise pour ne nous intéresser qu&apos;à la participation aux décisions. Mais, dans cette mesure-là, il nous semble que le terme doit être pris dans son sens le plus large. En fait, il s&apos;agit de savoir dans quelle mesure les salariés ou leurs représentants peuvent jouer un rôle dans la marche de l&apos;entreprise. C&apos;est très exactement un problème de partage de pouvoir : et il est capital aussi bien du point de vue de l&apos;efficacité économique que de la paix sociale - et, peut-on dire, de la dignité des hommes qui sont ainsi appelés à n&apos;être plus que de simples sujets dans tout le domaine de leur vie professionnelle, mais à faire entendre leur voix dans la gestion des affaires qui les concernent.&lt;/p&gt;
+
+&lt;p&gt;Il y a certes bien des moyens d&apos;arriver à cette fin et, dans un but de classification
+et de systématisation, il semble que l&apos;on puisse distinguer quatre formes principales
+de participation.&lt;/p&gt;
+
+&lt;p&gt;(...)&lt;/p&gt;
+
+&lt;p&gt;Il peut sembler à première vue excessif de ranger parmi les formes de participation le fameux « droit d&apos;expression » qui a vu le jour à l&apos;époque récente, puisqu&apos;il ne s&apos;agit en fin de compte que de permettre aux salariés de faire entendre leur voix sur un certain nombre de questions qui les touchent directement, sans leur conférer aucun pouvoir de décision. Pourtant, on peut estimer qu&apos;il y a là au moins l&apos;ébauche d&apos;une véritable participation dans la mesure où les opinions ainsi émises pourront peser d&apos;un certain poids sur les décisions finalement prises par l&apos;employeur. Mais ce que cette participation a surtout d&apos;original et qui mérite d&apos;être souligné ici, c&apos;est qu&apos;elle s&apos;exerce de façon directe et immédiate, sans aucun intermédiaire - ni élu, ni syndical : c&apos;est une technique inspirée de la démocratie directe et des idées d&apos;autogestion.&lt;/p&gt;
+
+&lt;p&gt;(...) il apparait que, à bien des égards, la loi française est allée trop loin dans la mise en place des modes de participation. Le souci de progresser simultanément sur chacune des quatre voies disponibles conduit à imposer à l&apos;employeur, au moins dans les grandes entreprises, des charges qui peuvent être très lourdes - et en tout cas fort coûteuses, si l&apos;on songe notamment à tous les crédits d&apos;heures que peuvent revendiquer les représentants du personnel et les délégués syndicaux pour exercer leurs fonctions. L&apos;employeur se trouve soumis à un si grand nombre d&apos;obligations et de contraintes (d&apos;ailleurs sanctionnées pénalement d&apos;une façon assez sévère) qu&apos;il risque quelquefois d&apos;être gêné, voire paralysé, dans son action. Bien plus, il lui arrive souvent d&apos;avoir à discuter le même problème avec des partenaires différents qui peuvent avoir des vues divergentes et adopter des positions contradictoires. Cela peut aller à l&apos;encontre d&apos;une bonne gestion - et rendre pratiquement impossible, comme on le constate trop souvent, une application stricte et intégrale de la loi.&lt;/p&gt;
+
+&lt;p&gt;Et c&apos;est peut-être pourquoi, justement, tout cet ensemble de règles si complexes se révèle souvent, dans les faits, inefficace : et il n&apos;est pas rare d&apos;entendre déplorer, dans l&apos;entreprise, un manque d&apos;information, de consultation, de négociation. C&apos;est, trop fréquemment, le règne du secret, du fait accompli. C&apos;est que la loi apparait aussi, dans bien des domaines, insuffisante. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Xavier Blanc-Jouvan, &lt;i lang=&quot;en&quot;&gt;in &lt;a href=&quot;http://ir.library.osaka-u.ac.jp/dspace/bitstream/11094/8453/1/oulr039-027.pdf&quot; title=&quot;PDF&quot;&gt;Osaka University Law Review.&lt;/a&gt;&lt;/i&gt; No 39 P.27-P.40&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ae-info.org/ae/User/Blanc-Jouvan_Xavier&quot; title=&quot;Academy of Europe&quot; hreflang=&quot;en&quot;&gt;Xavier Blanc-Jouvan&lt;/a&gt; a été professeur à l&apos;Université de Madagascar en 1960-1961.
+Il est professeur émérite de l&apos;Université de Panthéon Sorbonne, et est à l&apos;origine de nombreuses publications, &lt;a href=&quot;http://www.lawschool.cornell.edu/international/alumni.cfm&quot; title=&quot;Cornell University Law School alumni&quot; hreflang=&quot;en&quot;&gt;notamment en matière de droit comparé&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;De manière beaucoup plus anecdotique, il fut l&apos;enseignant de l&apos;unique cours de droit que j&apos;ai suivi de manière académique (eh oui, je suis essentiellement un autodidacte du droit). C&apos;était un cours de droit du travail, suivi sur les bancs de l&apos;École des Mines de Paris en 1984. &lt;br /&gt;
+J&apos;ose croire que ma note à ce cours n&apos;avait rien à voir avec le fait qu&apos;il était un ancien de Madagascar. &lt;br /&gt;
+Je suis beaucoup plus sûr que la pédagogie et la personnalité de M. Blanc-Jouvan ont été pour beaucoup pour mon intérêt pour le Droit.&lt;/p&gt;
+
+&lt;p&gt;À lire également : &lt;a href=&quot;http://www.usinenouvelle.com/article/les-salaries-actionnaires-de-reference.N175216&quot; title=&quot;L&apos;Usine Nouvelle n° 3287, 27 mai 2012&quot;&gt;« Les salariés, actionnaires de référence »&lt;/a&gt;, dans L&apos;Usine Nouvelle, qui est on le sait une dangereuse publication trotskiste.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/bni/obligation-et-droit.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+
+    <dc:subject>/bni</dc:subject>
+    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
+    <dc:date>2014-04-30T06:04:00+03:00</dc:date>
+    
+  </item>
 <item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
 	<title>FAQ sur l&apos;affaire BNI</title>
 	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
@@ -733,50 +771,6 @@ rm buffer.txt
     <dc:subject>/innovant</dc:subject>
     <dc:creator>Barijaona Ramaholimihaso</dc:creator>
     <dc:date>2013-04-02T07:21:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/days-of-doom.html">
-	<title>Remembering the days of doom</title>
-	<link>http://blog.barijaona.com/macintosh/days-of-doom.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;I am often amused and sometimes irked by financial &quot;analysts&quot;, &quot;tech pundits&quot; and &lt;a href=&quot;http://www.facebook.com/barijaona.r/posts/10151258364363262?comment_id=24814247&quot; title=&quot;Andrianjo RAR on Facebook&quot; hreflang=&quot;fr&quot;&gt;social networks&lt;/a&gt; comments about Apple being cornered by competition, losing its sense of innovation, and so on...&lt;/p&gt;
-
-&lt;p&gt;Countering these comments was not on my priority. Thanks to &lt;a href=&quot;http://seekingalpha.com/article/1261501-why-you-should-buy-apple-now&quot; title=&quot;Why You Should Buy Apple Now&quot; hreflang=&quot;en&quot;&gt;Timothy Pereira&lt;/a&gt; for gathering the demonstration that we are hearing the cover of an older song. &lt;br /&gt;
-Real life is more complicated than A + B. Like any firm, Apple is reinventing itself ; the only real &quot;problem&quot; is that outsiders don&apos;t know yet how this is being done.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.businessweek.com/bwdaily/dnflash/dec2000/nf20001211_005.htm&quot; title=&quot;Business Week&quot; hreflang=&quot;en&quot;&gt;Why Apple Is Losing Its Appeal Again&lt;/a&gt; &lt;br /&gt;
-by Sam Jaffe, published in BusinessWeek - Dec. 11, 2000&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Investors may be asking themselves what Apple can do to revive its fortunes. The likely answer, unfortunately, is that Steve Jobs has no white rabbits left in his hat. Apple appears to be facing a dead end in its business growth, the victim of mismanagement and unmitigated hubris.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://zdnet.com.com/2100-1107-526779.html?legacy=zdnn&quot; title=&quot;Zdnet.com&quot; hreflang=&quot;en&quot;&gt;Technology&apos;s walking dead&lt;/a&gt; &lt;br /&gt;
-by Michael Kanellos, published in ZDNet - Jan. 5, 2001&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;2004: Apple - Watch for the big fire sale. Pretty designs and overpriced blue plastic can only get you so far.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.newsfactor.com/perl/story/21715.html&quot; title=&quot;NewsFactor&quot; hreflang=&quot;en&quot;&gt;Mac G5: Too Little, Too Late&lt;/a&gt; &lt;br /&gt;
-by James Maguire, published in NewsFactor - Jun 12, 2003&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Looking at the future of the PC market, Apple&apos;s premium pricing structure becomes ever more outdated. A few years downstream, Linux desktops will force Windows to get cheaper. At that point even Windows boxes, seriously cheaper than Apple, will be in the &quot;too expensive&quot; category.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://archive.windowsitpro.com/article/audio/will-the-ipod-become-the-next-pet-rock--43957&quot; title=&quot;WindowsITPro&quot; hreflang=&quot;en&quot;&gt;Will the iPod Become the Next Pet Rock?&lt;/a&gt; &lt;br /&gt;
-by Paul Thurrott, published in Connected Home Magazine - Sep 15, 2004&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Apple&apos;s short-term success is very real and quite admirable, but the company&apos;s inability to see coming trends in video, subscription content, and interoperability suggests that Apple is repeating the mistakes of the past. In the 1980s, the Mac held an early lead over the PC but was quickly buried after the industry standardized on a common Microsoft technology. Today, that series of events is repeating itself, and online music services -- and to a greater degree, the digital delivery of all media types -- is very much at a nascent stage. If Apple doesn&apos;t change its ways, the company simply won&apos;t survive.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/days-of-doom.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-03-24T09:40:00+03:00</dc:date>
     
   </item>
 
