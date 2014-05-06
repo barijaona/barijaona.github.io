@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
 
@@ -32,6 +33,17 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/bni/mes-conclusions.html">
+	<title>« Au nom du peuple Malagasy… » (et de celui de la BNI aussi)</title>
+	<link>http://blog.barijaona.com/bni/mes-conclusions.html</link>
+	<description>Mesdames et Messieurs les membres du Conseil d'État,
+
+Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de m'aider à clarifier auprès de mon entourage, et ils pourraient vous être utiles...</description>
+	<dc:subject>/bni</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2014-05-06T06:27:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
 	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
 	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
@@ -39,21 +51,19 @@
 
 
   Tout le monde admet que les salariés doivent participer à la vie de leur entreprise...</description>
+	<dc:subject>/bni</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2014-04-30T06:04:00+03:00</dc:date>
 
-    <dc:subject>/bni</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2014-04-30T06:04:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
 	<title>FAQ sur l&apos;affaire BNI</title>
 	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
 	<description>Ah, les réseaux sociaux ...</description>
+	<dc:subject>/bni</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2014-01-24T14:43:00+03:00</dc:date>
 
-    <dc:subject>/bni</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2014-01-24T14:43:00+03:00</dc:date>
-    
-  </item>
+</item>
 
 </rdf:RDF>

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,69 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/bni/mes-conclusions.html">
+	<title>« Au nom du peuple Malagasy… » (et de celui de la BNI aussi)</title>
+	<link>http://blog.barijaona.com/bni/mes-conclusions.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Mesdames et Messieurs les membres du Conseil d&apos;État,&lt;/p&gt;
+
+&lt;p&gt;Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de m&apos;aider à clarifier auprès de mon entourage, et ils pourraient vous être utiles.&lt;/p&gt;
+
+&lt;p&gt;J&apos;ai entendu plaider que ce n&apos;était pas exact que seulement 4 personnes avaient voté pour la cession à IOFHL de la BNI, car feu Guy Ratovondrahona disposerait de deux voix, l&apos;une en tant que gouverneur de la Banque centrale, l&apos;autre en tant que directeur général.&lt;/p&gt;
+
+&lt;p&gt;Ce n&apos;est pas ce que dit le procès-verbal de la réunion en question. Ce n&apos;est pas ce que dit le réglement intérieur de la CSBF. Ce n&apos;est pas non plus ce que dit la composition actuelle de la CSBF telle que la communique officiellement cette institution : &lt;a href=&quot;http://www.banque-centrale.mg/index.php?id=m8_1_2&quot; title=&quot;Composition de la CSBF - Site de la Banque Centrale de Madagascar&quot;&gt;il n&apos;est nullement question ici de dédoublement de personnalité&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;J&apos;ai entendu également plaider que M. Lanto Rasoloelison n&apos;aurait pas encore été ministre au moment de la prise de décision.&lt;/p&gt;
+
+&lt;p&gt;Ce n&apos;est pas ce que le Journal Officiel dit dans son édition datée du 9 septembre 2013, à la page 2753. Ce n&apos;est pas non plus ce que disent les enregistrements radio et les copies d&apos;écran de sites web.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.barijaona.com/bni/decret_n°_2013-662_du_04-09-2013.jpg&quot; alt=&quot;Extrait du Journal Officiel&quot; width=&quot;642&quot; height=&quot;765&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;J&apos;ai entendu également plaider que les petits actionnaires n&apos;avaient pas qualité à intervenir dans cette affaire. Que la BNI aurait eu, elle, davantage de crédibilité pour intervenir, à travers ses organes dirigeants. &lt;/p&gt;
+
+&lt;p&gt;Ce n&apos;est pas ce que dit le principe d&apos;autonomie des personnes morales par rapport à leurs actionnaires. Ce n&apos;est pas non plus ce que dit l&apos;obligation de traitement égalitaire des actionnaires. Si la direction de la BNI était intervenue, elle aurait vraisemblablement été fautive en violant ces deux principes, séparément ou simultanément.&lt;/p&gt;
+
+&lt;p&gt;L&apos;idée simpliste &quot;&lt;q lang=&quot;mg&quot;&gt;Ny tompony aza tsy sarotiny&lt;/q&gt;&quot; ne peut pas s&apos;appliquer ici. Une personne morale comme la BNI n’est pas un objet de propriété. Ce n’est pas l’entreprise mais les parts de son capital social (lorsque l’entreprise prend la forme d’une société commerciale ou civile) qui font l’objet de propriété.&lt;/p&gt;
+
+&lt;p&gt;Les petits actionnaires sont tout aussi légitimes à défendre leurs droits de propriété que le sont IOFHL ou le Crédit Agricole aujourd&apos;hui. Il est d&apos;ailleurs intéressant de noter que IOFHL, qui n&apos;est pas encore à la direction de la BNI, a obtenu le droit de se joindre à l&apos;affaire ; IOFHL est-il plus habilité à ester en justice que les autres petits actionnaires ?&lt;/p&gt;
+
+&lt;p&gt;Mesdames et Messieurs les membres du Conseil d&apos;État,&lt;/p&gt;
+
+&lt;p&gt;La grosse&lt;a href=&quot;#fn:note5&quot; id=&quot;fnref:note5&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt; issue de votre décision contiendra cette magnifique formule &quot;Au nom du peuple Malagasy&quot;. N&apos;ayez donc à l&apos;esprit que l&apos;intérêt général tel qu&apos;il est dicté par la Loi.&lt;/p&gt;
+
+&lt;p&gt;Et merci de ne pas oublier que l&apos;intérêt des salariés de la BNI concourt à l&apos;intérêt général. &lt;a href=&quot;https://www.facebook.com/BNIMDG2013/posts/528810723895601&quot; title=&quot;Fanambarana avy amin&apos;ny mpiasan&apos;ny BNI&quot; hreflang=&quot;mg&quot;&gt;Ils sont sortis de leur silence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Chers membres de la presse,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lagazette-dgi.com/index.php?option=com_content&amp;amp;id=39092&amp;amp;Itemid=55&quot; title=&quot;La Gazette de la Grande Île&quot;&gt;Certains&lt;/a&gt; d&apos;entre vous ont trouvé &lt;a href=&quot;http://www.newsmada.com/index.php/actualites/36079-cession-de-la-bni-madagascar--halte-aux-medisances&quot; title=&quot;Courrier de Madagascar&quot;&gt;étonnantes&lt;/a&gt; mes &lt;a href=&quot;http://www.newsmada.com/index.php/actualites/38693-cession-de-la-bni--le-conseil-detat-rejette-les-demandes-de-sursis-a-execution&quot; title=&quot;Courrier de Madagascar&quot;&gt;« gesticulations »&lt;/a&gt; sur le Net. Ma &lt;strong&gt;fonction&lt;/strong&gt; a le devoir d&apos;être neutre, mais mes &lt;strong&gt;droits personnels&lt;/strong&gt;, et les devoirs rattachés, qu&apos;ils soient patrimoniaux ou citoyens ne s&apos;en éteignent pas pour autant. Au lendemain du 1er mai et du 3 mai, il ne m&apos;est pas désagréable d&apos;affirmer que la liberté d&apos;expression n&apos;est pas une exclusivité des patrons de presse.&lt;/p&gt;
+
+&lt;p&gt;Cher Maître,&lt;/p&gt;
+
+&lt;p&gt;Dans le prétoire, vous avez laissé entendre que j&apos;aurais pu être l&apos;auteur de manoeuvres frauduleuses comme la violation de la confidentialité de certains documents. Je respecte l&apos;impunité de parole dont bénéficie un avocat lorsqu&apos;il est à la barre, et je n&apos;ai aucune raison d&apos;avoir du ressentiment personnel envers vous. Je doute cependant que vous osiez répéter publiquement de tels propos hors du prétoire et du privilège d&apos;impunité qu&apos;il vous accorde.&lt;/p&gt;
+
+&lt;p&gt;Toujours à la barre, vous avez également affirmé que j&apos;aurais abusé de mes fonctions en écrivant une lettre datée du 13 juillet 2013. Invitée à produire ledit document, vous avez déclaré ne pas l&apos;avoir avec vous. Cela ne m&apos;étonne pas trop. Ayant fouillé mes propres archives, je ne retrouve rien de tel. Et pour une bonne raison. Le secrétaire général de la BNI aurait bien été en peine d&apos;engager son établissement. Du 1er juillet au 17 juillet inclus, j&apos;étais en congé.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.barijaona.com/bni/Conges_Juillet_2013_p1.jpg&quot; alt=&quot;Fiche de congés&quot; width=&quot;563&quot; height=&quot;647&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Qui plus est, à l&apos;étranger pendant une bonne partie de ce temps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.barijaona.com/bni/Conges_Juillet_2013_p2.jpg&quot; alt=&quot;Fiche de congés&quot; width=&quot;409&quot; height=&quot;443&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oui, j&apos;étais en Inde… Et contrairement à ce que certains pourraient penser, il m&apos;arrive de trouver des qualités aux originaires de ce pays.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:note5&quot;&gt;&lt;p&gt;Pour les non-juristes : La &quot;grosse&quot; est le nom donné à la copie d&apos;une décision de justice ou d&apos;un acte notarié comportant la formule exécutoire. Elle est apposée par le Greffier de la juridiction qui a rendu la décision ou par le notaire qui a dressé l&apos;acte contenant une reconnaissance de dette.&lt;a href=&quot;#fnref:note5&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/bni/mes-conclusions.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/bni</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2014-05-06T06:27:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
 	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
 	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
@@ -70,12 +133,11 @@ Je suis beaucoup plus sûr que la pédagogie et la personnalité de M. Blanc-Jou
 
 &lt;p&gt;À lire également : &lt;a href=&quot;http://www.usinenouvelle.com/article/les-salaries-actionnaires-de-reference.N175216&quot; title=&quot;L&apos;Usine Nouvelle n° 3287, 27 mai 2012&quot;&gt;« Les salariés, actionnaires de référence »&lt;/a&gt;, dans L&apos;Usine Nouvelle, qui est on le sait une dangereuse publication trotskiste.&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/bni/obligation-et-droit.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/bni</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2014-04-30T06:04:00+03:00</dc:date>
 
-    <dc:subject>/bni</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2014-04-30T06:04:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
 	<title>FAQ sur l&apos;affaire BNI</title>
 	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
@@ -312,12 +374,11 @@ Au sens de la lutte contre le blanchiment : &quot;Certes, la banque peut présum
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/bni/faq-bni.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/bni</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2014-01-24T14:43:00+03:00</dc:date>
 
-    <dc:subject>/bni</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2014-01-24T14:43:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/apple-apres-steve.html">
 	<title>Ma compréhension d&apos;Apple</title>
 	<link>http://blog.barijaona.com/macintosh/apple-apres-steve.html</link>
@@ -333,12 +394,11 @@ Au sens de la lutte contre le blanchiment : &quot;Certes, la banque peut présum
 
 &lt;p&gt;J&apos;avoue que j&apos;ai du mal à me retenir d&apos;acheter un exemplaire de tous les produits qu&apos;ils ont annoncé récemment.&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/apple-apres-steve.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-11-21T05:50:00+03:00</dc:date>
 
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-11-21T05:50:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/etat-de-droit.html">
 	<title>« Droit » et état de droit</title>
 	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
@@ -356,12 +416,11 @@ Ex : &lt;a href=&quot;http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-r
 
 &lt;p&gt;J&apos;ajouterais qu&apos;à partir du moment où un juge est soupçonnable de chercher à faire plaisir, il devient soupçonnable d&apos;être achetable. En détournant la citation de &lt;a href=&quot;http://www.investorwords.com/tips/1286/the-popularity-of-bankers.html&quot; title=&quot;A banker need not be popular. Indeed, a good banker in a healthy capitalist society should probably be much disliked.&quot; hreflang=&quot;en&quot; rel=&quot;nofollow&quot;&gt;John Kenneth Galbraith&lt;/a&gt;, on pourrait dire : &lt;q&gt;Un juge n&apos;a pas à être populaire. En fait, dans un solide état de droit, chaque juge devrait être détesté par la moitié de la population.&lt;/q&gt;&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/etat-de-droit.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-11-14T06:38:00+03:00</dc:date>
 
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-11-14T06:38:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/projections_mdg2013.html">
 	<title>#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
 	<link>http://blog.barijaona.com/madagascar/projections_mdg2013.html</link>
@@ -610,12 +669,11 @@ Ex : &lt;a href=&quot;http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-r
 
 &lt;p&gt;Il n&apos;y a plus de suspense à mes yeux. Là où ça devient vraiment intéressant, c&apos;est qu&apos;il doit être possible d&apos;annoncer les résultats du deuxième tour dès le lendemain de celui-ci. Une tâche largement à la portée d&apos;organisations comme Zahavato ou Andrimaso, et de quoi nous éviter des crises (si ce n&apos;est post-électorales, au moins de nerf).&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/projections_mdg2013.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-10-30T14:16:00+03:00</dc:date>
 
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-10-30T14:16:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html">
 	<title>#mdg2013 Code de traitement informatique</title>
 	<link>http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html</link>
@@ -687,12 +745,11 @@ done
 rm buffer.txt
 &lt;/pre&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-10-30T07:56:00+03:00</dc:date>
 
-    <dc:subject>/macintosh</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-10-30T07:56:00+03:00</dc:date>
-    
-  </item>
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
 	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
 	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
@@ -734,44 +791,10 @@ rm buffer.txt
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-10-29T02:27:00+03:00</dc:date>
 
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-10-29T02:27:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/innovant/alternatives-google-reader.html">
-	<title>Après Google Reader, quelles alternatives ?</title>
-	<link>http://blog.barijaona.com/innovant/alternatives-google-reader.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Google Reader est bientôt mort, et l&apos;on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu&apos;un aggrégateur local de fils RSS ? Dans mon cas, je vois quatre justifications possibles à l&apos;utilisation de Google Reader pour la collecte des fils RSS. Par ordre décroissant d&apos;importance :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La mobilité : il existe quelques sites que je veux pouvoir suivre en déplacement avec tous les moyens informatiques disponibles, qu&apos;il s&apos;agisse d&apos;un ordinateur emprunté quelques minutes dans un lieu de passage, d&apos;une tablette ou d&apos;un &lt;i lang=&quot;en&quot;&gt;smartphone&lt;/i&gt;, et pour lesquels il est bien commode de synchroniser l&apos;état de lecture entre les différents appareils utilisés ;&lt;/li&gt;
-&lt;li&gt;Le souci de discrétion : une connexion sécurisée (&lt;code&gt;https&lt;/code&gt;) vers Google.com est moins révélatrice qu&apos;une connexion directe (et qui plus est non sécurisée) vers un site susceptible de déplaire à votre gouvernement ou à tout autre organisme qui prétend vouloir votre bien (et qui pourrait confondre facilement votre bien ou celui de la communauté avec le sien). Cette approche n&apos;a cependant de sens que pour les cas où l&apos;on peut faire raisonnablement confiance à Google. Or, le halo croissant de mystère autour de cette société doit faire s&apos;interroger de plus en plus sur l&apos;équilibre entre avantages et inconvénients.&lt;/li&gt;
-&lt;li&gt;Plus marginalement, la courtoisie envers certains sites : envoyer une requête à Google plutôt que directement à ces sites permet de mutualiser l&apos;utilisation de leur bande passante. Si vous envoyez à un site une requête toutes les cinq minutes alors qu&apos;il publie seulement une fois par semaine, c&apos;est que vous êtes un sagouin qui n&apos;a pas vraiment réfléchi sur l&apos;utilité des flux RSS. En passant par Google Reader, vous reportez sur la société de Mountain View la responsabilité de réfléchir.&lt;/li&gt;
-&lt;li&gt;Ce n&apos;est pas mon cas, mais &lt;a href=&quot;http://forums.cocoaforge.com/viewtopic.php?t=26132&amp;amp;p=136557&quot; title=&quot;Ten hours of articles missing after restart (Cocoaforge)&quot; hreflang=&quot;en&quot;&gt;certaines personnes peuvent être confrontées à des sites particulièrement bavards&lt;/a&gt;, qui nécessitent une collecte permanente des articles publiés. Un serveur allumé en permanence est la meilleure solution dans de tels cas.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Il fut un temps où je lisais tous mes flux en allant les chercher chez Google. Depuis le début de 2013, et même en tenant compte des raisons cités plus haut, moins de 10% des flux que je lis passent par Google. Ajoutons que je n&apos;ai jamais utilisé l&apos;interface web de Google Reader qu&apos;à titre de solution de dépannage temporaire, car un client RSS dédié est bien plus réactif et sollicite moins la bande passante. C&apos;est encore mieux lorsque ce client est capable de stocker les images afin de les afficher même en l&apos;absence de connexion.&lt;/p&gt;
-
-&lt;p&gt;Il n&apos;empêche que Google Reader ferme le 1er juillet, et l&apos;on ressent comme un manque. Vers quoi se tourner ?&lt;/p&gt;
-
-&lt;p&gt;Pour beaucoup, l&apos;alternative s&apos;appelle &lt;a href=&quot;http://feedly.com&quot; title=&quot;Feedly. A Better Reader&quot; hreflang=&quot;en&quot;&gt;Feedly&lt;/a&gt;. Feedly a gagné 500.000 utilisateurs dans les 48 heures qui ont suivi l&apos;annonce de l&apos;arrêt de Google Reader, et cela n&apos;a rien d&apos;étonnant : le produit est séduisant à l&apos;oeil et plutôt bien fait. De plus, Feedly a été un des premiers services à annoncer qu&apos;il s&apos;efforcerait de reproduire l&apos;API de Google Reader, ce qui ne peut qu&apos;intéresser tous les développeurs de clients RSS comme moi.&lt;/p&gt;
-
-&lt;p&gt;Mais à titre personnel, je crains que Feedly ne soit pas le produit qui s&apos;adapte à mes besoins :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;l&apos;accès est largement moins universel que je ne le voudrais. Pour le moment, l&apos;accès à Feedly n&apos;est possible qu&apos;après l&apos;installation d&apos;une application dédiée pour iOS ou Android ou d&apos;une extension spécifique à certains navigateurs web (Safari, Firefox ou Chrome seulement).&lt;/li&gt;
-&lt;li&gt;le &lt;i lang=&quot;en&quot;&gt;business model&lt;/i&gt; de Feedly est encore plus mystérieux que celui de Google. Maintenir des serveurs pour satisfaire des utilisateurs coûte de l&apos;argent, qu&apos;entend faire Feedly pour faire bouillir la marmite ? Quelles seront plus tard les contreparties à payer pour ces &quot;clients&quot; ? (&quot;clients&quot; est mis ici entre guillemets, car le vrai client est celui qui paye en argent sonnant et trébuchant).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ce billet devait traiter des petites astuces nécessaires pour mettre en place une installation de Tiny Tiny RSS. &lt;a href=&quot;https://github.com/ViennaRSS/vienna-rss/issues/160#issuecomment-15705208&quot; title=&quot;Vienna RSS : comment on issue #160&quot; hreflang=&quot;en&quot;&gt;Mais il m&apos;est entretemps apparu que NewsBlur.com était une meilleure alternative&lt;/a&gt;.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/innovant/alternatives-google-reader.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-
-    <dc:subject>/innovant</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-04-02T07:21:00+03:00</dc:date>
-    
-  </item>
+</item>
 
 </rdf:RDF>
