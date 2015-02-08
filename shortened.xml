@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html">
+	<title>Message de service</title>
+	<link>http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html</link>
+	<description>Message de service, car je n'ai pas trop envie de répéter la même chose trop souvent, et que le fait ici relaté risque d'être bien placé dans les pages des faits divers de ce lundi...</description>
+	<dc:subject>/equipe/evenements</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-02-09T00:40:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/bni/mes-conclusions.html">
 	<title>« Au nom du peuple Malagasy… » (et de celui de la BNI aussi)</title>
 	<link>http://blog.barijaona.com/bni/mes-conclusions.html</link>
@@ -108,15 +117,6 @@ Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de
 	<dc:subject>/macintosh</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2013-10-30T07:56:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
-	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
-	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
-	<description>Initialement paru sur Madagascar-Tribune...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2013-10-29T02:27:00+03:00</dc:date>
 
 </item>
 
