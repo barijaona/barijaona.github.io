@@ -2,57 +2,68 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<title>Étonnements rapides et durables</title>
+<title>Using Blosxom starter kit with Apple's OS X Server : Étonnements rapides et durables</title>
 <meta name="DESCRIPTION" content="Expérimentations et mésaventures technologiques" />
 <meta name="keywords" content="blosxom, print66, lpd, weblog" />
 <meta name="ICBM" content="-18.9079, 47.5333" /> 
 <meta name="geo.region" content="MG-T" /> 
-<meta name="robots"
-content="noindex,follow" />
+
 <link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona5.css" />
 <link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme4.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout5.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
 <link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
-<link rel="alternate" type="application/rss+xml" title="RSS (titres)" href="http://blog.barijaona.com/web/blosxomsk/en/rss.xml" />
-
+<link rel="prev" href="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" title="Paris, ici et ce monde pas si infini" />
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-598147-1";
+urchinTracker();
+</script>
 </head>
 <body>
-<div class="contentwrapper"><div class="content"><h1>Étonnements rapides et durables</h1><em>Index of category :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/index.html">Web</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/blosxomsk/index.html">Blosxomsk</a>&nbsp;&gt;&nbsp;En
-<p lang="en">The <a href="http://blosxom.sourceforge.net" title="The zen of blogging" hreflang="en">Blosxom</a> starter kit is a carefully crafted collection of Perl scripts, plugins and templates. If you want to have a site rendered either dynamically or statically, it is a good starting point. <a href="http://blog.barijaona.com/download/blosxomsk.zip">Download the latest stable version</a>.</p>
-<h2></h2>
+<div class="contentwrapper"><div class="content"><h1>Étonnements rapides et durables</h1><em>Ahanements d'octets austraux</em>
 
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" rel="bookmark" title="Link to full article">15 novembre 2015 : Using Blosxom starter kit with Apple's OS X Server</a></h3>This is mainly a note to myself, about my blogging tool... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" title="Read the full article">-&gt;&gt;</a></span>
+<br /><br /><h2 class="dateofday">dimanche 15 novembre 2015</h2>
+<div class="post"><div class="post-full"><h3 class="accent4"><span class="timestamp"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" rel="bookmark" title="Permanent link to this post">[&nbsp;15:35&nbsp;]</a></span>&nbsp;Using Blosxom starter kit with Apple's OS X Server</h3><p>This is mainly a note to myself, about my blogging tool.</p>
+
+<p>In 2015, if you want a tool to create a blog, you will probably consider <a href="http://jekyllrb.com" title="Jekyll : transform your plain text into static websites and blogs.">Jekyll</a>. It is :</p>
+
+<ul>
+<li>simple (no database, just text files),</li>
+<li>safe (static site, no pesky updates to install, just your content)</li>
+<li>and free (as in beer as well as in speech).</li>
+</ul>
+
+<p></p><a name="more"></a><hr class="seemore" /><p></p>
+
+<p>OK, but version 1.0.0 of Jekyll had to wait May 2013 to be available, and even version 0.0.0 wasn't published before October 2008.</p>
+
+<p>My personal site has always been static. As soon as October 2003, I started using <a href="https://sourceforge.net/projects/blosxom/" title="Blosxom at Sourceforge">Blosxom</a> which is currently considered as <a href="http://siliconangle.com/blog/2012/03/20/5-minimalist-static-html-blog-generators-to-check-out/" title="5 Minimalist Static Blog Generators to Check Out">the grandfather</a> of minimalist static site generators. Less than a year later, I packaged it in an attempt to make the generation of a static blog a little easier. Call me old… Probably lazy and maybe narrow minded too, because I see no compelling reason to switch for my personal use.</p>
+
+<p>My setup is derived from the standard <a href="http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html" title="Announcement : Blosxom starter kit">Blosxom starter kit</a>.</p>
+
+<p>I currently use Apple's OSX Server, which is available to me through Apple's Developer Program. Therefore, the <code>blosxom.cgi</code> script is installed inside <code>/Library/Server/Web/Data/CGI-Executables</code>. The <code>&#036;datadir</code> variable in the script points to a public folder in my home directory. Inside this folder, the Unix group of <code>plugins/state/</code> and its content should be set to <code>_www</code>.</p>
+
+<p>In the <code>/Library/Server/Web/Config/apache2/other</code> folder, I have a <code>blosxom.conf</code> file which just contains the following line :</p>
+
+<pre><code>ScriptAlias /blog "/Library/Server/Web/Data/CGI-Executables/blosxom.cgi"</code></pre>
+
+<p>And here it is, I can see the rendering of my blog at http://localhost/blog …</p>
+
+<p>To generate its static version, I have a script which basically perform a :</p>
+
+<pre><code>perl /Library/Server/Web/Data/CGI-Executables/blosxom.cgi  -password="MyNotSoImportantPassword"</code></pre>
+
+<p>The static version is pushed to <a href="https://pages.github.com" title="Websites hosted from GitHub repositories">Github pages</a> through <code>git</code>. And that's it.</p>
+</div><div class="post-tools"><span class="timestamp">Updated :<br /> 15/11/2015 15:55</span><br /><span class="timestamp"><a href="http://www.haloscan.com/comments.php?user=barijaona&amp;comment=201511151535" title="Readers' comments"><script type="text/javascript">
+<!--
+myCount('201511151535');
+// -->
+</script></a></span><noscript><p><a href="http://www.haloscan.com/comments.php?user=barijaona&amp;comment=201511151535" title="Readers' comments">[Comment(s)]</a></p></noscript></div></div><br />
 
 
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html" rel="bookmark" title="Link to full article">18 août 2007 : The zen of blogging, the return</a></h3>There is a renewed interest for Blosxom at the development mailing list... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/alpharealease1forb4.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html" rel="bookmark" title="Link to full article">28 août 2006 : Blosxom 2.0.2</a></h3>Blosxom starter kit version 20060826:
-
-
-Updated to Blosxom 2... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/update20060826.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/international_english.html" rel="bookmark" title="Link to full article">13 janvier 2006 : For English speaking hackers...</a></h3>Some English speaking people have complained that Blosxomsk has only french menus: this download might help... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/international_english.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/update20060102.html" rel="bookmark" title="Link to full article">02 janvier 2006 : New version of Blosxom Starter Kit</a></h3>Late Christmas gift is available for download... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/update20060102.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/bugfix20051101.html" rel="bookmark" title="Link to full article">01 novembre 2005 : Bugfix</a></h3>A new release of Blosxom starter kit is available for download ... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/bugfix20051101.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/standalones.html" rel="bookmark" title="Link to full article">10 juin 2005 : Three plugins for blosxom users...</a></h3>This is to (re-)publish as standalones three plugins included in my blosxom starter kit :
-
-
-prevnextstory : populates the prevnexstory namespace with links for pointing to preceding 
-and following stories (arranged chronologically)... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/standalones.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
-<h3 class="accent4"><a href="http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html" rel="bookmark" title="Link to full article">21 septembre 2004 : Announcement : Blosxom starter kit</a></h3>Blosxom is a web publishing tool which has a good following... <span class="seemore"><a href="http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html" title="Read the full article">-&gt;&gt;</a></span>
-
-
+<br /><em>Billet classé dans la catégorie :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/index.html">Web</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/blosxomsk/index.html">Blosxomsk</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/blosxomsk/en/index.html">En</a>&nbsp;&gt;&nbsp;Update Osx Server
 <br /><br /></div></div>
 
 <nav><div class="topnav">
@@ -70,7 +81,7 @@ and following stories (arranged chronologically)... <span class="seemore"><a hr
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" title="billet du 14 novembre 2015">&lt;-&nbsp;Paris, ici et ce monde pas si infini</a></div></div></nav>
 
 <footer><div class="contentfooter">
 <br />
@@ -102,7 +113,7 @@ Certains droits protégés par <a rel="license" href="http://creativecommons.org
 
 </rdf:RDF>
 
---></div><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
+-->, 2015 Barijaona Ramaholimihaso</div><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
 // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
