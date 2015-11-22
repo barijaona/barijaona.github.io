@@ -1,31 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
 <title>Using Blosxom starter kit with Apple's OS X Server : Étonnements rapides et durables</title>
 <meta name="DESCRIPTION" content="Expérimentations et mésaventures technologiques" />
 <meta name="keywords" content="blosxom, print66, lpd, weblog" />
-<meta name="ICBM" content="-18.9079, 47.5333" /> 
-<meta name="geo.region" content="MG-T" /> 
-
-<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona5.css" />
+<meta name="ICBM" content="-18.9079, 47.5333" />
+<meta name="geo.region" content="MG-T" />
+<meta name="viewport" content="initial-scale=1" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://blog.barijaona.com/favicon.ico" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona6.css" />
 <link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme4.css" />
-<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout5.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
 <link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
-<link rel="prev" href="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" title="Paris, ici et ce monde pas si infini" />
+<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="prev" href="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" title="Paris, ici et ce monde pas si infini" />
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
 <script type="text/javascript">
 _uacct = "UA-598147-1";
 urchinTracker();
 </script>
+
 </head>
 <body>
-<div class="contentwrapper"><div class="content"><h1>Étonnements rapides et durables</h1><em>Ahanements d'octets austraux</em>
+<div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><br /><br /><h2 class="dateofday">dimanche 15 novembre 2015</h2>
 
-<br /><br /><h2 class="dateofday">dimanche 15 novembre 2015</h2>
-<div class="post"><div class="post-full"><h3 class="accent4"><span class="timestamp"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" rel="bookmark" title="Permanent link to this post">[&nbsp;15:35&nbsp;]</a></span>&nbsp;Using Blosxom starter kit with Apple's OS X Server</h3><p>This is mainly a note to myself, about my blogging tool.</p>
+<div class="post"><article class="hentry">
+<h3 class="accent4 entry-title instapaper_title"><time datetime="2015-11-15" class="timestamp"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;15:35&nbsp;]</a></time>&nbsp;Using Blosxom starter kit with Apple's OS X Server</h3>
+<div class="post-full entry-content instapaper_body"><p>This is mainly a note to myself, about my blogging tool.</p>
 
 <p>In 2015, if you want a tool to create a blog, you will probably consider <a href="http://jekyllrb.com" title="Jekyll : transform your plain text into static websites and blogs.">Jekyll</a>. It is :</p>
 
@@ -43,7 +47,7 @@ urchinTracker();
 
 <p>My setup is derived from the standard <a href="http://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html" title="Announcement : Blosxom starter kit">Blosxom starter kit</a>.</p>
 
-<p>I currently use Apple's OSX Server, which is available to me through Apple's Developer Program. Therefore, the <code>blosxom.cgi</code> script is installed inside <code>/Library/Server/Web/Data/CGI-Executables</code>. The <code>&#036;datadir</code> variable in the script points to a public folder in my home directory. Inside this folder, the Unix group of <code>plugins/state/</code> and its content should be set to <code>_www</code>.</p>
+<p>I currently use Apple's OSX Server, which is available to me through Apple's Developer Program. Therefore, the <code>blosxom.cgi</code> script is installed inside <code>/Library/Server/Web/Data/CGI-Executables</code>. The <code>&#036;basedir</code> variable in the script points to a public folder in my home directory. Inside this folder, the Unix owner of <code>plugins/state/</code> is set to <code>_www</code>, its group to <code>staff</code> and its permission is set to octal <code>770</code>.</p>
 
 <p>In the <code>/Library/Server/Web/Config/apache2/other</code> folder, I have a <code>blosxom.conf</code> file which just contains the following line :</p>
 
@@ -56,12 +60,26 @@ urchinTracker();
 <pre><code>perl /Library/Server/Web/Data/CGI-Executables/blosxom.cgi  -password="MyNotSoImportantPassword"</code></pre>
 
 <p>The static version is pushed to <a href="https://pages.github.com" title="Websites hosted from GitHub repositories">Github pages</a> through <code>git</code>. And that's it.</p>
-</div><div class="post-tools"><span class="timestamp">Updated :<br /> 15/11/2015 15:55</span><br /><span class="timestamp"><a href="http://www.haloscan.com/comments.php?user=barijaona&amp;comment=201511151535" title="Readers' comments"><script type="text/javascript">
-<!--
-myCount('201511151535');
-// -->
-</script></a></span><noscript><p><a href="http://www.haloscan.com/comments.php?user=barijaona&amp;comment=201511151535" title="Readers' comments">[Comment(s)]</a></p></noscript></div></div><br />
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 23/11/2015 01:57</span><br /></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'barijaona-blog';
+    var disqus_identifier='a201511151535';
+    var disqus_url='http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html';
 
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">Commentaires du blog hébergés par <span class="logo-disqus">Disqus</span></a>
+
+</div><br />
 
 <br /><em>Billet classé dans la catégorie :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/index.html">Web</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/blosxomsk/index.html">Blosxomsk</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/web/blosxomsk/en/index.html">En</a>&nbsp;&gt;&nbsp;Update Osx Server
 <br /><br /></div></div>
@@ -75,9 +93,18 @@ myCount('201511151535');
 <aside><div class="nav2">
 
 
-<div class="box"><form method="get" action="http://search.atomz.com/search/"><div class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s" /></div><div><input type="submit" value="Rechercher" /></div><p><input type="hidden" name="sp-a" value="sp1000a7cc" /></p><p><input type="hidden" name="sp-f" value="utf-8" /></p></form>
-<br />
-<span class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</span><br /></div>
+<div class="box">
+<div class="search">
+<form method="get" id="search" action="http://duckduckgo.com/">
+   <label for="motcle" accesskey="4">Rechercher dans le site</label>
+   <input type="text" name="q" id="motcle" maxlength="255" placeholder="mot(s) clé(s)"/>
+   <input type="hidden" name="sites" value="barijaona.com"/>
+   <input type="hidden" name="kj" value="#7F7F7F"/>
+   <input type="submit" value="Rechercher" />
+</form>
+</div>
+
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
 
 </div></aside>
 

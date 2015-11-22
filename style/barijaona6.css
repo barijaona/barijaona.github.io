@@ -139,18 +139,6 @@ dt {
 	text-shadow:3px 3px 0.4em #6CC
 }
 
-.contentwrapper {
-	background:transparent;
-	position:relative;
-	width:auto;
-	border:0;
-	padding:0 0 0 12em
- }
- 
- * html .contentwrapper {
- 	padding : 0 0 0 200px;
- }
-
 .timestamp {
 	text-shadow:none
 }

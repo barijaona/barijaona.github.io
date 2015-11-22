@@ -4,11 +4,23 @@
 
 .nav1 { width:100% ; text-align:left ; vertical-align:top ; border:none ; clear:both }
 
+.contentwrapper {
+	background:transparent;
+	position:relative;
+	width:auto;
+	border:0;
+	padding:0 0 0 32%
+ }
+
 .content { max-width:35em ; border:0; padding:3em 4% 1em 4% ; margin:2em 0 0 0}
 
-.nav2 { position:absolute; top:10ex ; left:2px ;  width:13em ; text-align:center ; font-size:small ;}
+.nav2 { position:absolute; top:10ex ; left:2px ; width:30% ; min-width:180px; max-width:520px; text-align:center ; font-size:small ;}
 
 .box, #friendfeed-badge { position:relative; top:2ex; padding:0.5em ; margin-top: 1em; border:1px solid gray ; background-color:#f3f3f3; text-align:left;}
+
+.month-calendar { min-width:180px; max-width:250px; margin:0 auto; text-align:center;}
+.note {text-align:center; font-size:x-small;}
+.search {text-align:center;}
 
 #friendfeed-badge ul {margin-left: 0; padding-left:8px ; }
 
@@ -68,22 +80,10 @@ a[hreflang]:after {
 }
 
 .post-tools {
-	position:absolute;
 	bottom:15px;
-	right:-20em;
-	width:15em;
-	line-height:1em;
-	text-align:left ; 
+	top:5px;
+	text-align:right ;
 }
-
-* html .post-tools {
-	position:static;
-}
-
-.comment-link {
-	text-align:right ; 
-}
-
 
 .month-calendar-day-this-day {  background-color:#E8E8E8}
 .month-calendar { font-size:xx-small}
@@ -161,21 +161,15 @@ a[hreflang]:after {
 body, .topnav, .nav1, .nav2, .content, .contentwrapper, .post-tools {
    width: auto;
    margin: auto ;
-   padding: 0;
+   padding: 3px;
  }
 
 /* adaptation d'éléments spécifiques */
 .contentwrapper {top:2em}
-.nav2 { position : relative; top:0; padding-bottom:2em}
+.nav2 { position : relative; top:0; padding-bottom:2em; left:auto;}
 .inline-button, .menu, .submenu {display:inline-block ;}
 .topnav {top: 1em; text-align:center; }
 .nav1 { text-align:center; }
-.post-tools {
-	position:relative;
-	bottom:15px;
-	top:5px;
-	right:0;
-}
 h3 .timestamp { float:none; display:block;}
 
  /* fixer une largeur maximale  de 100 % aux éléments potentiellement problématiques */
@@ -212,12 +206,4 @@ element1 {
    display: none !important;
  }
 
- /* Un message personnalisé */
- body:before {
-   content: "Agencement pour mobile du site";
-   display: block;
-   color: #777;
-   text-align: center;
-   font-style: italic;
- }
 }
