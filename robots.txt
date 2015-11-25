@@ -1,1 +1,3 @@
+User-agent: *
+Allow: /
 Sitemap: http://blog.barijaona.com/sitemap.xml
