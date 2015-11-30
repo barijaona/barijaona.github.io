@@ -16,7 +16,42 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2015-11-22T22:57:00Z</updated>
+  <updated>2015-11-30T05:18:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2015:/stories/suivi_twitter_COP21</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
+
+    <title type="text">Outil de suivi</title>
+    <published>2015-11-30T01:25:00Z</published>
+    <updated>2015-11-30T05:18:00Z</updated>
+    <category term="/stories"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
+&lt;p&gt;Version en français d'un outil disponible sur &lt;a href=&quot;http://climatetalkslive.org&quot; title=&quot;UN Climate Talks Live&quot;&gt;Climate Talks Live&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;shore-embed-219929&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;(function(d, t) {
+var s = d.createElement(t), options = {
+id: &quot;shore-embed-219929&quot;,
+src: &quot;https://climatetalkslive.org/widgets/?page=all&amp;autoresize=true&amp;limit=20&amp;title=Tweets%2520sur%2520la%2520COP21&amp;font=Helvetica%20Neue&amp;width=700&amp;lang=fr&amp;clang=fr&amp;header=true&amp;stats=true&amp;color=4F93D5&amp;logo=false&quot;,
+width: &quot;700&quot;,
+height: &quot;1000&quot;,
+autoresize: true};
+s.src = &quot;https://climatetalkslive.org/static/js/embed.js&quot;;
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != &quot;complete&quot;) if (rs != &quot;loaded&quot;) return;
+try { se = new ShoreEmbed(); se.initialize(options); se.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, &quot;script&quot;);&lt;/script&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://blog.barijaona.com/stories/suivi_twitter_COP21.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2015:/web/blosxomsk/en/update-osx-server</id>
@@ -548,37 +583,6 @@ Au sens de la lutte contre le blanchiment : &quot;Certes, la banque peut présum
 
 <p>J'avoue que j'ai du mal à me retenir d'acheter un exemplaire de tous les produits qu'ils ont annoncé récemment.</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/apple-apres-steve.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2013:/madagascar/etat-de-droit</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
-
-    <title type="text">« Droit » et état de droit</title>
-    <published>2013-11-14T03:38:00Z</published>
-    <updated>2013-11-14T03:44:00Z</updated>
-    <category term="/madagascar"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Commentaire actuellement en attente de modération chez <a href="http://andrianjorar.wordpress.com/2013/11/14/ainsi-parla-la-ces/" title="Ainsi parla la CES">Zo Razanamasy</a> suite à la <a href="http://www.hcc.gov.mg/election/decisions-election/decision-n21-cesd-du-9-novembre-2013-relative-a-une-requete-aux-fins-de-disqualification/" title="Décision n°21-CES/D du 9 novembre 2013 relative à une requête aux fins de disqualification">décision</a> de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina.</p>
-
-<blockquote>
-  <p>Zo, je suis moi aussi un relatif profane en droit. Mais il y a une leçon essentielle que j’ai retenu assez vite : le droit et la morale sont deux choses différentes. <br />
-Ex : <a href="http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-rien-que-le-droit" title="“Le droit, rien que le droit…”">Maître Eolas, pièce n°1</a> <br />
-<a href="http://www.maitre-eolas.fr/post/2009/02/24/1324-quand-je-vous-dis-que-le-droit-et-la-morale" title="Quand je vous dis que le droit et la morale…">Maître Eolas et Mamod Taki, pièce numéro 2</a>.</p>
-
-<p>Après quelques temps de perplexité, on se dit finalement que c’est très bien comme ça, et que c’est même une des caractéristiques clés de l’état de droit : il vaut bien mieux avoir affaire à un adversaire très fort en techniques et artifices juridiques qu’à un de ces juges qui décident sur des critères sentimentaux comme on les rencontre un peu trop souvent chez nous.</p>
-
-<p>Tu vois ce qu’il te reste possible de faire… Attaquer au pénal les auteurs directs des actes (s’ils peuvent être clairement identifiés), ou demander l’annulation de voix au deuxième tour… J’imagine que ni ton temps, ni celui de Me Jacques Rakotomalala ne sont gratuits et qu’il faut peser le coût que représente le fait d’être patriote…</p>
-</blockquote>
-
-<p>J'ajouterais qu'à partir du moment où un juge est soupçonnable de chercher à faire plaisir, il devient soupçonnable d'être achetable. En détournant la citation de <a href="http://www.investorwords.com/tips/1286/the-popularity-of-bankers.html" title="A banker need not be popular. Indeed, a good banker in a healthy capitalist society should probably be much disliked." hreflang="en" rel="nofollow">John Kenneth Galbraith</a>, on pourrait dire : <q>Un juge n'a pas à être populaire. En fait, dans un solide état de droit, chaque juge devrait être détesté par la moitié de la population.</q></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/madagascar/etat-de-droit.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

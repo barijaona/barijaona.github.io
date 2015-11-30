@@ -17,7 +17,7 @@
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
 <link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
-<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="Atom (courtes notes)" href="http://twitter.com/statuses/user_timeline/19493475.rss" /><link rel="prev" href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" title="#mdg2013 Lettre ouverte à Mme Béatrice Atallah" />
+<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="Atom (courtes notes)" href="http://twitter.com/statuses/user_timeline/19493475.rss" /><link rel="prev" href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" title="#mdg2013 Code de traitement informatique" />
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
 <script type="text/javascript">
@@ -50,7 +50,12 @@ function getComment(threadId,refPageURL){
 </script>
 </head>
 <body>
-<div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><h2></h2>
+<div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header>
+
+<div class="post"><article class="hentry">
+<h3 class="accent1 entry-title instapaper_title"><a href="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2015-11-30" class="timestamp">[&nbsp;lundi 30 novembre 2015,&nbsp;04:25&nbsp;]</time>&nbsp;Outil de suivi</a></h3>
+<div class="post-full entry-content instapaper_body">Version en français d'un outil disponible sur Climate Talks Live... <span class="seemore"><a href="http://blog.barijaona.com/stories/suivi_twitter_COP21.html"  rel="bookmark" title="Aller vers l'article complet">-&gt;&gt;</a></span></div></article></div>
+<h2></h2>
 <div class="post"><article class="hentry">
 <h3 class="accent4 entry-title instapaper_title"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2015-11-15" class="timestamp">[&nbsp;dimanche 15 novembre 2015,&nbsp;15:35&nbsp;]</time>&nbsp;Using Blosxom starter kit with Apple's OS X Server</a></h3>
 <div class="post-full entry-content instapaper_body"><p>This is mainly a note to myself, about my blogging tool.</p>
@@ -778,80 +783,6 @@ Ex : <a href="http://www.maitre-eolas.fr/post/2008/07/31/1043-le-droit-rien-que-
 </div><br />
 
 
-<div class="post"><article class="hentry">
-<h3 class="accent3 entry-title instapaper_title"><a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2013-10-30" class="timestamp">[&nbsp;mercredi 30 octobre 2013,&nbsp;07:56&nbsp;]</time>&nbsp;#mdg2013 Code de traitement informatique</a></h3>
-<div class="post-full entry-content instapaper_body"><pre>
-#!/bin/bash
-#
-# cenitdistricttotext
-#
-# Script qui convertit les fichiers PDF par région / district de la CENIT
-# en un fichier plat plus facilement exploitable
-#
-# Copyright 2013 Barijaona Ramaholimihaso (http://blog.barijaona.com)
-#
-#  Licensed under the Apache License, Version 2.0 (the "License");
-#  you may not use this file except in compliance with the License.
-#  You may obtain a copy of the License at
-#
-#  http:#www.apache.org/licenses/LICENSE-2.0
-#
-#  Unless required by applicable law or agreed to in writing, software
-#  distributed under the License is distributed on an "AS IS" BASIS,
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#  See the License for the specific language governing permissions and
-#  limitations under the License.
-#
-
-# référence technique pour les choses les plus mystérieuses : sed one liners http://sed.sourceforge.net/sed1line_fr.html
-# et/ou http://www.corporesano.org/doc-site/grepawksed.html
-
-Filename="consolidation.txt"
-rm -f $Filename
-
-#
-# on part d'un fichier PDF par région
-# à récupérer avec un aspirateur de site Web comme SiteSucker
-# L'adresse à aspirer est http://www.cenit-madagascar.mg/res/Recap_Region_.php
-#
-
-for i in *.pdf
-do
-    # récupérer dans un fichier temporaire la conversion en texte du PDF
-    #
-    # pdftotext est une petite partie du package Xpdf http://www.foolabs.com/xpdf/home.html
-    # Mac OS X version : http://www.bluem.net/en/mac/packages/ 
-    pdftotext -enc UTF-8 -nopgbrk "$i" buffer.txt
-
-    # récupérer les lignes contenant 'Votants', 'obtenues' ou 'Total'
-    egrep -e .*Votants.* -e .*obtenues.* -e .*Total.*  buffer.txt |\
-    # éliminer les données après tout signe %
-    # (c'est les numéros des candidats et autres choses qui prêtent à confusion à cause des sauts de pages)
-        sed  's@%.*@%@g' |\
-    # fusionner les lignes commencant par un chiffre avec la ligne précédente
-    # (ruptures de données provoquées par les sauts de pages)
-        sed -e :a -e '$!N;s/\n\([0-9]\)/ \1/;ta' -e 'P;D' |\
-    # fusionner les lignes deux à deux
-        sed '$!N;s/\n/ /'|\
-    # supprimer éventuellement le nom de la région qui reste souvent accroché au premier district
-        sed 's@REGION: \(.*\)District:@District:@' |\
-    # remplacer l'espace après "District:" et l'espace avant "Inscrits:" par une tabulation
-        awk '{ gsub("District.?.", "District:\t") ; print $0 }' |\
-        awk '{ gsub(" Inscrits:", "\tInscrits:") ; print $0}' |\
-    # mettre en début de ligne le nom de la région et une tabulation
-        awk -v region=`basename "$i" pdf` '{printf region; printf "\t" ; print}' >> $Filename
-
-    # TODO : non parfait
-    # vous aurez à redistribuer dans Excel ou Open Office la colonne 4 en précisant comme séparateur l'espace
-    # puis, à supprimer les colonnes non pertinentes
-done
-rm buffer.txt
-</pre>
-</div></article>
-<div class="post-tools">[<a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html#disqus_thread" onclick="return(getComment('a201310300756','http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html'));" data-disqus-identifier="a201310300756">Réagir</a>]</div>
-</div><br />
-
-
 
 <br /><br /></div></div>
 
@@ -921,15 +852,14 @@ rm buffer.txt
 <tr>
 <td class="month-calendar-day-nolink Lundi">23</td>
 <td class="month-calendar-day-nolink Mardi">24</td>
-<td class="month-calendar-day-this-day Mercredi">25</td>
-<td class="month-calendar-day-future Jeudi">26</td>
-<td class="month-calendar-day-future Vendredi">27</td>
-<td class="month-calendar-day-future Samedi">28</td>
-<td class="month-calendar-day-future Dimanche">29</td>
+<td class="month-calendar-day-nolink Mercredi">25</td>
+<td class="month-calendar-day-nolink Jeudi">26</td>
+<td class="month-calendar-day-nolink Vendredi">27</td>
+<td class="month-calendar-day-nolink Samedi">28</td>
+<td class="month-calendar-day-nolink Dimanche">29</td>
 </tr>
 <tr>
-<td class="month-calendar-day-future Lundi">30</td>
-<td class="month-calendar-day-noday Mardi">&nbsp;</td>
+<td class="month-calendar-day-this-day Lundi"><a title="Lundi 30 novembre 2015" href="http://blog.barijaona.com/2015/11/index.html#1130">30</a></td><td class="month-calendar-day-noday Mardi">&nbsp;</td>
 <td class="month-calendar-day-noday Mercredi">&nbsp;</td>
 <td class="month-calendar-day-noday Jeudi">&nbsp;</td>
 <td class="month-calendar-day-noday Vendredi">&nbsp;</td>
@@ -951,7 +881,7 @@ rm buffer.txt
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" title="billet du 29 octobre 2013">&lt;-&nbsp;#mdg2013 Lettre ouverte à Mme Béatrice Atallah</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" title="billet du 30 octobre 2013">&lt;-&nbsp;#mdg2013 Code de traitement informatique</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br />
