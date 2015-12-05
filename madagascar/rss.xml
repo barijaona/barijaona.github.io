@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr_recap_200902.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090216.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090211.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090209.html" />
 
       </rdf:Seq>
     </items>
@@ -38,85 +38,82 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/kopy_cop.html">
+	<title>Kôpy ve sa tsy kôpy ianao ?</title>
+	<link>http://blog.barijaona.com/madagascar/kopy_cop.html</link>
+	<description>(reprise d'un post initialement publié le vendredi 4 décembre 2015 sur la page Facebook de la FAPBM)
+
+Face aux interrogations sur les raisons de la taille de la délégation malgache et sa visibilité réelle, il peut être utile de remettre en perspective la taille d'un évènement comme la COP en donnant quelques chiffres :
+
+
+160...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/etat-de-droit.html">
 	<title>« Droit » et état de droit</title>
 	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
 	<description>Commentaire actuellement en attente de modération chez Zo Razanamasy suite à la décision de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-11-14T06:38:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-11-14T06:38:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/projections_mdg2013.html">
 	<title>#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
 	<link>http://blog.barijaona.com/madagascar/projections_mdg2013.html</link>
 	<description>Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-10-30T14:16:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-10-30T14:16:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
 	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
 	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
 	<description>Initialement paru sur Madagascar-Tribune...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2013-10-29T02:27:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2013-10-29T02:27:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/protections-asiatiques.html">
 	<title>Comment écrit-on &quot;vérifier&quot; en mandarin ?</title>
 	<link>http://blog.barijaona.com/madagascar/protections-asiatiques.html</link>
 	<description>Bon, beaucoup ont beau critiquer l'appareil photo de l'iPhone, il peut rendre service...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-03-05T22:38:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2009-03-05T22:38:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/cr_recap_200902.html">
 	<title>Bon, on en est où ?</title>
 	<link>http://blog.barijaona.com/madagascar/cr_recap_200902.html</link>
 	<description>Après onze ans d'écriture sporadique sur le Net, je suis chaque jour davantage conforté dans ma position : se cacher derrière un pseudonyme peut paraître commode, mais au final présente pas mal d'inconvénients...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-03-02T06:12:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2009-03-02T06:12:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/cr20090216.html">
 	<title>Mauvaises habitudes</title>
 	<link>http://blog.barijaona.com/madagascar/cr20090216.html</link>
 	<description>Une des règles d'or de ce blog est qu'on évite d'y parler du boulot...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-02-17T07:46:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2009-02-17T07:46:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/cr20090211.html">
 	<title>Merci...</title>
 	<link>http://blog.barijaona.com/madagascar/cr20090211.html</link>
 	<description>Les offres d'aides pour un compte FlickrPro ont été presqu'aussi nombreuses que les offres de médiateurs pour résoudre la crise politique malgache...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-02-12T07:34:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="http://blog.barijaona.com/madagascar/cr20090209.html">
-	<title>Petit bilan de l&apos;aube</title>
-	<link>http://blog.barijaona.com/madagascar/cr20090209.html</link>
-	<description>Les questions du jour : quelqu'un peut-il m'aider à identifier le monsieur au centre de la photo ...</description>
-    
-    <dc:subject>/madagascar</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-02-10T07:09:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2009-02-12T07:34:00+03:00</dc:date>
+
+</item>
 
 </rdf:RDF>
