@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,24 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
+	<title>[en] Long term financing of protected areas.</title>
+	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
+	<description>A FAPBM slideshow for the COP21...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
+	<title>Financement durable des aires protégées</title>
+	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
+	<description>Une présentation par la FAPBM pour la COP21...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/kopy_cop.html">
 	<title>Kôpy ve sa tsy kôpy ianao ?</title>
 	<link>http://blog.barijaona.com/madagascar/kopy_cop.html</link>
@@ -97,27 +115,6 @@ Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de
 	<dc:subject>/bni</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2014-05-06T06:27:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
-	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
-	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
-	<description>La citation est un peu longue, mais loin d'être inutile :
-
-
-  Tout le monde admet que les salariés doivent participer à la vie de leur entreprise...</description>
-	<dc:subject>/bni</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2014-04-30T06:04:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
-	<title>FAQ sur l&apos;affaire BNI</title>
-	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
-	<description>Ah, les réseaux sociaux ...</description>
-	<dc:subject>/bni</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2014-01-24T14:43:00+03:00</dc:date>
 
 </item>
 

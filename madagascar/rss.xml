@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/protections-asiatiques.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr_recap_200902.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090216.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/cr20090211.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,24 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
+	<title>[en] Long term financing of protected areas.</title>
+	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
+	<description>A FAPBM slideshow for the COP21...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
+	<title>Financement durable des aires protégées</title>
+	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
+	<description>Une présentation par la FAPBM pour la COP21...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/kopy_cop.html">
 	<title>Kôpy ve sa tsy kôpy ianao ?</title>
 	<link>http://blog.barijaona.com/madagascar/kopy_cop.html</link>
@@ -95,24 +113,6 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2009-03-02T06:12:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/cr20090216.html">
-	<title>Mauvaises habitudes</title>
-	<link>http://blog.barijaona.com/madagascar/cr20090216.html</link>
-	<description>Une des règles d'or de ce blog est qu'on évite d'y parler du boulot...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2009-02-17T07:46:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/cr20090211.html">
-	<title>Merci...</title>
-	<link>http://blog.barijaona.com/madagascar/cr20090211.html</link>
-	<description>Les offres d'aides pour un compte FlickrPro ont été presqu'aussi nombreuses que les offres de médiateurs pour résoudre la crise politique malgache...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2009-02-12T07:34:00+03:00</dc:date>
 
 </item>
 

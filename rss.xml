@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,30 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
+	<title>[en] Long term financing of protected areas.</title>
+	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;A FAPBM slideshow for the COP21. Texts by &lt;a href=&quot;https://www.linkedin.com/in/gérard-rambeloarisoa-115a2632&quot; title=&quot;FAPBM&apos;s Executive Manager&quot;&gt;Gérard Rambeloarisoa&lt;/a&gt; and myself.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//fr.slideshare.net/slideshow/embed_code/key/8U5gAAxQ9XLotn&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//fr.slideshare.net/barijaonar/cop21-long-term-financing-of-protected-areas-fapbm-english&quot; title=&quot;COP21 Long term financing of protected areas FAPBM (english)&quot; target=&quot;_blank&quot;&gt;COP21 Long term financing of protected areas FAPBM (english)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/barijaonar&quot; target=&quot;_blank&quot;&gt;Barijaona Ramaholimihaso&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
+	<title>Financement durable des aires protégées</title>
+	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Une présentation par la FAPBM pour la COP21. Textes de &lt;a href=&quot;https://www.linkedin.com/in/gérard-rambeloarisoa-115a2632&quot; title=&quot;Directeur exécutif de la FAPBM&quot;&gt;Gérard Rambeloarisoa&lt;/a&gt; et moi-même.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//fr.slideshare.net/slideshow/embed_code/key/1h2hziPAC9T2D&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//fr.slideshare.net/barijaonar/cop21-financement-durable-des-aires-protegees-fapbm-fr&quot; title=&quot;COP21 Financement durable des aires protégées FAPBM (français)&quot; target=&quot;_blank&quot;&gt;COP21 Financement durable des aires protégées FAPBM (français)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/barijaonar&quot; target=&quot;_blank&quot;&gt;Barijaona Ramaholimihaso&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/kopy_cop.html">
 	<title>Kôpy ve sa tsy kôpy ianao ?</title>
 	<link>http://blog.barijaona.com/madagascar/kopy_cop.html</link>
@@ -262,284 +286,6 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 	<dc:subject>/bni</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2014-05-06T06:27:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
-	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
-	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;La citation est un peu longue, mais loin d&apos;être inutile :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Tout le monde admet que les salariés doivent participer à la vie de leur entreprise. Mais qu&apos;est-ce que cela signifie au juste ? Il doit être clair, dès le départ, que nous excluons ici tout ce qui concerne la participation financière aux profits de l&apos;entreprise pour ne nous intéresser qu&apos;à la participation aux décisions. Mais, dans cette mesure-là, il nous semble que le terme doit être pris dans son sens le plus large. En fait, il s&apos;agit de savoir dans quelle mesure les salariés ou leurs représentants peuvent jouer un rôle dans la marche de l&apos;entreprise. C&apos;est très exactement un problème de partage de pouvoir : et il est capital aussi bien du point de vue de l&apos;efficacité économique que de la paix sociale - et, peut-on dire, de la dignité des hommes qui sont ainsi appelés à n&apos;être plus que de simples sujets dans tout le domaine de leur vie professionnelle, mais à faire entendre leur voix dans la gestion des affaires qui les concernent.&lt;/p&gt;
-
-&lt;p&gt;Il y a certes bien des moyens d&apos;arriver à cette fin et, dans un but de classification
-et de systématisation, il semble que l&apos;on puisse distinguer quatre formes principales
-de participation.&lt;/p&gt;
-
-&lt;p&gt;(...)&lt;/p&gt;
-
-&lt;p&gt;Il peut sembler à première vue excessif de ranger parmi les formes de participation le fameux « droit d&apos;expression » qui a vu le jour à l&apos;époque récente, puisqu&apos;il ne s&apos;agit en fin de compte que de permettre aux salariés de faire entendre leur voix sur un certain nombre de questions qui les touchent directement, sans leur conférer aucun pouvoir de décision. Pourtant, on peut estimer qu&apos;il y a là au moins l&apos;ébauche d&apos;une véritable participation dans la mesure où les opinions ainsi émises pourront peser d&apos;un certain poids sur les décisions finalement prises par l&apos;employeur. Mais ce que cette participation a surtout d&apos;original et qui mérite d&apos;être souligné ici, c&apos;est qu&apos;elle s&apos;exerce de façon directe et immédiate, sans aucun intermédiaire - ni élu, ni syndical : c&apos;est une technique inspirée de la démocratie directe et des idées d&apos;autogestion.&lt;/p&gt;
-
-&lt;p&gt;(...) il apparait que, à bien des égards, la loi française est allée trop loin dans la mise en place des modes de participation. Le souci de progresser simultanément sur chacune des quatre voies disponibles conduit à imposer à l&apos;employeur, au moins dans les grandes entreprises, des charges qui peuvent être très lourdes - et en tout cas fort coûteuses, si l&apos;on songe notamment à tous les crédits d&apos;heures que peuvent revendiquer les représentants du personnel et les délégués syndicaux pour exercer leurs fonctions. L&apos;employeur se trouve soumis à un si grand nombre d&apos;obligations et de contraintes (d&apos;ailleurs sanctionnées pénalement d&apos;une façon assez sévère) qu&apos;il risque quelquefois d&apos;être gêné, voire paralysé, dans son action. Bien plus, il lui arrive souvent d&apos;avoir à discuter le même problème avec des partenaires différents qui peuvent avoir des vues divergentes et adopter des positions contradictoires. Cela peut aller à l&apos;encontre d&apos;une bonne gestion - et rendre pratiquement impossible, comme on le constate trop souvent, une application stricte et intégrale de la loi.&lt;/p&gt;
-
-&lt;p&gt;Et c&apos;est peut-être pourquoi, justement, tout cet ensemble de règles si complexes se révèle souvent, dans les faits, inefficace : et il n&apos;est pas rare d&apos;entendre déplorer, dans l&apos;entreprise, un manque d&apos;information, de consultation, de négociation. C&apos;est, trop fréquemment, le règne du secret, du fait accompli. C&apos;est que la loi apparait aussi, dans bien des domaines, insuffisante. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Xavier Blanc-Jouvan, &lt;i lang=&quot;en&quot;&gt;in &lt;a href=&quot;http://ir.library.osaka-u.ac.jp/dspace/bitstream/11094/8453/1/oulr039-027.pdf&quot; title=&quot;PDF&quot;&gt;Osaka University Law Review.&lt;/a&gt;&lt;/i&gt; No 39 P.27-P.40&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ae-info.org/ae/User/Blanc-Jouvan_Xavier&quot; title=&quot;Academy of Europe&quot; hreflang=&quot;en&quot;&gt;Xavier Blanc-Jouvan&lt;/a&gt; a été professeur à l&apos;Université de Madagascar en 1960-1961.
-Il est professeur émérite de l&apos;Université de Panthéon Sorbonne, et est à l&apos;origine de nombreuses publications, &lt;a href=&quot;http://www.lawschool.cornell.edu/international/alumni.cfm&quot; title=&quot;Cornell University Law School alumni&quot; hreflang=&quot;en&quot;&gt;notamment en matière de droit comparé&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;De manière beaucoup plus anecdotique, il fut l&apos;enseignant de l&apos;unique cours de droit que j&apos;ai suivi de manière académique (eh oui, je suis essentiellement un autodidacte du droit). C&apos;était un cours de droit du travail, suivi sur les bancs de l&apos;École des Mines de Paris en 1984. &lt;br /&gt;
-J&apos;ose croire que ma note à ce cours n&apos;avait rien à voir avec le fait qu&apos;il était un ancien de Madagascar. &lt;br /&gt;
-Je suis beaucoup plus sûr que la pédagogie et la personnalité de M. Blanc-Jouvan ont été pour beaucoup pour mon intérêt pour le Droit.&lt;/p&gt;
-
-&lt;p&gt;À lire également : &lt;a href=&quot;http://www.usinenouvelle.com/article/les-salaries-actionnaires-de-reference.N175216&quot; title=&quot;L&apos;Usine Nouvelle n° 3287, 27 mai 2012&quot;&gt;« Les salariés, actionnaires de référence »&lt;/a&gt;, dans L&apos;Usine Nouvelle, qui est on le sait une dangereuse publication trotskiste.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/bni/obligation-et-droit.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/bni</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2014-04-30T06:04:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
-	<title>FAQ sur l&apos;affaire BNI</title>
-	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ah, les réseaux sociaux ! Un rien agressé le week-end dernier par @KingJulianMada sur la légitimité ou non de ma position par rapport à l&apos;affaire de vente par le Crédit Agricole de ses actions dans la BNI, j&apos;ai réalisé &lt;a href=&quot;https://twitter.com/MDGEco/status/424161872825561088&quot; title=&quot;King Julian, Eco de Madagascar et Barijaona sur Twitter&quot;&gt;à travers les échanges qui ont suivi&lt;/a&gt; que des éclaircissements sur une affaire devenue très complexe ne seraient pas inutiles.&lt;/p&gt;
-
-&lt;p&gt;D&apos;où cette foire aux questions. Rappel : depuis son ouverture, sur ce blog est affiché l&apos;avertissement &lt;q&gt;Les opinions traduites dans ces pages sont strictement personnelles et n&apos;engagent que leur auteur&lt;/q&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mots clés&lt;/strong&gt; : #Madagascar #EtreEngagéEtResponsable ‪#‎EtSiOnPassaitAlAction‬&lt;/p&gt;
-
-&lt;h2 id=&quot;situationetvolutiondudossier&quot;&gt;Situation et évolution du dossier&lt;/h2&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;La BNI est-elle vendue ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Réponse courte : &lt;strong&gt;à l&apos;heure actuelle, non&lt;/strong&gt;. &lt;br /&gt;
-  &lt;br /&gt;
-Réponse longue : Vendeur et acheteur potentiel se sont mis d&apos;accord il y a déjà plusieurs mois. Après multiples revirements, les autorités malgaches ont donné un accord &lt;strong&gt;conditionnel&lt;/strong&gt; à cette vente, avec des conditions qui devaient être satisfaites dans les trois mois à partir de l&apos;accord. Ces conditions &lt;strong&gt;ne sont pas satisfaites à l&apos;heure actuelle&lt;/strong&gt;. &lt;br /&gt;
-Ce n&apos;est qu&apos;après que ces conditions soient satisfaites que la remise de clés par le vendeur à l&apos;acheteur pourrait se faire et que la vente devrait être considérée comme conclue.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Quelles sont les chances du projet de vente d&apos;aboutir ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Les conditions suspensives qui ont été énoncées par les autorités malgaches compétentes (Commission de Supervision Bancaire et Financière - CSBF) ne peuvent pas être considérées comme de simples formalités. &lt;br /&gt;
-  &lt;br /&gt;
-Leur objectif est de toute évidence de mettre en place des garanties sérieuses après la cession : on peut notamment citer le maintien des dirigeants et du staff actuels de la BNI Madagascar et la signature de conventions d&apos;accompagnement de la BNI par Crédit Agricole en matière de confirmation de crédits documentaires et d&apos;octroi de contre-garanties sur les crédits, pendant au moins deux ans à compter de la finalisation de la cession.
-  &lt;br /&gt;
-Mais ces demandes constituent aussi des obligations contraignantes sur lesquelles le Crédit Agricole ne s&apos;attendait vraisemblablement pas à s&apos;engager. Il est prématuré à ce stade de prédire si ces conditions seront satisfaites. Et si elles le sont, il sera également intéressant de voir si elles seront uniquement satisfaites en ce qui concerne la forme, ou si l&apos;esprit des exigences de la CSBF sera réellement respecté.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Pourquoi le Crédit Agricole veut-il vendre ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;La décision du Crédit Agricole n&apos;a aucun rapport avec la situation particulière de la BNI ou de Madagascar. &lt;br /&gt;
-  &lt;br /&gt;
-Il s&apos;agit de l&apos;application d&apos;une décision stratégique du groupe qui a choisi &lt;a href=&quot;http://www.econostrum.info/Le-Credit-Agricole-se-renforce-au-Maroc-et-cede-ses-participations-africaines-a-Attijariwafa-Bank_a359.html&quot; title=&quot;Le Crédit Agricole se renforce au Maroc et cède ses participations africaines à Attijariwafa Bank&quot;&gt;depuis 2008 de se recentrer sur l&apos;Europe et la Méditerranée&lt;/a&gt;. À ce titre, toutes les autres participations en Amérique du Sud et en Afrique subsaharienne ont déjà été vendues.  &lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Qui sont les actuels candidats au rachat de la BNI ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Il s&apos;agit d&apos;une entité enregistrée à l&apos;Île Maurice, appelé Indian Ocean Financial Holding Limited (IOFHL), qui regroupe plusieurs sociétés et que l&apos;on désigne par conséquent fréquemment par l&apos;appellation &quot;consortium&quot;. 
-  &lt;br /&gt;
-Là où les choses deviennent complexes, c&apos;est que si le nom et l&apos;identité juridique de ce consortium sont restés les mêmes, sa composition, elle, a profondément changé ; l&apos;on peut même parler de bouleversements. &lt;br /&gt;
-  &lt;br /&gt;
-En 2011, le consortium comprenait deux banques (&lt;strong&gt;Bank One&lt;/strong&gt; - Ile Maurice, et la &lt;strong&gt;Caisse Régionale de Crédit Agricole de la Réunion&lt;/strong&gt;) et un des actionnaires de Bank One, le groupe Dalais. &lt;br /&gt;
-Fin 2012, la plus importante des deux banques, le Crédit Agricole de la Réunion, se retirait du consortium. &lt;br /&gt;
-Début septembre 2013, le consortium décidait le retrait de l&apos;autre banque, Bank One. Le consortium ne comprend donc désormais plus de banque, uniquement des actionnaires ayant des activités industrielle, commerciale ou agricole : le &lt;strong&gt;groupe Dalais&lt;/strong&gt; et le &lt;strong&gt;groupe Hiridjee&lt;/strong&gt;.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&quot;loriginedeloppositionauprojetactueldevente&quot;&gt;L&apos;origine de l&apos;opposition au projet actuel de vente&lt;/h2&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;Pourquoi s&apos;opposer à la vente ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Il est important de souligner qu&apos;il n&apos;y a jamais eu d&apos;opposition par rapport à l&apos;intention du Crédit Agricole de vendre sa participation. Les débats portent plutôt sur l&apos;adéquation ou non du profil des acheteurs potentiels : aussi bien les textes réglementaires que le simple bon sens justifient un examen attentif de l&apos;identité des acheteurs et des intentions de ceux-ci, lorsque les montants en jeu sont importants et/ou lorsque ces acheteurs peuvent se trouver en position d&apos;influencer l&apos;orientation de la banque.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Pourquoi cette méfiance vis-à-vis des acheteurs ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Comme expliqué précédemment, le consortium acheteur s&apos;était d&apos;abord présenté comme ayant une certaine expérience de la banque, mais se retrouve aujourd&apos;hui &lt;strong&gt;vidé d&apos;actionnaires banquiers&lt;/strong&gt;. &lt;br /&gt;
-  &lt;br /&gt;
-On ne doit pas s&apos;étonner que dans ces conditions, des professionnels du métier de banque s&apos;interrogent sur la logique industrielle des acheteurs, leur approche du métier de banque, leur compréhension des spécificités de cette activité, ou leur volonté de rester engagé sur le moyen et le long terme. &lt;br /&gt;
-  &lt;br /&gt;
-Déjà, le consortium dans sa première composition provoquait un certain nombre de questionnements. Il n&apos;était pas particulièrement rassurant que ce soit la plus petite des trois banques concernées (Bank One) qui se retrouvait désignée &lt;em&gt;leader&lt;/em&gt; pour l&apos;ensemble.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;caption id=&quot;comparaisonentrelabnibankoneetlecrditagricolelarunionchiffrescompilspartirdesrapportsdactivit2012&quot;&gt;Comparaison entre la BNI, Bank One et le Crédit Agricole La Réunion (chiffres compilés à partir des rapports d&apos;activité 2012)&lt;/caption&gt;
-&lt;col align=&quot;left&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-	&lt;th&gt;(montants en millions d&apos;Euro)&lt;/th&gt;
-	&lt;th&gt;BNI Madagascar&lt;/th&gt;
-	&lt;th&gt;Bank One&lt;/th&gt;
-	&lt;th&gt;CRCA La Réunion&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;left&quot;&gt;Total du bilan&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;441,5&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;484,5&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;5 349,1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;left&quot;&gt;Fonds propres (noyau dur)&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;35,9&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;23,8&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;602,4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;left&quot;&gt;Produit net bancaire&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;17,0&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;16,1&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;191,1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;left&quot;&gt;Résultat net&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;8,6&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;5,0&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;36,0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;td align=&quot;left&quot;&gt;Nombre d&apos;agences&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;28&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;16&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;37&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/dd&gt;
-&lt;dd&gt;
-&lt;p&gt;Cette faiblesse relative de Bank One avait déjà été relevée par les autorités malgaches en 2011. En cas de coup dur, quel établissement bancaire serait effectivement en mesure d&apos;aider l&apos;autre ? Le Trésor public et le Secrétariat général de la CSBF avaient manifesté leur opposition à ce schéma, estimant que Bank One ne pouvait être considéré comme un actionnaire de référence satisfaisant pour la BNI. &lt;br /&gt;
-  &lt;br /&gt;
-La décision prise fin 2012 par Crédit Agricole La Réunion de se retirer du consortium n&apos;a fait que renforcer le scepticisme chez les observateurs de l&apos;affaire. Dans la mesure où Bank One ne pourrait partager avec Crédit Agricole La Réunion la charge de supervision et de soutien, le cas échéant, de la BNI, la qualité du dossier présenté par les acquéreurs ne pouvait être considérée que comme dégradée. &lt;br /&gt;
-  &lt;br /&gt;
-La fragilité de Bank One a encore été confirmée par la révélation &lt;a href=&quot;http://www.africaintelligence.fr/LOI/affaires-reseaux/2013/06/14/raj-dussoye-en-sursis-a-bank-one,107964608-ART&quot; title=&quot;Lettre de l&apos;Océan Indien : Raj Dussoye en sursis à Bank One&quot;&gt;par la presse&lt;/a&gt; de grosses pertes essuyées par cet établissement suite à des spéculations sur les marchés financiers. Le remplacement qui a ensuite été annoncé du directeur général de Bank One ressemble fort à une sanction, car il apparait que les résultats financiers de cette banque pour l&apos;année 2013 &lt;a href=&quot;http://www.bankone.mu/en/News_readMore.aspx?newsid=2058&quot; title=&quot;Bank One nominates Ravneet Chowdhury as Chief Executive Officer Designate&quot; hreflang=&quot;en&quot;&gt;ont été sévèrement affectés&lt;/a&gt;. Cet épisode oblige en tout cas à considérer avec scepticisme les affirmations de ces prétendants à l&apos;achat sur leur capacité à développer la BNI et à y maintenir ou améliorer la qualité du système de contrôle interne. &lt;br /&gt;
-Là où les choses deviennent effarantes, c&apos;est que plutôt que de répondre aux doutes sur la capacité de Bank One à devenir une banque de référence vis-à-vis de la BNI, le consortium a choisi de retirer purement et simplement Bank One du consortium. Essaierait-on de faire croire contre toute logique qu&apos;un consortium n&apos;incluant aucune banque serait plus crédible que celui qui n&apos;avait pas convaincu les autorités malgaches en 2011 ?&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Certaines des accusations contre les candidats au rachat n&apos;ont-elles pas une connotation raciste ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Il est certain que la nature parfois difficile des relations entre Malagasy de souche, Mauriciens et Indo-Pakistanais d&apos;origine ne favorise pas un débat de qualité. Si l&apos;on s&apos;astreint cependant à essayer de rester aussi objectif que possible, on ne peut que trouver curieux qu&apos;alors que la solidité du dossier présenté par le consortium IOFHL n&apos;a fait que se dégrader depuis 2011, les autorités en charge de l&apos;examiner semblent au contraire à chaque fois plus indulgentes envers ce dossier. &lt;br /&gt;
-  &lt;br /&gt;
-La brutalité de certains revirements sans qu&apos;aucun motif sérieux et crédible ne soit avancé ne peut que nourrir des suspicions sur la cause réelle de ces revirements. Charisme des promoteurs ou autre chose ?  &lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Quels revirements vous paraissent-ils particulièrement suspects ? Y a-t-il des éléments de preuve ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Je vais citer deux revirements, mais on pourrait en citer beaucoup d&apos;autres. &lt;br /&gt;
-  &lt;br /&gt;
-Le 7 juin 2013, le Directeur Général du Trésor réaffirme par écrit au Crédit Agricole la volonté de l&apos;État malgache d&apos;avoir une banque internationale de premier ordre pour remplacer le Crédit Agricole, et il relève que le consortium ne reflète pas cette qualité. Mais dans une lettre datée du 20 juin 2013, soit le lendemain même de la manifestation par les représentants de l&apos;État de cette position, le Ministre des Finances écrit aux administrateurs de la BNI que l&apos;État actionnaire n&apos;a pas d&apos;objection. Pour motif de ce changement de position de l&apos;État actionnaire, le Ministre avance dans sa lettre que des documents et informations (&lt;em&gt;lesquels ???&lt;/em&gt;) sont venues confirmer que les recommandations (&lt;em&gt;lesquelles ???&lt;/em&gt;) de l&apos;État Malagasy sont répondues. &lt;br /&gt;
-  &lt;br /&gt;
-Le deuxième revirement est encore plus étonnant, dans la mesure où il concerne tout un groupe de personnes qui change radicalement de position. Le 21 août 2013, la CSBF se réunit et, &lt;strong&gt;à l&apos;unanimité de ses membres&lt;/strong&gt;, oppose un refus déguisé à la demande d&apos;agrément d&apos;IOFHL en exigeant le maintien du Crédit Agricole ou d&apos;une des 100 premières banques mondiales dans au moins 33% du capital de la BNI. Le 4 septembre, la CSBF se réunit à nouveau, convoquée en urgence. Pourquoi se réunir à nouveau sur un sujet déjà tranché ? Qui a demandé cette nouvelle réunion, qu&apos;est ce qui justifiait l&apos;urgence ? &lt;strong&gt;Est-il normal qu&apos;une autorité de régulation semble ainsi se plier à des desiderata de vendeur ou d&apos;acheteur ?&lt;/strong&gt; Est-ce du racisme que de trouver particulièrement troublant le fait que la CSBF renverse quasi-totalement une décision prise quelques jours auparavant, et se contente soudainement d&apos;un consortium n&apos;incluant plus aucune banque ? &lt;br /&gt;
-  &lt;br /&gt;
-Il n&apos;y a pas de fumée sans feu. Les pressions peuvent être de tout genre. Qui prend la peine d&apos;approcher les personnes connaissant le dossier obtient en tout cas rapidement confirmation qu&apos;il y eut &lt;strong&gt;pressions politiques&lt;/strong&gt; de très haut niveau. Les très maladroites tentatives d&apos;explication du président de la Transition ne font que le confirmer. &lt;br /&gt;
-  &lt;br /&gt;
-J&apos;ai personnellement très longuement discuté avec l&apos;ancien gouverneur de la Banque Centrale et président de la CSBF, Guy Ratovondrahona, le soir du jeudi 5 septembre 2013, soit le jour de l&apos;annonce du brutal revirement de position de la CSBF. Il a reconnu sans ambages qu&apos;il y avait des pressions politiques et qu&apos;il avait essayé autant que possible de limiter les dégâts. Quatre jours après, il décédait dans son bureau par accident vasculaire cérébral. Difficile de ne pas se dire que ce décès a un rapport avec la contradiction qu&apos;il ne pouvait manquer de percevoir entre le changement de décision de la CSBF et &lt;a href=&quot;http://youtu.be/pZWl2_aIVBU&quot; title=&quot;MaTV : un des hommages à Guy Ratovondrahona&quot;&gt;la véritable mission de celle-ci à laquelle il était très attaché&lt;/a&gt;. Paix à son âme.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Certaines personnes accusent carrément Hiridjee de blanchiment de capitaux. Ne s&apos;agit-il pas là d&apos;accusations graves et gratuites ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Ce sujet est complexe. Il faut en particulier avoir à l&apos;esprit que ce que l&apos;on attend d&apos;une banque &quot;sérieuse&quot; n&apos;a cessé d&apos;évoluer depuis 2001, sous la pression des États mais aussi de l&apos;opinion internationale. Par exemple, le sujet de la fraude fiscale est une problématique relativement récente, beaucoup plus en tout cas que celui de la prévention du terrorisme qui était apparu après les attentats de New York de 2001 et pour lequel les réglementations des différents pays ont été mises en cohérence entre elles. &lt;br /&gt;
-  &lt;br /&gt;
-Une grande partie du malaise trouve son origine dans le fait que M. Hassanein Hiridjee ait acheté 10% des actions de la BNI à travers une société basée dans les Îles Vierges Britanniques. Les Îles Vierges britanniques sont considérées par &lt;a href=&quot;http://mobile.lemonde.fr/economie/article/2014/01/20/bercy-sort-les-bermudes-et-jersey-des-paradis-fiscaux_4350727_3234.html&quot; title=&quot;Bercy sort les Bermudes et Jersey des paradis fiscaux (mais y maintient les Îles Vierges…&quot;&gt;la France&lt;/a&gt; et par le Premier ministre britannique &lt;a href=&quot;http://m.euractiv.com/details.php?lang=fr&amp;amp;aid=519855&quot; title=&quot;David Cameron demande aux territoires d&apos;outre-mer de modifier leur politique fiscale&quot;&gt;David Cameron lui même&lt;/a&gt; comme un des territoires posant le plus problème par rapport aux questions de fraude fiscale&lt;a href=&quot;#fn:note1&quot; id=&quot;fnref:note1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;. &lt;br /&gt;
-  &lt;br /&gt;
-Il y a là de quoi intriguer. Je ne doute pas que la SFI&lt;a href=&quot;#fn:note3&quot; id=&quot;fnref:note3&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt; (qui vendait les actions), le Crédit Agricole ou le Groupe Ciel ont pris des assurances que M. Hassanein Hiridjee n&apos;a pas de lien avec le terrorisme. Mais se sont-ils sentis obligés de pousser leurs investigations plus loin ? On peut très sérieusement en douter. Aux yeux d&apos;un Malgache, cela amène à reconsidérer d&apos;un tout autre œil les discours de certaines institutions sur le caractère positif de leurs apports au développement des territoires. Sur le sujet, la SFI et Crédit Agricole SA donnent l&apos;impression de se renvoyer la patate chaude : chacune des institutions fait comprendre qu&apos;à partir du moment où l&apos;autre n&apos;avait pas d&apos;objection, elle n&apos;avait pas de raison de se montrer plus royaliste que le Roi&lt;a href=&quot;#fn:note2&quot; id=&quot;fnref:note2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Est-ce que d&apos;autres éléments de risque sont à relever ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;La plus grosse surprise pour beaucoup d&apos;entre nous à l&apos;intérieur de la BNI a été de découvrir l&apos;ampleur de l&apos;hostilité de nos clients à ce schéma de vente. En ce qui me concerne, je n&apos;ai rencontré jusqu&apos;ici qu&apos;un seul client qui se montrait favorable au profil des membres du consortium. Et je n&apos;accorde pas grand crédit aux déclarations du consortium comme quoi une tournée auprès des grands clients aurait permis de rassurer tout le monde. &lt;br /&gt;
-  &lt;br /&gt;
-On peut encore comprendre que des grands groupes internationaux ne soient pas à l&apos;aise à l&apos;idée de traiter avec une banque de taille modeste. Mais la surprise à l&apos;intérieur de la surprise fut de découvrir que l&apos;hostilité la plus forte au projet du consortium vient des membres de la communauté &lt;i lang=&quot;mg&quot;&gt;karana&lt;/i&gt; (indo-pakistanaise). Paranoïa ou réalité ? l&apos;on découvre des &lt;i lang=&quot;mg&quot;&gt;karana&lt;/i&gt; qui, semble-t-il par crainte, évitent d&apos;être abonnés Telma ou Moov. Et il devient difficile de dénombrer ceux qui menacent de transférer leurs comptes en dehors de la BNI ou qui le font effectivement. &lt;br /&gt;
-  &lt;br /&gt;
-Deux explications possibles à tout cela : la première, c&apos;est qu&apos;à tort ou à raison (et j&apos;ai tendance à penser, plutôt à raison), M. Hassanein Hiridjee passe pour un homme d&apos;affaire dur, très dur. Trop dur ? Le nombre de cas de conflits autour du foncier ne plaide en tout cas pas en sa faveur. &lt;br /&gt;
-La deuxième, c&apos;est que la présence au sein du capital d&apos;une banque d&apos;un opérateur économique actif dans beaucoup de secteurs d&apos;activité inquiète les clients, qui se demandent si la politique de crédit n&apos;en sera pas affectée, ou si la confidentialité des informations les concernant pourra être préservée. &lt;br /&gt;
-  &lt;br /&gt;
-N&apos;oublions surtout pas que la relation banque-client, c&apos;est une question de confiance.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&quot;lesactionsetlavenir&quot;&gt;Les actions et l&apos;avenir&lt;/h2&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;As-tu essayé d&apos;en savoir plus ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Lorsque tout le monde fait semblant de regarder ailleurs, vous êtes obligés de regarder par vous même. En tant que salarié de la BNI, j&apos;ai rencontré deux fois MM. Dalais et Hiridjee, dont une fois en l&apos;absence de toute autre personne. &lt;br /&gt;
-  &lt;br /&gt;
-J&apos;ai lourdement insisté sur mes préoccupations sur les questions de conformité, sur l&apos;origine des fonds et sur le besoin d&apos;une identification claire des ayant-droits économiques&lt;a href=&quot;#fn:note4&quot; id=&quot;fnref:note4&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;. &lt;br /&gt;
-  &lt;br /&gt;
-En toute franchise, je leur ai dit : &lt;q&gt;Votre projet peut m&apos;intéresser, et je serais prêt à y participer s&apos;il y a des engagements clairs sur le respect de la conformité, l&apos;éthique, le maintien de la vigilance sur l&apos;origine des fonds comme le pratique le Crédit Agricole&lt;/q&gt;. On m&apos;a donné des assurances, on m&apos;a dit qu&apos;il y aurait des éclaircissements, des engagements par écrit. &lt;br /&gt;
-  &lt;br /&gt;
-Cela fait déjà plusieurs mois, rien n&apos;est venu. Les bizarreries sur le dossier BNI, elles, se sont multipliées. Plus embêtant encore pour moi, j&apos;ai des indices assez sérieux qu&apos;on ne m&apos;a pas dit la vérité sur l&apos;origine des fonds et les véritables ayant-droits économiques de l&apos;opération. &lt;a href=&quot;http://www.banque-centrale.mg/index.php?id=m8_3_7_1&quot; title=&quot;Loi sur le blanchiment (voir article 9)&quot;&gt;Ce genre de soupçon oblige un banquier à interrompre la relation&lt;/a&gt; : le principe est &quot;dans le doute, abstiens-toi&quot;.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Que penses tu personnellement de Hassanein Hiridjee ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Nous nous connaissions avant, par des relations communes. C&apos;est quelqu&apos;un de sympathique, intelligent, cultivé et qui sait faire passer ses convictions. On se tutoie, je n&apos;ai vraiment pas de problèmes relationnels avec lui. &lt;br /&gt;
-  &lt;br /&gt;
-On n&apos;a sans doute pas la même approche des affaires. Après mes études, je suis rentré à Madagascar pour participer à l&apos;aventure d&apos;une BNI privatisée, c&apos;est à dire une institution débarrassée des influences politiques et des risques de copinage. Lui, cherche à avoir le &lt;i lang=&quot;mg&quot;&gt;tso-drano&lt;/i&gt; des autorités.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Vous êtes nombreux au sein de la BNI à avoir ces doutes ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Des dizaines de cadres de la BNI ont écrit à la direction générale pour marquer leur préoccupation et demander l&apos;examen de la situation au cours d&apos;une réunion du comité d&apos;audit. Les représentants du personnel et les délégués du personnel ont également fait part de leur préoccupation. &lt;br /&gt;
-  &lt;br /&gt;
-Le Crédit Agricole a réaffirmé solennellement ses engagements en matière de respect de la loi et des décisions des autorités malgaches. &lt;br /&gt;
-  &lt;br /&gt;
-Mais bien évidemment, des questions parmi les plus importantes ne pourront être répondues que par les autorités malgaches et par le consortium.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Y a-t-il des alternatives possibles à ce consortium ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Très vraisemblablement, y compris des banques. Mais juridiquement, aucune avancée n&apos;apparait possible avant la fin officielle de la phase d&apos;exclusivité de négociation entre Crédit Agricole et IOFHL. &lt;br /&gt;
-  &lt;br /&gt;
-Je n&apos;ai pas de préférence pour un candidat particulier. Les petits actionnaires de la BNI estiment que pour éviter toute suspicion d’interférences extérieures dans les relations de la BNI avec sa clientèle, aucun groupe économique exerçant des activités commerciales, industrielles, agricoles ou immobilières significatives à Madagascar ne devrait détenir directement ou indirectement plus de 5% du capital de la banque.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Que souhaites-tu ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Je n&apos;habite pas au pays des bisounours. Madagascar ne peut pas, du jour au lendemain, devenir un pays parfait. Il faudra peut-être passer l&apos;éponge sur certaines choses du passé, sans doute faire des compromis. &lt;br /&gt;
-  &lt;br /&gt;
-Mais en ce jour particulier, le pays se trouve semble-t-il devant une de ses dernières chances d&apos;opérer un sain &lt;i lang=&quot;en&quot;&gt;reboot&lt;/i&gt;. L&apos;affaire BNI aura une signification particulière dans ce contexte. J&apos;espère tout simplement que l&apos;on laissera des institutions comme la CSBF et le Conseil d&apos;État faire leur boulot normalement, et que le Crédit Agricole assumera vraiment sa part de responsabilité sociétale.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;dt&gt;Tu gardes espoir ?&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Indubitablement. À mes yeux, c&apos;est du 50/50.&lt;/p&gt;
-&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/xiuzFNtki60?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;[&lt;a href=&quot;http://sting.com/discography/lyrics/lyric/song/126&quot; title=&quot;Driven to tears&quot;&gt;Lyrics&lt;/a&gt;]&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:note1&quot;&gt;&lt;p&gt;Il ne faut pas confondre la fraude fiscale et l&apos;optimisation fiscale qui consiste pour des entités à utiliser des techniques &lt;strong&gt;légales&lt;/strong&gt; pour payer le minimum d&apos;impôts (les plus célèbres pour leurs performances dans ce domaine sont les acteurs des nouvelles technologies comme Apple, Google ou Amazon).&lt;a href=&quot;#fnref:note1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:note3&quot;&gt;&lt;p&gt;Société Financière Internationale, filiale de la Banque Mondiale chargée du développement du secteur privé, notamment par l&apos;octroi de prêts ou de prises de participations dans des sociétés du secteur privé. &lt;a href=&quot;#fnref:note3&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:note2&quot;&gt;&lt;p&gt;Sur ce point, je fais une distinction assez nette entre Crédit Agricole SA et la Caisse Régionale de Crédit Agricole de La Réunion qui, au vu de l&apos;évolution de la situation, a fait montre de beaucoup plus de prudence en se retirant du consortium des acheteurs potentiels.&lt;a href=&quot;#fnref:note2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:note4&quot;&gt;&lt;p&gt;Ayants-droits économiques : véritables propriétaires d&apos;une chose, lesquels ne peuvent être que des personnes physiques. &lt;br /&gt;
-Au sens de la lutte contre le blanchiment : &quot;Certes, la banque peut présumer que le partenaire contractuel et l’ayant droit économique ne font qu’un. Cette présomption est toutefois détruite si la banque a des doutes ou dispose d’indices indiquant que le cocontractant n’est pas identique à l’ayant droit économique.&quot;&lt;a href=&quot;#fnref:note4&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/bni/faq-bni.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/bni</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2014-01-24T14:43:00+03:00</dc:date>
 
 </item>
 
