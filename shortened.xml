@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/night_session_cop21.html">
+	<title>Comment ça se termine une COP ?</title>
+	<link>http://blog.barijaona.com/madagascar/night_session_cop21.html</link>
+	<description>En quenouille ou en feu d'artifice ...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
 	<title>[en] Long term financing of protected areas.</title>
 	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
@@ -104,17 +113,6 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:subject>/equipe/evenements</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-02-09T00:40:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/bni/mes-conclusions.html">
-	<title>« Au nom du peuple Malagasy… » (et de celui de la BNI aussi)</title>
-	<link>http://blog.barijaona.com/bni/mes-conclusions.html</link>
-	<description>Mesdames et Messieurs les membres du Conseil d'État,
-
-Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de m'aider à clarifier auprès de mon entourage, et ils pourraient vous être utiles...</description>
-	<dc:subject>/bni</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2014-05-06T06:27:00+03:00</dc:date>
 
 </item>
 
