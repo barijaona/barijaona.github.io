@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,28 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/en-attendant.html">
+	<title>Quiz</title>
+	<link>http://blog.barijaona.com/monde/en-attendant.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;En attendant le verdict de la COP21, petit test de connaissance. Qui a dit ce qui suit ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;L’inégalité n’affecte pas seulement les individus, mais aussi des pays entiers, et oblige à penser à une éthique des relations internationales. Il y a, en effet, une vraie “ dette écologique ”, particulièrement entre le Nord et le Sud, liée à des déséquilibres commerciaux, avec des conséquences dans le domaine écologique, et liée aussi à l’utilisation disproportionnée des ressources naturelles, historiquement pratiquée par certains pays.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(...)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;La dette extérieure des pays pauvres s’est transformée en un instrument de contrôle, mais il n’en est pas de même avec la dette écologique. De diverses manières, les peuples en développement, où se trouvent les plus importantes réserves de la biosphère, continuent d’alimenter le développement des pays les plus riches au prix de leur présent et de leur avenir.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Le premier qui répond ci-après a droit à une bouffée d&apos;air pur ainsi que, très accessoirement, à ma considération.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/en-attendant.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-11T13:24:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/night_session_cop21.html">
 	<title>Comment ça se termine une COP ?</title>
 	<link>http://blog.barijaona.com/madagascar/night_session_cop21.html</link>
@@ -222,59 +244,6 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-11-14T13:01:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html">
-	<title>Message de service</title>
-	<link>http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Message de service, car je n&apos;ai pas trop envie de répéter la même chose trop souvent, et que le fait ici relaté risque d&apos;être bien placé dans les pages des faits divers de ce lundi.&lt;/p&gt;
-
-&lt;p&gt;Ceci est (faut-il écrire était ?) ma voiture de fonction…&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;photodesams.randriakotonjanaharysurlapagequotfifamoivoizanaetomadagasikaraquot&quot; src=&quot;http://blog.barijaona.com/equipe/evenements/Vu_sur_Facebook.jpg&quot; alt=&quot;Photo de Sam S. Randriakotonjanahary sur la page &amp;quot;Fifamoivoizana eto Madagasikara&amp;quot;&quot; title=&quot;Photo de Sam S. Randriakotonjanahary sur la page &amp;quot;Fifamoivoizana eto Madagasikara&amp;quot;&quot; width=&quot;683&quot; height=&quot;455&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;C&apos;était à la sortie de la messe de 11 heures de l&apos;église de Faravohitra.&lt;/p&gt;
-
-&lt;p&gt;La messe précédente (celle de 9h30) avait pris du retard. Du fait de la densité des voitures, je n&apos;avais pas pu me garer à mon emplacement habituel, mais avait été contraint de faire le tour de Faravohitra pour me parquer plus haut (devant l&apos;école Bernard Canut pour ceux qui connaissent le quartier).&lt;/p&gt;
-
-&lt;p&gt;À la sortie de la messe, j&apos;ai voulu épargner à ma femme Lalaina et à ma fille Ialy d&apos;avoir à remonter cette route pavée et ce trottoir un peu inégal et était monté seul chercher la voiture, afin de les récupérer à la hauteur de l&apos;église. Elles étaient en train d&apos;embarquer lorsque cela est arrivé.&lt;/p&gt;
-
-&lt;p&gt;Je ne me souviens pas de tout, mais je garde un souvenir très net d&apos;une vision de camion benne à ordures déboulant à toute vitesse dans mon rétroviseur. Et du mot de Cambronne qui a traversé ma tête.&lt;/p&gt;
-
-&lt;p&gt;Ialy, à l&apos;arrière de la voiture, mais heureusement du côté droit, a été projetée entre siège avant et siège arrière. Elle a été légèrement blessée à la joue et à la cuisse. Heureusement qu&apos;à cet âge là (8 ans), on est léger et souple !&lt;/p&gt;
-
-&lt;p&gt;Lalaina n&apos;avait pas encore embarqué dans la voiture, et elle a pu lâcher la poignée de la portière à temps, pour ne pas être emportée dans le tour de toupie qu&apos;a fait notre véhicule.&lt;/p&gt;
-
-&lt;p&gt;Mes vertèbres cervicales ont été fortement secouées. J&apos;attends l&apos;interprétation du scanner demain après-midi. Mais je crois que je m&apos;en sors très bien : de longues minutes, je ne voyais que d&apos;un oeil. Actuellement, mise à part la raideur dans le cou et l&apos;obligation de porter une minerve, je me sens à peu près bien.&lt;/p&gt;
-
-&lt;p&gt;Merci à Laza et Dominique pour nous avoir amené à l&apos;hôpital militaire &lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;, merci aux urgentistes pour leur prise en charge et pour m&apos;avoir bricolé une minerve provisoire aux petits oignons, et merci à Dr. Mathilde pour être accourue très vite et nous avoir permis de passer ces heures plus sereinement. &lt;/p&gt;
-
-&lt;p&gt;Pour nous donc, plus de dégâts matériels que corporels. Ialy et moi avons de quoi rigoler plus ou moins jaune &lt;a href=&quot;https://www.facebook.com/groups/fifamoivoizana/permalink/844112622294718/&quot; title=&quot;307 commentaires à l&apos;heure où j&apos;écris…&quot;&gt;entre les commentaires Facebook qui déplorent surtout l&apos;état de la voiture et ceux qui se disent qu&apos;on est probablement décédés&lt;/a&gt; et pouvons remercier :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;le ciel&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;les concepteurs de la zone de déformation arrière et de la cellule centrale anti-crash de la voiture,&lt;/li&gt;
-&lt;li&gt;en ce qui me concerne, la ceinture de sécurité et l&apos;appui tête, malgré le coup de lapin qui s&apos;en est ensuivi.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Je n&apos;ai pas de nouvelles très fiables des nombreuses autres personnes impliquées dans l&apos;accident, et j&apos;espère très fort que les rumeurs alarmistes que j&apos;entends ne sont effectivement que des rumeurs.&lt;/p&gt;
-
-&lt;p&gt;Bons baisers à tous.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Les lecteurs les plus fidèles vont croire que &lt;a href=&quot;http://blog.barijaona.com/madagascar/hopital.html&quot; title=&quot;On n&apos;est pas à Lambaréné... (billet du 2 mars 2004)&quot;&gt;j&apos;y ai mes petites habitudes&lt;/a&gt;, mais pour les vrais gros pépins, je fais bien plus confiance aux grosses structures publiques ayant l&apos;habitude d&apos;être confrontées à toutes sortes de situations qu&apos;aux cliniques qui ont l&apos;air d&apos;être avant tout considérées par leurs promoteurs comme une diversification d&apos;actifs, au même titre peut-être que le bois de rose…&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Au risque de soulever une vigoureuse répartie de &lt;a href=&quot;https://twitter.com/embruns&quot; title=&quot;Laurent Gloaguen&quot;&gt;@embruns&lt;/a&gt;… ;-)&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/equipe/evenements</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-02-09T00:40:00+03:00</dc:date>
 
 </item>
 

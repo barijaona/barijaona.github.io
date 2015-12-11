@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Barack-premier.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/insulaires.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/france-06-05-07-2.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/france-06-05-07.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/en-attendant.html">
+	<title>Quiz</title>
+	<link>http://blog.barijaona.com/monde/en-attendant.html</link>
+	<description>En attendant le verdict de la COP21, petit test de connaissance...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-11T13:24:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html">
 	<title>Paris, ici et ce monde pas si infini</title>
 	<link>http://blog.barijaona.com/monde/cop21_et_attentats_paris.html</link>
@@ -105,15 +114,6 @@ L'insularité est un des moteurs de ce blog...</description>
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2007-05-06T19:45:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/france-06-05-07.html">
-	<title>Démonstration à tenir...</title>
-	<link>http://blog.barijaona.com/monde/france-06-05-07.html</link>
-	<description>Jonathan Littel (prix Goncourt 2006 pour son premier roman "Les Bienveillantes") : Ma famille est de tradition démocrate, je me suis toujours intéressé à la politique, mais je n'ai commencé à voter qu'en 2000, lors de la première candidature de Bush, contre lui, bien sûr...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2007-05-06T18:33:00+03:00</dc:date>
 
 </item>
 
