@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/obama-inauguration.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Barack-premier.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/insulaires.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/france-06-05-07-2.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html">
+	<title>C&apos;est quoi un bon accord ?</title>
+	<link>http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html</link>
+	<description>Avant même que le texte final soit publié, il est facile de prédire qu'il y aura des personnes ou des organisations qui ne se satisferont pas de l'accord de Paris...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-11T17:34:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/en-attendant.html">
 	<title>Quiz</title>
 	<link>http://blog.barijaona.com/monde/en-attendant.html</link>
@@ -105,15 +114,6 @@ L'insularité est un des moteurs de ce blog...</description>
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2007-10-12T14:13:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/france-06-05-07-2.html">
-	<title>C&apos;est plié...</title>
-	<link>http://blog.barijaona.com/monde/france-06-05-07-2.html</link>
-	<description>Estimations (extrapolations à partir de dépouillements réels et non plus sondages à la sortie des urnes) autour de 54% pour le récupérateur de FN...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2007-05-06T19:45:00+03:00</dc:date>
 
 </item>
 
