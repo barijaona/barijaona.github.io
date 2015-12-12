@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/obama-inauguration.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Barack-premier.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/insulaires.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
+	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
+	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
+	<description>Le projet d'accord est sorti (à l'heure où j'écris, uniquement en anglais)...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html">
 	<title>C&apos;est quoi un bon accord ?</title>
 	<link>http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html</link>
@@ -103,17 +112,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2008-11-06T04:45:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/insulaires.html">
-	<title>Insulaires</title>
-	<link>http://blog.barijaona.com/monde/insulaires.html</link>
-	<description>Tromelin vue du ciel - (c) Ifremer
-
-L'insularité est un des moteurs de ce blog...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2007-10-12T14:13:00+03:00</dc:date>
 
 </item>
 

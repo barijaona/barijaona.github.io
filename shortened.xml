@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
+	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
+	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
+	<description>Le projet d'accord est sorti (à l'heure où j'écris, uniquement en anglais)...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html">
 	<title>C&apos;est quoi un bon accord ?</title>
 	<link>http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html</link>
@@ -104,15 +113,6 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:subject>/stories</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-11-30T04:25:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html">
-	<title>Using Blosxom starter kit with Apple&apos;s OS X Server</title>
-	<link>http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html</link>
-	<description>This is mainly a note to myself, about my blogging tool...</description>
-	<dc:subject>/web/blosxomsk/en</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-11-15T15:35:00+03:00</dc:date>
 
 </item>
 
