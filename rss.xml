@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,45 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/cop21_24h_apres.html">
+	<title>Deuxième bilan après la COP21</title>
+	<link>http://blog.barijaona.com/monde/cop21_24h_apres.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;24 heures plus tard, l&apos;impression est la même. &lt;a href=&quot;http://unfccc.int/resource/docs/2015/cop21/fre/l09f.pdf&quot; title=&quot;Version française&quot;&gt;L&apos;accord de Paris&lt;/a&gt; (PDF, 635 Ko) est un excellent accord, parce qu&apos;il a été négocié dans un excellent esprit.&lt;/p&gt;
+
+&lt;p&gt;Je suis parfaitement conscient que certaines ONGs et certains spécialistes ne le jugent pas suffisamment ambitieux, pas suffisamment précis ou le trouvent tout simplement trop tardif.&lt;/p&gt;
+
+&lt;p&gt;Je peux parfaitement souscrire à la dernière remarque&lt;a href=&quot;#fn:3&quot; id=&quot;fnref:3&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;, mais absolument pas à celles qui précèdent.&lt;/p&gt;
+
+&lt;p&gt;Les jugements sur les ambitions présumées insuffisantes, sur l&apos;absence d&apos;explications sur le comment de la réalisation des objectifs ou sur le manque de chiffres font l&apos;impasse selon moi sur un point essentiel, celui de l&apos;horizon de référence de l&apos;accord. L&apos;accord de Paris est destiné à entrer en vigueur en 2020 ; plus important, aucune date de fin ne lui a été fixée. Au vu de la lourdeur du processus pour obtenir un accord réellement &lt;strong&gt;universel&lt;/strong&gt;&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;, il est fort probable que l&apos;accord obtenu hier continuera à exercer ses effets jusqu&apos;à la fin du 21è siècle. Et c&apos;est pourquoi le qualificatif « historique » si souvent utilisé les dernières 24 heures n&apos;est pas galvaudé.&lt;/p&gt;
+
+&lt;p&gt;L&apos;accord n&apos;omet aucune des problématiques principales autour du changement climatique, mais grâce à la confrontation des idées, il a réussi à éviter d&apos;en faire trop. Trop de précisions sur la manière de réaliser les objectifs auraient fragilisé le texte sur le long terme. Qui d&apos;entre nous est capable de prédire le prix d&apos;une baguette de pain dans un an ? De la même manière, il aurait par exemple été irréaliste de tenter de fixer le prix du carbone pour les cinquante prochaines années ou de spéculer sur la valeur future des approches techniques actuellement connues.&lt;/p&gt;
+
+&lt;p&gt;Cette position, je me permets de l&apos;avancer en dépit du fait que, contrairement aux personnes critiquant l&apos;accord, je ne sois pas un spécialiste de l&apos;environnement, encore moins du climat. Je suis même d&apos;un milieu professionnel qui est fréquemment considéré par celui de l&apos;environnement comme le mal&lt;a href=&quot;#fn:4&quot; id=&quot;fnref:4&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt; quasi absolu, la cause de tous les malheurs : le monde de la finance&lt;a href=&quot;#fn:5&quot; id=&quot;fnref:5&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;C&apos;est précisément vis-à-vis des personnes telles que moi que l&apos;accord constitue un signal important. Pour la première fois, nous avons un texte qui engage l&apos;ensemble des États de la planète et qui invite la société civile, le secteur privé, les institutions financières, les villes, collectivités, communautés locales et individus à se rendre compte que l&apos;ère du carbone se termine et à avoir une action climat vigoureuse. C&apos;est une dynamique nouvelle qui vient d&apos;être enclenchée. Sera-t-elle rapide ou lente ? Sera-t-elle bassement marchande ou à la hauteur des enjeux véritables ?&lt;/p&gt;
+
+&lt;p&gt;Sur ces points, je n&apos;ai aucune certitude, mais j&apos;en ai une autre : face au jugement de l&apos;Histoire, personne n&apos;aura désormais le droit de se réfugier derrière un « &lt;cite&gt;mais qu&apos;est ce que je pouvais faire à mon niveau ?&lt;/cite&gt; »&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:3&quot;&gt;&lt;p&gt;Espérons que la COP 22 qui aura lieu en Novembre 2016 à Marrakech, et qui devrait traiter de la mise en oeuvre de l&apos;accord de Paris, prenne vraiment en compte les urgences de la période 2016-2020.&lt;a href=&quot;#fnref:3&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Il aura quand même fallu plus de vingt ans pour passer de la &lt;a href=&quot;https://fr.wikipedia.org/wiki/Convention-cadre_des_Nations_unies_sur_les_changements_climatiques&quot; title=&quot;Wikipedia&quot;&gt;Convention Cadre des Nations Unies sur le Changement Climatique&lt;/a&gt; à l&apos;accord de Paris.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:4&quot;&gt;&lt;p&gt;Je me suis même demandé si certains d&apos;entre eux n&apos;écriraient pas « mal » avec une majuscule…&lt;a href=&quot;#fnref:4&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:5&quot;&gt;&lt;p&gt;Sans compter (double peine !) que je suis également issu du milieu des mines.&lt;a href=&quot;#fnref:5&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/cop21_24h_apres.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
 	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
 	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
@@ -287,32 +326,6 @@
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/stories/suivi_twitter_COP21.html">
-	<title>Outil de suivi</title>
-	<link>http://blog.barijaona.com/stories/suivi_twitter_COP21.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Version en français d&apos;un outil disponible sur &lt;a href=&quot;http://climatetalkslive.org&quot; title=&quot;UN Climate Talks Live&quot;&gt;Climate Talks Live&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div id=&quot;shore-embed-219929&quot;&gt;&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;(function(d, t) {
-var s = d.createElement(t), options = {
-id: &quot;shore-embed-219929&quot;,
-src: &quot;https://climatetalkslive.org/widgets/?page=all&amp;autoresize=true&amp;limit=20&amp;title=Tweets%2520sur%2520la%2520COP21&amp;font=Helvetica%20Neue&amp;width=700&amp;lang=fr&amp;clang=fr&amp;header=true&amp;stats=true&amp;color=4F93D5&amp;logo=false&quot;,
-width: &quot;700&quot;,
-height: &quot;1000&quot;,
-autoresize: true};
-s.src = &quot;https://climatetalkslive.org/static/js/embed.js&quot;;
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != &quot;complete&quot;) if (rs != &quot;loaded&quot;) return;
-try { se = new ShoreEmbed(); se.initialize(options); se.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, &quot;script&quot;);&lt;/script&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/stories/suivi_twitter_COP21.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/stories</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-11-30T04:25:00+03:00</dc:date>
 
 </item>
 

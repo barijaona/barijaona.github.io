@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/cop21_24h_apres.html">
+	<title>Deuxième bilan après la COP21</title>
+	<link>http://blog.barijaona.com/monde/cop21_24h_apres.html</link>
+	<description>24 heures plus tard, l'impression est la même...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
 	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
 	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
@@ -104,15 +113,6 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/stories/suivi_twitter_COP21.html">
-	<title>Outil de suivi</title>
-	<link>http://blog.barijaona.com/stories/suivi_twitter_COP21.html</link>
-	<description>Version en français d'un outil disponible sur Climate Talks Live...</description>
-	<dc:subject>/stories</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-11-30T04:25:00+03:00</dc:date>
 
 </item>
 

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/obama-inauguration.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Barack-premier.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/cop21_24h_apres.html">
+	<title>Deuxième bilan après la COP21</title>
+	<link>http://blog.barijaona.com/monde/cop21_24h_apres.html</link>
+	<description>24 heures plus tard, l'impression est la même...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
 	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
 	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
@@ -103,15 +112,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2009-01-21T06:39:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/Barack-premier.html">
-	<title>Kicks our asses</title>
-	<link>http://blog.barijaona.com/monde/Barack-premier.html</link>
-	<description>Les américains ont voté pour lui...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2008-11-06T04:45:00+03:00</dc:date>
 
 </item>
 
