@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,81 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/recap_apple_cryptographie.html">
+	<title>L&apos;affaire Apple contre FBI</title>
+	<link>http://blog.barijaona.com/monde/recap_apple_cryptographie.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI.&lt;/p&gt;
+
+&lt;p&gt;Ce billet fera l&apos;objet de mises à jour périodiques. J&apos;essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Un &lt;a href=&quot;http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php&quot; title=&quot;LeFgaro.fr :Apple refuse d&apos;aider à débloquer l&apos;iPhone d&apos;un des auteurs de la tuerie de San Bernardino&quot; hreflang=&quot;fr&quot;&gt;résumé&lt;/a&gt; des débuts de la polémique.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miseencontextepolitique:pourquoichacunestconcern&quot;&gt;Mise en contexte politique : pourquoi chacun est concerné&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.un.org/fr/documents/udhr/#a12&quot; title=&quot;Site de l&apos;ONU&quot; hreflang=&quot;fr&quot;&gt;Article 12 de la Déclaration Universelle des Droits de l&apos;Homme&lt;/a&gt; :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« Nul ne sera l&apos;objet d&apos;immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d&apos;atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;À travers une récente interview du patron de la NSA, on notera cependant que, même après les révélations d&apos;Edward Snowden et leurs conséquences, la NSA ainsi que la classe politique américaine continuent à considérer que la vie privée de ceux qui ne sont pas citoyens des États-Unis n&apos;a guère d&apos;importance. On pourra voir la séquence entre 6mn 56 et 9mn 45 de la &lt;a href=&quot;http://www.lemonde.fr/pixels/article/2016/02/18/le-chiffrement-a-empeche-la-detection-des-attentats-de-paris-selon-le-chef-de-la-nsa_4867171_4408996.html&quot; title=&quot;Le chiffrement a empêché la détection des attentats de Paris, selon la NSA&quot;&gt;vidéo liée à cet article&lt;/a&gt; et apprécier la différence de traitement entre les deux catégories de personnes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Coïncidence ? En Novembre dernier, le conseil national de sécurité US avait donné instruction aux agences gouvernementales de trouver des solutions pour &lt;a href=&quot;http://www.bloomberg.com/news/articles/2016-02-19/secret-memo-details-u-s-s-broader-strategy-to-crack-phones&quot; title=&quot;Secret Memo Details U.S.’s Broader Strategy to Crack Phones - Bloomberg&quot; hreflang=&quot;en&quot;&gt;contourner les techniques de chiffrement&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lepositionnementpolitiquedapple&quot;&gt;Le positionnement politique d&apos;Apple&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Comme toute entreprise, Apple doit se conformer à la loi des pays où elle opère et doit coopérer avec la justice. Cependant, Apple a graduellement durci sa position au cours des derniers mois. Les causes les plus visibles de ce durcissement semblent être :&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;les révélations d&apos;Edward Snowden,&lt;/li&gt;
+&lt;li&gt;la hausse du nombre de demandes reçues de la part des instances juridiques de différents pays (pour se faire une idée, voir les &lt;a href=&quot;http://www.apple.com/fr/privacy/transparency-reports/&quot; title=&quot;Rapports de transparence d&apos;Apple&quot; hreflang=&quot;fr&quot;)&quot;&gt;rapports d&apos;Apple&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;la crainte de se retrouver confronté à des dilemmes moraux lorsque ces demandes proviennent de pays peu démocratiques,&lt;/li&gt;
+&lt;li&gt;la fragilité juridique de certaines de ces demandes, y compris parmi celles venant des États-Unis.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dans une affaire précédente à New York, Apple a déjà entamé une &lt;a href=&quot;http://www.nytimes.com/2016/02/19/technology/a-yearlong-road-to-a-standoff-with-the-fbi.html&quot; title=&quot;Apple’s Line in the Sand Was Over a Year in the Making (New York Times)&quot; hreflang=&quot;en&quot;&gt;confrontation avec le gouvernement&lt;/a&gt; qui, entre autres questions, soulève celle de l&apos;usage ambigü d&apos;une loi datant du 18è siècle, le &lt;a href=&quot;https://en.wikipedia.org/wiki/All_Writs_Act&quot; title=&quot;Wikipedia&quot; hreflang=&quot;en&quot;&gt;All Writs Act&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mais Apple voit clairement que, plutôt que la contestation judiciaire, &lt;a href=&quot;http://www.apple.com/fr/privacy/government-information-requests/&quot; title=&quot;Apple : Confidentialité - Demande d&apos;informations&quot; hreflang=&quot;fr&quot;&gt;la plus efficace des protections&lt;/a&gt; face à tout mandat un peu scabreux est de s&apos;être placé bien en amont des faits dans l&apos;impossibilité matérielle de s&apos;y conformer. D&apos;où une plus grande prudence dans la collecte des données auprès des utilisateurs et un investissement important dans la sécurisation des appareils et des données, en particulier à travers l&apos;utilisation du chiffrement.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ce positionnement politique « &lt;i&gt;Vos données vous appartiennent, et n&apos;appartiennent à personne d&apos;autre&lt;/i&gt; » pourrait aussi être vu comme un argument marketing visant à mettre en avant &lt;a href=&quot;http://kieranhealy.org/blog/archives/2016/02/18/walled-garden/&quot; title=&quot;k
+Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l&apos;avantage compétitif&lt;/a&gt; que donne à Apple la forte intégration entre le matériel et le logiciel qu&apos;il développe. Ce serait cependant faire bien peu de cas du positionnement constant d&apos;Apple en faveur des minorités et des &lt;a href=&quot;http://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up&quot; title=&quot;Tim Cook Speaks Up - Bloomberg&quot; hreflang=&quot;en&quot;&gt;positions&lt;/a&gt; affichées publiquement par Tim Cook, le CEO d&apos;Apple, &lt;a href=&quot;https://www.washingtonpost.com/opinions/pro-discrimination-religious-freedom-laws-are-dangerous-to-america/2015/03/29/bdb4ce9e-d66d-11e4-ba28-f2a685dc7f89_story.html?tid=a_inl&quot; title=&quot;Tim Cook: Pro-discrimination ‘religious freedom’ laws are dangerous - Washington Post&quot; hreflang=&quot;en&quot;&gt;à différentes reprises&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lenqutesurlatueriedesanbernardino&quot;&gt;L&apos;enquête sur la tuerie de San Bernardino&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Il y a de bonnes raisons de penser que, dans le cas présent, le FBI fait beaucoup plus de la politique que du travail d&apos;enquête. Le FBI a déjà obtenu beaucoup de données et il est très probable que celles qui sont dans l&apos;iPhone en question &lt;a href=&quot;https://medium.com/@thegrugq/feeble-noise-pollution-627acb5931a2#.asckscja8&quot; title=&quot;Feeble Noise Pollution - the grugq&quot; hreflang=&quot;en&quot;&gt;ne lui apporteraient guère plus&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;FBI wants people to believe that Farook was using his work phone to contact other terrorist; not his private phone which he destroyed.&lt;/p&gt;&amp;mdash; the grugq (@thegrugq) &lt;a href=&quot;https://twitter.com/thegrugq/status/700555611415556096&quot;&gt;February 19, 2016&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Journalists: Crucial details in the &lt;a href=&quot;https://twitter.com/FBI&quot;&gt;@FBI&lt;/a&gt; v. &lt;a href=&quot;https://twitter.com/hashtag/Apple?src=hash&quot;&gt;#Apple&lt;/a&gt; case are being obscured by officials. Skepticism here is fair: &lt;a href=&quot;https://t.co/lEVEvOxcNm&quot;&gt;pic.twitter.com/lEVEvOxcNm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Snowden (@Snowden) &lt;a href=&quot;https://twitter.com/Snowden/status/700823383961792512&quot;&gt;February 19, 2016&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Parmi les données dont le FBI dispose, beaucoup ont d&apos;ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais une mauvaise coordination entre le FBI et l&apos;employeur de Syed Farook a entraîné la remise à zéro d&apos;un mot de passe et &lt;a href=&quot;http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613&quot; title=&quot;The San Bernardino Terrorist&apos;s iCloud Password Was Accidentally Reset By His Employer (Gizmodo)&quot; hreflang=&quot;en&quot;&gt;l&apos;impossibilité de récupérer via iCloud&lt;/a&gt; les dernières mises à jour de données sur l&apos;iPhone en question.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;labataillejuridiquequisannonce&quot;&gt;La bataille juridique qui s&apos;annonce&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;La loi All Writs peut contraindre Apple à faire des efforts « raisonnables » pour aider les autorités. Mais la demande qui est faite à Apple &lt;a href=&quot;http://www.zdziarski.com/blog/?p=5645&quot; title=&quot;A forensics expert describes the intricate legal burden and consequences of the FBI&apos;s request to Apple&quot; hreflang=&quot;en&quot;&gt;diffère fondamentalement des précédentes&lt;/a&gt; et il est très probable qu&apos;Apple argumentera qu&apos;il ne s&apos;agirait plus là d&apos;efforts raisonnables.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dans l&apos;affaire de New York qui est encore en cours, cet argument semble &lt;a href=&quot;https://www.eff.org/deeplinks/2015/10/judge-doj-not-all-writs&quot; title=&quot;Judge to DOJ: Not All Writs&quot; hreflang=&quot;en&quot;&gt;avoir été pris en compte par un juge&lt;/a&gt;. Ce même argument aurait plus de poids encore si la demande gouvernementale devait entraîner un recul de la sécurité pour tous les utilisateurs d&apos;iPhone.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;labatailletechniquequicontinue&quot;&gt;La bataille technique qui continue&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;La demande du FBI démontre que, même si elle améliore grandement la sécurité de l&apos;utilisateur qui prend des précautions raisonnables, l&apos;intégration entre matériel et logiciel pratiquée par Apple reste &lt;a href=&quot;http://daringfireball.net/linked/2016/02/17/ios-security-guide&quot; title=&quot;John Gruber comments on Apple’s iOS security guide&quot; hreflang=&quot;en&quot;&gt;encore insuffisante face à des cas comme celui-ci&lt;/a&gt;. L&apos;on peut penser que les prochaines versions d&apos;iOS ou les prochaines versions de l&apos;iPhone iront &lt;a href=&quot;https://www.mikeash.com/pyblog/friday-qa-2016-02-19-what-is-the-secure-enclave.html&quot; title=&quot;NSBlog : What Is the Secure Enclave?&quot; hreflang=&quot;en&quot;&gt;encore plus loin&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Un hôpital américain, le Hollywood Presbyterian Medical Center, a été obligé de &lt;a href=&quot;http://www.zone-numerique.com/le-hollywood-presbyterian-medical-center-verse-une-rancon-de-17-000-en-bitcoins-aux-pirates.html&quot; title=&quot;Le Hollywood Presbyterian Medical Center contraint de verser une rançon de 17 000 $ en bitcoins aux pirates&quot; hreflang=&quot;fr&quot;&gt;verser une rançon&lt;/a&gt; à des pirates informatiques. Démonstration s&apos;il en était besoin qu&apos;il serait fort malvenu de fragiliser la sécurité de l&apos;utilisateur moyen et de laisser les malfrats profiter seuls d&apos;un chiffrage fort.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-02-20T14:50:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_24h_apres.html">
 	<title>Deuxième bilan après la COP21</title>
 	<link>http://blog.barijaona.com/monde/cop21_24h_apres.html</link>
@@ -298,34 +373,6 @@
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/kopy_cop.html">
-	<title>Kôpy ve sa tsy kôpy ianao ?</title>
-	<link>http://blog.barijaona.com/madagascar/kopy_cop.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;em&gt;(reprise d&apos;un post initialement publié le vendredi 4 décembre 2015 sur la &lt;a href=&quot;https://www.facebook.com/fapbm/&quot; title=&quot;Facebook&quot;&gt;page Facebook&lt;/a&gt; de la &lt;a href=&quot;http://www.fapbm.org/fr&quot; title=&quot;Site officiel de la FAPBM&quot;&gt;FAPBM&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Face aux interrogations sur les raisons de la taille de la délégation malgache et sa visibilité réelle, il peut être utile de remettre en perspective la taille d&apos;un évènement comme la COP en donnant quelques chiffres :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;160.000 m2 de surface&lt;/li&gt;
-&lt;li&gt;dans une journée typique comme aujourd&apos;hui, 63 événements dans le programme officiel, sans compter les événements &quot;off&quot;&lt;/li&gt;
-&lt;li&gt;40.000 participants, dont 14.000 observateurs accrédités ; en sus, 20.000 visiteurs attendus dans les espaces Générations Climat&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Rappelons que Madagascar est l&apos;un des cinq pays au monde les plus exposés au changement climatique et que l&apos;enjeu de la &lt;a href=&quot;https://twitter.com/search?q=%23COP21&amp;amp;src=typd&quot; title=&quot;Recherche Twitter #COP21&quot;&gt;#‎COP21&lt;/a&gt; est de mobiliser 100 milliards de dollars par an par les pays développés (de source publique ou privée) à partir de 2020. Dans son communiqué final, la conférence des bailleurs de fonds de Madagascar qui s&apos;est tenue au Pérou à Lima au mois d&apos;octobre avait d&apos;ailleurs insisté sur l&apos;importance de la COP21 pour Madagascar.&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/barijaona/23506438596/in/datetaken/&quot; title=&quot;IMG_3714&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/736/23506438596_921b27bfb2_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_3714&quot;&gt;&lt;/a&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/barijaona/23532532935/in/datetaken/&quot; title=&quot;IMG_3715&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/714/23532532935_f9a850a853_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_3715&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;La délégation malgache inclue une forte représentation des ONGs de la société civile, notamment à travers le GT-CC (Groupe Thématique Changement Climatique Madagascar) qui dispose d&apos;un stand qui est accessible au grand public dans l&apos;espace Générations Climats (stand A20). Les Parisiens peuvent nous y retrouver ce samedi 5 décembre : ce sera au tour de la FAPBM d&apos;assurer la garde du stand.&lt;/p&gt;
-
-&lt;p&gt;Pour la FAPBM, la COP21 est une formidable occasion de contacts pour échanger des expériences, se tenir informé des nouveaux mécanismes de financement et plaider pour la juste prise en compte des aires protégées et des cinq millions de personnes qui en dépendent dans l&apos;approche du changement climatique.&lt;/p&gt;
-
-&lt;p&gt;Cela va sans dire, mais ça va mieux en le redisant : la participation à la COP21 des organisations malgaches de société civile n&apos;est en rien financée par l&apos;État !&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/kopy_cop.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
 
 </item>
 

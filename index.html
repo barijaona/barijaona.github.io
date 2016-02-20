@@ -17,7 +17,7 @@
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
 <link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
-<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="Atom (courtes notes)" href="http://twitter.com/statuses/user_timeline/19493475.rss" /><link rel="prev" href="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" title="Paris, ici et ce monde pas si infini" />
+<link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="Atom (courtes notes)" href="http://twitter.com/statuses/user_timeline/19493475.rss" /><link rel="prev" href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" title="Using Blosxom starter kit with Apple's OS X Server" />
 
 <script type="text/javascript" src="http://blog.barijaona.com/style/tinybox.js"></script>
 <script type="text/javascript">
@@ -46,6 +46,79 @@ function getComment(threadId,refPageURL){
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><h2></h2>
+<div class="post"><article class="hentry">
+<h3 class="accent1 entry-title instapaper_title"><a href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2016-02-20" class="timestamp">[&nbsp;samedi 20 février 2016,&nbsp;14:50&nbsp;]</time>&nbsp;L'affaire Apple contre FBI</a></h3>
+<div class="post-full entry-content instapaper_body"><p>Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI.</p>
+
+<p>Ce billet fera l'objet de mises à jour périodiques. J'essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.</p>
+
+<ul>
+<li>Un <a href="http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php" title="LeFgaro.fr :Apple refuse d'aider à débloquer l'iPhone d'un des auteurs de la tuerie de San Bernardino" hreflang="fr">résumé</a> des débuts de la polémique.</li>
+</ul>
+
+<h3 id="miseencontextepolitique:pourquoichacunestconcern">Mise en contexte politique : pourquoi chacun est concerné</h3>
+
+<ul>
+<li><p><a href="http://www.un.org/fr/documents/udhr/#a12" title="Site de l'ONU" hreflang="fr">Article 12 de la Déclaration Universelle des Droits de l'Homme</a> :</p>
+
+<blockquote>
+  <p>« Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »</p>
+</blockquote></li>
+<li><p>À travers une récente interview du patron de la NSA, on notera cependant que, même après les révélations d'Edward Snowden et leurs conséquences, la NSA ainsi que la classe politique américaine continuent à considérer que la vie privée de ceux qui ne sont pas citoyens des États-Unis n'a guère d'importance. On pourra voir la séquence entre 6mn 56 et 9mn 45 de la <a href="http://www.lemonde.fr/pixels/article/2016/02/18/le-chiffrement-a-empeche-la-detection-des-attentats-de-paris-selon-le-chef-de-la-nsa_4867171_4408996.html" title="Le chiffrement a empêché la détection des attentats de Paris, selon la NSA">vidéo liée à cet article</a> et apprécier la différence de traitement entre les deux catégories de personnes.</p></li>
+<li><p>Coïncidence ? En Novembre dernier, le conseil national de sécurité US avait donné instruction aux agences gouvernementales de trouver des solutions pour <a href="http://www.bloomberg.com/news/articles/2016-02-19/secret-memo-details-u-s-s-broader-strategy-to-crack-phones" title="Secret Memo Details U.S.’s Broader Strategy to Crack Phones - Bloomberg" hreflang="en">contourner les techniques de chiffrement</a>.</p></li>
+</ul>
+
+<h3 id="lepositionnementpolitiquedapple">Le positionnement politique d'Apple</h3>
+
+<ul>
+<li><p>Comme toute entreprise, Apple doit se conformer à la loi des pays où elle opère et doit coopérer avec la justice. Cependant, Apple a graduellement durci sa position au cours des derniers mois. Les causes les plus visibles de ce durcissement semblent être :</p>
+
+<ul><li>les révélations d'Edward Snowden,</li>
+<li>la hausse du nombre de demandes reçues de la part des instances juridiques de différents pays (pour se faire une idée, voir les <a href="http://www.apple.com/fr/privacy/transparency-reports/" title="Rapports de transparence d'Apple" hreflang="fr")">rapports d'Apple</a>,</li>
+<li>la crainte de se retrouver confronté à des dilemmes moraux lorsque ces demandes proviennent de pays peu démocratiques,</li>
+<li>la fragilité juridique de certaines de ces demandes, y compris parmi celles venant des États-Unis.</li></ul></li>
+<li><p>Dans une affaire précédente à New York, Apple a déjà entamé une <a href="http://www.nytimes.com/2016/02/19/technology/a-yearlong-road-to-a-standoff-with-the-fbi.html" title="Apple’s Line in the Sand Was Over a Year in the Making (New York Times)" hreflang="en">confrontation avec le gouvernement</a> qui, entre autres questions, soulève celle de l'usage ambigü d'une loi datant du 18è siècle, le <a href="https://en.wikipedia.org/wiki/All_Writs_Act" title="Wikipedia" hreflang="en">All Writs Act</a>.</p></li>
+<li><p>Mais Apple voit clairement que, plutôt que la contestation judiciaire, <a href="http://www.apple.com/fr/privacy/government-information-requests/" title="Apple : Confidentialité - Demande d'informations" hreflang="fr">la plus efficace des protections</a> face à tout mandat un peu scabreux est de s'être placé bien en amont des faits dans l'impossibilité matérielle de s'y conformer. D'où une plus grande prudence dans la collecte des données auprès des utilisateurs et un investissement important dans la sécurisation des appareils et des données, en particulier à travers l'utilisation du chiffrement.</p></li>
+<li><p>Ce positionnement politique « <i>Vos données vous appartiennent, et n'appartiennent à personne d'autre</i> » pourrait aussi être vu comme un argument marketing visant à mettre en avant <a href="http://kieranhealy.org/blog/archives/2016/02/18/walled-garden/" title="k
+Kieran Healy : Walled Garden" hreflang="en">l'avantage compétitif</a> que donne à Apple la forte intégration entre le matériel et le logiciel qu'il développe. Ce serait cependant faire bien peu de cas du positionnement constant d'Apple en faveur des minorités et des <a href="http://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up" title="Tim Cook Speaks Up - Bloomberg" hreflang="en">positions</a> affichées publiquement par Tim Cook, le CEO d'Apple, <a href="https://www.washingtonpost.com/opinions/pro-discrimination-religious-freedom-laws-are-dangerous-to-america/2015/03/29/bdb4ce9e-d66d-11e4-ba28-f2a685dc7f89_story.html?tid=a_inl" title="Tim Cook: Pro-discrimination ‘religious freedom’ laws are dangerous - Washington Post" hreflang="en">à différentes reprises</a>.</p></li>
+</ul>
+
+<h3 id="lenqutesurlatueriedesanbernardino">L'enquête sur la tuerie de San Bernardino</h3>
+
+<ul>
+<li>Il y a de bonnes raisons de penser que, dans le cas présent, le FBI fait beaucoup plus de la politique que du travail d'enquête. Le FBI a déjà obtenu beaucoup de données et il est très probable que celles qui sont dans l'iPhone en question <a href="https://medium.com/@thegrugq/feeble-noise-pollution-627acb5931a2#.asckscja8" title="Feeble Noise Pollution - the grugq" hreflang="en">ne lui apporteraient guère plus</a>.</li>
+</ul>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">FBI wants people to believe that Farook was using his work phone to contact other terrorist; not his private phone which he destroyed.</p>&mdash; the grugq (@thegrugq) <a href="https://twitter.com/thegrugq/status/700555611415556096">February 19, 2016</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Journalists: Crucial details in the <a href="https://twitter.com/FBI">@FBI</a> v. <a href="https://twitter.com/hashtag/Apple?src=hash">#Apple</a> case are being obscured by officials. Skepticism here is fair: <a href="https://t.co/lEVEvOxcNm">pic.twitter.com/lEVEvOxcNm</a></p>&mdash; Edward Snowden (@Snowden) <a href="https://twitter.com/Snowden/status/700823383961792512">February 19, 2016</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<ul>
+<li>Parmi les données dont le FBI dispose, beaucoup ont d'ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais une mauvaise coordination entre le FBI et l'employeur de Syed Farook a entraîné la remise à zéro d'un mot de passe et <a href="http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613" title="The San Bernardino Terrorist's iCloud Password Was Accidentally Reset By His Employer (Gizmodo)" hreflang="en">l'impossibilité de récupérer via iCloud</a> les dernières mises à jour de données sur l'iPhone en question.</li>
+</ul>
+
+<h3 id="labataillejuridiquequisannonce">La bataille juridique qui s'annonce</h3>
+
+<ul>
+<li><p>La loi All Writs peut contraindre Apple à faire des efforts « raisonnables » pour aider les autorités. Mais la demande qui est faite à Apple <a href="http://www.zdziarski.com/blog/?p=5645" title="A forensics expert describes the intricate legal burden and consequences of the FBI's request to Apple" hreflang="en">diffère fondamentalement des précédentes</a> et il est très probable qu'Apple argumentera qu'il ne s'agirait plus là d'efforts raisonnables.</p></li>
+<li><p>Dans l'affaire de New York qui est encore en cours, cet argument semble <a href="https://www.eff.org/deeplinks/2015/10/judge-doj-not-all-writs" title="Judge to DOJ: Not All Writs" hreflang="en">avoir été pris en compte par un juge</a>. Ce même argument aurait plus de poids encore si la demande gouvernementale devait entraîner un recul de la sécurité pour tous les utilisateurs d'iPhone.</p></li>
+</ul>
+
+<h3 id="labatailletechniquequicontinue">La bataille technique qui continue</h3>
+
+<ul>
+<li><p>La demande du FBI démontre que, même si elle améliore grandement la sécurité de l'utilisateur qui prend des précautions raisonnables, l'intégration entre matériel et logiciel pratiquée par Apple reste <a href="http://daringfireball.net/linked/2016/02/17/ios-security-guide" title="John Gruber comments on Apple’s iOS security guide" hreflang="en">encore insuffisante face à des cas comme celui-ci</a>. L'on peut penser que les prochaines versions d'iOS ou les prochaines versions de l'iPhone iront <a href="https://www.mikeash.com/pyblog/friday-qa-2016-02-19-what-is-the-secure-enclave.html" title="NSBlog : What Is the Secure Enclave?" hreflang="en">encore plus loin</a>.</p></li>
+<li><p>Un hôpital américain, le Hollywood Presbyterian Medical Center, a été obligé de <a href="http://www.zone-numerique.com/le-hollywood-presbyterian-medical-center-verse-une-rancon-de-17-000-en-bitcoins-aux-pirates.html" title="Le Hollywood Presbyterian Medical Center contraint de verser une rançon de 17 000 $ en bitcoins aux pirates" hreflang="fr">verser une rançon</a> à des pirates informatiques. Démonstration s'il en était besoin qu'il serait fort malvenu de fragiliser la sécurité de l'utilisateur moyen et de laisser les malfrats profiter seuls d'un chiffrage fort.</p></li>
+</ul>
+</div></article>
+<div class="post-tools">[<a href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html#disqus_thread" onclick="return(getComment('a201602201450','http://blog.barijaona.com/monde/recap_apple_cryptographie.html'));" data-disqus-identifier="a201602201450">Réagir</a>]</div>
+</div><br />
+
+
 <div class="post"><article class="hentry">
 <h3 class="accent1 entry-title instapaper_title"><a href="http://blog.barijaona.com/monde/cop21_24h_apres.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2015-12-13" class="timestamp">[&nbsp;dimanche 13 décembre 2015,&nbsp;20:32&nbsp;]</time>&nbsp;Deuxième bilan après la COP21</a></h3>
 <div class="post-full entry-content instapaper_body"><p>24 heures plus tard, l'impression est la même. <a href="http://unfccc.int/resource/docs/2015/cop21/fre/l09f.pdf" title="Version française">L'accord de Paris</a> (PDF, 635 Ko) est un excellent accord, parce qu'il a été négocié dans un excellent esprit.</p>
@@ -325,24 +398,6 @@ function getComment(threadId,refPageURL){
 <div class="post"><article class="hentry">
 <h3 class="accent1 entry-title instapaper_title"><a href="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2015-11-30" class="timestamp">[&nbsp;lundi 30 novembre 2015,&nbsp;04:25&nbsp;]</time>&nbsp;Outil de suivi</a></h3>
 <div class="post-full entry-content instapaper_body">Version en français d'un outil disponible sur Climate Talks Live... <span class="seemore"><a href="http://blog.barijaona.com/stories/suivi_twitter_COP21.html"  rel="bookmark" title="Aller vers l'article complet">-&gt;&gt;</a></span></div></article></div>
-<div class="post"><article class="hentry">
-<h3 class="accent4 entry-title instapaper_title"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2015-11-15" class="timestamp">[&nbsp;dimanche 15 novembre 2015,&nbsp;15:35&nbsp;]</time>&nbsp;Using Blosxom starter kit with Apple's OS X Server</a></h3>
-<div class="post-full entry-content instapaper_body"><p>This is mainly a note to myself, about my blogging tool.</p>
-
-<p>In 2015, if you want a tool to create a blog, you will probably consider <a href="http://jekyllrb.com" title="Jekyll : transform your plain text into static websites and blogs.">Jekyll</a>. It is :</p>
-
-<ul>
-<li>simple (no database, just text files),</li>
-<li>safe (static site, no pesky updates to install, just your content)</li>
-<li>and free (as in beer as well as in speech).</li>
-</ul>
-
-<p><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html#more" class="seemore">Lire la suite...</a></p>
-</div></article>
-<div class="post-tools">[<a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html#disqus_thread" onclick="return(getComment('a201511151535','http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html'));" data-disqus-identifier="a201511151535">Réagir</a>]</div>
-</div><br />
-
-
 
 <br /><br /></div></div>
 
@@ -368,7 +423,7 @@ function getComment(threadId,refPageURL){
    <input type="submit" value="Rechercher" />
 </form>
 </div>
-<p class="note"><a href="http://blog.barijaona.com/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar"><table class="month-calendar"><caption class="month-calendar-head">décembre 2015</caption><colgroup style="text-align:center"><col span="7" /></colgroup><thead><tr><th class="month-calendar-day-head Lundi">Lun</th>
+<p class="note"><a href="http://blog.barijaona.com/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar"><table class="month-calendar"><caption class="month-calendar-head">février 2016</caption><colgroup style="text-align:center"><col span="7" /></colgroup><thead><tr><th class="month-calendar-day-head Lundi">Lun</th>
 <th class="month-calendar-day-head Mardi">Mar</th>
 <th class="month-calendar-day-head Mercredi">Mer</th>
 <th class="month-calendar-day-head Jeudi">Jeu</th>
@@ -376,61 +431,65 @@ function getComment(threadId,refPageURL){
 <th class="month-calendar-day-head Samedi">Sam</th>
 <th class="month-calendar-day-head Dimanche">Dim</th>
 </tr></thead><tbody><tr>
-<td class="month-calendar-day-noday Lundi">&nbsp;</td>
-<td class="month-calendar-day-nolink Mardi">1</td>
-<td class="month-calendar-day-nolink Mercredi">2</td>
-<td class="month-calendar-day-nolink Jeudi">3</td>
-<td class="month-calendar-day-nolink Vendredi">4</td>
-<td class="month-calendar-day-link Samedi"><a title="Samedi 5 décembre 2015" href="http://blog.barijaona.com/2015/12/index.html#1205">5</a></td><td class="month-calendar-day-nolink Dimanche">6</td>
+<td class="month-calendar-day-nolink Lundi">1</td>
+<td class="month-calendar-day-nolink Mardi">2</td>
+<td class="month-calendar-day-nolink Mercredi">3</td>
+<td class="month-calendar-day-nolink Jeudi">4</td>
+<td class="month-calendar-day-nolink Vendredi">5</td>
+<td class="month-calendar-day-nolink Samedi">6</td>
+<td class="month-calendar-day-nolink Dimanche">7</td>
 </tr>
 <tr>
-<td class="month-calendar-day-nolink Lundi">7</td>
-<td class="month-calendar-day-nolink Mardi">8</td>
-<td class="month-calendar-day-nolink Mercredi">9</td>
-<td class="month-calendar-day-link Jeudi"><a title="Jeudi 10 décembre 2015" href="http://blog.barijaona.com/2015/12/index.html#1210">10</a></td><td class="month-calendar-day-link Vendredi"><a title="Vendredi 11 décembre 2015" href="http://blog.barijaona.com/2015/12/index.html#1211">11</a></td><td class="month-calendar-day-link Samedi"><a title="Samedi 12 décembre 2015" href="http://blog.barijaona.com/2015/12/index.html#1212">12</a></td><td class="month-calendar-day-link Dimanche"><a title="Dimanche 13 décembre 2015" href="http://blog.barijaona.com/2015/12/index.html#1213">13</a></td></tr>
-<tr>
-<td class="month-calendar-day-this-day Lundi">14</td>
-<td class="month-calendar-day-future Mardi">15</td>
-<td class="month-calendar-day-future Mercredi">16</td>
-<td class="month-calendar-day-future Jeudi">17</td>
-<td class="month-calendar-day-future Vendredi">18</td>
-<td class="month-calendar-day-future Samedi">19</td>
-<td class="month-calendar-day-future Dimanche">20</td>
+<td class="month-calendar-day-nolink Lundi">8</td>
+<td class="month-calendar-day-nolink Mardi">9</td>
+<td class="month-calendar-day-nolink Mercredi">10</td>
+<td class="month-calendar-day-nolink Jeudi">11</td>
+<td class="month-calendar-day-nolink Vendredi">12</td>
+<td class="month-calendar-day-nolink Samedi">13</td>
+<td class="month-calendar-day-nolink Dimanche">14</td>
 </tr>
 <tr>
-<td class="month-calendar-day-future Lundi">21</td>
-<td class="month-calendar-day-future Mardi">22</td>
-<td class="month-calendar-day-future Mercredi">23</td>
-<td class="month-calendar-day-future Jeudi">24</td>
-<td class="month-calendar-day-future Vendredi">25</td>
-<td class="month-calendar-day-future Samedi">26</td>
-<td class="month-calendar-day-future Dimanche">27</td>
+<td class="month-calendar-day-nolink Lundi">15</td>
+<td class="month-calendar-day-nolink Mardi">16</td>
+<td class="month-calendar-day-nolink Mercredi">17</td>
+<td class="month-calendar-day-nolink Jeudi">18</td>
+<td class="month-calendar-day-nolink Vendredi">19</td>
+<td class="month-calendar-day-this-day Samedi"><a title="Samedi 20 février 2016" href="http://blog.barijaona.com/2016/02/index.html#0220">20</a></td><td class="month-calendar-day-future Dimanche">21</td>
 </tr>
 <tr>
-<td class="month-calendar-day-future Lundi">28</td>
-<td class="month-calendar-day-future Mardi">29</td>
-<td class="month-calendar-day-future Mercredi">30</td>
-<td class="month-calendar-day-future Jeudi">31</td>
+<td class="month-calendar-day-future Lundi">22</td>
+<td class="month-calendar-day-future Mardi">23</td>
+<td class="month-calendar-day-future Mercredi">24</td>
+<td class="month-calendar-day-future Jeudi">25</td>
+<td class="month-calendar-day-future Vendredi">26</td>
+<td class="month-calendar-day-future Samedi">27</td>
+<td class="month-calendar-day-future Dimanche">28</td>
+</tr>
+<tr>
+<td class="month-calendar-day-future Lundi">29</td>
+<td class="month-calendar-day-noday Mardi">&nbsp;</td>
+<td class="month-calendar-day-noday Mercredi">&nbsp;</td>
+<td class="month-calendar-day-noday Jeudi">&nbsp;</td>
 <td class="month-calendar-day-noday Vendredi">&nbsp;</td>
 <td class="month-calendar-day-noday Samedi">&nbsp;</td>
 <td class="month-calendar-day-noday Dimanche">&nbsp;</td>
 </tr>
-<tr><td colspan="7" style="text-align:center"><a title="novembre 2015" href="http://blog.barijaona.com/2015/11/">Nov</a>&nbsp;&nbsp;...</td></tr></tbody></table></div>
+<tr><td colspan="7" style="text-align:center"><a title="décembre 2015" href="http://blog.barijaona.com/2015/12/">Dec</a>&nbsp;&nbsp;...</td></tr></tbody></table></div>
 <p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
 
-<div class="box"><h3>Sélectionné dans les archives</h3>
+<div class="box"><h3>Un peu au hasard dans les archives</h3>
 
-<p>Management : <a href="http://blog.barijaona.com/stories/2002/07/30/ilYALesUbergeeksEtLesAutre.html" title="Comment motiver des programmeurs ?">Il y a les über-geeks et les autres</a>.</p>
+<p><a href="http://blog.barijaona.com/accueil/ar19980322.html" title="Dimanche 22 mars 1998">Le tout premier billet</a>.</p>
 
-<p>Cuisine : <a href="http://blog.barijaona.com/2002/08/04.html#a261" title="Meilleur que le Classiko">recette de l'OpenCola</a>.</p>
+<p>2004 : <a href="http://blog.barijaona.com/blogosphere/statistiques_mots.html" title="Je vous joue mon Lacan...">Statistiques</a>.</p>
 
-<p>Photo : <a href="http://blog.barijaona.com/photos/cartier_bresson.html" title="Hommage">Henri Cartier-Bresson, hors cadre...</a></p>
+<p>Bien avant la COP21 ;-) : <a href="http://blog.barijaona.com/madagascar/elita.html" title="Tolérance aux pannes"...">Adaptation</a></p> et <a href="http://blog.barijaona.com/madagascar/gafilo.html" title='Je ne voudrais pas trop jouer "Cosette à Madagascar"...'>changement climatique</a></p>
 
 </div>
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" title="billet du 14 novembre 2015">&lt;-&nbsp;Paris, ici et ce monde pas si infini</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" title="billet du 15 novembre 2015">&lt;-&nbsp;Using Blosxom starter kit with Apple's OS X Server</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br />
@@ -462,7 +521,7 @@ Certains droits protégés par <a rel="license" href="http://creativecommons.org
 
 </rdf:RDF>
 
---></div><br /><a class="inline-button orange" href="http://blog.barijaona.com/atom.xml" title="Fil Atom"><em>Atom</em><span> 1.0</span></a>::<a class="inline-button orange" href="http://blog.barijaona.com/rss.xml" title="Fil RSS 1.0"><em>RSS</em><span> articles</span></a>::<a class="inline-button orange" href="http://blog.barijaona.com/shortened.xml" title="Fil RSS 1.0"><em>RSS</em><span> titres</span></a>::<a class="inline-button green" href="http://geourl.org/near/?p=http://blog.barijaona.com/" title="Blogs voisins" hreflang="en"><em>GEO</em><span> URL</span></a>::<a class="inline-button yellow" href="http://blog.barijaona.com/web/blosxomsk/" title="Kit de démarrage Blosxom"><em>Mû par</em><span> Blosxom</span></a>::<a class="inline-button brown" href="http://oeildemouche.net/texts/adulte_chiant.shtml" title="Définition de l'A/C chez Mouche"><em>Aïeul</em><span> assommant</span></a><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
+--></div><br /><a class="inline-button orange" href="http://blog.barijaona.com/atom.xml" title="Fil Atom"><em>Atom</em><span> 1.0</span></a>::<a class="inline-button orange" href="http://blog.barijaona.com/rss.xml" title="Fil RSS 1.0"><em>RSS</em><span> articles</span></a>::<a class="inline-button orange" href="http://blog.barijaona.com/shortened.xml" title="Fil RSS 1.0"><em>RSS</em><span> titres</span></a>::<a class="inline-button yellow" href="http://blog.barijaona.com/web/blosxomsk/" title="Kit de démarrage Blosxom"><em>Mû par</em><span> Blosxom</span></a><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
 // Random encryption key feature by Andrew Moulden, Site Engineering Ltd

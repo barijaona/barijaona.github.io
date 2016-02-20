@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/obama-inauguration.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/recap_apple_cryptographie.html">
+	<title>L&apos;affaire Apple contre FBI</title>
+	<link>http://blog.barijaona.com/monde/recap_apple_cryptographie.html</link>
+	<description>Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-02-20T14:50:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/cop21_24h_apres.html">
 	<title>Deuxième bilan après la COP21</title>
 	<link>http://blog.barijaona.com/monde/cop21_24h_apres.html</link>
@@ -100,18 +109,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2011-05-01T07:22:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/obama-inauguration.html">
-	<title>«Yes, we...»</title>
-	<link>http://blog.barijaona.com/monde/obama-inauguration.html</link>
-	<description>Senator Dianne Feinstein :
-
-
-  Mijery izao tontolo izao, mahita ity demokrasia goavana miditra am-pilaminana amin'ny famindram-pahefana...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2009-01-21T06:39:00+03:00</dc:date>
 
 </item>
 
