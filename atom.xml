@@ -16,7 +16,7 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2016-02-20T12:14:00Z</updated>
+  <updated>2016-02-21T15:28:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2016:/monde/recap_apple_cryptographie</id>
@@ -24,7 +24,7 @@
 
     <title type="text">L'affaire Apple contre FBI</title>
     <published>2016-02-20T11:50:00Z</published>
-    <updated>2016-02-20T12:14:00Z</updated>
+    <updated>2016-02-21T15:28:00Z</updated>
     <category term="/monde"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -35,6 +35,8 @@
 &lt;p&gt;Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI.&lt;/p&gt;
 
 &lt;p&gt;Ce billet fera l'objet de mises à jour périodiques. J'essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;{Mise à jour 21/2/2016 : explication des circonstances de la remise à zéro du mot de passe iCloud de Syed Farook}&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Un &lt;a href=&quot;http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php&quot; title=&quot;LeFgaro.fr :Apple refuse d'aider à débloquer l'iPhone d'un des auteurs de la tuerie de San Bernardino&quot; hreflang=&quot;fr&quot;&gt;résumé&lt;/a&gt; des débuts de la polémique.&lt;/li&gt;
@@ -82,7 +84,7 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l'avantage compét
 &lt;p&gt;&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Parmi les données dont le FBI dispose, beaucoup ont d'ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais une mauvaise coordination entre le FBI et l'employeur de Syed Farook a entraîné la remise à zéro d'un mot de passe et &lt;a href=&quot;http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613&quot; title=&quot;The San Bernardino Terrorist's iCloud Password Was Accidentally Reset By His Employer (Gizmodo)&quot; hreflang=&quot;en&quot;&gt;l'impossibilité de récupérer via iCloud&lt;/a&gt; les dernières mises à jour de données sur l'iPhone en question.&lt;/li&gt;
+&lt;li&gt;Parmi les données dont le FBI dispose, beaucoup ont d'ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais &lt;a href=&quot;https://twitter.com/CountyWire/status/700887823482630144&quot; title=&quot;Tweet by San Bernardino County&quot; hreflang=&quot;en&quot;&gt;à la demande du FBI&lt;/a&gt;, l'employeur de Syed Farook a remis à zéro à distance le mot de passe de son compte iCloud ce qui a entraîné &lt;a href=&quot;http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613&quot; title=&quot;The San Bernardino Terrorist's iCloud Password Was Reset By His Employer (Gizmodo)&quot; hreflang=&quot;en&quot;&gt;l'impossibilité de récupérer les dernières mises à jour de données sur l'iPhone en question via une sauvegarde dans le nuage&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;labataillejuridiquequisannonce&quot;&gt;La bataille juridique qui s'annonce&lt;/h3&gt;
