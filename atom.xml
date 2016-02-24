@@ -16,7 +16,7 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2016-02-21T15:28:00Z</updated>
+  <updated>2016-02-24T02:12:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2016:/monde/recap_apple_cryptographie</id>
@@ -24,7 +24,7 @@
 
     <title type="text">L'affaire Apple contre FBI</title>
     <published>2016-02-20T11:50:00Z</published>
-    <updated>2016-02-21T15:28:00Z</updated>
+    <updated>2016-02-24T02:12:00Z</updated>
     <category term="/monde"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -36,7 +36,8 @@
 
 &lt;p&gt;Ce billet fera l'objet de mises à jour périodiques. J'essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;{Mise à jour 21/2/2016 : explication des circonstances de la remise à zéro du mot de passe iCloud de Syed Farook}&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;{Mise à jour 24/2/2016 : nouvelles lettres ouvertes du FBI et d'Apple, et révélations d'Apple sur les demandes similaires l'opposant au gouvernement}&lt;/em&gt; &lt;br /&gt;
+&lt;em&gt;{Mise à jour 21/2/2016 : explication des circonstances de la remise à zéro du mot de passe iCloud de Syed Farook}&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Un &lt;a href=&quot;http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php&quot; title=&quot;LeFgaro.fr :Apple refuse d'aider à débloquer l'iPhone d'un des auteurs de la tuerie de San Bernardino&quot; hreflang=&quot;fr&quot;&gt;résumé&lt;/a&gt; des débuts de la polémique.&lt;/li&gt;
@@ -92,6 +93,7 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l'avantage compét
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;La loi All Writs peut contraindre Apple à faire des efforts « raisonnables » pour aider les autorités. Mais la demande qui est faite à Apple &lt;a href=&quot;http://www.zdziarski.com/blog/?p=5645&quot; title=&quot;A forensics expert describes the intricate legal burden and consequences of the FBI's request to Apple&quot; hreflang=&quot;en&quot;&gt;diffère fondamentalement des précédentes&lt;/a&gt; et il est très probable qu'Apple argumentera qu'il ne s'agirait plus là d'efforts raisonnables.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Dans l'affaire de New York qui est encore en cours, cet argument semble &lt;a href=&quot;https://www.eff.org/deeplinks/2015/10/judge-doj-not-all-writs&quot; title=&quot;Judge to DOJ: Not All Writs&quot; hreflang=&quot;en&quot;&gt;avoir été pris en compte par un juge&lt;/a&gt;. Ce même argument aurait plus de poids encore si la demande gouvernementale devait entraîner un recul de la sécurité pour tous les utilisateurs d'iPhone.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dans cette affaire de New York, Apple a révélé à la Cour qu'une quinzaine de demandes de déverrouillage d'iPhone lui ont été &lt;a href=&quot;http://www.abreakingnews.com/m/?id=612037&quot; title=&quot;Feds want to circumvent security on other phones (abreakingnews.com)&quot; hreflang=&quot;en&quot;&gt;soumises par le gouvernement américain&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;labatailletechniquequicontinue&quot;&gt;La bataille technique qui continue&lt;/h3&gt;
@@ -99,6 +101,15 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l'avantage compét
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;La demande du FBI démontre que, même si elle améliore grandement la sécurité de l'utilisateur qui prend des précautions raisonnables, l'intégration entre matériel et logiciel pratiquée par Apple reste &lt;a href=&quot;http://daringfireball.net/linked/2016/02/17/ios-security-guide&quot; title=&quot;John Gruber comments on Apple’s iOS security guide&quot; hreflang=&quot;en&quot;&gt;encore insuffisante face à des cas comme celui-ci&lt;/a&gt;. L'on peut penser que les prochaines versions d'iOS ou les prochaines versions de l'iPhone iront &lt;a href=&quot;https://www.mikeash.com/pyblog/friday-qa-2016-02-19-what-is-the-secure-enclave.html&quot; title=&quot;NSBlog : What Is the Secure Enclave?&quot; hreflang=&quot;en&quot;&gt;encore plus loin&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Un hôpital américain, le Hollywood Presbyterian Medical Center, a été obligé de &lt;a href=&quot;http://www.zone-numerique.com/le-hollywood-presbyterian-medical-center-verse-une-rancon-de-17-000-en-bitcoins-aux-pirates.html&quot; title=&quot;Le Hollywood Presbyterian Medical Center contraint de verser une rançon de 17 000 $ en bitcoins aux pirates&quot; hreflang=&quot;fr&quot;&gt;verser une rançon&lt;/a&gt; à des pirates informatiques. Démonstration s'il en était besoin qu'il serait fort malvenu de fragiliser la sécurité de l'utilisateur moyen et de laisser les malfrats profiter seuls d'un chiffrage fort.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesprincipauxargumentsdesunsetdesautres&quot;&gt;Les principaux arguments des uns et des autres&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Apple et le FBI s'accordent sur la nécessité d'un débat public suffisamment éclairé.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Celui-ci est susceptible de tourner autour de la &lt;a href=&quot;http://www.numerama.com/politique/147608-pourquoi-apple-a-raison-de-proteger-les-droits-fondamentaux-contre-les-etats.html&quot; title=&quot;Guillaume Champeau : Pourquoi Apple a raison de protéger les droits fondamentaux contre les États&quot; hreflang=&quot;fr&quot;&gt;question suivante&lt;/a&gt;: les individus et les entreprises sont-ils seulement tenus de &lt;em&gt;respecter&lt;/em&gt; les droits de l’homme , ou doivent-ils &lt;em&gt;protéger&lt;/em&gt; les droits de l'homme, y compris contre les États ?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Le FBI explique qu'il veut déverrouiller &lt;a href=&quot;http://www.macg.co/aapl/2016/02/le-directeur-du-fbi-repond-tim-cook-93108&quot; title=&quot;MacGeneration : le directeur du FBI répond à Tim Cook&quot; hreflang=&quot;fr&quot;&gt;uniquement l'iPhone de l'affaire de San Bernardino&lt;/a&gt;, et ne cherche pas à créer un précédent.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Apple reste sur sa position : plusieurs autres demandes de déverrouillage lui ont été soumises par le gouvernement et la demande du FBI créerait &lt;a href=&quot;http://www.macg.co/aapl/2016/02/contre-le-fbi-apple-publie-une-faq-pour-rallier-lopinion-publique-93117&quot; title=&quot;MacGeneration : Apple publie une FAQ pour rallier l'opinion publique&quot; hreflang=&quot;fr&quot;&gt;un dangereux précédent légal et technique&lt;/a&gt;. Sur demande de la Justice, Apple a la possibilité et accepte d'extraire certaines données des iPhones (notamment lorsque ces iPhones sont sauvegardés dans le nuage iCloud), mais &lt;strong&gt;refuse&lt;/strong&gt; totalement l'idée de déverrouiller un appareil, y compris lorsque cela lui est techniquement possible.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://blog.barijaona.com/monde/recap_apple_cryptographie.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
     </content>
