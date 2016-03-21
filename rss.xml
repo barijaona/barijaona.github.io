@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,21 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/environnement/21mars2016.html">
+	<title>« Un arbre fait pousser un homme » (Malthus)</title>
+	<link>http://blog.barijaona.com/environnement/21mars2016.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Aujourd&apos;hui est la &lt;a href=&quot;http://www.un.org/fr/events/forestsday/&quot; title=&quot;Site de l&apos;ONU&quot;&gt;journée internationale des forêts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;À cette occasion, je reprends un extrait d&apos;un article paru en 1914 dans le journal « Le Tamatave », sous le titre « Les tavy et le reboisement », retrouvé via 
+&lt;a href=&quot;http://cultmada.blogspot.com/2015/12/il-y-100-ans-les-tavy-et-le-reboisement.html&quot; title=&quot;Bibliothèque malgache&quot;&gt;Pierre Maury&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/environnement/21mars2016.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/environnement/21mars2016.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/environnement</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-03-21T19:26:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/recap_apple_cryptographie.html">
 	<title>L&apos;affaire Apple contre FBI</title>
 	<link>http://blog.barijaona.com/monde/recap_apple_cryptographie.html</link>
@@ -374,18 +389,6 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l&apos;avantage co
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
-	<title>Financement durable des aires protégées</title>
-	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Une présentation par la FAPBM pour la COP21. Textes de &lt;a href=&quot;https://www.linkedin.com/in/gérard-rambeloarisoa-115a2632&quot; title=&quot;Directeur exécutif de la FAPBM&quot;&gt;Gérard Rambeloarisoa&lt;/a&gt; et moi-même.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&quot;//fr.slideshare.net/slideshow/embed_code/key/1h2hziPAC9T2D&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//fr.slideshare.net/barijaonar/cop21-financement-durable-des-aires-protegees-fapbm-fr&quot; title=&quot;COP21 Financement durable des aires protégées FAPBM (français)&quot; target=&quot;_blank&quot;&gt;COP21 Financement durable des aires protégées FAPBM (français)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/barijaonar&quot; target=&quot;_blank&quot;&gt;Barijaona Ramaholimihaso&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
 
 </item>
 

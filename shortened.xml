@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/environnement/21mars2016.html">
+	<title>« Un arbre fait pousser un homme » (Malthus)</title>
+	<link>http://blog.barijaona.com/environnement/21mars2016.html</link>
+	<description>Aujourd'hui est la journée internationale des forêts...</description>
+	<dc:subject>/environnement</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-03-21T19:26:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/recap_apple_cryptographie.html">
 	<title>L&apos;affaire Apple contre FBI</title>
 	<link>http://blog.barijaona.com/monde/recap_apple_cryptographie.html</link>
@@ -99,15 +108,6 @@
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
-	<title>Financement durable des aires protégées</title>
-	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
-	<description>Une présentation par la FAPBM pour la COP21...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
 
 </item>
 
