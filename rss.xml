@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,36 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/singapour-meemf.html">
+	<title>Perturbantes questions…</title>
+	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;La presse n&apos;a pas rapporté le fait, mais j&apos;ai trouvé la situation si particulière que je ne résiste pas à la tentation de rendre compte…&lt;/p&gt;
+
+&lt;p&gt;C&apos;était mardi dernier, au ministère de l&apos;Environnement, de l&apos;Écologie et des Forêts.&lt;/p&gt;
+
+&lt;p&gt;Une question de &lt;a href=&quot;https://twitter.com/galaelle&quot; title=&quot;Gaëlle Borgia sur Twitter&quot;&gt;journaliste&lt;/a&gt; qui a un peu cassé l&apos;ambiance :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Monsieur le ministre sortant, vous avez essayé de faire la lumière sur &lt;a href=&quot;http://www.lexpressmada.com/blog/actualites/bois-de-rose-saisis-a-singapour-les-etats-unis-souhaitent-une-enquete-du-bianco-60378/&quot; title=&quot;Bois de rose saisis à Singapour – Les États-Unis souhaitent une enquête du Bianco&quot;&gt;l&apos;affaire Singapour&lt;/a&gt;, est-ce que c&apos;est pour cela que vous n&apos;êtes plus au gouvernement aujourd&apos;hui ? Madame la ministre, est-ce que vous allez faire de l&apos;affaire Singapour une priorité de votre mandat ? Est-ce que vous allez par exemple demander une enquête au niveau malgache ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260592276&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Dans le même genre, des questions qu&apos;une connaissance, d&apos;un air mi-figue mi-raisin, a proposé de poser à la nouvelle ministre :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;pourquoi avez vous accepté ce poste, alors que c&apos;est le Président, son entourage et son parti HVM qui bloquent toute évolution dans la bonne gestion des ressources naturelles et dans la poursuite des infractions ? &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Croyez-vous qu&apos;il est sage d&apos;intégrer une bande de loups pour ensuite vouloir garder les moutons ? &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Que croyez vous pouvoir faire dans votre nouvelle fonction et où allez vous chercher vos alliés pour vos projets ?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Je ne me vois pas réellement poser de telles questions en termes aussi abrupts, mais l&apos;attention est de rigueur…&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/singapour-meemf.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-04-24T07:27:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/environnement/21mars2016.html">
 	<title>« Un arbre fait pousser un homme » (Malthus)</title>
 	<link>http://blog.barijaona.com/environnement/21mars2016.html</link>
@@ -377,18 +407,6 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l&apos;avantage co
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
-	<title>[en] Long term financing of protected areas.</title>
-	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;A FAPBM slideshow for the COP21. Texts by &lt;a href=&quot;https://www.linkedin.com/in/gérard-rambeloarisoa-115a2632&quot; title=&quot;FAPBM&apos;s Executive Manager&quot;&gt;Gérard Rambeloarisoa&lt;/a&gt; and myself.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&quot;//fr.slideshare.net/slideshow/embed_code/key/8U5gAAxQ9XLotn&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//fr.slideshare.net/barijaonar/cop21-long-term-financing-of-protected-areas-fapbm-english&quot; title=&quot;COP21 Long term financing of protected areas FAPBM (english)&quot; target=&quot;_blank&quot;&gt;COP21 Long term financing of protected areas FAPBM (english)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/barijaonar&quot; target=&quot;_blank&quot;&gt;Barijaona Ramaholimihaso&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
 
 </item>
 

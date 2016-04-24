@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/singapour-meemf.html">
+	<title>Perturbantes questions…</title>
+	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
+	<description>La presse n'a pas rapporté le fait, mais j'ai trouvé la situation si particulière que je ne résiste pas à la tentation de rendre compte…
+
+C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des Forêts...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-04-24T07:27:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/environnement/21mars2016.html">
 	<title>« Un arbre fait pousser un homme » (Malthus)</title>
 	<link>http://blog.barijaona.com/environnement/21mars2016.html</link>
@@ -99,15 +110,6 @@
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
-	<title>[en] Long term financing of protected areas.</title>
-	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
-	<description>A FAPBM slideshow for the COP21...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
 
 </item>
 
