@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html">
+	<title>Un vieux avec un discours très frais</title>
+	<link>http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html</link>
+	<description>Ses détracteurs et la plupart des marketeurs politiques ont sans doute de bonnes raisons de le décrire comme un hommme trop mou, trop calme, trop post-soixante huitard…
+
+N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de ce genre de discours trop long, trop calme, mais surtout très frais...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-05-24T01:43:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/singapour-meemf.html">
 	<title>Perturbantes questions…</title>
 	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
@@ -101,15 +112,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-11T13:24:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/night_session_cop21.html">
-	<title>Comment ça se termine une COP ?</title>
-	<link>http://blog.barijaona.com/madagascar/night_session_cop21.html</link>
-	<description>En quenouille ou en feu d'artifice ...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
 
 </item>
 

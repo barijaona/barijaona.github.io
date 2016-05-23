@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,22 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html">
+	<title>Un vieux avec un discours très frais</title>
+	<link>http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ses détracteurs et la plupart des marketeurs politiques ont sans doute de bonnes raisons de le décrire comme un hommme trop mou, trop calme, trop post-soixante huitard…&lt;/p&gt;
+
+&lt;p&gt;N&apos;empêche que je trouve qu&apos;il n&apos;y a pas que les Autrichiens qui ont besoin de ce genre de discours trop long, trop calme, mais surtout très frais.&lt;/p&gt;
+
+&lt;p&gt;(Ce genre de discours est tellement inaudible de nos jours qu&apos;il faut cliquez sur l&apos;icône de haut-parleur pour l&apos;entendre)&lt;/p&gt;
+
+&lt;iframe src=&quot;http://www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; width=&quot;560&quot; height=&quot;410&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-05-24T01:43:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/singapour-meemf.html">
 	<title>Perturbantes questions…</title>
 	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
@@ -354,59 +370,6 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l&apos;avantage co
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-11T13:24:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/night_session_cop21.html">
-	<title>Comment ça se termine une COP ?</title>
-	<link>http://blog.barijaona.com/madagascar/night_session_cop21.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;En quenouille ou en feu d&apos;artifice ? Comme prévu, la COP21 se transforme en marathon jour et nuit… Petit aperçu (qui dure quand même 3h14) ci-bas (choisissez la bande son originale ou la traduction simultanée).&lt;/p&gt;
-
-&lt;div style=&quot;position:relative;margin:0;padding:0 0 61.3%;border:0;overflow:hidden;height:0;width:100%&quot;&gt;
-    &lt;iframe src=&quot;//player.meta-fusion.com/comite-de-paris-4th-meeting&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Cela se passait hier soir de 20H13 à 23h17. Je ne sais pas à quelle heure les plus courageux se sont couchés (ni même s&apos;ils se sont couchés…).&lt;/p&gt;
-
-&lt;p&gt;Les 99% les plus paresseux (dont moi) ont le droit de zapper : on peut par exemple prendre les 19 premières minutes &lt;a href=&quot;#fn:4&quot; id=&quot;fnref:4&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;, et l&apos;on finira avec les dix dernières minutes (à partir de 3:05:00).&lt;/p&gt;
-
-&lt;p&gt;Quelques décryptages : &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;on trouvera des explications sur les principales alliances entre pays 
-&lt;a href=&quot;http://unfccc.int/portal_francophone/essential_background/convention/convention_bodies/party_groupings/items/3273.php&quot; title=&quot;Les groupes de Parties&quot;&gt;sur le site de l&apos;ONU&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;les « parties » ne se situent pas dans le bas-ventre mais désignent les États, en tant que signataires de la Convention cadre des Nations unies sur les Changements Climatiques&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;la formule « Indaba » fait référence à une réunion moins formelle qu&apos;une grande réunion plénière.&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;une « informelle informelle » est une réunion en sous-sous-groupe (qui peut quand même réunir des dizaines de personnes…)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Plus d&apos;explications sur &lt;a href=&quot;http://vlscop.vermontlaw.edu/2015/12/02/understanding-the-complex-organized-chaos-of-unfccc-negotiations/&quot; title=&quot;Understanding the Complex Organized Chaos of UNFCCC Negotiations&quot; hreflang=&quot;en&quot;&gt;ce chaos organisé ici&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Certains commentateurs externes, &lt;a href=&quot;http://m.leparisien.fr/environnement/cop21/cop21-l-ultimatum-des-africains-a-hollande-09-12-2015-5354339.php&quot; title=&quot;COP21 : l&apos;ultimatum des Africains à Hollande - Le Parisien&quot;&gt;comme là&lt;/a&gt; &lt;a href=&quot;#fn:3&quot; id=&quot;fnref:3&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;, ne réalisent pas que le terme « communauté internationale » puisse avoir dans une COP un autre sens que celui un rien perverti qu&apos;on lui donne généralement (au sens de &lt;a href=&quot;http://www.rfi.fr/emission/20140312-gel-avoirs/&quot; title=&quot;RFI : Mamane&quot;&gt;Barack et ses copains&lt;/a&gt;). Contrairement au Conseil de Sécurité de l&apos;ONU, aucun pays n&apos;a de droit de veto dans une COP, ou plutôt tous les pays ont des capacités de nuisance. Tous les pays du monde ont signé la Convention cadre des Nations unies, et la grande force de cette COP21 est qu&apos;il avait été convenu lors de la réunion de Durban en 2011 qu&apos;un accord &lt;em&gt;universel&lt;/em&gt; et ayant une valeur légale doit être conclu avant fin 2015.&lt;/p&gt;
-
-&lt;p&gt;Dans ces conditions, les coalitions les plus larges ont une force inhabituelle. Le groupe « G77 + Chine » pèse lourd parce qu&apos;il regroupe beaucoup de petits pays et qu&apos;il reste globalement uni, bien que les intérêts ne soient pas tout à fait identiques.&lt;/p&gt;
-
-&lt;p&gt;Vous me suivez toujours ? Pour rendre les choses encore plus compliquées, outre son appartenance au « G77 + Chine », Madagascar fait partie du groupe africain, du groupe des pays les moins avancés (PMA), du forum de la vulnérabilité et du groupe des vingt pays les pays vulnérables (« V20 »)… j&apos;en passe et des meilleures.&lt;/p&gt;
-
-&lt;p&gt;Cette &lt;a href=&quot;http://www.boursorama.com/actualites/cop21-les-principaux-points-durs-toujours-pas-tranches-a546b3e02d8c02d27b40c3da1e179f2b&quot; title=&quot;COP21-Les principaux points durs toujours pas tranchés - sur boursorama.com&quot;&gt;dépêche de Reuters&lt;/a&gt; situe les principaux problèmes encore sur les différentes tables au stade actuel. La position de Madagascar est quant à elle assez bien résumée &lt;a href=&quot;http://www.madagascar-tribune.com/La-nouvelle-ebauche-ne-convient,21699.html&quot; title=&quot;La nouvelle ébauche ne convient pas encore à la population malgache, sur Madagascar-Tribune.com&quot;&gt;dans cet article&lt;/a&gt; écrit par une &lt;a href=&quot;https://twitter.com/domoinapoete&quot; title=&quot;Domoina Ratovozanany sur Twitter&quot;&gt;jeune observatrice&lt;/a&gt; qui a pu venir à Paris &lt;a href=&quot;http://articlesdedomoinaratovozanany.over-blog.com/2015/12/domoina-est-reporter-et-benevole-pour-la-cop-21-jactiv-ouest-france-fr-1er-decembre-2015.html&quot; title=&quot;Domoina est reporter et bénévole pour la COP 21&quot;&gt;grâce à un concours&lt;/a&gt; et au soutien du PNUD.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:4&quot;&gt;&lt;p&gt;pour voir successivement parler la présidence française, l&apos;Afrique du Sud (qui parle au nom du groupe « G77 + Chine ») et la Suisse (au nom du « Groupe de l&apos;Intégrité Environnementale »)&lt;a href=&quot;#fnref:4&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Négocié au Sommet de la Terre à Rio en 1992&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;À la base, l&apos;Indaba est une assemblée traditionnelle des tribus xhosa et zoulous ; la formule est passée dans le volapuk des diplomates à travers l&apos;influence de Desmond Tutu.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:3&quot;&gt;&lt;p&gt;« Ah c l&apos;afrique qui gouverne le monde maintenant !! ont est pas dans la panade alors !!!! » (sic et re-sic)&lt;a href=&quot;#fnref:3&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/night_session_cop21.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
 
 </item>
 

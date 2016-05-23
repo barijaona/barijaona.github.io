@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_et_attentats_paris.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/rip_steve.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/culture-generale-2011.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html">
+	<title>Un vieux avec un discours très frais</title>
+	<link>http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html</link>
+	<description>Ses détracteurs et la plupart des marketeurs politiques ont sans doute de bonnes raisons de le décrire comme un hommme trop mou, trop calme, trop post-soixante huitard…
+
+N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de ce genre de discours trop long, trop calme, mais surtout très frais...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-05-24T01:43:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/recap_apple_cryptographie.html">
 	<title>L&apos;affaire Apple contre FBI</title>
 	<link>http://blog.barijaona.com/monde/recap_apple_cryptographie.html</link>
@@ -100,15 +111,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2011-10-06T05:15:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/culture-generale-2011.html">
-	<title>Culture générale</title>
-	<link>http://blog.barijaona.com/monde/culture-generale-2011.html</link>
-	<description>Je repense à un échange de plaisanteries avec ma femme...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2011-05-01T07:22:00+03:00</dc:date>
 
 </item>
 
