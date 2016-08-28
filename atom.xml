@@ -16,7 +16,49 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2016-05-23T22:51:00Z</updated>
+  <updated>2016-08-28T20:18:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2016:/macintosh/Jirokaki/1-choix-materiel</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
+
+    <title type="text">Jirōkaki, le choix du matériel</title>
+    <published>2016-08-28T19:56:00Z</published>
+    <updated>2016-08-28T20:18:00Z</updated>
+    <category term="/macintosh/Jirokaki"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki">La démarche de fabriquer un hackintosh ayant été expliquée</a>, le moment semble venu d'expliquer le choix du matériel.</p>
+
+<p><a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html#more" class="seemore">Lire la suite...</a></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
+
+  <entry>
+    <id>tag:barijaona.com,2016:/macintosh/Jirokaki/0-introduction</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
+
+    <title type="text">Projet Jirōkaki (次郎柿)</title>
+    <published>2016-08-28T16:58:00Z</published>
+    <updated>2016-08-28T20:18:00Z</updated>
+    <category term="/macintosh/Jirokaki"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><img src="http://blog.barijaona.com/macintosh/Jirokaki/vienna-3.png" width="128px" height="128px" style="float:left;" alt="Icône de Vienna RSS" />Étant devenu l'un des principaux <a href="https://github.com/ViennaRSS/vienna-rss/graphs/contributors" title="Contributors list on Github" hreflang="en">développeurs</a> actuels (si ce n'est le principal développeur) de <a href="http://www.vienna-rss.org" title="RSS/Atom reader for Mac OS X" hreflang="en">Vienna RSS</a>, j'ai été fort embêté en apprenant lors de la dernière <a href="https://fr.wikipedia.org/wiki/Worldwide_Developers_Conference" title="Worldwide Developers Conference sur Wikipedia">WWDC</a> que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10.12).</p>
+
+<p><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html#more" class="seemore">Lire la suite...</a></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2016:/monde/Alexander-Van-der-Bellen</id>
@@ -328,99 +370,6 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l'avantage compét
 </ol>
 </div>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/cop21_projet_accord.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2015:/monde/cop21_c_est_quoi_un_bon_accord</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
-
-    <title type="text">C'est quoi un bon accord ?</title>
-    <published>2015-12-11T14:34:00Z</published>
-    <updated>2015-12-11T15:16:00Z</updated>
-    <category term="/monde"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Avant même que le texte final soit publié, il est facile de prédire qu'il y aura des personnes ou des organisations qui ne se satisferont pas de l'accord de Paris. Mais si l'on s'est un peu accoutumé au volapuk des organisations internationales et que l'on a pris la peine de s'intéresser un peu à l'historique des négociations précédentes, l'on ne peut que reconnaître que jusqu'ici, les négociateurs de tous les pays ont plutôt bien joué leur partition.<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a></p>
-
-<h4 id="unengociationcestdabordunequestiondtatdesprit">Une négociation, c'est d'abord une question d'état d'esprit</h4>
-
-<p>Le mot « compromis » a une très mauvaise image. Le mot est trop souvent associé à un jeu à somme nulle, où ce que gagne l'un est une perte pour l'autre.</p>
-
-<p>En particulier lorsqu'il est question d'argent, il y a un risque qu'une négociation tourne rapidement au jeu à somme nulle, voire négative. Dans les entreprises, l'on voit ainsi certains acheteurs ne pas se rendre compte qu'ils détruisent une valeur bien plus importante, la confiance entre les parties, en essayant de grapiller quelques euros supplémentaires. Si les circonstances font que les parties sont contraintes à continuer de travailler ensemble, l'accumulation sur la durée des frustrations aura sur la qualité du travail et les résultats financiers des impacts bien plus importants que l'argent soit disant « économisé ».</p>
-
-<p>Mais une négociation peut devenir un jeu à somme positive, où chacun cherche réellement à comprendre quel est l'intérêt des autres parties, afin de voir si une concession de sa part permettra d'augmenter le résultat final pour tous. Il n'y a guère de doute qu'un tel climat favorable a été créé à Paris.</p>
-
-<h4 id="maislesattentessont-ellescomprises">Mais les attentes sont-elles comprises ?</h4>
-
-<p>Un gros bémol cependant : des rencontres faites lors de cette COP, il me semble qu'il subsiste dans les opinions publiques, même les mieux intentionnées, une large incompréhension de ce qu'attendent des pays comme Madagascar d'une COP. Oui, bien sûr, un pays comme Madagascar a besoin d'argent. Mais de l'argent, pour faire quoi ? De toute évidence, nous n'avons pas les mêmes attentes et nous n'en sommes même pas complètement conscients. </p>
-
-<p>Dans les pays du Nord, les médias ne parlent quasiment que d'<em>atténuation</em> des émissions de gaz à effet de serre. Dans l'inconscient collectif, il subsiste au fond l'idée que l'homme occidental est tout puissant et qu'il serait capable de modeler le climat à sa guise pour réparer sans trop de mal les dégâts.</p>
-
-<p>Mon côté <i lang="en">geek</i> peut comprendre cela ; mon côté malgache <i lang="mg">moramora</i><a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">2</a>, lui, réveille l'intuition que l'idée de réparer le climat est une illusion. De fait, même si du jour au lendemain l'humanité arrêtait toutes les émissions nouvelles de gaz à effet de serre, ceux déjà présents dans l'atmosphère continueraient de réchauffer notre planète. L'on ne se bat pas contre la Nature, l'on s'excuse du mal qu'on lui a fait et l'on s'efforce de mieux la respecter. Certains parleront de fatalisme, j'y vois plutôt de la sagesse et du réalisme.</p>
-
-<p>Qui plus est, en Occident, pour l'heure, le changement climatique ne se voit guère que par des hivers parfois un peu doux et de temps à autres une tempête qui finalement ne fait pas trop de mal à l'économie car elle dynamise les activités du secteur BTP. Dans un pays tropical, les manifestations du changement climatique sont dès aujourd'hui beaucoup plus palpables. Et elles touchent beaucoup plus de monde, parce que le mode de vie du monde rural et des populations pauvres est fortement dépendant de la Nature. À Madagascar, ces manifestations sont par exemple :</p>
-
-<ul>
-<li>des rendements agricoles qui baissent,</li>
-<li>des cyclones tropicaux qui montent en intensité,</li>
-<li>des phénomènes climatiques extrêmes qui atteignent des régions auparavant préservées, et ça c'est de l'<a href="http://www.lexpressmada.com/blog/actualites/mauvais-temps-les-torrents-font-sept-morts-50455/" title="Express de Madagascar : Mauvais temps – Les torrents font sept morts">actualité immédiate</a>.</li>
-</ul>
-
-<h4 id="adaptationetattnuation">Adaptation et atténuation</h4>
-
-<p>Voilà pourquoi lors de cette COP, si les pays du Nord ont beaucoup parlé d'<em>atténuation</em> du changement climatique, les pays du Sud ont beaucoup plus insisté sur l'<em>adaptation</em>. Car ce changement est déjà là, et il va falloir faire avec.</p>
-
-<p>Les remèdes à ce changement seront forcément multiples, mais nous sommes intimement convaincus que le remède le plus efficace reste la Nature.</p>
-
-<p>Il nous reste à remettre dans nos rapports avec elle un peu de la sagesse de nos ancêtres. Pas facile, mais l'on s'y emploie.</p>
-
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn:1"><p>Pour éviter toute ambiguïté, je ne parle ici qu'en mon nom personnel, et pas au nom de la FAPBM ni encore moins au nom de Madagascar. N'entrant pas directement dans la négociation, je peux me permettre de porter un regard un peu extérieur sur ce qui se passe.<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
-
-<li id="fn:2"><p>littéralement : « doucement, doucement »<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
-
-</ol>
-</div>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2015:/monde/en-attendant</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/en-attendant.html" />
-
-    <title type="text">Quiz</title>
-    <published>2015-12-11T10:24:00Z</published>
-    <updated>2015-12-11T10:28:00Z</updated>
-    <category term="/monde"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>En attendant le verdict de la COP21, petit test de connaissance. Qui a dit ce qui suit ?</p>
-
-<blockquote>
-  <p>L’inégalité n’affecte pas seulement les individus, mais aussi des pays entiers, et oblige à penser à une éthique des relations internationales. Il y a, en effet, une vraie “ dette écologique ”, particulièrement entre le Nord et le Sud, liée à des déséquilibres commerciaux, avec des conséquences dans le domaine écologique, et liée aussi à l’utilisation disproportionnée des ressources naturelles, historiquement pratiquée par certains pays.</p>
-</blockquote>
-
-<p>(...)</p>
-
-<blockquote>
-  <p>La dette extérieure des pays pauvres s’est transformée en un instrument de contrôle, mais il n’en est pas de même avec la dette écologique. De diverses manières, les peuples en développement, où se trouvent les plus importantes réserves de la biosphère, continuent d’alimenter le développement des pays les plus riches au prix de leur présent et de leur avenir.</p>
-</blockquote>
-
-<p>Le premier qui répond ci-après a droit à une bouffée d'air pur ainsi que, très accessoirement, à ma considération.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/en-attendant.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/en-attendant.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,24 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
+	<title>Jirōkaki, le choix du matériel</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>
+	<description>La démarche de fabriquer un hackintosh ayant été expliquée, le moment semble venu d'expliquer le choix du matériel...</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-08-28T22:56:00+03:00</dc:date>
+
+</item>
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html">
+	<title>Projet Jirōkaki (次郎柿)</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html</link>
+	<description>Étant devenu l'un des principaux développeurs actuels (si ce n'est le principal développeur) de Vienna RSS, j'ai été fort embêté en apprenant lors de la dernière WWDC que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10...</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-08-28T19:58:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html">
 	<title>Un vieux avec un discours très frais</title>
 	<link>http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html</link>
@@ -94,24 +112,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html">
-	<title>C&apos;est quoi un bon accord ?</title>
-	<link>http://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html</link>
-	<description>Avant même que le texte final soit publié, il est facile de prédire qu'il y aura des personnes ou des organisations qui ne se satisferont pas de l'accord de Paris...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-11T17:34:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/en-attendant.html">
-	<title>Quiz</title>
-	<link>http://blog.barijaona.com/monde/en-attendant.html</link>
-	<description>En attendant le verdict de la COP21, petit test de connaissance...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-11T13:24:00+03:00</dc:date>
 
 </item>
 
