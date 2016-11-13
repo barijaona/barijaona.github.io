@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,18 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/sting-bataclan.html">
+	<title>Minute de silence</title>
+	<link>http://blog.barijaona.com/monde/sting-bataclan.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/ufpulk/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; width=&quot;534&quot; height=&quot;320&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lemonde.fr/musiques/article/2016/11/13/un-an-apres-les-attentats-sting-au-bataclan-pour-une-liesse-cathartique_5030245_1654986.html&quot; title=&quot;LeMonde.fr&quot;&gt;Sting à la voix, Ibrahim Maalouf à la trompette&lt;/a&gt;, Dominic et Rufus Miller aux guitares, Vinnie Colauita à la batterie...&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/sting-bataclan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-11-13T17:13:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
 	<title>Jirōkaki, le choix du matériel</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>
@@ -248,77 +260,6 @@ Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l&apos;avantage co
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
-	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
-	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Le &lt;a href=&quot;http://unfccc.int/essential_background/library/items/3599.php?such=j&amp;amp;symbol=FCCC/CP/2015/L.9&quot; title=&quot;United Nations Framework Convention on Climate Change&quot;&gt;projet d&apos;accord&lt;/a&gt; est sorti (à l&apos;heure où j&apos;écris, uniquement en anglais).&lt;/p&gt;
-
-&lt;p&gt;Certes, le diable est dans les détails. Il faudra voir lors de la mise en oeuvre si les bonnes intentions de Paris se traduisent en actes cohérents, mais il serait idiot de ne pas saluer la dynamique des derniers jours et la disparition des satanés crochets et options des projets antérieurs de textes.&lt;/p&gt;
-
-&lt;p&gt;Depuis la version précédente, sortie dans la nuit de jeudi, j&apos;étais raisonnablement confiant que le texte final prendrait correctement en compte la situation des pays d&apos;Afrique subsaharienne. Le suspense sur les questions financières portait plutôt sur la répartition des efforts entre pays développés d&apos;une part et grands pays émergents comme la Chine, l&apos;Inde et le Brésil d&apos;autre part&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;…&lt;/p&gt;
-
-&lt;p&gt;Difficile de savoir si la présidence française de la COP a été obligée de faire du forcing, ce qui risquerait de provoquer quelques aigreurs du côté des États-Unis, de l&apos;Europe, de la Chine ou d&apos;autres pays du groupe G77, mais la volonté d&apos;union de l&apos;Afrique a semble-t-il payé. Ci-après quelques points intéressants (les accentuations en gras sont de moi) :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;l&apos;objectif de maîtrise des températures est bien plus ambitieux qu&apos;à l&apos;ouverture de la conférence ; la volonté affichée est d&apos;aller « bien en deça de 2°C » et d&apos;ici 2018, il faudra évaluer les efforts à faire pour limiter le réchauffement à 1,5°C. C&apos;est une vraie avancée pour l&apos;Afrique et les pays insulaires.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Preamble&lt;/em&gt; : (...) Emphasizing with serious concern the urgent need to address the significant gap between the aggregate effect of Parties’ mitigation pledges in terms of global annual emissions of greenhouse gases by 2020 and aggregate emission pathways consistent with holding the increase in the global average temperature to &lt;strong&gt;well below 2 °C&lt;/strong&gt; above pre-industrial levels and &lt;strong&gt;pursuing efforts to limit the temperature increase to 1.5 °C&lt;/strong&gt;, &lt;br /&gt;
-(...) &lt;br /&gt;
-&lt;em&gt;21&lt;/em&gt; Invites the Intergovernmental Panel on Climate Change to provide a special report in 2018 on the impacts of global warming of 1.5 °C above pre-industrial levels and related global greenhouse gas emission pathways;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;l&apos;importance de l&apos;appui à l&apos;adaptation au changement climatique&lt;a href=&quot;#fn:3&quot; id=&quot;fnref:3&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt; des pays en développement est réaffirmée et la décision est actée d&apos;aller, pour les appuis à ces pays, au delà des 100 milliards de dollars annuels annoncés à Copenhague.  &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;53&lt;/em&gt; Decides that, in the implementation of the Agreement, financial resources provided to developing countries should enhance the implementation of their policies, strategies, regulations and action plans and their climate change actions with respect to &lt;strong&gt;both mitigation and adaptation&lt;/strong&gt; to contribute to the achievement of the purpose of the Agreement &lt;br /&gt;
-(...) &lt;br /&gt;
-&lt;em&gt;54&lt;/em&gt; Further decides that (...) developed countries intend to continue their existing collective mobilization goal through 2025 in the context of meaningful mitigation actions and transparency on implementation ; prior to 2025 the Conference of the Parties (...) shall set a new collective quantified goal from a &lt;strong&gt;floor of USD 100 billion per year&lt;/strong&gt;, taking into account the needs and priorities of developing countries; &lt;br /&gt;
-(...) &lt;br /&gt;
-&lt;em&gt;Article 7, 9&lt;/em&gt;. Each Party shall, as appropriate, engage in adaptation planning processes and the implementation of actions, including the development or enhancement of relevant plans, policies and/or contributions, which may include: &lt;br /&gt;
-(a) The implementation of adaptation actions, undertakings and/or efforts; &lt;br /&gt;
-(b) The process to formulate and implement national adaptation plans; &lt;br /&gt;
-(c) The assessment of climate change impacts and vulnerability, with a view to formulating nationally determined prioritized actions, taking into account &lt;strong&gt;vulnerable people, places and ecosystems&lt;/strong&gt;; &lt;br /&gt;
-(d) Monitoring and evaluating and learning from adaptation plans, policies, programmes and actions; and &lt;br /&gt;
-(e) Building the &lt;strong&gt;resilience of socioeconomic and ecological systems&lt;/strong&gt;, including &lt;strong&gt;through economic diversification and sustainable management of natural resources&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;le rôle des acteurs non étatiques, y compris communautés locales, secteur privé et collectivités est reconnu. Bien que rien de très précis n&apos;est dit sur le prix du carbone, la question n&apos;est pas ignorée&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt; :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;134&lt;/em&gt;. Welcomes the efforts of all non-Party stakeholders to address and respond to climate change, including those of civil society, the private sector, financial institutions, cities and other subnational authorities; &lt;br /&gt;
-(...) &lt;br /&gt;
-&lt;em&gt;136&lt;/em&gt;. Recognizes the need to strengthen knowledge, technologies, practices and efforts of local communities and indigenous peoples related to addressing and responding to climate change, and establishes a platform for the exchange of experiences and sharing of best practices on mitigation and adaptation in a holistic and integrated manner; &lt;br /&gt;
-&lt;em&gt;137&lt;/em&gt;. Also recognizes the important role of providing incentives for emission reduction activities, including tools such as domestic policies and &lt;strong&gt;carbon pricing&lt;/strong&gt;;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;le rôle opérationnel des solutions naturelles de capture de carbone, dont les forêts, est mis en avant dans le corps du texte  :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Article 5, 1&lt;/em&gt;. Parties should take action to conserve and enhance, as appropriate, sinks and reservoirs of greenhouse gases as referred to in Article 4, paragraph 1(d), of the Convention, including forests.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Plus subtil, mais très important après les désillusions sur le protocole de Tokyo : la mise en oeuvre de l&apos;accord de Paris ne passera pas forcément par une ratification, ouvrant la voie à un décret présidentiel de Barack Obama pour contourner la majorité républicaine à la Chambre des Représentants et au Sénat :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;{Article 20, 1}. This Agreement shall be open for signature and &lt;strong&gt;subject to ratification, acceptance or approval&lt;/strong&gt; by States and regional economic integration organizations that are Parties to the Convention. It shall be open for signature at the United Nations Headquarters in New York &lt;strong&gt;from 22 April 2016 to 21 April 2017&lt;/strong&gt;. Thereafter, this Agreement shall be open for accession from the day following the date on which it is closed for signature. Instruments of ratification, acceptance, approval or accession shall be deposited with the Depositary.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Le cas de l&apos;Afrique du Sud est un peu particulier, elle est à la fois un pays africain et un grand pays émergent.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:3&quot;&gt;&lt;p&gt;Il y avait une crainte que seule la réduction des émissions serait soutenue, ce qui aurait représenté un recul par rapport aux avancées des COPs précédentes.&lt;a href=&quot;#fnref:3&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Les fluctuations de prix sur le marché du carbone ont jusqu&apos;ici entravé le développement de ce marché.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/cop21_projet_accord.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
 
 </item>
 

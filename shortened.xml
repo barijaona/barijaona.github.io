@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_projet_accord.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/sting-bataclan.html">
+	<title>Minute de silence</title>
+	<link>http://blog.barijaona.com/monde/sting-bataclan.html</link>
+	<description>
+
+Sting à la voix, Ibrahim Maalouf à la trompette, Dominic et Rufus Miller aux guitares, Vinnie Colauita à la batterie...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-11-13T17:13:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
 	<title>Jirōkaki, le choix du matériel</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>
@@ -103,15 +114,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/cop21_projet_accord.html">
-	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
-	<link>http://blog.barijaona.com/monde/cop21_projet_accord.html</link>
-	<description>Le projet d'accord est sorti (à l'heure où j'écris, uniquement en anglais)...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
 
 </item>
 
