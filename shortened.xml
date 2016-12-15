@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/cop21_24h_apres.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/bilan2016.html">
+	<title>Verre à moitié vide, ou verre à moitié plein</title>
+	<link>http://blog.barijaona.com/madagascar/bilan2016.html</link>
+	<description>Je viens de me faire un petit concert nocturne  que je ne peux que vous recommander...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-12-15T06:43:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/sting-bataclan.html">
 	<title>Minute de silence</title>
 	<link>http://blog.barijaona.com/monde/sting-bataclan.html</link>
@@ -105,15 +114,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-02-20T14:50:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/cop21_24h_apres.html">
-	<title>Deuxième bilan après la COP21</title>
-	<link>http://blog.barijaona.com/monde/cop21_24h_apres.html</link>
-	<description>24 heures plus tard, l'impression est la même...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
 
 </item>
 

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/kopy_cop.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/etat-de-droit.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/projections_mdg2013.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/madagascar/bilan2016.html">
+	<title>Verre à moitié vide, ou verre à moitié plein</title>
+	<link>http://blog.barijaona.com/madagascar/bilan2016.html</link>
+	<description>Je viens de me faire un petit concert nocturne  que je ne peux que vous recommander...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2016-12-15T06:43:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/singapour-meemf.html">
 	<title>Perturbantes questions…</title>
 	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
@@ -106,15 +115,6 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2013-10-30T14:16:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html">
-	<title>#mdg2013 Lettre ouverte à Mme Béatrice Atallah</title>
-	<link>http://blog.barijaona.com/madagascar/mdg2013_lettre_ouverte.html</link>
-	<description>Initialement paru sur Madagascar-Tribune...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2013-10-29T02:27:00+03:00</dc:date>
 
 </item>
 
