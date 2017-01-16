@@ -43,12 +43,14 @@
 
 <p>Being lazy, I chose certbot as it seemed easier to setup, and hopes it will continue to mature.</p>
 
-<h3 id="certbotinstallation">certbot installation</h3>
+<h3 id="installationofcertbot">Installation of certbot</h3>
 
 <p>Quite easy, since I already had <a href="http://brew.sh" title="Package manager for macOS">Homebrew</a> installed.</p>
 
 <pre><code>brew update
 brew install certbot</code></pre>
+
+<h3 id="settingupacertificate">Setting up a certificate</h3>
 
 <p>I tested first:</p>
 
@@ -72,6 +74,8 @@ brew install certbot</code></pre>
 -T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd</code></pre>
 
 <p>Afterwards, I launch Server.app, went to the Certificates section, and selected the new certificate.</p>
+
+<h3 id="autorenewal">Autorenewal</h3>
 
 <p>Afterward, I thought I could trust Cyril Picard's script found at https://gist.github.com/cyrilpic/4504527de3a7b08ed84e :</p>
 
@@ -143,7 +147,7 @@ brew install certbot</code></pre>
 &lt;key&gt;StandardOutPath&lt;/key&gt;
 &lt;string&gt;/tmp/com.github.cyrilpic.certbot4osx.stdout&lt;/string&gt;</code></pre>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 16/1/2017 07:39</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 16/1/2017 07:48</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
