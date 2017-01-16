@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/web/settingup_letsencrypt.html">
+	<title>DO encrypt</title>
+	<link>http://blog.barijaona.com/web/settingup_letsencrypt.html</link>
+	<description>This is a reminder for myself, on how I setup an Let's Encrypt SSL/TLS certificate on a macOS server test machine...</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/madagascar/bilan2016.html">
 	<title>Verre à moitié vide, ou verre à moitié plein</title>
 	<link>http://blog.barijaona.com/madagascar/bilan2016.html</link>
@@ -105,15 +114,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/environnement</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-03-21T19:26:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/monde/recap_apple_cryptographie.html">
-	<title>L&apos;affaire Apple contre FBI</title>
-	<link>http://blog.barijaona.com/monde/recap_apple_cryptographie.html</link>
-	<description>Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-02-20T14:50:00+03:00</dc:date>
 
 </item>
 

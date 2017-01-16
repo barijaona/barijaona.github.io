@@ -16,7 +16,28 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2016-12-15T03:45:00Z</updated>
+  <updated>2017-01-16T04:39:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2017:/web/settingup_letsencrypt</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
+
+    <title type="text">DO encrypt</title>
+    <published>2017-01-16T04:23:00Z</published>
+    <updated>2017-01-16T04:39:00Z</updated>
+    <category term="/web"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>This is a reminder for myself, on how I setup an <a href="https://letsencrypt.org" title="Free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)">Let's Encrypt</a> SSL/TLS certificate on a <a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" title="Using Blosxom starter kit with Apple's OS X Server">macOS server test</a> machine. Because we are in 2017, and I got tired of getting web browser warnings due to use of self-signed certificates.</p>
+
+<p><a href="http://blog.barijaona.com/web/settingup_letsencrypt.html#more" class="seemore">Lire la suite...</a></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/settingup_letsencrypt.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2016:/madagascar/bilan2016</id>
@@ -143,7 +164,7 @@
 
     <title type="text">Un vieux avec un discours très frais</title>
     <published>2016-05-23T22:43:00Z</published>
-    <updated>2016-05-23T22:51:00Z</updated>
+    <updated>2017-01-14T05:29:00Z</updated>
     <category term="/monde"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -157,7 +178,7 @@
 
 <p>(Ce genre de discours est tellement inaudible de nos jours qu'il faut cliquez sur l'icône de haut-parleur pour l'entendre)</p>
 
-<iframe src="http://www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="560" height="410"></iframe>
+<iframe src="//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="560" height="410"></iframe>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
@@ -222,103 +243,6 @@
 
 <p><a href="http://blog.barijaona.com/environnement/21mars2016.html#more" class="seemore">Lire la suite...</a></p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/environnement/21mars2016.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2016:/monde/recap_apple_cryptographie</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
-
-    <title type="text">L'affaire Apple contre FBI</title>
-    <published>2016-02-20T11:50:00Z</published>
-    <updated>2016-02-24T02:12:00Z</updated>
-    <category term="/monde"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
-&lt;p&gt;Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI.&lt;/p&gt;
-
-&lt;p&gt;Ce billet fera l'objet de mises à jour périodiques. J'essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;{Mise à jour 24/2/2016 : nouvelles lettres ouvertes du FBI et d'Apple, et révélations d'Apple sur les demandes similaires l'opposant au gouvernement}&lt;/em&gt; &lt;br /&gt;
-&lt;em&gt;{Mise à jour 21/2/2016 : explication des circonstances de la remise à zéro du mot de passe iCloud de Syed Farook}&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Un &lt;a href=&quot;http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php&quot; title=&quot;LeFgaro.fr :Apple refuse d'aider à débloquer l'iPhone d'un des auteurs de la tuerie de San Bernardino&quot; hreflang=&quot;fr&quot;&gt;résumé&lt;/a&gt; des débuts de la polémique.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;miseencontextepolitique:pourquoichacunestconcern&quot;&gt;Mise en contexte politique : pourquoi chacun est concerné&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.un.org/fr/documents/udhr/#a12&quot; title=&quot;Site de l'ONU&quot; hreflang=&quot;fr&quot;&gt;Article 12 de la Déclaration Universelle des Droits de l'Homme&lt;/a&gt; :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;« Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;À travers une récente interview du patron de la NSA, on notera cependant que, même après les révélations d'Edward Snowden et leurs conséquences, la NSA ainsi que la classe politique américaine continuent à considérer que la vie privée de ceux qui ne sont pas citoyens des États-Unis n'a guère d'importance. On pourra voir la séquence entre 6mn 56 et 9mn 45 de la &lt;a href=&quot;http://www.lemonde.fr/pixels/article/2016/02/18/le-chiffrement-a-empeche-la-detection-des-attentats-de-paris-selon-le-chef-de-la-nsa_4867171_4408996.html&quot; title=&quot;Le chiffrement a empêché la détection des attentats de Paris, selon la NSA&quot;&gt;vidéo liée à cet article&lt;/a&gt; et apprécier la différence de traitement entre les deux catégories de personnes.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Coïncidence ? En Novembre dernier, le conseil national de sécurité US avait donné instruction aux agences gouvernementales de trouver des solutions pour &lt;a href=&quot;http://www.bloomberg.com/news/articles/2016-02-19/secret-memo-details-u-s-s-broader-strategy-to-crack-phones&quot; title=&quot;Secret Memo Details U.S.’s Broader Strategy to Crack Phones - Bloomberg&quot; hreflang=&quot;en&quot;&gt;contourner les techniques de chiffrement&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lepositionnementpolitiquedapple&quot;&gt;Le positionnement politique d'Apple&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Comme toute entreprise, Apple doit se conformer à la loi des pays où elle opère et doit coopérer avec la justice. Cependant, Apple a graduellement durci sa position au cours des derniers mois. Les causes les plus visibles de ce durcissement semblent être :&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;les révélations d'Edward Snowden,&lt;/li&gt;
-&lt;li&gt;la hausse du nombre de demandes reçues de la part des instances juridiques de différents pays (pour se faire une idée, voir les &lt;a href=&quot;http://www.apple.com/fr/privacy/transparency-reports/&quot; title=&quot;Rapports de transparence d'Apple&quot; hreflang=&quot;fr&quot;)&quot;&gt;rapports d'Apple&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;la crainte de se retrouver confronté à des dilemmes moraux lorsque ces demandes proviennent de pays peu démocratiques,&lt;/li&gt;
-&lt;li&gt;la fragilité juridique de certaines de ces demandes, y compris parmi celles venant des États-Unis.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Dans une affaire précédente à New York, Apple a déjà entamé une &lt;a href=&quot;http://www.nytimes.com/2016/02/19/technology/a-yearlong-road-to-a-standoff-with-the-fbi.html&quot; title=&quot;Apple’s Line in the Sand Was Over a Year in the Making (New York Times)&quot; hreflang=&quot;en&quot;&gt;confrontation avec le gouvernement&lt;/a&gt; qui, entre autres questions, soulève celle de l'usage ambigü d'une loi datant du 18è siècle, le &lt;a href=&quot;https://en.wikipedia.org/wiki/All_Writs_Act&quot; title=&quot;Wikipedia&quot; hreflang=&quot;en&quot;&gt;All Writs Act&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Mais Apple voit clairement que, plutôt que la contestation judiciaire, &lt;a href=&quot;http://www.apple.com/fr/privacy/government-information-requests/&quot; title=&quot;Apple : Confidentialité - Demande d'informations&quot; hreflang=&quot;fr&quot;&gt;la plus efficace des protections&lt;/a&gt; face à tout mandat un peu scabreux est de s'être placé bien en amont des faits dans l'impossibilité matérielle de s'y conformer. D'où une plus grande prudence dans la collecte des données auprès des utilisateurs et un investissement important dans la sécurisation des appareils et des données, en particulier à travers l'utilisation du chiffrement.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Ce positionnement politique « &lt;i&gt;Vos données vous appartiennent, et n'appartiennent à personne d'autre&lt;/i&gt; » pourrait aussi être vu comme un argument marketing visant à mettre en avant &lt;a href=&quot;http://kieranhealy.org/blog/archives/2016/02/18/walled-garden/&quot; title=&quot;k
-Kieran Healy : Walled Garden&quot; hreflang=&quot;en&quot;&gt;l'avantage compétitif&lt;/a&gt; que donne à Apple la forte intégration entre le matériel et le logiciel qu'il développe. Ce serait cependant faire bien peu de cas du positionnement constant d'Apple en faveur des minorités et des &lt;a href=&quot;http://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up&quot; title=&quot;Tim Cook Speaks Up - Bloomberg&quot; hreflang=&quot;en&quot;&gt;positions&lt;/a&gt; affichées publiquement par Tim Cook, le CEO d'Apple, &lt;a href=&quot;https://www.washingtonpost.com/opinions/pro-discrimination-religious-freedom-laws-are-dangerous-to-america/2015/03/29/bdb4ce9e-d66d-11e4-ba28-f2a685dc7f89_story.html?tid=a_inl&quot; title=&quot;Tim Cook: Pro-discrimination ‘religious freedom’ laws are dangerous - Washington Post&quot; hreflang=&quot;en&quot;&gt;à différentes reprises&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lenqutesurlatueriedesanbernardino&quot;&gt;L'enquête sur la tuerie de San Bernardino&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Il y a de bonnes raisons de penser que, dans le cas présent, le FBI fait beaucoup plus de la politique que du travail d'enquête. Le FBI a déjà obtenu beaucoup de données et il est très probable que celles qui sont dans l'iPhone en question &lt;a href=&quot;https://medium.com/@thegrugq/feeble-noise-pollution-627acb5931a2#.asckscja8&quot; title=&quot;Feeble Noise Pollution - the grugq&quot; hreflang=&quot;en&quot;&gt;ne lui apporteraient guère plus&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;FBI wants people to believe that Farook was using his work phone to contact other terrorist; not his private phone which he destroyed.&lt;/p&gt;&amp;mdash; the grugq (@thegrugq) &lt;a href=&quot;https://twitter.com/thegrugq/status/700555611415556096&quot;&gt;February 19, 2016&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Journalists: Crucial details in the &lt;a href=&quot;https://twitter.com/FBI&quot;&gt;@FBI&lt;/a&gt; v. &lt;a href=&quot;https://twitter.com/hashtag/Apple?src=hash&quot;&gt;#Apple&lt;/a&gt; case are being obscured by officials. Skepticism here is fair: &lt;a href=&quot;https://t.co/lEVEvOxcNm&quot;&gt;pic.twitter.com/lEVEvOxcNm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Snowden (@Snowden) &lt;a href=&quot;https://twitter.com/Snowden/status/700823383961792512&quot;&gt;February 19, 2016&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Parmi les données dont le FBI dispose, beaucoup ont d'ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais &lt;a href=&quot;https://twitter.com/CountyWire/status/700887823482630144&quot; title=&quot;Tweet by San Bernardino County&quot; hreflang=&quot;en&quot;&gt;à la demande du FBI&lt;/a&gt;, l'employeur de Syed Farook a remis à zéro à distance le mot de passe de son compte iCloud ce qui a entraîné &lt;a href=&quot;http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613&quot; title=&quot;The San Bernardino Terrorist's iCloud Password Was Reset By His Employer (Gizmodo)&quot; hreflang=&quot;en&quot;&gt;l'impossibilité de récupérer les dernières mises à jour de données sur l'iPhone en question via une sauvegarde dans le nuage&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;labataillejuridiquequisannonce&quot;&gt;La bataille juridique qui s'annonce&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;La loi All Writs peut contraindre Apple à faire des efforts « raisonnables » pour aider les autorités. Mais la demande qui est faite à Apple &lt;a href=&quot;http://www.zdziarski.com/blog/?p=5645&quot; title=&quot;A forensics expert describes the intricate legal burden and consequences of the FBI's request to Apple&quot; hreflang=&quot;en&quot;&gt;diffère fondamentalement des précédentes&lt;/a&gt; et il est très probable qu'Apple argumentera qu'il ne s'agirait plus là d'efforts raisonnables.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Dans l'affaire de New York qui est encore en cours, cet argument semble &lt;a href=&quot;https://www.eff.org/deeplinks/2015/10/judge-doj-not-all-writs&quot; title=&quot;Judge to DOJ: Not All Writs&quot; hreflang=&quot;en&quot;&gt;avoir été pris en compte par un juge&lt;/a&gt;. Ce même argument aurait plus de poids encore si la demande gouvernementale devait entraîner un recul de la sécurité pour tous les utilisateurs d'iPhone.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Dans cette affaire de New York, Apple a révélé à la Cour qu'une quinzaine de demandes de déverrouillage d'iPhone lui ont été &lt;a href=&quot;http://www.abreakingnews.com/m/?id=612037&quot; title=&quot;Feds want to circumvent security on other phones (abreakingnews.com)&quot; hreflang=&quot;en&quot;&gt;soumises par le gouvernement américain&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;labatailletechniquequicontinue&quot;&gt;La bataille technique qui continue&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;La demande du FBI démontre que, même si elle améliore grandement la sécurité de l'utilisateur qui prend des précautions raisonnables, l'intégration entre matériel et logiciel pratiquée par Apple reste &lt;a href=&quot;http://daringfireball.net/linked/2016/02/17/ios-security-guide&quot; title=&quot;John Gruber comments on Apple’s iOS security guide&quot; hreflang=&quot;en&quot;&gt;encore insuffisante face à des cas comme celui-ci&lt;/a&gt;. L'on peut penser que les prochaines versions d'iOS ou les prochaines versions de l'iPhone iront &lt;a href=&quot;https://www.mikeash.com/pyblog/friday-qa-2016-02-19-what-is-the-secure-enclave.html&quot; title=&quot;NSBlog : What Is the Secure Enclave?&quot; hreflang=&quot;en&quot;&gt;encore plus loin&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Un hôpital américain, le Hollywood Presbyterian Medical Center, a été obligé de &lt;a href=&quot;http://www.zone-numerique.com/le-hollywood-presbyterian-medical-center-verse-une-rancon-de-17-000-en-bitcoins-aux-pirates.html&quot; title=&quot;Le Hollywood Presbyterian Medical Center contraint de verser une rançon de 17 000 $ en bitcoins aux pirates&quot; hreflang=&quot;fr&quot;&gt;verser une rançon&lt;/a&gt; à des pirates informatiques. Démonstration s'il en était besoin qu'il serait fort malvenu de fragiliser la sécurité de l'utilisateur moyen et de laisser les malfrats profiter seuls d'un chiffrage fort.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lesprincipauxargumentsdesunsetdesautres&quot;&gt;Les principaux arguments des uns et des autres&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Apple et le FBI s'accordent sur la nécessité d'un débat public suffisamment éclairé.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Celui-ci est susceptible de tourner autour de la &lt;a href=&quot;http://www.numerama.com/politique/147608-pourquoi-apple-a-raison-de-proteger-les-droits-fondamentaux-contre-les-etats.html&quot; title=&quot;Guillaume Champeau : Pourquoi Apple a raison de protéger les droits fondamentaux contre les États&quot; hreflang=&quot;fr&quot;&gt;question suivante&lt;/a&gt;: les individus et les entreprises sont-ils seulement tenus de &lt;em&gt;respecter&lt;/em&gt; les droits de l’homme , ou doivent-ils &lt;em&gt;protéger&lt;/em&gt; les droits de l'homme, y compris contre les États ?&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Le FBI explique qu'il veut déverrouiller &lt;a href=&quot;http://www.macg.co/aapl/2016/02/le-directeur-du-fbi-repond-tim-cook-93108&quot; title=&quot;MacGeneration : le directeur du FBI répond à Tim Cook&quot; hreflang=&quot;fr&quot;&gt;uniquement l'iPhone de l'affaire de San Bernardino&lt;/a&gt;, et ne cherche pas à créer un précédent.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Apple reste sur sa position : plusieurs autres demandes de déverrouillage lui ont été soumises par le gouvernement et la demande du FBI créerait &lt;a href=&quot;http://www.macg.co/aapl/2016/02/contre-le-fbi-apple-publie-une-faq-pour-rallier-lopinion-publique-93117&quot; title=&quot;MacGeneration : Apple publie une FAQ pour rallier l'opinion publique&quot; hreflang=&quot;fr&quot;&gt;un dangereux précédent légal et technique&lt;/a&gt;. Sur demande de la Justice, Apple a la possibilité et accepte d'extraire certaines données des iPhones (notamment lorsque ces iPhones sont sauvegardés dans le nuage iCloud), mais &lt;strong&gt;refuse&lt;/strong&gt; totalement l'idée de déverrouiller un appareil, y compris lorsque cela lui est techniquement possible.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://blog.barijaona.com/monde/recap_apple_cryptographie.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
     </content>
   </entry>
 
