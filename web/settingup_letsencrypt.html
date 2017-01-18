@@ -18,6 +18,11 @@
 <link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="prev" href="http://blog.barijaona.com/madagascar/bilan2016.html" title="Verre à moitié vide, ou verre à moitié plein" />
 
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><br /><br /><h2 class="dateofday">lundi 16 janvier 2017</h2>
@@ -62,16 +67,11 @@ brew install certbot</code></pre>
 
 <p>Then, I converted the certificate for macOS:</p>
 
-<pre><code>sudo openssl pkcs12 -export -inkey /etc/letsencrypt/live/test.example.com/privkey.pem \
--in /etc/letsencrypt/live/test.example.com/cert.pem \
--certfile /etc/letsencrypt/live/test.example.com/fullchain.pem \
--out /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -passout pass:topsecret</code></pre>
+<pre><code>sudo openssl pkcs12 -export -inkey /etc/letsencrypt/live/test.example.com/privkey.pem -in /etc/letsencrypt/live/test.example.com/cert.pem -certfile /etc/letsencrypt/live/test.example.com/fullchain.pem -out /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -passout pass:topsecret</code></pre>
 
 <p>and imported the certificate into macOS keychain :</p>
 
-<pre><code>sudo security import /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 \
--f pkcs12 -k /Library/Keychains/System.keychain -P topsecret \
--T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd</code></pre>
+<pre><code>sudo security import /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -f pkcs12 -k /Library/Keychains/System.keychain -P topsecret -T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd</code></pre>
 
 <p>Afterwards, I launch Server.app, went to the Certificates section, and selected the new certificate.</p>
 
@@ -147,7 +147,7 @@ brew install certbot</code></pre>
 &lt;key&gt;StandardOutPath&lt;/key&gt;
 &lt;string&gt;/tmp/com.github.cyrilpic.certbot4osx.stdout&lt;/string&gt;</code></pre>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 16/1/2017 07:48</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 18/1/2017 05:12</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -252,6 +252,9 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 </script><noscript>reactions (arobace) barijaona.com</noscript>
 
 </div></footer>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
 
 <script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
