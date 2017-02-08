@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
 
@@ -32,6 +33,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
+	<title>Jirōkaki, premier bilan et résumé</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
+	<description>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh...</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
 	<title>Jirōkaki, le choix du matériel</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>

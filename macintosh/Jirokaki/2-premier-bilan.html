@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
+<title>Jirōkaki, premier bilan et résumé : Étonnements rapides et durables</title>
+<meta name="DESCRIPTION" content="Mac-maniaque incurable" />
+<meta name="keywords" content="macintosh, print66, geek, madagascar, malgache, madagasikara, malagasy, barijaona, ramaholimihaso, blog" />
+<meta name="ICBM" content="-18.9079, 47.5333" />
+<meta name="geo.region" content="MG-T" />
+<meta name="viewport" content="initial-scale=1" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://blog.barijaona.com/favicon.ico" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona6.css" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme3.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
+<link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
+<link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="prev" href="http://blog.barijaona.com/web/settingup_letsencrypt.html" title="DO encrypt" />
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><br /><br /><h2 class="dateofday">mercredi 08 février 2017</h2>
+
+<div class="post"><article class="hentry">
+<h3 class="accent3 entry-title instapaper_title"><time datetime="2017-02-08" class="timestamp"><a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;06:21&nbsp;]</a></time>&nbsp;Jirōkaki, premier bilan et résumé</h3>
+<div class="post-full entry-content instapaper_body"><p>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">le pourquoi de la chose</a> et le <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">choix du matériel</a>.</p>
+
+<p>Il ne s'agit pas d'un guide complet (<strong>je déconseille d'ailleurs formellement de cloner ma configuration sans avoir veillé à la comprendre suffisamment au préalable</strong>), mais plutôt d'un résumé de la façon dont j'ai abordé le sujet enrichi de remarques face à certaines difficultés particulières.</p>
+
+<p></p><a name="more"></a><hr class="seemore" /><p></p>
+
+<p>Le montage du matériel a été un peu laborieux (ça doit faire une vingtaine d'années que je n'avais pas monté un PC…), mais sans véritable histoire. Il faut néanmoins se méfier de l'électricité statique et être organisé dans la gestion des petites pièces.</p>
+
+<p>J'ai vérifié que les choses fonctionnaient à peu près correctement avant de tout figer dans le boitier qui est arrivé quelques jours plus tard (oui, ça fait un peu fouillis, mais ce n'est pas dangereux !).</p>
+
+<p><a href="https://www.flickr.com/photos/barijaona/31958850673/" title="Étape initiale du montage, via Flickr"><img id="photodutestinitial" src="https://c1.staticflickr.com/1/465/31958850673_95fa7061e9.jpg" alt="Photo du test initial" title="Étape initiale du montage, via Flickr" class="photo" /></a></p>
+
+<p>Le boitier Fractal Design est sensiblement plus gros que je ne l'imaginais, mais il est très pratique pour le montage et effectivement extrêmement silencieux.</p>
+
+<h4 id="laphilosophiedinstallationlogicielle">1. La philosophie d'installation logicielle</h4>
+
+<p>La volonté délibérée était d'adapter le matériel à macOS, et non pas tenter d'adapter macOS au matériel. J'ai voulu et réussi à maintenir le système d'exploitation tel qu'il est mis en place par l'installateur Apple. L'idée était de pouvoir faire les mises à jour macOS sans se poser davantage de questions que sur un "vrai" Mac, et même de maintenir SIP actif.</p>
+
+<p>Cela exigeait de comprendre autant que possible ce que je faisais, et de ne pas faire confiance à des outils automatiques qui auraient pu modifier des fichiers système ou installer des tas de choses à des endroits mystérieux. Les principaux outils qui ont été utilisés étaient <a href="https://sourceforge.net/projects/cloverefiboot/" title="Clover EFI Boot at Sourceforge" hreflang="en">Clover</a> et de quoi éditer son fichier <code>config.plist</code> : tout bêtement mon éditeur de texte préféré et, très occasionnellement, Xcode lorsqu'il fallait saisir une data sous forme de données hexadécimales. Ah, si, il faut aussi utiliser le terminal et la commande <a href="http://osxdaily.com/2013/05/13/mount-unmount-drives-from-the-command-line-in-mac-os-x/" title="Mount &amp; unmount drives from the command line in Mac OS X" hreflang="en"><code>diskutil</code></a>….</p>
+
+<p>Avec mes réflexes de programmeur, j'ai eu la bonne inspiration de suivre le dossier Clover avec un outil de version. C'était peut-être la meilleure décision de l'ensemble du montage, car il y eut quand même pas mal de remises en cause, de doutes et d'interrogation. Avoir un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commits/master" title="CLOVER_GA-Z170X-Gaming5 on Github" hreflang="en">historique Git</a> m'a encouragé à être plus aventureux et m'a fait gagner beaucoup de temps, mais montre aussi quelques errements sur lesquels je n'entrerai pas trop dans les détails ici.</p>
+
+<p>Quoi qu'il en soit, le résultat actuel est à la hauteur de mes attentes, et je suis persuadé que sur le long terme, une telle approche méthodique et précautionneuse est la plus rentable.</p>
+
+<h4 id="avertissement">2. Avertissement</h4>
+
+<p>Configurer un hackintosh, c'est s'obliger à s'appuyer sur la communauté de ceux qui savent. Mais il vaut mieux être prévenu que cette petite communauté n'est pas toujours facile à vivre. Sans surprise, elle est largement anglophone,  avec cependant des niveaux de maîtrise de la langue de Mark Twain très variables, ce qui fait que les incompréhensions techniques et culturelles peuvent facilement proliférer. Cela contribue d'ailleurs à créer quelques querelles de chapelles dont certaines sont aujourd'hui irréconciliables, et cette communauté inclue aussi quelques <i lang="en">nerds</i> qui méprisent un peu les supposés débutants. Enfin, il vaut mieux prendre avec un peu de prudence les avis tranchés et définitifs qui ne manquent pas de fleurir… quitte à être démentis par la réalité plus tard. </p>
+
+<p>Dans ces conditions, il est recommandé de lire beaucoup, en utilisant les moteurs de recherche, et d'écrire prudemment en privilégiant dans un premier temps les forums francophones un peu plus bienveillants de chez <a href="https://forums.macg.co/forums/customisation-et-hackintosh.121/" title="Forum customisation et hackintosh">MacGeneration</a> et de <a href="http://forum.macbidouille.com/index.php?showforum=66" title="Forum hackintosh">MacBidouille</a>.</p>
+
+<h4 id="monprincipalregret">3. Mon principal regret</h4>
+
+<p>Reconnaissons le, je me suis un peu planté dans le choix de la mémoire vive. Faute de disponibilité en stock des mêmes Crucial que celles utilisées par Nicolas Furno, je m'était dit qu'un autre modèle d'une marque réputée ne poserait pas de problème ; mais visiblement <a href="https://forums.tweaktown.com/gigabyte/28441-gigabyte-beta-bios-1008-print.html" title="TweakTown forums" hreflang="en">il peut y avoir des incompatibilités</a> avec certaines barettes de RAM non certifiées par Gigabyte, et je suis tombé en plein dedans.</p>
+
+<p>Après plusieurs essais de versions de BIOS, je reste condamné à utiliser le BIOS F4 en montant les barrettes aux emplacements DDR4_2 et DDR4_4 (les deux les plus proches du processeur).</p>
+
+<p>Bref, il aurait mieux valu se fier à la <i lang="en">Memory Support List</i> de Gigabyte ou attendre des retours d'autres utilisateurs. Mais bon, je m'en suis sorti dans ces conditions, et comme je n'ai pas de besoin immédiat de modification de la configuration, ne touchons plus à rien à ce sujet…</p>
+
+<h4 id="deuxpointssurlesquelsledoutepersiste">4. Deux points sur lesquels le doute persiste</h4>
+
+<p>Sur deux points, je pense avoir pris une bonne décision en fonction des paramètres du moment, mais je ne suis pas sûr que ces décisions soient les meilleures sur le long terme. Ces deux points ont en commun le fait d'être liés à la carte graphique.</p>
+
+<p>La première concerne le choix du SMBios, une des décisions les plus importantes et structurantes de la post-installation. J'ai beaucoup hésité entre <a href="https://support.apple.com/fr-fr/HT201634" title="Apple : Identification des modèles d’iMac">iMac14,2 et iMac17,1</a>. </p>
+
+<p>L'iMac17,1 (iMac Retina 27 pouces de fin 2015) est plus récent de deux ans, donc on peut spéculer qu'il pourrait être supporté un peu plus longtemps par les futures versions de macOS. Surtout, il est doté d'un processeur Skylake plus proche de celui du véritable matériel. L'avantage réel d'un tel choix reste cependant non démontré : j'ai été de toutes façons amené à faire une configuration manuelle "aux petits oignons" de l'économie d'énergie, et une fois que cela est fait, les capacités du Skylake sont semble-t-il également parfaitement exploitées avec le SMBios iMac14,2.</p>
+
+<p>Par contre, choisir l'iMac17,1 comme base de configuration du SMBios présente l'inconvénient d'avoir à affronter un problème d'écran noir au démarrage de macOS. Ce problème se contourne par un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331" title="Commit sur Github">rajout dans config.plist/KernelAndKextPatches/KextsToPatch</a>, mais ce contournement<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a> représente un risque légèrement accru (est-ce que ça continuera de marcher à l'avenir ?) et pourrait me compliquer la vie en cas de réinstallation ou de démarrage sur la partition de secours Recovery HD.</p>
+
+<p>Le second doute est lié au choix de la carte graphique elle-même. Mon choix s'était porté sur une carte silencieuse à base de chipset Nvidia GTX960 et j'en suis techniquement très satisfait. C'était aussi la solution de facilité pour un hackintosh, notamment pour avoir une veille qui fonctionne bien (dans ce domaine, il y a des problèmes connus et non encore résolus avec les cartes AMD ainsi qu'avec les GPU Intel HD530).</p>
+
+<p>Mais il faut reconnaître que cette puissance est un peu sous-exploitée pour mon usage, et cette carte additionnelle m'oblige à attendre 24 ou 48 heures après la publication d'une mise à jour macOS afin que Nvidia fasse également les mises à jour de son driver, sous peine de retomber sur le driver d'origine Apple qui ne profite pas de l'accélération et provoque des petits problèmes d'affichage.</p>
+
+<p>Sauf est que ma configuration est tellement stable que j'oublie très régulièrement cette précaution et effectue les mises à jour Apple comme sur un Mac ultra-basique… ce qui me confronte au problème ci-dessus et m'oblige alors à un hack temporaire pour retrouver toutes les fonctionnalités de ma machine.</p>
+
+<p>Je ne voudrais pas cependant que ces problèmes potentiels effrayent outre mesure le débutant. En cas de problème, on peut toujours rajouter <code>nv_disable=1</code> parmi les arguments de boot (il y a d'ailleurs une option pour cela directement dans les menus de Clover) afin d'avoir une machine à peu près fonctionnelle. D'autres solutions de contournement existent, mais je n'insisterai pas dessus car la solution n'est jamais très lointaine et il est généralement moins fatigant d'attendre quelques heures la sortie du driver officiel Nvidia.</p>
+
+<h4 id="cequinemarchepas">5. Ce qui ne marche pas</h4>
+
+<p>Deux points me gênent un peu.</p>
+
+<p>La NVRAM physique : cette carte-mère a une NVRAM qui, à en croire la littérature, fonctionne parfaitement sous Linux et Windows. Pour sa part, macOS arrive à lire cette NVRAM. Mais, avec la carte mère que j'ai et comme sur la plupart des hacks à base de Skylake, pour des raisons qui restent pour l'heure mystérieuses, macOS n'arrive pas à écrire de manière permanente dans la NVRAM. Il y a une solution de contournement (EmuVariableUEFI), mais j'ai préféré m'en passer.</p>
+
+<p>La deuxième fonction qui me manque est l'hibernation. À travers une ligne de commande, il est en principe possible d'activer une fonction de veille très profonde, dans laquelle la mémoire vive est sauvegardée sur le disque dur et l'ordinateur n'a alors strictement plus besoin d'électricité. Au réveil, la machine peut recharger la mémoire à partir de la sauvegarde disque (ce qui demande quelques secondes) et l'on se retrouve exactement dans la configuration initiale.</p>
+
+<p>Sur mes "vrais" Macs de bureau, cette fonction d'hibernation avait marché un temps, puis les mises à jour logicielles ont cassé cette fonctionnalité. Malgré mes efforts et ma motivation<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">2</a>, je n'ai pas réussi à la faire fonctionner non plus sur mon hackintosh.</p>
+
+<h4 id="installationinitiale">6. Installation initiale</h4>
+
+<p>Je me suis basé sur un <a href="http://forum.macbidouille.com/index.php?showtopic=391275" title="Créer une clé d'installation avec le bootloader Clover">tutoriel paru chez MacBidouille</a>, mais en simplifiant drastiquement l'étape 3 en utilisant <a href="http://fljagd.fr/falsh-drive-maker-v-1-1/" title="fljagd.fr">Flash Drive Maker</a>.</p>
+
+<p>Les drivers suivants, à installer dans EFI/CLOVER/kexts/Other activent les cartes Ethernet : <a href="http://www.insanelymac.com/forum/files/file/396-intelmausiethernet/" title="InsanelyMac" hreflang="en">IntelMausiEthernet</a> pour la LAN1 et <a href="http://www.insanelymac.com/forum/files/file/313-atherose2200ethernet/" title="InsanelyMac" hreflang="en">AtherosE2200Ethernet</a> pour la LAN2.</p>
+
+<h4 id="contournerdesbugslisaubios">7. Contourner des bugs liés au BIOS</h4>
+
+<p>J'ai constaté deux bugs avec ma version de BIOS :</p>
+
+<ul>
+<li>il faut désactiver l'affichage de la jolie mais inutile LED rouge présente sur la carte mère</li>
+<li>pour résoudre la multiplication sauvage d'entrées de boot dans le BIOS, <a href="https://sourceforge.net/p/cloverefiboot/tickets/226/#d1a9/0222/8cc1" title="Sourceforge ticket #226" hreflang="en">il faut faire du ménage à travers le shell UEFI puis renommer le dossier EFI/BOOT</a> (de façon à ce qu'il ne soit pas actif et qu'EFI/CLOVER prenne la main).</li>
+</ul>
+
+<p><i lang="en">Your mileage may vary…</i></p>
+
+<h4 id="sauvegarderetdcompilerlesdsdtssdtdorigine">8. Sauvegarder et décompiler les DSDT/SSDT d'origine</h4>
+
+<p>C'est une étape préliminaire pour étudier l'état de sa machine et qui pourra servir de point de départ plus tard afin d'affiner plus finement que ne le permet Clover certains réglages.</p>
+
+<p>On se réfèrera au début de <a href="http://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/" title="Patching LAPTOP DSDT/SSDTs" hreflang="en">ce guide</a>. En résumé :</p>
+
+<ul>
+<li>dans CLOVER, on sauvegarde les DSDT et SSDT d'origine avec la touche F4</li>
+<li>on recopie les DSDT.aml et SSDT*.aml (<strong>et ceux là uniquement !!</strong>) de EFI/CLOVER/origin dans un dossier vide</li>
+<li>on ajoute le fichier refs.txt</li>
+<li>on décompile en bloc avec <code>iasl -da -dl -fe refs.txt *.aml</code></li>
+<li>on obtient les fichiers .dsl qui pourront être utilisés avec à MaciASL</li>
+</ul>
+
+<h4 id="lacartegraphique">9. La carte graphique</h4>
+
+<p>Rajouter <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331" title="Commit sur Github">ce patch dans config.plist/KernelAndKextPatches/KextsToPatch</a> pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.</p>
+
+<h4 id="leson">10. Le son</h4>
+
+<p>En préambule, macOS s'attend à des noms de "devices" qui peuvent s'appeler différemment sur le PC. Pour cette carte-mère, il faut avoir le patch "Rename HDAS to HDEF". En ce qui me concerne, cela a été fait <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L24-L37" title="Github : version 1.0">via config.plist/ACPI/DSDT/Patches</a>.</p>
+
+<p>On installe ensuite le kext AppleALC dans EFI/CLOVER/kexts/Other et on injecte le <i lang="en">layout</i> <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L110-L113" title="détail sur Github">config.plist/Devices/Audio : 1</a>.</p>
+
+<p>Pour le son sur la sortie HDMI de la carte Nvidia, il m'a fallu compiler un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/9e17cb94f9eb480b3e5c22dd9bf3cdf53839d5e9" title="Commit">SSDT</a> trouvé chez Toleda.</p>
+
+<h4 id="lusb">11. L'USB</h4>
+
+<p>Il y a un long fil d'échanges sur MacGeneration qui a été consacré à ce sujet avec cette configuration. On retiendra ces deux posts récapitulatifs de Gradou sur <a href="https://forums.macg.co/threads/hackintosh-skylake-usb-el-capitan-sierra.1284304/page-6#post-13059932" title="Forums MacGeneration">la démarche</a> et de votre serviteur sur <a href="https://forums.macg.co/threads/hackintosh-skylake-usb-el-capitan-sierra.1284304/page-9#post-13062613" title="Hackintosh Skylake : USB El Capitan, Sierra">le résultat final</a>.</p>
+
+<p>Il faut :</p>
+
+<ul>
+<li>télécharger le <a href="http://blog.barijaona.com/macintosh/Jirokaki/GA-Z170X-Gaming5-USBinjector.zip" title="Zip 1,4 Mo">kext "maison"</a> dont le rôle sera de contrôler l'injection des ports effectuée par Clover,</li>
+<li>choisir un maximum de 15 ports<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">3</a> USB2 + USB3 à partir des schémas fournis dans cette archive,</li>
+<li>modifier le fichier Info.plist dans GA_Z170X_G5_Injector.kext pour supprimer les ports que vous avez décidé de sacrifier,</li>
+<li>pour faciliter la mise en veille, mettre UsbConnector à 255 pour les ports à usage interne (par exemple, celui qui me sert à connecter la carte Bluetooth),</li>
+<li>placer le .kext ainsi modifié dans EFI/CLOVER/kexts/Other </li>
+</ul>
+
+<h3 id="imessageicloudappstore">12. iMessage, iCloud, AppStore…</h3>
+
+<p>En principe, votre interface réseau <code>en0</code> correspond à la carte Intel. Informations Système d'Apple devrait afficher quelque chose comme cela :</p>
+
+<p><img id="capturedefentredinformationssystme" src="http://blog.barijaona.com/macintosh/Jirokaki/informations-systeme-ethernet.jpg" alt="Capture de fenêtre d'Informations Système" title="Configuration Ethernet" class="photo" /></p>
+
+<p>Pour une fois, il faut faire une infidélité aux méthodes artisanales et <a href="http://mackie100projects.altervista.org/download-clover-configurator/" title="Downloads" hreflang="en">télécharger Clover Configurator</a>.</p>
+
+<p>Lancez Clover Configurator, ouvrez le fichier config.plist du dossier EFI/Clover, cliquez la section SMBIOS et suivez ces <a href="http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html" title="Hackintosh iMessage tutorial - Fitzsimmons weekly" hreflang="en">instructions</a>. À la différence près que j'ai choisi iMac17,1 comme ProductName, comme vous vous en doutez si vous avez bien suivi jusqu'ici.</p>
+
+<p>Afin de lire certains contenus protégés, il faut vérifier que l'on a le renommage du device <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L38-L51" title="Source config.plist dans Github">HECI en IMEI</a>.</p>
+
+<h3 id="tatsduprocesseuretveille">13. États du processeur et veille</h3>
+
+<p>L'économie d'énergie est peut-être le sujet qui m'a demandé le plus de temps et… d'énergie dans ce projet.</p>
+
+<p>Beaucoup de monde semble se contenter d'avoir un processeur dont la vitesse varie en fonction de la charge, mais le sujet est bien plus riche que cela.</p>
+
+<p>Pour s'assurer que la gestion native de l'énergie est complètement activée avec un chipset Skylake, il faut vérifier que 3 kexts se chargent correctement. Cela se fait en ligne de commande sous Terminal. Vous devriez obtenir quelque chose comme cela.</p>
+
+<pre><code>&#036; kextstat | grep -i applelpc
+   90    0 0xffffff7f8309a000 0x3000     0x3000     com.apple.driver.AppleLPC (3.1) F51595F0-F9B1-3B85-A1C3-F984DAD4107E &lt;89 12 5 4 3&gt;
+&#036; kextstat | grep -i acpiplat
+   13    1 0xffffff7f8382f000 0x60000    0x60000    com.apple.driver.AppleACPIPlatform (5.0) 867C81BE-EA01-3A65-89F4-06D78E6514CA &lt;12 11 7 6 5 4 3 1&gt;
+&#036; kextstat | grep -i x86platformplugin
+  103    1 0xffffff7f81cea000 0x17000    0x17000    com.apple.driver.X86PlatformPlugin (1.0.0) 782DA5F5-F9BB-3B75-B40D-EC8EFFCE89A8 &lt;98 89 57 19 11 7 6 5 4 3 1&gt;
+&#036; </code></pre>
+
+<p>Si au moins l'un des kexts est non chargé, il subsiste de la gestion non native de l'alimentation. Pour la CPU, je recommande <a href="https://github.com/Piker-Alpha/ssdtPRGen.sh" title="Script to generate a SSDT for Power Management" hreflang="en">le script ssdtPRGen.sh</a> :</p>
+
+<pre><code>curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh
+chmod +x ~/ssdtPRGen.sh
+~/ssdtPRGen.sh</code></pre>
+
+<p>On récupére dans ~/Library/ssdtPRGen le fichier ssdt.aml qui a été généré et on l'installe dans EFI/CLOVER/ACPI/patched. Vous pouvez ensuite supprimer le fichier ~/ssdtPRGen.sh et le dossier ~/Library/ssdtPRGen</p>
+
+<p>Pour activer AppleLPC, ça a été plus compliqué. Il m'a fallu un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/09d6fc9d279e051f3197e34fb1f9cb5e4f9a5018" title="Commit sur Github">patch du DSDT</a>. Pour faire la même chose chez vous :</p>
+
+<ul>
+<li>téléchargez MaciASL,</li>
+<li>ouvrir ses préférences et ajoutez le référentiel de RehabMan ayant comme URL http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master</li>
+<li>ouvrir une copie du fichier DSDT.dsl (généré à l'étape 8 du présent document) et appliquer le patch nommé <strong>[Sys] Slylake LPC</strong></li>
+<li>compiler et placer le nouveau fichier DSDT.aml ainsi généré dans EFI/CLOVER/ACPI/patched</li>
+</ul>
+
+<p>La difficulté suivante a été d'avoir une machine stable pendant les longues périodes de veille. J'y suis arrivé, mais il y a encore pas mal de choses qui méritent un peu de clarification là dedans. À mes yeux, les deux points les plus importants sont d'avoir l'argument de boot <code>darkwake=1</code> dans config.plist/Boot/Arguments et de désactiver l'autoextinction de macOS :</p>
+
+<pre><code>sudo pmset autopoweroff 0
+sudo pmset autopoweroffdelay 288000</code></pre>
+
+<p>Ceci étant, tout semble maintenant fonctionner normalement (avec les quelques exceptions déjà exprimées), y compris des fonctions comme Power Nap.</p>
+
+<p>J'invite ceux que ça intéresse à regarder de plus près <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/releases/tag/v%2F1.0" title="version 1.0">ma configuration de Clover</a> et mes <a href="https://www.flickr.com/photos/barijaona/albums/72157679912387936" title="Album photo sur Flickr">réglages de BIOS</a>.</p>
+
+<h3 id="bugnvidiaavecibooks">14. Bug nVidia avec iBooks</h3>
+
+<p>Dernier problème à signaler : iBooks et (plus gênant pour moi) Xcode/Developer Tool/Instruments affichent des fenêtres transparentes lorsque la carte graphique Nvidia est utilisée.</p>
+
+<p>C'est un problème qui n'est pas spécifique aux hacks (<a href="https://discussions.apple.com/thread/7683640?start=0&amp;tstart=0" title="Apple Support Communities : IBooks book window shows no content" hreflang="en">il apparaît avec les anciens MacPro</a> et <a href="https://tonymacx86.com/threads/nvidia-web-driver-ibooks-bug.203229/" title="NVIDIA Web Driver iBooks Bug" hreflang="en">il paraît</a> que Nvidia travaille dessus en liaison avec Apple, mais pour l'heure c'est assez agaçant…</p>
+
+<p>La solution temporaire est de forcer l'activation de la carte graphique intégrée Intel (iGPU) pour qu'elle soit à la disposition de Metal :</p>
+
+<ul>
+<li>dans le BIOS : <i lang="en">Onboard LAN controller: enabled</i> (au lieu de <i>auto</i>)</li>
+<li>dans la configuration Clover :
+<ul><li>config.plist/Graphics/Inject/Intel : true</li>
+<li>config.plist/Graphics/ig-platform-id : 0x19120000</li></ul></li>
+</ul>
+
+<p>Pour ne pas avoir de problème de sortie de veille, mettre dans config.plist/KernelAndKextPatches/KextsToPatch des <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L198-L237" title="Lignes 198 à 237">modifications de framebuffers</a> trouvées chez Toleda pour macOS 10.11.4 ou supérieur avec la carte graphique Intel HD530.</p>
+
+<h3 id="liensutiles">15. Liens utiles</h3>
+
+<ul>
+<li>Mes travaux en cours : <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/">https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/</a></li>
+<li>Configuration de BIOS et autres photos : <a href="https://www.flickr.com/photos/barijaona/albums/72157679912387936">https://www.flickr.com/photos/barijaona/albums/72157679912387936</a></li>
+<li>Clover : <a href="https://sourceforge.net/projects/cloverefiboot/">https://sourceforge.net/projects/cloverefiboot/</a></li>
+<li>Clover wiki : <a href="https://clover-wiki.zetam.org/Home">https://clover-wiki.zetam.org/Home</a></li>
+<li>Annonce des NVidia WebDrivers : <a href="http://www.insanelymac.com/forum/tags/forums/nvidia%2Bweb%2Bdriver/">http://www.insanelymac.com/forum/tags/forums/nvidia%2Bweb%2Bdriver/</a></li>
+<li>Annonce des drivers Cuda : <a href="http://www.insanelymac.com/forum/tags/forums/cuda/">http://www.insanelymac.com/forum/tags/forums/cuda/</a></li>
+<li>Forum customisation et hackintosh de MacGeneration : <a href="https://forums.macg.co/forums/customisation-et-hackintosh.121/">https://forums.macg.co/forums/customisation-et-hackintosh.121/</a></li>
+<li>Forum hackintosh de MacBidouille: <a href="http://forum.macbidouille.com/index.php?showforum=66">http://forum.macbidouille.com/index.php?showforum=66</a></li>
+<li>Discussion en cours sur le problème de la NVRAM (très geek) : <a href="http://www.insanelymac.com/forum/topic/317802-EFI-Variable-Store-on-Aptio-V-%28Haswell-E-and-up%29#">http://www.insanelymac.com/forum/topic/317802-EFI-Variable-Store-on-Aptio-V-%28Haswell-E-and-up%29#</a></li>
+<li>Discussion sur le développement de Clover (très geek également) : <a href="http://www.insanelymac.com/forum/topic/306156-Clover-Bug-Issue-Report-and-Patch">http://www.insanelymac.com/forum/topic/306156-Clover-Bug-Issue-Report-and-Patch</a></li>
+</ul>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1"><p>Information à l'usage des "sachants" : cette solution alternative à AGDPfix présente l'avantage de résider entièrement dans le dossier Clover :
+- elle n'a donc pas besoin d'être réappliquée lors des mises à jour macOS,
+- elle permet de maintenir actif en permanence la fonction SIP.<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:2"><p>Ah, les coupures de courant de la <a href="http://www.doingbusiness.org/data/exploreeconomies/madagascar/getting-electricity" title="Doing business and getting electricity in Madagasacar" hreflang="en">Jirama</a>…<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:3"><p>Le contrôleur de macOS ne peut pas gérer plus de 15 ports, et une connexion physique USB3 prend deux ports logiques : une en USB2 et une en USB3.<a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 8/2/2017 06:59</span><br /></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'barijaona-blog';
+    var disqus_identifier='a201702080621';
+    var disqus_url='http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">Commentaires du blog hébergés par <span class="logo-disqus">Disqus</span></a>
+
+</div><br />
+
+<br /><em>Billet classé dans la catégorie :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/macintosh/index.html">Macintosh</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/macintosh/Jirokaki/index.html">Jirokaki</a>&nbsp;&gt;&nbsp;2 Premier Bilan
+<br /><br /></div></div>
+
+<nav><div class="topnav">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br />
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/macintosh/" class="submenu" title="Le présent">Actualités</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/macosx.html" class="submenu" title="Les débuts de l'ère moderne">MacOS X</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/os8et9.html" class="submenu" title="Le passé...">MacOS classique</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/macrules.html" class="submenu" title="Guerre de religions ?">Pourquoi ?</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div></nav>
+
+<aside><div class="nav2">
+
+
+<div class="box">
+<div class="search">
+<form method="get" id="search" action="https://duckduckgo.com/">
+   <label for="motcle" accesskey="4">Rechercher dans le site</label>
+   <input type="text" name="q" id="motcle" maxlength="255" placeholder="mot(s) clé(s)"/>
+   <input type="hidden" name="sites" value="barijaona.com"/>
+   <input type="hidden" name="kj" value="#7F7F7F"/>
+   <input type="submit" value="Rechercher" />
+</form>
+</div>
+
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
+
+</div></aside>
+
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/web/settingup_letsencrypt.html" title="billet du 16 janvier 2017">&lt;-&nbsp;DO encrypt</a></div></div></nav>
+
+<footer><div class="contentfooter">
+<br />
+<div class="source-org vcard copyright">
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2017 Barijaona Ramaholimihaso</div><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "SmE28OKlB@cESODEKlE.2KG"
+  key = "s1mFOjarbKtnukgZ6p39RQMBNGHCDEScU8lI5J7fVe4ixzWYoAydPh2LvqT0wX"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>reactions (arobace) barijaona.com</noscript>
+
+</div></footer>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-598147-1";
+urchinTracker();
+</script>
+
+</body>
+</html>

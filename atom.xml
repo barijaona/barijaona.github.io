@@ -16,7 +16,30 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2017-01-16T04:48:00Z</updated>
+  <updated>2017-02-08T03:59:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2017:/macintosh/Jirokaki/2-premier-bilan</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
+
+    <title type="text">Jirōkaki, premier bilan et résumé</title>
+    <published>2017-02-08T03:21:00Z</published>
+    <updated>2017-02-08T03:59:00Z</updated>
+    <category term="/macintosh/Jirokaki"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">le pourquoi de la chose</a> et le <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">choix du matériel</a>.</p>
+
+<p>Il ne s'agit pas d'un guide complet (<strong>je déconseille d'ailleurs formellement de cloner ma configuration sans avoir veillé à la comprendre suffisamment au préalable</strong>), mais plutôt d'un résumé de la façon dont j'ai abordé le sujet enrichi de remarques face à certaines difficultés particulières.</p>
+
+<p><a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#more" class="seemore">Lire la suite...</a></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/web/settingup_letsencrypt</id>
@@ -24,7 +47,7 @@
 
     <title type="text">DO encrypt</title>
     <published>2017-01-16T04:23:00Z</published>
-    <updated>2017-01-16T04:48:00Z</updated>
+    <updated>2017-01-18T02:12:00Z</updated>
     <category term="/web"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -122,7 +145,7 @@
 
     <title type="text">Jirōkaki, le choix du matériel</title>
     <published>2016-08-28T19:56:00Z</published>
-    <updated>2016-08-28T20:18:00Z</updated>
+    <updated>2017-02-08T03:54:00Z</updated>
     <category term="/macintosh/Jirokaki"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -143,7 +166,7 @@
 
     <title type="text">Projet Jirōkaki (次郎柿)</title>
     <published>2016-08-28T16:58:00Z</published>
-    <updated>2016-08-28T20:18:00Z</updated>
+    <updated>2017-02-08T03:53:00Z</updated>
     <category term="/macintosh/Jirokaki"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -219,30 +242,6 @@
 
 <p>Je ne me vois pas réellement poser de telles questions en termes aussi abrupts, mais l'attention est de rigueur…</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/madagascar/singapour-meemf.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2016:/environnement/21mars2016</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/environnement/21mars2016.html" />
-
-    <title type="text">« Un arbre fait pousser un homme » (Malthus)</title>
-    <published>2016-03-21T16:26:00Z</published>
-    <updated>2016-03-21T16:28:00Z</updated>
-    <category term="/environnement"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Aujourd'hui est la <a href="http://www.un.org/fr/events/forestsday/" title="Site de l'ONU">journée internationale des forêts</a>.</p>
-
-<p>À cette occasion, je reprends un extrait d'un article paru en 1914 dans le journal « Le Tamatave », sous le titre « Les tavy et le reboisement », retrouvé via 
-<a href="http://cultmada.blogspot.com/2015/12/il-y-100-ans-les-tavy-et-le-reboisement.html" title="Bibliothèque malgache">Pierre Maury</a>.</p>
-
-<p><a href="http://blog.barijaona.com/environnement/21mars2016.html#more" class="seemore">Lire la suite...</a></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/environnement/21mars2016.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

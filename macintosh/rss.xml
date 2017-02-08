@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/apple-apres-steve.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/days-of-doom.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/photivo-build.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/beatnik.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/vienna.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
+	<title>Jirōkaki, premier bilan et résumé</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
+	<description>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh...</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
 	<title>Jirōkaki, le choix du matériel</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>
@@ -103,15 +112,6 @@
 	<dc:subject>/macintosh</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2012-09-19T14:21:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/macintosh/vienna.html">
-	<title>Ça gratte...</title>
-	<link>http://blog.barijaona.com/macintosh/vienna.html</link>
-	<description>Les langages informatiques, c'est un peu comme les goûts et les couleurs...</description>
-	<dc:subject>/macintosh</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2012-09-16T01:42:00+03:00</dc:date>
 
 </item>
 

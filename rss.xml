@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/environnement/21mars2016.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,20 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
+	<title>Jirōkaki, premier bilan et résumé</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;À la demande pressante de la foule (bon, n&apos;exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;le pourquoi de la chose&lt;/a&gt; et le &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;choix du matériel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il ne s&apos;agit pas d&apos;un guide complet (&lt;strong&gt;je déconseille d&apos;ailleurs formellement de cloner ma configuration sans avoir veillé à la comprendre suffisamment au préalable&lt;/strong&gt;), mais plutôt d&apos;un résumé de la façon dont j&apos;ai abordé le sujet enrichi de remarques face à certaines difficultés particulières.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/web/settingup_letsencrypt.html">
 	<title>DO encrypt</title>
 	<link>http://blog.barijaona.com/web/settingup_letsencrypt.html</link>
@@ -177,21 +191,6 @@
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-04-24T07:27:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/environnement/21mars2016.html">
-	<title>« Un arbre fait pousser un homme » (Malthus)</title>
-	<link>http://blog.barijaona.com/environnement/21mars2016.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Aujourd&apos;hui est la &lt;a href=&quot;http://www.un.org/fr/events/forestsday/&quot; title=&quot;Site de l&apos;ONU&quot;&gt;journée internationale des forêts&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;À cette occasion, je reprends un extrait d&apos;un article paru en 1914 dans le journal « Le Tamatave », sous le titre « Les tavy et le reboisement », retrouvé via 
-&lt;a href=&quot;http://cultmada.blogspot.com/2015/12/il-y-100-ans-les-tavy-et-le-reboisement.html&quot; title=&quot;Bibliothèque malgache&quot;&gt;Pierre Maury&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/environnement/21mars2016.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/environnement/21mars2016.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/environnement</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-03-21T19:26:00+03:00</dc:date>
 
 </item>
 
