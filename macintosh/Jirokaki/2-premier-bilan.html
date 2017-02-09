@@ -49,7 +49,7 @@
 
 <p>Cela exigeait de comprendre autant que possible ce que je faisais, et de ne pas faire confiance à des outils automatiques qui auraient pu modifier des fichiers système ou installer des tas de choses à des endroits mystérieux. Les principaux outils qui ont été utilisés étaient <a href="https://sourceforge.net/projects/cloverefiboot/" title="Clover EFI Boot at Sourceforge" hreflang="en">Clover</a> et de quoi éditer son fichier <code>config.plist</code> : tout bêtement mon éditeur de texte préféré et, très occasionnellement, Xcode lorsqu'il fallait saisir une data sous forme de données hexadécimales. Ah, si, il faut aussi utiliser le terminal et la commande <a href="http://osxdaily.com/2013/05/13/mount-unmount-drives-from-the-command-line-in-mac-os-x/" title="Mount &amp; unmount drives from the command line in Mac OS X" hreflang="en"><code>diskutil</code></a>….</p>
 
-<p>Avec mes réflexes de programmeur, j'ai eu la bonne inspiration de suivre le dossier Clover avec un outil de version. C'était peut-être la meilleure décision de l'ensemble du montage, car il y eut quand même pas mal de remises en cause, de doutes et d'interrogation. Avoir un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commits/master" title="CLOVER_GA-Z170X-Gaming5 on Github" hreflang="en">historique Git</a> m'a encouragé à être plus aventureux et m'a fait gagner beaucoup de temps, mais montre aussi quelques errements sur lesquels je n'entrerai pas trop dans les détails ici.</p>
+<p>Avec mes réflexes de programmeur, j'ai eu la bonne inspiration de suivre le dossier Clover avec un outil de gestion de version. C'était peut-être la meilleure décision de l'ensemble du montage, car il y eut quand même pas mal de remises en cause, de doutes et d'interrogation. Avoir un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commits/master" title="CLOVER_GA-Z170X-Gaming5 on Github" hreflang="en">historique Git</a> m'a encouragé à être plus aventureux et m'a fait gagner beaucoup de temps, mais montre aussi quelques errements sur lesquels je n'entrerai pas trop dans les détails ici.</p>
 
 <p>Quoi qu'il en soit, le résultat actuel est à la hauteur de mes attentes, et je suis persuadé que sur le long terme, une telle approche méthodique et précautionneuse est la plus rentable.</p>
 
@@ -99,14 +99,14 @@
 
 <p>Je me suis basé sur un <a href="http://forum.macbidouille.com/index.php?showtopic=391275" title="Créer une clé d'installation avec le bootloader Clover">tutoriel paru chez MacBidouille</a>, mais en simplifiant drastiquement l'étape 3 en utilisant <a href="http://fljagd.fr/falsh-drive-maker-v-1-1/" title="fljagd.fr">Flash Drive Maker</a>.</p>
 
-<p>Les drivers suivants, à installer dans EFI/CLOVER/kexts/Other activent les cartes Ethernet : <a href="http://www.insanelymac.com/forum/files/file/396-intelmausiethernet/" title="InsanelyMac" hreflang="en">IntelMausiEthernet</a> pour la LAN1 et <a href="http://www.insanelymac.com/forum/files/file/313-atherose2200ethernet/" title="InsanelyMac" hreflang="en">AtherosE2200Ethernet</a> pour la LAN2.</p>
+<p>Les drivers suivants, à installer dans EFI/CLOVER/kexts/Other, activent les cartes Ethernet : <a href="http://www.insanelymac.com/forum/files/file/396-intelmausiethernet/" title="InsanelyMac" hreflang="en">IntelMausiEthernet</a> pour la LAN1 et <a href="http://www.insanelymac.com/forum/files/file/313-atherose2200ethernet/" title="InsanelyMac" hreflang="en">AtherosE2200Ethernet</a> pour la LAN2.</p>
 
 <h4 id="contournerdesbugslisaubios">7. Contourner des bugs liés au BIOS</h4>
 
 <p>J'ai constaté deux bugs avec ma version de BIOS :</p>
 
 <ul>
-<li>il faut désactiver l'affichage de la jolie mais inutile LED rouge présente sur la carte mère</li>
+<li>il faut désactiver l'affichage de la jolie mais inutile LED rouge présente sur la carte mère,</li>
 <li>pour résoudre la multiplication sauvage d'entrées de boot dans le BIOS, <a href="https://sourceforge.net/p/cloverefiboot/tickets/226/#d1a9/0222/8cc1" title="Sourceforge ticket #226" hreflang="en">il faut faire du ménage à travers le shell UEFI puis renommer le dossier EFI/BOOT</a> (de façon à ce qu'il ne soit pas actif et qu'EFI/CLOVER prenne la main).</li>
 </ul>
 
@@ -114,16 +114,16 @@
 
 <h4 id="sauvegarderetdcompilerlesdsdtssdtdorigine">8. Sauvegarder et décompiler les DSDT/SSDT d'origine</h4>
 
-<p>C'est une étape préliminaire pour étudier l'état de sa machine et qui pourra servir de point de départ plus tard afin d'affiner plus finement que ne le permet Clover certains réglages.</p>
+<p>C'est une étape préliminaire pour étudier l'état de sa machine et qui pourra servir de point de départ plus tard afin d'ajuster plus finement que ne le permet Clover certains réglages.</p>
 
 <p>On se réfèrera au début de <a href="http://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/" title="Patching LAPTOP DSDT/SSDTs" hreflang="en">ce guide</a>. En résumé :</p>
 
 <ul>
-<li>dans CLOVER, on sauvegarde les DSDT et SSDT d'origine avec la touche F4</li>
-<li>on recopie les DSDT.aml et SSDT*.aml (<strong>et ceux là uniquement !!</strong>) de EFI/CLOVER/origin dans un dossier vide</li>
-<li>on ajoute le fichier refs.txt</li>
-<li>on décompile en bloc avec <code>iasl -da -dl -fe refs.txt *.aml</code></li>
-<li>on obtient les fichiers .dsl qui pourront être utilisés avec à MaciASL</li>
+<li>dans CLOVER, on sauvegarde les DSDT et SSDT d'origine avec la touche F4,</li>
+<li>on recopie les DSDT.aml et SSDT*.aml (<strong>et ceux là uniquement !!</strong>) de EFI/CLOVER/origin dans un dossier vide,</li>
+<li>on ajoute le fichier refs.txt,</li>
+<li>on décompile en bloc avec <code>iasl -da -dl -fe refs.txt *.aml</code>,</li>
+<li>on obtient les fichiers .dsl qui pourront être utilisés avec MaciASL.</li>
 </ul>
 
 <h4 id="lacartegraphique">9. La carte graphique</h4>
@@ -149,7 +149,7 @@
 <li>choisir un maximum de 15 ports<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">3</a> USB2 + USB3 à partir des schémas fournis dans cette archive,</li>
 <li>modifier le fichier Info.plist dans GA_Z170X_G5_Injector.kext pour supprimer les ports que vous avez décidé de sacrifier,</li>
 <li>pour faciliter la mise en veille, mettre UsbConnector à 255 pour les ports à usage interne (par exemple, celui qui me sert à connecter la carte Bluetooth),</li>
-<li>placer le .kext ainsi modifié dans EFI/CLOVER/kexts/Other </li>
+<li>placer le .kext ainsi modifié dans EFI/CLOVER/kexts/Other.</li>
 </ul>
 
 <h4 id="imessageicloudappstore">12. iMessage, iCloud, AppStore…</h4>
@@ -191,10 +191,10 @@ chmod +x ~/ssdtPRGen.sh
 <p>Pour activer AppleLPC, ça a été plus compliqué. Il m'a fallu un <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/09d6fc9d279e051f3197e34fb1f9cb5e4f9a5018" title="Commit sur Github">patch du DSDT</a>. Pour faire la même chose chez vous :</p>
 
 <ul>
-<li>téléchargez MaciASL,</li>
-<li>ouvrir ses préférences et ajoutez le référentiel de RehabMan ayant comme URL http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master</li>
-<li>ouvrir une copie du fichier DSDT.dsl (généré à l'étape 8 du présent document) et appliquer le patch nommé <strong>[Sys] Slylake LPC</strong></li>
-<li>compiler et placer le nouveau fichier DSDT.aml ainsi généré dans EFI/CLOVER/ACPI/patched</li>
+<li>téléchargez MaciASL ;</li>
+<li>ouvrir ses préférences et ajoutez le référentiel de RehabMan ayant comme URL http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master ;</li>
+<li>ouvrir une copie du fichier DSDT.dsl (généré à l'étape 8 du présent document) et appliquer le patch nommé <strong>[Sys] Slylake LPC</strong> ;</li>
+<li>compiler et placer le nouveau fichier DSDT.aml ainsi généré dans EFI/CLOVER/ACPI/patched.</li>
 </ul>
 
 <p>La difficulté suivante a été d'avoir une machine stable pendant les longues périodes de veille. J'y suis arrivé, mais il y a encore pas mal de choses qui méritent un peu de clarification là dedans. À mes yeux, les deux points les plus importants sont d'avoir l'argument de boot <code>darkwake=1</code> dans config.plist/Boot/Arguments et de désactiver l'autoextinction de macOS :</p>
@@ -215,10 +215,10 @@ sudo pmset autopoweroffdelay 288000</code></pre>
 <p>La solution temporaire est de forcer l'activation de la carte graphique intégrée Intel (iGPU) pour qu'elle soit à la disposition de Metal :</p>
 
 <ul>
-<li>dans le BIOS : <i lang="en">Onboard LAN controller: enabled</i> (au lieu de <i>auto</i>)</li>
+<li>dans le BIOS : <i lang="en">Onboard LAN controller: enabled</i> (au lieu de <i>auto</i>),</li>
 <li>dans la configuration Clover :
-<ul><li>config.plist/Graphics/Inject/Intel : true</li>
-<li>config.plist/Graphics/ig-platform-id : 0x19120000</li></ul></li>
+<ul><li>config.plist/Graphics/Inject/Intel : true,</li>
+<li>config.plist/Graphics/ig-platform-id : 0x19120000.</li></ul></li>
 </ul>
 
 <p>Pour ne pas avoir de problème de sortie de veille, mettre dans config.plist/KernelAndKextPatches/KextsToPatch des <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L198-L237" title="Lignes 198 à 237">modifications de framebuffers</a> trouvées chez Toleda pour macOS 10.11.4 ou supérieur avec la carte graphique Intel HD530.</p>
@@ -242,8 +242,8 @@ sudo pmset autopoweroffdelay 288000</code></pre>
 <hr />
 <ol>
 
-<li id="fn:1"><p>Information à l'usage des "sachants" : cette solution alternative à AGDPfix présente l'avantage de résider entièrement dans le dossier Clover :
-- elle n'a donc pas besoin d'être réappliquée lors des mises à jour macOS,
+<li id="fn:1"><p>Information à l'usage des "sachants" : cette solution alternative à AGDPfix présente l'avantage de résider entièrement dans le dossier Clover : <br />
+- elle n'a donc pas besoin d'être réappliquée lors des mises à jour macOS, <br />
 - elle permet de maintenir actif en permanence la fonction SIP.<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
 
 <li id="fn:2"><p>Ah, les coupures de courant de la <a href="http://www.doingbusiness.org/data/exploreeconomies/madagascar/getting-electricity" title="Doing business and getting electricity in Madagasacar" hreflang="en">Jirama</a>…<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
@@ -253,7 +253,7 @@ sudo pmset autopoweroffdelay 288000</code></pre>
 </ol>
 </div>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 8/2/2017 07:44</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 9/2/2017 06:55</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
