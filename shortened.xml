@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
+	<title>Jirōkaki, bilan performance/prix</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html</link>
+	<description>Ceux qui auront lu depuis le début auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh...</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-02-13T06:59:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
 	<title>Jirōkaki, premier bilan et résumé</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
@@ -103,17 +112,6 @@ N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de c
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-05-24T01:43:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/madagascar/singapour-meemf.html">
-	<title>Perturbantes questions…</title>
-	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
-	<description>La presse n'a pas rapporté le fait, mais j'ai trouvé la situation si particulière que je ne résiste pas à la tentation de rendre compte…
-
-C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des Forêts...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-04-24T07:27:00+03:00</dc:date>
 
 </item>
 

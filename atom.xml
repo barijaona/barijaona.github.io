@@ -16,7 +16,112 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2017-02-09T03:55:00Z</updated>
+  <updated>2017-02-13T04:08:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2017:/macintosh/Jirokaki/3-bilan-performance-prix-qualite</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
+
+    <title type="text">Jirōkaki, bilan performance/prix</title>
+    <published>2017-02-13T03:59:00Z</published>
+    <updated>2017-02-13T04:08:00Z</updated>
+    <category term="/macintosh/Jirokaki"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Ceux qui auront lu <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">depuis le début</a> auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh. Contrairement à d'autres, je ne suis pas un <i lang="en">gamer</i> sous Windows en quête du matériel le plus récent et le plus performant… J'ai retenu une configuration à base de Skylake <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">un peu par défaut</a> et parce que l'économie d'énergie me donnait meilleure conscience. Mais si d'ici Madagascar j'avais eu accès à un large marché de l'occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.</p>
+
+<p>Alors si j'ai eu envie de faire un petit bilan performance, c'est avant tout pour vérifier que tout marche correctement. Il y avait en effet de quoi s'étonner de ne jamais voir le ventilateur de la carte mère s'activer, comme si cette carte graphique ne travaillait pas… D'autant que les utilitaires disponibles pour suivre en temps réel l'activité de la carte graphique (XRG et iStat Menus) affichaient des données contradictoires sur le type de carte utilisée.</p>
+
+<p>Alors, que disent les benchmarks ? J'ai rapproché mes mesures de celles disponibles sur MacGeneration.</p>
+
+<table>
+<caption id="benchmarksorientscpuetcartesgraphique">Benchmarks orientés CPU et cartes graphique</caption>
+<col align="left" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+<thead>
+<tr>
+	<th> </th>
+	<th><a href="http://www.macg.co/tests/2015/10/test-de-limac-215-retina-4k-fin-2015-91515">iMac Retina 21,5" Core i5 3,1 GHz fin 2015</a></th>
+	<th><a href="https://www.macg.co/tests/2015/10/test-de-limac-27-retina-5k-core-i5-32-ghz-skylake-fin-2015-91572">iMac Retina 27" Core i5 3,2 GHz fin 2015</a></th>
+	<th><a href="https://www.macg.co/tests/2015/12/test-de-limac-27-retina-5k-core-i7-4-ghz-skylake-fusion-drive-fin-2015-92106">iMac Retina 27" Core i7 4,0 GHz fin 2015</a></th>
+	<th>Jirōkaki Core i5 3,9 Ghz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<th align="left">Geekbench 4 simple cœur</th>
+	<td align="right">3 788</td>
+	<td align="right">3 956</td>
+	<td align="right">4 450</td>
+	<td align="right">4 573</td>
+</tr>
+<tr>
+	<th align="left">Geekbench 4 multiples cœurs</th>
+	<td align="right">12 690</td>
+	<td align="right">12 110</td>
+	<td align="right">17 439</td>
+	<td align="right">11 347</td>
+</tr>
+<tr>
+	<th align="left">Unigine Valley benchmark (Ultra, antialiasing x8, 1080 p)</th>
+	<td align="right"> 4,9</td>
+	<td align="right">22,6</td>
+	<td align="right">28,3</td>
+	<td align="right">33,4</td>
+</tr>
+<tr>
+	<th align="left">LuxMark 2 OpenCL (CPU+GPU, Sala Scene)</th>
+	<td align="right">424</td>
+	<td align="right">976</td>
+	<td align="right">1 383</td>
+	<td align="right">1 710</td>
+</tr>
+<tr>
+	<th align="left">Cinebench R15 (OpenGL)</th>
+	<td align="right">47,08</td>
+	<td align="right">94,10</td>
+	<td align="right">108,15</td>
+	<td align="right">101,83</td>
+</tr>
+</tbody>
+</table>
+
+<p>Globalement, il y a largement là de quoi être rassuré. Tout n'est pas très homogène<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a>, il y a peut-être encore de quoi optimiser la configuration logicielle (sans même aborder les rives un peu dangereuses de l'<i lang="en">overclocking</i> matériel), mais la machine tient son rang et la carte nVidia répond bien présente même si son élévation de température reste si limitée que son ventilateur tourne à peine…</p>
+
+<p>Mais une autre conclusion s'impose, et celle là est économique. Ma configuration m'a coûté à l'époque un peu plus de 1 350 €. Avec la fluctuation du dollar et des <a href="https://www.macg.co/materiel/2017/02/pourquoi-le-prix-de-la-ram-augmente-depuis-plusieurs-mois-97303" title="Pourquoi le prix de la RAM augmente depuis plusieurs mois">prix de la mémoire</a>, son prix actuel France serait proche de 1 415 €. Mais si j'avais dû rajouter le prix d'un clavier Apple (Magic Keyboard ou clavier USB avec pavé numérique), d'un Magic Trackpad et surtout le prix d'un écran comparable à ceux des iMacs présentés ci-dessus, j'aurais sans doute regretté d'avoir monté un hackintosh.</p>
+
+<p>En fait, au vu du prix d'un <a href="http://euro.dell.com/fr/fr/corp/Périphériques-Dell/dell-up2715k-monitor/pd.aspx?refid=dell-up2715k-monitor&amp;s=corp" title="Dell UltraSharp UP2715K">bon écran 5K</a>, les iMac 27 pouces Retina sont d'excellentes affaires !</p>
+
+<p>Je continue à trouver relativement chers les Macs actuellement disponibles au catalogue Apple, mais leur prix me paraît quand même plus logique que je ne le pensais auparavant. Car la qualité des composants et de la finition n'est pas la même. On a tendance à comparer les fiches techniques des hackintosh à celles de Macs de haut de gamme, mais lorsqu'on ouvre les capots et qu'on y regarde de plus près, force est de constater qu'il y a quelques différences sensibles… Et lorsqu'on doit brancher et débrancher souvent les périphériques d'un hackintosh, on se dit que ces fabricants de PC sont bien arriérés !</p>
+
+<p>Monter un hackintosh m'a ainsi permis de réaliser de manière moins abstraite qu'il y a dans un Mac de la vraie R&amp;D spécifique à Apple, parce que le constructeur à la pomme a cherché à devancer le reste du marché dans certains domaines, notamment l'économie d'énergie ou la gestion de certains périphériques. Cela se traduit par des fonctionnalités qu'un hackintosh ne parvient toujours pas à reproduire aujourd'hui (exemple : pas de <i lang="en">hot plug</i> de périphériques Thunderbolt sur un hack), mais cela trahit aussi des spécificités matérielles qui doivent contribuer à renchérir le prix sortie usine d'un « vrai » Mac.</p>
+
+<p>Le problème est que ces spécificités doivent être amorties sur un bien plus faible nombre de machines que dans le modèle économique de l'iPhone, modèle où qui plus est, le haut de gamme de l'année passée (6s ou 6s Plus) peut devenir le milieu de gamme de cette année. Pas facile de faire ça avec les Macs où les nouveaux modèles poussent plutôt les anciens vers la sortie…</p>
+
+<p>Du coup, je me dis que si j'étais à la place d'Apple, je serais assez tenté de casser la compatibilité de macOS afin de pouvoir réaliser des économies d'échelle en mutualisant un plus grand nombre de composants avec les iDevices… Cela ferait sûrement crier beaucoup d'utilisateurs, mais n'est-ce pas la voie de l'avenir ?</p>
+
+<p>J'espère qu'une autre voie sera également explorée par Apple : dé-{bundler} écran et unité centrale et chercher à être compétitif en <i lang="en">build to order</i> dans un format <a href="http://macinpomme.fr/les-boites-a-pizza" title="Macintosh LC et assimilés">boîte à pizza</a>. Ce serait une vraie démarche écologique, car elle permettrait de mieux adapter les machines aux besoins réels des utilisateurs et de conserver plus longtemps les périphériques.</p>
+
+<p>Oui, les dirigeants d'Apple sont bien placés pour savoir que <a href="https://mondaynote.com/lazy-thinking-modularity-always-works-27257500a586" title="Lazy Thinking: Modularity Always Works (Jean Louis Gassée)" hreflang="en">la modularité ne paie pas toujours</a>, mais les années ont démontré que le Mac ne doit pas être vu comme un simple iPad. Par ailleurs, la lente décroissance des ventes de ce dernier permet de rappeller à Tim Cooke et à ses collègues  que même dans les pays très urbains, il y a toujours une demande pour les <a href="http://www.macg.co/aapl/2010/06/steve-jobs-le-pc-est-un-camion-76226/page/0/1" title="Steve Jobs : Le PC est un camion">SUVs et camionnettes</a>.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1"><p>Faut-il encore accuser les mémoires, disposées en <i lang="en">single channel</i> dans la performance CPU en multiple cœurs ?<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/macintosh/Jirokaki/2-premier-bilan</id>
@@ -203,45 +308,6 @@
 
 <iframe src="//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="560" height="410"></iframe>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2016:/madagascar/singapour-meemf</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/madagascar/singapour-meemf.html" />
-
-    <title type="text">Perturbantes questions…</title>
-    <published>2016-04-24T04:27:00Z</published>
-    <updated>2016-04-24T04:33:00Z</updated>
-    <category term="/madagascar"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>La presse n'a pas rapporté le fait, mais j'ai trouvé la situation si particulière que je ne résiste pas à la tentation de rendre compte…</p>
-
-<p>C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des Forêts.</p>
-
-<p>Une question de <a href="https://twitter.com/galaelle" title="Gaëlle Borgia sur Twitter">journaliste</a> qui a un peu cassé l'ambiance :</p>
-
-<blockquote>
-  <p>Monsieur le ministre sortant, vous avez essayé de faire la lumière sur <a href="http://www.lexpressmada.com/blog/actualites/bois-de-rose-saisis-a-singapour-les-etats-unis-souhaitent-une-enquete-du-bianco-60378/" title="Bois de rose saisis à Singapour – Les États-Unis souhaitent une enquête du Bianco">l'affaire Singapour</a>, est-ce que c'est pour cela que vous n'êtes plus au gouvernement aujourd'hui ? Madame la ministre, est-ce que vous allez faire de l'affaire Singapour une priorité de votre mandat ? Est-ce que vous allez par exemple demander une enquête au niveau malgache ?</p>
-</blockquote>
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260592276&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-<p>Dans le même genre, des questions qu'une connaissance, d'un air mi-figue mi-raisin, a proposé de poser à la nouvelle ministre :</p>
-
-<ol>
-<li><p>pourquoi avez vous accepté ce poste, alors que c'est le Président, son entourage et son parti HVM qui bloquent toute évolution dans la bonne gestion des ressources naturelles et dans la poursuite des infractions ? </p></li>
-<li><p>Croyez-vous qu'il est sage d'intégrer une bande de loups pour ensuite vouloir garder les moutons ? </p></li>
-<li><p>Que croyez vous pouvoir faire dans votre nouvelle fonction et où allez vous chercher vos alliés pour vos projets ?</p></li>
-</ol>
-
-<p>Je ne me vois pas réellement poser de telles questions en termes aussi abrupts, mais l'attention est de rigueur…</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/madagascar/singapour-meemf.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

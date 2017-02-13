@@ -17,7 +17,7 @@
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
 <link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
 <link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
-<link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="prev" href="http://blog.barijaona.com/monde/cop21_24h_apres.html" title="Deuxième bilan après la COP21" />
+<link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="prev" href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" title="L'affaire Apple contre FBI" />
 
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
@@ -51,6 +51,100 @@ function getComment(threadId,refPageURL){
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><h2></h2>
+<div class="post"><article class="hentry">
+<h3 class="accent3 entry-title instapaper_title"><a href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2017-02-13" class="timestamp">[&nbsp;lundi 13 février 2017,&nbsp;06:59&nbsp;]</time>&nbsp;Jirōkaki, bilan performance/prix</a></h3>
+<div class="post-full entry-content instapaper_body"><p>Ceux qui auront lu <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">depuis le début</a> auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh. Contrairement à d'autres, je ne suis pas un <i lang="en">gamer</i> sous Windows en quête du matériel le plus récent et le plus performant… J'ai retenu une configuration à base de Skylake <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">un peu par défaut</a> et parce que l'économie d'énergie me donnait meilleure conscience. Mais si d'ici Madagascar j'avais eu accès à un large marché de l'occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.</p>
+
+<p>Alors si j'ai eu envie de faire un petit bilan performance, c'est avant tout pour vérifier que tout marche correctement. Il y avait en effet de quoi s'étonner de ne jamais voir le ventilateur de la carte mère s'activer, comme si cette carte graphique ne travaillait pas… D'autant que les utilitaires disponibles pour suivre en temps réel l'activité de la carte graphique (XRG et iStat Menus) affichaient des données contradictoires sur le type de carte utilisée.</p>
+
+<p>Alors, que disent les benchmarks ? J'ai rapproché mes mesures de celles disponibles sur MacGeneration.</p>
+
+<table>
+<caption id="benchmarksorientscpuetcartesgraphique">Benchmarks orientés CPU et cartes graphique</caption>
+<col align="left" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+<col align="right" />
+<thead>
+<tr>
+	<th> </th>
+	<th><a href="http://www.macg.co/tests/2015/10/test-de-limac-215-retina-4k-fin-2015-91515">iMac Retina 21,5" Core i5 3,1 GHz fin 2015</a></th>
+	<th><a href="https://www.macg.co/tests/2015/10/test-de-limac-27-retina-5k-core-i5-32-ghz-skylake-fin-2015-91572">iMac Retina 27" Core i5 3,2 GHz fin 2015</a></th>
+	<th><a href="https://www.macg.co/tests/2015/12/test-de-limac-27-retina-5k-core-i7-4-ghz-skylake-fusion-drive-fin-2015-92106">iMac Retina 27" Core i7 4,0 GHz fin 2015</a></th>
+	<th>Jirōkaki Core i5 3,9 Ghz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<th align="left">Geekbench 4 simple cœur</th>
+	<td align="right">3 788</td>
+	<td align="right">3 956</td>
+	<td align="right">4 450</td>
+	<td align="right">4 573</td>
+</tr>
+<tr>
+	<th align="left">Geekbench 4 multiples cœurs</th>
+	<td align="right">12 690</td>
+	<td align="right">12 110</td>
+	<td align="right">17 439</td>
+	<td align="right">11 347</td>
+</tr>
+<tr>
+	<th align="left">Unigine Valley benchmark (Ultra, antialiasing x8, 1080 p)</th>
+	<td align="right"> 4,9</td>
+	<td align="right">22,6</td>
+	<td align="right">28,3</td>
+	<td align="right">33,4</td>
+</tr>
+<tr>
+	<th align="left">LuxMark 2 OpenCL (CPU+GPU, Sala Scene)</th>
+	<td align="right">424</td>
+	<td align="right">976</td>
+	<td align="right">1 383</td>
+	<td align="right">1 710</td>
+</tr>
+<tr>
+	<th align="left">Cinebench R15 (OpenGL)</th>
+	<td align="right">47,08</td>
+	<td align="right">94,10</td>
+	<td align="right">108,15</td>
+	<td align="right">101,83</td>
+</tr>
+</tbody>
+</table>
+
+<p>Globalement, il y a largement là de quoi être rassuré. Tout n'est pas très homogène<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a>, il y a peut-être encore de quoi optimiser la configuration logicielle (sans même aborder les rives un peu dangereuses de l'<i lang="en">overclocking</i> matériel), mais la machine tient son rang et la carte nVidia répond bien présente même si son élévation de température reste si limitée que son ventilateur tourne à peine…</p>
+
+<p>Mais une autre conclusion s'impose, et celle là est économique. Ma configuration m'a coûté à l'époque un peu plus de 1 350 €. Avec la fluctuation du dollar et des <a href="https://www.macg.co/materiel/2017/02/pourquoi-le-prix-de-la-ram-augmente-depuis-plusieurs-mois-97303" title="Pourquoi le prix de la RAM augmente depuis plusieurs mois">prix de la mémoire</a>, son prix actuel France serait proche de 1 415 €. Mais si j'avais dû rajouter le prix d'un clavier Apple (Magic Keyboard ou clavier USB avec pavé numérique), d'un Magic Trackpad et surtout le prix d'un écran comparable à ceux des iMacs présentés ci-dessus, j'aurais sans doute regretté d'avoir monté un hackintosh.</p>
+
+<p>En fait, au vu du prix d'un <a href="http://euro.dell.com/fr/fr/corp/Périphériques-Dell/dell-up2715k-monitor/pd.aspx?refid=dell-up2715k-monitor&amp;s=corp" title="Dell UltraSharp UP2715K">bon écran 5K</a>, les iMac 27 pouces Retina sont d'excellentes affaires !</p>
+
+<p>Je continue à trouver relativement chers les Macs actuellement disponibles au catalogue Apple, mais leur prix me paraît quand même plus logique que je ne le pensais auparavant. Car la qualité des composants et de la finition n'est pas la même. On a tendance à comparer les fiches techniques des hackintosh à celles de Macs de haut de gamme, mais lorsqu'on ouvre les capots et qu'on y regarde de plus près, force est de constater qu'il y a quelques différences sensibles… Et lorsqu'on doit brancher et débrancher souvent les périphériques d'un hackintosh, on se dit que ces fabricants de PC sont bien arriérés !</p>
+
+<p>Monter un hackintosh m'a ainsi permis de réaliser de manière moins abstraite qu'il y a dans un Mac de la vraie R&amp;D spécifique à Apple, parce que le constructeur à la pomme a cherché à devancer le reste du marché dans certains domaines, notamment l'économie d'énergie ou la gestion de certains périphériques. Cela se traduit par des fonctionnalités qu'un hackintosh ne parvient toujours pas à reproduire aujourd'hui (exemple : pas de <i lang="en">hot plug</i> de périphériques Thunderbolt sur un hack), mais cela trahit aussi des spécificités matérielles qui doivent contribuer à renchérir le prix sortie usine d'un « vrai » Mac.</p>
+
+<p>Le problème est que ces spécificités doivent être amorties sur un bien plus faible nombre de machines que dans le modèle économique de l'iPhone, modèle où qui plus est, le haut de gamme de l'année passée (6s ou 6s Plus) peut devenir le milieu de gamme de cette année. Pas facile de faire ça avec les Macs où les nouveaux modèles poussent plutôt les anciens vers la sortie…</p>
+
+<p>Du coup, je me dis que si j'étais à la place d'Apple, je serais assez tenté de casser la compatibilité de macOS afin de pouvoir réaliser des économies d'échelle en mutualisant un plus grand nombre de composants avec les iDevices… Cela ferait sûrement crier beaucoup d'utilisateurs, mais n'est-ce pas la voie de l'avenir ?</p>
+
+<p>J'espère qu'une autre voie sera également explorée par Apple : dé-{bundler} écran et unité centrale et chercher à être compétitif en <i lang="en">build to order</i> dans un format <a href="http://macinpomme.fr/les-boites-a-pizza" title="Macintosh LC et assimilés">boîte à pizza</a>. Ce serait une vraie démarche écologique, car elle permettrait de mieux adapter les machines aux besoins réels des utilisateurs et de conserver plus longtemps les périphériques.</p>
+
+<p>Oui, les dirigeants d'Apple sont bien placés pour savoir que <a href="https://mondaynote.com/lazy-thinking-modularity-always-works-27257500a586" title="Lazy Thinking: Modularity Always Works (Jean Louis Gassée)" hreflang="en">la modularité ne paie pas toujours</a>, mais les années ont démontré que le Mac ne doit pas être vu comme un simple iPad. Par ailleurs, la lente décroissance des ventes de ce dernier permet de rappeller à Tim Cooke et à ses collègues  que même dans les pays très urbains, il y a toujours une demande pour les <a href="http://www.macg.co/aapl/2010/06/steve-jobs-le-pc-est-un-camion-76226/page/0/1" title="Steve Jobs : Le PC est un camion">SUVs et camionnettes</a>.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1"><p>Faut-il encore accuser les mémoires, disposées en <i lang="en">single channel</i> dans la performance CPU en multiple cœurs ?<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+</div></article>
+<div class="post-tools">[<a href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#disqus_thread" onclick="return(getComment('a201702130659','http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html'));" data-disqus-identifier="a201702130659">Réagir</a>]</div>
+</div><br />
+
+
 <div class="post"><article class="hentry">
 <h3 class="accent3 entry-title instapaper_title"><a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2017-02-08" class="timestamp">[&nbsp;mercredi 08 février 2017,&nbsp;06:21&nbsp;]</time>&nbsp;Jirōkaki, premier bilan et résumé</a></h3>
 <div class="post-full entry-content instapaper_body"><p>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">le pourquoi de la chose</a> et le <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">choix du matériel</a>.</p>
@@ -203,92 +297,6 @@ function getComment(threadId,refPageURL){
 </div><br />
 
 
-<div class="post"><article class="hentry">
-<h3 class="accent1 entry-title instapaper_title"><a href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2016-02-20" class="timestamp">[&nbsp;samedi 20 février 2016,&nbsp;14:50&nbsp;]</time>&nbsp;L'affaire Apple contre FBI</a></h3>
-<div class="post-full entry-content instapaper_body"><p>Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI.</p>
-
-<p>Ce billet fera l'objet de mises à jour périodiques. J'essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.</p>
-
-<p><em>{Mise à jour 24/2/2016 : nouvelles lettres ouvertes du FBI et d'Apple, et révélations d'Apple sur les demandes similaires l'opposant au gouvernement}</em> <br />
-<em>{Mise à jour 21/2/2016 : explication des circonstances de la remise à zéro du mot de passe iCloud de Syed Farook}</em></p>
-
-<ul>
-<li>Un <a href="http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php" title="LeFgaro.fr :Apple refuse d'aider à débloquer l'iPhone d'un des auteurs de la tuerie de San Bernardino" hreflang="fr">résumé</a> des débuts de la polémique.</li>
-</ul>
-
-<h3 id="miseencontextepolitique:pourquoichacunestconcern">Mise en contexte politique : pourquoi chacun est concerné</h3>
-
-<ul>
-<li><p><a href="http://www.un.org/fr/documents/udhr/#a12" title="Site de l'ONU" hreflang="fr">Article 12 de la Déclaration Universelle des Droits de l'Homme</a> :</p>
-
-<blockquote>
-  <p>« Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »</p>
-</blockquote></li>
-<li><p>À travers une récente interview du patron de la NSA, on notera cependant que, même après les révélations d'Edward Snowden et leurs conséquences, la NSA ainsi que la classe politique américaine continuent à considérer que la vie privée de ceux qui ne sont pas citoyens des États-Unis n'a guère d'importance. On pourra voir la séquence entre 6mn 56 et 9mn 45 de la <a href="http://www.lemonde.fr/pixels/article/2016/02/18/le-chiffrement-a-empeche-la-detection-des-attentats-de-paris-selon-le-chef-de-la-nsa_4867171_4408996.html" title="Le chiffrement a empêché la détection des attentats de Paris, selon la NSA">vidéo liée à cet article</a> et apprécier la différence de traitement entre les deux catégories de personnes.</p></li>
-<li><p>Coïncidence ? En Novembre dernier, le conseil national de sécurité US avait donné instruction aux agences gouvernementales de trouver des solutions pour <a href="http://www.bloomberg.com/news/articles/2016-02-19/secret-memo-details-u-s-s-broader-strategy-to-crack-phones" title="Secret Memo Details U.S.’s Broader Strategy to Crack Phones - Bloomberg" hreflang="en">contourner les techniques de chiffrement</a>.</p></li>
-</ul>
-
-<h3 id="lepositionnementpolitiquedapple">Le positionnement politique d'Apple</h3>
-
-<ul>
-<li><p>Comme toute entreprise, Apple doit se conformer à la loi des pays où elle opère et doit coopérer avec la justice. Cependant, Apple a graduellement durci sa position au cours des derniers mois. Les causes les plus visibles de ce durcissement semblent être :</p>
-
-<ul><li>les révélations d'Edward Snowden,</li>
-<li>la hausse du nombre de demandes reçues de la part des instances juridiques de différents pays (pour se faire une idée, voir les <a href="http://www.apple.com/fr/privacy/transparency-reports/" title="Rapports de transparence d'Apple" hreflang="fr")">rapports d'Apple</a>,</li>
-<li>la crainte de se retrouver confronté à des dilemmes moraux lorsque ces demandes proviennent de pays peu démocratiques,</li>
-<li>la fragilité juridique de certaines de ces demandes, y compris parmi celles venant des États-Unis.</li></ul></li>
-<li><p>Dans une affaire précédente à New York, Apple a déjà entamé une <a href="http://www.nytimes.com/2016/02/19/technology/a-yearlong-road-to-a-standoff-with-the-fbi.html" title="Apple’s Line in the Sand Was Over a Year in the Making (New York Times)" hreflang="en">confrontation avec le gouvernement</a> qui, entre autres questions, soulève celle de l'usage ambigü d'une loi datant du 18è siècle, le <a href="https://en.wikipedia.org/wiki/All_Writs_Act" title="Wikipedia" hreflang="en">All Writs Act</a>.</p></li>
-<li><p>Mais Apple voit clairement que, plutôt que la contestation judiciaire, <a href="http://www.apple.com/fr/privacy/government-information-requests/" title="Apple : Confidentialité - Demande d'informations" hreflang="fr">la plus efficace des protections</a> face à tout mandat un peu scabreux est de s'être placé bien en amont des faits dans l'impossibilité matérielle de s'y conformer. D'où une plus grande prudence dans la collecte des données auprès des utilisateurs et un investissement important dans la sécurisation des appareils et des données, en particulier à travers l'utilisation du chiffrement.</p></li>
-<li><p>Ce positionnement politique « <i>Vos données vous appartiennent, et n'appartiennent à personne d'autre</i> » pourrait aussi être vu comme un argument marketing visant à mettre en avant <a href="http://kieranhealy.org/blog/archives/2016/02/18/walled-garden/" title="k
-Kieran Healy : Walled Garden" hreflang="en">l'avantage compétitif</a> que donne à Apple la forte intégration entre le matériel et le logiciel qu'il développe. Ce serait cependant faire bien peu de cas du positionnement constant d'Apple en faveur des minorités et des <a href="http://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up" title="Tim Cook Speaks Up - Bloomberg" hreflang="en">positions</a> affichées publiquement par Tim Cook, le CEO d'Apple, <a href="https://www.washingtonpost.com/opinions/pro-discrimination-religious-freedom-laws-are-dangerous-to-america/2015/03/29/bdb4ce9e-d66d-11e4-ba28-f2a685dc7f89_story.html?tid=a_inl" title="Tim Cook: Pro-discrimination ‘religious freedom’ laws are dangerous - Washington Post" hreflang="en">à différentes reprises</a>.</p></li>
-</ul>
-
-<h3 id="lenqutesurlatueriedesanbernardino">L'enquête sur la tuerie de San Bernardino</h3>
-
-<ul>
-<li>Il y a de bonnes raisons de penser que, dans le cas présent, le FBI fait beaucoup plus de la politique que du travail d'enquête. Le FBI a déjà obtenu beaucoup de données et il est très probable que celles qui sont dans l'iPhone en question <a href="https://medium.com/@thegrugq/feeble-noise-pollution-627acb5931a2#.asckscja8" title="Feeble Noise Pollution - the grugq" hreflang="en">ne lui apporteraient guère plus</a>.</li>
-</ul>
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">FBI wants people to believe that Farook was using his work phone to contact other terrorist; not his private phone which he destroyed.</p>&mdash; the grugq (@thegrugq) <a href="https://twitter.com/thegrugq/status/700555611415556096">February 19, 2016</a></blockquote>
-
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Journalists: Crucial details in the <a href="https://twitter.com/FBI">@FBI</a> v. <a href="https://twitter.com/hashtag/Apple?src=hash">#Apple</a> case are being obscured by officials. Skepticism here is fair: <a href="https://t.co/lEVEvOxcNm">pic.twitter.com/lEVEvOxcNm</a></p>&mdash; Edward Snowden (@Snowden) <a href="https://twitter.com/Snowden/status/700823383961792512">February 19, 2016</a></blockquote>
-
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<ul>
-<li>Parmi les données dont le FBI dispose, beaucoup ont d'ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais <a href="https://twitter.com/CountyWire/status/700887823482630144" title="Tweet by San Bernardino County" hreflang="en">à la demande du FBI</a>, l'employeur de Syed Farook a remis à zéro à distance le mot de passe de son compte iCloud ce qui a entraîné <a href="http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613" title="The San Bernardino Terrorist's iCloud Password Was Reset By His Employer (Gizmodo)" hreflang="en">l'impossibilité de récupérer les dernières mises à jour de données sur l'iPhone en question via une sauvegarde dans le nuage</a>.</li>
-</ul>
-
-<h3 id="labataillejuridiquequisannonce">La bataille juridique qui s'annonce</h3>
-
-<ul>
-<li><p>La loi All Writs peut contraindre Apple à faire des efforts « raisonnables » pour aider les autorités. Mais la demande qui est faite à Apple <a href="http://www.zdziarski.com/blog/?p=5645" title="A forensics expert describes the intricate legal burden and consequences of the FBI's request to Apple" hreflang="en">diffère fondamentalement des précédentes</a> et il est très probable qu'Apple argumentera qu'il ne s'agirait plus là d'efforts raisonnables.</p></li>
-<li><p>Dans l'affaire de New York qui est encore en cours, cet argument semble <a href="https://www.eff.org/deeplinks/2015/10/judge-doj-not-all-writs" title="Judge to DOJ: Not All Writs" hreflang="en">avoir été pris en compte par un juge</a>. Ce même argument aurait plus de poids encore si la demande gouvernementale devait entraîner un recul de la sécurité pour tous les utilisateurs d'iPhone.</p></li>
-<li><p>Dans cette affaire de New York, Apple a révélé à la Cour qu'une quinzaine de demandes de déverrouillage d'iPhone lui ont été <a href="http://www.abreakingnews.com/m/?id=612037" title="Feds want to circumvent security on other phones (abreakingnews.com)" hreflang="en">soumises par le gouvernement américain</a>.</p></li>
-</ul>
-
-<h3 id="labatailletechniquequicontinue">La bataille technique qui continue</h3>
-
-<ul>
-<li><p>La demande du FBI démontre que, même si elle améliore grandement la sécurité de l'utilisateur qui prend des précautions raisonnables, l'intégration entre matériel et logiciel pratiquée par Apple reste <a href="http://daringfireball.net/linked/2016/02/17/ios-security-guide" title="John Gruber comments on Apple’s iOS security guide" hreflang="en">encore insuffisante face à des cas comme celui-ci</a>. L'on peut penser que les prochaines versions d'iOS ou les prochaines versions de l'iPhone iront <a href="https://www.mikeash.com/pyblog/friday-qa-2016-02-19-what-is-the-secure-enclave.html" title="NSBlog : What Is the Secure Enclave?" hreflang="en">encore plus loin</a>.</p></li>
-<li><p>Un hôpital américain, le Hollywood Presbyterian Medical Center, a été obligé de <a href="http://www.zone-numerique.com/le-hollywood-presbyterian-medical-center-verse-une-rancon-de-17-000-en-bitcoins-aux-pirates.html" title="Le Hollywood Presbyterian Medical Center contraint de verser une rançon de 17 000 $ en bitcoins aux pirates" hreflang="fr">verser une rançon</a> à des pirates informatiques. Démonstration s'il en était besoin qu'il serait fort malvenu de fragiliser la sécurité de l'utilisateur moyen et de laisser les malfrats profiter seuls d'un chiffrage fort.</p></li>
-</ul>
-
-<h3 id="lesprincipauxargumentsdesunsetdesautres">Les principaux arguments des uns et des autres</h3>
-
-<ul>
-<li><p>Apple et le FBI s'accordent sur la nécessité d'un débat public suffisamment éclairé.</p></li>
-<li><p>Celui-ci est susceptible de tourner autour de la <a href="http://www.numerama.com/politique/147608-pourquoi-apple-a-raison-de-proteger-les-droits-fondamentaux-contre-les-etats.html" title="Guillaume Champeau : Pourquoi Apple a raison de protéger les droits fondamentaux contre les États" hreflang="fr">question suivante</a>: les individus et les entreprises sont-ils seulement tenus de <em>respecter</em> les droits de l’homme , ou doivent-ils <em>protéger</em> les droits de l'homme, y compris contre les États ?</p></li>
-<li><p>Le FBI explique qu'il veut déverrouiller <a href="http://www.macg.co/aapl/2016/02/le-directeur-du-fbi-repond-tim-cook-93108" title="MacGeneration : le directeur du FBI répond à Tim Cook" hreflang="fr">uniquement l'iPhone de l'affaire de San Bernardino</a>, et ne cherche pas à créer un précédent.</p></li>
-<li><p>Apple reste sur sa position : plusieurs autres demandes de déverrouillage lui ont été soumises par le gouvernement et la demande du FBI créerait <a href="http://www.macg.co/aapl/2016/02/contre-le-fbi-apple-publie-une-faq-pour-rallier-lopinion-publique-93117" title="MacGeneration : Apple publie une FAQ pour rallier l'opinion publique" hreflang="fr">un dangereux précédent légal et technique</a>. Sur demande de la Justice, Apple a la possibilité et accepte d'extraire certaines données des iPhones (notamment lorsque ces iPhones sont sauvegardés dans le nuage iCloud), mais <strong>refuse</strong> totalement l'idée de déverrouiller un appareil, y compris lorsque cela lui est techniquement possible.</p></li>
-</ul>
-</div></article>
-<div class="post-tools">[<a href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html#disqus_thread" onclick="return(getComment('a201602201450','http://blog.barijaona.com/monde/recap_apple_cryptographie.html'));" data-disqus-identifier="a201602201450">Réagir</a>]</div>
-</div><br />
-
-
 
 <br /><br /></div></div>
 
@@ -333,14 +341,13 @@ Kieran Healy : Walled Garden" hreflang="en">l'avantage compétitif</a> que donne
 <tr>
 <td class="month-calendar-day-nolink Lundi">6</td>
 <td class="month-calendar-day-nolink Mardi">7</td>
-<td class="month-calendar-day-link Mercredi"><a title="Mercredi 8 février 2017" href="http://blog.barijaona.com/2017/02/index.html#0208">8</a></td><td class="month-calendar-day-this-day Jeudi">9</td>
-<td class="month-calendar-day-future Vendredi">10</td>
-<td class="month-calendar-day-future Samedi">11</td>
-<td class="month-calendar-day-future Dimanche">12</td>
+<td class="month-calendar-day-link Mercredi"><a title="Mercredi 8 février 2017" href="http://blog.barijaona.com/2017/02/index.html#0208">8</a></td><td class="month-calendar-day-nolink Jeudi">9</td>
+<td class="month-calendar-day-nolink Vendredi">10</td>
+<td class="month-calendar-day-nolink Samedi">11</td>
+<td class="month-calendar-day-nolink Dimanche">12</td>
 </tr>
 <tr>
-<td class="month-calendar-day-future Lundi">13</td>
-<td class="month-calendar-day-future Mardi">14</td>
+<td class="month-calendar-day-this-day Lundi"><a title="Lundi 13 février 2017" href="http://blog.barijaona.com/2017/02/index.html#0213">13</a></td><td class="month-calendar-day-future Mardi">14</td>
 <td class="month-calendar-day-future Mercredi">15</td>
 <td class="month-calendar-day-future Jeudi">16</td>
 <td class="month-calendar-day-future Vendredi">17</td>
@@ -380,7 +387,7 @@ Kieran Healy : Walled Garden" hreflang="en">l'avantage compétitif</a> que donne
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/monde/cop21_24h_apres.html" title="billet du 13 d&eacute;cembre 2015">&lt;-&nbsp;Deuxième bilan après la COP21</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/monde/recap_apple_cryptographie.html" title="billet du 20 f&eacute;vrier 2016">&lt;-&nbsp;L'affaire Apple contre FBI</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br />
