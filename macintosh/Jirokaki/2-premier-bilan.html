@@ -83,7 +83,7 @@
 
 <p>Sauf est que ma configuration est tellement stable que j'oublie très régulièrement cette précaution et effectue les mises à jour Apple comme sur un Mac ultra-basique… ce qui me confronte au problème ci-dessus et m'oblige alors à un hack temporaire pour retrouver toutes les fonctionnalités de ma machine.</p>
 
-<p>Je ne voudrais pas cependant que ces problèmes potentiels effrayent outre mesure le débutant. En cas de problème, on peut toujours rajouter <code>nv_disable=1</code> parmi les arguments de boot (il y a d'ailleurs une option pour cela directement dans les menus de Clover) afin d'avoir une machine à peu près fonctionnelle. D'autres solutions de contournement existent, mais je n'insisterai pas dessus car la solution n'est jamais très lointaine et il est généralement moins fatigant d'attendre quelques heures la sortie du driver officiel Nvidia.</p>
+<p>Je ne voudrais pas cependant que ces problèmes potentiels effrayent outre mesure le débutant. En cas de problème, on peut toujours rajouter <code>nv_disable=1</code> parmi les arguments de boot (il y a d'ailleurs une option pour cela directement dans les menus de Clover<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">2</a>) afin d'avoir une machine à peu près fonctionnelle. D'autres solutions de contournement existent, mais je n'insisterai pas dessus car la solution n'est jamais très lointaine et il est généralement moins fatigant d'attendre quelques heures la sortie du driver officiel Nvidia.</p>
 
 <h4 id="cequinemarchepas">5. Ce qui ne marche pas</h4>
 
@@ -93,7 +93,7 @@
 
 <p>La deuxième fonction qui me manque est l'hibernation. À travers une ligne de commande, il est en principe possible d'activer une fonction de veille très profonde, dans laquelle la mémoire vive est sauvegardée sur le disque dur et l'ordinateur n'a alors strictement plus besoin d'électricité. Au réveil, la machine peut recharger la mémoire à partir de la sauvegarde disque (ce qui demande quelques secondes) et l'on se retrouve exactement dans la configuration initiale.</p>
 
-<p>Sur mes "vrais" Macs de bureau, cette fonction d'hibernation avait marché un temps, puis les mises à jour logicielles ont cassé cette fonctionnalité. Malgré mes efforts et ma motivation<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">2</a>, je n'ai pas réussi à la faire fonctionner non plus sur mon hackintosh.</p>
+<p>Sur mes "vrais" Macs de bureau, cette fonction d'hibernation avait marché un temps, puis les mises à jour logicielles ont cassé cette fonctionnalité. Malgré mes efforts et ma motivation<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a>, je n'ai pas réussi à la faire fonctionner non plus sur mon hackintosh.</p>
 
 <h4 id="installationinitiale">6. Installation initiale</h4>
 
@@ -128,7 +128,7 @@
 
 <h4 id="lacartegraphique">9. La carte graphique</h4>
 
-<p>Rajouter <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331" title="Commit sur Github">ce patch dans config.plist/KernelAndKextPatches/KextsToPatch</a> pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.</p>
+<p>Rajouter <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331" title="Commit sur Github">ce patch dans config.plist/KernelAndKextPatches/KextsToPatch</a> pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, forcer une reconstruction du cache du kernel système par un <code>sudo touch /System/Library/Extensions/</code> suivi d'un redémarrage de l'ordinateur, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.</p>
 
 <h4 id="leson">10. Le son</h4>
 
@@ -146,7 +146,7 @@
 
 <ul>
 <li>télécharger le <a href="http://blog.barijaona.com/macintosh/Jirokaki/GA-Z170X-Gaming5-USBinjector.zip" title="Zip 1,4 Mo">kext "maison"</a> dont le rôle sera de contrôler l'injection des ports effectuée par Clover,</li>
-<li>choisir un maximum de 15 ports<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">3</a> USB2 + USB3 à partir des schémas fournis dans cette archive,</li>
+<li>choisir un maximum de 15 ports<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">4</a> USB2 + USB3 à partir des schémas fournis dans cette archive,</li>
 <li>modifier le fichier Info.plist dans GA_Z170X_G5_Injector.kext pour supprimer les ports que vous avez décidé de sacrifier,</li>
 <li>pour faciliter la mise en veille, mettre UsbConnector à 255 pour les ports à usage interne (par exemple, celui qui me sert à connecter la carte Bluetooth),</li>
 <li>placer le .kext ainsi modifié dans EFI/CLOVER/kexts/Other.</li>
@@ -248,6 +248,8 @@ sudo pmset autopoweroffdelay 288000</code></pre>
 - elle n'a donc pas besoin d'être réappliquée lors des mises à jour macOS, <br />
 - elle permet de maintenir actif en permanence la fonction SIP.<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
 
+<li id="fn:4"><p>Sélectionner dans Clover l'icône du volume de démarrage, appuyer sur la touche Espace, activez l'option qui vous intéresse (<i>Set Nvidia to VESA (nv_disable=1)</i>, puis l'option <i>Return<i>, avant de booter effectivement.<a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
 <li id="fn:2"><p>Ah, les coupures de courant de la <a href="http://www.doingbusiness.org/data/exploreeconomies/madagascar/getting-electricity" title="Doing business and getting electricity in Madagasacar" hreflang="en">Jirama</a>…<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
 
 <li id="fn:3"><p>Le contrôleur de macOS ne peut pas gérer plus de 15 ports, et une connexion physique USB3 prend deux ports logiques : une en USB2 et une en USB3.<a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
@@ -255,7 +257,7 @@ sudo pmset autopoweroffdelay 288000</code></pre>
 </ol>
 </div>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 13/2/2017 07:15</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 14/2/2017 01:27</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
