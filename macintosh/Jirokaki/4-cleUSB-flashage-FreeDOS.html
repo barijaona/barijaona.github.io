@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
+<title>Disposer d'une clé USB de secours pour flasher le BIOS : Étonnements rapides et durables</title>
+<meta name="DESCRIPTION" content="Mac-maniaque incurable" />
+<meta name="keywords" content="macintosh, print66, geek, madagascar, malgache, madagasikara, malagasy, barijaona, ramaholimihaso, blog" />
+<meta name="ICBM" content="-18.9079, 47.5333" />
+<meta name="geo.region" content="MG-T" />
+<meta name="viewport" content="initial-scale=1" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://blog.barijaona.com/favicon.ico" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/barijaona6.css" />
+<link rel="styleSheet" type="text/css" href="http://blog.barijaona.com/style/theme3.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/screenlayout6.css" />
+<link rel="styleSheet" type="text/css" media="screen" href="http://blog.barijaona.com/style/code.css" />
+<link rel="stylesheet" media="print" type="text/css" href="http://blog.barijaona.com/style/print.css" />
+<link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="http://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="http://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="http://blog.barijaona.com/shortened.xml" /><link rel="prev" href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" title="Jirōkaki, bilan performance/prix" />
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><header><a href="http://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><br /><br /><h2 class="dateofday">lundi 20 février 2017</h2>
+
+<div class="post"><article class="hentry">
+<h3 class="accent3 entry-title instapaper_title"><time datetime="2017-02-20" class="timestamp"><a href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;06:01&nbsp;]</a></time>&nbsp;Disposer d'une clé USB de secours pour flasher le BIOS</h3>
+<div class="post-full entry-content instapaper_body"><p>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS. C'est ce que je me suis aventuré à faire si vous avez lu les <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="La démarche de sélection et de commande du matériel">épisodes précédents</a>.</p>
+
+<p>Cela n'est largement plus un problème avec les cartes Gigabyte qui disposent d'un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n'arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).</p>
+
+<p>Néanmoins, je n'ai pas abordé mes tests avec les BIOS F20 ou plus récents sans quelque appréhension. Selon le site internet de Gigabyte, il ne serait pas possible de revenir vers des versions antérieures à la F20 une fois celle-ci installée.</p>
+
+<p>Sauf qu'il y a quand même une solution pour le faire, et cela passe par une clé USB de secours pour démarrer sous MS-DOS ou assimilé afin de sauvegarder le BIOS actuel et éventuellement le (re)flasher. Ceci est mon aide-mémoire sur la façon de créer une telle clé sous FreeDOS.</p>
+
+<p><strong>1.</strong> Télécharger et décompresser une image disque directement exécutable de FreeDOS. J'ai trouvé la mienne <a href="http://derek.chezmarcotte.ca/freedos-1-1-usb-boot-image" title="FreeDOS 1.1 USB Boot Image" hreflang="en">ici</a>, et elle s'appelle <code>fdos11.img</code>.</p>
+
+<p><strong>2.</strong> Formater avec "Utilitaire de disque" une clé USB ayant au moins un gigaoctet de capacité, au format "MS-DOS (FAT)", schéma "Enregistrement de démarrage principal (MBR)"<a href="#fn:0" id="fnref:0" title="see footnote" class="footnote">1</a>.</p>
+
+<p><strong>3.</strong> Transférer l'image disque sur la clé USB. On pourra utiliser un utilitaire comme <a href="https://etcher.io" title="Burn images to SD cards &amp; USB drives, safe &amp; easy." hreflang="en">Etcher</a> ou plus traditionnellement en repérant le point de montage de la clé USB et en utilisant la commande <code>dd</code> selon la séquence suivante.</p>
+
+<pre><code>&#036; diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            499.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *3.0 TB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS SNAPSHOT                511.3 GB   disk1s2
+   3:                  Apple_HFS BACKUP                  2.0 TB     disk1s3
+   4:                  Apple_HFS ARCHIVES_LT             488.7 GB   disk1s4
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *2.1 GB     disk2
+   1:                 DOS_FAT_32 USB-STICK               2.1 GB     disk2s1
+
+&#036; diskutil unmountDisk /dev/disk2
+Unmount of all volumes on disk2 was successful
+&#036; sudo dd bs=1m if=/chemin/du/fichier/fdos11.img of=/dev/disk2</code></pre>
+
+<p><strong>4.</strong> Recopier le contenu de <a href="http://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">cette archive</a> à la base de la clé<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">2</a>.</p>
+
+<p><strong>5.</strong> Redémarrer et entrer dans le BIOS. Si ce n'est déjà fait, sauvegardez votre profil actuel (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Save Profiles"</i>).</p>
+
+<p><strong>6.</strong> Réamorcez à partir de la clé (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Boot Override"</i>, <i lang="en">"General UDisk 5.00"</i>).</p>
+
+<p><strong>7.</strong> Les plus anciens savoureront un petit moment de nostalgie en redécouvrant les écrans du DOS… Lisez les instructions à l'écran et tapez : <code>fpt -d bios.sav</code> pour sauvegarder sur la clé USB votre BIOS actuel et l'ensemble de sa configuration.</p>
+
+<p><strong>8.</strong> Une fois l'opération de sauvegarde terminée avec succès, il ne reste plus qu'à redémarrer avec un <code>reboot</code> ou la bonne vieille combinaison de touches Control-Alt-Del…</p>
+
+<p>Nous disposons maintenant d'une bonne solution de secours. Si vous voulez retrouver votre BIOS "antique", il vous suffira de refaire l'étape 6 et suivre les instructions à l'écran…</p>
+
+<p>L'espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser <a href="https://unetbootin.github.io" title="UNetbootin allows you to create bootable USB drives" hreflang="en">UNetbootin</a> pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a>. Ensuite, recopier sur la clé successivement les contenus de l'image disque <code>fdos11.img</code> et de la <a href="http://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">petite archive</a> déjà cités précédemment. Par la suite, rechercher où se trouve le fichier <code>syslinux.cfg</code> et rajouter au bon endroit une entrée de ce genre :</p>
+
+<pre><code>LABEL FreeDos
+  # MENU DEFAULT
+  # MENU HIDE
+  MENU LABEL Load FreeDOS 1.1 (8086+, FAT32)
+  # MENU PASSWD
+  TEXT HELP
+  Load FreeDOS now
+  ENDTEXT
+  com32 /fdos/bin/chain.c32
+  append freedos=/fdos/bin/kernel.sys</code></pre>
+
+<p>Le reste sans grand changement pour les étapes 6 à 8, sauf que le secteur d'amorçage devrait s'appeler "Generic USB driver" ou quelque chose d'approchant.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:0"><p>Il faut parfois s'y prendre à plusieurs fois pour y arriver.<a href="#fnref:0" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:1"><p>Certains fichiers de cette archive ont été récupérés de l'adresse http://www.mediafire.com/file/p66jhts7cfi26y8/fpt_DOS-Z170.zip<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:2"><p>Pour ma part, j'ai installé GParted.<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 20/2/2017 06:31</span><br /></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'barijaona-blog';
+    var disqus_identifier='a201702200601';
+    var disqus_url='http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">Commentaires du blog hébergés par <span class="logo-disqus">Disqus</span></a>
+
+</div><br />
+
+<br /><em>Billet classé dans la catégorie :</em> <a href="http://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/macintosh/index.html">Macintosh</a>&nbsp;&gt;&nbsp;<a href="http://blog.barijaona.com/macintosh/Jirokaki/index.html">Jirokaki</a>&nbsp;&gt;&nbsp;4 CleUSB Flashage FreeDOS
+<br /><br /></div></div>
+
+<nav><div class="topnav">
+<span class="theme1">&nbsp;<a href="http://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="http://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="http://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="http://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="http://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="http://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br />
+<div class="nav1">&nbsp;<a href="http://blog.barijaona.com/macintosh/" class="submenu" title="Le présent">Actualités</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/macosx.html" class="submenu" title="Les débuts de l'ère moderne">MacOS X</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/os8et9.html" class="submenu" title="Le passé...">MacOS classique</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/macintosh/macrules.html" class="submenu" title="Guerre de religions ?">Pourquoi ?</a>&nbsp;|&nbsp;<a href="http://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div></nav>
+
+<aside><div class="nav2">
+
+
+<div class="box">
+<div class="search">
+<form method="get" id="search" action="https://duckduckgo.com/">
+   <label for="motcle" accesskey="4">Rechercher dans le site</label>
+   <input type="text" name="q" id="motcle" maxlength="255" placeholder="mot(s) clé(s)"/>
+   <input type="hidden" name="sites" value="barijaona.com"/>
+   <input type="hidden" name="kj" value="#7F7F7F"/>
+   <input type="submit" value="Rechercher" />
+</form>
+</div>
+
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
+
+</div></aside>
+
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" title="billet du 13 f&eacute;vrier 2017">&lt;-&nbsp;Jirōkaki, bilan performance/prix</a></div></div></nav>
+
+<footer><div class="contentfooter">
+<br />
+<div class="source-org vcard copyright">
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2017 Barijaona Ramaholimihaso</div><br />Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "SmE28OKlB@cESODEKlE.2KG"
+  key = "s1mFOjarbKtnukgZ6p39RQMBNGHCDEScU8lI5J7fVe4ixzWYoAydPh2LvqT0wX"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>reactions (arobace) barijaona.com</noscript>
+
+</div></footer>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-598147-1";
+urchinTracker();
+</script>
+
+</body>
+</html>

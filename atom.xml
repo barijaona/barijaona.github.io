@@ -16,7 +16,103 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2017-02-13T22:48:00Z</updated>
+  <updated>2017-02-20T03:31:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2017:/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
+
+    <title type="text">Disposer d'une clé USB de secours pour flasher le BIOS</title>
+    <published>2017-02-20T03:01:00Z</published>
+    <updated>2017-02-20T03:31:00Z</updated>
+    <category term="/macintosh/Jirokaki"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS. C'est ce que je me suis aventuré à faire si vous avez lu les <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="La démarche de sélection et de commande du matériel">épisodes précédents</a>.</p>
+
+<p>Cela n'est largement plus un problème avec les cartes Gigabyte qui disposent d'un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n'arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).</p>
+
+<p>Néanmoins, je n'ai pas abordé mes tests avec les BIOS F20 ou plus récents sans quelque appréhension. Selon le site internet de Gigabyte, il ne serait pas possible de revenir vers des versions antérieures à la F20 une fois celle-ci installée.</p>
+
+<p>Sauf qu'il y a quand même une solution pour le faire, et cela passe par une clé USB de secours pour démarrer sous MS-DOS ou assimilé afin de sauvegarder le BIOS actuel et éventuellement le (re)flasher. Ceci est mon aide-mémoire sur la façon de créer une telle clé sous FreeDOS.</p>
+
+<p><strong>1.</strong> Télécharger et décompresser une image disque directement exécutable de FreeDOS. J'ai trouvé la mienne <a href="http://derek.chezmarcotte.ca/freedos-1-1-usb-boot-image" title="FreeDOS 1.1 USB Boot Image" hreflang="en">ici</a>, et elle s'appelle <code>fdos11.img</code>.</p>
+
+<p><strong>2.</strong> Formater avec "Utilitaire de disque" une clé USB ayant au moins un gigaoctet de capacité, au format "MS-DOS (FAT)", schéma "Enregistrement de démarrage principal (MBR)"<a href="#fn:0" id="fnref:0" title="see footnote" class="footnote">1</a>.</p>
+
+<p><strong>3.</strong> Transférer l'image disque sur la clé USB. On pourra utiliser un utilitaire comme <a href="https://etcher.io" title="Burn images to SD cards &amp; USB drives, safe &amp; easy." hreflang="en">Etcher</a> ou plus traditionnellement en repérant le point de montage de la clé USB et en utilisant la commande <code>dd</code> selon la séquence suivante.</p>
+
+<pre><code>&#036; diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            499.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *3.0 TB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS SNAPSHOT                511.3 GB   disk1s2
+   3:                  Apple_HFS BACKUP                  2.0 TB     disk1s3
+   4:                  Apple_HFS ARCHIVES_LT             488.7 GB   disk1s4
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *2.1 GB     disk2
+   1:                 DOS_FAT_32 USB-STICK               2.1 GB     disk2s1
+
+&#036; diskutil unmountDisk /dev/disk2
+Unmount of all volumes on disk2 was successful
+&#036; sudo dd bs=1m if=/chemin/du/fichier/fdos11.img of=/dev/disk2</code></pre>
+
+<p><strong>4.</strong> Recopier le contenu de <a href="http://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">cette archive</a> à la base de la clé<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">2</a>.</p>
+
+<p><strong>5.</strong> Redémarrer et entrer dans le BIOS. Si ce n'est déjà fait, sauvegardez votre profil actuel (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Save Profiles"</i>).</p>
+
+<p><strong>6.</strong> Réamorcez à partir de la clé (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Boot Override"</i>, <i lang="en">"General UDisk 5.00"</i>).</p>
+
+<p><strong>7.</strong> Les plus anciens savoureront un petit moment de nostalgie en redécouvrant les écrans du DOS… Lisez les instructions à l'écran et tapez : <code>fpt -d bios.sav</code> pour sauvegarder sur la clé USB votre BIOS actuel et l'ensemble de sa configuration.</p>
+
+<p><strong>8.</strong> Une fois l'opération de sauvegarde terminée avec succès, il ne reste plus qu'à redémarrer avec un <code>reboot</code> ou la bonne vieille combinaison de touches Control-Alt-Del…</p>
+
+<p>Nous disposons maintenant d'une bonne solution de secours. Si vous voulez retrouver votre BIOS "antique", il vous suffira de refaire l'étape 6 et suivre les instructions à l'écran…</p>
+
+<p>L'espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser <a href="https://unetbootin.github.io" title="UNetbootin allows you to create bootable USB drives" hreflang="en">UNetbootin</a> pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a>. Ensuite, recopier sur la clé successivement les contenus de l'image disque <code>fdos11.img</code> et de la <a href="http://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">petite archive</a> déjà cités précédemment. Par la suite, rechercher où se trouve le fichier <code>syslinux.cfg</code> et rajouter au bon endroit une entrée de ce genre :</p>
+
+<pre><code>LABEL FreeDos
+  # MENU DEFAULT
+  # MENU HIDE
+  MENU LABEL Load FreeDOS 1.1 (8086+, FAT32)
+  # MENU PASSWD
+  TEXT HELP
+  Load FreeDOS now
+  ENDTEXT
+  com32 /fdos/bin/chain.c32
+  append freedos=/fdos/bin/kernel.sys</code></pre>
+
+<p>Le reste sans grand changement pour les étapes 6 à 8, sauf que le secteur d'amorçage devrait s'appeler "Generic USB driver" ou quelque chose d'approchant.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:0"><p>Il faut parfois s'y prendre à plusieurs fois pour y arriver.<a href="#fnref:0" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:1"><p>Certains fichiers de cette archive ont été récupérés de l'adresse http://www.mediafire.com/file/p66jhts7cfi26y8/fpt_DOS-Z170.zip<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:2"><p>Pour ma part, j'ai installé GParted.<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/macintosh/Jirokaki/3-bilan-performance-prix-qualite</id>
@@ -24,7 +120,7 @@
 
     <title type="text">Jirōkaki, bilan performance/prix</title>
     <published>2017-02-13T03:59:00Z</published>
-    <updated>2017-02-13T04:08:00Z</updated>
+    <updated>2017-02-17T04:09:00Z</updated>
     <category term="/macintosh/Jirokaki"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -48,10 +144,10 @@
 <thead>
 <tr>
 	<th> </th>
-	<th><a href="http://www.macg.co/tests/2015/10/test-de-limac-215-retina-4k-fin-2015-91515">iMac Retina 21,5" Core i5 3,1 GHz fin 2015</a></th>
-	<th><a href="https://www.macg.co/tests/2015/10/test-de-limac-27-retina-5k-core-i5-32-ghz-skylake-fin-2015-91572">iMac Retina 27" Core i5 3,2 GHz fin 2015</a></th>
+	<th><a href="http://www.macg.co/tests/2015/10/test-de-limac-215-retina-4k-fin-2015-91515">iMac Retina 21,5" Core i5 3,1 GHz fin 2015</a></th>
+	<th><a href="https://www.macg.co/tests/2015/10/test-de-limac-27-retina-5k-core-i5-32-ghz-skylake-fin-2015-91572">iMac Retina 27" Core i5 3,2 GHz fin 2015</a></th>
 	<th><a href="https://www.macg.co/tests/2015/12/test-de-limac-27-retina-5k-core-i7-4-ghz-skylake-fusion-drive-fin-2015-92106">iMac Retina 27" Core i7 4,0 GHz fin 2015</a></th>
-	<th>Jirōkaki Core i5 3,9 Ghz</th>
+	<th>Jirōkaki Core i5 3,5 Ghz</th>
 </tr>
 </thead>
 <tbody>
@@ -129,7 +225,7 @@
 
     <title type="text">Jirōkaki, premier bilan et résumé</title>
     <published>2017-02-08T03:21:00Z</published>
-    <updated>2017-02-13T22:48:00Z</updated>
+    <updated>2017-02-20T03:24:00Z</updated>
     <category term="/macintosh/Jirokaki"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -271,7 +367,7 @@
 
     <title type="text">Projet Jirōkaki (次郎柿)</title>
     <published>2016-08-28T16:58:00Z</published>
-    <updated>2017-02-13T04:15:00Z</updated>
+    <updated>2017-02-20T02:29:00Z</updated>
     <category term="/macintosh/Jirokaki"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -283,31 +379,6 @@
 
 <p><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html#more" class="seemore">Lire la suite...</a></p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2016:/monde/Alexander-Van-der-Bellen</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
-
-    <title type="text">Un vieux avec un discours très frais</title>
-    <published>2016-05-23T22:43:00Z</published>
-    <updated>2017-01-14T05:29:00Z</updated>
-    <category term="/monde"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Ses détracteurs et la plupart des marketeurs politiques ont sans doute de bonnes raisons de le décrire comme un hommme trop mou, trop calme, trop post-soixante huitard…</p>
-
-<p>N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de ce genre de discours trop long, trop calme, mais surtout très frais.</p>
-
-<p>(Ce genre de discours est tellement inaudible de nos jours qu'il faut cliquez sur l'icône de haut-parleur pour l'entendre)</p>
-
-<iframe src="//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="560" height="410"></iframe>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

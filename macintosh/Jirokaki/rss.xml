@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
@@ -34,6 +35,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
+	<title>Disposer d&apos;une clé USB de secours pour flasher le BIOS</title>
+	<link>http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
+	<description>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS...</description>
+	<dc:subject>/macintosh/Jirokaki</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-02-20T06:01:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
 	<title>Jirōkaki, bilan performance/prix</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html</link>

@@ -126,6 +126,8 @@
 <li>on obtient les fichiers .dsl qui pourront être utilisés avec MaciASL.</li>
 </ul>
 
+<p><strong>Note :</strong> cette étape est sans doute à recommencer si l'on flashe un autre BIOS.</p>
+
 <h4 id="lacartegraphique">9. La carte graphique</h4>
 
 <p>Rajouter <a href="https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331" title="Commit sur Github">ce patch dans config.plist/KernelAndKextPatches/KextsToPatch</a> pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, forcer une reconstruction du cache du kernel système par un <code>sudo touch /System/Library/Extensions/</code> suivi d'un redémarrage de l'ordinateur, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.</p>
@@ -257,7 +259,7 @@ sudo pmset autopoweroffdelay 288000</code></pre>
 </ol>
 </div>
 </div></article>
-<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 14/2/2017 01:48</span><br /></div>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> 20/2/2017 06:24</span><br /></div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
