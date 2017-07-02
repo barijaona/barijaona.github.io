@@ -16,7 +16,36 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>http://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2017-02-20T03:31:00Z</updated>
+  <updated>2017-07-02T06:34:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2017:/monde/Veil_Pantheon_2007</id>
+    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
+
+    <title type="text">Panthéon</title>
+    <published>2017-07-02T06:25:00Z</published>
+    <updated>2017-07-02T06:34:00Z</updated>
+    <category term="/monde"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>http://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
+&lt;p&gt;&lt;a href=&quot;http://www.lemonde.fr/disparitions/article/2017/06/30/mort-de-simone-veil-icone-de-la-lutte-pour-les-droits-des-femmes_5153554_3382.html?xtor=RSS-3208&quot; title=&quot;Mort de Simone Veil, icône de la lutte pour les droits des femmes. LeMonde.fr&quot;&gt;L'histoire de cette femme est étonnante&lt;/a&gt; et incroyablement riche en leçons.&lt;/p&gt;
+
+&lt;p&gt;En ce qui me concerne, j'avais été particulièrement frappé par la découverte relativement tardive du fait qu'elle était une survivante de la Shoah. J'admirais (et j'admire toujours) le fait que malgré ces terribles épreuves, le ressentiment ou la haine n'ont eu aucune prise sur elle.&lt;/p&gt;
+
+&lt;p&gt;Ce douloureux épisode de sa vie a semble-t-il été à l'origine de ses convictions pro-européennes. «&lt;cite&gt;Si je m'engage aussi pleinement sur la question de l'Europe, c'est pour tirer la leçon de mon passé&lt;/cite&gt;», disait-elle dans un discours du 5 juin 1979. «&lt;cite&gt;Le fait d'avoir fait l'Europe m'a réconciliée avec le XXe siècle&lt;/cite&gt;», assurait-elle encore.&lt;/p&gt;
+
+&lt;p&gt;Depuis 48 heures, les appels à ce que Simone Veil entre au Panthéon se multiplient. N'étant pas Français, j'évite de me prononcer dessus.&lt;/p&gt;
+
+&lt;p&gt;Le 10 janvier 2007, elle y prononçait toutefois un discours remarquable, qui la fait entrer encore plus dans mon Panthéon personnel.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe allowfullscreen width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1' &gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://blog.barijaona.com/monde/Veil_Pantheon_2007.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS</id>
@@ -358,27 +387,6 @@ Unmount of all volumes on disk2 was successful
 
 <p><a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html#more" class="seemore">Lire la suite...</a></p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2016:/macintosh/Jirokaki/0-introduction</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
-
-    <title type="text">Projet Jirōkaki (次郎柿)</title>
-    <published>2016-08-28T16:58:00Z</published>
-    <updated>2017-02-20T02:29:00Z</updated>
-    <category term="/macintosh/Jirokaki"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>http://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p><img src="http://blog.barijaona.com/macintosh/Jirokaki/vienna-3.png" width="128px" height="128px" style="float:left;" alt="Icône de Vienna RSS" />Étant devenu l'un des principaux <a href="https://github.com/ViennaRSS/vienna-rss/graphs/contributors" title="Contributors list on Github" hreflang="en">développeurs</a> actuels (si ce n'est le principal développeur) de <a href="http://www.vienna-rss.org" title="RSS/Atom reader for Mac OS X" hreflang="en">Vienna RSS</a>, j'ai été fort embêté en apprenant lors de la dernière <a href="https://fr.wikipedia.org/wiki/Worldwide_Developers_Conference" title="Worldwide Developers Conference sur Wikipedia">WWDC</a> que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10.12).</p>
-
-<p><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html#more" class="seemore">Lire la suite...</a></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

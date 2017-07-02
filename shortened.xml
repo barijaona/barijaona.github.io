@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
+	<title>Panthéon</title>
+	<link>http://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
+	<description>L'histoire de cette femme est étonnante et incroyablement riche en leçons...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
 	<title>Disposer d&apos;une clé USB de secours pour flasher le BIOS</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
@@ -101,15 +110,6 @@ Sting à la voix, Ibrahim Maalouf à la trompette, Dominic et Rufus Miller aux g
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-08-28T22:56:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html">
-	<title>Projet Jirōkaki (次郎柿)</title>
-	<link>http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html</link>
-	<description>Étant devenu l'un des principaux développeurs actuels (si ce n'est le principal développeur) de Vienna RSS, j'ai été fort embêté en apprenant lors de la dernière WWDC que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10...</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-08-28T19:58:00+03:00</dc:date>
 
 </item>
 
