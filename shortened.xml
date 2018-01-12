@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/leon.html">
+	<title>Léon</title>
+	<link>http://blog.barijaona.com/equipe/evenements/leon.html</link>
+	<description>Léon Rajaobelina, c'était un peu mon père en écologie...</description>
+	<dc:subject>/equipe/evenements</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
 	<title>Panthéon</title>
 	<link>http://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
@@ -101,15 +110,6 @@ Sting à la voix, Ibrahim Maalouf à la trompette, Dominic et Rufus Miller aux g
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-11-13T17:13:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
-	<title>Jirōkaki, le choix du matériel</title>
-	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>
-	<description>La démarche de fabriquer un hackintosh ayant été expliquée, le moment semble venu d'expliquer le choix du matériel...</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-08-28T22:56:00+03:00</dc:date>
 
 </item>
 

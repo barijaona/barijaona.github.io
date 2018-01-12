@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,30 @@
 
   </channel>
   
+<item rdf:about="http://blog.barijaona.com/equipe/evenements/leon.html">
+	<title>Léon</title>
+	<link>http://blog.barijaona.com/equipe/evenements/leon.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Léon Rajaobelina, c&apos;était un peu mon père en écologie. Mieux que quiconque, il m&apos;avait fait comprendre les liens entre la nature et le développement humain, et il m&apos;avait éclairé sur le pourquoi et le comment de la politique à long terme de protection de l&apos;environnement à Madagascar.&lt;/p&gt;
+
+&lt;p&gt;Politique ambitieuse qu&apos;il défendait avec conviction, sans ignorer les difficultés dans sa mise en œuvre. &lt;/p&gt;
+
+&lt;p&gt;Inspirateur et fondateur de la Fondation pour les Aires Protégées et la Biodiversité de Madagascar, il lui a donné non seulement une direction, mais aussi une âme et une éthique. Il a apporté à la &lt;a href=&quot;http://www.fapbm.org&quot; title=&quot;Fondation pour les Aires Protégées et la Biodiversité de Madagascar&quot;&gt;FAPBM&lt;/a&gt; son immense expérience de financier, de diplomate, de passionné de la nature et de grand commis de l&apos;État. Sans même parler de son immense carnet d&apos;adresses, sans lesquels la Fondation ne serait certainement pas ce qu&apos;elle est aujourd&apos;hui.&lt;/p&gt;
+
+&lt;p&gt;Rigoureux, il n&apos;en était pas moins bienveillant. Exigeant, il n&apos;en était pas moins souriant. Plein d&apos;expérience, il n&apos;en était pas moins discret. &lt;/p&gt;
+
+&lt;p&gt;J&apos;aime beaucoup cette photo prise en juin 2015, à la fin de la soirée de célébration des dix ans de la FAPBM. Elle me rappelle que les personnalités doivent avoir la grandeur de s&apos;effacer derrière les institutions qu&apos;elles ont l&apos;honneur de servir, mais aussi que la présence de fortes personnalités n&apos;est pas indifférente au succès des institutions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blog.barijaona.com/equipe/evenements/celebration_10ans_fapbm.jpg&quot; alt=&quot;Trois présidents de la FAPBM&quot; width=&quot;448&quot; height=&quot;299&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Léon m&apos;avait fait part de sa maladie il y a quelques semaines. Le choc de son décès n&apos;en reste pas moins immense.&lt;/p&gt;
+
+&lt;p&gt;Qu&apos;il repose en paix, et que sa famille puisse trouver le réconfort.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/equipe/evenements/leon.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/equipe/evenements</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
+
+</item>
 <item rdf:about="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
 	<title>Panthéon</title>
 	<link>http://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
@@ -324,18 +348,6 @@ Unmount of all volumes on disk2 was successful
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-11-13T17:13:00+03:00</dc:date>
-
-</item>
-<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html">
-	<title>Jirōkaki, le choix du matériel</title>
-	<link>http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki&quot;&gt;La démarche de fabriquer un hackintosh ayant été expliquée&lt;/a&gt;, le moment semble venu d&apos;expliquer le choix du matériel.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-08-28T22:56:00+03:00</dc:date>
 
 </item>
 
