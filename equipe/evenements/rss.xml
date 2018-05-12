@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,12 +22,12 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/leon.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/andy-naissance.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/ialy-naissance.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/poussins.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/25juin2005.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/leon.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/andy-naissance.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/ialy-naissance.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/poussins.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/25juin2005.html" />
 
       </rdf:Seq>
     </items>
@@ -36,7 +36,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/leon.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/leon.html">
 	<title>Léon</title>
 	<link>http://blog.barijaona.com/equipe/evenements/leon.html</link>
 	<description>Léon Rajaobelina, c'était un peu mon père en écologie...</description>
@@ -45,7 +45,7 @@
 	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html">
 	<title>Message de service</title>
 	<link>http://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html</link>
 	<description>Message de service, car je n'ai pas trop envie de répéter la même chose trop souvent, et que le fait ici relaté risque d'être bien placé dans les pages des faits divers de ce lundi...</description>
@@ -54,7 +54,7 @@
 	<dc:date>2015-02-09T00:40:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/andy-naissance.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/andy-naissance.html">
 	<title>Bien au contraire, plein de vie...</title>
 	<link>http://blog.barijaona.com/equipe/evenements/andy-naissance.html</link>
 	<description>Je rassure Vola, les dinosaures ne meurent pas à dix ans...</description>
@@ -63,7 +63,7 @@
 	<dc:date>2008-06-27T05:22:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/ialy-naissance.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/ialy-naissance.html">
 	<title>Fondant</title>
 	<link>http://blog.barijaona.com/equipe/evenements/ialy-naissance.html</link>
 	<description>Sur le coup, j'ai été tenté de reprendre l'ancien titre du blog "Étonnements rapides et durables"...</description>
@@ -72,7 +72,7 @@
 	<dc:date>2006-11-06T07:24:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/poussins.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/poussins.html">
 	<title>À dix ans, j&apos;étais mère porteuse...</title>
 	<link>http://blog.barijaona.com/equipe/evenements/poussins.html</link>
 	<description>&lt;psychoanalysis mode&gt;
@@ -83,7 +83,7 @@ Voilà où peut mener la geekerie...</description>
 	<dc:date>2005-07-13T06:24:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/25juin2005.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/25juin2005.html">
 	<title>Rencontre viagière...</title>
 	<link>http://blog.barijaona.com/equipe/evenements/25juin2005.html</link>
 	<description>À la naissance de ce site, la mode n'était point aux blogs, mais aux pages personnelles, qui tombaient assez facilement dans le piège du "Papa, Maman, mon chien et moi...</description>

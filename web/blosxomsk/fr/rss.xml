@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Sous la Croix du Sud</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahaneur d'octets austraux depuis 1998</description>
@@ -22,7 +22,7 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html" />
 
       </rdf:Seq>
     </items>
@@ -31,7 +31,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html">
+<item rdf:about="//blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html">
 	<title>Retour en mode bricolage</title>
 	<link>http://blog.barijaona.com/web/blosxomsk/fr/annonce_20040921.html</link>
 	<description>Oyez, oyez, braves gens : le maître de céans s'excuse, mais il semble qu'il soit condamné aux éclipses annuelles vers la fin du mois d'Août et le début du mois de Septembre...</description>

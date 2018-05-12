@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,13 +22,13 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/alternatives-google-reader.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/opensource2010-10.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/iphone.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/macworld2007-avant.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/chevrolet.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/spam.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/innovant/innovation.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/alternatives-google-reader.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/opensource2010-10.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/iphone.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/macworld2007-avant.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/chevrolet.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/spam.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/innovant/innovation.html" />
 
       </rdf:Seq>
     </items>
@@ -37,7 +37,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/innovant/alternatives-google-reader.html">
+<item rdf:about="//blog.barijaona.com/innovant/alternatives-google-reader.html">
 	<title>Après Google Reader, quelles alternatives ?</title>
 	<link>http://blog.barijaona.com/innovant/alternatives-google-reader.html</link>
 	<description>Google Reader est bientôt mort, et l'on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu'un aggrégateur local de fils RSS ...</description>
@@ -47,7 +47,7 @@
     <dc:date>2013-04-02T07:21:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/innovant/opensource2010-10.html">
+<item rdf:about="//blog.barijaona.com/innovant/opensource2010-10.html">
 	<title>De l&apos;ouverture et de l&apos;amateurisme</title>
 	<link>http://blog.barijaona.com/innovant/opensource2010-10.html</link>
 	<description>Ce blog n'était absolument pas en sommeil, il était en mode maintenance...</description>
@@ -57,7 +57,7 @@
     <dc:date>2010-10-17T08:11:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/innovant/iphone.html">
+<item rdf:about="//blog.barijaona.com/innovant/iphone.html">
 	<title>Ce n&apos;est même pas pour moi...</title>
 	<link>http://blog.barijaona.com/innovant/iphone.html</link>
 	<description>
@@ -72,7 +72,7 @@ Non, c'est mon père qui a craqué...</description>
     <dc:date>2007-11-23T05:16:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/innovant/macworld2007-avant.html">
+<item rdf:about="//blog.barijaona.com/innovant/macworld2007-avant.html">
 	<title>C&apos;est le jour des spéculations...</title>
 	<link>http://blog.barijaona.com/innovant/macworld2007-avant.html</link>
 	<description>Il y a 30 ans : 
@@ -90,7 +90,7 @@ Qui déjà parmi les blogueurs malgaches se plaignait de la lenteur de sa connex
     <dc:date>2007-01-09T06:56:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/innovant/chevrolet.html">
+<item rdf:about="//blog.barijaona.com/innovant/chevrolet.html">
 	<title>Échappement libre</title>
 	<link>http://blog.barijaona.com/innovant/chevrolet.html</link>
 	<description>Lorsqu'une grande entreprise, croyant créer un buzz favorable, incite le consommateur à faire l'éloge de son produit...</description>
@@ -100,7 +100,7 @@ Qui déjà parmi les blogueurs malgaches se plaignait de la lenteur de sa connex
     <dc:date>2006-03-31T05:55:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/innovant/spam.html">
+<item rdf:about="//blog.barijaona.com/innovant/spam.html">
 	<title>Pratique du Don Quichottisme</title>
 	<link>http://blog.barijaona.com/innovant/spam.html</link>
 	<description>Dix ans d'internet commercial, et dix ans de gouttes d'internet africain dans un océan américain :
@@ -113,7 +113,7 @@ Qui déjà parmi les blogueurs malgaches se plaignait de la lenteur de sa connex
     <dc:date>2005-08-24T13:55:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/innovant/innovation.html">
+<item rdf:about="//blog.barijaona.com/innovant/innovation.html">
 	<title>Bonne question posée à des personnes inadéquates </title>
 	<link>http://blog.barijaona.com/innovant/innovation.html</link>
 	<description>Autant demander à un caniche ce qu'il pense des pumas argentins...</description>

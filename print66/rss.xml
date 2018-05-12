@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Tempêtes et verre de toaka gasy</title>
     <link>http://blog.barijaona.com</link>
     <description>Vue imprenable des bas-cotés de la planète, à Antananarivo.</description>
@@ -22,10 +22,10 @@
 
     <items>
       <rdf:Seq>
-      <rdf:li rdf:resource="http://blog.barijaona.com/print66/presentation.html" />
-      <rdf:li rdf:resource="http://blog.barijaona.com/print66/setup.html" />
-      <rdf:li rdf:resource="http://blog.barijaona.com/print66/faq.html" />
-      <rdf:li rdf:resource="http://blog.barijaona.com/print66/legal.html" />
+      <rdf:li rdf:resource="//blog.barijaona.com/print66/presentation.html" />
+      <rdf:li rdf:resource="//blog.barijaona.com/print66/setup.html" />
+      <rdf:li rdf:resource="//blog.barijaona.com/print66/faq.html" />
+      <rdf:li rdf:resource="//blog.barijaona.com/print66/legal.html" />
 
       </rdf:Seq>
     </items>
@@ -34,7 +34,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/print66/presentation.html">
+<item rdf:about="//blog.barijaona.com/print66/presentation.html">
 	<title>Print66, a free print server for the Macintosh</title>
 	<link>http://blog.barijaona.com/print66/presentation.html</link>
 	<description>This document can be retrieved at http://homepage...</description>
@@ -44,7 +44,7 @@
     <dc:date>2003-12-28T21:07:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/print66/setup.html">
+<item rdf:about="//blog.barijaona.com/print66/setup.html">
 	<title>Setting Up</title>
 	<link>http://blog.barijaona.com/print66/setup.html</link>
 	<description>Setting up Print66 on a Macintosh server
@@ -56,7 +56,7 @@ Print66 looks for a folder called "Spool Folder" in your system folder and a tex
     <dc:date>2003-12-28T13:11:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/print66/faq.html">
+<item rdf:about="//blog.barijaona.com/print66/faq.html">
 	<title>Print66 Frequently Asked Questions</title>
 	<link>http://blog.barijaona.com/print66/faq.html</link>
 	<description>
@@ -72,7 +72,7 @@ Can I use Print66 to print from a Macintosh to another computer via TCP/IP ...</
     <dc:date>2003-12-28T13:03:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/print66/legal.html">
+<item rdf:about="//blog.barijaona.com/print66/legal.html">
 	<title>Legal warning</title>
 	<link>http://blog.barijaona.com/print66/legal.html</link>
 	<description>The program is provided "as is" and without warranty, express and implied, including but not limited to any implied warranties of merchantability and fitness for a particular purpose...</description>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/atom.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/atom.css" type="text/css"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://barijaona.com"
 >
   <title type="text">Étonnements rapides et durables</title>
   <subtitle type="text">Ahanements d'octets austraux</subtitle>
-  <link rel="self" type="application/atom+xml" href="http://blog.barijaona.com/atom.xml" />
-  <link rel="alternate" type="text/html" hreflang="en" href="http://blog.barijaona.com" />
+  <link rel="self" type="application/atom+xml" href="//blog.barijaona.com/atom.xml" />
+  <link rel="alternate" type="text/html" hreflang="en" href="//blog.barijaona.com" />
   <id>tag:barijaona.com,1999:/</id>
   <generator uri="http://blosxom.sourceforge.net/" version="2.1.2+dev">Blosxom</generator>
   <div class="info" xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +20,7 @@
 
   <entry>
     <id>tag:barijaona.com,2018:/equipe/evenements/leon</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/equipe/evenements/leon.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/equipe/evenements/leon.html" />
 
     <title type="text">Léon</title>
     <published>2018-01-12T04:19:00Z</published>
@@ -42,18 +42,18 @@
 
 <p>J'aime beaucoup cette photo prise en juin 2015, à la fin de la soirée de célébration des dix ans de la FAPBM. Elle me rappelle que les personnalités doivent avoir la grandeur de s'effacer derrière les institutions qu'elles ont l'honneur de servir, mais aussi que la présence de fortes personnalités n'est pas indifférente au succès des institutions.</p>
 
-<p><img src="http://blog.barijaona.com/equipe/evenements/celebration_10ans_fapbm.jpg" alt="Trois présidents de la FAPBM" width="448" height="299" class="photo" /></p>
+<p><img src="//blog.barijaona.com/equipe/evenements/celebration_10ans_fapbm.jpg" alt="Trois présidents de la FAPBM" width="448" height="299" class="photo" /></p>
 
 <p>Léon m'avait fait part de sa maladie il y a quelques semaines. Le choc de son décès n'en reste pas moins immense.</p>
 
 <p>Qu'il repose en paix, et que sa famille puisse trouver le réconfort.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/equipe/evenements/leon.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="//blog.barijaona.com/equipe/evenements/leon.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/monde/Veil_Pantheon_2007</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
 
     <title type="text">Panthéon</title>
     <published>2017-07-02T06:25:00Z</published>
@@ -82,7 +82,7 @@
 
   <entry>
     <id>tag:barijaona.com,2017:/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
 
     <title type="text">Disposer d'une clé USB de secours pour flasher le BIOS</title>
     <published>2017-02-20T03:01:00Z</published>
@@ -94,7 +94,7 @@
       <email>reactions@barijaona.com</email>
     </author>
     <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS. C'est ce que je me suis aventuré à faire si vous avez lu les <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="La démarche de sélection et de commande du matériel">épisodes précédents</a>.</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS. C'est ce que je me suis aventuré à faire si vous avez lu les <a href="//blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="La démarche de sélection et de commande du matériel">épisodes précédents</a>.</p>
 
 <p>Cela n'est largement plus un problème avec les cartes Gigabyte qui disposent d'un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n'arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).</p>
 
@@ -133,7 +133,7 @@
 Unmount of all volumes on disk2 was successful
 &#036; sudo dd bs=1m if=/chemin/du/fichier/fdos11.img of=/dev/disk2</code></pre>
 
-<p><strong>4.</strong> Recopier le contenu de <a href="http://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">cette archive</a> à la base de la clé<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">2</a>.</p>
+<p><strong>4.</strong> Recopier le contenu de <a href="//blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">cette archive</a> à la base de la clé<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">2</a>.</p>
 
 <p><strong>5.</strong> Redémarrer et entrer dans le BIOS. Si ce n'est déjà fait, sauvegardez votre profil actuel (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Save Profiles"</i>).</p>
 
@@ -145,7 +145,7 @@ Unmount of all volumes on disk2 was successful
 
 <p>Nous disposons maintenant d'une bonne solution de secours. Si vous voulez retrouver votre BIOS "antique", il vous suffira de refaire l'étape 6 et suivre les instructions à l'écran…</p>
 
-<p>L'espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser <a href="https://unetbootin.github.io" title="UNetbootin allows you to create bootable USB drives" hreflang="en">UNetbootin</a> pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a>. Ensuite, recopier sur la clé successivement les contenus de l'image disque <code>fdos11.img</code> et de la <a href="http://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">petite archive</a> déjà cités précédemment. Par la suite, rechercher où se trouve le fichier <code>syslinux.cfg</code> et rajouter au bon endroit une entrée de ce genre :</p>
+<p>L'espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser <a href="https://unetbootin.github.io" title="UNetbootin allows you to create bootable USB drives" hreflang="en">UNetbootin</a> pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a>. Ensuite, recopier sur la clé successivement les contenus de l'image disque <code>fdos11.img</code> et de la <a href="//blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">petite archive</a> déjà cités précédemment. Par la suite, rechercher où se trouve le fichier <code>syslinux.cfg</code> et rajouter au bon endroit une entrée de ce genre :</p>
 
 <pre><code>LABEL FreeDos
   # MENU DEFAULT
@@ -172,13 +172,13 @@ Unmount of all volumes on disk2 was successful
 
 </ol>
 </div>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/macintosh/Jirokaki/3-bilan-performance-prix-qualite</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
 
     <title type="text">Jirōkaki, bilan performance/prix</title>
     <published>2017-02-13T03:59:00Z</published>
@@ -190,7 +190,7 @@ Unmount of all volumes on disk2 was successful
       <email>reactions@barijaona.com</email>
     </author>
     <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Ceux qui auront lu <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">depuis le début</a> auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh. Contrairement à d'autres, je ne suis pas un <i lang="en">gamer</i> sous Windows en quête du matériel le plus récent et le plus performant… J'ai retenu une configuration à base de Skylake <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">un peu par défaut</a> et parce que l'économie d'énergie me donnait meilleure conscience. Mais si d'ici Madagascar j'avais eu accès à un large marché de l'occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Ceux qui auront lu <a href="//blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">depuis le début</a> auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh. Contrairement à d'autres, je ne suis pas un <i lang="en">gamer</i> sous Windows en quête du matériel le plus récent et le plus performant… J'ai retenu une configuration à base de Skylake <a href="//blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">un peu par défaut</a> et parce que l'économie d'énergie me donnait meilleure conscience. Mais si d'ici Madagascar j'avais eu accès à un large marché de l'occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.</p>
 
 <p>Alors si j'ai eu envie de faire un petit bilan performance, c'est avant tout pour vérifier que tout marche correctement. Il y avait en effet de quoi s'étonner de ne jamais voir le ventilateur de la carte mère s'activer, comme si cette carte graphique ne travaillait pas… D'autant que les utilitaires disponibles pour suivre en temps réel l'activité de la carte graphique (XRG et iStat Menus) affichaient des données contradictoires sur le type de carte utilisée.</p>
 
@@ -277,13 +277,13 @@ Unmount of all volumes on disk2 was successful
 
 </ol>
 </div>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/macintosh/Jirokaki/2-premier-bilan</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
 
     <title type="text">Jirōkaki, premier bilan et résumé</title>
     <published>2017-02-08T03:21:00Z</published>
@@ -295,18 +295,18 @@ Unmount of all volumes on disk2 was successful
       <email>reactions@barijaona.com</email>
     </author>
     <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur <a href="http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">le pourquoi de la chose</a> et le <a href="http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">choix du matériel</a>.</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur <a href="//blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="Projet Jirōkaki (次郎柿)">le pourquoi de la chose</a> et le <a href="//blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" title="La démarche de sélection et de commande du matériel">choix du matériel</a>.</p>
 
 <p>Il ne s'agit pas d'un guide complet (<strong>je déconseille d'ailleurs formellement de cloner ma configuration sans avoir veillé à la comprendre suffisamment au préalable</strong>), mais plutôt d'un résumé de la façon dont j'ai abordé le sujet enrichi de remarques face à certaines difficultés particulières.</p>
 
-<p><a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#more" class="seemore">Lire la suite...</a></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<p><a href="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#more" class="seemore">Lire la suite...</a></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
   <entry>
     <id>tag:barijaona.com,2017:/web/settingup_letsencrypt</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/web/settingup_letsencrypt.html" />
 
     <title type="text">DO encrypt</title>
     <published>2017-01-16T04:23:00Z</published>
@@ -318,16 +318,16 @@ Unmount of all volumes on disk2 was successful
       <email>reactions@barijaona.com</email>
     </author>
     <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>This is a reminder for myself, on how I setup an <a href="https://letsencrypt.org" title="Free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)">Let's Encrypt</a> SSL/TLS certificate on a <a href="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" title="Using Blosxom starter kit with Apple's OS X Server">macOS server test</a> machine. Because we are in 2017, and I got tired of getting web browser warnings due to use of self-signed certificates.</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p>This is a reminder for myself, on how I setup an <a href="https://letsencrypt.org" title="Free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)">Let's Encrypt</a> SSL/TLS certificate on a <a href="//blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" title="Using Blosxom starter kit with Apple's OS X Server">macOS server test</a> machine. Because we are in 2017, and I got tired of getting web browser warnings due to use of self-signed certificates.</p>
 
-<p><a href="http://blog.barijaona.com/web/settingup_letsencrypt.html#more" class="seemore">Lire la suite...</a></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/web/settingup_letsencrypt.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<p><a href="//blog.barijaona.com/web/settingup_letsencrypt.html#more" class="seemore">Lire la suite...</a></p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="//blog.barijaona.com/web/settingup_letsencrypt.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
   <entry>
     <id>tag:barijaona.com,2016:/madagascar/bilan2016</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/madagascar/bilan2016.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/madagascar/bilan2016.html" />
 
     <title type="text">Verre à moitié vide, ou verre à moitié plein</title>
     <published>2016-12-15T03:43:00Z</published>
@@ -383,7 +383,7 @@ Unmount of all volumes on disk2 was successful
 
   <entry>
     <id>tag:barijaona.com,2016:/monde/sting-bataclan</id>
-    <link rel="alternate" type="text/html" href="http://blog.barijaona.com/monde/sting-bataclan.html" />
+    <link rel="alternate" type="text/html" href="//blog.barijaona.com/monde/sting-bataclan.html" />
 
     <title type="text">Minute de silence</title>
     <published>2016-11-13T14:13:00Z</published>
@@ -398,7 +398,7 @@ Unmount of all volumes on disk2 was successful
 <div xmlns="http://www.w3.org/1999/xhtml"><iframe src="//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/ufpulk/zone/1/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="534" height="320"></iframe>
 
 <p><a href="http://www.lemonde.fr/musiques/article/2016/11/13/un-an-apres-les-attentats-sting-au-bataclan-pour-une-liesse-cathartique_5030245_1654986.html" title="LeMonde.fr">Sting à la voix, Ibrahim Maalouf à la trompette</a>, Dominic et Rufus Miller aux guitares, Vinnie Colauita à la batterie...</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="http://blog.barijaona.com/monde/sting-bataclan.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="//blog.barijaona.com/monde/sting-bataclan.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

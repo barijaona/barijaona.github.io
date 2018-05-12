@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>TZ=Indian/Antananarivo</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,7 +22,7 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/download/RFI.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/download/RFI.html" />
 
       </rdf:Seq>
     </items>
@@ -31,7 +31,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/download/RFI.html">
+<item rdf:about="//blog.barijaona.com/download/RFI.html">
 	<title>	RFI		
 	P�riode du 28.10.01 au 31.03.02		
 

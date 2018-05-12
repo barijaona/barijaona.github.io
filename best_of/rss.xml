@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Tempêtes et verre de toaka gasy</title>
     <link>http://blog.barijaona.com</link>
     <description>Vue imprenable des bas-cotés de la planète, à Antananarivo.</description>
@@ -22,7 +22,7 @@
 
     <items>
       <rdf:Seq>
-      <rdf:li rdf:resource="http://blog.barijaona.com/best_of/hotlist.html" />
+      <rdf:li rdf:resource="//blog.barijaona.com/best_of/hotlist.html" />
 
       </rdf:Seq>
     </items>
@@ -31,7 +31,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/best_of/hotlist.html">
+<item rdf:about="//blog.barijaona.com/best_of/hotlist.html">
 	<title>Barijaona : mes choix...</title>
 	<link>http://blog.barijaona.com/best_of/hotlist.html</link>
 	<description>Petite sélection pas toujours très à jour...</description>

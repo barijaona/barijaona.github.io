@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/equipe/evenements/leon.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/madagascar/bilan2016.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/monde/sting-bataclan.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/leon.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/settingup_letsencrypt.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/bilan2016.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/monde/sting-bataclan.html" />
 
       </rdf:Seq>
     </items>
@@ -38,10 +38,10 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/equipe/evenements/leon.html">
+<item rdf:about="//blog.barijaona.com/equipe/evenements/leon.html">
 	<title>Léon</title>
 	<link>http://blog.barijaona.com/equipe/evenements/leon.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Léon Rajaobelina, c&apos;était un peu mon père en écologie. Mieux que quiconque, il m&apos;avait fait comprendre les liens entre la nature et le développement humain, et il m&apos;avait éclairé sur le pourquoi et le comment de la politique à long terme de protection de l&apos;environnement à Madagascar.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Léon Rajaobelina, c&apos;était un peu mon père en écologie. Mieux que quiconque, il m&apos;avait fait comprendre les liens entre la nature et le développement humain, et il m&apos;avait éclairé sur le pourquoi et le comment de la politique à long terme de protection de l&apos;environnement à Madagascar.&lt;/p&gt;
 
 &lt;p&gt;Politique ambitieuse qu&apos;il défendait avec conviction, sans ignorer les difficultés dans sa mise en œuvre. &lt;/p&gt;
 
@@ -56,16 +56,16 @@
 &lt;p&gt;Léon m&apos;avait fait part de sa maladie il y a quelques semaines. Le choc de son décès n&apos;en reste pas moins immense.&lt;/p&gt;
 
 &lt;p&gt;Qu&apos;il repose en paix, et que sa famille puisse trouver le réconfort.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/equipe/evenements/leon.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/equipe/evenements/leon.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/equipe/evenements</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
+<item rdf:about="//blog.barijaona.com/monde/Veil_Pantheon_2007.html">
 	<title>Panthéon</title>
 	<link>http://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;http://www.lemonde.fr/disparitions/article/2017/06/30/mort-de-simone-veil-icone-de-la-lutte-pour-les-droits-des-femmes_5153554_3382.html?xtor=RSS-3208&quot; title=&quot;Mort de Simone Veil, icône de la lutte pour les droits des femmes. LeMonde.fr&quot;&gt;L&apos;histoire de cette femme est étonnante&lt;/a&gt; et incroyablement riche en leçons.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;http://www.lemonde.fr/disparitions/article/2017/06/30/mort-de-simone-veil-icone-de-la-lutte-pour-les-droits-des-femmes_5153554_3382.html?xtor=RSS-3208&quot; title=&quot;Mort de Simone Veil, icône de la lutte pour les droits des femmes. LeMonde.fr&quot;&gt;L&apos;histoire de cette femme est étonnante&lt;/a&gt; et incroyablement riche en leçons.&lt;/p&gt;
 
 &lt;p&gt;En ce qui me concerne, j&apos;avais été particulièrement frappé par la découverte relativement tardive du fait qu&apos;elle était une survivante de la Shoah. J&apos;admirais (et j&apos;admire toujours) le fait que malgré ces terribles épreuves, le ressentiment ou la haine n&apos;ont eu aucune prise sur elle.&lt;/p&gt;
 
@@ -76,16 +76,16 @@
 &lt;p&gt;Le 10 janvier 2007, elle y prononçait toutefois un discours remarquable, qui la fait entrer encore plus dans mon Panthéon personnel.&lt;/p&gt;
 
 &lt;p&gt;&lt;iframe allowfullscreen width=&apos;460&apos; height=&apos;259&apos; frameborder=&apos;0&apos; marginheight =&apos;0&apos; marginwidth=&apos;0&apos; scrolling =&apos;no&apos; src=&apos;https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1&apos; &gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/Veil_Pantheon_2007.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/monde/Veil_Pantheon_2007.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
+<item rdf:about="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
 	<title>Disposer d&apos;une clé USB de secours pour flasher le BIOS</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;L&apos;une des choses qui parait les plus effrayantes lorsqu&apos;on commence à travailler de très près un matériel PC est le flashage du BIOS. C&apos;est ce que je me suis aventuré à faire si vous avez lu les &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;épisodes précédents&lt;/a&gt;.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;L&apos;une des choses qui parait les plus effrayantes lorsqu&apos;on commence à travailler de très près un matériel PC est le flashage du BIOS. C&apos;est ce que je me suis aventuré à faire si vous avez lu les &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;épisodes précédents&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cela n&apos;est largement plus un problème avec les cartes Gigabyte qui disposent d&apos;un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n&apos;arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).&lt;/p&gt;
 
@@ -163,16 +163,16 @@ Unmount of all volumes on disk2 was successful
 
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-20T06:01:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
+<item rdf:about="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
 	<title>Jirōkaki, bilan performance/prix</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ceux qui auront lu &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;depuis le début&lt;/a&gt; auront sans doute compris que le côté performance ne m&apos;a pas vraiment accaparé dans cette démarche de construction d&apos;un hackintosh. Contrairement à d&apos;autres, je ne suis pas un &lt;i lang=&quot;en&quot;&gt;gamer&lt;/i&gt; sous Windows en quête du matériel le plus récent et le plus performant… J&apos;ai retenu une configuration à base de Skylake &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;un peu par défaut&lt;/a&gt; et parce que l&apos;économie d&apos;énergie me donnait meilleure conscience. Mais si d&apos;ici Madagascar j&apos;avais eu accès à un large marché de l&apos;occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ceux qui auront lu &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;depuis le début&lt;/a&gt; auront sans doute compris que le côté performance ne m&apos;a pas vraiment accaparé dans cette démarche de construction d&apos;un hackintosh. Contrairement à d&apos;autres, je ne suis pas un &lt;i lang=&quot;en&quot;&gt;gamer&lt;/i&gt; sous Windows en quête du matériel le plus récent et le plus performant… J&apos;ai retenu une configuration à base de Skylake &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;un peu par défaut&lt;/a&gt; et parce que l&apos;économie d&apos;énergie me donnait meilleure conscience. Mais si d&apos;ici Madagascar j&apos;avais eu accès à un large marché de l&apos;occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.&lt;/p&gt;
 
 &lt;p&gt;Alors si j&apos;ai eu envie de faire un petit bilan performance, c&apos;est avant tout pour vérifier que tout marche correctement. Il y avait en effet de quoi s&apos;étonner de ne jamais voir le ventilateur de la carte mère s&apos;activer, comme si cette carte graphique ne travaillait pas… D&apos;autant que les utilitaires disponibles pour suivre en temps réel l&apos;activité de la carte graphique (XRG et iStat Menus) affichaient des données contradictoires sur le type de carte utilisée.&lt;/p&gt;
 
@@ -259,42 +259,42 @@ Unmount of all volumes on disk2 was successful
 
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-13T06:59:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
+<item rdf:about="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
 	<title>Jirōkaki, premier bilan et résumé</title>
 	<link>http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;À la demande pressante de la foule (bon, n&apos;exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;le pourquoi de la chose&lt;/a&gt; et le &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;choix du matériel&lt;/a&gt;.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;À la demande pressante de la foule (bon, n&apos;exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;le pourquoi de la chose&lt;/a&gt; et le &lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;choix du matériel&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il ne s&apos;agit pas d&apos;un guide complet (&lt;strong&gt;je déconseille d&apos;ailleurs formellement de cloner ma configuration sans avoir veillé à la comprendre suffisamment au préalable&lt;/strong&gt;), mais plutôt d&apos;un résumé de la façon dont j&apos;ai abordé le sujet enrichi de remarques face à certaines difficultés particulières.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/settingup_letsencrypt.html">
+<item rdf:about="//blog.barijaona.com/web/settingup_letsencrypt.html">
 	<title>DO encrypt</title>
 	<link>http://blog.barijaona.com/web/settingup_letsencrypt.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;This is a reminder for myself, on how I setup an &lt;a href=&quot;https://letsencrypt.org&quot; title=&quot;Free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)&quot;&gt;Let&apos;s Encrypt&lt;/a&gt; SSL/TLS certificate on a &lt;a href=&quot;http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html&quot; title=&quot;Using Blosxom starter kit with Apple&apos;s OS X Server&quot;&gt;macOS server test&lt;/a&gt; machine. Because we are in 2017, and I got tired of getting web browser warnings due to use of self-signed certificates.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;This is a reminder for myself, on how I setup an &lt;a href=&quot;https://letsencrypt.org&quot; title=&quot;Free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)&quot;&gt;Let&apos;s Encrypt&lt;/a&gt; SSL/TLS certificate on a &lt;a href=&quot;http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html&quot; title=&quot;Using Blosxom starter kit with Apple&apos;s OS X Server&quot;&gt;macOS server test&lt;/a&gt; machine. Because we are in 2017, and I got tired of getting web browser warnings due to use of self-signed certificates.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://blog.barijaona.com/web/settingup_letsencrypt.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/web/settingup_letsencrypt.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/web/settingup_letsencrypt.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/madagascar/bilan2016.html">
+<item rdf:about="//blog.barijaona.com/madagascar/bilan2016.html">
 	<title>Verre à moitié vide, ou verre à moitié plein</title>
 	<link>http://blog.barijaona.com/madagascar/bilan2016.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Je viens de me faire un &lt;a href=&quot;http://www.tv5monde.com/cms/chaine-francophone/Revoir-nos-emissions/Acoustic/Episodes/p-32286-THE-DIZZY-BRAINS.htm&quot; title=&quot;TV5 Monde : émission ACOUSTIC du 26 novembre 2016 avec The Dizzy Brains&quot;&gt;petit concert nocturne&lt;/a&gt;  que je ne peux que vous recommander.  Dans le même temps, je me sens un rien mal à l&apos;aise… Un sentiment de vieillesse m&apos;envahit en réalisant que cela fait &lt;strong&gt;déjà un an&lt;/strong&gt; que j&apos;ai découvert The Dizzy Brains.&lt;/p&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Je viens de me faire un &lt;a href=&quot;http://www.tv5monde.com/cms/chaine-francophone/Revoir-nos-emissions/Acoustic/Episodes/p-32286-THE-DIZZY-BRAINS.htm&quot; title=&quot;TV5 Monde : émission ACOUSTIC du 26 novembre 2016 avec The Dizzy Brains&quot;&gt;petit concert nocturne&lt;/a&gt;  que je ne peux que vous recommander.  Dans le même temps, je me sens un rien mal à l&apos;aise… Un sentiment de vieillesse m&apos;envahit en réalisant que cela fait &lt;strong&gt;déjà un an&lt;/strong&gt; que j&apos;ai découvert The Dizzy Brains.&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;fr&quot; dir=&quot;ltr&quot;&gt;Pas mal bluffé par ces gars… Toute une partie de ma jeunesse revient. The Dizzy Brains aux Trans Musicales de Rennes &lt;a href=&quot;https://t.co/iuguyFls7T&quot;&gt;https://t.co/iuguyFls7T&lt;/a&gt;&lt;/p&gt;&amp;mdash; Barijaona Ramaholimi (@barijaona) &lt;a href=&quot;https://twitter.com/barijaona/status/673540303559794688&quot;&gt;December 6, 2015&lt;/a&gt;&lt;/blockquote&gt;
 
@@ -332,19 +332,19 @@ Unmount of all volumes on disk2 was successful
 
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/madagascar/bilan2016.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/madagascar/bilan2016.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-12-15T06:43:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/monde/sting-bataclan.html">
+<item rdf:about="//blog.barijaona.com/monde/sting-bataclan.html">
 	<title>Minute de silence</title>
 	<link>http://blog.barijaona.com/monde/sting-bataclan.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="http://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/ufpulk/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; width=&quot;534&quot; height=&quot;320&quot;&gt;&lt;/iframe&gt;
+	<description><![CDATA[<link rel="stylesheet" href="//blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/ufpulk/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; width=&quot;534&quot; height=&quot;320&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.lemonde.fr/musiques/article/2016/11/13/un-an-apres-les-attentats-sting-au-bataclan-pour-une-liesse-cathartique_5030245_1654986.html&quot; title=&quot;LeMonde.fr&quot;&gt;Sting à la voix, Ibrahim Maalouf à la trompette&lt;/a&gt;, Dominic et Rufus Miller aux guitares, Vinnie Colauita à la batterie...&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="http://blog.barijaona.com/monde/sting-bataclan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="//blog.barijaona.com/monde/sting-bataclan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-11-13T17:13:00+03:00</dc:date>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/settingup_letsencrypt.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/migration_ok.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/futur-demenagement.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/navigateurs-madagascar.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/technorati.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/web/commentaires_ajah.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/settingup_letsencrypt.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/migration_ok.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/futur-demenagement.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/navigateurs-madagascar.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/technorati.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/web/commentaires_ajah.html" />
 
       </rdf:Seq>
     </items>
@@ -38,7 +38,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/web/settingup_letsencrypt.html">
+<item rdf:about="//blog.barijaona.com/web/settingup_letsencrypt.html">
 	<title>DO encrypt</title>
 	<link>http://blog.barijaona.com/web/settingup_letsencrypt.html</link>
 	<description>This is a reminder for myself, on how I setup an Let's Encrypt SSL/TLS certificate on a macOS server test machine...</description>
@@ -47,7 +47,7 @@
 	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html">
+<item rdf:about="//blog.barijaona.com/web/blosxomsk/en/update-osx-server.html">
 	<title>Using Blosxom starter kit with Apple&apos;s OS X Server</title>
 	<link>http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html</link>
 	<description>This is mainly a note to myself, about my blogging tool...</description>
@@ -56,7 +56,7 @@
 	<dc:date>2015-11-15T15:35:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/migration_ok.html">
+<item rdf:about="//blog.barijaona.com/web/migration_ok.html">
 	<title>Revoilà l&apos;ancien combattant féru de nouvelles technologies</title>
 	<link>http://blog.barijaona.com/web/migration_ok.html</link>
 	<description>La migration du blog est achevée...</description>
@@ -65,7 +65,7 @@
 	<dc:date>2012-06-22T01:46:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/futur-demenagement.html">
+<item rdf:about="//blog.barijaona.com/web/futur-demenagement.html">
 	<title>Message de service</title>
 	<link>http://blog.barijaona.com/web/futur-demenagement.html</link>
 	<description>Pour faire bref : l'URL devient http://blog...</description>
@@ -74,7 +74,7 @@
 	<dc:date>2011-07-14T16:35:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html">
+<item rdf:about="//blog.barijaona.com/web/ou-suis-je-en-ce-moment.html">
 	<title>Du bois, il faut parfois sortir</title>
 	<link>http://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html</link>
 	<description>M'enfin, vous-dites vous, qu'arrive-t-il au maître de céans ...</description>
@@ -83,7 +83,7 @@
 	<dc:date>2009-03-31T07:13:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/navigateurs-madagascar.html">
+<item rdf:about="//blog.barijaona.com/web/navigateurs-madagascar.html">
 	<title>Concours de popularité</title>
 	<link>http://blog.barijaona.com/web/navigateurs-madagascar.html</link>
 	<description>Ce n'était pas forcément évident...</description>
@@ -92,7 +92,7 @@
 	<dc:date>2009-03-05T22:39:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/technorati.html">
+<item rdf:about="//blog.barijaona.com/web/technorati.html">
 	<title></title>
 	<link>http://blog.barijaona.com/web/technorati.html</link>
 	<description>
@@ -102,7 +102,7 @@
 	<dc:date>2008-02-23T14:14:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/web/commentaires_ajah.html">
+<item rdf:about="//blog.barijaona.com/web/commentaires_ajah.html">
 	<title>En ce nouvel an, on lave plus blanc...</title>
 	<link>http://blog.barijaona.com/web/commentaires_ajah.html</link>
 	<description>C'est encore l'époque des cadeaux, donc qu'est ce qu'on pouvait bien donner en ce nouvel an à des gens situés parfois à l'autre bout de la planète ...</description>

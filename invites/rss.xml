@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Sous la Croix du Sud</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahaneur d'octets austraux depuis 1998</description>
@@ -22,8 +22,8 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/invites/maury_sanga3_2.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/invites/michele_rakotoson_saroy.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/invites/maury_sanga3_2.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/invites/michele_rakotoson_saroy.html" />
 
       </rdf:Seq>
     </items>
@@ -32,7 +32,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/invites/maury_sanga3_2.html">
+<item rdf:about="//blog.barijaona.com/invites/maury_sanga3_2.html">
 	<title>Sanga 3 au jour le jour – Dimanche 9 novembre</title>
 	<link>http://blog.barijaona.com/invites/maury_sanga3_2.html</link>
 	<description>Ndlr : Madagascar accueille les 3èmes biennales internationales de la danse du 8 au 15 novembre...</description>
@@ -42,7 +42,7 @@
     <dc:date>2003-11-11T04:27:00+03:00</dc:date>
     
   </item>
-<item rdf:about="http://blog.barijaona.com/invites/michele_rakotoson_saroy.html">
+<item rdf:about="//blog.barijaona.com/invites/michele_rakotoson_saroy.html">
 	<title>À ma petite Saroy</title>
 	<link>http://blog.barijaona.com/invites/michele_rakotoson_saroy.html</link>
 	<description>Note : Merci à Michèle Rakotoson de m'avoir autorisé à publier sur ce site un bel et pertinent hommage aux paysans et paysannes de ce pays...</description>

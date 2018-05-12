@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,9 +22,9 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/mes-conclusions.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/obligation-et-droit.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/bni/faq-bni.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/bni/mes-conclusions.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/bni/obligation-et-droit.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/bni/faq-bni.html" />
 
       </rdf:Seq>
     </items>
@@ -33,7 +33,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/bni/mes-conclusions.html">
+<item rdf:about="//blog.barijaona.com/bni/mes-conclusions.html">
 	<title>« Au nom du peuple Malagasy… » (et de celui de la BNI aussi)</title>
 	<link>http://blog.barijaona.com/bni/mes-conclusions.html</link>
 	<description>Mesdames et Messieurs les membres du Conseil d'État,
@@ -44,7 +44,7 @@ Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de
 	<dc:date>2014-05-06T06:27:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/bni/obligation-et-droit.html">
+<item rdf:about="//blog.barijaona.com/bni/obligation-et-droit.html">
 	<title>Des devoirs de réserve, de vigilance et de citoyenneté</title>
 	<link>http://blog.barijaona.com/bni/obligation-et-droit.html</link>
 	<description>La citation est un peu longue, mais loin d'être inutile :
@@ -56,7 +56,7 @@ Je ne sais si ces mots vous parviendront, mais ils auront au moins le mérite de
 	<dc:date>2014-04-30T06:04:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/bni/faq-bni.html">
+<item rdf:about="//blog.barijaona.com/bni/faq-bni.html">
 	<title>FAQ sur l&apos;affaire BNI</title>
 	<link>http://blog.barijaona.com/bni/faq-bni.html</link>
 	<description>Ah, les réseaux sociaux ...</description>

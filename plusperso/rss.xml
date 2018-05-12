@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,7 +22,7 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/plusperso/jobs.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/plusperso/jobs.html" />
 
       </rdf:Seq>
     </items>
@@ -31,7 +31,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/plusperso/jobs.html">
+<item rdf:about="//blog.barijaona.com/plusperso/jobs.html">
 	<title>Se faire de la bile</title>
 	<link>http://blog.barijaona.com/plusperso/jobs.html</link>
 	<description>Alors que j'ignorais presque tout de cette maladie il y a encore 7-8 ans, j'ai du mal aujourd'hui à compter les personnes qui comptent pour moi qui sont mortes depuis d'un cancer du pancréas...</description>

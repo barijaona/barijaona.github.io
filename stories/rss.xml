@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="http://blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,7 +10,7 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="http://blog.barijaona.com">
+  <channel rdf:about="//blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
     <link>http://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
@@ -22,22 +22,22 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/suivi_twitter_COP21.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2003/06/19/photoArgentiqueEtNumerique.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/12/24/leBallon.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/12/23/febrilite.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/11/16/voler.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/11/16/vireeAuNordEst.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/07/30/ilYALesUbergeeksEtLesAutre.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/07/14/numero1.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/06/26/sonegaly.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/06/22/enfantsDambahikily.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/06/22/theJourneyIsTheReward.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/06/22/uneEclipseCestBeau.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/05/13/tableauDesDivergences.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html" />
-        <rdf:li rdf:resource="http://blog.barijaona.com/stories/2002/06/24/commeDhabitude.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/suivi_twitter_COP21.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2003/06/19/photoArgentiqueEtNumerique.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/12/24/leBallon.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/12/23/febrilite.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/11/16/voler.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/11/16/vireeAuNordEst.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/07/30/ilYALesUbergeeksEtLesAutre.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/07/14/numero1.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/06/26/sonegaly.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/06/22/enfantsDambahikily.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/06/22/theJourneyIsTheReward.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/06/22/uneEclipseCestBeau.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/05/13/tableauDesDivergences.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html" />
+        <rdf:li rdf:resource="//blog.barijaona.com/stories/2002/06/24/commeDhabitude.html" />
 
       </rdf:Seq>
     </items>
@@ -46,7 +46,7 @@
 
   </channel>
   
-<item rdf:about="http://blog.barijaona.com/stories/suivi_twitter_COP21.html">
+<item rdf:about="//blog.barijaona.com/stories/suivi_twitter_COP21.html">
 	<title>Outil de suivi</title>
 	<link>http://blog.barijaona.com/stories/suivi_twitter_COP21.html</link>
 	<description>Version en français d'un outil disponible sur Climate Talks Live...</description>
@@ -55,7 +55,7 @@
 	<dc:date>2015-11-30T04:25:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2003/06/19/photoArgentiqueEtNumerique.html">
+<item rdf:about="//blog.barijaona.com/stories/2003/06/19/photoArgentiqueEtNumerique.html">
 	<title>Photo argentique ET numérique</title>
 	<link>http://blog.barijaona.com/stories/2003/06/19/photoArgentiqueEtNumerique.html</link>
 	<description>Pour ceux qui l'oublieraient ou qui ne savent pas où je réside, je rappelle que Madagascar n'est pas précisément un temple de la consommation de masse...</description>
@@ -64,7 +64,7 @@
 	<dc:date>2003-06-19T03:05:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/12/24/leBallon.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/12/24/leBallon.html">
 	<title>Le ballon</title>
 	<link>http://blog.barijaona.com/stories/2002/12/24/leBallon.html</link>
 	<description>
@@ -74,7 +74,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-12-24T23:27:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/12/23/febrilite.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/12/23/febrilite.html">
 	<title>Fébrilité (photos)</title>
 	<link>http://blog.barijaona.com/stories/2002/12/23/febrilite.html</link>
 	<description>J'étais parti pour une diatribe contre la mercantilisation de Noël...</description>
@@ -83,7 +83,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-12-23T01:14:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/11/16/voler.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/11/16/voler.html">
 	<title>Voler...</title>
 	<link>http://blog.barijaona.com/stories/2002/11/16/voler.html</link>
 	<description>Voler sur un petit avion reste à Madagascar une aventure qui réclame pas mal de discipline...</description>
@@ -92,7 +92,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-11-16T23:38:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/11/16/vireeAuNordEst.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/11/16/vireeAuNordEst.html">
 	<title>Virée au Nord Est (photos)</title>
 	<link>http://blog.barijaona.com/stories/2002/11/16/vireeAuNordEst.html</link>
 	<description>Barijaona...</description>
@@ -101,7 +101,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-11-16T21:54:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html">
 	<title>Marque-pages Internet sous MacOS X</title>
 	<link>http://blog.barijaona.com/stories/2002/10/06/marquepagesInternetSousMac.html</link>
 	<description>Lorsque vous utilisez intensivement l'internet, vous vous retrouvez facilement dans une des situations suivantes :
@@ -115,7 +115,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-10-06T00:00:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/07/30/ilYALesUbergeeksEtLesAutre.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/07/30/ilYALesUbergeeksEtLesAutre.html">
 	<title>Il y a les über-geeks et les autres</title>
 	<link>http://blog.barijaona.com/stories/2002/07/30/ilYALesUbergeeksEtLesAutre.html</link>
 	<description>Comment motiver des programmeurs ...</description>
@@ -124,7 +124,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-07-30T21:11:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/07/14/numero1.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/07/14/numero1.html">
 	<title>Numéro 1</title>
 	<link>http://blog.barijaona.com/stories/2002/07/14/numero1.html</link>
 	<description>Pas simple de photographier une boule de poils remuante...</description>
@@ -133,7 +133,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-07-14T23:00:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/06/26/sonegaly.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/06/26/sonegaly.html">
 	<title>Sonegaly</title>
 	<link>http://blog.barijaona.com/stories/2002/06/26/sonegaly.html</link>
 	<description>Ieee ê ...</description>
@@ -142,7 +142,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-06-26T18:00:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/06/22/enfantsDambahikily.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/06/22/enfantsDambahikily.html">
 	<title>Enfants d&apos;Ambahikily (photos)</title>
 	<link>http://blog.barijaona.com/stories/2002/06/22/enfantsDambahikily.html</link>
 	<description>Ambahikily est un petit village près de Morombe...</description>
@@ -151,7 +151,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-06-22T01:29:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/06/22/theJourneyIsTheReward.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/06/22/theJourneyIsTheReward.html">
 	<title>The Journey Is The Reward... (photos)</title>
 	<link>http://blog.barijaona.com/stories/2002/06/22/theJourneyIsTheReward.html</link>
 	<description>Il faisait frais à Antsirabe, mais la photo en valait peut-être la peine...</description>
@@ -160,7 +160,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-06-22T01:16:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/06/22/uneEclipseCestBeau.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/06/22/uneEclipseCestBeau.html">
 	<title>Une éclipse, c&apos;est beau... (photos)</title>
 	<link>http://blog.barijaona.com/stories/2002/06/22/uneEclipseCestBeau.html</link>
 	<description>Pendant la phase de totalité : des couleurs extraordinaires que ne rend pas la photo...</description>
@@ -169,7 +169,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-06-22T00:00:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/05/13/tableauDesDivergences.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/05/13/tableauDesDivergences.html">
 	<title>Tableau des divergences</title>
 	<link>http://blog.barijaona.com/stories/2002/05/13/tableauDesDivergences.html</link>
 	<description>Nota : Les liens cliquables permettent de télécharger des fichiers détails au format PDF (il vous faudra peut-être utiliser l'option de rotation anti-horaire pour les lire à l'écran)...</description>
@@ -178,7 +178,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-05-13T00:36:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html">
 	<title>Comptes, recomptes et mécomptes.</title>
 	<link>http://blog.barijaona.com/stories/2002/05/13/comptesRecomptesEtMecompte.html</link>
 	<description>A priori, ceci ne devrait plus intéresser aucune personne sensée...</description>
@@ -187,7 +187,7 @@ Qu'est-ce que tu veux pour Noël ...</description>
 	<dc:date>2002-05-13T00:14:00+03:00</dc:date>
 
 </item>
-<item rdf:about="http://blog.barijaona.com/stories/2002/06/24/commeDhabitude.html">
+<item rdf:about="//blog.barijaona.com/stories/2002/06/24/commeDhabitude.html">
 	<title>Comme d&apos;habitude...</title>
 	<link>http://blog.barijaona.com/stories/2002/06/24/commeDhabitude.html</link>
 	<description>Comme d'habitude
