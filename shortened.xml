@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,9 +10,9 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="//blog.barijaona.com">
+  <channel rdf:about="https://blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
-    <link>http://blog.barijaona.com</link>
+    <link>https://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
     <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="//blog.barijaona.com/equipe/evenements/leon.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/web/settingup_letsencrypt.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/bilan2016.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/monde/sting-bataclan.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/settingup_letsencrypt.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/bilan2016.html" />
 
       </rdf:Seq>
     </items>
@@ -38,78 +38,76 @@
 
   </channel>
   
-<item rdf:about="//blog.barijaona.com/equipe/evenements/leon.html">
+<item rdf:about="https://blog.barijaona.com/monde/collectif-pangolins.html">
+	<title>Collectif Pangolins</title>
+	<link>https://blog.barijaona.com/monde/collectif-pangolins.html</link>
+	<description>En cas de danger, le pangolin rabat sa tête entre ses pattes antérieures et s'enroule sur lui-même...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2020-04-27T06:30:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/equipe/evenements/leon.html">
 	<title>Léon</title>
-	<link>http://blog.barijaona.com/equipe/evenements/leon.html</link>
+	<link>https://blog.barijaona.com/equipe/evenements/leon.html</link>
 	<description>Léon Rajaobelina, c'était un peu mon père en écologie...</description>
 	<dc:subject>/equipe/evenements</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/monde/Veil_Pantheon_2007.html">
+<item rdf:about="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
 	<title>Panthéon</title>
-	<link>http://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
+	<link>https://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
 	<description>L'histoire de cette femme est étonnante et incroyablement riche en leçons...</description>
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
+<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
 	<title>Disposer d&apos;une clé USB de secours pour flasher le BIOS</title>
-	<link>http://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
+	<link>https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
 	<description>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS...</description>
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-20T06:01:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
+<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
 	<title>Jirōkaki, bilan performance/prix</title>
-	<link>http://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html</link>
+	<link>https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html</link>
 	<description>Ceux qui auront lu depuis le début auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh...</description>
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-13T06:59:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
+<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
 	<title>Jirōkaki, premier bilan et résumé</title>
-	<link>http://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
+	<link>https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
 	<description>À la demande pressante de la foule (bon, n'exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh...</description>
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/web/settingup_letsencrypt.html">
+<item rdf:about="https://blog.barijaona.com/web/settingup_letsencrypt.html">
 	<title>DO encrypt</title>
-	<link>http://blog.barijaona.com/web/settingup_letsencrypt.html</link>
+	<link>https://blog.barijaona.com/web/settingup_letsencrypt.html</link>
 	<description>This is a reminder for myself, on how I setup an Let's Encrypt SSL/TLS certificate on a macOS server test machine...</description>
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/bilan2016.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/bilan2016.html">
 	<title>Verre à moitié vide, ou verre à moitié plein</title>
-	<link>http://blog.barijaona.com/madagascar/bilan2016.html</link>
+	<link>https://blog.barijaona.com/madagascar/bilan2016.html</link>
 	<description>Je viens de me faire un petit concert nocturne  que je ne peux que vous recommander...</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-12-15T06:43:00+03:00</dc:date>
-
-</item>
-<item rdf:about="//blog.barijaona.com/monde/sting-bataclan.html">
-	<title>Minute de silence</title>
-	<link>http://blog.barijaona.com/monde/sting-bataclan.html</link>
-	<description>
-
-Sting à la voix, Ibrahim Maalouf à la trompette, Dominic et Rufus Miller aux guitares, Vinnie Colauita à la batterie...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-11-13T17:13:00+03:00</dc:date>
 
 </item>
 

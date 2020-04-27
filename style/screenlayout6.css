@@ -158,7 +158,7 @@ a[hreflang]:after {
 
 
  /* passer tous les éléments de largeur fixe en largeur automatique */
-body, .topnav, .nav1, .nav2, .content, .contentwrapper, .post-tools {
+body, .topnav, .nav1, .contentwrapper, .post-tools {
    width: auto;
    margin: auto ;
    padding: 3px;
@@ -166,7 +166,9 @@ body, .topnav, .nav1, .nav2, .content, .contentwrapper, .post-tools {
 
 /* adaptation d'éléments spécifiques */
 .contentwrapper {top:2em}
-.nav2 { position : relative; top:0; padding-bottom:2em; left:auto;}
+.content { width: auto; padding: 3px; margin:3em 10px 0 10px;}
+.nav2 { width: auto; position : relative; left:0 ; margin:0 10px 0 10px;}
+.contentfooter {width:auto; margin:3em 10px 0 10px;}
 .inline-button, .menu, .submenu {display:inline-block ;}
 .topnav {top: 1em; text-align:center; }
 .nav1 { text-align:center; }
@@ -205,5 +207,7 @@ element1 {
  .hide_mobile {
    display: none !important;
  }
+
+body,html { background:white;}
 
 }
