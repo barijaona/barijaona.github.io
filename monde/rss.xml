@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/sting-bataclan.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/cop21_24h_apres.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/cop21_projet_accord.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html">
+	<title>Qui a nourri le crocodile ?</title>
+	<link>https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html</link>
+	<description>Extraits de la plaidoirie de Me Richard Malka, un des avocats des parties civiles, lors du procès des attentats de Janvier 2015 à Paris...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2020-12-05T12:07:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/monde/collectif-pangolins.html">
 	<title>Collectif Pangolins</title>
 	<link>https://blog.barijaona.com/monde/collectif-pangolins.html</link>
@@ -103,15 +112,6 @@ N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de c
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html">
-	<title>C&apos;est quoi un bon accord ?</title>
-	<link>https://blog.barijaona.com/monde/cop21_c_est_quoi_un_bon_accord.html</link>
-	<description>Avant même que le texte final soit publié, il est facile de prédire qu'il y aura des personnes ou des organisations qui ne se satisferont pas de l'accord de Paris...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-11T17:34:00+03:00</dc:date>
 
 </item>
 

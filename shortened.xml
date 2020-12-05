@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/settingup_letsencrypt.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/bilan2016.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html">
+	<title>Qui a nourri le crocodile ?</title>
+	<link>https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html</link>
+	<description>Extraits de la plaidoirie de Me Richard Malka, un des avocats des parties civiles, lors du procès des attentats de Janvier 2015 à Paris...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2020-12-05T12:07:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/monde/collectif-pangolins.html">
 	<title>Collectif Pangolins</title>
 	<link>https://blog.barijaona.com/monde/collectif-pangolins.html</link>
@@ -99,15 +108,6 @@
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/madagascar/bilan2016.html">
-	<title>Verre à moitié vide, ou verre à moitié plein</title>
-	<link>https://blog.barijaona.com/madagascar/bilan2016.html</link>
-	<description>Je viens de me faire un petit concert nocturne  que je ne peux que vous recommander...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2016-12-15T06:43:00+03:00</dc:date>
 
 </item>
 
