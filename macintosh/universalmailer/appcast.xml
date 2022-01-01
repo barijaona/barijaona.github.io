@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>UniversalMailer's Changelog</title>
+				<link>https//universalmailer.github.io/UniversalMailer/appcast/appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 3.0 build 19 (1 bug fixed)</title>
+						<description><![CDATA[
+								<h2>Bug fixing</h2>
+								<ul>
+										<li>extended compatibility to macOS High Sierra (still experimental)</li>
+								</ul>
+						]]>
+						</description>
+            <pubDate>Fri, 19 Jun 2017 14:50:00 +0200</pubDate>
+						<sparkle:version>19</sparkle:version>
+						<sparkle:shortVersionString>3.0 (build 19)</sparkle:shortVersionString>
+						<link>https://universalmailer.github.io/UniversalMailer/download.html</link>
+        </item>
+    </channel>
+</rss>
