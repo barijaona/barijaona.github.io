@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/settingup_letsencrypt.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html">
+	<title>L&apos;envol sur un pachyderme</title>
+	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_1.html</link>
+	<description>Il y a quelque chose de fascinant dans ce qui arrive à Twitter...</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html">
 	<title>Qui a nourri le crocodile ?</title>
 	<link>https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html</link>
@@ -99,15 +108,6 @@
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/settingup_letsencrypt.html">
-	<title>DO encrypt</title>
-	<link>https://blog.barijaona.com/web/settingup_letsencrypt.html</link>
-	<description>This is a reminder for myself, on how I setup an Let's Encrypt SSL/TLS certificate on a macOS server test machine...</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
 
 </item>
 
