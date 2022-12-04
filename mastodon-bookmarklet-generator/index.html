@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Bookmarklet Generator : follow, react and publish across your Mastodon instance</title>
+        <link rel="alternate" hreflang="fr" href="./index.html.fr">
+        <style>
+body {
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: darkGreen;
+  color: white;
+  border: 0;
+}
+button:active {
+  background: white;
+  color: darkGreen;
+}
+header, footer {
+  color: #888;
+  font-size: 0.8rem;
+}
+form {
+  background: #eee;
+  padding: 0.5em 2em;
+}
+input {
+  font-size: 1rem;
+  width: 20em;
+  height: 2em;
+  line-height: 2;
+}
+body {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0.5rem 2rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.dump-area a:link {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.5rem 0.2rem 0.5rem 0rem;
+  color: darkGreen;
+}
+
+.dump-area:not(:empty)::after {
+  content: '(Drag this link to your bookmarks bar)';
+  font-size: 0.7rem;
+  display:block;
+}
+
+.dump-area ::before {
+  content: attr(title) ': ';
+  font-weight: normal;
+  color: black;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+          <h1>Mastodon Bookmarklet Generator</h1>
+          <h2>Follow, react and publish across your Mastodon instance</h2>
+          <p>Because of the decentralized structure of the Fediverse, a web browser is much more efficient than a dedicated Mastodon client to make interesting discoveries. Indeed, you will see much more content if you use your web browser to follow links and discover the entirety of conversations on the instances where authors are registered.</p>
+          <p>But you will quickly feel that reacting to a post or following someone who is not in your instance is a bit tedious.</p>
+          <p>What if you could click on a link in your bookmarks bar to take you back to your own instance, but seeing the profile of the person you want to follow?</p>
+          <p>Just type in the domain of your instance in the text input field below and we'll generate links that you can drag to your bookmark bar.</p>
+        </header>
+        <hr>
+        <main>
+          <p>tl;dr: put in your instance domain. Drag links to bookmarks bar.</p>
+          <form action="javascript:;">
+              <p><label for="domain">What's the address of your instance?</label>
+              <input type="text" name="domain" id="domain" placeholder="mastodon.example" required></p>
+              <button id="generate" type="submit">Generate bookmarklets!</button>
+              <p><span aria-live="polite" class="dump-area" id="dump-area1"></span></p>
+              <p><span aria-live="polite" class="dump-area" id="dump-area2"></span></p>
+              <p><span aria-live="polite" class="dump-area" id="dump-area3"></span></p>
+           </form>
+        </main>
+        <footer>
+          <p>Tool assembled by <a href="https://mastodon.mg/@barijaona">Barijaona Ramaholimihaso</a>.</p>
+          <p>Credits to <a href="https://toot.andr3.net/@me">André Luís</a>' Mastodon Follow Bookmarklet and <a href="https://front-end.social/@bramus">Bramus Van Damme</a>'s <a href="https://github.com/bramus/mastodon-profile-redirect">mastodon-profile-redirect plugin</a>.</p>
+          <a rel="license" href="https://github.com/barijaona/mastodon-bookmarklet-generator/blob/main/LICENSE">MIT License</a><p>
+        </footer>
+        <script>
+const el = document.querySelector('form');
+
+const generateLink = (domain) => {
+    let href1;
+    let link1;
+
+    fetch('./follow_bookmarklet.js').then(result => result.text().then(content => {
+
+    href1 = content.replace(/'example\.org'/, `'${domain}'`);
+      
+    link1 = document.createElement('a');
+    link1.setAttribute('href', href1);
+    link1.id = 'bookmarklet1';
+    link1.innerText = 'Follow';
+    link1.title = 'Use this to follow a Mastodon user';
+    const previousLink1 = document.getElementById('bookmarklet1');
+    if (previousLink1) { previousLink1.parentNode.removeChild(previousLink1); }
+    document.getElementById('dump-area1').appendChild(link1);
+  }));
+
+    let href2;
+    let link2;
+    href2 = `javascript:window.location.href = 'https://${domain}/authorize_interaction?uri='+encodeURIComponent(window.location.href)`;
+    link2 = document.createElement('a');
+    link2.setAttribute('href', href2);
+    link2.id = 'bookmarklet2';
+    link2.innerText = 'React';
+    link2.title = 'Use this to bring a Mastodon element to your own instance';
+    const previousLink2 = document.getElementById('bookmarklet2');
+    if (previousLink2) { previousLink2.parentNode.removeChild(previousLink2); }
+    document.getElementById('dump-area2').appendChild(link2);
+
+    let href3;
+    let link3;
+    href3 = `javascript:window.location.href = 'https://${domain}/share?text='+encodeURIComponent(document.title+'\\n'+window.location.href)`;
+    link3 = document.createElement('a');
+    link3.setAttribute('href', href3);
+    link3.id = 'bookmarklet3';
+    link3.innerText = 'Publish';
+    link3.title = 'Use this to start a Mastodon post linking to the current webpage';
+    const previousLink3 = document.getElementById('bookmarklet3');
+    if (previousLink3) { previousLink3.parentNode.removeChild(previousLink3); }
+    document.getElementById('dump-area3').appendChild(link3);
+};
+
+if (el && 'addEventListener' in el) {
+  el.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+
+    generateLink(document.querySelector('#domain').value);
+  })
+}
+    </script>
+    </body>
+</html>
