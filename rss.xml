@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,34 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html">
+	<title>Aider un pachyderme à surfer</title>
+	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_2.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;L&apos;apprentissage de Mastodon peut être assez ingrat, car après votre inscription sur une instance, votre page d&apos;accueil demeurera désespérément vide si vous ne la meublez pas… Votre serveur Mastodon ne vous proposera rien de lui-même, et il vous faudra explorer pour trouver des personnes à suivre. Peuut-être découvrirez vous des gens qui vous intéressent dans le &quot;fil public local&quot; ou dans le &quot;fil public global&quot; affichés par votre serveur, mais cela risque d&apos;être un peu laborieux si vous comptez uniquement sur la chance…&lt;/p&gt;
+
+&lt;p&gt;Je vous encourage néanmoins à persévérer. En ce qui me concerne, je suis sur Mastodon depuis Avril 2017, mais le service n&apos;est devenu vraiment intéressant que lorsque j&apos;ai franchi un cap concernant le nombre de personnes suivies. J&apos;en suis actuellement à 217 personnes suivies (qui ne sont toutefois pas toutes actives). Mon conseil est donc : explorez, explorez, et de préférence, trouvez…&lt;/p&gt;
+
+&lt;p&gt;Dans le &lt;a href=&quot;https://blog.barijaona.com/web/initiation_migration_mastodon_1.html&quot; title=&quot;L&apos;envol sur un pachyderme&quot;&gt;billet précédent&lt;/a&gt;, je faisais état d&apos;une chose qui m&apos;avait moi-même trompé pendant plus de cinq ans : c&apos;est une grosse erreur de croire que les applications dédiées Mastodon sont des outils efficaces pour découvrir de nouveaux contenus.&lt;/p&gt;
+
+&lt;p&gt;Il s&apos;agit d&apos;une erreur, car les clients dédiés sont avant tout conçus pour afficher du contenu transitant par votre instance. Ce qui ne représente qu&apos;un sous-ensemble de tout le contenu disponible, en particulier si l&apos;instance à laquelle vous êtes inscrit est récente (comme celles qui viennent de se créer suite aux changements chez Twitter) ou relativement petite (comme Mastodon.mg, l&apos;instance où je suis).&lt;/p&gt;
+
+&lt;p&gt;Car ce qu&apos;on appelle &quot;fil public global&quot; ne l&apos;est que de nom. Le graphique du message ci-après explique cela mieux que je ne le puis :&lt;/p&gt;
+
+&lt;iframe src=&quot;https://mastodon.scop.coop/@cyrilz/109416406331993929/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;480&quot; height=&quot;960&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Il faut le dire et le redire : en raison de la structure décentralisée du Fediverse, un navigateur web est beaucoup plus efficace qu&apos;un client Mastodon dédié pour faire des découvertes intéressantes. En effet, vous serez exposé à bien plus de contenu si vous utilisez votre navigateur web pour suivre les liens affichés par les serveurs (ceux sur l&apos;heure d&apos;un message ou ceux en bas d&apos;un profil). Vous découvrirez alors l&apos;intégralité des conversations sur les instances où leurs auteurs sont inscrits et, de fil en aiguille, vous découvrirez d&apos;autres personnes ayant des intérêts communs.&lt;/p&gt;
+
+&lt;p&gt;Mais vous sentirez rapidement que, via le web, réagir à un post ou suivre quelqu&apos;un qui est inscrit sur une instance autre que la votre devient vite un peu fastidieux.&lt;/p&gt;
+
+&lt;p&gt;Toutefois, la situation s&apos;améliore très nettement si l&apos;on installe dans son navigateur quelques signets Javascript bien pratiques. Pour vous faciliter la tâche, j&apos;ai donc mis en ligne &lt;a href=&quot;https://barijaona.github.io/mastodon-bookmarklet-generator/index.fr.html&quot; title=&quot;Générateur de Bookmarklets Mastodon&quot;&gt;un outil qui vous permet d&apos;installer facilement de tels signets&lt;/a&gt;. J&apos;espère qu&apos;ils vous seront utiles.&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;À suivre&lt;/em&gt;)&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2022-12-04T22:12:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html">
 	<title>L&apos;envol sur un pachyderme</title>
 	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_1.html</link>
@@ -99,7 +127,7 @@
 
 &lt;p&gt;Oui, les applications dédiées à Mastodon existent, et elles ont leur utilité. Pour ma part, j&apos;utilise &lt;a href=&quot;https://apps.apple.com/app/id1523996615&quot;&gt;Metatext&lt;/a&gt;, en parallèle de mon navigateur, et je bascule de l&apos;un à l&apos;autre grâce à l&apos;icône &quot;Partager&quot;. Mais ces applications sont encore trop inspirées de celles des plateformes dominantes, destinées à maintenir leurs utilisateurs à l&apos;intérieur d&apos;un jardin clos, pour s&apos;adapter au contexte Mastodon. De plus, leur rythme de développement ne suit pas celui de Mastodon, qui vient de passer en version 4.&lt;/p&gt;
 
-&lt;p&gt;(&lt;em&gt;À suivre&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;&lt;a href=&quot;https://blog.barijaona.com/web/initiation_migration_mastodon_2.html&quot; title=&quot;Aider un pachyderme à surfer&quot;&gt;Suite&lt;/a&gt;…&lt;/em&gt;)&lt;/p&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
@@ -412,20 +440,6 @@ Unmount of all volumes on disk2 was successful
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-13T06:59:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html">
-	<title>Jirōkaki, premier bilan et résumé</title>
-	<link>https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;À la demande pressante de la foule (bon, n&apos;exagérons rien, juste une poignée de geeks), je fais un bilan et un résumé de la vie avec un hackintosh. Pour ceux qui ont manqué les épisodes précédents, ils portaient sur &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;le pourquoi de la chose&lt;/a&gt; et le &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;choix du matériel&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il ne s&apos;agit pas d&apos;un guide complet (&lt;strong&gt;je déconseille d&apos;ailleurs formellement de cloner ma configuration sans avoir veillé à la comprendre suffisamment au préalable&lt;/strong&gt;), mais plutôt d&apos;un résumé de la façon dont j&apos;ai abordé le sujet enrichi de remarques face à certaines difficultés particulières.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#more&quot; class=&quot;seemore&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/Jirokaki/2-premier-bilan.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-02-08T06:21:00+03:00</dc:date>
 
 </item>
 

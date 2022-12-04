@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/settingup_letsencrypt.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/futur-demenagement.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/ou-suis-je-en-ce-moment.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/navigateurs-madagascar.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/technorati.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html">
+	<title>Aider un pachyderme à surfer</title>
+	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_2.html</link>
+	<description>L'apprentissage de Mastodon peut être assez ingrat, car après votre inscription sur une instance, votre page d'accueil demeurera désespérément vide si vous ne la meublez pas… Votre serveur Mastodon ne vous proposera rien de lui-même, et il vous faudra explorer pour trouver des personnes à suivre...</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2022-12-04T22:12:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html">
 	<title>L&apos;envol sur un pachyderme</title>
 	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_1.html</link>
@@ -99,16 +108,6 @@
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2009-03-05T22:39:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/technorati.html">
-	<title></title>
-	<link>https://blog.barijaona.com/web/technorati.html</link>
-	<description>
-</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2008-02-23T14:14:00+03:00</dc:date>
 
 </item>
 
