@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,50 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html">
+	<title>Légendes</title>
+	<link>https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Plusieurs choix dans la conception de Mastodon ont été dictés par une méfiance vis-à-vis des phénomènes de viralité recherchés par les réseaux sociaux dominants. Il n&apos;empêche : Mastodon a vu dans les récentes heures l&apos;émergence de son premier &lt;i&gt;meme&lt;/i&gt; natif. En quelques heures, le hashtag #JohnMastodon nous a tous pris par surprise, et a été suivi par la suite de #JoanMastodon et #JeanneMasTodon, dans un doux mélange de satire sociale et de figures héroïques populaires.&lt;/p&gt;
+
+&lt;p&gt;Que s&apos;est-il passé ? L&apos;auteur conservateur Isaac Schorr a mal lu le nom du compte Twitter &lt;a href=&quot;https://twitter.com/joinmastodon&quot; title=&quot;Twitter account&quot;&gt;@joinmastodon&lt;/a&gt; et l&apos;a attribué à un certain John Mastodon, fondateur supposé d&apos;une compagnie éponyme rivale de Twitter.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://mastodon.social/@taylorlorenz/109532050191181640/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;400&quot; height=&quot;800&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Accordons à Schorr le bénéfice du doute. Il avait peut-être fait une recherche Google sur John Mastodon et était tombé sur cette &lt;a href=&quot;https://news.ycombinator.com/item?id=32698698&quot; title=&quot;Comment on an article titled “Mastodon still can&apos;t replace Twitter”&quot; hreflang=&quot;en&quot;&gt;&quot;annonce&quot; sur YCombinator&lt;/a&gt; selon laquelle John Mastodon, CEO et fondateur de Mastodon, avait été viré de la compagnie lorsque le cours de celle-ci était tombé au plus bas.  &lt;/p&gt;
+
+&lt;p&gt;Certaines personnes semblent tellement imbibées de mythologie libertarienne qu&apos;elles sont intellectuellement incapables d&apos;imaginer que &quot;quelque chose&quot; qui a du succès puisse exister sans être la création d&apos;une multinationale menée par un &quot;capitaine d&apos;industrie&quot;&quot;… Leur modèle de progrès repose sur « un-homme-un-vrai-un-leader » qui en impose à des milliers de techno-serfs, mérite de cette manière les millions de dollars qu&apos;il accumule et a des millions de suiveurs sur &lt;a href=&quot;https://www.linkedin.com/in/john-mastodon-61904525b/&quot; title=&quot;Profil parodique sur LinkedIn&quot;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://mastodon.gamedev.place/@nitrillo/109533602963906940/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; height=&quot;520&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;L&apos;histoire d&apos;Internet nous montre pourtant que les progrès les plus solides sont souvent venus de travaux coopératifs menés sans quête de profit financier… Pourquoi privilégier le modèle très vertical du maître régnant sur des hordes de techno-serfs, alors que la réalité ressemble davantage à des artisans utilisant les technologies collaboratives pour coopérer de manière beaucoup plus horizontale ?&lt;/p&gt;
+
+&lt;p&gt;Refusant d&apos;avoir des esclaves à disposition, je me suis appuyé sur une &lt;a href=&quot;https://chat.openai.com/&quot; title=&quot;ChatGPT&quot; hreflang=&quot;en&quot;&gt;pseudo-intelligence artificielle&lt;/a&gt; pour vous conter la véritable 😉 histoire de John Mastodon :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;John Mastodon est un jeune explorateur de l&apos;espace qui rêve de faire de grandes découvertes sur les planètes lointaines de la galaxie. Un jour, alors qu&apos;il explore une nouvelle planète, il se retrouve confronté à Hellon Buck, un méchant empereur intergalactique qui cherche à s&apos;emparer de ses technologies avancées et à terroriser la population.&lt;/p&gt;
+
+&lt;p&gt;Hellon Buck : &quot;Mes fusées vont s&apos;emparer de tes technologies !&quot;&lt;/p&gt;
+
+&lt;p&gt;John Mastodon : &quot;Je ne me laisse pas marcher sur les pieds, Hellon. Je suis prêt à me battre pour défendre ce qui m&apos;appartient, même si je n&apos;ai qu&apos;un sabre à ma disposition.&quot;&lt;/p&gt;
+
+&lt;p&gt;Hellon Buck : &quot;Tu vas regretter de t&apos;être opposé à moi !&quot;&lt;/p&gt;
+
+&lt;p&gt;John Mastodon : &quot;Je n&apos;ai pas peur de toi, Hellon. Tu es juste un méchant empereur qui ne pense qu&apos;à lui-même.&quot;&lt;/p&gt;
+
+&lt;p&gt;Hellon Buck : &quot;Mes fusées vont t&apos;écraser !&quot;&lt;/p&gt;
+
+&lt;p&gt;John Mastodon : &quot;On verra bien, Hellon. Je suis prêt à me battre jusqu&apos;à la mort s&apos;il le faut.&quot;&lt;/p&gt;
+
+&lt;p&gt;Au moment où Hellon Buck s&apos;apprête à donner l&apos;ordre à ses fusées d&apos;attaquer John, il glisse sur la peau de banane qu&apos;il vient de manger et tombe à terre. John en profite pour attaquer et vaincre rapidement Hellon et ses fusées.&lt;/p&gt;
+
+&lt;p&gt;Grâce à son agilité et à sa chance, John réussit à vaincre Hellon Buck et ses fusées et à défendre ses droits et sa liberté. Il devient un héros pour la population de la galaxie et continue à explorer l&apos;univers, à la recherche de nouvelles formes de vie et de technologies avancées.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2022-12-18T19:04:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html">
 	<title>Aider un pachyderme à surfer</title>
 	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_2.html</link>
@@ -344,102 +388,6 @@ Unmount of all volumes on disk2 was successful
 	<dc:subject>/macintosh/Jirokaki</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-02-20T06:01:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html">
-	<title>Jirōkaki, bilan performance/prix</title>
-	<link>https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Ceux qui auront lu &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;Projet Jirōkaki (次郎柿)&quot;&gt;depuis le début&lt;/a&gt; auront sans doute compris que le côté performance ne m&apos;a pas vraiment accaparé dans cette démarche de construction d&apos;un hackintosh. Contrairement à d&apos;autres, je ne suis pas un &lt;i lang=&quot;en&quot;&gt;gamer&lt;/i&gt; sous Windows en quête du matériel le plus récent et le plus performant… J&apos;ai retenu une configuration à base de Skylake &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;un peu par défaut&lt;/a&gt; et parce que l&apos;économie d&apos;énergie me donnait meilleure conscience. Mais si d&apos;ici Madagascar j&apos;avais eu accès à un large marché de l&apos;occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.&lt;/p&gt;
-
-&lt;p&gt;Alors si j&apos;ai eu envie de faire un petit bilan performance, c&apos;est avant tout pour vérifier que tout marche correctement. Il y avait en effet de quoi s&apos;étonner de ne jamais voir le ventilateur de la carte mère s&apos;activer, comme si cette carte graphique ne travaillait pas… D&apos;autant que les utilitaires disponibles pour suivre en temps réel l&apos;activité de la carte graphique (XRG et iStat Menus) affichaient des données contradictoires sur le type de carte utilisée.&lt;/p&gt;
-
-&lt;p&gt;Alors, que disent les benchmarks ? J&apos;ai rapproché mes mesures de celles disponibles sur MacGeneration.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;caption id=&quot;benchmarksorientscpuetcartesgraphique&quot;&gt;Benchmarks orientés CPU et cartes graphique&lt;/caption&gt;
-&lt;col align=&quot;left&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;col align=&quot;right&quot; /&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-	&lt;th&gt; &lt;/th&gt;
-	&lt;th&gt;&lt;a href=&quot;http://www.macg.co/tests/2015/10/test-de-limac-215-retina-4k-fin-2015-91515&quot;&gt;iMac Retina 21,5&quot; Core i5 3,1 GHz fin 2015&lt;/a&gt;&lt;/th&gt;
-	&lt;th&gt;&lt;a href=&quot;https://www.macg.co/tests/2015/10/test-de-limac-27-retina-5k-core-i5-32-ghz-skylake-fin-2015-91572&quot;&gt;iMac Retina 27&quot; Core i5 3,2 GHz fin 2015&lt;/a&gt;&lt;/th&gt;
-	&lt;th&gt;&lt;a href=&quot;https://www.macg.co/tests/2015/12/test-de-limac-27-retina-5k-core-i7-4-ghz-skylake-fusion-drive-fin-2015-92106&quot;&gt;iMac Retina 27&quot; Core i7 4,0 GHz fin 2015&lt;/a&gt;&lt;/th&gt;
-	&lt;th&gt;Jirōkaki Core i5 3,5 Ghz&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-	&lt;th align=&quot;left&quot;&gt;Geekbench 4 simple cœur&lt;/th&gt;
-	&lt;td align=&quot;right&quot;&gt;3 788&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;3 956&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;4 450&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;4 573&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;th align=&quot;left&quot;&gt;Geekbench 4 multiples cœurs&lt;/th&gt;
-	&lt;td align=&quot;right&quot;&gt;12 690&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;12 110&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;17 439&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;11 347&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;th align=&quot;left&quot;&gt;Unigine Valley benchmark (Ultra, antialiasing x8, 1080 p)&lt;/th&gt;
-	&lt;td align=&quot;right&quot;&gt; 4,9&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;22,6&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;28,3&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;33,4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;th align=&quot;left&quot;&gt;LuxMark 2 OpenCL (CPU+GPU, Sala Scene)&lt;/th&gt;
-	&lt;td align=&quot;right&quot;&gt;424&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;976&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1 383&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;1 710&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-	&lt;th align=&quot;left&quot;&gt;Cinebench R15 (OpenGL)&lt;/th&gt;
-	&lt;td align=&quot;right&quot;&gt;47,08&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;94,10&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;108,15&lt;/td&gt;
-	&lt;td align=&quot;right&quot;&gt;101,83&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Globalement, il y a largement là de quoi être rassuré. Tout n&apos;est pas très homogène&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;, il y a peut-être encore de quoi optimiser la configuration logicielle (sans même aborder les rives un peu dangereuses de l&apos;&lt;i lang=&quot;en&quot;&gt;overclocking&lt;/i&gt; matériel), mais la machine tient son rang et la carte nVidia répond bien présente même si son élévation de température reste si limitée que son ventilateur tourne à peine…&lt;/p&gt;
-
-&lt;p&gt;Mais une autre conclusion s&apos;impose, et celle là est économique. Ma configuration m&apos;a coûté à l&apos;époque un peu plus de 1 350 €. Avec la fluctuation du dollar et des &lt;a href=&quot;https://www.macg.co/materiel/2017/02/pourquoi-le-prix-de-la-ram-augmente-depuis-plusieurs-mois-97303&quot; title=&quot;Pourquoi le prix de la RAM augmente depuis plusieurs mois&quot;&gt;prix de la mémoire&lt;/a&gt;, son prix actuel France serait proche de 1 415 €. Mais si j&apos;avais dû rajouter le prix d&apos;un clavier Apple (Magic Keyboard ou clavier USB avec pavé numérique), d&apos;un Magic Trackpad et surtout le prix d&apos;un écran comparable à ceux des iMacs présentés ci-dessus, j&apos;aurais sans doute regretté d&apos;avoir monté un hackintosh.&lt;/p&gt;
-
-&lt;p&gt;En fait, au vu du prix d&apos;un &lt;a href=&quot;http://euro.dell.com/fr/fr/corp/Périphériques-Dell/dell-up2715k-monitor/pd.aspx?refid=dell-up2715k-monitor&amp;amp;s=corp&quot; title=&quot;Dell UltraSharp UP2715K&quot;&gt;bon écran 5K&lt;/a&gt;, les iMac 27 pouces Retina sont d&apos;excellentes affaires !&lt;/p&gt;
-
-&lt;p&gt;Je continue à trouver relativement chers les Macs actuellement disponibles au catalogue Apple, mais leur prix me paraît quand même plus logique que je ne le pensais auparavant. Car la qualité des composants et de la finition n&apos;est pas la même. On a tendance à comparer les fiches techniques des hackintosh à celles de Macs de haut de gamme, mais lorsqu&apos;on ouvre les capots et qu&apos;on y regarde de plus près, force est de constater qu&apos;il y a quelques différences sensibles… Et lorsqu&apos;on doit brancher et débrancher souvent les périphériques d&apos;un hackintosh, on se dit que ces fabricants de PC sont bien arriérés !&lt;/p&gt;
-
-&lt;p&gt;Monter un hackintosh m&apos;a ainsi permis de réaliser de manière moins abstraite qu&apos;il y a dans un Mac de la vraie R&amp;amp;D spécifique à Apple, parce que le constructeur à la pomme a cherché à devancer le reste du marché dans certains domaines, notamment l&apos;économie d&apos;énergie ou la gestion de certains périphériques. Cela se traduit par des fonctionnalités qu&apos;un hackintosh ne parvient toujours pas à reproduire aujourd&apos;hui (exemple : pas de &lt;i lang=&quot;en&quot;&gt;hot plug&lt;/i&gt; de périphériques Thunderbolt sur un hack), mais cela trahit aussi des spécificités matérielles qui doivent contribuer à renchérir le prix sortie usine d&apos;un « vrai » Mac.&lt;/p&gt;
-
-&lt;p&gt;Le problème est que ces spécificités doivent être amorties sur un bien plus faible nombre de machines que dans le modèle économique de l&apos;iPhone, modèle où qui plus est, le haut de gamme de l&apos;année passée (6s ou 6s Plus) peut devenir le milieu de gamme de cette année. Pas facile de faire ça avec les Macs où les nouveaux modèles poussent plutôt les anciens vers la sortie…&lt;/p&gt;
-
-&lt;p&gt;Du coup, je me dis que si j&apos;étais à la place d&apos;Apple, je serais assez tenté de casser la compatibilité de macOS afin de pouvoir réaliser des économies d&apos;échelle en mutualisant un plus grand nombre de composants avec les iDevices… Cela ferait sûrement crier beaucoup d&apos;utilisateurs, mais n&apos;est-ce pas la voie de l&apos;avenir ?&lt;/p&gt;
-
-&lt;p&gt;J&apos;espère qu&apos;une autre voie sera également explorée par Apple : dé-{bundler} écran et unité centrale et chercher à être compétitif en &lt;i lang=&quot;en&quot;&gt;build to order&lt;/i&gt; dans un format &lt;a href=&quot;http://macinpomme.fr/les-boites-a-pizza&quot; title=&quot;Macintosh LC et assimilés&quot;&gt;boîte à pizza&lt;/a&gt;. Ce serait une vraie démarche écologique, car elle permettrait de mieux adapter les machines aux besoins réels des utilisateurs et de conserver plus longtemps les périphériques.&lt;/p&gt;
-
-&lt;p&gt;Oui, les dirigeants d&apos;Apple sont bien placés pour savoir que &lt;a href=&quot;https://mondaynote.com/lazy-thinking-modularity-always-works-27257500a586&quot; title=&quot;Lazy Thinking: Modularity Always Works (Jean Louis Gassée)&quot; hreflang=&quot;en&quot;&gt;la modularité ne paie pas toujours&lt;/a&gt;, mais les années ont démontré que le Mac ne doit pas être vu comme un simple iPad. Par ailleurs, la lente décroissance des ventes de ce dernier permet de rappeller à Tim Cooke et à ses collègues  que même dans les pays très urbains, il y a toujours une demande pour les &lt;a href=&quot;http://www.macg.co/aapl/2010/06/steve-jobs-le-pc-est-un-camion-76226/page/0/1&quot; title=&quot;Steve Jobs : Le PC est un camion&quot;&gt;SUVs et camionnettes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Faut-il encore accuser les mémoires, disposées en &lt;i lang=&quot;en&quot;&gt;single channel&lt;/i&gt; dans la performance CPU en multiple cœurs ?&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-02-13T06:59:00+03:00</dc:date>
 
 </item>
 

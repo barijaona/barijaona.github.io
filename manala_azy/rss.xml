@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,9 +10,9 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="//blog.barijaona.com">
-    <title>Quai Sud, 2 minutes d'arrêt</title>
-    <link>http://blog.barijaona.com</link>
+  <channel rdf:about="https://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>https://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
     <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/la-vie-vraie-a-tana.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/be_my.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/alcool_filtre_carbone.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/alphabetise.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/poesie_pure.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/plan_b.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/megabambou.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/manala_azy/french_kiss.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/la-vie-vraie-a-tana.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/be_my.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/alcool_filtre_carbone.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/alphabetise.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/poesie_pure.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/plan_b.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/megabambou.html" />
 
       </rdf:Seq>
     </items>
@@ -38,9 +38,18 @@
 
   </channel>
   
-<item rdf:about="//blog.barijaona.com/manala_azy/la-vie-vraie-a-tana.html">
+<item rdf:about="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html">
+	<title>Légendes</title>
+	<link>https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html</link>
+	<description>Plusieurs choix dans la conception de Mastodon ont été dictés par une méfiance vis-à-vis des phénomènes de viralité recherchés par les réseaux sociaux dominants...</description>
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2022-12-18T19:04:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/la-vie-vraie-a-tana.html">
 	<title>Rencontre</title>
-	<link>http://blog.barijaona.com/manala_azy/la-vie-vraie-a-tana.html</link>
+	<link>https://blog.barijaona.com/manala_azy/la-vie-vraie-a-tana.html</link>
 	<description>
 
 
@@ -48,83 +57,66 @@
 
 
 Lequel de ces gouvernements surnuméraires aura le courage de mettre en place un ministère de l'éducation sentimentale et sexuelle pour la prévention du vice ...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2009-02-14T16:41:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/be_my.html">
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2009-02-14T16:41:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/be_my.html">
 	<title>Je succombe au meme du jour...</title>
-	<link>http://blog.barijaona.com/manala_azy/be_my.html</link>
+	<link>https://blog.barijaona.com/manala_azy/be_my.html</link>
 	<description>Je ne sais si la saison des bisounours est encore ouverte, mais lorsqu'on pose des questions essentielles, j'apprécie que les répondants soient encore les neveux de l'oncle Sam et pas encore ceux de l'oncle Picsou...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2005-02-14T07:15:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/alcool_filtre_carbone.html">
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2005-02-14T07:15:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/alcool_filtre_carbone.html">
 	<title>Un brin déçu par la politique internationale, ce blog tente de retourner à la science</title>
-	<link>http://blog.barijaona.com/manala_azy/alcool_filtre_carbone.html</link>
+	<link>https://blog.barijaona.com/manala_azy/alcool_filtre_carbone.html</link>
 	<description>Ça mériterait peut-être quelques vérifications en double aveugle...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2004-11-21T04:11:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/alphabetise.html">
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2004-11-21T04:11:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/alphabetise.html">
 	<title>Alphabêtises</title>
-	<link>http://blog.barijaona.com/manala_azy/alphabetise.html</link>
+	<link>https://blog.barijaona.com/manala_azy/alphabetise.html</link>
 	<description>C'est quand même quelque chose, de suivre les mèmes en traînant les pieds...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2004-05-08T15:26:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/poesie_pure.html">
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2004-05-08T15:26:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/poesie_pure.html">
 	<title>La vérité sort de la bouche des machines</title>
-	<link>http://blog.barijaona.com/manala_azy/poesie_pure.html</link>
+	<link>https://blog.barijaona.com/manala_azy/poesie_pure.html</link>
 	<description>Dans la longue série des D'où viens-je, qui suis-je, dans quel état j'erre ...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2003-12-17T05:26:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/plan_b.html">
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2003-12-17T05:26:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/plan_b.html">
 	<title>Plan B : pour sauver la blogosphère</title>
-	<link>http://blog.barijaona.com/manala_azy/plan_b.html</link>
+	<link>https://blog.barijaona.com/manala_azy/plan_b.html</link>
 	<description>Morgan, après m'avoir fait la peur de la semaine (j'ai cru un instant que Maïa s'arrêtait), m'a amené à penser à tous ces blogueurs en mal d'amour :
 
-Certains cherchent, dans l'écriture, dans leur weblog, dans leurs lecteurs un peu plus d'estime de soi...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2003-12-16T04:57:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/megabambou.html">
+bq...</description>
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2003-12-16T04:57:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/manala_azy/megabambou.html">
 	<title>En réponse au billet précédent...</title>
-	<link>http://blog.barijaona.com/manala_azy/megabambou.html</link>
+	<link>https://blog.barijaona.com/manala_azy/megabambou.html</link>
 	<description>Si vous trouvez que les liens du Web ne produisent pas encore suffisamment d'effets curieux, "fanafoudez" cette page (via Iokanaan si je ne m'abuse...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2003-11-13T07:50:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/manala_azy/french_kiss.html">
-	<title>Coalition contre Rodin...</title>
-	<link>http://blog.barijaona.com/manala_azy/french_kiss.html</link>
-	<description>Les britanniques comme les russes...</description>
-    
-    <dc:subject>/manala_azy</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2003-11-11T04:24:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/manala_azy</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2003-11-13T07:50:00+03:00</dc:date>
+
+</item>
 
 </rdf:RDF>
