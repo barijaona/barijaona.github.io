@@ -220,8 +220,8 @@ MastodonApi.prototype.replaceMedias = function (media_, spoiler_) {
 
 // Format date
 MastodonApi.prototype.formatDate = function (date_) {
-	const monthNames = ["jan", "fév", "mar", "avr", "mai", "juin",
-		"juil", "aoû", "sep", "oct", "nov", "déc"
+	const monthNames = ["jan", "f&eacute;v", "mar", "avr", "mai", "juin",
+		"juil", "ao&ucirc;", "sep", "oct", "nov", "d&eacute;c"
 	];
 
 	let date = new Date(date_);
