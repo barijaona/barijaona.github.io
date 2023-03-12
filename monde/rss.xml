@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Alexander-Van-der-Bellen.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/recap_apple_cryptographie.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/cop21_24h_apres.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/cop21_projet_accord.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/monde/silicon-valley-bank.html">
+	<title>Ça peut devenir compliqué, la « banque de papa »…</title>
+	<link>https://blog.barijaona.com/monde/silicon-valley-bank.html</link>
+	<description>Dans le monde de la finance globalisée, les crises ont ceci d'intéressant que presque personne n'a prévu leur arrivée...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2023-03-12T21:38:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html">
 	<title>Qui a nourri le crocodile ?</title>
 	<link>https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html</link>
@@ -103,15 +112,6 @@ N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de c
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-13T20:32:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/cop21_projet_accord.html">
-	<title>Première réaction (à chaud, dans tous les sens du terme)</title>
-	<link>https://blog.barijaona.com/monde/cop21_projet_accord.html</link>
-	<description>Le projet d'accord est sorti (à l'heure où j'écris, uniquement en anglais)...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-12T17:06:00+03:00</dc:date>
 
 </item>
 

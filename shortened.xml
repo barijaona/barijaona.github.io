@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/monde/silicon-valley-bank.html">
+	<title>Ça peut devenir compliqué, la « banque de papa »…</title>
+	<link>https://blog.barijaona.com/monde/silicon-valley-bank.html</link>
+	<description>Dans le monde de la finance globalisée, les crises ont ceci d'intéressant que presque personne n'a prévu leur arrivée...</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2023-03-12T21:38:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html">
 	<title>Légendes</title>
 	<link>https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html</link>
@@ -99,15 +108,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
-	<title>Disposer d&apos;une clé USB de secours pour flasher le BIOS</title>
-	<link>https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
-	<description>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS...</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-02-20T06:01:00+03:00</dc:date>
 
 </item>
 

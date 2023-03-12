@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,43 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/monde/silicon-valley-bank.html">
+	<title>Ça peut devenir compliqué, la « banque de papa »…</title>
+	<link>https://blog.barijaona.com/monde/silicon-valley-bank.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Dans le monde de la finance globalisée, les crises ont ceci d&apos;intéressant que presque personne n&apos;a prévu leur arrivée. Ce fait est même ce qui les caractérise. Dans une économie de marchés où l&apos;on a l&apos;habitude de spéculer sur tout, ce qui amène à essayer d&apos;anticiper en permanence, le rééquilibrage entre ceux qui ont tendance à voir un verre à moitié plein et ceux qui ont tendance à le voir à moitié vide se fait en continu. La régulation se fait alors via l&apos;ajustement des prix en fonction du niveau de risque perçu, et ce réajustement se fait en général plutôt en douceur.&lt;/p&gt;
+
+&lt;p&gt;La crise, la vraie, éclate lorsque que quelqu&apos;un crie brutalement &lt;q&gt;&lt;i&gt;Au loup !&lt;/i&gt;&lt;/q&gt; et que les marchés découvrent avec effroi un fait important que la grande majorité n&apos;avait pas perçu. Le réajustement se fait alors brutal, parfois excessif. Cela permet à ceux qui arrivent à analyser vite et bien une situation de réaliser alors de très substantiels profits&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il est trop tôt pour savoir si la cessation d&apos;activité de la Silicon Valley Bank (SVB) entraînera une crise financière majeure ou demeurera un épiphénomène. À l&apos;échelle des États-Unis, la SVB était un établissement de taille modeste, mais à en croire son site web, elle était en relation avec la moitié des entreprises financées par le capital-risque aux États-Unis et sa déconfiture pourrait avoir un effet systémique sur un secteur dont le poids au sein de l&apos;économie n&apos;est pas négligeable.&lt;/p&gt;
+
+&lt;p&gt;Au risque de paraître blasé, je dis souvent à mes collègues plus jeunes avoir intégré très tôt dans ma carrière le fait que les crises financières internationales arrivent assez périodiquement. Elles peuvent survenir tous les cinq ou dix ans, et ce malgré tous les efforts des régulateurs pour que l&apos;information financière devienne aussi précise et exhaustive que possible afin de permettre aux acteurs de s&apos;ajuster en permanence.&lt;/p&gt;
+
+&lt;p&gt;Ce qui est par contre inhabituel aujourd&apos;hui, c&apos;est que jusqu&apos;ici les crises étaient déclenchées par un événement sur les marchés de capitaux ou au sein d&apos;une banque d&apos;investissement. On ne peut qualifier ainsi la SVB, qui présente plutôt les caractéristiques d&apos;une banque commerciale classique.&lt;/p&gt;
+
+&lt;p&gt;Dans ce secteur, les difficultés surviennent le plus souvent de mauvais choix en matière d&apos;octroi de crédit ou de fraudes. Il ne semble pas que ce soit le cas pour la SVB. Et c&apos;est avec beaucoup d&apos;intérêt que je constate que les arides sujets &quot;risque de taux&quot; et &quot;risque de liquidité&quot;, qui dans le passé m&apos;avaient fait cogiter pendant pas mal d&apos;heures, sont susceptibles chez certaines banques commerciales d&apos;avoir des effets aussi brutaux, ce qui ne manquerait pas faire évoluer la doctrine en la matière.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hey &lt;a href=&quot;https://twitter.com/GRDecter&quot;&gt;@GRDecter&lt;/a&gt; , could you opine on my observation that given &lt;a href=&quot;https://twitter.com/hashtag/SVB?src=hash&quot;&gt;#SVB&lt;/a&gt; had 97% of its depositors over &lt;a href=&quot;https://twitter.com/hashtag/FDIC?src=hash&quot;&gt;#FDIC&lt;/a&gt; $250K limit, it was not operating as a bank. It was operating more like a hedge-fund, where large depositors were benefiting from Bank fund manager&amp;#39;s investing strategy.&lt;/p&gt;&amp;mdash; Gary Miller (@GaryMil64358420) &lt;a href=&quot;https://twitter.com/GaryMil64358420/status/1634695125262811136&quot;&gt;March 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Certes la SVB avait des caractéristiques qui lui étaient propres. Il y aura sans doute beaucoup de discussions autour du fait que ses dirigeants aient &lt;a href=&quot;https://www.levernews.com/svb-chief-pressed-lawmakers-to-weaken-bank-risk-regs/&quot; title=&quot;SVB Chief Pressed Lawmakers To Weaken Bank Risk Regs&quot; hreflang=&quot;en&quot;&gt;plaidé et obtenu des autorités&lt;/a&gt; que les établissements de leur catégorie ne soient pas soumis à des obligations sur le niveau des ratios &lt;abbr title=&quot;Liquidity Coverage Ratio&quot; lang=&quot;en&quot;&gt;LCR&lt;/abbr&gt; et &lt;abbr title=&quot;Net stable funding ratio&quot; lang=&quot;en&quot;&gt;NSFR&lt;/abbr&gt;.&lt;/p&gt;
+
+&lt;p&gt;En lisant les &lt;a href=&quot;&quot;&gt;états financiers de la SVB&lt;/a&gt;, je me dis également que les régulateurs pourraient être amenés dans le futur à se poser des questions sur la manière d&apos;affiner l&apos;information concernant certains actifs (&lt;abbr title=&quot;Available-for-Sale&quot; lang=&quot;en&quot;&gt;AFS&lt;/abbr&gt; et &lt;abbr title=&quot;Held-to-Maturity&quot; lang=&quot;en&quot;&gt;HTM&lt;/abbr&gt;), voire à envisager que ces actifs puissent être dans certains cas mobilisés en dehors des marchés financiers. Car le mélange entre les marchés et les &quot;banques de papa&quot; ne se passe pas toujours bien…&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;J&apos;ai envisagé d&apos;écrire &quot;de jolis profits&quot;, mais je sens que cela pourrait entraîner chez le lecteur un biais moral.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/monde/silicon-valley-bank.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/monde</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2023-03-12T21:38:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html">
 	<title>Légendes</title>
 	<link>https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html</link>
@@ -125,7 +162,7 @@
 
 &lt;p&gt;Bienvenue donc à tous ceux qui arrivent de l&apos;oiseau bleu… Soyez patients et ne vous étonnez pas si, par moments, les choses ne sont pas aussi fluides que vous le souhaiteriez. Les murs sont encore frais, et vous êtes nombreux.&lt;/p&gt;
 
-&lt;iframe src=&quot;https://bitcoinhackers.org/@mastodonusercount/109415891490775402/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; height=&quot;480&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://med-mastodon.com/@Iberiancitizen/109388359576823459/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; height=&quot;480&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Arrivé en avril 2017 sur Mastodon, je remarquais &lt;a href=&quot;https://www.liberation.fr/futurs/2017/04/15/mastodon-le-charme-des-endroits-d-internet-ou-on-arrive-en-premier_1562805/&quot; title=&quot;Article de Libération, 15 avril 2017&quot;&gt;le charme des endroits d&apos;internet où l&apos;on arrive en premier&lt;/a&gt;. Impossible cependant de ne pas remarquer que les similitudes entre Mastodon et Twitter peuvent faciliter les débuts mais décourager par la suite :&lt;/p&gt;
 
@@ -301,93 +338,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html">
-	<title>Disposer d&apos;une clé USB de secours pour flasher le BIOS</title>
-	<link>https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;L&apos;une des choses qui parait les plus effrayantes lorsqu&apos;on commence à travailler de très près un matériel PC est le flashage du BIOS. C&apos;est ce que je me suis aventuré à faire si vous avez lu les &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html&quot; title=&quot;La démarche de sélection et de commande du matériel&quot;&gt;épisodes précédents&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cela n&apos;est largement plus un problème avec les cartes Gigabyte qui disposent d&apos;un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n&apos;arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).&lt;/p&gt;
-
-&lt;p&gt;Néanmoins, je n&apos;ai pas abordé mes tests avec les BIOS F20 ou plus récents sans quelque appréhension. Selon le site internet de Gigabyte, il ne serait pas possible de revenir vers des versions antérieures à la F20 une fois celle-ci installée.&lt;/p&gt;
-
-&lt;p&gt;Sauf qu&apos;il y a quand même une solution pour le faire, et cela passe par une clé USB de secours pour démarrer sous MS-DOS ou assimilé afin de sauvegarder le BIOS actuel et éventuellement le (re)flasher. Ceci est mon aide-mémoire sur la façon de créer une telle clé sous FreeDOS.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Télécharger et décompresser une image disque directement exécutable de FreeDOS. J&apos;ai trouvé la mienne &lt;a href=&quot;http://derek.chezmarcotte.ca/freedos-1-1-usb-boot-image&quot; title=&quot;FreeDOS 1.1 USB Boot Image&quot; hreflang=&quot;en&quot;&gt;ici&lt;/a&gt;, et elle s&apos;appelle &lt;code&gt;fdos11.img&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Formater avec &quot;Utilitaire de disque&quot; une clé USB ayant au moins un gigaoctet de capacité, au format &quot;MS-DOS (FAT)&quot;, schéma &quot;Enregistrement de démarrage principal (MBR)&quot;&lt;a href=&quot;#fn:0&quot; id=&quot;fnref:0&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Transférer l&apos;image disque sur la clé USB. On pourra utiliser un utilitaire comme &lt;a href=&quot;https://etcher.io&quot; title=&quot;Burn images to SD cards &amp;amp; USB drives, safe &amp;amp; easy.&quot; hreflang=&quot;en&quot;&gt;Etcher&lt;/a&gt; ou plus traditionnellement en repérant le point de montage de la clé USB et en utilisant la commande &lt;code&gt;dd&lt;/code&gt; selon la séquence suivante.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;#036; diskutil list
-/dev/disk0 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *500.1 GB   disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                  Apple_HFS Macintosh HD            499.2 GB   disk0s2
-   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
-
-/dev/disk1 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *3.0 TB     disk1
-   1:                        EFI EFI                     209.7 MB   disk1s1
-   2:                  Apple_HFS SNAPSHOT                511.3 GB   disk1s2
-   3:                  Apple_HFS BACKUP                  2.0 TB     disk1s3
-   4:                  Apple_HFS ARCHIVES_LT             488.7 GB   disk1s4
-
-/dev/disk2 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:     FDisk_partition_scheme                        *2.1 GB     disk2
-   1:                 DOS_FAT_32 USB-STICK               2.1 GB     disk2s1
-
-&amp;#036; diskutil unmountDisk /dev/disk2
-Unmount of all volumes on disk2 was successful
-&amp;#036; sudo dd bs=1m if=/chemin/du/fichier/fdos11.img of=/dev/disk2&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Recopier le contenu de &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip&quot; title=&quot;Archive ZIP 663 Ko&quot;&gt;cette archive&lt;/a&gt; à la base de la clé&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Redémarrer et entrer dans le BIOS. Si ce n&apos;est déjà fait, sauvegardez votre profil actuel (&lt;i lang=&quot;en&quot;&gt;&quot;Save &amp;amp; Exit&quot;&lt;/i&gt;, &lt;i lang=&quot;en&quot;&gt;&quot;Save Profiles&quot;&lt;/i&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Réamorcez à partir de la clé (&lt;i lang=&quot;en&quot;&gt;&quot;Save &amp;amp; Exit&quot;&lt;/i&gt;, &lt;i lang=&quot;en&quot;&gt;&quot;Boot Override&quot;&lt;/i&gt;, &lt;i lang=&quot;en&quot;&gt;&quot;General UDisk 5.00&quot;&lt;/i&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; Les plus anciens savoureront un petit moment de nostalgie en redécouvrant les écrans du DOS… Lisez les instructions à l&apos;écran et tapez : &lt;code&gt;fpt -d bios.sav&lt;/code&gt; pour sauvegarder sur la clé USB votre BIOS actuel et l&apos;ensemble de sa configuration.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; Une fois l&apos;opération de sauvegarde terminée avec succès, il ne reste plus qu&apos;à redémarrer avec un &lt;code&gt;reboot&lt;/code&gt; ou la bonne vieille combinaison de touches Control-Alt-Del…&lt;/p&gt;
-
-&lt;p&gt;Nous disposons maintenant d&apos;une bonne solution de secours. Si vous voulez retrouver votre BIOS &quot;antique&quot;, il vous suffira de refaire l&apos;étape 6 et suivre les instructions à l&apos;écran…&lt;/p&gt;
-
-&lt;p&gt;L&apos;espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser &lt;a href=&quot;https://unetbootin.github.io&quot; title=&quot;UNetbootin allows you to create bootable USB drives&quot; hreflang=&quot;en&quot;&gt;UNetbootin&lt;/a&gt; pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;. Ensuite, recopier sur la clé successivement les contenus de l&apos;image disque &lt;code&gt;fdos11.img&lt;/code&gt; et de la &lt;a href=&quot;https://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip&quot; title=&quot;Archive ZIP 663 Ko&quot;&gt;petite archive&lt;/a&gt; déjà cités précédemment. Par la suite, rechercher où se trouve le fichier &lt;code&gt;syslinux.cfg&lt;/code&gt; et rajouter au bon endroit une entrée de ce genre :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;LABEL FreeDos
-  # MENU DEFAULT
-  # MENU HIDE
-  MENU LABEL Load FreeDOS 1.1 (8086+, FAT32)
-  # MENU PASSWD
-  TEXT HELP
-  Load FreeDOS now
-  ENDTEXT
-  com32 /fdos/bin/chain.c32
-  append freedos=/fdos/bin/kernel.sys&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Le reste sans grand changement pour les étapes 6 à 8, sauf que le secteur d&apos;amorçage devrait s&apos;appeler &quot;Generic USB driver&quot; ou quelque chose d&apos;approchant.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:0&quot;&gt;&lt;p&gt;Il faut parfois s&apos;y prendre à plusieurs fois pour y arriver.&lt;a href=&quot;#fnref:0&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Certains fichiers de cette archive ont été récupérés de l&apos;adresse http://www.mediafire.com/file/p66jhts7cfi26y8/fpt_DOS-Z170.zip&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Pour ma part, j&apos;ai installé GParted.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/macintosh/Jirokaki</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-02-20T06:01:00+03:00</dc:date>
 
 </item>
 
