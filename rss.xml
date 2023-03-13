@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,32 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/silicon-valley-bank-2.html">
+	<title>Ouf de soulagement</title>
+	<link>https://blog.barijaona.com/silicon-valley-bank-2.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm&quot; title=&quot;Joint Press Release&quot; hreflang=&quot;en&quot;&gt;Communiqué commun du Trésor Américain, de la Réserve Fédérale et du fonds de garantie des dépôts&lt;/a&gt; :&lt;/p&gt;
+
+&lt;blockquote lang=&quot;en&quot;&gt;After receiving a recommendation from the boards of the FDIC and the Federal Reserve, and consulting with the President, Secretary Yellen approved actions enabling the FDIC to complete its resolution of Silicon Valley Bank, Santa Clara, California, in a manner that fully protects all depositors. Depositors will have access to all of their money starting Monday, March 13. No losses associated with the resolution of Silicon Valley Bank will be borne by the taxpayer.&lt;/blockquote&gt;
+
+&lt;p&gt;Traduction libre :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Après avoir reçu une recommandation des conseils d&apos;administration de la &lt;abbr title=&quot;Federal Deposit Insurance Corporation&quot; lang=&quot;en&quot;&gt;FDIC&lt;/abbr&gt; et de la Réserve fédérale, et consulté le président, la secrétaire d&apos;État [Janet] Yellen a approuvé les mesures permettant à la FDIC d&apos;achever la résolution de la Silicon Valley Bank, située à Santa Clara, en Californie, d&apos;une manière qui protège pleinement tous les déposants. Les déposants auront accès à la totalité de leur argent à partir du lundi 13 mars. Aucune perte liée à la résolution de la Silicon Valley Bank ne sera supportée par le contribuable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;La dernière phrase de ce communiqué s&apos;explique par le fait que le problème initial de la Silicon Valley Bank était un problème de liquidité, pas de solvabilité. La lecture des &lt;a href=&quot;https://web.archive.org/web/20230309205016/https://s201.q4cdn.com/589201576/files/doc_financials/2022/q4/f36fc4d7-9459-41d7-9e3d-2c468971b386.pdf&quot; title=&quot;FORM 10-K&quot; hreflang=&quot;en&quot;&gt;états financiers à fin décembre&lt;/a&gt; laissait clairement penser que la banque disposait dans son bilan d&apos;une quantité significative d&apos;actifs relativement sûrs (Bons du Trésor et obligations hypothécaires). Par ailleurs, il n&apos;a jamais été fait état de difficulté particulière sur le portefeuille de crédits. La valeur des actifs de la banque permettait en théorie de couvrir le remboursement des dépôts de la clientèle.&lt;/p&gt;
+
+&lt;p&gt;La difficulté était que la banque, pour faire face à des retraits massifs de la clientèle, se retrouvait contrainte de vendre hâtivement des titres qu&apos;elle avait initialement l&apos;intention de garder jusqu&apos;à leur échéance : les HTM (&lt;i lang=&quot;en&quot;&gt;held-to-maturity&lt;/i&gt;) évoqués dans &lt;a href=&quot;https://blog.barijaona.com/monde/silicon-valley-bank.html&quot; title=&quot;Dimanche 12 mars 2023, 18h38 TU&quot;&gt;mon billet précédent&lt;/a&gt;. Mais compte tenu de l&apos;évolution des conditions sur le marché obligataire (forte hausse des taux d&apos;intérêts sur les derniers mois), céder précipitamment ces titres amenait à comptabiliser des dépréciations. Le problème de liquidité risquait de se transformer en problème de solvabilité.&lt;/p&gt;
+
+&lt;p&gt;En décidant de fermer la banque en pleine journée du vendredi, les autorités ont pu stopper la fuite de liquidité, profiter du week-end pour évaluer la situation et constater qu&apos;elles pouvaient injecter de la liquidité sans risque l&apos;argent du contribuable.&lt;/p&gt;
+
+&lt;p&gt;En revanche, je ne me prononcerai pas en ce qui concerne la Signature Bank que les autorités US ont également décidé de fermer ce week-end. Car le problème de cette banque semble avoir été provoqué par l&apos;activité relative aux cryptomonnaies. On est bien loin là de la &quot;banque de Papa&quot;.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/silicon-valley-bank-2.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject></dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2023-03-13T04:23:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/monde/silicon-valley-bank.html">
 	<title>Ça peut devenir compliqué, la « banque de papa »…</title>
 	<link>https://blog.barijaona.com/monde/silicon-valley-bank.html</link>
@@ -318,26 +344,6 @@
 	<dc:subject>/equipe/evenements</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
-	<title>Panthéon</title>
-	<link>https://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;http://www.lemonde.fr/disparitions/article/2017/06/30/mort-de-simone-veil-icone-de-la-lutte-pour-les-droits-des-femmes_5153554_3382.html?xtor=RSS-3208&quot; title=&quot;Mort de Simone Veil, icône de la lutte pour les droits des femmes. LeMonde.fr&quot;&gt;L&apos;histoire de cette femme est étonnante&lt;/a&gt; et incroyablement riche en leçons.&lt;/p&gt;
-
-&lt;p&gt;En ce qui me concerne, j&apos;avais été particulièrement frappé par la découverte relativement tardive du fait qu&apos;elle était une survivante de la Shoah. J&apos;admirais (et j&apos;admire toujours) le fait que malgré ces terribles épreuves, le ressentiment ou la haine n&apos;ont eu aucune prise sur elle.&lt;/p&gt;
-
-&lt;p&gt;Ce douloureux épisode de sa vie a semble-t-il été à l&apos;origine de ses convictions pro-européennes. «&lt;cite&gt;Si je m&apos;engage aussi pleinement sur la question de l&apos;Europe, c&apos;est pour tirer la leçon de mon passé&lt;/cite&gt;», disait-elle dans un discours du 5 juin 1979. «&lt;cite&gt;Le fait d&apos;avoir fait l&apos;Europe m&apos;a réconciliée avec le XXe siècle&lt;/cite&gt;», assurait-elle encore.&lt;/p&gt;
-
-&lt;p&gt;Depuis 48 heures, les appels à ce que Simone Veil entre au Panthéon se multiplient. N&apos;étant pas Français, j&apos;évite de me prononcer dessus.&lt;/p&gt;
-
-&lt;p&gt;Le 10 janvier 2007, elle y prononçait toutefois un discours remarquable, qui la fait entrer encore plus dans mon Panthéon personnel.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe allowfullscreen width=&apos;460&apos; height=&apos;259&apos; frameborder=&apos;0&apos; marginheight =&apos;0&apos; marginwidth=&apos;0&apos; scrolling =&apos;no&apos; src=&apos;https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1&apos; &gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
 
 </item>
 

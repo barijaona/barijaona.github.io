@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/silicon-valley-bank-2.html">
+	<title>Ouf de soulagement</title>
+	<link>https://blog.barijaona.com/silicon-valley-bank-2.html</link>
+	<description>Communiqué commun du Trésor Américain, de la Réserve Fédérale et du fonds de garantie des dépôts :
+
+After receiving a recommendation from the boards of the FDIC and the Federal Reserve, and consulting with the President, Secretary Yellen approved actions enabling the FDIC to complete its resolution of Silicon Valley Bank, Santa Clara, California, in a manner that fully protects all depositors...</description>
+	<dc:subject></dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2023-03-13T04:23:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/monde/silicon-valley-bank.html">
 	<title>Ça peut devenir compliqué, la « banque de papa »…</title>
 	<link>https://blog.barijaona.com/monde/silicon-valley-bank.html</link>
@@ -99,15 +110,6 @@
 	<dc:subject>/equipe/evenements</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html">
-	<title>Panthéon</title>
-	<link>https://blog.barijaona.com/monde/Veil_Pantheon_2007.html</link>
-	<description>L'histoire de cette femme est étonnante et incroyablement riche en leçons...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-07-02T09:25:00+03:00</dc:date>
 
 </item>
 
