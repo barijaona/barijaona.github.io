@@ -7,13 +7,13 @@
 		<language>en-us</language>
 		<copyright>Copyright 2017 noware.it, plus contributors</copyright>
 		<item>
-			<title>UniversalMailer 3.0.7 (build 128)</title>
-			<pubDate>Thu, 21 Jul 2022 22:41:11 +0300</pubDate>
-			<link>https://github.com/barijaona/UniversalMailer/releases/tag/v%2F3.0.7</link>
-			<sparkle:version>128</sparkle:version>
-			<sparkle:shortVersionString>3.0.7 (build 128)</sparkle:shortVersionString>
+			<title>UniversalMailer 3.0.8 (build 130)</title>
+			<pubDate>Wed, 5 Apr 2023 16:41:10 +0300</pubDate>
+			<link>https://github.com/barijaona/UniversalMailer/releases/tag/v%2F3.0.8</link>
+			<sparkle:version>130</sparkle:version>
+			<sparkle:shortVersionString>3.0.8 (build 130)</sparkle:shortVersionString>
 			<sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://github.com/barijaona/UniversalMailer/releases/download/v%2F3.0.7/UniversalMailer.pkg" sparkle:edSignature="PX8n9hhod7EZT/H84Iy995ecm2Yod6coFEjx84Iv5aMyqr89asY2Tecysg5Ap/MsbdgwqrXn5epPgy17TSUABA==" length="1101662" type="application/octet-stream" />
+			<enclosure url="https://github.com/barijaona/UniversalMailer/releases/download/v%2F3.0.8/UniversalMailer.pkg" sparkle:edSignature="3QpVPIur6iEiogguYnxWE5Lsp7JbROBkpttmF/TZv0lJ6/3lao6GWBL+n+0UyN9tOIAxUo2f5YEDSnGcWUekBQ==" length="1100540" type="application/octet-stream" />
 		</item>
 	</channel>
 </rss>
