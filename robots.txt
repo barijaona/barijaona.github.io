@@ -1,3 +1,16 @@
+# Block OpenAI
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+# Block Google Bard AI
+User-agent: Google-Extended
+Disallow: /
+# Block Common Crawl
+User-agent: CCBot
+Disallow: /
+
 User-agent: *
 Allow: /
-Sitemap: http://blog.barijaona.com/sitemap.xml
+
+Sitemap: https://blog.barijaona.com/sitemap.xml
