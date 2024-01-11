@@ -22,7 +22,7 @@
 <link rel="stylesheet" media="print" type="text/css" href="https://blog.barijaona.com/style/print.css" />
 <link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="https://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="https://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="https://blog.barijaona.com/shortened.xml" />
 
-<link rel="prev" href="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" title="Jirōkaki, bilan performance/prix" />
+<link rel="prev" href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" title="Disposer d'une clé USB de secours pour flasher le BIOS" />
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
@@ -56,6 +56,62 @@ function getComment(threadId,refPageURL){
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="https://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><h2></h2>
+<div class="post"><article class="hentry">
+<h3 class="accent4 entry-title instapaper_title"><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2024-01-11" class="timestamp">[&nbsp;jeudi 11 janvier 2024,&nbsp;03:28&nbsp;]</time>&nbsp;2024, renouveau du web décentralisé</a></h3>
+<div class="post-full entry-content instapaper_body"><p><i lang="en">Happy birthday, Matt Mullenweg. <a href="https://ma.tt/2024/01/birthday-gift/" title="Birthday Gift">Your note</a> had a strong influence in the follwing text. Sorry, I had not enough time to translate it. I don't know if you read French, but if it's not the case, I am confident DeepL can help.</i></p>
+
+<p>Le titre ci-dessus est à la fois une prévision à caractère général et une bonne résolution personnelle pour l'année nouvelle. Je suis raisonnablement confiant que l'on devrait assister à un relatif renouveau des "petits sites" en 2024. Et j'ai l'intention d'y contribuer dans une très modeste mesure en publiant un peu plus souvent ici. Pourquoi ? Parce que les moteurs de recherche et les réseaux sociaux pilotés par des algorithmes sont en passe de transformer le web en magma où l'on a davantage de mal à retrouver quelque chose de fiable.</p>
+
+<p>Dans ce contexte, mémoire et notes personnelles deviennent plus précieuses. Ainsi que le partage d'information d'humain à humain. Lorsque les robots sont défaillants, savoir que telle information est jugée importante par une personne physique bien identifiée acquiert bien plus de valeur. Tenir un blog personnel pourrait ainsi devenir un peu moins un exercice de <i lang="en">personal branding</i> et un peu plus l'exercice d'un devoir de mémoire et de mise en avant de cet exercice. </p>
+
+<p>Donc, je vais faire l'effort cette année de prendre plus de notes, et de les structurer un minimum. En ayant comme principale ambition que ces notes me soient personnellement utiles, tout en gardant à l'esprit que si je les trouve potentiellement utiles à d'autres personnes, j'en ferai plus volontiers des billets de blogs.</p>
+
+<p>En ce qui me concerne, j'ai beaucoup de mal à trouver un système de tenue de notes qui me satisfasse complètement. Mais je suis arrivé à trois constats :</p>
+
+<ul>
+<li>au jour le jour, <a href="https://www.barebones.com/products/bbedit/bbedit14.html" title="Why BBEdit 14 got a Notes feature" hreflang="en">comme beaucoup de monde sans doute</a>, je crée dans BBEdit une grande quantité de documents "Sans titre" pour prendre rapidement des notes. Une bonne raison à cela : il est quasiment impossible de faire planter cette application et elle récupère impeccablement la situation précédente chaque fois qu'on la relance ;</li>
+<li>j'ai trop d'onglets ouverts dans Safari, parce que je garde des pages que je me promets de relire ou qui doivent me servir d'éléments dans la réalisation d'un projet. Tout comme BBEdit, Safari est très stable et plutôt sobre en ressources. Mais c'est quand même beaucoup de cycles CPU qui sont gaspillés et qui ne le seraient pas si je sauvegardais et classais ces liens dans des notes ;</li>
+<li>il m'est arrivé plus d'une fois de retrouver des choses qui me sont très utiles dans mon blog, à travers des billets qui prenaient souvent la forme de "notes pour soi".</li>
+</ul>
+
+<p>Après avoir considéré la courbe d'apprentissage qui me serait nécessaire pour conserver mes notes privées dans un outil destiné aux <i lang="en">power users</i> comme <a href="https://forum.obsidian.md/t/how-to-curb-the-steepness-of-obsidians-learning-curve/41725" title="Forum: How to curb the steepness of Obsidian’s learning curve?" hreflang="en">Obsidian</a>, après avoir testé pendant plusieurs mois <a href="https://agenda.com" title="Notes meet calendar (macOS, iOS, iPadOS)" hreflang="en">Agenda</a>, j'ai décidé de tout recentraliser sur BBEdit, et de garder la même logique qu'un weblog : des fichiers texte classés et nommés de manière chronologique. En général, un ou deux fichiers par jour : un pour les notes professionnelles, un pour celles plus personnelles ou relevant de la serendipité.</p>
+
+<p>Et pour aller au bout de la logique précédente, autant mettre toutes ces notes dans un sous-répertoire de mon outil de blogging. Mon "nouveau" système de notes entend s'appuyer totalement sur l'intuition, assez géniale à l'époque, de <a href="https://web.archive.org/web/20030524112140/http://www.blosxom.com/" title="May 2003" hreflang="en">Blosxom</a> :</p>
+
+<blockquote>
+  <p>La philosophie de conception qui sous-tend Blosxom est axée sur le lien entre la simplicité, la convivialité et l'interopérabilité. Bloguer devrait être aussi simple que de taper dans l'éditeur de texte de son choix et d'appuyer sur Enregistrer. Le blogging devrait être aussi intuitif et naturel que de travailler avec des fichiers et des répertoires. Un système de blogs doit être extensible sans nécessiter de savoir-faire particulier ; il doit interopérer avec le système d'exploitation et le serveur Web qui se trouvent sous ses pieds et en tirer pleinement parti.</p>
+</blockquote>
+
+<p>Bon, dans la réalité, ça a demandé plus de travail que prévu. Parce que mon système personnel de blogging se base sur la génération de fichiers statiques, et parce qu'il faut que mes notes privées le demeurent, il m'a fallu me repencher sur <a href="https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/exclude" title="exclude plugin on Sourceforge" hreflang="en">un de mes plugins</a>. Et au passage, découvrir et corriger deux bugs dans Blosxom, dont <a href="https://sourceforge.net/p/blosxom/blosxom/ci/ca97975d66a1cde50c04fc35e7fec19e639e237f/" title="Commit" hreflang="en">l'un datait de treize ans</a> !</p>
+
+<h4 id="notescomplmentairespoursoi">Notes complémentaires pour soi</h4>
+
+<p>1/ lorsqu'une mise à jour de macOS écrase <code>/etc/apache2/httpd.conf</code>, il faut, pour pouvoir utiliser Blosxom en mode dynamique, réactiver dans ce fichier les modules :</p>
+
+<ul>
+<li>cgi_module</li>
+<li>rewrite_module</li>
+</ul>
+
+<p>2/ si l'on veut en sus utiliser TLS/SSL, il faut également activer les modules :</p>
+
+<ul>
+<li>ssl_module</li>
+<li>socache_shmcb_module</li>
+</ul>
+
+<p>et décommenter la ligne :</p>
+
+<pre><code class="language-">Include /private/etc/apache2/extra/httpd-ssl.conf</code></pre>
+
+<p>La gestion des clés TLS se fait avec <a href="https://certbot.eff.org" title="Electronic Frontier Foundatin" hreflang="en">certbot</a>, déjà installé <a href="https://blog.barijaona.com/web/settingup_letsencrypt.html" title="DO encrypt" hreflang="en">à l'époque via Homebrew</a>.</p>
+
+<p>3/ il me faut rajouter quelques éléments aux tests d'intégration continue de <a href="https://blosxom.sourceforge.net" title="blosxom :: the zen of blogging" hreflang="en">Blosxom</a> et publier une version 2.1.3.</p>
+</div></article>
+<div class="post-tools">[<a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html#disqus_thread" onclick="return(getComment('a202401110328','https://blog.barijaona.com/web/blosxom-refresh-2024.html'));" data-disqus-identifier="a202401110328">Réagir</a>]</div>
+</div><br />
+
+
 <div class="post"><article class="hentry">
 <h3 class="accent1 entry-title instapaper_title"><a href="https://blog.barijaona.com/silicon-valley-bank-2.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2023-03-13" class="timestamp">[&nbsp;lundi 13 mars 2023,&nbsp;04:23&nbsp;]</time>&nbsp;Ouf de soulagement</a></h3>
 <div class="post-full entry-content instapaper_body"><p><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm" title="Joint Press Release" hreflang="en">Communiqué commun du Trésor Américain, de la Réserve Fédérale et du fonds de garantie des dépôts</a> :</p>
@@ -360,94 +416,9 @@ function getComment(threadId,refPageURL){
 
 <p>Le 10 janvier 2007, elle y prononçait toutefois un discours remarquable, qui la fait entrer encore plus dans mon Panthéon personnel.</p>
 
-<p><iframe allowfullscreen width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1' ></iframe></p>
+<p><iframe allowfullscreen width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1?autoplay=0' ></iframe></p>
 </div></article>
 <div class="post-tools">[<a href="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html#disqus_thread" onclick="return(getComment('a201707020925','https://blog.barijaona.com/monde/Veil_Pantheon_2007.html'));" data-disqus-identifier="a201707020925">Réagir</a>]</div>
-</div><br />
-
-
-<div class="post"><article class="hentry">
-<h3 class="accent3 entry-title instapaper_title"><a href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2017-02-20" class="timestamp">[&nbsp;lundi 20 février 2017,&nbsp;06:01&nbsp;]</time>&nbsp;Disposer d'une clé USB de secours pour flasher le BIOS</a></h3>
-<div class="post-full entry-content instapaper_body"><p>L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS. C'est ce que je me suis aventuré à faire si vous avez lu les <a href="https://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" title="La démarche de sélection et de commande du matériel">épisodes précédents</a>.</p>
-
-<p>Cela n'est largement plus un problème avec les cartes Gigabyte qui disposent d'un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n'arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).</p>
-
-<p>Néanmoins, je n'ai pas abordé mes tests avec les BIOS F20 ou plus récents sans quelque appréhension. Selon le site internet de Gigabyte, il ne serait pas possible de revenir vers des versions antérieures à la F20 une fois celle-ci installée.</p>
-
-<p>Sauf qu'il y a quand même une solution pour le faire, et cela passe par une clé USB de secours pour démarrer sous MS-DOS ou assimilé afin de sauvegarder le BIOS actuel et éventuellement le (re)flasher. Ceci est mon aide-mémoire sur la façon de créer une telle clé sous FreeDOS.</p>
-
-<p><strong>1.</strong> Télécharger et décompresser une image disque directement exécutable de FreeDOS. J'ai trouvé la mienne <a href="http://derek.chezmarcotte.ca/freedos-1-1-usb-boot-image" title="FreeDOS 1.1 USB Boot Image" hreflang="en">ici</a>, et elle s'appelle <code>fdos11.img</code>.</p>
-
-<p><strong>2.</strong> Formater avec "Utilitaire de disque" une clé USB ayant au moins un gigaoctet de capacité, au format "MS-DOS (FAT)", schéma "Enregistrement de démarrage principal (MBR)"<a href="#fn:0" id="fnref:0" title="see footnote" class="footnote">1</a>.</p>
-
-<p><strong>3.</strong> Transférer l'image disque sur la clé USB. On pourra utiliser un utilitaire comme <a href="https://etcher.io" title="Burn images to SD cards &amp; USB drives, safe &amp; easy." hreflang="en">Etcher</a> ou plus traditionnellement en repérant le point de montage de la clé USB et en utilisant la commande <code>dd</code> selon la séquence suivante.</p>
-
-<pre><code>&#036; diskutil list
-/dev/disk0 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *500.1 GB   disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                  Apple_HFS Macintosh HD            499.2 GB   disk0s2
-   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
-
-/dev/disk1 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *3.0 TB     disk1
-   1:                        EFI EFI                     209.7 MB   disk1s1
-   2:                  Apple_HFS SNAPSHOT                511.3 GB   disk1s2
-   3:                  Apple_HFS BACKUP                  2.0 TB     disk1s3
-   4:                  Apple_HFS ARCHIVES_LT             488.7 GB   disk1s4
-
-/dev/disk2 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:     FDisk_partition_scheme                        *2.1 GB     disk2
-   1:                 DOS_FAT_32 USB-STICK               2.1 GB     disk2s1
-
-&#036; diskutil unmountDisk /dev/disk2
-Unmount of all volumes on disk2 was successful
-&#036; sudo dd bs=1m if=/chemin/du/fichier/fdos11.img of=/dev/disk2</code></pre>
-
-<p><strong>4.</strong> Recopier le contenu de <a href="https://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">cette archive</a> à la base de la clé<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">2</a>.</p>
-
-<p><strong>5.</strong> Redémarrer et entrer dans le BIOS. Si ce n'est déjà fait, sauvegardez votre profil actuel (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Save Profiles"</i>).</p>
-
-<p><strong>6.</strong> Réamorcez à partir de la clé (<i lang="en">"Save &amp; Exit"</i>, <i lang="en">"Boot Override"</i>, <i lang="en">"General UDisk 5.00"</i>).</p>
-
-<p><strong>7.</strong> Les plus anciens savoureront un petit moment de nostalgie en redécouvrant les écrans du DOS… Lisez les instructions à l'écran et tapez : <code>fpt -d bios.sav</code> pour sauvegarder sur la clé USB votre BIOS actuel et l'ensemble de sa configuration.</p>
-
-<p><strong>8.</strong> Une fois l'opération de sauvegarde terminée avec succès, il ne reste plus qu'à redémarrer avec un <code>reboot</code> ou la bonne vieille combinaison de touches Control-Alt-Del…</p>
-
-<p>Nous disposons maintenant d'une bonne solution de secours. Si vous voulez retrouver votre BIOS "antique", il vous suffira de refaire l'étape 6 et suivre les instructions à l'écran…</p>
-
-<p>L'espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser <a href="https://unetbootin.github.io" title="UNetbootin allows you to create bootable USB drives" hreflang="en">UNetbootin</a> pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a>. Ensuite, recopier sur la clé successivement les contenus de l'image disque <code>fdos11.img</code> et de la <a href="https://blog.barijaona.com/macintosh/Jirokaki/copier_contenu_base_cle_USB.zip" title="Archive ZIP 663 Ko">petite archive</a> déjà cités précédemment. Par la suite, rechercher où se trouve le fichier <code>syslinux.cfg</code> et rajouter au bon endroit une entrée de ce genre :</p>
-
-<pre><code>LABEL FreeDos
-  # MENU DEFAULT
-  # MENU HIDE
-  MENU LABEL Load FreeDOS 1.1 (8086+, FAT32)
-  # MENU PASSWD
-  TEXT HELP
-  Load FreeDOS now
-  ENDTEXT
-  com32 /fdos/bin/chain.c32
-  append freedos=/fdos/bin/kernel.sys</code></pre>
-
-<p>Le reste sans grand changement pour les étapes 6 à 8, sauf que le secteur d'amorçage devrait s'appeler "Generic USB driver" ou quelque chose d'approchant.</p>
-
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn:0"><p>Il faut parfois s'y prendre à plusieurs fois pour y arriver.<a href="#fnref:0" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
-
-<li id="fn:1"><p>Certains fichiers de cette archive ont été récupérés de l'adresse http://www.mediafire.com/file/p66jhts7cfi26y8/fpt_DOS-Z170.zip<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
-
-<li id="fn:2"><p>Pour ma part, j'ai installé GParted.<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
-
-</ol>
-</div>
-</div></article>
-<div class="post-tools">[<a href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html#disqus_thread" onclick="return(getComment('a201702200601','https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html'));" data-disqus-identifier="a201702200601">Réagir</a>]</div>
 </div><br />
 
 
@@ -472,7 +443,7 @@ Unmount of all volumes on disk2 was successful
    <input type="submit" value="Rechercher" />
 </form>
 </div>
-<p class="note"><a href="https://blog.barijaona.com/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar"><table class="month-calendar"><caption class="month-calendar-head">avril 2023</caption><colgroup style="text-align:center"><col span="7" /></colgroup><thead><tr><th class="month-calendar-day-head Lundi">Lun</th>
+<p class="note"><a href="https://blog.barijaona.com/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar"><table class="month-calendar"><caption class="month-calendar-head">janvier 2024</caption><colgroup style="text-align:center"><col span="7" /></colgroup><thead><tr><th class="month-calendar-day-head Lundi">Lun</th>
 <th class="month-calendar-day-head Mardi">Mar</th>
 <th class="month-calendar-day-head Mercredi">Mer</th>
 <th class="month-calendar-day-head Jeudi">Jeu</th>
@@ -480,49 +451,48 @@ Unmount of all volumes on disk2 was successful
 <th class="month-calendar-day-head Samedi">Sam</th>
 <th class="month-calendar-day-head Dimanche">Dim</th>
 </tr></thead><tbody><tr>
-<td class="month-calendar-day-noday Lundi">&nbsp;</td>
-<td class="month-calendar-day-noday Mardi">&nbsp;</td>
-<td class="month-calendar-day-noday Mercredi">&nbsp;</td>
+<td class="month-calendar-day-nolink Lundi">1</td>
+<td class="month-calendar-day-nolink Mardi">2</td>
+<td class="month-calendar-day-nolink Mercredi">3</td>
+<td class="month-calendar-day-nolink Jeudi">4</td>
+<td class="month-calendar-day-nolink Vendredi">5</td>
+<td class="month-calendar-day-nolink Samedi">6</td>
+<td class="month-calendar-day-nolink Dimanche">7</td>
+</tr>
+<tr>
+<td class="month-calendar-day-nolink Lundi">8</td>
+<td class="month-calendar-day-nolink Mardi">9</td>
+<td class="month-calendar-day-nolink Mercredi">10</td>
+<td class="month-calendar-day-this-day Jeudi"><a title="Jeudi 11 janvier 2024" href="https://blog.barijaona.com/2024/01/index.html#0111">11</a></td><td class="month-calendar-day-future Vendredi">12</td>
+<td class="month-calendar-day-future Samedi">13</td>
+<td class="month-calendar-day-future Dimanche">14</td>
+</tr>
+<tr>
+<td class="month-calendar-day-future Lundi">15</td>
+<td class="month-calendar-day-future Mardi">16</td>
+<td class="month-calendar-day-future Mercredi">17</td>
+<td class="month-calendar-day-future Jeudi">18</td>
+<td class="month-calendar-day-future Vendredi">19</td>
+<td class="month-calendar-day-future Samedi">20</td>
+<td class="month-calendar-day-future Dimanche">21</td>
+</tr>
+<tr>
+<td class="month-calendar-day-future Lundi">22</td>
+<td class="month-calendar-day-future Mardi">23</td>
+<td class="month-calendar-day-future Mercredi">24</td>
+<td class="month-calendar-day-future Jeudi">25</td>
+<td class="month-calendar-day-future Vendredi">26</td>
+<td class="month-calendar-day-future Samedi">27</td>
+<td class="month-calendar-day-future Dimanche">28</td>
+</tr>
+<tr>
+<td class="month-calendar-day-future Lundi">29</td>
+<td class="month-calendar-day-future Mardi">30</td>
+<td class="month-calendar-day-future Mercredi">31</td>
 <td class="month-calendar-day-noday Jeudi">&nbsp;</td>
 <td class="month-calendar-day-noday Vendredi">&nbsp;</td>
-<td class="month-calendar-day-nolink Samedi">1</td>
-<td class="month-calendar-day-nolink Dimanche">2</td>
-</tr>
-<tr>
-<td class="month-calendar-day-nolink Lundi">3</td>
-<td class="month-calendar-day-nolink Mardi">4</td>
-<td class="month-calendar-day-this-day Mercredi">5</td>
-<td class="month-calendar-day-future Jeudi">6</td>
-<td class="month-calendar-day-future Vendredi">7</td>
-<td class="month-calendar-day-future Samedi">8</td>
-<td class="month-calendar-day-future Dimanche">9</td>
-</tr>
-<tr>
-<td class="month-calendar-day-future Lundi">10</td>
-<td class="month-calendar-day-future Mardi">11</td>
-<td class="month-calendar-day-future Mercredi">12</td>
-<td class="month-calendar-day-future Jeudi">13</td>
-<td class="month-calendar-day-future Vendredi">14</td>
-<td class="month-calendar-day-future Samedi">15</td>
-<td class="month-calendar-day-future Dimanche">16</td>
-</tr>
-<tr>
-<td class="month-calendar-day-future Lundi">17</td>
-<td class="month-calendar-day-future Mardi">18</td>
-<td class="month-calendar-day-future Mercredi">19</td>
-<td class="month-calendar-day-future Jeudi">20</td>
-<td class="month-calendar-day-future Vendredi">21</td>
-<td class="month-calendar-day-future Samedi">22</td>
-<td class="month-calendar-day-future Dimanche">23</td>
-</tr>
-<tr>
-<td class="month-calendar-day-future Lundi">24</td>
-<td class="month-calendar-day-future Mardi">25</td>
-<td class="month-calendar-day-future Mercredi">26</td>
-<td class="month-calendar-day-future Jeudi">27</td>
-<td class="month-calendar-day-future Vendredi">28</td>
-<td class="month-calendar-day-future Samedi">29</td>
-<td class="month-calendar-day-future Dimanche">30</td>
+<td class="month-calendar-day-noday Samedi">&nbsp;</td>
+<td class="month-calendar-day-noday Dimanche">&nbsp;</td>
 </tr>
 <tr><td colspan="7" style="text-align:center"><a title="mars 2023" href="https://blog.barijaona.com/2023/03/">Mar</a>&nbsp;&nbsp;...</td></tr></tbody></table></div>
 <p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
@@ -546,7 +516,7 @@ Unmount of all volumes on disk2 was successful
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" title="billet du 13 f&eacute;vrier 2017">&lt;-&nbsp;Jirōkaki, bilan performance/prix</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" title="billet du 20 f&eacute;vrier 2017">&lt;-&nbsp;Disposer d'une clé USB de secours pour flasher le BIOS</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br />

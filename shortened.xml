@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/blosxom-refresh-2024.html">
+	<title>2024, renouveau du web décentralisé</title>
+	<link>https://blog.barijaona.com/web/blosxom-refresh-2024.html</link>
+	<description>Happy birthday, Matt Mullenweg...</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-11T03:28:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/silicon-valley-bank-2.html">
 	<title>Ouf de soulagement</title>
 	<link>https://blog.barijaona.com/silicon-valley-bank-2.html</link>
@@ -101,15 +110,6 @@ After receiving a recommendation from the boards of the FDIC and the Federal Res
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2020-04-27T06:30:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/equipe/evenements/leon.html">
-	<title>Léon</title>
-	<link>https://blog.barijaona.com/equipe/evenements/leon.html</link>
-	<description>Léon Rajaobelina, c'était un peu mon père en écologie...</description>
-	<dc:subject>/equipe/evenements</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
 
 </item>
 

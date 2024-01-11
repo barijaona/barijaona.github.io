@@ -38,13 +38,12 @@
 	text-align: center;
 	font-size: small
 }
-.box,#friendfeed-badge {
+.box {
 	position: relative;
 	top: 2ex;
 	padding: 0.5em;
 	margin-top: 1em;
 	border: 1px solid gray;
-	background-color: #f3f3f3
 }
 .month-calendar {
 	min-width: 180px;
@@ -59,14 +58,6 @@
 .search {
 	text-align: center
 }
-#friendfeed-badge ul {
-	margin-left: 0;
-	padding-left: 8px
-}
-#friendfeed-badge ul ul {
-	list-style-type: none;
-	font-style: italic
-}
 .topnav {
 	color: #ccc
 }
@@ -76,9 +67,6 @@
 	border: none;
 	color: #ccc;
 	clear: both
-}
-.dateofday {
-	background-color: #f3f3f3
 }
 .theme1 {
 	background-color: #933
@@ -100,7 +88,7 @@
 }
 .timestamp {
 	font-size: x-small;
-	color: gray
+	color: var(--lower-grey)
 }
 h3 .timestamp {
 	float: right;
@@ -115,12 +103,12 @@ h3 .nav2 {
 a:link {
 	text-decoration: none;
 	font-weight: bold;
-	color: #508080
+	color: #3366CC
 }
 a:visited {
 	text-decoration: none;
 	font-weight: bold;
-	color: #545454
+	color: #3474A4
 }
 a:hover {
 	font-weight: bold;
@@ -138,12 +126,6 @@ a[hreflang]:after {
 	vertical-align: baseline;
 	position: relative;
 	bottom: 0.5em
-}
-.content a:visited {
-	color: #546464
-}
-.content a:hover {
-	color: #0000dd
 }
 .timestamp a:link {
 	color: #507070
@@ -170,7 +152,7 @@ a[hreflang]:after {
 	text-align: right
 }
 .month-calendar-day-this-day {
-	background-color: #E8E8E8
+	background-color: var(--greyed);
 }
 .month-calendar {
 	font-size: xx-small
@@ -399,10 +381,7 @@ a[hreflang]:after {
 	/* gestion des mots longs */
 	textarea,table,td,th,code,pre,samp {
 		word-wrap: break-word;
-		/* passage à la ligne forcé */
-		-webkit-hyphens: auto;
-		/* césure propre */
-		-moz-hyphens: auto;
+		/* passage à la ligne forcé, césure propre */
 		hyphens: auto
 	}
 	code,pre,samp {
@@ -417,8 +396,4 @@ a[hreflang]:after {
 	/* masquer les éléments superflus */
 	.hide_mobile {
 		display: none !important
-	}
-	body,html {
-		background: white
-	}
 }

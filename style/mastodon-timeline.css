@@ -6,7 +6,6 @@
   height: calc(100% - 4rem);
   border:1px solid gray ;
   position: relative;
-  background: #F3F3F3;
 }
 
 p {
@@ -141,7 +140,6 @@ text-align: center;
 
 /* Date */
 .toot-date {
-  font-size: 0.75rem;
   opacity: 0.5;
 }
 

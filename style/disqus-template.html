@@ -3,6 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <title></title>
+<style>
+:root {
+    --background-color: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #050505;
+    }
+}
+
+body,html {
+	background:var(--background-color); padding:0.5em;
+}
+</style>
 </head>
 <body>
 <div id="disqus_thread"></div>

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,64 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/blosxom-refresh-2024.html">
+	<title>2024, renouveau du web décentralisé</title>
+	<link>https://blog.barijaona.com/web/blosxom-refresh-2024.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;i lang=&quot;en&quot;&gt;Happy birthday, Matt Mullenweg. &lt;a href=&quot;https://ma.tt/2024/01/birthday-gift/&quot; title=&quot;Birthday Gift&quot;&gt;Your note&lt;/a&gt; had a strong influence in the follwing text. Sorry, I had not enough time to translate it. I don&apos;t know if you read French, but if it&apos;s not the case, I am confident DeepL can help.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Le titre ci-dessus est à la fois une prévision à caractère général et une bonne résolution personnelle pour l&apos;année nouvelle. Je suis raisonnablement confiant que l&apos;on devrait assister à un relatif renouveau des &quot;petits sites&quot; en 2024. Et j&apos;ai l&apos;intention d&apos;y contribuer dans une très modeste mesure en publiant un peu plus souvent ici. Pourquoi ? Parce que les moteurs de recherche et les réseaux sociaux pilotés par des algorithmes sont en passe de transformer le web en magma où l&apos;on a davantage de mal à retrouver quelque chose de fiable.&lt;/p&gt;
+
+&lt;p&gt;Dans ce contexte, mémoire et notes personnelles deviennent plus précieuses. Ainsi que le partage d&apos;information d&apos;humain à humain. Lorsque les robots sont défaillants, savoir que telle information est jugée importante par une personne physique bien identifiée acquiert bien plus de valeur. Tenir un blog personnel pourrait ainsi devenir un peu moins un exercice de &lt;i lang=&quot;en&quot;&gt;personal branding&lt;/i&gt; et un peu plus l&apos;exercice d&apos;un devoir de mémoire et de mise en avant de cet exercice. &lt;/p&gt;
+
+&lt;p&gt;Donc, je vais faire l&apos;effort cette année de prendre plus de notes, et de les structurer un minimum. En ayant comme principale ambition que ces notes me soient personnellement utiles, tout en gardant à l&apos;esprit que si je les trouve potentiellement utiles à d&apos;autres personnes, j&apos;en ferai plus volontiers des billets de blogs.&lt;/p&gt;
+
+&lt;p&gt;En ce qui me concerne, j&apos;ai beaucoup de mal à trouver un système de tenue de notes qui me satisfasse complètement. Mais je suis arrivé à trois constats :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;au jour le jour, &lt;a href=&quot;https://www.barebones.com/products/bbedit/bbedit14.html&quot; title=&quot;Why BBEdit 14 got a Notes feature&quot; hreflang=&quot;en&quot;&gt;comme beaucoup de monde sans doute&lt;/a&gt;, je crée dans BBEdit une grande quantité de documents &quot;Sans titre&quot; pour prendre rapidement des notes. Une bonne raison à cela : il est quasiment impossible de faire planter cette application et elle récupère impeccablement la situation précédente chaque fois qu&apos;on la relance ;&lt;/li&gt;
+&lt;li&gt;j&apos;ai trop d&apos;onglets ouverts dans Safari, parce que je garde des pages que je me promets de relire ou qui doivent me servir d&apos;éléments dans la réalisation d&apos;un projet. Tout comme BBEdit, Safari est très stable et plutôt sobre en ressources. Mais c&apos;est quand même beaucoup de cycles CPU qui sont gaspillés et qui ne le seraient pas si je sauvegardais et classais ces liens dans des notes ;&lt;/li&gt;
+&lt;li&gt;il m&apos;est arrivé plus d&apos;une fois de retrouver des choses qui me sont très utiles dans mon blog, à travers des billets qui prenaient souvent la forme de &quot;notes pour soi&quot;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Après avoir considéré la courbe d&apos;apprentissage qui me serait nécessaire pour conserver mes notes privées dans un outil destiné aux &lt;i lang=&quot;en&quot;&gt;power users&lt;/i&gt; comme &lt;a href=&quot;https://forum.obsidian.md/t/how-to-curb-the-steepness-of-obsidians-learning-curve/41725&quot; title=&quot;Forum: How to curb the steepness of Obsidian’s learning curve?&quot; hreflang=&quot;en&quot;&gt;Obsidian&lt;/a&gt;, après avoir testé pendant plusieurs mois &lt;a href=&quot;https://agenda.com&quot; title=&quot;Notes meet calendar (macOS, iOS, iPadOS)&quot; hreflang=&quot;en&quot;&gt;Agenda&lt;/a&gt;, j&apos;ai décidé de tout recentraliser sur BBEdit, et de garder la même logique qu&apos;un weblog : des fichiers texte classés et nommés de manière chronologique. En général, un ou deux fichiers par jour : un pour les notes professionnelles, un pour celles plus personnelles ou relevant de la serendipité.&lt;/p&gt;
+
+&lt;p&gt;Et pour aller au bout de la logique précédente, autant mettre toutes ces notes dans un sous-répertoire de mon outil de blogging. Mon &quot;nouveau&quot; système de notes entend s&apos;appuyer totalement sur l&apos;intuition, assez géniale à l&apos;époque, de &lt;a href=&quot;https://web.archive.org/web/20030524112140/http://www.blosxom.com/&quot; title=&quot;May 2003&quot; hreflang=&quot;en&quot;&gt;Blosxom&lt;/a&gt; :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;La philosophie de conception qui sous-tend Blosxom est axée sur le lien entre la simplicité, la convivialité et l&apos;interopérabilité. Bloguer devrait être aussi simple que de taper dans l&apos;éditeur de texte de son choix et d&apos;appuyer sur Enregistrer. Le blogging devrait être aussi intuitif et naturel que de travailler avec des fichiers et des répertoires. Un système de blogs doit être extensible sans nécessiter de savoir-faire particulier ; il doit interopérer avec le système d&apos;exploitation et le serveur Web qui se trouvent sous ses pieds et en tirer pleinement parti.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bon, dans la réalité, ça a demandé plus de travail que prévu. Parce que mon système personnel de blogging se base sur la génération de fichiers statiques, et parce qu&apos;il faut que mes notes privées le demeurent, il m&apos;a fallu me repencher sur &lt;a href=&quot;https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/exclude&quot; title=&quot;exclude plugin on Sourceforge&quot; hreflang=&quot;en&quot;&gt;un de mes plugins&lt;/a&gt;. Et au passage, découvrir et corriger deux bugs dans Blosxom, dont &lt;a href=&quot;https://sourceforge.net/p/blosxom/blosxom/ci/ca97975d66a1cde50c04fc35e7fec19e639e237f/&quot; title=&quot;Commit&quot; hreflang=&quot;en&quot;&gt;l&apos;un datait de treize ans&lt;/a&gt; !&lt;/p&gt;
+
+&lt;h4 id=&quot;notescomplmentairespoursoi&quot;&gt;Notes complémentaires pour soi&lt;/h4&gt;
+
+&lt;p&gt;1/ lorsqu&apos;une mise à jour de macOS écrase &lt;code&gt;/etc/apache2/httpd.conf&lt;/code&gt;, il faut, pour pouvoir utiliser Blosxom en mode dynamique, réactiver dans ce fichier les modules :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cgi_module&lt;/li&gt;
+&lt;li&gt;rewrite_module&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2/ si l&apos;on veut en sus utiliser TLS/SSL, il faut également activer les modules :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ssl_module&lt;/li&gt;
+&lt;li&gt;socache_shmcb_module&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;et décommenter la ligne :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-&quot;&gt;Include /private/etc/apache2/extra/httpd-ssl.conf&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La gestion des clés TLS se fait avec &lt;a href=&quot;https://certbot.eff.org&quot; title=&quot;Electronic Frontier Foundatin&quot; hreflang=&quot;en&quot;&gt;certbot&lt;/a&gt;, déjà installé &lt;a href=&quot;https://blog.barijaona.com/web/settingup_letsencrypt.html&quot; title=&quot;DO encrypt&quot; hreflang=&quot;en&quot;&gt;à l&apos;époque via Homebrew&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;3/ il me faut rajouter quelques éléments aux tests d&apos;intégration continue de &lt;a href=&quot;https://blosxom.sourceforge.net&quot; title=&quot;blosxom :: the zen of blogging&quot; hreflang=&quot;en&quot;&gt;Blosxom&lt;/a&gt; et publier une version 2.1.3.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-11T03:28:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/silicon-valley-bank-2.html">
 	<title>Ouf de soulagement</title>
 	<link>https://blog.barijaona.com/silicon-valley-bank-2.html</link>
@@ -320,30 +378,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2020-04-27T06:30:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/equipe/evenements/leon.html">
-	<title>Léon</title>
-	<link>https://blog.barijaona.com/equipe/evenements/leon.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Léon Rajaobelina, c&apos;était un peu mon père en écologie. Mieux que quiconque, il m&apos;avait fait comprendre les liens entre la nature et le développement humain, et il m&apos;avait éclairé sur le pourquoi et le comment de la politique à long terme de protection de l&apos;environnement à Madagascar.&lt;/p&gt;
-
-&lt;p&gt;Politique ambitieuse qu&apos;il défendait avec conviction, sans ignorer les difficultés dans sa mise en œuvre. &lt;/p&gt;
-
-&lt;p&gt;Inspirateur et fondateur de la Fondation pour les Aires Protégées et la Biodiversité de Madagascar, il lui a donné non seulement une direction, mais aussi une âme et une éthique. Il a apporté à la &lt;a href=&quot;http://www.fapbm.org&quot; title=&quot;Fondation pour les Aires Protégées et la Biodiversité de Madagascar&quot;&gt;FAPBM&lt;/a&gt; son immense expérience de financier, de diplomate, de passionné de la nature et de grand commis de l&apos;État. Sans même parler de son immense carnet d&apos;adresses, sans lesquels la Fondation ne serait certainement pas ce qu&apos;elle est aujourd&apos;hui.&lt;/p&gt;
-
-&lt;p&gt;Rigoureux, il n&apos;en était pas moins bienveillant. Exigeant, il n&apos;en était pas moins souriant. Plein d&apos;expérience, il n&apos;en était pas moins discret. &lt;/p&gt;
-
-&lt;p&gt;J&apos;aime beaucoup cette photo prise en juin 2015, à la fin de la soirée de célébration des dix ans de la FAPBM. Elle me rappelle que les personnalités doivent avoir la grandeur de s&apos;effacer derrière les institutions qu&apos;elles ont l&apos;honneur de servir, mais aussi que la présence de fortes personnalités n&apos;est pas indifférente au succès des institutions.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://blog.barijaona.com/equipe/evenements/celebration_10ans_fapbm.jpg&quot; alt=&quot;Trois présidents de la FAPBM&quot; width=&quot;448&quot; height=&quot;299&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Léon m&apos;avait fait part de sa maladie il y a quelques semaines. Le choc de son décès n&apos;en reste pas moins immense.&lt;/p&gt;
-
-&lt;p&gt;Qu&apos;il repose en paix, et que sa famille puisse trouver le réconfort.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/equipe/evenements/leon.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/equipe/evenements</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2018-01-12T07:19:00+03:00</dc:date>
 
 </item>
 
