@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,77 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/ajouter-au-carnet.html">
+	<title>Rajout de notes avec un raccourci Apple</title>
+	<link>https://blog.barijaona.com/web/ajouter-au-carnet.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Lors de &lt;a href=&quot;https://blog.barijaona.com/web/blosxom-refresh-2024.html&quot;&gt;l&apos;épisode précédent&lt;/a&gt;, j&apos;expliquais que j&apos;avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.&lt;/p&gt;
+
+&lt;p&gt;Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre &lt;a href=&quot;https://fr.wikipedia.org/wiki/Loi_de_Wirth&quot; title=&quot;loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n&apos;accélère »&quot;&gt;la loi de Wirth&lt;/a&gt;. Lorsque je dois écrire quelque chose de consistent, j&apos;utilise le vénérable BBEdit.&lt;/p&gt;
+
+&lt;p&gt;Mais pour de petits ajouts rapides, je me suis dit qu&apos;utiliser le menu de partage intégré dans bon nombre d&apos;applications iPhone ou Mac pouvait être un plus.&lt;/p&gt;
+
+&lt;p&gt;D&apos;où l&apos;idée de créer un raccourci (&lt;i lang=&quot;en&quot;&gt;Shortcut&lt;/i&gt;) et de l&apos;intégrer à ces fonctions de partage.&lt;/p&gt;
+
+&lt;p&gt;Pour je ne sais quelle raison, l&apos;application Raccourcis sur iOS n&apos;arrive pas à écrire dans un dossier partagé Nextcloud, pourtant accessible via l&apos;application Fichiers. Pour partager les données entre un Mac et un iPhone, j&apos;ai de ce fait été contraint de réviser ma stratégie et mettre les fichiers sur iCloud Drive.&lt;/p&gt;
+
+&lt;p&gt;Une fois cette contrainte prise en compte, &lt;a href=&quot;https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e&quot; title=&quot;lien iCloud drive&quot;&gt;le raccourci auquel je suis arrivé&lt;/a&gt; me satisfait largement sur iOS, un peu moins sur macOS où l&apos;application Raccourcis semble moins mûre. Mais l&apos;activation du dit raccourci n&apos;est pas si évidente, d&apos;où la publication du présent billet (qui, si vous suivez bien, a débuté en note à usage personnel) avec les remarques d&apos;installation qui suivent.&lt;/p&gt;
+
+&lt;h4 id=&quot;surios&quot;&gt;Sur iOS&lt;/h4&gt;
+
+&lt;h5 id=&quot;permettreauxraccourcisdapparatredanslemenudepartage:&quot;&gt;Permettre aux raccourcis d&apos;apparaître dans le menu de partage :&lt;/h5&gt;
+
+&lt;p&gt;Application &lt;em&gt;Réglages&lt;/em&gt; ︎➙ &lt;em&gt;Raccourcis&lt;/em&gt; ➙ &lt;em&gt;Partage privé&lt;/em&gt; (à cocher)&lt;/p&gt;
+
+&lt;h5 id=&quot;installerleraccourciajouteraucarnet&quot;&gt;Installer le raccourci &quot;Ajouter au carnet&quot;&lt;/h5&gt;
+
+&lt;p&gt;Cliquez &lt;a href=&quot;https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e&quot; title=&quot;lien iCloud drive&quot;&gt;ce lien&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt;. Lancer le raccourci une première fois pour vérifier qu&apos;il fonctionne et qu&apos;il puisse demander les autorisations d&apos;accès au dossier &quot;&lt;em&gt;_&lt;/em&gt;Carnet&quot; dans iCloud Drive.&lt;/p&gt;
+
+&lt;h5 id=&quot;vrifierlesautorisationsduraccourci:&quot;&gt;Vérifier les autorisations du raccourci :&lt;/h5&gt;
+
+&lt;p&gt;Appuyer sur (…) qui permet de modifier, puis choisir l&apos;onglet Informations ⓘ
+Vérifier que sont cochés :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Dans la feuille de partage&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Epingler dans la barre de menus&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Recevoir le contenu affiché&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Utiliser comme action rapide&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;associerlesfichierstexteunditeurquivousplat&quot;&gt;Associer les fichiers texte à un éditeur qui vous plaît&lt;/h5&gt;
+
+&lt;p&gt;Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l&apos;application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j&apos;utilise &lt;a href=&quot;https://apps.apple.com/app/pretext/id1347707000?l=fr-FR&quot; title=&quot;Markdown &amp;amp; Plain Text Editor&quot;&gt;Pretext&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;surmacos&quot;&gt;Sur macOS&lt;/h4&gt;
+
+&lt;h5 id=&quot;permettreauxraccourcisdapparatredanslemenudepartage:&quot;&gt;Permettre aux raccourcis d&apos;apparaître dans le menu de partage :&lt;/h5&gt;
+
+&lt;p&gt;Activer dans &lt;em&gt;Réglages Système&lt;/em&gt; ➙ &lt;em&gt;Confidentialité et sécurité&lt;/em&gt; ➙ &lt;em&gt;Autres&lt;/em&gt; ➙ &lt;em&gt;Extensions&lt;/em&gt; ➙ &lt;em&gt;Partage&lt;/em&gt; ➙ &lt;em&gt;Raccourcis&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;accepterlesraccourcisnonsignsparapple&quot;&gt;Accepter les raccourcis non signés par Apple&lt;/h5&gt;
+
+&lt;p&gt;Dans les réglages de Raccourcis.app, activer &lt;em&gt;Partage privé&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lancer le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt; manuellement dans Raccourcis pour vérifier qu&apos;il fonctionne.&lt;/p&gt;
+
+&lt;p&gt;Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l&apos;élément de menu contextuel &lt;em&gt;Partager…&lt;/em&gt;, mais je peux passer par l&apos;élément de menu &lt;em&gt;Services&lt;/em&gt; ➙ &lt;em&gt;Ajouter au carnet&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;rfrences:&quot;&gt;Références :&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://discussions.apple.com/thread/251930666?answerId=251930666021#251930666021&quot; title=&quot;Apple Discussions&quot; hreflang=&quot;en&quot;&gt;Shortcuts app missing in share sheets (iOS) - SravanKrA&apos;s answer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/ios/comments/jmbjtw/filesapp_how_to_control_what_app_opens_when_you/&quot; title=&quot;Reddit&quot; hreflang=&quot;en&quot;&gt;Files.app - how to control what app opens when you click a file?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac&quot; title=&quot;Guide d’utilisation de macOS Sonoma 14&quot;&gt;Utiliser le menu Partager sur Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios&quot; title=&quot;Guide d’utilisation de Raccourcis&quot;&gt;Recevoir des éléments affichés à l’écran provenant d’autres apps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/ajouter-au-carnet.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-14T21:24:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/blosxom-refresh-2024.html">
 	<title>2024, renouveau du web décentralisé</title>
 	<link>https://blog.barijaona.com/web/blosxom-refresh-2024.html</link>
@@ -336,48 +407,6 @@
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2020-12-05T12:07:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/collectif-pangolins.html">
-	<title>Collectif Pangolins</title>
-	<link>https://blog.barijaona.com/monde/collectif-pangolins.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;En cas de danger, le pangolin rabat sa tête entre ses pattes antérieures et s&apos;enroule sur lui-même. Il tente de blesser l&apos;assaillant en hérissant ses écailles. En captivité, son espérance de vie ne dépasse guère quelques mois, et ce pour des raisons liées à son alimentation, à sa santé et à son comportement.&lt;/p&gt;
-
-&lt;p&gt;Nous ne le savions pas, mais nous sommes tous semblables à des pangolins. Sans guère plus de moyens de défense qu&apos;il y a quelques semaines, nous voici contraints de nous extraire d&apos;une captivité involontaire sous peine d&apos;en mourir. Défi et opportunité, aussi bien collectives qu&apos;individuelles.&lt;/p&gt;
-
-&lt;p&gt;Pour nourrir l&apos;âme, sept exemples de réinvention ci-après :&lt;/p&gt;
-
-&lt;p&gt;Parce que le confinement est moins pénible à vivre sous nos cieux : &lt;i lang=&quot;mg&quot;&gt;Ny lanitra mangamanga&lt;/i&gt; par le Choeur Picpus&apos;inging.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jTTiQXY_9YI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour l&apos;authenticité : &lt;i&gt;La tendresse&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rEjvRktXeis&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour les petites touches d&apos;humour anglais : &lt;i lang=&quot;en&quot;&gt;Times Like These&lt;/i&gt; produit par la BBC.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7GElP4YdrBE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Parce qu&apos;à la française, l&apos;humour, ça donne une reprise de « Michel Fils de Jacques » : &lt;i&gt;Soigne le monde&lt;/i&gt; joué par Les Franglaises.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/onfZEYmYFdo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour le petit surplus d&apos;énergie que ça me donne : &lt;i lang=&quot;en&quot;&gt;Higher Love&lt;/i&gt; par Keith Urban.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DtA6GdsdTs0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Parce que c&apos;était à mes yeux la bonne surprise du concert &lt;i lang=&quot;en&quot;&gt;Together At Home&lt;/i&gt; organisé par Global Citizen pour l&apos;OMS : Billie Eilish et son frère Finneas interprètent &lt;i lang=&quot;en&quot;&gt;Sunny&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IJuHn8JzhP0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Parce qu&apos;au fond, le le collectif &lt;i lang=&quot;en&quot;&gt;Playing For Change&lt;/i&gt; a été l&apos;inventeur du concept il y a déjà 15 ans : &lt;i lang=&quot;en&quot;&gt;Soul Rebel&lt;/i&gt; avec Bunny Wailer et Manu Chao.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7-dRks5QVQo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/monde/collectif-pangolins.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2020-04-27T06:30:00+03:00</dc:date>
 
 </item>
 

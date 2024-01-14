@@ -22,7 +22,7 @@
 <link rel="stylesheet" media="print" type="text/css" href="https://blog.barijaona.com/style/print.css" />
 <link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="https://blog.barijaona.com/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="https://blog.barijaona.com/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="https://blog.barijaona.com/shortened.xml" />
 
-<link rel="prev" href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" title="Disposer d'une clé USB de secours pour flasher le BIOS" />
+<link rel="prev" href="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" title="Panthéon" />
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
@@ -56,6 +56,75 @@ function getComment(threadId,refPageURL){
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="https://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header><h2></h2>
+<div class="post"><article class="hentry">
+<h3 class="accent4 entry-title instapaper_title"><a href="https://blog.barijaona.com/web/ajouter-au-carnet.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2024-01-14" class="timestamp">[&nbsp;dimanche 14 janvier 2024,&nbsp;21:24&nbsp;]</time>&nbsp;Rajout de notes avec un raccourci Apple</a></h3>
+<div class="post-full entry-content instapaper_body"><p>Lors de <a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html">l'épisode précédent</a>, j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.</p>
+
+<p>Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre <a href="https://fr.wikipedia.org/wiki/Loi_de_Wirth" title="loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n'accélère »">la loi de Wirth</a>. Lorsque je dois écrire quelque chose de consistent, j'utilise le vénérable BBEdit.</p>
+
+<p>Mais pour de petits ajouts rapides, je me suis dit qu'utiliser le menu de partage intégré dans bon nombre d'applications iPhone ou Mac pouvait être un plus.</p>
+
+<p>D'où l'idée de créer un raccourci (<i lang="en">Shortcut</i>) et de l'intégrer à ces fonctions de partage.</p>
+
+<p>Pour je ne sais quelle raison, l'application Raccourcis sur iOS n'arrive pas à écrire dans un dossier partagé Nextcloud, pourtant accessible via l'application Fichiers. Pour partager les données entre un Mac et un iPhone, j'ai de ce fait été contraint de réviser ma stratégie et mettre les fichiers sur iCloud Drive.</p>
+
+<p>Une fois cette contrainte prise en compte, <a href="https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e" title="lien iCloud drive">le raccourci auquel je suis arrivé</a> me satisfait largement sur iOS, un peu moins sur macOS où l'application Raccourcis semble moins mûre. Mais l'activation du dit raccourci n'est pas si évidente, d'où la publication du présent billet (qui, si vous suivez bien, a débuté en note à usage personnel) avec les remarques d'installation qui suivent.</p>
+
+<h4 id="surios">Sur iOS</h4>
+
+<h5 id="permettreauxraccourcisdapparatredanslemenudepartage:">Permettre aux raccourcis d'apparaître dans le menu de partage :</h5>
+
+<p>Application <em>Réglages</em> ︎➙ <em>Raccourcis</em> ➙ <em>Partage privé</em> (à cocher)</p>
+
+<h5 id="installerleraccourciajouteraucarnet">Installer le raccourci "Ajouter au carnet"</h5>
+
+<p>Cliquez <a href="https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e" title="lien iCloud drive">ce lien</a>.</p>
+
+<p>Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci <em>Ajouter au carnet</em>. Lancer le raccourci une première fois pour vérifier qu'il fonctionne et qu'il puisse demander les autorisations d'accès au dossier "<em>_</em>Carnet" dans iCloud Drive.</p>
+
+<h5 id="vrifierlesautorisationsduraccourci:">Vérifier les autorisations du raccourci :</h5>
+
+<p>Appuyer sur (…) qui permet de modifier, puis choisir l'onglet Informations ⓘ
+Vérifier que sont cochés :</p>
+
+<ul>
+<li><em>Dans la feuille de partage</em></li>
+<li><em>Epingler dans la barre de menus</em></li>
+<li><em>Recevoir le contenu affiché</em></li>
+<li><em>Utiliser comme action rapide</em></li>
+</ul>
+
+<h5 id="associerlesfichierstexteunditeurquivousplat">Associer les fichiers texte à un éditeur qui vous plaît</h5>
+
+<p>Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l'application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j'utilise <a href="https://apps.apple.com/app/pretext/id1347707000?l=fr-FR" title="Markdown &amp; Plain Text Editor">Pretext</a>.</p>
+
+<h4 id="surmacos">Sur macOS</h4>
+
+<h5 id="permettreauxraccourcisdapparatredanslemenudepartage:">Permettre aux raccourcis d'apparaître dans le menu de partage :</h5>
+
+<p>Activer dans <em>Réglages Système</em> ➙ <em>Confidentialité et sécurité</em> ➙ <em>Autres</em> ➙ <em>Extensions</em> ➙ <em>Partage</em> ➙ <em>Raccourcis</em>.</p>
+
+<h5 id="accepterlesraccourcisnonsignsparapple">Accepter les raccourcis non signés par Apple</h5>
+
+<p>Dans les réglages de Raccourcis.app, activer <em>Partage privé</em>.</p>
+
+<p>Lancer le raccourci <em>Ajouter au carnet</em> manuellement dans Raccourcis pour vérifier qu'il fonctionne.</p>
+
+<p>Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel <em>Partager…</em>, mais je peux passer par l'élément de menu <em>Services</em> ➙ <em>Ajouter au carnet</em>.</p>
+
+<h4 id="rfrences:">Références :</h4>
+
+<ul>
+<li><a href="https://discussions.apple.com/thread/251930666?answerId=251930666021#251930666021" title="Apple Discussions" hreflang="en">Shortcuts app missing in share sheets (iOS) - SravanKrA's answer</a></li>
+<li><a href="https://www.reddit.com/r/ios/comments/jmbjtw/filesapp_how_to_control_what_app_opens_when_you/" title="Reddit" hreflang="en">Files.app - how to control what app opens when you click a file?</a></li>
+<li><a href="https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac" title="Guide d’utilisation de macOS Sonoma 14">Utiliser le menu Partager sur Mac</a></li>
+<li><a href="https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios" title="Guide d’utilisation de Raccourcis">Recevoir des éléments affichés à l’écran provenant d’autres apps</a></li>
+</ul>
+</div></article>
+<div class="post-tools">[<a href="https://blog.barijaona.com/web/ajouter-au-carnet.html#disqus_thread" onclick="return(getComment('a202401142124','https://blog.barijaona.com/web/ajouter-au-carnet.html'));" data-disqus-identifier="a202401142124">Réagir</a>]</div>
+</div><br />
+
+
 <div class="post"><article class="hentry">
 <h3 class="accent4 entry-title instapaper_title"><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2024-01-11" class="timestamp">[&nbsp;jeudi 11 janvier 2024,&nbsp;03:28&nbsp;]</time>&nbsp;2024, renouveau du web décentralisé</a></h3>
 <div class="post-full entry-content instapaper_body"><p><i lang="en">Happy birthday, Matt Mullenweg. <a href="https://ma.tt/2024/01/birthday-gift/" title="Birthday Gift">Your note</a> had a strong influence in the follwing text. Sorry, I had not enough time to translate it. I don't know if you read French, but if it's not the case, I am confident DeepL can help.</i></p>
@@ -404,24 +473,6 @@ function getComment(threadId,refPageURL){
 </div><br />
 
 
-<div class="post"><article class="hentry">
-<h3 class="accent1 entry-title instapaper_title"><a href="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2017-07-02" class="timestamp">[&nbsp;dimanche 02 juillet 2017,&nbsp;09:25&nbsp;]</time>&nbsp;Panthéon</a></h3>
-<div class="post-full entry-content instapaper_body"><p><a href="http://www.lemonde.fr/disparitions/article/2017/06/30/mort-de-simone-veil-icone-de-la-lutte-pour-les-droits-des-femmes_5153554_3382.html?xtor=RSS-3208" title="Mort de Simone Veil, icône de la lutte pour les droits des femmes. LeMonde.fr">L'histoire de cette femme est étonnante</a> et incroyablement riche en leçons.</p>
-
-<p>En ce qui me concerne, j'avais été particulièrement frappé par la découverte relativement tardive du fait qu'elle était une survivante de la Shoah. J'admirais (et j'admire toujours) le fait que malgré ces terribles épreuves, le ressentiment ou la haine n'ont eu aucune prise sur elle.</p>
-
-<p>Ce douloureux épisode de sa vie a semble-t-il été à l'origine de ses convictions pro-européennes. «<cite>Si je m'engage aussi pleinement sur la question de l'Europe, c'est pour tirer la leçon de mon passé</cite>», disait-elle dans un discours du 5 juin 1979. «<cite>Le fait d'avoir fait l'Europe m'a réconciliée avec le XXe siècle</cite>», assurait-elle encore.</p>
-
-<p>Depuis 48 heures, les appels à ce que Simone Veil entre au Panthéon se multiplient. N'étant pas Français, j'évite de me prononcer dessus.</p>
-
-<p>Le 10 janvier 2007, elle y prononçait toutefois un discours remarquable, qui la fait entrer encore plus dans mon Panthéon personnel.</p>
-
-<p><iframe allowfullscreen width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1?autoplay=0' ></iframe></p>
-</div></article>
-<div class="post-tools">[<a href="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html#disqus_thread" onclick="return(getComment('a201707020925','https://blog.barijaona.com/monde/Veil_Pantheon_2007.html'));" data-disqus-identifier="a201707020925">Réagir</a>]</div>
-</div><br />
-
-
 
 <br /><br /></div></div>
 
@@ -463,10 +514,9 @@ function getComment(threadId,refPageURL){
 <td class="month-calendar-day-nolink Lundi">8</td>
 <td class="month-calendar-day-nolink Mardi">9</td>
 <td class="month-calendar-day-nolink Mercredi">10</td>
-<td class="month-calendar-day-this-day Jeudi"><a title="Jeudi 11 janvier 2024" href="https://blog.barijaona.com/2024/01/index.html#0111">11</a></td><td class="month-calendar-day-future Vendredi">12</td>
-<td class="month-calendar-day-future Samedi">13</td>
-<td class="month-calendar-day-future Dimanche">14</td>
-</tr>
+<td class="month-calendar-day-link Jeudi"><a title="Jeudi 11 janvier 2024" href="https://blog.barijaona.com/2024/01/index.html#0111">11</a></td><td class="month-calendar-day-nolink Vendredi">12</td>
+<td class="month-calendar-day-nolink Samedi">13</td>
+<td class="month-calendar-day-this-day Dimanche"><a title="Dimanche 14 janvier 2024" href="https://blog.barijaona.com/2024/01/index.html#0114">14</a></td></tr>
 <tr>
 <td class="month-calendar-day-future Lundi">15</td>
 <td class="month-calendar-day-future Mardi">16</td>
@@ -516,7 +566,7 @@ function getComment(threadId,refPageURL){
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" title="billet du 20 f&eacute;vrier 2017">&lt;-&nbsp;Disposer d'une clé USB de secours pour flasher le BIOS</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/monde/Veil_Pantheon_2007.html" title="billet du 2 juillet 2017">&lt;-&nbsp;Panthéon</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br />

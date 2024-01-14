@@ -16,7 +16,87 @@
   <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
   <icon>https://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2024-01-11T00:40:00Z</updated>
+  <updated>2024-01-14T18:53:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2024:/web/ajouter-au-carnet</id>
+    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/web/ajouter-au-carnet.html" />
+
+    <title type="text">Rajout de notes avec un raccourci Apple</title>
+    <published>2024-01-14T18:24:00Z</published>
+    <updated>2024-01-14T18:53:00Z</updated>
+    <category term="/web"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>https://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Lors de <a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html">l'épisode précédent</a>, j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.</p>
+
+<p>Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre <a href="https://fr.wikipedia.org/wiki/Loi_de_Wirth" title="loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n'accélère »">la loi de Wirth</a>. Lorsque je dois écrire quelque chose de consistent, j'utilise le vénérable BBEdit.</p>
+
+<p>Mais pour de petits ajouts rapides, je me suis dit qu'utiliser le menu de partage intégré dans bon nombre d'applications iPhone ou Mac pouvait être un plus.</p>
+
+<p>D'où l'idée de créer un raccourci (<i lang="en">Shortcut</i>) et de l'intégrer à ces fonctions de partage.</p>
+
+<p>Pour je ne sais quelle raison, l'application Raccourcis sur iOS n'arrive pas à écrire dans un dossier partagé Nextcloud, pourtant accessible via l'application Fichiers. Pour partager les données entre un Mac et un iPhone, j'ai de ce fait été contraint de réviser ma stratégie et mettre les fichiers sur iCloud Drive.</p>
+
+<p>Une fois cette contrainte prise en compte, <a href="https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e" title="lien iCloud drive">le raccourci auquel je suis arrivé</a> me satisfait largement sur iOS, un peu moins sur macOS où l'application Raccourcis semble moins mûre. Mais l'activation du dit raccourci n'est pas si évidente, d'où la publication du présent billet (qui, si vous suivez bien, a débuté en note à usage personnel) avec les remarques d'installation qui suivent.</p>
+
+<h4 id="surios">Sur iOS</h4>
+
+<h5 id="permettreauxraccourcisdapparatredanslemenudepartage:">Permettre aux raccourcis d'apparaître dans le menu de partage :</h5>
+
+<p>Application <em>Réglages</em> ︎➙ <em>Raccourcis</em> ➙ <em>Partage privé</em> (à cocher)</p>
+
+<h5 id="installerleraccourciajouteraucarnet">Installer le raccourci "Ajouter au carnet"</h5>
+
+<p>Cliquez <a href="https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e" title="lien iCloud drive">ce lien</a>.</p>
+
+<p>Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci <em>Ajouter au carnet</em>. Lancer le raccourci une première fois pour vérifier qu'il fonctionne et qu'il puisse demander les autorisations d'accès au dossier "<em>_</em>Carnet" dans iCloud Drive.</p>
+
+<h5 id="vrifierlesautorisationsduraccourci:">Vérifier les autorisations du raccourci :</h5>
+
+<p>Appuyer sur (…) qui permet de modifier, puis choisir l'onglet Informations ⓘ
+Vérifier que sont cochés :</p>
+
+<ul>
+<li><em>Dans la feuille de partage</em></li>
+<li><em>Epingler dans la barre de menus</em></li>
+<li><em>Recevoir le contenu affiché</em></li>
+<li><em>Utiliser comme action rapide</em></li>
+</ul>
+
+<h5 id="associerlesfichierstexteunditeurquivousplat">Associer les fichiers texte à un éditeur qui vous plaît</h5>
+
+<p>Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l'application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j'utilise <a href="https://apps.apple.com/app/pretext/id1347707000?l=fr-FR" title="Markdown &amp; Plain Text Editor">Pretext</a>.</p>
+
+<h4 id="surmacos">Sur macOS</h4>
+
+<h5 id="permettreauxraccourcisdapparatredanslemenudepartage:">Permettre aux raccourcis d'apparaître dans le menu de partage :</h5>
+
+<p>Activer dans <em>Réglages Système</em> ➙ <em>Confidentialité et sécurité</em> ➙ <em>Autres</em> ➙ <em>Extensions</em> ➙ <em>Partage</em> ➙ <em>Raccourcis</em>.</p>
+
+<h5 id="accepterlesraccourcisnonsignsparapple">Accepter les raccourcis non signés par Apple</h5>
+
+<p>Dans les réglages de Raccourcis.app, activer <em>Partage privé</em>.</p>
+
+<p>Lancer le raccourci <em>Ajouter au carnet</em> manuellement dans Raccourcis pour vérifier qu'il fonctionne.</p>
+
+<p>Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel <em>Partager…</em>, mais je peux passer par l'élément de menu <em>Services</em> ➙ <em>Ajouter au carnet</em>.</p>
+
+<h4 id="rfrences:">Références :</h4>
+
+<ul>
+<li><a href="https://discussions.apple.com/thread/251930666?answerId=251930666021#251930666021" title="Apple Discussions" hreflang="en">Shortcuts app missing in share sheets (iOS) - SravanKrA's answer</a></li>
+<li><a href="https://www.reddit.com/r/ios/comments/jmbjtw/filesapp_how_to_control_what_app_opens_when_you/" title="Reddit" hreflang="en">Files.app - how to control what app opens when you click a file?</a></li>
+<li><a href="https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac" title="Guide d’utilisation de macOS Sonoma 14">Utiliser le menu Partager sur Mac</a></li>
+<li><a href="https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios" title="Guide d’utilisation de Raccourcis">Recevoir des éléments affichés à l’écran provenant d’autres apps</a></li>
+</ul>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/web/ajouter-au-carnet.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2024:/web/blosxom-refresh-2024</id>
@@ -378,57 +458,6 @@
 
 &lt;h4 id=&quot;source:lemonde.frditiondu5dcembre2020https:www.lemonde.frsocietearticle20201205proces-des-attentats-de-janvier-2015-charlie-est-devenu-une-idee-on-ne-la-tuera-plus_6062279_3224.htmlprocsdesattentatsdejanvier2015:charlieestdevenuuneide.onnelatueraplus&quot;&gt;Source : &lt;a href=&quot;https://www.lemonde.fr/societe/article/2020/12/05/proces-des-attentats-de-janvier-2015-charlie-est-devenu-une-idee-on-ne-la-tuera-plus_6062279_3224.html&quot; title=&quot;Procès des attentats de janvier 2015 : « “Charlie” est devenu une idée. On ne la tuera plus »&quot;&gt;Le Monde.fr, édition du 5 décembre 2020&lt;/a&gt;&lt;/h4&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2020:/monde/collectif-pangolins</id>
-    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/monde/collectif-pangolins.html" />
-
-    <title type="text">Collectif Pangolins</title>
-    <published>2020-04-27T03:30:00Z</published>
-    <updated>2020-08-29T10:59:00Z</updated>
-    <category term="/monde"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>https://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
-&lt;p&gt;En cas de danger, le pangolin rabat sa tête entre ses pattes antérieures et s'enroule sur lui-même. Il tente de blesser l'assaillant en hérissant ses écailles. En captivité, son espérance de vie ne dépasse guère quelques mois, et ce pour des raisons liées à son alimentation, à sa santé et à son comportement.&lt;/p&gt;
-
-&lt;p&gt;Nous ne le savions pas, mais nous sommes tous semblables à des pangolins. Sans guère plus de moyens de défense qu'il y a quelques semaines, nous voici contraints de nous extraire d'une captivité involontaire sous peine d'en mourir. Défi et opportunité, aussi bien collectives qu'individuelles.&lt;/p&gt;
-
-&lt;p&gt;Pour nourrir l'âme, sept exemples de réinvention ci-après :&lt;/p&gt;
-
-&lt;p&gt;Parce que le confinement est moins pénible à vivre sous nos cieux : &lt;i lang=&quot;mg&quot;&gt;Ny lanitra mangamanga&lt;/i&gt; par le Choeur Picpus'inging.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jTTiQXY_9YI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour l'authenticité : &lt;i&gt;La tendresse&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rEjvRktXeis&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour les petites touches d'humour anglais : &lt;i lang=&quot;en&quot;&gt;Times Like These&lt;/i&gt; produit par la BBC.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7GElP4YdrBE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Parce qu'à la française, l'humour, ça donne une reprise de « Michel Fils de Jacques » : &lt;i&gt;Soigne le monde&lt;/i&gt; joué par Les Franglaises.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/onfZEYmYFdo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour le petit surplus d'énergie que ça me donne : &lt;i lang=&quot;en&quot;&gt;Higher Love&lt;/i&gt; par Keith Urban.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DtA6GdsdTs0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Parce que c'était à mes yeux la bonne surprise du concert &lt;i lang=&quot;en&quot;&gt;Together At Home&lt;/i&gt; organisé par Global Citizen pour l'OMS : Billie Eilish et son frère Finneas interprètent &lt;i lang=&quot;en&quot;&gt;Sunny&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IJuHn8JzhP0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;Parce qu'au fond, le le collectif &lt;i lang=&quot;en&quot;&gt;Playing For Change&lt;/i&gt; a été l'inventeur du concept il y a déjà 15 ans : &lt;i lang=&quot;en&quot;&gt;Soul Rebel&lt;/i&gt; avec Bunny Wailer et Manu Chao.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7-dRks5QVQo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/monde/collectif-pangolins.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
     </content>
   </entry>
 

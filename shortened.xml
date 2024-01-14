@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/collectif-pangolins.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/ajouter-au-carnet.html">
+	<title>Rajout de notes avec un raccourci Apple</title>
+	<link>https://blog.barijaona.com/web/ajouter-au-carnet.html</link>
+	<description>Lors de l'épisode précédent, j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique...</description>
+	<dc:subject>/web</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-14T21:24:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/blosxom-refresh-2024.html">
 	<title>2024, renouveau du web décentralisé</title>
 	<link>https://blog.barijaona.com/web/blosxom-refresh-2024.html</link>
@@ -101,15 +110,6 @@ After receiving a recommendation from the boards of the FDIC and the Federal Res
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2020-12-05T12:07:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/collectif-pangolins.html">
-	<title>Collectif Pangolins</title>
-	<link>https://blog.barijaona.com/monde/collectif-pangolins.html</link>
-	<description>En cas de danger, le pangolin rabat sa tête entre ses pattes antérieures et s'enroule sur lui-même...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2020-04-27T06:30:00+03:00</dc:date>
 
 </item>
 
