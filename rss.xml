@@ -22,7 +22,7 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/ajouter-au-carnet.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
@@ -38,9 +38,9 @@
 
   </channel>
   
-<item rdf:about="https://blog.barijaona.com/web/ajouter-au-carnet.html">
+<item rdf:about="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html">
 	<title>Rajout de notes avec un raccourci Apple</title>
-	<link>https://blog.barijaona.com/web/ajouter-au-carnet.html</link>
+	<link>https://blog.barijaona.com/macintosh/ajouter-au-carnet.html</link>
 	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Lors de &lt;a href=&quot;https://blog.barijaona.com/web/blosxom-refresh-2024.html&quot;&gt;l&apos;épisode précédent&lt;/a&gt;, j&apos;expliquais que j&apos;avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.&lt;/p&gt;
 
 &lt;p&gt;Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre &lt;a href=&quot;https://fr.wikipedia.org/wiki/Loi_de_Wirth&quot; title=&quot;loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n&apos;accélère »&quot;&gt;la loi de Wirth&lt;/a&gt;. Lorsque je dois écrire quelque chose de consistent, j&apos;utilise le vénérable BBEdit.&lt;/p&gt;
@@ -103,8 +103,8 @@ Vérifier que sont cochés :&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac&quot; title=&quot;Guide d’utilisation de macOS Sonoma 14&quot;&gt;Utiliser le menu Partager sur Mac&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios&quot; title=&quot;Guide d’utilisation de Raccourcis&quot;&gt;Recevoir des éléments affichés à l’écran provenant d’autres apps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/ajouter-au-carnet.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/web</dc:subject>
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/macintosh</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-01-14T21:24:00+03:00</dc:date>
 
