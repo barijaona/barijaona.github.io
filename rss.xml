@@ -59,11 +59,16 @@
 
 &lt;p&gt;Application &lt;em&gt;Réglages&lt;/em&gt; ︎➙ &lt;em&gt;Raccourcis&lt;/em&gt; ➙ &lt;em&gt;Partage privé&lt;/em&gt; (à cocher)&lt;/p&gt;
 
+&lt;p&gt;&lt;img id=&quot;copiecranraccourcisdanslapplicationrglagesdios&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios1.jpg&quot; alt=&quot;Copie écran Raccourcis dans l&apos;application Réglages d&apos;iOS&quot; title=&quot;Copie écran Raccourcis dans l&apos;application Réglages d&apos;iOS&quot; width=&quot;480px&quot; /&gt;&lt;/p&gt;
+
 &lt;h5 id=&quot;installerleraccourciajouteraucarnet&quot;&gt;Installer le raccourci &quot;Ajouter au carnet&quot;&lt;/h5&gt;
 
 &lt;p&gt;Cliquez &lt;a href=&quot;https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e&quot; title=&quot;lien iCloud drive&quot;&gt;ce lien&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt;. Lancer le raccourci une première fois pour vérifier qu&apos;il fonctionne et qu&apos;il puisse demander les autorisations d&apos;accès au dossier &quot;&lt;em&gt;_&lt;/em&gt;Carnet&quot; dans iCloud Drive.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;copiecrancontenuduraccourci-partie1&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios2.jpg&quot; alt=&quot;Copie écran Contenu du raccourci - Partie 1&quot; title=&quot;Copie écran Contenu du raccourci - Partie 1&quot; width=&quot;480px&quot; /&gt;
+&lt;img id=&quot;copiecrancontenuduraccourci-partie2&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios3.jpg&quot; alt=&quot;Copie écran Contenu du raccourci - Partie 2&quot; title=&quot;Copie écran Contenu du raccourci - Partie 2&quot; width=&quot;480px&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;vrifierlesautorisationsduraccourci:&quot;&gt;Vérifier les autorisations du raccourci :&lt;/h5&gt;
 
@@ -77,6 +82,8 @@ Vérifier que sont cochés :&lt;/p&gt;
 &lt;li&gt;&lt;em&gt;Utiliser comme action rapide&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;img id=&quot;copiecraninformationsduraccourci&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios4.jpg&quot; alt=&quot;Copie écran Informations du raccourci&quot; title=&quot;Copie écran Informations du raccourci&quot; width=&quot;480px&quot; /&gt;&lt;/p&gt;
+
 &lt;h5 id=&quot;associerlesfichierstexteunditeurquivousplat&quot;&gt;Associer les fichiers texte à un éditeur qui vous plaît&lt;/h5&gt;
 
 &lt;p&gt;Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l&apos;application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j&apos;utilise &lt;a href=&quot;https://apps.apple.com/app/pretext/id1347707000?l=fr-FR&quot; title=&quot;Markdown &amp;amp; Plain Text Editor&quot;&gt;Pretext&lt;/a&gt;.&lt;/p&gt;
@@ -87,6 +94,8 @@ Vérifier que sont cochés :&lt;/p&gt;
 
 &lt;p&gt;Activer dans &lt;em&gt;Réglages Système&lt;/em&gt; ➙ &lt;em&gt;Confidentialité et sécurité&lt;/em&gt; ➙ &lt;em&gt;Autres&lt;/em&gt; ➙ &lt;em&gt;Extensions&lt;/em&gt; ➙ &lt;em&gt;Partage&lt;/em&gt; ➙ &lt;em&gt;Raccourcis&lt;/em&gt;.&lt;/p&gt;
 
+&lt;p&gt;&lt;img id=&quot;copiecranrglagessystme&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos1.jpg&quot; alt=&quot;Copie écran Réglages Système&quot; title=&quot;Copie écran Réglages Système&quot; width=&quot;720px&quot; /&gt;&lt;/p&gt;
+
 &lt;h5 id=&quot;accepterlesraccourcisnonsignsparapple&quot;&gt;Accepter les raccourcis non signés par Apple&lt;/h5&gt;
 
 &lt;p&gt;Dans les réglages de Raccourcis.app, activer &lt;em&gt;Partage privé&lt;/em&gt;.&lt;/p&gt;
@@ -94,6 +103,8 @@ Vérifier que sont cochés :&lt;/p&gt;
 &lt;p&gt;Lancer le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt; manuellement dans Raccourcis pour vérifier qu&apos;il fonctionne.&lt;/p&gt;
 
 &lt;p&gt;Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l&apos;élément de menu contextuel &lt;em&gt;Partager…&lt;/em&gt;, mais je peux passer par l&apos;élément de menu &lt;em&gt;Services&lt;/em&gt; ➙ &lt;em&gt;Ajouter au carnet&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;copiecranmenucontextuelservices&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos2.jpg&quot; alt=&quot;Copie écran menu contextuel Services&quot; title=&quot;Copie écran menu contextuel Services&quot; width=&quot;635px&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;rfrences:&quot;&gt;Références :&lt;/h4&gt;
 
