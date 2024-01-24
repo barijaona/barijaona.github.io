@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/macintosh/happy-40th-birthday.html">
+	<title>Débuts</title>
+	<link>https://blog.barijaona.com/macintosh/happy-40th-birthday.html</link>
+	<description>Janvier 1984, c'était le mois de l'annonce de deux micro-ordinateurs assez extraordinaires pour l'époque : le Sinclair QL le 12 janvier, et le Macintosh, le 24 du même mois...</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-24T21:51:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html">
 	<title>Rajout de notes avec un raccourci Apple</title>
 	<link>https://blog.barijaona.com/macintosh/ajouter-au-carnet.html</link>
@@ -101,15 +110,6 @@ After receiving a recommendation from the boards of the FDIC and the Federal Res
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html">
-	<title>Qui a nourri le crocodile ?</title>
-	<link>https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html</link>
-	<description>Extraits de la plaidoirie de Me Richard Malka, un des avocats des parties civiles, lors du procès des attentats de Janvier 2015 à Paris...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2020-12-05T12:07:00+03:00</dc:date>
 
 </item>
 

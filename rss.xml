@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,26 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/macintosh/happy-40th-birthday.html">
+	<title>Débuts</title>
+	<link>https://blog.barijaona.com/macintosh/happy-40th-birthday.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Janvier 1984, c&apos;était le mois de l&apos;annonce de deux micro-ordinateurs assez extraordinaires pour l&apos;époque : le &lt;a href=&quot;https://fr.wikipedia.org/wiki/Sinclair_QL&quot; title=&quot;Wikipedia&quot;&gt;Sinclair QL&lt;/a&gt; le 12 janvier, et le Macintosh, le 24 du même mois.&lt;/p&gt;
+
+&lt;p&gt;Ces ordinateurs étaient présentés comme 32 bits. En fait, le QL, avec son Motorola 68008, n&apos;était en toute rigueur qu&apos;un ordinateur 8/32 bits. Et le Mac, n&apos;était en 1984 avec son 68000 qu&apos;un 16/32 bits. Mais ils faisaient rêver par rapport à l&apos;IBM PC, qui avec son Intel 8088, n&apos;était qu&apos;un 8/16 bits, tandis que les meilleurs clones d&apos;IBM de l&apos;époque se targuaient avec leur 8086 d&apos;être de « vrais 16 bits ». Sans pouvoir se targuer de la puissance du 32 bits.&lt;/p&gt;
+
+&lt;p&gt;À l&apos;époque, il n&apos;y avait pas véritablement de fragmentation du marché entre les micro-ordinateurs à usage personnel et ceux à usage professionnel. Avoir des cartouches comme support de stockage de masse n&apos;était pas forcément un obstacle dirimant. Une machine pouvait être considérée comme professionnelle avec un seul lecteur de disquettes. Un deuxième lecteur était néanmoins considéré comme un élément de confort non négligeable. Quant aux disques durs, c&apos;étaient des choses exotiques au coût pharamineux que personne de mon entourage n&apos;avait physiquement vu.&lt;/p&gt;
+
+&lt;p&gt;Pas vraiment possible pour moi de recasser la tirelire, après l&apos;avoir fait &lt;a href=&quot;https://blog.barijaona.com/photos/old_dai.html&quot; title=&quot;Fouille de placards&quot;&gt;un peu moins de trois ans plus tôt&lt;/a&gt;. Mais ces machines faisaient saliver. Prix oblige, je regardais le Sinclair avec davantage d&apos;intérêt, alors que le Macintosh m&apos;apparaissait comme une extravagance inaccessible.&lt;/p&gt;
+
+&lt;p&gt;Je ne suis tombé amoureux du Mac qu&apos;en le rencontrant dans une boutique du boulevard Saint Germain de Paris qui permettait de le manipuler un peu. Et je me suis dit que mon retour prochain à Madagascar valait bien de casser à nouveau la tirelire, que ce geste n&apos;était plus un plaisir que je m&apos;offrais, mais un investissement. En restant raisonnable : le choix se porta sur un modèle 128 transformé en Macintosh Plus, bien plus convaincant que le Macintosh originel grâce à son mégaoctet de mémoire vive (!), son clavier avec pavé numérique et son lecteur de disquettes de 800 Ko au lieu de 400 Ko. J&apos;ajoutais à mon achat un deuxième lecteur de disquette avant de passer quelque temps plus tard à un disque Rodime 45 Plus, &lt;a href=&quot;https://collection.sciencemuseumgroup.org.uk/objects/co8413211/macintosh-plus-1mb-computer-micro-computer&quot; title=&quot;Collection Science Museum&quot; hreflang=&quot;en&quot;&gt;qui se plaçait sous l&apos;unité centrale du Mac&lt;/a&gt; et que l&apos;on connectait en SCSI…&lt;/p&gt;
+
+&lt;p&gt;&lt;i lang=&quot;en&quot;&gt;Happy Birthday, Macintosh !&lt;/i&gt;&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/happy-40th-birthday.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-24T21:51:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html">
 	<title>Rajout de notes avec un raccourci Apple</title>
 	<link>https://blog.barijaona.com/macintosh/ajouter-au-carnet.html</link>
@@ -379,45 +399,6 @@ Vérifier que sont cochés :&lt;/p&gt;
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html">
-	<title>Qui a nourri le crocodile ?</title>
-	<link>https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;h4 id=&quot;extraitsdelaplaidoiriedemerichardmalkahttps:richardmalka.comcabinetundesavocatsdespartiescivileslorsduprocsdesattentatsdejanvier2015paris.&quot;&gt;Extraits de la plaidoirie de &lt;a href=&quot;https://richardmalka.com/cabinet/&quot;&gt;Me Richard Malka&lt;/a&gt;, un des avocats des parties civiles, lors du procès des attentats de Janvier 2015 à Paris.&lt;/h4&gt;
-
-&lt;p&gt;&lt;span style=&quot;float:left; color:red ;font-size: 400%; text-indent: -120%;&quot;&gt;“&lt;/span&gt;Comment en est-on arrivé là ? Qu’est-ce que cette nouvelle guerre qui oppose des dessinateurs avec leurs crayons, des enseignants avec leur tableau, à des fanatiques armés de kalachnikovs ou d’ustensiles de boucherie ? Par quel enchevêtrement d’idées, de discours et d’errements en est-on arrivé à ce que, pour la première fois dans le monde occidental depuis la fin de la guerre, un journal soit décimé, avant de devoir se retrancher dans un bunker à l’adresse secrète ? Qui a nourri le crocodile en espérant être le dernier à être mangé ? Parce que c’est toujours la même chose : quand on est confronté à la peur, certains choisissent de pactiser.&lt;/p&gt;
-
-&lt;p&gt;(...)&lt;/p&gt;
-
-&lt;p&gt;Le compte à rebours s’est déclenché à Amsterdam le 2 novembre 2004. Theo Van Gogh était un journaliste et un réalisateur pas sympathique. En 2004, il réalise &lt;i&gt;Submission&lt;/i&gt; pour dénoncer la soumission des femmes dans l’islam. Le 2 novembre 2004, il est abattu dans une rue d’Amsterdam de huit balles dans le corps par un jeune islamiste de tendance takfiriste [&lt;em&gt;une sous-branche du salafisme&lt;/em&gt;]. Ensuite il est égorgé, et on lui plante deux poignards dans le torse. Sur l’un de ces poignards, un petit mot de menaces de mort contre les juifs. C’est la matrice de 2015 et de ses deux obsessions : la liberté d’expression et l’antisémitisme.&lt;/p&gt;
-
-&lt;p&gt;A la suite de cet assassinat, un autre écrivain, danois cette fois, Kare Bluitgen, veut écrire un livre sur la vie de Mahomet dans un souci pédagogique à destination de la jeunesse. Il cherche un illustrateur. Tout le monde refuse. La peur a déjà gagné. Alors, le 17 septembre 2005, il écrit dans un journal pour dénoncer l’autocensure dès qu’il s’agit de l’islam. Flemming Rose, rédacteur en chef des pages culture du &lt;i&gt;Jyllands-Posten&lt;/i&gt;, un journal de centre droit qui serait l’équivalent chez nous du Figaro, va demander au syndicat des caricaturistes danois comment il représente Mahomet. Le 30 septembre 2005, ces caricatures sont publiées. Pendant deux mois, il ne se passe pas grand-chose.&lt;/p&gt;
-
-&lt;p&gt;Cette affaire ne va prendre sa véritable ampleur qu’à raison d’une escroquerie à la religion. Elle a été commise par des imams danois de la mouvance des Frères musulmans, essentiellement des salafistes. En décembre 2005, ces imams partent faire le tour des capitales arabes. pour mobiliser les États musulmans contre ces méchants danois islamophobes. Et pour le prouver, ils constituent un dossier, comprenant les caricatures. Ce dossier, on l’a récupéré.&lt;/p&gt;
-
-&lt;p&gt;Le problème, c’est que dans ce dossier, ils ont ajouté trois dessins qui n’y figuraient pas [&lt;em&gt;Me Malka les montre&lt;/em&gt;]. Deux d’entre eux viennent d’un site de fous furieux, des suprémacistes blancs américains. Un autre vient de France, il n’a rien à voir avec l’islam, c’est un dessin sur la Fête du cochon à Tulle en Corrèze. Et les imams disent : &lt;q&gt;&lt;i&gt; Voilà comment on représente l’islam en Occident. &lt;/i&gt;&lt;/q&gt; Et alors là évidemment, sur le fondement de cette supercherie, de cette mystification, le monde s’embrase. Et il y a des manifestations, des morts, des drapeaux brûlés. Ils ont allumé le feu et ils nous traitent d’incendiaires ? Alors oui, c’est dur d’être aimé par des cons d’intégristes mais c’est encore plus triste d’être instrumentalisé par des escrocs !&lt;/p&gt;
-
-&lt;p&gt;(…)&lt;/p&gt;
-
-&lt;p&gt;Alors l’histoire du blasphème en France, je vais vous la raconter.&lt;/p&gt;
-
-&lt;p&gt;En 1789, la liberté d’expression est proclamée comme un des droits les plus précieux de l’homme. Deux ans plus tard, on sort le blasphème du code pénal. En 1881, on vote la grande loi sur la liberté de la presse. Les débats font rage à l’Assemblée et c’est frappant de constater à quel point ils se focalisent sur ceux d’aujourd’hui : le dessin et la religion. C’est comme si Charlie Hebdo existait déjà ! &lt;q&gt;&lt;i&gt; Dieu se défendra bien lui-même, il n’a pas besoin pour cela de la Chambre des députés ! &lt;/i&gt;&lt;/q&gt;, répond Clemenceau à l’évêque d’Angers qui invoque la blessure des catholiques outragés.&lt;/p&gt;
-
-&lt;p&gt;(…)&lt;/p&gt;
-
-&lt;p&gt;Mais alors comment on fait pour sortir l’islam de cela ? Il faudrait le sortir du pacte républicain ? Il faudrait dire, non, il n’y a qu’une religion qui devrait avoir un traitement de faveur, qu’on ne pourrait pas caricaturer, et ce serait l’islam ? Ce n’est pas possible. Le combat de &lt;i&gt;Charlie Hebdo&lt;/i&gt;, c’est aussi un combat pour la banalisation de l’islam. C’est un combat pour qu’on regarde cette religion comme une autre. Qu’on la traite comme une autre. En faire une exception, c’est évidemment le pire service qu’on pourrait lui rendre.&lt;/p&gt;
-
-&lt;p&gt;(…)&lt;/p&gt;
-
-&lt;p&gt;Toutes les caricatures dont nous avons parlé ici ne sont pas des caricatures de la religion, ce sont des caricatures du fanatisme religieux, de l’irruption de la religion dans le monde politique.&lt;span style=&quot;float:right; color:red ;font-size: 400%; text-indent: 120%;&quot;&gt;”&lt;/span&gt;
-&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;source:lemonde.frditiondu5dcembre2020https:www.lemonde.frsocietearticle20201205proces-des-attentats-de-janvier-2015-charlie-est-devenu-une-idee-on-ne-la-tuera-plus_6062279_3224.htmlprocsdesattentatsdejanvier2015:charlieestdevenuuneide.onnelatueraplus&quot;&gt;Source : &lt;a href=&quot;https://www.lemonde.fr/societe/article/2020/12/05/proces-des-attentats-de-janvier-2015-charlie-est-devenu-une-idee-on-ne-la-tuera-plus_6062279_3224.html&quot; title=&quot;Procès des attentats de janvier 2015 : « “Charlie” est devenu une idée. On ne la tuera plus »&quot;&gt;Le Monde.fr, édition du 5 décembre 2020&lt;/a&gt;&lt;/h4&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/monde/qui-a-nourri-le-crocodile.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2020-12-05T12:07:00+03:00</dc:date>
 
 </item>
 

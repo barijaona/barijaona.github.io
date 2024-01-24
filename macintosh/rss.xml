@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/4-cleUSB-flashage-FreeDOS.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/3-bilan-performance-prix-qualite.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/1-choix-materiel.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/Jirokaki/0-introduction.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/apple-apres-steve.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/macintosh/happy-40th-birthday.html">
+	<title>Débuts</title>
+	<link>https://blog.barijaona.com/macintosh/happy-40th-birthday.html</link>
+	<description>Janvier 1984, c'était le mois de l'annonce de deux micro-ordinateurs assez extraordinaires pour l'époque : le Sinclair QL le 12 janvier, et le Macintosh, le 24 du même mois...</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-01-24T21:51:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html">
 	<title>Rajout de notes avec un raccourci Apple</title>
 	<link>https://blog.barijaona.com/macintosh/ajouter-au-carnet.html</link>
@@ -102,16 +111,6 @@
 	<dc:subject>/macintosh</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2013-11-21T05:50:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html">
-	<title>#mdg2013 Code de traitement informatique</title>
-	<link>https://blog.barijaona.com/macintosh/mdg2013_cenitdistricttotext.html</link>
-	<description>
-#...</description>
-	<dc:subject>/macintosh</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2013-10-30T07:56:00+03:00</dc:date>
 
 </item>
 
