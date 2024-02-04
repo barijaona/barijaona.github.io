@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,45 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html">
+	<title>Périphériques</title>
+	<link>https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;En écrivant le &lt;a href=&quot;https://blog.barijaona.com/macintosh/happy-40th-birthday.html&quot; title=&quot;Débuts&quot;&gt;précédent article&lt;/a&gt;, j&apos;avais complètement oublié d&apos;évoquer un accessoire pourtant acheté en même temps que ma configuration initiale : l&apos;imprimante Apple ImageWriter II.&lt;/p&gt;
+
+&lt;p&gt;L&apos;ImageWriter II fut introduite par Apple sur le marché en septembre 1985 (en même temps que le disque dur Apple). Ce fut pour moi le choix par défaut, la LaserWriter présentée en janvier de la même année étant financièrement inaccessible.&lt;/p&gt;
+
+&lt;p&gt;L&apos;outil était de facto inutilisable la nuit, pour des raisons que vous devinerez en regardant cette vidéo (qui ne reflète pas fidèlement la couleur de l&apos;engin, qui avait adopté le design &lt;i lang=&quot;en&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Snow_White_design_language&quot; title=&quot;Snow White design language on Wikipedia&quot;&gt;Snow White&lt;/a&gt;&lt;/i&gt;)…&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/q6sAj-N05Xc?si=sYoUwHJFJ2UIX6kD&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;J&apos;avais adjoint à cette imprimante un &lt;a href=&quot;https://archive.org/details/ImageWriter_II_SheetFeeder_Installation_Manual/page/n18/mode/1up&quot; title=&quot;Chargeur feuille-a-feuille Image Writer™ II : Guide d&apos;installation (sur archive.org)&quot;&gt;chargeur feuille à feuille&lt;/a&gt; qui m&apos;a régulièrement fait pester, car il fallait démonter l&apos;engin pour repasser au papier listing en continu à bandes Caroll.&lt;/p&gt;
+
+&lt;p&gt;Quelque temps plus tard, je découvrais avec stupéfaction chez un cousin qu&apos;une alternative plus économique à l&apos;ImageWriter existait : l&apos;imprimante C-Itoh 8510, une fois celle-ci munie d&apos;un câble adéquat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;photodimprimantec-itoh8510surebay&quot; src=&quot;https://blog.barijaona.com/macintosh/c-itoh-8510.jpg&quot; alt=&quot;Photo d&apos;imprimante C-Itoh 8510 sur eBay&quot; title=&quot;Imprimante C-Itoh 8510 sur eBay&quot; width=&quot;560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si j&apos;avais eu ces informations plus tôt, peut-être aurais-je choisi cette solution, sans m&apos;embarrasser d&apos;un chargeur feuille à feuille. En effet, mon utilisation la plus régulière de l&apos;imprimante était l&apos;impression de codes source, pour pouvoir les examiner avec un recul bien plus grand que face à un écran de 9 pouces de diagonale&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;…&lt;/p&gt;
+
+&lt;p&gt;De nos jours, où l&apos;on passe par des outils de gestion de version et des éditeurs de texte dotés de l&apos;indentation automatique et de la coloration syntaxique, imprimer du code afin de le relire n&apos;a plus guère de sens. Mais prendre du recul pour lire ce code reste d&apos;actualité.&lt;/p&gt;
+
+&lt;p&gt;La vidéo ci-après me convainc qu&apos;une prochaine version pourrait dans quelques années devenir un périphérique très apprécié de mon Mac… Comme souvent avec les grosses innovations matérielles d&apos;Apple, il vaudra mieux attendre une version 2 qui éliminera certains défauts à la lumière des usages, mais il y a là un gros potentiel par rapport à ce besoin…&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GkPw6ScHyb4?si=gWN20RGJfjf2Y7kJ&amp;amp;start=497&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Le mode brouillon permettait de stresser un peu moins par rapport au coût des rubans et du papier…&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-02-04T20:51:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/macintosh/happy-40th-birthday.html">
 	<title>Débuts</title>
 	<link>https://blog.barijaona.com/macintosh/happy-40th-birthday.html</link>
@@ -122,7 +161,7 @@ Vérifier que sont cochés :&lt;/p&gt;
 
 &lt;p&gt;Lancer le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt; manuellement dans Raccourcis pour vérifier qu&apos;il fonctionne.&lt;/p&gt;
 
-&lt;p&gt;Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l&apos;élément de menu contextuel &lt;em&gt;Partager…&lt;/em&gt;, mais je peux passer par l&apos;élément de menu &lt;em&gt;Services&lt;/em&gt; ➙ &lt;em&gt;Ajouter au carnet&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Cette fonction de partage est encore un peu buggée dans macOS : pour les textes, mon raccourci ne marche pas avec l&apos;élément de menu contextuel &lt;em&gt;Partager…&lt;/em&gt;, mais je peux passer par l&apos;élément de menu &lt;em&gt;Services&lt;/em&gt; ➙ &lt;em&gt;Ajouter au carnet&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img id=&quot;copiecranmenucontextuelservices&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos2.jpg&quot; alt=&quot;Copie écran menu contextuel Services&quot; title=&quot;Copie écran menu contextuel Services&quot; width=&quot;635px&quot; /&gt;&lt;/p&gt;
 
@@ -331,74 +370,6 @@ Vérifier que sont cochés :&lt;/p&gt;
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-12-04T22:12:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html">
-	<title>L&apos;envol sur un pachyderme</title>
-	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_1.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Il y a quelque chose de fascinant dans ce qui arrive à Twitter. Des dizaines de milliards de dollars de valorisation boursière se sont volatilisés et risquent bien de ne &lt;a href=&quot;https://www.scientificamerican.com/article/twitter-is-not-rocket-science-its-harder/&quot; title=&quot;Twitter Is Not Rocket Science—It’s Harder&quot; hreflang=&quot;en&quot;&gt;jamais être retrouvés&lt;/a&gt;, à cause de l&apos;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Hybris&quot; title=&quot;Article Wikipedia&quot;&gt;hybris&lt;/a&gt; d&apos;un individu.&lt;/p&gt;
-
-&lt;p&gt;Il n&apos;y a par contre rien de fascinant à ce qui arrive à Mastodon. Du moins à mes yeux. Tout en étant incapable de dénombrer les « réseaux sociaux » que j&apos;ai essayé depuis les années 2000, je n&apos;étais depuis quelques mois resté actif que sur deux d&apos;entre eux : Twitter et Mastodon.&lt;/p&gt;
-
-&lt;p&gt;Pourquoi ces deux-là ? Parce que leurs algorithmes sont relativement clairs et transparents. Je n&apos;utilise Twitter qu&apos;en mode anté-chronologique (mode &quot;Derniers Tweets&quot;, par opposition à la page &quot;Accueil&quot;), qui fait apparaître les personnes que j&apos;ai choisi de suivre, soit directement, soit à travers des listes, sans m&apos;imposer trop de &quot;suggestions&quot;. Cela me permettait de concilier à la fois &lt;a href=&quot;https://fr.wikipedia.org/wiki/Sérendipité&quot; title=&quot;Article Wikipedia&quot;&gt;sérendipité&lt;/a&gt; et maîtrise de mes lectures.&lt;/p&gt;
-
-&lt;p&gt;Mastodon repose sur la même base : l&apos;algorithme est « bêtement » anté-chronologique. Ce qui y a vraiment changé ces derniers jours, c&apos;est que je réussis à trouver suffisamment de monde pour que ma liste de lecture soit largement garnie et qu&apos;elle me permet d&apos;atteindre, à travers les découvertes faites via mes contacts, un niveau de sérendipité adéquat pour ne pas avoir l&apos;impression d&apos;uniquement tuer le temps et d&apos;être plus bête à la fin de la séance qu&apos;en début. Twitter ne me manque pas.&lt;/p&gt;
-
-&lt;p&gt;Comme d&apos;autres réseaux sociaux, Mastodon était (est) dominé numériquement par des hommes blancs du monde occidental. Jusqu&apos;à peu, je m&apos;étonnais qu&apos;il m&apos;y était plus facile d&apos;y croiser une femme transsexuelle qu&apos;une femme cis… Bref, c&apos;était le réseau des geeks et des marginaux… Les choses ont pas mal évolué depuis : j&apos;ai commencé à trouver des communautés scientifiques où, joie, les femmes sont bien présentes, comme &lt;a href=&quot;https://astrodon.social/about&quot; title=&quot;Mastodon instance for the discussion of Astronomy and related space-sciences&quot; hreflang=&quot;en&quot;&gt;astrodon.social&lt;/a&gt;, &lt;a href=&quot;https://social.sciences.re/about&quot; title=&quot;Espace pour la communauté scientifique, académique et éducative francophone&quot;&gt;social.sciences.re&lt;/a&gt;, &lt;a href=&quot;https://fediscience.org/about&quot; title=&quot;Social network for publishing scientists&quot; hreflang=&quot;en&quot;&gt;fediscience.org&lt;/a&gt; et &lt;a href=&quot;https://fediscience.org/server-list.html&quot; title=&quot;A server list&quot; hreflang=&quot;en&quot;&gt;beaucoup d&apos;autres&lt;/a&gt;… puis les femmes ont commencé à être bien présentes dans des communautés plus générales.&lt;/p&gt;
-
-&lt;p&gt;Bienvenue donc à tous ceux qui arrivent de l&apos;oiseau bleu… Soyez patients et ne vous étonnez pas si, par moments, les choses ne sont pas aussi fluides que vous le souhaiteriez. Les murs sont encore frais, et vous êtes nombreux.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://med-mastodon.com/@Iberiancitizen/109388359576823459/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; height=&quot;480&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Arrivé en avril 2017 sur Mastodon, je remarquais &lt;a href=&quot;https://www.liberation.fr/futurs/2017/04/15/mastodon-le-charme-des-endroits-d-internet-ou-on-arrive-en-premier_1562805/&quot; title=&quot;Article de Libération, 15 avril 2017&quot;&gt;le charme des endroits d&apos;internet où l&apos;on arrive en premier&lt;/a&gt;. Impossible cependant de ne pas remarquer que les similitudes entre Mastodon et Twitter peuvent faciliter les débuts mais décourager par la suite :&lt;/p&gt;
-
-&lt;iframe src=&quot;https://mastodon.xyz/@MyPlanet/321916/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; height=&quot;480&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Pour donner aux migrants l&apos;envie de persister, je voudrais donc insister sur quelques différences essentielles…&lt;/p&gt;
-
-&lt;h4 id=&quot;ladcentralisation&quot;&gt;La décentralisation&lt;/h4&gt;
-
-&lt;p&gt;Au lieu d’avoir une centralisation à la Twitter où un identifiant comme &lt;a href=&quot;https://twitter.com/BarackObama&quot;&gt;@BarackObama&lt;/a&gt; suffit à désigner une personne, on a sur Mastodon une logique décentralisée comme pour l’e-mail : une personne a une identité du type &lt;code&gt;@nom@serveur&lt;/code&gt;, par exemple &lt;a href=&quot;https://mastodon.mg/@barijaona&quot;&gt;@barijaona@mastodon.mg&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cette décentralisation a des avantages techniques :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;elle permet de répartir la charge d&apos;infrastructure. On a affaire à plusieurs serveurs (on dit plusieurs instances) qui peuvent individuellement être de taille petite ou moyenne, plutôt que d&apos;avoir affaire à une entreprise obligée de construire une infrastructure capable d&apos;affronter potentiellement toute l&apos;humanité ;&lt;/li&gt;
-&lt;li&gt;elle permet de personnaliser et de répartir la charge de modération. En effet, au moment de choisir l&apos;instance à laquelle ils vont s&apos;inscrire, les utilisateurs ont tendance à rejoindre d&apos;autres utilisateurs ayant des centres d&apos;intérêt communs et des attentes et valeurs relativement similaires. Les administrateurs de chaque instance sont alors amenés à adopter des principes de modération qui leur paraissent les mieux adaptés à leurs communautés, dont ils sont souvent proches et dont ils comprennent la langue et les codes culturels.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En cas de conflits persistants, ceux-ci peuvent se résoudre de manière moins dramatique que sur une plate-forme comme Twitter, où le fait d&apos;être contraint de la quitter a comme des allures de mise à mort. Sur Mastodon, si l&apos;on n&apos;est pas satisfait de son voisinage, il est toujours possible d&apos;en changer en migrant vers une autre instance. Des outils de migration sont même intégrés, permettant de continuer à être suivi par ceux qui nous suivaient auparavant et de continuer à suivre ceux que nous suivions. Les conflits généralisés où une instance bloque toute possibilité d&apos;échanges avec une autre instance existent mais sont très rares.&lt;/p&gt;
-
-&lt;h4 id=&quot;leslimitesdelarecherche&quot;&gt;Les limites de la recherche&lt;/h4&gt;
-
-&lt;p&gt;L&apos;inconvénient de la décentralisation, c&apos;est que ça complique la recherche des personnes que l&apos;on aurait intérêt à suivre, car il n’y a pas d’annuaire centralisé. Toutefois, une fois qu’on a repéré une personne, on peut quand même la suivre même si elle est sur une autre instance. Un peu comme le fait de pouvoir échanger avec quelqu’un ayant une adresse mail en yahoo.fr à partir d’une adresse en gmail.com.&lt;/p&gt;
-
-&lt;p&gt;Malgré tout, les moteurs de recherche des serveurs Mastodon sont assez limités. Ils n&apos;offrent même pas de possibilité de faire une recherche textuelle. On ne peut rechercher que des utilisateurs ou des #hashtags. C&apos;est un choix délibéré, à la fois pour des raisons de coût en ressources informatiques et pour rendre difficile le harcèlement.&lt;/p&gt;
-
-&lt;p&gt;Surtout, le moteur de recherche d&apos;une instance ne peut retrouver que ce qui a déjà transité dans cette instance :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;utilisateurs et messages apparaissant dans le flux d&apos;abonnement d&apos;un des membres de l&apos;instance ;&lt;/li&gt;
-&lt;li&gt;utilisateurs et messages ayant été partagés par un des membres de l&apos;instance.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Et bizarrement, une des solutions les plus directes pour faire découvrir à l&apos;instance où vous êtes logé l&apos;existence d&apos;un utilisateur ou d&apos;un message externe est de &lt;strong&gt;saisir l&apos;URL&lt;/strong&gt; de celui-ci &lt;strong&gt;dans le moteur de recherche&lt;/strong&gt; de votre instance… Après qu&apos;elle ait récupéré l&apos;information, votre instance vous permettra de suivre cet utilisateur ou de partager (&lt;q&gt;&lt;i lang=&quot;en&quot;&gt;boost&lt;/i&gt;&lt;/q&gt;) ce message. Oui, ce n&apos;est pas intuitif du tout, mais c&apos;est une habitude à prendre.&lt;/p&gt;
-
-&lt;p&gt;De ces faits découle la recommandation la plus déroutante pour ceux d&apos;entre nous qui ont l&apos;habitude de lire les réseaux sociaux sur un smartphone : si vous débutez sur Mastodon, &lt;strong&gt;ne vous précipitez pas pour rechercher une application&lt;/strong&gt; ! Commencez par votre navigateur Web habituel, et utilisez abondamment la fonction &quot;Ouvrir dans un nouvel onglet&quot;.&lt;/p&gt;
-
-&lt;p&gt;En fait, votre instance n&apos;affichera généralement qu&apos;une partie limitée d&apos;une conversation démarrée sur une autre instance. De même, il risque de ne lister qu&apos;une partie de l&apos;historique des messages d&apos;un utilisateur logé chez une autre instance. Suivez les liens (ceux sur l&apos;heure d&apos;un message ou ceux en bas d&apos;un profil), afin d&apos;ouvrir un nouvel onglet directement sur l&apos;instance d&apos;origine où vous obtiendrez un contexte nettement plus riche et plus complet.&lt;/p&gt;
-
-&lt;p&gt;Si vous trouvez le contenu intéressant, utilisez alors la fonction &quot;Partager&quot; de votre navigateur pour copier l&apos;URL, puis revenez à l&apos;onglet de recherche sur votre propre instance afin d&apos;y coller cette URL et pouvoir vous abonner ou partager à ceux qui vous suivent.&lt;/p&gt;
-
-&lt;p&gt;Ne refermez pas trop vite les onglets précédemment ouverts : profitez en pour regarder qui la personne suit, ou pour jeter un coup d&apos;œil sur la partie « Explorer » de l&apos;instance concernée. C&apos;est la meilleure manière de découvrir du contenu et des abonnements qui vous intéresseront.&lt;/p&gt;
-
-&lt;p&gt;Oui, les applications dédiées à Mastodon existent, et elles ont leur utilité. Pour ma part, j&apos;utilise &lt;a href=&quot;https://apps.apple.com/app/id1523996615&quot;&gt;Metatext&lt;/a&gt;, en parallèle de mon navigateur, et je bascule de l&apos;un à l&apos;autre grâce à l&apos;icône &quot;Partager&quot;. Mais ces applications sont encore trop inspirées de celles des plateformes dominantes, destinées à maintenir leurs utilisateurs à l&apos;intérieur d&apos;un jardin clos, pour s&apos;adapter au contexte Mastodon. De plus, leur rythme de développement ne suit pas celui de Mastodon, qui vient de passer en version 4.&lt;/p&gt;
-
-&lt;p&gt;(&lt;em&gt;&lt;a href=&quot;https://blog.barijaona.com/web/initiation_migration_mastodon_2.html&quot; title=&quot;Aider un pachyderme à surfer&quot;&gt;Suite&lt;/a&gt;…&lt;/em&gt;)&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
 
 </item>
 

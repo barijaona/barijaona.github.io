@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html">
+	<title>Périphériques</title>
+	<link>https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html</link>
+	<description>En écrivant le précédent article, j'avais complètement oublié d'évoquer un accessoire pourtant acheté en même temps que ma configuration initiale : l'imprimante Apple ImageWriter II...</description>
+	<dc:subject>/macintosh</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-02-04T20:51:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/macintosh/happy-40th-birthday.html">
 	<title>Débuts</title>
 	<link>https://blog.barijaona.com/macintosh/happy-40th-birthday.html</link>
@@ -101,15 +110,6 @@ After receiving a recommendation from the boards of the FDIC and the Federal Res
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-12-04T22:12:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_1.html">
-	<title>L&apos;envol sur un pachyderme</title>
-	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_1.html</link>
-	<description>Il y a quelque chose de fascinant dans ce qui arrive à Twitter...</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
 
 </item>
 
