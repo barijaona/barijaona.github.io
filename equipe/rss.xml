@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/equipe.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/cv_bjr.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/leon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/faits-divers-tananarivien.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/andy-naissance.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/ialy-naissance.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/archives_radio.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/poussins.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/evenements/25juin2005.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/sitemap.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/equipe/archives_radio.html" />
 
       </rdf:Seq>
     </items>
@@ -38,33 +38,6 @@
 
   </channel>
   
-<item rdf:about="https://blog.barijaona.com/equipe/equipe.html">
-	<title>L&apos;équipe :-)</title>
-	<link>https://blog.barijaona.com/equipe/equipe.html</link>
-	<description>
-  Barijaona Ramaholimihaso
-  Blog, Mastodon, Github
-  Lot II L 110 - Rue Rajakoba AugustinAntananarivoMadagascar
-
-</description>
-	<dc:subject>/equipe</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-11-20T17:30:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/equipe/cv_bjr.html">
-	<title>Ne m&apos;appelez pas Barjot...</title>
-	<link>https://blog.barijaona.com/equipe/cv_bjr.html</link>
-	<description>Barijaona Ramaholimihaso
-
-Né vers le milieu des années 1960, marié à Lalaina, deux enfants…
-
-J'ai fait toute ma carrière dans une banque, passant plus ou moins allègrement des systèmes d'information (au sens large) aux aspects réglementaires ou à l'impact environnemental et social, en passant par la direction financière ou le juridique...</description>
-	<dc:subject>/equipe</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-11-20T17:00:00+03:00</dc:date>
-
-</item>
 <item rdf:about="https://blog.barijaona.com/equipe/evenements/leon.html">
 	<title>Léon</title>
 	<link>https://blog.barijaona.com/equipe/evenements/leon.html</link>
@@ -99,6 +72,35 @@ J'ai fait toute ma carrière dans une banque, passant plus ou moins allègrement
 	<dc:subject>/equipe/evenements</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2006-11-06T07:24:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/equipe/evenements/poussins.html">
+	<title>À dix ans, j&apos;étais mère porteuse...</title>
+	<link>https://blog.barijaona.com/equipe/evenements/poussins.html</link>
+	<description>&lt;psychoanalysis mode&gt;
+
+Voilà où peut mener la geekerie...</description>
+	<dc:subject>/equipe/evenements</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2005-07-13T06:24:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/equipe/evenements/25juin2005.html">
+	<title>Rencontre viagière...</title>
+	<link>https://blog.barijaona.com/equipe/evenements/25juin2005.html</link>
+	<description>À la naissance de ce site, la mode n'était point aux blogs, mais aux pages personnelles, qui tombaient assez facilement dans le piège du "Papa, Maman, mon chien et moi...</description>
+	<dc:subject>/equipe/evenements</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2005-07-08T04:59:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/equipe/sitemap.html">
+	<title>﻿À propos de ce site</title>
+	<link>https://blog.barijaona.com/equipe/sitemap.html</link>
+	<description>Ce site est essentiellement le carnet web (définition par Laurent Gloaguen, étude du phénomène par Morgan Magnin et Christina Pasteur) de Barijaona Ramaholimihaso, commencé en 1998 et migré ici depuis février 2002...</description>
+	<dc:subject>/equipe</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2005-01-07T22:12:00+03:00</dc:date>
 
 </item>
 <item rdf:about="https://blog.barijaona.com/equipe/archives_radio.html">
@@ -312,22 +314,10 @@ Septembre 2003
 04/09/2003
 09/09/2003
 17/09/2003
-
 </description>
 	<dc:subject>/equipe</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2006-01-07T08:43:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/equipe/evenements/poussins.html">
-	<title>À dix ans, j&apos;étais mère porteuse...</title>
-	<link>https://blog.barijaona.com/equipe/evenements/poussins.html</link>
-	<description>&lt;psychoanalysis mode&gt;
-
-Voilà où peut mener la geekerie...</description>
-	<dc:subject>/equipe/evenements</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2005-07-13T06:24:00+03:00</dc:date>
+	<dc:date>2003-11-20T08:43:00+03:00</dc:date>
 
 </item>
 

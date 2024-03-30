@@ -2,6 +2,7 @@
 /*/*/
 
 :root {
+    font-size: calc(1rem + 0.25vw);
     --background-color: #fafafa;
     --content-background: #fff;
     --box-background: #f3f3f3;
@@ -25,7 +26,7 @@
 
 body,html {
 	background:var(--background-color); margin:0; padding:0;
-	font-family:"Open Sans",Helvetica,Arial,sans-serif
+	font-family:Optima,"Inclusive Sans","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
 }
 
 .contentfooter,.nav1,.topnav2,.topnav {
@@ -83,7 +84,6 @@ blockquote,address {
 blockquote {
 	border-left:thin solid gray;
 	padding-left:1em;
-	font-size:100%
 }
 
 kbd,samp,code,dfn {
@@ -91,7 +91,7 @@ kbd,samp,code,dfn {
 }
 
 dt {
-	font-size:110%;
+	font-size:larger;
 	font-weight:bold;
 }
 /* */
@@ -104,19 +104,14 @@ dt {
 }
 
 .dateofday {
-	font-family:Optima,'Lucida Grande',Futura,Verdana,"Bitstream Vera Sans",Tahoma,Geneva,Lucida,Helvetica,Arial,sans-serif;
 	text-align:right;
 	border-top:1px dotted gray;
 	border-left:10px dotted #999;
 	font-weight:normal
 }
 
-.menu {
-	font-size:medium
-}
-
 .submenu,.note {
-	font-size:small
+	font-size:smaller
 }
 
 input {
@@ -207,15 +202,18 @@ width:25%;
 }
 .content td {
 font-family:sans-serif;
-font-size:80%;
+font-size:smaller;
 border:1px solid var(--lower-grey);
 padding:5px;
 text-align:right;
 }
 
+.footnote, .footnotes {
+	font-size: smaller;
+}
+
 a.footnote {
 	background-color: var(--footnote-mark);
-	font-size: smaller;
 	vertical-align: baseline;
 	position: relative;
 	bottom: 0.5em;

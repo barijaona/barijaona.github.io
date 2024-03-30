@@ -36,7 +36,7 @@
 	min-width: 180px;
 	max-width: 520px;
 	text-align: center;
-	font-size: small
+	font-size: smaller
 }
 .box {
 	position: relative;
@@ -53,7 +53,7 @@
 }
 .note {
 	text-align: center;
-	font-size: x-small
+	font-size: smaller
 }
 .search {
 	text-align: center
@@ -87,7 +87,7 @@
 	background-color: #399
 }
 .timestamp {
-	font-size: x-small;
+	font-size: smaller;
 	color: var(--lower-grey)
 }
 h3 .timestamp {
@@ -155,10 +155,7 @@ a[hreflang]:after {
 	background-color: var(--greyed);
 }
 .month-calendar {
-	font-size: xx-small
-}
-.month-calendar-head {
-	font-size: x-small
+	font-size: smaller
 }
 .tableau {
 	display: table;

@@ -41,7 +41,7 @@ TINY.box=function(){
 				if(v.image){
 					var i=new Image(); i.onload=function(){w=w||i.width; h=h||i.height; TINY.box.psh(i,a,w,h)}; i.src=v.image
 				}else if(v.iframe){
-					this.psh('<iframe src="'+v.iframe+'" width="'+v.width+'" frameborder="0" height="'+v.height+'"></iframe>',a,w,h)
+					this.psh('<iframe src="'+v.iframe+'" width="'+v.width+'" height="'+v.height+'"></iframe>',a,w,h)
 				}else{
 					var x=window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP');
 					x.onreadystatechange=function(){

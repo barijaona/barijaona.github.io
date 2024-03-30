@@ -1,4 +1,4 @@
-body { background : white ; font-size: 12pt;}
+body { background : white ; }
 
 .topnav, .topnav2, .nav1, .nav2, .contentfooter, .sextant, .js-CreateComment .jsk-CommentFormWrapper { display : none ; }
 
@@ -26,9 +26,9 @@ a:link, a:visited {
 
 .content a:link:after, .content a:visited:after {
    content: " <" attr(href) "> ";
-   font-size: 90%;
+   font-size: smaller;
    }
 
-.timestamp { font-size: 12pt; color : #333 ;}
+.timestamp { color : #333 ;}
 
 .dateofday {  border-top : 1px dotted gray ;  border-bottom : 1px dotted gray ; background-color : transparent ; }
