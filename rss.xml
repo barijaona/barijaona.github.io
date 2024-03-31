@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,28 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html">
+	<title>Maintenir paraît ennuyeux…</title>
+	<link>https://blog.barijaona.com/madagascar/hopital-v2-sobre.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Devant assumer le rôle de garde-malade pour un proche, j&apos;ai été amené à relire &lt;a href=&quot;https://blog.barijaona.com/madagascar/hopital.html&quot; title=&quot;On n&apos;est pas à Lambaréné… Tempêtes et verre de toaka gasy&quot;&gt;un billet d&apos;il y a vingt ans&lt;/a&gt; en rapport avec cette situation.&lt;/p&gt;
+
+&lt;p&gt;Même hôpital, quasiment même pavillon : en deux décennies, pratiquement rien ne semble avoir changé. Il faut un œil assez attentif pour remarquer que, non, cet appareil de radiologie ou ce respirateur ne sont ni des années 1950 ni des années 2000.&lt;/p&gt;
+
+&lt;p&gt;L&apos;ambiance rétro est d&apos;évidence toujours là… Les problèmes que j&apos;avais naguère narrés également. S&apos;y ajoute, du fait de la hausse de la population d&apos;Antananarivo et de la gestion calamiteuse de la compagnie nationale d&apos;eau et électricité, l&apos;impossibilité à certaines heures d&apos;avoir de l&apos;eau courante. Lorsque l&apos;on se réveille la nuit, mieux vaut en profiter pour remplir le seau d&apos;une réserve qui pourrait bien être fort utile.&lt;/p&gt;
+
+&lt;p&gt;Et pourtant, malgré toutes ces limites, l&apos;institution fonctionne, et c&apos;est à elle ou à d&apos;autres aussi datées que l&apos;on pense en premier lorsqu&apos;on est confronté à un problème sérieux.&lt;/p&gt;
+
+&lt;p&gt;Il est des hôpitaux publics plus récents que &lt;a href=&quot;https://www.youtube.com/watch?v=H7Fa7HxxJ1M&quot; title=&quot;L&apos;hôpital de Soavinandriana, témoin de 130 ans d&apos;histoire médicale - 2424.mg sur YouTube&quot;&gt;celui-ci&lt;/a&gt; à Antananarivo. Il est aussi de rutilantes et onéreuses cliniques privées. Mais comme il y a vingt ans, le choix a porté sur la fiabilité plutôt que sur le confort ou le clinquant. Ici, les équipes connaissent leur métier, savent se coordonner, tentent de suppléer aux déficiences matérielles, et appliquent de fait ce principe de sobriété que les grandes conférences internationales n&apos;arrivent pas à nous enjoindre d&apos;adopter.&lt;/p&gt;
+
+&lt;p&gt;Difficile de ne pas faire un rapprochement avec mes propres réflexions sur la sobriété numérique. Maintenir, optimiser est moins &lt;i lang=&quot;en&quot;&gt;sexy&lt;/i&gt; qu&apos;inaugurer quelque chose de neuf. Moins valorisant dans une carrière également, que l&apos;on soit homme politique, médecin ou informaticien. Il est difficile de construire une carrière valorisante en étant très familier avec une vieille chose ennuyeuse qui est juste considérée comme acquise par tout le monde.&lt;/p&gt;
+
+&lt;p&gt;En 1969, la NASA envoyait les astronautes d’Apollo 11 sur la lune, avec un ordinateur d’une capacité de 70 Kilo Octet. Serions nous capables aujourd&apos;hui d&apos;en faire autant ? Connaissons nous &lt;a href=&quot;https://lebondigital.com/de-linfobesite-a-lobesiciel-comment-le-numerique-surcharge/&quot; title=&quot;De l’infobésité à l’obésiciel : comment le numérique s’est surchargé - Le bon digital&quot;&gt;ce que nous avons perdu entretemps&lt;/a&gt;, et serions nous prêts à adopter une &lt;a href=&quot;https://mcfunley.com/choose-boring-technology&quot; title=&quot;Choose boring technologies - Dan McKinley&quot; hreflang=&quot;en&quot;&gt;discipline de frugalité&lt;/a&gt; ?&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-03-31T16:08:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html">
 	<title>Périphériques</title>
 	<link>https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html</link>
@@ -342,34 +364,6 @@ Vérifier que sont cochés :&lt;/p&gt;
 	<dc:subject>/manala_azy</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-12-18T19:04:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html">
-	<title>Aider un pachyderme à surfer</title>
-	<link>https://blog.barijaona.com/web/initiation_migration_mastodon_2.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;L&apos;apprentissage de Mastodon peut être assez ingrat, car après votre inscription sur une instance, votre page d&apos;accueil demeurera désespérément vide si vous ne la meublez pas… Votre serveur Mastodon ne vous proposera rien de lui-même, et il vous faudra explorer pour trouver des personnes à suivre. Peuut-être découvrirez vous des gens qui vous intéressent dans le &quot;fil public local&quot; ou dans le &quot;fil public global&quot; affichés par votre serveur, mais cela risque d&apos;être un peu laborieux si vous comptez uniquement sur la chance…&lt;/p&gt;
-
-&lt;p&gt;Je vous encourage néanmoins à persévérer. En ce qui me concerne, je suis sur Mastodon depuis Avril 2017, mais le service n&apos;est devenu vraiment intéressant que lorsque j&apos;ai franchi un cap concernant le nombre de personnes suivies. J&apos;en suis actuellement à 217 personnes suivies (qui ne sont toutefois pas toutes actives). Mon conseil est donc : explorez, explorez, et de préférence, trouvez…&lt;/p&gt;
-
-&lt;p&gt;Dans le &lt;a href=&quot;https://blog.barijaona.com/web/initiation_migration_mastodon_1.html&quot; title=&quot;L&apos;envol sur un pachyderme&quot;&gt;billet précédent&lt;/a&gt;, je faisais état d&apos;une chose qui m&apos;avait moi-même trompé pendant plus de cinq ans : c&apos;est une grosse erreur de croire que les applications dédiées Mastodon sont des outils efficaces pour découvrir de nouveaux contenus.&lt;/p&gt;
-
-&lt;p&gt;Il s&apos;agit d&apos;une erreur, car les clients dédiés sont avant tout conçus pour afficher du contenu transitant par votre instance. Ce qui ne représente qu&apos;un sous-ensemble de tout le contenu disponible, en particulier si l&apos;instance à laquelle vous êtes inscrit est récente (comme celles qui viennent de se créer suite aux changements chez Twitter) ou relativement petite (comme Mastodon.mg, l&apos;instance où je suis).&lt;/p&gt;
-
-&lt;p&gt;Car ce qu&apos;on appelle &quot;fil public global&quot; ne l&apos;est que de nom. Le graphique du message ci-après explique cela mieux que je ne le puis :&lt;/p&gt;
-
-&lt;iframe src=&quot;https://mastodon.scop.coop/@cyrilz/109416406331993929/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;480&quot; height=&quot;960&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Il faut le dire et le redire : en raison de la structure décentralisée du Fediverse, un navigateur web est beaucoup plus efficace qu&apos;un client Mastodon dédié pour faire des découvertes intéressantes. En effet, vous serez exposé à bien plus de contenu si vous utilisez votre navigateur web pour suivre les liens affichés par les serveurs (ceux sur l&apos;heure d&apos;un message ou ceux en bas d&apos;un profil). Vous découvrirez alors l&apos;intégralité des conversations sur les instances où leurs auteurs sont inscrits et, de fil en aiguille, vous découvrirez d&apos;autres personnes ayant des intérêts communs.&lt;/p&gt;
-
-&lt;p&gt;Mais vous sentirez rapidement que, via le web, réagir à un post ou suivre quelqu&apos;un qui est inscrit sur une instance autre que la votre devient vite un peu fastidieux.&lt;/p&gt;
-
-&lt;p&gt;Toutefois, la situation s&apos;améliore très nettement si l&apos;on installe dans son navigateur quelques signets Javascript bien pratiques. Pour vous faciliter la tâche, j&apos;ai donc mis en ligne &lt;a href=&quot;https://barijaona.github.io/mastodon-bookmarklet-generator/index.fr.html&quot; title=&quot;Générateur de Bookmarklets Mastodon&quot;&gt;un outil qui vous permet d&apos;installer facilement de tels signets&lt;/a&gt;. J&apos;espère qu&apos;ils vous seront utiles.&lt;/p&gt;
-
-&lt;p&gt;(&lt;em&gt;À suivre&lt;/em&gt;)&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/initiation_migration_mastodon_2.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-12-04T22:12:00+03:00</dc:date>
 
 </item>
 

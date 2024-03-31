@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,9 +10,9 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="//blog.barijaona.com">
+  <channel rdf:about="https://blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
-    <link>http://blog.barijaona.com</link>
+    <link>https://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
     <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/bilan2016.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/singapour-meemf.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/night_session_cop21.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/kopy_cop.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/etat-de-droit.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/madagascar/projections_mdg2013.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/bilan2016.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/singapour-meemf.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/night_session_cop21.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/kopy_cop.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/etat-de-droit.html" />
 
       </rdf:Seq>
     </items>
@@ -38,18 +38,27 @@
 
   </channel>
   
-<item rdf:about="//blog.barijaona.com/madagascar/bilan2016.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html">
+	<title>Maintenir paraît ennuyeux…</title>
+	<link>https://blog.barijaona.com/madagascar/hopital-v2-sobre.html</link>
+	<description>Devant assumer le rôle de garde-malade pour un proche, j'ai été amené à relire un billet d'il y a vingt ans en rapport avec cette situation...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-03-31T16:08:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/madagascar/bilan2016.html">
 	<title>Verre à moitié vide, ou verre à moitié plein</title>
-	<link>http://blog.barijaona.com/madagascar/bilan2016.html</link>
+	<link>https://blog.barijaona.com/madagascar/bilan2016.html</link>
 	<description>Je viens de me faire un petit concert nocturne  que je ne peux que vous recommander...</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-12-15T06:43:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/singapour-meemf.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/singapour-meemf.html">
 	<title>Perturbantes questions…</title>
-	<link>http://blog.barijaona.com/madagascar/singapour-meemf.html</link>
+	<link>https://blog.barijaona.com/madagascar/singapour-meemf.html</link>
 	<description>La presse n'a pas rapporté le fait, mais j'ai trouvé la situation si particulière que je ne résiste pas à la tentation de rendre compte…
 
 C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des Forêts...</description>
@@ -58,36 +67,36 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:date>2016-04-24T07:27:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/night_session_cop21.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/night_session_cop21.html">
 	<title>Comment ça se termine une COP ?</title>
-	<link>http://blog.barijaona.com/madagascar/night_session_cop21.html</link>
+	<link>https://blog.barijaona.com/madagascar/night_session_cop21.html</link>
 	<description>En quenouille ou en feu d'artifice ...</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html">
 	<title>[en] Long term financing of protected areas.</title>
-	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
+	<link>https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html</link>
 	<description>A FAPBM slideshow for the COP21...</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
 	<title>Financement durable des aires protégées</title>
-	<link>http://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
+	<link>https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
 	<description>Une présentation par la FAPBM pour la COP21...</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/kopy_cop.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/kopy_cop.html">
 	<title>Kôpy ve sa tsy kôpy ianao ?</title>
-	<link>http://blog.barijaona.com/madagascar/kopy_cop.html</link>
+	<link>https://blog.barijaona.com/madagascar/kopy_cop.html</link>
 	<description>(reprise d'un post initialement publié le vendredi 4 décembre 2015 sur la page Facebook de la FAPBM)
 
 Face aux interrogations sur les raisons de la taille de la délégation malgache et sa visibilité réelle, il peut être utile de remettre en perspective la taille d'un évènement comme la COP en donnant quelques chiffres :
@@ -99,22 +108,13 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
 
 </item>
-<item rdf:about="//blog.barijaona.com/madagascar/etat-de-droit.html">
+<item rdf:about="https://blog.barijaona.com/madagascar/etat-de-droit.html">
 	<title>« Droit » et état de droit</title>
-	<link>http://blog.barijaona.com/madagascar/etat-de-droit.html</link>
+	<link>https://blog.barijaona.com/madagascar/etat-de-droit.html</link>
 	<description>Commentaire actuellement en attente de modération chez Zo Razanamasy suite à la décision de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina...</description>
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2013-11-14T06:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="//blog.barijaona.com/madagascar/projections_mdg2013.html">
-	<title>#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame</title>
-	<link>http://blog.barijaona.com/madagascar/projections_mdg2013.html</link>
-	<description>Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2013-10-30T14:16:00+03:00</dc:date>
 
 </item>
 
