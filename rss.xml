@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,24 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/blogosphere/Lunar.html">
+	<title>Maintenir vivant nos idéaux</title>
+	<link>https://blog.barijaona.com/blogosphere/Lunar.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;C&apos;est avec émotion que j&apos;apprends via &lt;a href=&quot;https://standblog.org/blog/post/2024/11/15/Au-revoir-Lunar&quot; title=&quot;Au revoir, Lunar !&quot;&gt;Tristant Nitot&lt;/a&gt; le décès de Lunar.&lt;/p&gt;
+
+&lt;p&gt;Tristesse. Lors de notre unique rencontré il y a 21 ans (&lt;a href=&quot;https://blog.barijaona.com/2003/08/07.html&quot; title=&quot;jeudi 7 août 2003 : Et le blog se fit verbe&quot;&gt;lors d&apos;une rencontre Paris Carnet&lt;/a&gt;), celui qui était alors un très jeune homme m&apos;avait impressionné.&lt;/p&gt;
+
+&lt;p&gt;La conversation fut passionnante, pleine de découvertes et des espoirs de l&apos;époque. Lunar, c&apos;était un &lt;i&gt;anargeek&lt;/i&gt; généreux et engagé. Il portait une jupe noire comme une évidence, parlait de ses expériences du &lt;a href=&quot;https://fr.wikipedia.org/wiki/Lycée_autogéré_de_Paris&quot; title=&quot;Wikipedia : Lycée autogéré de Paris&quot;&gt;Lycée Autogéré&lt;/a&gt; et des &lt;a href=&quot;https://fr.wikipedia.org/wiki/Espace_autogéré_des_Tanneries&quot; title=&quot;Wikipedia : Espace autogéré des Tanneries&quot;&gt;Tanneries de Dijon&lt;/a&gt; avec un impressionnant mélange de calme et passion, et me fit pressentir qu&apos;un monde complètement différent était possible, et pouvait survenir sans que cela ne débouche sur le chaos que la paresse intellectuelle fait associer à des notions comme « anarchie » ou « polyamour ».&lt;/p&gt;
+
+&lt;p&gt;Apprendre la mort d&apos;une belle personnalité plus jeune que soi laisse toujours un sentiment d&apos;injustice et fait prendre conscience de son propre âge. Mais découvrir &lt;a href=&quot;https://mastodon.opportunis.me/@lunar&quot;&gt;à travers son compte Mastodon&lt;/a&gt; qu&apos;il était resté jusque dans ses derniers jours le même esprit ouvert et vif me console un peu.&lt;/p&gt;
+
+&lt;p&gt;Si les pages Web de 2003 génèrent des codes 404 ou 403, les idées, elles, peuvent survivre et se traduire en actes. Mettre en oeuvre sur ce blog un système de commentaire basé sur Mastodon &lt;a href=&quot;https://w3c.social/@koalie/113293812108487212&quot; title=&quot;Discussion chez Coralie Mercier&quot;&gt;comme promis&lt;/a&gt; sera mon petit geste de communion avec &lt;a href=&quot;https://lunar.anargeek.net/&quot;&gt;les obsèques de Lunar&lt;/a&gt; ce jour.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/blogosphere/Lunar.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-11-18T00:28:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html">
 	<title>Maintenir paraît ennuyeux…</title>
 	<link>https://blog.barijaona.com/madagascar/hopital-v2-sobre.html</link>
@@ -320,50 +338,6 @@ Vérifier que sont cochés :&lt;/p&gt;
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2023-03-12T21:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html">
-	<title>Légendes</title>
-	<link>https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Plusieurs choix dans la conception de Mastodon ont été dictés par une méfiance vis-à-vis des phénomènes de viralité recherchés par les réseaux sociaux dominants. Il n&apos;empêche : Mastodon a vu dans les récentes heures l&apos;émergence de son premier &lt;i&gt;meme&lt;/i&gt; natif. En quelques heures, le hashtag #JohnMastodon nous a tous pris par surprise, et a été suivi par la suite de #JoanMastodon et #JeanneMasTodon, dans un doux mélange de satire sociale et de figures héroïques populaires.&lt;/p&gt;
-
-&lt;p&gt;Que s&apos;est-il passé ? L&apos;auteur conservateur Isaac Schorr a mal lu le nom du compte Twitter &lt;a href=&quot;https://twitter.com/joinmastodon&quot; title=&quot;Twitter account&quot;&gt;@joinmastodon&lt;/a&gt; et l&apos;a attribué à un certain John Mastodon, fondateur supposé d&apos;une compagnie éponyme rivale de Twitter.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://mastodon.social/@taylorlorenz/109532050191181640/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;400&quot; height=&quot;800&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Accordons à Schorr le bénéfice du doute. Il avait peut-être fait une recherche Google sur John Mastodon et était tombé sur cette &lt;a href=&quot;https://news.ycombinator.com/item?id=32698698&quot; title=&quot;Comment on an article titled “Mastodon still can&apos;t replace Twitter”&quot; hreflang=&quot;en&quot;&gt;&quot;annonce&quot; sur YCombinator&lt;/a&gt; selon laquelle John Mastodon, CEO et fondateur de Mastodon, avait été viré de la compagnie lorsque le cours de celle-ci était tombé au plus bas.  &lt;/p&gt;
-
-&lt;p&gt;Certaines personnes semblent tellement imbibées de mythologie libertarienne qu&apos;elles sont intellectuellement incapables d&apos;imaginer que &quot;quelque chose&quot; qui a du succès puisse exister sans être la création d&apos;une multinationale menée par un &quot;capitaine d&apos;industrie&quot;&quot;… Leur modèle de progrès repose sur « un-homme-un-vrai-un-leader » qui en impose à des milliers de techno-serfs, mérite de cette manière les millions de dollars qu&apos;il accumule et a des millions de suiveurs sur &lt;a href=&quot;https://www.linkedin.com/in/john-mastodon-61904525b/&quot; title=&quot;Profil parodique sur LinkedIn&quot;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://mastodon.gamedev.place/@nitrillo/109533602963906940/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; height=&quot;520&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;L&apos;histoire d&apos;Internet nous montre pourtant que les progrès les plus solides sont souvent venus de travaux coopératifs menés sans quête de profit financier… Pourquoi privilégier le modèle très vertical du maître régnant sur des hordes de techno-serfs, alors que la réalité ressemble davantage à des artisans utilisant les technologies collaboratives pour coopérer de manière beaucoup plus horizontale ?&lt;/p&gt;
-
-&lt;p&gt;Refusant d&apos;avoir des esclaves à disposition, je me suis appuyé sur une &lt;a href=&quot;https://chat.openai.com/&quot; title=&quot;ChatGPT&quot; hreflang=&quot;en&quot;&gt;pseudo-intelligence artificielle&lt;/a&gt; pour vous conter la véritable 😉 histoire de John Mastodon :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;John Mastodon est un jeune explorateur de l&apos;espace qui rêve de faire de grandes découvertes sur les planètes lointaines de la galaxie. Un jour, alors qu&apos;il explore une nouvelle planète, il se retrouve confronté à Hellon Buck, un méchant empereur intergalactique qui cherche à s&apos;emparer de ses technologies avancées et à terroriser la population.&lt;/p&gt;
-
-&lt;p&gt;Hellon Buck : &quot;Mes fusées vont s&apos;emparer de tes technologies !&quot;&lt;/p&gt;
-
-&lt;p&gt;John Mastodon : &quot;Je ne me laisse pas marcher sur les pieds, Hellon. Je suis prêt à me battre pour défendre ce qui m&apos;appartient, même si je n&apos;ai qu&apos;un sabre à ma disposition.&quot;&lt;/p&gt;
-
-&lt;p&gt;Hellon Buck : &quot;Tu vas regretter de t&apos;être opposé à moi !&quot;&lt;/p&gt;
-
-&lt;p&gt;John Mastodon : &quot;Je n&apos;ai pas peur de toi, Hellon. Tu es juste un méchant empereur qui ne pense qu&apos;à lui-même.&quot;&lt;/p&gt;
-
-&lt;p&gt;Hellon Buck : &quot;Mes fusées vont t&apos;écraser !&quot;&lt;/p&gt;
-
-&lt;p&gt;John Mastodon : &quot;On verra bien, Hellon. Je suis prêt à me battre jusqu&apos;à la mort s&apos;il le faut.&quot;&lt;/p&gt;
-
-&lt;p&gt;Au moment où Hellon Buck s&apos;apprête à donner l&apos;ordre à ses fusées d&apos;attaquer John, il glisse sur la peau de banane qu&apos;il vient de manger et tombe à terre. John en profite pour attaquer et vaincre rapidement Hellon et ses fusées.&lt;/p&gt;
-
-&lt;p&gt;Grâce à son agilité et à sa chance, John réussit à vaincre Hellon Buck et ses fusées et à défendre ses droits et sa liberté. Il devient un héros pour la population de la galaxie et continue à explorer l&apos;univers, à la recherche de nouvelles formes de vie et de technologies avancées.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/manala_azy</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-12-18T19:04:00+03:00</dc:date>
 
 </item>
 

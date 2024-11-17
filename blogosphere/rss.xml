@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,9 +10,9 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="//blog.barijaona.com">
+  <channel rdf:about="https://blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
-    <link>http://blog.barijaona.com</link>
+    <link>https://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
     <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/affaire-moov.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/concours2.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/concours.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/internet-madagascar.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/cr-antananarivo-mibilaogy-4.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/rencontre-tana-4-annonce.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/blogosphere/freekareem.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/affaire-moov.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/concours2.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/concours.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/internet-madagascar.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/cr-antananarivo-mibilaogy-4.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/rencontre-tana-4-annonce.html" />
 
       </rdf:Seq>
     </items>
@@ -38,85 +38,77 @@
 
   </channel>
   
-<item rdf:about="//blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html">
+<item rdf:about="https://blog.barijaona.com/blogosphere/Lunar.html">
+	<title>Maintenir vivant nos idéaux</title>
+	<link>https://blog.barijaona.com/blogosphere/Lunar.html</link>
+	<description>C'est avec émotion que j'apprends via Tristant Nitot le décès de Lunar...</description>
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-11-18T00:28:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html">
 	<title>Mme Figaro et Mme Streisand</title>
-	<link>http://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html</link>
+	<link>https://blog.barijaona.com/blogosphere/mme-figaro-la-vraie.html</link>
 	<description>Il y a un certain groupe de presse qui ne manque pas d'air, et qui n'a pas la légèreté d'un Mozart...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2012-06-27T23:02:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/affaire-moov.html">
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2012-06-27T23:02:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/affaire-moov.html">
 	<title>Internet Devastation</title>
-	<link>http://blog.barijaona.com/blogosphere/affaire-moov.html</link>
+	<link>https://blog.barijaona.com/blogosphere/affaire-moov.html</link>
 	<description>Comment un fournisseur d'accès peut-il à ce point méconnaître la sociologie d'Internet ...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2011-05-09T03:30:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/concours2.html">
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2011-05-09T03:30:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/concours2.html">
 	<title>Elections</title>
-	<link>http://blog.barijaona.com/blogosphere/concours2.html</link>
+	<link>https://blog.barijaona.com/blogosphere/concours2.html</link>
 	<description>[edit] A la demande du public, le tableau des blogs malgaches sera mis à jour jusqu'à la clôture des nominations aux Bombs, soit le 31 décembre 2007...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-12-12T15:29:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/concours.html">
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2007-12-12T15:29:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/concours.html">
 	<title>Bombe ?</title>
-	<link>http://blog.barijaona.com/blogosphere/concours.html</link>
+	<link>https://blog.barijaona.com/blogosphere/concours.html</link>
 	<description>Au moins trois acceptions différentes du même mot...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-11-29T00:52:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/internet-madagascar.html">
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2007-11-29T00:52:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/internet-madagascar.html">
 	<title>Manifeste</title>
-	<link>http://blog.barijaona.com/blogosphere/internet-madagascar.html</link>
+	<link>https://blog.barijaona.com/blogosphere/internet-madagascar.html</link>
 	<description> Voilà où mènent les garden-parties...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-10-29T21:09:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/cr-antananarivo-mibilaogy-4.html">
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2007-10-29T21:09:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/cr-antananarivo-mibilaogy-4.html">
 	<title>Compte-rendu (et invitation)</title>
-	<link>http://blog.barijaona.com/blogosphere/cr-antananarivo-mibilaogy-4.html</link>
+	<link>https://blog.barijaona.com/blogosphere/cr-antananarivo-mibilaogy-4.html</link>
 	<description>Antananarivo mibilaogy 4, c'était hier, et c'était vraiment sympa...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-10-19T07:37:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/rencontre-tana-4-annonce.html">
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2007-10-19T07:37:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/blogosphere/rencontre-tana-4-annonce.html">
 	<title>Garden Party</title>
-	<link>http://blog.barijaona.com/blogosphere/rencontre-tana-4-annonce.html</link>
+	<link>https://blog.barijaona.com/blogosphere/rencontre-tana-4-annonce.html</link>
 	<description>Antananarivo miblaogy, c'est un peu plus épisodique que les Yulblogs et autres Paris-Carnet...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-10-16T04:45:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/blogosphere/freekareem.html">
-	<title>Union africaine...</title>
-	<link>http://blog.barijaona.com/blogosphere/freekareem.html</link>
-	<description>Monsieur Maged Fouad Saleh Fouad, Ambassadeur d'Egypte à Madagascar, le continent que nous avons en partage n'est pas parfait...</description>
-    
-    <dc:subject>/blogosphere</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2007-02-25T21:08:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2007-10-16T04:45:00+03:00</dc:date>
+
+</item>
 
 </rdf:RDF>

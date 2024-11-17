@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/blogosphere/Lunar.html">
+	<title>Maintenir vivant nos idéaux</title>
+	<link>https://blog.barijaona.com/blogosphere/Lunar.html</link>
+	<description>C'est avec émotion que j'apprends via Tristant Nitot le décès de Lunar...</description>
+	<dc:subject>/blogosphere</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-11-18T00:28:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html">
 	<title>Maintenir paraît ennuyeux…</title>
 	<link>https://blog.barijaona.com/madagascar/hopital-v2-sobre.html</link>
@@ -101,15 +110,6 @@ After receiving a recommendation from the boards of the FDIC and the Federal Res
 	<dc:subject>/monde</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2023-03-12T21:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html">
-	<title>Légendes</title>
-	<link>https://blog.barijaona.com/manala_azy/Elon-vertical-vs-John-horizontal.html</link>
-	<description>Plusieurs choix dans la conception de Mastodon ont été dictés par une méfiance vis-à-vis des phénomènes de viralité recherchés par les réseaux sociaux dominants...</description>
-	<dc:subject>/manala_azy</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-12-18T19:04:00+03:00</dc:date>
 
 </item>
 
