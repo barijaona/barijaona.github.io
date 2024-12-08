@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="https://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>https://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>en</dc:language>
+    <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
+    <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
+    <admin:errorReportsTo rdf:resource="mailto:reactions@barijaona.com"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+
+  </channel>
+  
+<item rdf:about="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html">
+	<title>Same Spirit, Refreshed Tools</title>
+	<link>https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html</link>
+	<description>If you search for static site generator in a search engine, you’re unlikely to come across any mention of "Blosxom"1...</description>
+	<dc:subject>/web/fediverse/en</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-12-08T08:19:00+03:00</dc:date>
+
+</item>
+
+</rdf:RDF>

@@ -7,16 +7,96 @@
   <link rel="self" type="application/atom+xml" href="https://blog.barijaona.com/atom.xml" />
   <link rel="alternate" type="text/html" hreflang="en" href="https://blog.barijaona.com" />
   <id>tag:barijaona.com,1999:/</id>
-  <generator uri="http://blosxom.sourceforge.net/" version="2.1.2+dev">Blosxom</generator>
+  <generator uri="http://blosxom.sourceforge.net/" version="2.2.0">Blosxom</generator>
   <div class="info" xmlns="http://www.w3.org/1999/xhtml">
     This is an Atom formatted XML site feed.
     It is intended to be viewed in a Newsreader.
     Please visit <a href="http://www.atomenabled.org/">atomenabled.org</a> for more info.
   </div>
-  <rights>http://creativecommons.org/licenses/by-nc-sa/2.0/</rights>
+  <rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</rights>
   <icon>https://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2024-11-17T22:18:00Z</updated>
+  <updated>2024-12-08T14:43:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2024:/web/fediverse/en/Fedifeedback-plugin-for-blosxom</id>
+    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
+
+    <title type="text">Same Spirit, Refreshed Tools</title>
+    <published>2024-12-08T05:19:00Z</published>
+    <updated>2024-12-08T14:43:00Z</updated>
+    <category term="/web/fediverse/en"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>https://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
+&lt;p&gt;If you search for &lt;q&gt;static site generator&lt;/q&gt; in a search engine, you’re unlikely to come across any mention of &quot;Blosxom&quot;&lt;a href=&quot;#fn:amazon&quot; id=&quot;fnref:amazon&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;. However, an &lt;a href=&quot;https://siliconangle.com/2012/03/20/5-minimalist-static-html-blog-generators-to-check-out/&quot; title=&quot;5 Minimalist Static Blog Generators to Check Out&quot;&gt;article from 2012&lt;/a&gt; states that &lt;q&gt;&lt;i&gt;Blosxom is the original open source static site generator&lt;/i&gt;&lt;/q&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;alongridewithblosxom&quot;&gt;A long ride with Blosxom&lt;/h4&gt;
+
+&lt;p&gt;I could not agree more. Since &lt;a href=&quot;https://blog.barijaona.com/web/bascule_sous_blosxom.html&quot; hreflang=&quot;fr&quot;&gt;October 2003&lt;/a&gt;, this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which &lt;a href=&quot;https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html&quot; title=&quot;Announcement of Blosxom starter kit in September 2024&quot;&gt;led me to package a Blosxom starter kit&lt;/a&gt; for anyone wiling to try out Blosxom's &quot;static rendering&quot;.&lt;/p&gt;
+
+&lt;p&gt;There never was a strong enough reason to change, so I stuck with my system. However, some frustrations emerged over time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the state of abandonment of the Blosxom website&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;concerns about potential legal and privacy issues which might arise from the use of an external commenting system (though I never had specific problems with Disqus);&lt;/li&gt;
+&lt;li&gt;a relative decline in the blogging ecosystem, which led to a shift in conversations moving to social networks;&lt;/li&gt;
+&lt;li&gt;a feeling that I could get better interactions with open web standards.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;attractiontothefediverse&quot;&gt;Attraction to the Fediverse&lt;/h4&gt;
+
+&lt;p&gt;I was aware of &lt;a href=&quot;https://indieweb.org/Webmention&quot; title=&quot;W3C Recommendation for interactions across the web&quot;&gt;WebMentions&lt;/a&gt;, but was never motivated enough to give a try at implementing it.&lt;/p&gt;
+
+&lt;p&gt;Then two flushes of motivation came from discoveries :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mementomori.social/@rolle&quot; title=&quot;Roni Laukkarinen, owner of
+mementomori.social&quot;&gt;@rolle&lt;/a&gt;'s blog, with this particular post : &lt;a href=&quot;https://rolle.design/comment-to-a-wordpress-blog-post-via-the-fediverse&quot; title=&quot;rolle.design, December 2023&quot;&gt;Comment to a WordPress blog post via the Fediverse&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;a portion of Coralie Mercier's &lt;a href=&quot;https://www.w3.org/blog/2024/on-the-55th-world-standards-day-my-history-of-the-web-and-relationship-with-w3c/&quot;&gt;interview&lt;/a&gt; on the history of the Web and her relationship with W3C (starting at 14:50)
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/5sCmpE_v9aA?si=hoADtbLHmsQlTdZX&amp;amp;start=890&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;anewcommentingsystembasedonmastodon&quot;&gt;A new commenting system based on Mastodon&lt;/h4&gt;
+
+&lt;p&gt;After &lt;a href=&quot;https://w3c.social/@koalie/113288170505154472&quot; title=&quot;Discussion on W3C.social&quot;&gt;the ensuing conversation&lt;/a&gt;, I had a tentative timeframe for implementing a solution.&lt;/p&gt;
+
+&lt;p&gt;The initial setup was quite manual, but this post marks the &quot;official&quot; release of the &lt;a href=&quot;https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/fedifeedback/&quot; title=&quot;Directory content in Blosxom blosxom-plugins repository&quot;&gt;fedifeedback plugin for Blosxom&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once installed, using the plugin is straightforward:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;publish your blog post, without enabling Fediverse discussion
+yet (i.e., no toot ID).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;write a post on Mastodon (or any similar system that supports
+the Mastodon API, like GoToSocial, PixelFed, Pleroma, Friendica, Iceshrimp, Sharkey, etc.).
+This post (“toot”) should link to your blog post and help
+increase its visibility. It will allow users to easily share and engage with
+your content by boosting your “toot” to their followers or reply to it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;grab the “toot” URL and update your blog post to include it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;republish the website.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Example: the source text of this article can be found at: &lt;a href=&quot;https://github.com/barijaona/com.barijaona.blog.source/blob/master/posts/web/fediverse/en/Fedifeedback-plugin-for-blosxom.txt&quot;&gt;https://github.com/barijaona/com.barijaona.blog.source/blob/master/posts/web/fediverse/en/Fedifeedback-plugin-for-blosxom.txt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some of the code (Javascript and CSS) is derived from &lt;a href=&quot;https://danielpecos.com/2022/12/25/mastodon-as-comment-system-for-your-static-blog/&quot; title=&quot;Mastodon as comment system for your static blog&quot;&gt;Daniel Pecos Martinez&lt;/a&gt;'s &lt;a href=&quot;https://github.com/dpecos/mastodon-comments&quot; title=&quot;Mastodon-Comments on Github&quot;&gt;web component&lt;/a&gt;. However, I modified it significantly to align with my vision of Blosxom's philosophy. And for the first time in my life, I have included a part entitled &lt;em&gt;ENVIRONMENTAL AND SOCIAL CONSIDERATIONS&lt;/em&gt; in a software documentation…&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:amazon&quot;&gt;&lt;p&gt;Worst, the first result when searching &quot;the zen of blogging&quot; is an Amazon book titled &quot;The Zen of Blogging: Make money with your blog, fire your boss and live the good life&quot; 😢🙄&lt;a href=&quot;#fnref:amazon&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;I hope I'll have more about that in upcoming posts.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2024:/blogosphere/Lunar</id>
@@ -24,7 +104,7 @@
 
     <title type="text">Maintenir vivant nos idéaux</title>
     <published>2024-11-17T21:28:00Z</published>
-    <updated>2024-11-17T22:18:00Z</updated>
+    <updated>2024-11-24T20:36:00Z</updated>
     <category term="/blogosphere"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -41,11 +121,7 @@
 <p>Apprendre la mort d'une belle personnalité plus jeune que soi laisse toujours un sentiment d'injustice et fait prendre conscience de son propre âge. Mais découvrir <a href="https://mastodon.opportunis.me/@lunar">à travers son compte Mastodon</a> qu'il était resté jusque dans ses derniers jours le même esprit ouvert et vif me console un peu.</p>
 
 <p>Si les pages Web de 2003 génèrent des codes 404 ou 403, les idées, elles, peuvent survivre et se traduire en actes. Mettre en oeuvre sur ce blog un système de commentaire basé sur Mastodon <a href="https://w3c.social/@koalie/113293812108487212" title="Discussion chez Coralie Mercier">comme promis</a> sera mon petit geste de communion avec <a href="https://lunar.anargeek.net/">les obsèques de Lunar</a> ce jour.</p>
-
-<h4 id="commentaires:">Commentaires :</h4>
-
-<p>Avec un compte Mastodon ou du Fediverse, vous pouvez répondre à ce billet. Étant donné que le Fediverse est un système décentralisé, vous pouvez réagir en utilisant votre compte existant hébergé par un serveur Mastodon ou une plate-forme compatible, à partir du lien ci-après ou en collant celui-ci dans la barre de recherche de votre application Mastodon : <a href="https://mastodon.mg/@barijaona/113500538860688431">https://mastodon.mg/@barijaona/113500538860688431</a></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/blogosphere/Lunar.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/blogosphere/Lunar.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
@@ -76,7 +152,7 @@
 <p>Difficile de ne pas faire un rapprochement avec mes propres réflexions sur la sobriété numérique. Maintenir, optimiser est moins <i lang="en">sexy</i> qu'inaugurer quelque chose de neuf. Moins valorisant dans une carrière également, que l'on soit homme politique, médecin ou informaticien. Il est difficile de construire une carrière valorisante en étant très familier avec une vieille chose ennuyeuse qui est juste considérée comme acquise par tout le monde.</p>
 
 <p>En 1969, la NASA envoyait les astronautes d’Apollo 11 sur la lune, avec un ordinateur d’une capacité de 70 Kilo Octet. Serions nous capables aujourd'hui d'en faire autant ? Connaissons nous <a href="https://lebondigital.com/de-linfobesite-a-lobesiciel-comment-le-numerique-surcharge/" title="De l’infobésité à l’obésiciel : comment le numérique s’est surchargé - Le bon digital">ce que nous avons perdu entretemps</a>, et serions nous prêts à adopter une <a href="https://mcfunley.com/choose-boring-technology" title="Choose boring technologies - Dan McKinley" hreflang="en">discipline de frugalité</a> ?</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
@@ -124,7 +200,7 @@
 
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
     </content>
   </entry>
 
@@ -153,7 +229,7 @@
 <p>Je ne suis tombé amoureux du Mac qu'en le rencontrant dans une boutique du boulevard Saint Germain de Paris qui permettait de le manipuler un peu. Et je me suis dit que mon retour prochain à Madagascar valait bien de casser à nouveau la tirelire, que ce geste n'était plus un plaisir que je m'offrais, mais un investissement. En restant raisonnable : le choix se porta sur un modèle 128 transformé en Macintosh Plus, bien plus convaincant que le Macintosh originel grâce à son mégaoctet de mémoire vive (!), son clavier avec pavé numérique et son lecteur de disquettes de 800 Ko au lieu de 400 Ko. J'ajoutais à mon achat un deuxième lecteur de disquette avant de passer quelque temps plus tard à un disque Rodime 45 Plus, <a href="https://collection.sciencemuseumgroup.org.uk/objects/co8413211/macintosh-plus-1mb-computer-micro-computer" title="Collection Science Museum" hreflang="en">qui se plaçait sous l'unité centrale du Mac</a> et que l'on connectait en SCSI…</p>
 
 <p><i lang="en">Happy Birthday, Macintosh !</i></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/macintosh/happy-40th-birthday.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/macintosh/happy-40th-birthday.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
@@ -244,7 +320,7 @@ Vérifier que sont cochés :&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac&quot; title=&quot;Guide d’utilisation de macOS Sonoma 14&quot;&gt;Utiliser le menu Partager sur Mac&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios&quot; title=&quot;Guide d’utilisation de Raccourcis&quot;&gt;Recevoir des éléments affichés à l’écran provenant d’autres apps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
     </content>
   </entry>
 
@@ -311,7 +387,7 @@ Vérifier que sont cochés :&lt;/p&gt;
 <p>La gestion des clés TLS se fait avec <a href="https://certbot.eff.org" title="Electronic Frontier Foundatin" hreflang="en">certbot</a>, déjà installé <a href="https://blog.barijaona.com/web/settingup_letsencrypt.html" title="DO encrypt" hreflang="en">à l'époque via Homebrew</a>.</p>
 
 <p>3/ il me faut rajouter quelques éléments aux tests d'intégration continue de <a href="https://blosxom.sourceforge.net" title="blosxom :: the zen of blogging" hreflang="en">Blosxom</a> et publier une version 2.1.3.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html#comments" title="Commentaire(s)">Réagissez</a></div>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 
@@ -346,53 +422,7 @@ Vérifier que sont cochés :&lt;/p&gt;
 <p>En décidant de fermer la banque en pleine journée du vendredi, les autorités ont pu stopper la fuite de liquidité, profiter du week-end pour évaluer la situation et constater qu'elles pouvaient injecter de la liquidité sans risque l'argent du contribuable.</p>
 
 <p>En revanche, je ne me prononcerai pas en ce qui concerne la Signature Bank que les autorités US ont également décidé de fermer ce week-end. Car le problème de cette banque semble avoir été provoqué par l'activité relative aux cryptomonnaies. On est bien loin là de la "banque de Papa".</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/silicon-valley-bank-2.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2023:/monde/silicon-valley-bank</id>
-    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
-
-    <title type="text">Ça peut devenir compliqué, la « banque de papa »…</title>
-    <published>2023-03-12T18:38:00Z</published>
-    <updated>2024-03-31T12:10:00Z</updated>
-    <category term="/monde"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>https://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
-&lt;p&gt;Dans le monde de la finance globalisée, les crises ont ceci d'intéressant que presque personne n'a prévu leur arrivée. Ce fait est même ce qui les caractérise. Dans une économie de marchés où l'on a l'habitude de spéculer sur tout, ce qui amène à essayer d'anticiper en permanence, le rééquilibrage entre ceux qui ont tendance à voir un verre à moitié plein et ceux qui ont tendance à le voir à moitié vide se fait en continu. La régulation se fait alors via l'ajustement des prix en fonction du niveau de risque perçu, et ce réajustement se fait en général plutôt en douceur.&lt;/p&gt;
-
-&lt;p&gt;La crise, la vraie, éclate lorsque que quelqu'un crie brutalement &lt;q&gt;&lt;i&gt;Au loup !&lt;/i&gt;&lt;/q&gt; et que les marchés découvrent avec effroi un fait important que la grande majorité n'avait pas perçu. Le réajustement se fait alors brutal, parfois excessif. Cela permet à ceux qui arrivent à analyser vite et bien une situation de réaliser alors de très substantiels profits&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il est trop tôt pour savoir si la cessation d'activité de la Silicon Valley Bank (SVB) entraînera une crise financière majeure ou demeurera un épiphénomène. À l'échelle des États-Unis, la SVB était un établissement de taille modeste, mais à en croire son site web, elle était en relation avec la moitié des entreprises financées par le capital-risque aux États-Unis et sa déconfiture pourrait avoir un effet systémique sur un secteur dont le poids au sein de l'économie n'est pas négligeable.&lt;/p&gt;
-
-&lt;p&gt;Au risque de paraître blasé, je dis souvent à mes collègues plus jeunes avoir intégré très tôt dans ma carrière le fait que les crises financières internationales arrivent assez périodiquement. Elles peuvent survenir tous les cinq ou dix ans, et ce malgré tous les efforts des régulateurs pour que l'information financière devienne aussi précise et exhaustive que possible afin de permettre aux acteurs de s'ajuster en permanence.&lt;/p&gt;
-
-&lt;p&gt;Ce qui est par contre inhabituel aujourd'hui, c'est que jusqu'ici les crises étaient déclenchées par un événement sur les marchés de capitaux ou au sein d'une banque d'investissement. On ne peut qualifier ainsi la SVB, qui présente plutôt les caractéristiques d'une banque commerciale classique.&lt;/p&gt;
-
-&lt;p&gt;Dans ce secteur, les difficultés surviennent le plus souvent de mauvais choix en matière d'octroi de crédit ou de fraudes. Il ne semble pas que ce soit le cas pour la SVB. Et c'est avec beaucoup d'intérêt que je constate que les arides sujets &quot;risque de taux&quot; et &quot;risque de liquidité&quot;, qui dans le passé m'avaient fait cogiter pendant pas mal d'heures, sont susceptibles chez certaines banques commerciales d'avoir des effets aussi brutaux, ce qui ne manquerait pas faire évoluer la doctrine en la matière.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hey &lt;a href=&quot;https://twitter.com/GRDecter&quot;&gt;@GRDecter&lt;/a&gt; , could you opine on my observation that given &lt;a href=&quot;https://twitter.com/hashtag/SVB?src=hash&quot;&gt;#SVB&lt;/a&gt; had 97% of its depositors over &lt;a href=&quot;https://twitter.com/hashtag/FDIC?src=hash&quot;&gt;#FDIC&lt;/a&gt; $250K limit, it was not operating as a bank. It was operating more like a hedge-fund, where large depositors were benefiting from Bank fund manager&amp;#39;s investing strategy.&lt;/p&gt;&amp;mdash; Gary Miller (@GaryMil64358420) &lt;a href=&quot;https://twitter.com/GaryMil64358420/status/1634695125262811136&quot;&gt;March 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Certes la SVB avait des caractéristiques qui lui étaient propres. Il y aura sans doute beaucoup de discussions autour du fait que ses dirigeants aient &lt;a href=&quot;https://www.levernews.com/svb-chief-pressed-lawmakers-to-weaken-bank-risk-regs/&quot; title=&quot;SVB Chief Pressed Lawmakers To Weaken Bank Risk Regs&quot; hreflang=&quot;en&quot;&gt;plaidé et obtenu des autorités&lt;/a&gt; que les établissements de leur catégorie ne soient pas soumis à des obligations sur le niveau des ratios &lt;abbr title=&quot;Liquidity Coverage Ratio&quot; lang=&quot;en&quot;&gt;LCR&lt;/abbr&gt; et &lt;abbr title=&quot;Net stable funding ratio&quot; lang=&quot;en&quot;&gt;NSFR&lt;/abbr&gt;.&lt;/p&gt;
-
-&lt;p&gt;En lisant les &lt;a href=&quot;&quot;&gt;états financiers de la SVB&lt;/a&gt;, je me dis également que les régulateurs pourraient être amenés dans le futur à se poser des questions sur la manière d'affiner l'information concernant certains actifs (&lt;abbr title=&quot;Available-for-Sale&quot; lang=&quot;en&quot;&gt;AFS&lt;/abbr&gt; et &lt;abbr title=&quot;Held-to-Maturity&quot; lang=&quot;en&quot;&gt;HTM&lt;/abbr&gt;), voire à envisager que ces actifs puissent être dans certains cas mobilisés en dehors des marchés financiers. Car le mélange entre les marchés et les &quot;banques de papa&quot; ne se passe pas toujours bien…&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;J'ai envisagé d'écrire &quot;de jolis profits&quot;, mais je sens que cela pourrait entraîner chez le lecteur un biais moral.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/monde/silicon-valley-bank.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/silicon-valley-bank-2.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

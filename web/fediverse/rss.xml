@@ -23,13 +23,9 @@
     <items>
       <rdf:Seq>
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/settingup_letsencrypt.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/migration_ok.html" />
 
       </rdf:Seq>
     </items>
@@ -45,15 +41,6 @@
 	<dc:subject>/web/fediverse/en</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-12-08T08:19:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/blosxom-refresh-2024.html">
-	<title>2024, renouveau du web décentralisé</title>
-	<link>https://blog.barijaona.com/web/blosxom-refresh-2024.html</link>
-	<description>Happy birthday, Matt Mullenweg...</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-01-11T03:28:00+03:00</dc:date>
 
 </item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/Elon-vertical-vs-John-horizontal.html">
@@ -81,33 +68,6 @@
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/settingup_letsencrypt.html">
-	<title>DO encrypt</title>
-	<link>https://blog.barijaona.com/web/settingup_letsencrypt.html</link>
-	<description>This is a reminder for myself, on how I setup an Let's Encrypt SSL/TLS certificate on a macOS server test machine...</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2017-01-16T07:23:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html">
-	<title>Using Blosxom starter kit with Apple&apos;s OS X Server</title>
-	<link>https://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html</link>
-	<description>This is mainly a note to myself, about my blogging tool...</description>
-	<dc:subject>/web/blosxomsk/en</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-11-15T15:35:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/migration_ok.html">
-	<title>Revoilà l&apos;ancien combattant féru de nouvelles technologies</title>
-	<link>https://blog.barijaona.com/web/migration_ok.html</link>
-	<description>La migration du blog est achevée...</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2012-06-22T01:46:00+03:00</dc:date>
 
 </item>
 

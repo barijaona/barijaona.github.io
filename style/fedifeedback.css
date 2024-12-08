@@ -1,0 +1,150 @@
+/* Fedifeedback styling */
+/* Forked from: https://github.com/dpecos/mastodon-comments, with icons from Mastodon */
+/* so this is probably covered by a GPL-3.0 license */
+/* RGB HEX colors converted to filters with https://isotropic.co/tool/hex-color-to-css-filter/ */
+
+:root {
+  --block-border-width: 1px;
+  --block-border-radius: 3px;
+  --block-border-color: #ededf0;
+  --image-filter : invert(0%) sepia(100%) saturate(10%) hue-rotate(220deg) brightness(99%) contrast(104%); /* #000000 */
+
+  --comment-indent: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --image-filter: invert(96%) sepia(88%) saturate(0%) hue-rotate(126deg) brightness(85%) contrast(99%); /* #d7d7d7 */
+    }
+}
+
+#ffb-stats {
+  text-align: center;
+}
+
+#ffb-comments-list {
+  margin: 0 auto;
+}
+
+.ffb-comment {
+  background-color: transparent;
+  border-radius: var(--block-border-radius);
+  border: var(--block-border-width) var(--block-border-color) solid;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ffb-comment p {
+  margin-bottom: 0px;
+}
+
+.ffb-comment .author {
+  padding-top:0;
+  display:flex;
+}
+
+.ffb-comment .author a {
+  text-decoration: none;
+}
+
+.ffb-comment .author .avatar img {
+  margin-right:1rem;
+  min-width:60px;
+  border-radius: 5px;
+}
+
+.ffb-comment .author .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.ffb-comment .author .details .name {
+  font-weight: bold;
+}
+
+.ffb-comment .author .details .user {
+  color: #5d686f;
+  font-size: medium;
+}
+
+.ffb-comment .author .date {
+  margin-left: auto;
+  font-size: small;
+}
+
+.ffb-comment .tootcontent {
+  margin: 15px 20px;
+}
+
+.ffb-comment .attachments {
+  margin: 0px 10px;
+}
+
+.ffb-comment .attachments > * {
+  margin: 0px 10px;
+}
+
+.ffb-comment .attachments img {
+  max-width: 100%;
+}
+
+.ffb-comment .tootcontent p:first-child {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.ffb-comment .status > div, #ffb-stats > div {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ffb-comment .status a, #ffb-stats a {
+  color: #5d686f;
+  text-decoration: none;
+}
+
+.icn {
+  vertical-align: -.125em;
+}
+
+.replies .icn-reply::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true"><path d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"></path></svg>');
+}
+
+.reblogs .icn-boost::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true"><style>path {fill:currentColor}</style><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg>');
+}
+
+.favourites .icn-star::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"></path></svg>');
+}
+
+.ffb-comment .status a, #ffb-stats a {
+  filter: var(--image-filter);
+}
+
+.ffb-comment .status .replies.active a, #ffb-stats .replies.active a {
+  filter: invert(14%) sepia(88%) saturate(2666%) hue-rotate(206deg) brightness(108%) contrast(118%); /* #003eaa */
+}
+
+.ffb-comment .status .reblogs.active a, #ffb-stats .reblogs.active a {
+  filter: invert(68%) sepia(84%) saturate(3571%) hue-rotate(208deg) brightness(100%) contrast(102%); /* #8c8dff */
+}
+
+.ffb-comment .status .favourites.active a, #ffb-stats .favourites.active a {
+  filter: invert(52%) sepia(95%) saturate(1016%) hue-rotate(12deg) brightness(92%) contrast(97%); /* #ca8f04 */
+}

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/monde/silicon-valley-bank.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html">
+	<title>Same Spirit, Refreshed Tools</title>
+	<link>https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html</link>
+	<description>If you search for static site generator in a search engine, you’re unlikely to come across any mention of "Blosxom"1...</description>
+	<dc:subject>/web/fediverse/en</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-12-08T08:19:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/blogosphere/Lunar.html">
 	<title>Maintenir vivant nos idéaux</title>
 	<link>https://blog.barijaona.com/blogosphere/Lunar.html</link>
@@ -101,15 +110,6 @@ After receiving a recommendation from the boards of the FDIC and the Federal Res
 	<dc:subject></dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2023-03-13T04:23:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/monde/silicon-valley-bank.html">
-	<title>Ça peut devenir compliqué, la « banque de papa »…</title>
-	<link>https://blog.barijaona.com/monde/silicon-valley-bank.html</link>
-	<description>Dans le monde de la finance globalisée, les crises ont ceci d'intéressant que presque personne n'a prévu leur arrivée...</description>
-	<dc:subject>/monde</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2023-03-12T21:38:00+03:00</dc:date>
 
 </item>
 

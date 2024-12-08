@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="canonical" href="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_2.html">
+<title>Aider un pachyderme à surfer : Étonnements rapides et durables</title>
+<meta name="DESCRIPTION" content="Expérimentations et mésaventures technologiques">
+<meta name="keywords" content="blosxom, print66, lpd, weblog">
+<meta name="ICBM" content="-18.9079, 47.5333">
+<meta name="geo.region" content="MG-T">
+<meta name="viewport" content="initial-scale=1">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://blog.barijaona.com/favicon.ico">
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/barijaona6.css">
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/theme4.css">
+<link rel="styleSheet" type="text/css" media="screen" href="https://blog.barijaona.com/style/screenlayout6.css">
+<link rel="styleSheet" type="text/css" media="screen" href="https://blog.barijaona.com/style/code.css">
+<link rel="stylesheet" media="print" type="text/css" href="https://blog.barijaona.com/style/print.css">
+<link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="https://blog.barijaona.com/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="https://blog.barijaona.com/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="https://blog.barijaona.com/shortened.xml">
+
+<link rel="prev" href="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html" title="L'envol sur un pachyderme">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+
+<link rel="next" href="https://blog.barijaona.com/web/fediverse/Elon-vertical-vs-John-horizontal.html" title="Légendes">
+
+<script type="module" src="https://blog.barijaona.com/style/fedifeedback.js"></script>
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/fedifeedback.css">
+
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><header><a href="https://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header>
+<main><br><br><h2 class="dateofday">dimanche 04 décembre 2022</h2>
+
+<article class="h-entry post">
+<h3 class="accent4"><time datetime="2022-12-04" class="timestamp dt-published"><a href="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_2.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;22:12&nbsp;]</a></time>&nbsp;<span class="p-name">Aider un pachyderme à surfer</span></h3>
+<div class="post-full e-content"><p>L'apprentissage de Mastodon peut être assez ingrat, car après votre inscription sur une instance, votre page d'accueil demeurera désespérément vide si vous ne la meublez pas… Votre serveur Mastodon ne vous proposera rien de lui-même, et il vous faudra explorer pour trouver des personnes à suivre. Peuut-être découvrirez vous des gens qui vous intéressent dans le "fil public local" ou dans le "fil public global" affichés par votre serveur, mais cela risque d'être un peu laborieux si vous comptez uniquement sur la chance…</p>
+
+<p>Je vous encourage néanmoins à persévérer. En ce qui me concerne, je suis sur Mastodon depuis Avril 2017, mais le service n'est devenu vraiment intéressant que lorsque j'ai franchi un cap concernant le nombre de personnes suivies. J'en suis actuellement à 217 personnes suivies (qui ne sont toutefois pas toutes actives). Mon conseil est donc : explorez, explorez, et de préférence, trouvez…</p>
+
+<p>Dans le <a href="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html" title="L'envol sur un pachyderme">billet précédent</a>, je faisais état d'une chose qui m'avait moi-même trompé pendant plus de cinq ans : c'est une grosse erreur de croire que les applications dédiées Mastodon sont des outils efficaces pour découvrir de nouveaux contenus.</p>
+
+<p>Il s'agit d'une erreur, car les clients dédiés sont avant tout conçus pour afficher du contenu transitant par votre instance. Ce qui ne représente qu'un sous-ensemble de tout le contenu disponible, en particulier si l'instance à laquelle vous êtes inscrit est récente (comme celles qui viennent de se créer suite aux changements chez Twitter) ou relativement petite (comme Mastodon.mg, l'instance où je suis).</p>
+
+<p>Car ce qu'on appelle "fil public global" ne l'est que de nom. Le graphique du message ci-après explique cela mieux que je ne le puis :</p>
+
+<iframe src="https://mastodon.scop.coop/@cyrilz/109416406331993929/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="480" height="960" allowfullscreen="allowfullscreen"></iframe>
+
+<p>Il faut le dire et le redire : en raison de la structure décentralisée du Fediverse, un navigateur web est beaucoup plus efficace qu'un client Mastodon dédié pour faire des découvertes intéressantes. En effet, vous serez exposé à bien plus de contenu si vous utilisez votre navigateur web pour suivre les liens affichés par les serveurs (ceux sur l'heure d'un message ou ceux en bas d'un profil). Vous découvrirez alors l'intégralité des conversations sur les instances où leurs auteurs sont inscrits et, de fil en aiguille, vous découvrirez d'autres personnes ayant des intérêts communs.</p>
+
+<p>Mais vous sentirez rapidement que, via le web, réagir à un post ou suivre quelqu'un qui est inscrit sur une instance autre que la votre devient vite un peu fastidieux.</p>
+
+<p>Toutefois, la situation s'améliore très nettement si l'on installe dans son navigateur quelques signets Javascript bien pratiques. Pour vous faciliter la tâche, j'ai donc mis en ligne <a href="https://barijaona.github.io/mastodon-bookmarklet-generator/index.fr.html" title="Générateur de Bookmarklets Mastodon">un outil qui vous permet d'installer facilement de tels signets</a>. J'espère qu'ils vous seront utiles.</p>
+
+<p>(<em>À suivre</em>)</p>
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br> 4/12/2022 22:15</span><br></div>
+
+
+<br>
+
+</main>
+<br><em>Billet classé dans la catégorie :</em> <a href="https://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="https://blog.barijaona.com/web/index.html">Web</a>&nbsp;&gt;&nbsp;<a href="https://blog.barijaona.com/web/fediverse/index.html">Fediverse</a>&nbsp;&gt;&nbsp;Initiation Migration Mastodon 2
+<br><br></div></div>
+
+<nav><div class="topnav">
+<span class="theme1">&nbsp;<a href="https://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="https://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="https://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="https://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="https://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="https://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br>
+<div class="nav1">&nbsp;<a href="https://blog.barijaona.com/web/" class="submenu" title="Historique des mutations du site">Carnet Web</a>&nbsp;|&nbsp;<a href="https://blog.barijaona.com/print66/" class="submenu" title="A freeware print daemon for Classical Macintosh" hreflang="en">Print66</a>&nbsp;|&nbsp;<a href="https://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div></nav>
+
+<aside><div class="nav2">
+
+<div class="box">
+<div class="search">
+<form method="get" id="search" action="https://duckduckgo.com/">
+   <label for="motcle" accesskey="4">Rechercher dans le site</label>
+   <input type="text" name="q" id="motcle" maxlength="255" placeholder="mot(s) clé(s)">
+   <input type="hidden" name="sites" value="barijaona.com">
+   <input type="hidden" name="kj" value="#7F7F7F">
+   <input type="submit" value="Rechercher">
+</form>
+</div>
+
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
+
+</div></aside>
+
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html" title="billet du 27 novembre 2022">&lt;-&nbsp;L'envol sur un pachyderme</a></div><div class="droite"><a href="https://blog.barijaona.com/web/fediverse/Elon-vertical-vs-John-horizontal.html" title="billet du 18 d&eacute;cembre 2022">Légendes&nbsp;-&gt;</a></div></div></nav>
+
+<footer><div class="contentfooter">
+<br>
+<div class="source-org vcard copyright">
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+</Work>
+
+<License rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2022 Barijaona Ramaholimihaso</div><br>Réagissez par les liens de commentaires ou par courriel : <script>
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "SmE28OKlB@cESODEKlE.2KG"
+  key = "s1mFOjarbKtnukgZ6p39RQMBNGHCDEScU8lI5J7fVe4ixzWYoAydPh2LvqT0wX"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>reactions (arobace) barijaona.com</noscript>
+
+</div></footer>
+
+
+</body>
+</html>
