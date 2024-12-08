@@ -16,7 +16,7 @@
   <rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</rights>
   <icon>https://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2024-12-08T14:43:00Z</updated>
+  <updated>2024-12-08T15:06:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2024:/web/fediverse/en/Fedifeedback-plugin-for-blosxom</id>
@@ -24,7 +24,7 @@
 
     <title type="text">Same Spirit, Refreshed Tools</title>
     <published>2024-12-08T05:19:00Z</published>
-    <updated>2024-12-08T14:43:00Z</updated>
+    <updated>2024-12-08T15:06:00Z</updated>
     <category term="/web/fediverse/en"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -36,7 +36,7 @@
 
 &lt;h4 id=&quot;alongridewithblosxom&quot;&gt;A long ride with Blosxom&lt;/h4&gt;
 
-&lt;p&gt;I could not agree more. Since &lt;a href=&quot;https://blog.barijaona.com/web/bascule_sous_blosxom.html&quot; hreflang=&quot;fr&quot;&gt;October 2003&lt;/a&gt;, this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which &lt;a href=&quot;https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html&quot; title=&quot;Announcement of Blosxom starter kit in September 2024&quot;&gt;led me to package a Blosxom starter kit&lt;/a&gt; for anyone wiling to try out Blosxom's &quot;static rendering&quot;.&lt;/p&gt;
+&lt;p&gt;I could not agree more. Since &lt;a href=&quot;https://blog.barijaona.com/web/bascule_sous_blosxom.html&quot; hreflang=&quot;fr&quot;&gt;October 2003&lt;/a&gt;, this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which &lt;a href=&quot;https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html&quot; title=&quot;Announcement of Blosxom starter kit in September 2024&quot;&gt;led me to package a Blosxom starter kit&lt;/a&gt; for anyone willing to try out Blosxom's &quot;static rendering&quot;.&lt;/p&gt;
 
 &lt;p&gt;There never was a strong enough reason to change, so I stuck with my system. However, some frustrations emerged over time:&lt;/p&gt;
 
