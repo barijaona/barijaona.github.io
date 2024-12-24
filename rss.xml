@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/futile/yas-or-no.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/silicon-valley-bank-2.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,32 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/futile/yas-or-no.html">
+	<title>Yet Another What?</title>
+	<link>https://blog.barijaona.com/futile/yas-or-no.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Telma (ex-Télécom Malagasy) a été rebaptisé Yas. Mon impression est que le changement de nom est essentiellement motivé par la création d&apos;un nom panafricain afin de plaire aux marchés financiers.&lt;/p&gt;
+
+&lt;p&gt;Et je fais le constat que dans le domaine des télécoms, les marketeux et financiers ont pris le dessus sur les ingénieurs. Les geeks, s&apos;il en reste, auraient pu faire la remarque qu&apos;&lt;a href=&quot;https://en.wikipedia.org/wiki/Yet_another&quot; hreflang=&quot;en&quot;&gt;un nom commençant par YA&lt;/a&gt; est souvent un aveu humoristique que ce qui est ainsi nommé a un peu de mal à démontrer son originalité.&lt;/p&gt;
+
+&lt;p&gt;Un exemple parmi d&apos;autres : &lt;a href=&quot;https://github.com/yadm-dev/yadm&quot; hreflang=&quot;en&quot;&gt;yadm - Yet Another Dotfiles Manager&lt;/a&gt; qui rejoint une &lt;a href=&quot;https://github.com/topics/dotfiles-manager&quot; hreflang=&quot;en&quot;&gt;liste&lt;/a&gt; actuellement composée de 303 projets similaires…&lt;/p&gt;
+
+&lt;p&gt;Cette curieuse impression est confortée par la &lt;a href=&quot;https://www.yas.km/about/&quot; title=&quot;Yas Comores&quot;&gt;laborieuse explication&lt;/a&gt; déclinée sur les sites de la &quot;nouvelle&quot; marque.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Que signifie la marque Yas ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yas reflète qui nous sommes aujourd’hui et notre vision pour l’avenir, en vous donnant les moyens de saisir de nouvelles opportunités numériques. Cette marque dynamique et tournée vers l’avenir incarne notre énergie, notre optimisme et notre engagement à créer des expériences positives. En tant que marque née en Afrique, pour l’Afrique, l’identité moderne de Yas favorise des liens étroits avec nos publics. Notre logo audacieux, ludique et nos couleurs vives reflètent la vivacité des communautés que nous servons, montrant notre approche jeune et dynamique pour bâtir ensemble un avenir plus radieux. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En résumé : ça ne veut rien dire, mais on nous a demandé d&apos;essayer de faire djeunz…&lt;/p&gt;
+
+&lt;p&gt;Yas, c&apos;est Yet Another… ?&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/futile/yas-or-no.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/futile</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-12-24T18:11:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html">
 	<title>Same Spirit, Refreshed Tools</title>
 	<link>https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html</link>
@@ -346,32 +372,6 @@ Vérifier que sont cochés :&lt;/p&gt;
 	<dc:subject>/web</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-01-11T03:28:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/silicon-valley-bank-2.html">
-	<title>Ouf de soulagement</title>
-	<link>https://blog.barijaona.com/silicon-valley-bank-2.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm&quot; title=&quot;Joint Press Release&quot; hreflang=&quot;en&quot;&gt;Communiqué commun du Trésor Américain, de la Réserve Fédérale et du fonds de garantie des dépôts&lt;/a&gt; :&lt;/p&gt;
-
-&lt;blockquote lang=&quot;en&quot;&gt;After receiving a recommendation from the boards of the FDIC and the Federal Reserve, and consulting with the President, Secretary Yellen approved actions enabling the FDIC to complete its resolution of Silicon Valley Bank, Santa Clara, California, in a manner that fully protects all depositors. Depositors will have access to all of their money starting Monday, March 13. No losses associated with the resolution of Silicon Valley Bank will be borne by the taxpayer.&lt;/blockquote&gt;
-
-&lt;p&gt;Traduction libre :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Après avoir reçu une recommandation des conseils d&apos;administration de la &lt;abbr title=&quot;Federal Deposit Insurance Corporation&quot; lang=&quot;en&quot;&gt;FDIC&lt;/abbr&gt; et de la Réserve fédérale, et consulté le président, la secrétaire d&apos;État [Janet] Yellen a approuvé les mesures permettant à la FDIC d&apos;achever la résolution de la Silicon Valley Bank, située à Santa Clara, en Californie, d&apos;une manière qui protège pleinement tous les déposants. Les déposants auront accès à la totalité de leur argent à partir du lundi 13 mars. Aucune perte liée à la résolution de la Silicon Valley Bank ne sera supportée par le contribuable.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;La dernière phrase de ce communiqué s&apos;explique par le fait que le problème initial de la Silicon Valley Bank était un problème de liquidité, pas de solvabilité. La lecture des &lt;a href=&quot;https://web.archive.org/web/20230309205016/https://s201.q4cdn.com/589201576/files/doc_financials/2022/q4/f36fc4d7-9459-41d7-9e3d-2c468971b386.pdf&quot; title=&quot;FORM 10-K&quot; hreflang=&quot;en&quot;&gt;états financiers à fin décembre&lt;/a&gt; laissait clairement penser que la banque disposait dans son bilan d&apos;une quantité significative d&apos;actifs relativement sûrs (Bons du Trésor et obligations hypothécaires). Par ailleurs, il n&apos;a jamais été fait état de difficulté particulière sur le portefeuille de crédits. La valeur des actifs de la banque permettait en théorie de couvrir le remboursement des dépôts de la clientèle.&lt;/p&gt;
-
-&lt;p&gt;La difficulté était que la banque, pour faire face à des retraits massifs de la clientèle, se retrouvait contrainte de vendre hâtivement des titres qu&apos;elle avait initialement l&apos;intention de garder jusqu&apos;à leur échéance : les HTM (&lt;i lang=&quot;en&quot;&gt;held-to-maturity&lt;/i&gt;) évoqués dans &lt;a href=&quot;https://blog.barijaona.com/monde/silicon-valley-bank.html&quot; title=&quot;Dimanche 12 mars 2023, 18h38 TU&quot;&gt;mon billet précédent&lt;/a&gt;. Mais compte tenu de l&apos;évolution des conditions sur le marché obligataire (forte hausse des taux d&apos;intérêts sur les derniers mois), céder précipitamment ces titres amenait à comptabiliser des dépréciations. Le problème de liquidité risquait de se transformer en problème de solvabilité.&lt;/p&gt;
-
-&lt;p&gt;En décidant de fermer la banque en pleine journée du vendredi, les autorités ont pu stopper la fuite de liquidité, profiter du week-end pour évaluer la situation et constater qu&apos;elles pouvaient injecter de la liquidité sans risque l&apos;argent du contribuable.&lt;/p&gt;
-
-&lt;p&gt;En revanche, je ne me prononcerai pas en ce qui concerne la Signature Bank que les autorités US ont également décidé de fermer ce week-end. Car le problème de cette banque semble avoir été provoqué par l&apos;activité relative aux cryptomonnaies. On est bien loin là de la &quot;banque de Papa&quot;.&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/silicon-valley-bank-2.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject></dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2023-03-13T04:23:00+03:00</dc:date>
 
 </item>
 

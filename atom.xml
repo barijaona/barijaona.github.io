@@ -16,7 +16,42 @@
   <rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</rights>
   <icon>https://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2024-12-08T15:06:00Z</updated>
+  <updated>2024-12-24T15:27:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2024:/futile/yas-or-no</id>
+    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/futile/yas-or-no.html" />
+
+    <title type="text">Yet Another What?</title>
+    <published>2024-12-24T15:11:00Z</published>
+    <updated>2024-12-24T15:27:00Z</updated>
+    <category term="/futile"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>https://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Telma (ex-Télécom Malagasy) a été rebaptisé Yas. Mon impression est que le changement de nom est essentiellement motivé par la création d'un nom panafricain afin de plaire aux marchés financiers.</p>
+
+<p>Et je fais le constat que dans le domaine des télécoms, les marketeux et financiers ont pris le dessus sur les ingénieurs. Les geeks, s'il en reste, auraient pu faire la remarque qu'<a href="https://en.wikipedia.org/wiki/Yet_another" hreflang="en">un nom commençant par YA</a> est souvent un aveu humoristique que ce qui est ainsi nommé a un peu de mal à démontrer son originalité.</p>
+
+<p>Un exemple parmi d'autres : <a href="https://github.com/yadm-dev/yadm" hreflang="en">yadm - Yet Another Dotfiles Manager</a> qui rejoint une <a href="https://github.com/topics/dotfiles-manager" hreflang="en">liste</a> actuellement composée de 303 projets similaires…</p>
+
+<p>Cette curieuse impression est confortée par la <a href="https://www.yas.km/about/" title="Yas Comores">laborieuse explication</a> déclinée sur les sites de la "nouvelle" marque.</p>
+
+<blockquote>
+  <p><strong>Que signifie la marque Yas ?</strong></p>
+
+<p>Yas reflète qui nous sommes aujourd’hui et notre vision pour l’avenir, en vous donnant les moyens de saisir de nouvelles opportunités numériques. Cette marque dynamique et tournée vers l’avenir incarne notre énergie, notre optimisme et notre engagement à créer des expériences positives. En tant que marque née en Afrique, pour l’Afrique, l’identité moderne de Yas favorise des liens étroits avec nos publics. Notre logo audacieux, ludique et nos couleurs vives reflètent la vivacité des communautés que nous servons, montrant notre approche jeune et dynamique pour bâtir ensemble un avenir plus radieux. </p>
+</blockquote>
+
+<p>En résumé : ça ne veut rien dire, mais on nous a demandé d'essayer de faire djeunz…</p>
+
+<p>Yas, c'est Yet Another… ?</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/futile/yas-or-no.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2024:/web/fediverse/en/Fedifeedback-plugin-for-blosxom</id>
@@ -388,41 +423,6 @@ Vérifier que sont cochés :&lt;/p&gt;
 
 <p>3/ il me faut rajouter quelques éléments aux tests d'intégration continue de <a href="https://blosxom.sourceforge.net" title="blosxom :: the zen of blogging" hreflang="en">Blosxom</a> et publier une version 2.1.3.</p>
 <br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2023:/silicon-valley-bank-2</id>
-    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/silicon-valley-bank-2.html" />
-
-    <title type="text">Ouf de soulagement</title>
-    <published>2023-03-13T01:23:00Z</published>
-    <updated>2023-03-13T01:23:00Z</updated>
-    
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>https://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm" title="Joint Press Release" hreflang="en">Communiqué commun du Trésor Américain, de la Réserve Fédérale et du fonds de garantie des dépôts</a> :</p>
-
-<blockquote lang="en">After receiving a recommendation from the boards of the FDIC and the Federal Reserve, and consulting with the President, Secretary Yellen approved actions enabling the FDIC to complete its resolution of Silicon Valley Bank, Santa Clara, California, in a manner that fully protects all depositors. Depositors will have access to all of their money starting Monday, March 13. No losses associated with the resolution of Silicon Valley Bank will be borne by the taxpayer.</blockquote>
-
-<p>Traduction libre :</p>
-
-<blockquote>
-  <p>Après avoir reçu une recommandation des conseils d'administration de la <abbr title="Federal Deposit Insurance Corporation" lang="en">FDIC</abbr> et de la Réserve fédérale, et consulté le président, la secrétaire d'État [Janet] Yellen a approuvé les mesures permettant à la FDIC d'achever la résolution de la Silicon Valley Bank, située à Santa Clara, en Californie, d'une manière qui protège pleinement tous les déposants. Les déposants auront accès à la totalité de leur argent à partir du lundi 13 mars. Aucune perte liée à la résolution de la Silicon Valley Bank ne sera supportée par le contribuable.</p>
-</blockquote>
-
-<p>La dernière phrase de ce communiqué s'explique par le fait que le problème initial de la Silicon Valley Bank était un problème de liquidité, pas de solvabilité. La lecture des <a href="https://web.archive.org/web/20230309205016/https://s201.q4cdn.com/589201576/files/doc_financials/2022/q4/f36fc4d7-9459-41d7-9e3d-2c468971b386.pdf" title="FORM 10-K" hreflang="en">états financiers à fin décembre</a> laissait clairement penser que la banque disposait dans son bilan d'une quantité significative d'actifs relativement sûrs (Bons du Trésor et obligations hypothécaires). Par ailleurs, il n'a jamais été fait état de difficulté particulière sur le portefeuille de crédits. La valeur des actifs de la banque permettait en théorie de couvrir le remboursement des dépôts de la clientèle.</p>
-
-<p>La difficulté était que la banque, pour faire face à des retraits massifs de la clientèle, se retrouvait contrainte de vendre hâtivement des titres qu'elle avait initialement l'intention de garder jusqu'à leur échéance : les HTM (<i lang="en">held-to-maturity</i>) évoqués dans <a href="https://blog.barijaona.com/monde/silicon-valley-bank.html" title="Dimanche 12 mars 2023, 18h38 TU">mon billet précédent</a>. Mais compte tenu de l'évolution des conditions sur le marché obligataire (forte hausse des taux d'intérêts sur les derniers mois), céder précipitamment ces titres amenait à comptabiliser des dépréciations. Le problème de liquidité risquait de se transformer en problème de solvabilité.</p>
-
-<p>En décidant de fermer la banque en pleine journée du vendredi, les autorités ont pu stopper la fuite de liquidité, profiter du week-end pour évaluer la situation et constater qu'elles pouvaient injecter de la liquidité sans risque l'argent du contribuable.</p>
-
-<p>En revanche, je ne me prononcerai pas en ce qui concerne la Signature Bank que les autorités US ont également décidé de fermer ce week-end. Car le problème de cette banque semble avoir été provoqué par l'activité relative aux cryptomonnaies. On est bien loin là de la "banque de Papa".</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/silicon-valley-bank-2.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

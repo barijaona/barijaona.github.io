@@ -18,10 +18,6 @@ class MastodonComments extends HTMLElement {
     `;
 
     const comments = document.getElementById("ffb-comments-list");
-    const rootStyle = this.getAttribute("style");
-    if (rootStyle) {
-      comments.setAttribute("style", rootStyle);
-    }
     this.respondToVisibility(comments, this.loadComments.bind(this));
   }
 
