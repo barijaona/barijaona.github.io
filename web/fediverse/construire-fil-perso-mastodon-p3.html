@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="canonical" href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
+<title>Tirer parti des autres serveurs : Étonnements rapides et durables</title>
+<meta name="DESCRIPTION" content="Expérimentations et mésaventures technologiques">
+<meta name="keywords" content="blosxom, print66, lpd, weblog">
+<meta name="ICBM" content="-18.9079, 47.5333">
+<meta name="geo.region" content="MG-T">
+<meta name="viewport" content="initial-scale=1">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://blog.barijaona.com/favicon.ico">
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/barijaona6.css">
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/theme4.css">
+<link rel="styleSheet" type="text/css" media="screen" href="https://blog.barijaona.com/style/screenlayout6.css">
+<link rel="styleSheet" type="text/css" media="screen" href="https://blog.barijaona.com/style/code.css">
+<link rel="stylesheet" media="print" type="text/css" href="https://blog.barijaona.com/style/print.css">
+<meta name="fediverse:creator" content="@barijaona@mastodon.mg"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="https://blog.barijaona.com/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="https://blog.barijaona.com/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="https://blog.barijaona.com/shortened.xml">
+
+<link rel="prev" href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" title="Le point clé 💪🏽 dans Mastodon : le menu « `…` » et sa commande « Ouvrir la page d'origine »">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+
+
+
+<script type="module" src="https://blog.barijaona.com/style/fedifeedback.js"></script>
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/fedifeedback.css">
+
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><header><a href="https://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header>
+<main><br><br><h2 class="dateofday">dimanche 29 décembre 2024</h2>
+
+<article class="h-entry post">
+<h3 class="accent4"><time datetime="2024-12-29" class="timestamp dt-published"><a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;21:38&nbsp;]</a></time>&nbsp;<span class="p-name">Tirer parti des autres serveurs</span></h3>
+<div class="post-full e-content"><h4 id="chercherunhashtag">Chercher un hashtag</h4>
+
+<p>Dans la <a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" title="Construire son fil personnel Mastodon">première partie</a>, j'ai expliqué que l'une des forces de Mastodon, l'abonnement à un hashtag, n'était pas si intéressant lorsque l'on est résident d'une petite instance.</p>
+
+<p>Toutefois, ce n'est pas un handicap car même si l'on n'en est pas résident, la plupart des grosses instances Mastodon laissent leur moteur de recherche accessible au visiteur anonyme. C'est valable aussi bien pour les  "officiels" <a href="https://mastodon.social/search">mastodon.social</a> et <a href="https://mastodon.online/search">mastodon.online</a>, que pour les outsiders <a href="https://mstdn.social/search">mstdn.social</a>, <a href="https://mas.to/search">mas.to</a> et <a href="https://social.vivaldi.net/search">Vivaldi</a> ou les plus sulfureux  <a href="https://baraag.net/search">baraag.net</a> et <a href="https://pawoo.net/search">pawoo.net</a>.</p>
+
+<p>Pour ma part, j'ai acquis le réflexe de taper directement le modèe d'URL pour rechercher un hashtag :</p>
+
+<p><code>https://</code><em>domaine.example</em><code>/tags/</code><em>LibelléDuTag</em></p>
+
+<h4 id="explorerunecommunaut">Explorer une communauté</h4>
+
+<p>Si les groses instances ont leurs vertus, les petites ont aussi les leurs. Dont la moindre n'est pas d'héberger des groupes de personnes plus petits, souvent plus homogènes, ce qui en facilite la modération.</p>
+
+<p>On peut trouver des listes de serveurs sur notamment <a href="https://joinmastodon.org/servers" hreflang="en">joinmastodon.org</a>, <a href="https://fedi.garden" hreflang="en">fedi.garden</a> et <a href="https://mastodonservers.net" hreflang="en">mastodonservers.net</a>.</p>
+
+<p>Là aussi, j'ai acquis le réflexe de taper directement les URL pour trouver le fil local, à mon avis plus parlant que le répertoire des utilisateurs :</p>
+
+<p><code>https://</code><em>domaine.example</em><code>/public/local</code></p>
+
+<p>Sur certaines instances, l'accès à ce fil local est réservé aux membres enregistrés, pour des raisons de protection de la vie privée. Dans d'autres instances, il est pollué par des robots mal configurés, et dont les administrateurs n'ont pas modifié les réglages par défaut. Mais en général, sur les instances de taille moyenne, il permet de faire de belles découvertes.</p>
+
+<p>Plusieurs clients Mastodon permettent de suivre des fils locaux additionnels, en sus de celui de l'instance où l'on a son compte. Pour ma part, je jette de temps en temps un œeil sur :</p>
+
+<ul>
+<li>Dans le codage :
+<ul><li><span lang="en"><a href="https://iosdev.space/public/local">iosdev.space</a>: a server for all SwiftLang developers</span></li>
+<li><span lang="en"><a href="https://infosec.exchange/public/local">infosec.exchange</a>: a Mastodon instance for info/cyber security-minded people</span></li>
+<li><span lang="en"><a href="https://techhub.social/public/local">techhub.social</a>: a hub primarily for passionate technologists</span></li>
+<li><span lang="en"><a href="https://hachyderm.io/public/local">Hachyderm</a>: Hachyderm is a safe space, LGBTQIA+ and BLM, primarily comprised of tech industry professionals world wide</span></li></ul></li>
+<li>Dans d'autres professions :
+<ul><li><span lang="en"><a href="https://hci.social/public/local">hci.social</a>: for Human-computer Interaction researchers and practitioners</span></li>
+<li><span lang="en"><a href="https://mastodon.energy/public/local">mastodon.energy</a>: a server dedicated to professional and academic individuals or organizations working on energy transition policy, infrastructure, technology, journalism, and science</span></li></ul></li>
+<li>Pour les sciences :
+<ul><li><a href="https://social.sciences.re/public/local">Sciences·Re</a> : Sciences·Re souhaite offrir un espace de partage, de collaboration et de discussion en ligne pour la communauté scientifique, académique, éducative francophone</li>
+<li><span lang="en"><a href="https://scicomm.xyz/public/local">scicomm.xyz</a>: an instance for scientists, researchers, science students, communicators, and enthusiasts</span></li>
+<li><span lang="en"><a href="https://mstdn.science/public/local">mstdn.science</a>: a place for scientists and science enthusiasts to discuss research and topics surrounding our work</span></li></ul></li>
+<li>Plus généralistes :
+<ul><li><a href="https://tooting.ch/public/local">tooting.ch</a> : instance Mastodon suisse pour les personnes de Suisse et hébergée par l'association FairSocialNet</li>
+<li><span lang="en"><a href="https://mastodon.xyz/public/local">mastodon.xyz</a>: open to everyone, but mainly English and French speaking</span></li>
+<li><span lang="en"><a href="https://toad.social/public/local">toad.social</a>: operated by David Troy, a tech pioneer and investigative journalist addressing threats to democracy</span></li>
+<li><span lang="en"><a href="https://hostux.social/public/local">hostux.social</a>: European mastodon instance hosted in Luxembourg. Also beer, privacy and free software lovers.</span></li>
+<li><span lang="en">[freeradical.zone]https://freeradical.zone/public/local: infosec and privacy and technology and leftward politics and cats and dogs and...</span></li></ul></li>
+</ul>
+
+<p>Entre le début de la rédaction de cette série d'articles, hier matin, et sa conclusion, ce soir, je me suis abonné à 12 comptes de plus. Preuve s'il en fallait que le Fediverse est plein de richesses qui restent encore à explorer !</p>
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br> 29/12/2024 21:48</span><br></div>
+
+
+<br>
+
+</main>
+<br><em>Billet classé dans la catégorie :</em> <a href="https://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="https://blog.barijaona.com/web/index.html">Web</a>&nbsp;&gt;&nbsp;<a href="https://blog.barijaona.com/web/fediverse/index.html">Fediverse</a>&nbsp;&gt;&nbsp;Construire Fil Perso Mastodon P3
+<br><br></div></div>
+
+<nav><div class="topnav">
+<span class="theme1">&nbsp;<a href="https://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="https://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="https://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="https://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="https://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="https://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br>
+<div class="nav1">&nbsp;<a href="https://blog.barijaona.com/web/" class="submenu" title="Historique des mutations du site">Carnet Web</a>&nbsp;|&nbsp;<a href="https://blog.barijaona.com/print66/" class="submenu" title="A freeware print daemon for Classical Macintosh" hreflang="en">Print66</a>&nbsp;|&nbsp;<a href="https://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div></nav>
+
+<aside><div class="nav2">
+
+<div class="box">
+<div class="search">
+<form method="get" id="search" action="https://duckduckgo.com/">
+   <label for="motcle" accesskey="4">Rechercher dans le site</label>
+   <input type="text" name="q" id="motcle" maxlength="255" placeholder="mot(s) clé(s)">
+   <input type="hidden" name="sites" value="barijaona.com">
+   <input type="hidden" name="kj" value="#7F7F7F">
+   <input type="submit" value="Rechercher">
+</form>
+</div>
+
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
+
+</div></aside>
+
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" title="billet du 29 d&eacute;cembre 2024">&lt;-&nbsp;Le point clé 💪🏽 dans Mastodon : le menu « `…` » et sa commande « Ouvrir la page d'origine »</a></div></div></nav>
+
+<footer><div class="contentfooter">
+<br>
+<div class="source-org vcard copyright">
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+</Work>
+
+<License rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2024 Barijaona Ramaholimihaso</div><br>Réagissez par les liens de commentaires ou par courriel : <script>
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "SmE28OKlB@cESODEKlE.2KG"
+  key = "s1mFOjarbKtnukgZ6p39RQMBNGHCDEScU8lI5J7fVe4ixzWYoAydPh2LvqT0wX"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>reactions (arobace) barijaona.com</noscript>
+
+</div></footer>
+
+
+</body>
+</html>

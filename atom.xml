@@ -16,7 +16,183 @@
   <rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</rights>
   <icon>https://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2024-12-24T15:37:00Z</updated>
+  <updated>2024-12-29T18:57:00Z</updated>
+
+  <entry>
+    <id>tag:barijaona.com,2024:/web/fediverse/construire-fil-perso-mastodon-p3</id>
+    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
+
+    <title type="text">Tirer parti des autres serveurs</title>
+    <published>2024-12-29T18:38:00Z</published>
+    <updated>2024-12-29T18:48:00Z</updated>
+    <category term="/web/fediverse"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>https://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
+<div xmlns="http://www.w3.org/1999/xhtml"><h4 id="chercherunhashtag">Chercher un hashtag</h4>
+
+<p>Dans la <a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" title="Construire son fil personnel Mastodon">première partie</a>, j'ai expliqué que l'une des forces de Mastodon, l'abonnement à un hashtag, n'était pas si intéressant lorsque l'on est résident d'une petite instance.</p>
+
+<p>Toutefois, ce n'est pas un handicap car même si l'on n'en est pas résident, la plupart des grosses instances Mastodon laissent leur moteur de recherche accessible au visiteur anonyme. C'est valable aussi bien pour les  "officiels" <a href="https://mastodon.social/search">mastodon.social</a> et <a href="https://mastodon.online/search">mastodon.online</a>, que pour les outsiders <a href="https://mstdn.social/search">mstdn.social</a>, <a href="https://mas.to/search">mas.to</a> et <a href="https://social.vivaldi.net/search">Vivaldi</a> ou les plus sulfureux  <a href="https://baraag.net/search">baraag.net</a> et <a href="https://pawoo.net/search">pawoo.net</a>.</p>
+
+<p>Pour ma part, j'ai acquis le réflexe de taper directement le modèe d'URL pour rechercher un hashtag :</p>
+
+<p><code>https://</code><em>domaine.example</em><code>/tags/</code><em>LibelléDuTag</em></p>
+
+<h4 id="explorerunecommunaut">Explorer une communauté</h4>
+
+<p>Si les groses instances ont leurs vertus, les petites ont aussi les leurs. Dont la moindre n'est pas d'héberger des groupes de personnes plus petits, souvent plus homogènes, ce qui en facilite la modération.</p>
+
+<p>On peut trouver des listes de serveurs sur notamment <a href="https://joinmastodon.org/servers" hreflang="en">joinmastodon.org</a>, <a href="https://fedi.garden" hreflang="en">fedi.garden</a> et <a href="https://mastodonservers.net" hreflang="en">mastodonservers.net</a>.</p>
+
+<p>Là aussi, j'ai acquis le réflexe de taper directement les URL pour trouver le fil local, à mon avis plus parlant que le répertoire des utilisateurs :</p>
+
+<p><code>https://</code><em>domaine.example</em><code>/public/local</code></p>
+
+<p>Sur certaines instances, l'accès à ce fil local est réservé aux membres enregistrés, pour des raisons de protection de la vie privée. Dans d'autres instances, il est pollué par des robots mal configurés, et dont les administrateurs n'ont pas modifié les réglages par défaut. Mais en général, sur les instances de taille moyenne, il permet de faire de belles découvertes.</p>
+
+<p>Plusieurs clients Mastodon permettent de suivre des fils locaux additionnels, en sus de celui de l'instance où l'on a son compte. Pour ma part, je jette de temps en temps un œeil sur :</p>
+
+<ul>
+<li>Dans le codage :
+<ul><li><span lang="en"><a href="https://iosdev.space/public/local">iosdev.space</a>: a server for all SwiftLang developers</span></li>
+<li><span lang="en"><a href="https://infosec.exchange/public/local">infosec.exchange</a>: a Mastodon instance for info/cyber security-minded people</span></li>
+<li><span lang="en"><a href="https://techhub.social/public/local">techhub.social</a>: a hub primarily for passionate technologists</span></li>
+<li><span lang="en"><a href="https://hachyderm.io/public/local">Hachyderm</a>: Hachyderm is a safe space, LGBTQIA+ and BLM, primarily comprised of tech industry professionals world wide</span></li></ul></li>
+<li>Dans d'autres professions :
+<ul><li><span lang="en"><a href="https://hci.social/public/local">hci.social</a>: for Human-computer Interaction researchers and practitioners</span></li>
+<li><span lang="en"><a href="https://mastodon.energy/public/local">mastodon.energy</a>: a server dedicated to professional and academic individuals or organizations working on energy transition policy, infrastructure, technology, journalism, and science</span></li></ul></li>
+<li>Pour les sciences :
+<ul><li><a href="https://social.sciences.re/public/local">Sciences·Re</a> : Sciences·Re souhaite offrir un espace de partage, de collaboration et de discussion en ligne pour la communauté scientifique, académique, éducative francophone</li>
+<li><span lang="en"><a href="https://scicomm.xyz/public/local">scicomm.xyz</a>: an instance for scientists, researchers, science students, communicators, and enthusiasts</span></li>
+<li><span lang="en"><a href="https://mstdn.science/public/local">mstdn.science</a>: a place for scientists and science enthusiasts to discuss research and topics surrounding our work</span></li></ul></li>
+<li>Plus généralistes :
+<ul><li><a href="https://tooting.ch/public/local">tooting.ch</a> : instance Mastodon suisse pour les personnes de Suisse et hébergée par l'association FairSocialNet</li>
+<li><span lang="en"><a href="https://mastodon.xyz/public/local">mastodon.xyz</a>: open to everyone, but mainly English and French speaking</span></li>
+<li><span lang="en"><a href="https://toad.social/public/local">toad.social</a>: operated by David Troy, a tech pioneer and investigative journalist addressing threats to democracy</span></li>
+<li><span lang="en"><a href="https://hostux.social/public/local">hostux.social</a>: European mastodon instance hosted in Luxembourg. Also beer, privacy and free software lovers.</span></li>
+<li><span lang="en">[freeradical.zone]https://freeradical.zone/public/local: infosec and privacy and technology and leftward politics and cats and dogs and...</span></li></ul></li>
+</ul>
+
+<p>Entre le début de la rédaction de cette série d'articles, hier matin, et sa conclusion, ce soir, je me suis abonné à 12 comptes de plus. Preuve s'il en fallait que le Fediverse est plein de richesses qui restent encore à explorer !</p>
+<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html#comments" title="Commentaire(s)">Réagissez</a></div>
+    </content>
+  </entry>
+
+  <entry>
+    <id>tag:barijaona.com,2024:/web/fediverse/construire-fil-perso-mastodon-p2</id>
+    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
+
+    <title type="text">Le point clé 💪🏽 dans Mastodon : le menu « `…` » et sa commande « Ouvrir la page d'origine »</title>
+    <published>2024-12-29T15:38:00Z</published>
+    <updated>2024-12-29T18:57:00Z</updated>
+    <category term="/web/fediverse"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>https://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
+&lt;p&gt;Le secret &lt;a href=&quot;https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html&quot; title=&quot;Article précédent&quot;&gt;qu'il m'a fallu un peu de temps à découvrir&lt;/a&gt;, c'est que, pour enrichir et diversifier son fil personnel Mastodon, et plus particulièrement lorsqu'on est sur une petite instance, il faut partir en exploration active. Et le chemin de traverse pour cela est un élément de menu intitulé « Ouvrir la page d'origine » (ou “&lt;span lang=&quot;en&quot;&gt;Open original page&lt;/span&gt;”), dans un menu que les serveurs Web Mastodon hébergent discrètement derrière le signe « &lt;code&gt;…&lt;/code&gt; ».&lt;/p&gt;
+
+&lt;p&gt;Ce menu est accessible en dessous des messages individuels…&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;capturedcrandunmessageaffichparunserveurwebmastodon.unsigne...signalantlaprsencedunmenucontextuelatentourenrougepourattirerlattention.&quot; src=&quot;https://blog.barijaona.com/web/fediverse/IMG_3914m.PNG&quot; alt=&quot;Capture d'écran d'un message affiché par un serveur web Mastodon. Un signe '...' signalant la présence d'un menu contextuel a été entouré en rouge pour attirer l'attention.&quot; title=&quot;&quot; width=&quot;480&quot; class=&quot;photo&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;… et la commande apparaît lorsque le message n'a pas été initialement écrit sur le serveur que nous visitons actuellement. &lt;br&gt;
+L'actionner permettra souvent de mieux comprendre le contexte dudit message, ainsi que de peut-être découvrir d'autres réponses qui nous étaient cachées !&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;capturedcranducontenudumenucontextuelprcdemmentcit.llmentouvrirlapagedorigineatentourenrouge.&quot; src=&quot;https://blog.barijaona.com/web/fediverse/IMG_3915m.PNG&quot; alt=&quot;Capture d'écran du contenu du menu contextuel précédemment cité. L'élément 'Ouvrir la page d'origine' a été entouré en rouge.&quot; title=&quot;&quot; width=&quot;480&quot; class=&quot;photo&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;De même, lorsqu'on affiche un profil, un menu « &lt;code&gt;…&lt;/code&gt; » apparaît également à gauche du bouton &quot;Suivre&quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;capturedcrandunprofilutilisateuraffichparunserveurwebmastodon.unsigne...signalantlaprsencedunmenucontextuelatentourenrougepourattirerlattention.&quot; src=&quot;https://blog.barijaona.com/web/fediverse/IMG_3918m.PNG&quot; alt=&quot;Capture d'écran d'un profil utilisateur affiché par un serveur web Mastodon. Un signe '...' signalant la présence d'un menu contextuel a été entouré en rouge pour attirer l'attention.&quot; title=&quot;&quot; width=&quot;480&quot; class=&quot;photo&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;La commande « Ouvrir la page d'origine » permettra de voir l'ensemble des messages (publics) et republications effectuées par le profil, ce que nous n'aurions pas pu voir si ce profil n'était pas suivi par quelqu'un de l'instance de départ.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;capturedcranducontenudumenucontextuelprcdemmentcit.llmentouvrirlapagedorigineatentourenrouge.&quot; src=&quot;https://blog.barijaona.com/web/fediverse/IMG_3919m.PNG&quot; alt=&quot;Capture d'écran du contenu du menu contextuel précédemment cité. L'élément 'Ouvrir la page d'origine' a été entouré en rouge.&quot; title=&quot;&quot; width=&quot;480&quot; class=&quot;photo&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Le jeu qui s'ensuit me fait un peu penser à celui du saute-moutons :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Oh, un post intéressant ou un brin provocateur ! Je ne puis croire qu'il ne provoque pas dans le vaste monde davantage de réactions intéressantes !&lt;/li&gt;
+&lt;li&gt;Allons le voir sur son serveur d'origine !&lt;/li&gt;
+&lt;li&gt;Oh, des réponses pertinentes, ou bien une photo de profil rigolote ou un nom de profil intrigant dans les réactions ! Allons voir d'un peu plus près ce personnage !&lt;/li&gt;
+&lt;li&gt;Tiens, je ne connaissais pas ce serveur ! Allons voir de plus près son fil local ! (celui auquel on accède en cliquant sur l'icône globe terrestre 🌎 « Flux en direct »)…&lt;/li&gt;
+&lt;li&gt;Et c'est reparti pour un tour…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Au cours des différentes étapes de ce petit jeu, on a beaucoup d'occasions de trouver des comptes intéressants à suivre, de partager des messages ou de les mettre en favoris… Pour ma part, je sollicite beaucoup les &lt;a href=&quot;https://blog.barijaona.com/mastodon-bookmarklet-generator/index.fr.html&quot;&gt;bookmarklets personnalisés&lt;/a&gt; que j'ai installé dans mon navigateur Web pour faire le nécessaire au niveau de l'instance mastodon.mg qui héberge mon compte.&lt;/p&gt;
+
+&lt;p&gt;Cette commande « Ouvrir la page d'origine » est devenue tellement importante pour moi que j'ai vraiment du mal à comprendre pourquoi les clients Mastodon ne l'intègrent pas davantage en leur cœur. À ma connaissance, seul Mona (client payant pour iPhone / iPad / Macintosh) dispose de manière native de cette fonction absolument clé dans un réseau décentralisé ; il semble que la quasi-totalité des autres développeurs demeurent prisonniers des schémas logiques et choix ergonomiques apparus danas l'empire des plateformes centralisatrices, et vous &lt;a href=&quot;https://github.com/mastodon/mastodon-ios/issues/1014&quot; hreflang=&quot;en&quot;&gt;renvoient à l'ouverture dans un navigateur Web&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://geo.itunes.apple.com/app/id1659154653?l=fr-FR&quot; title=&quot;Mona sur l'AppStore d'Apple&quot;&gt;Mona&lt;/a&gt;, &lt;i lang=&quot;la&quot;&gt;a contrario&lt;/i&gt;, vous permet de remonter à la page d'origine tout en restant dans l'application.&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&quot;capturedcrandunmenucontextueldanslapplicationmona.leslmentsouvrirdanslenavigateuretchargementpartirdunserveurdistantonttentoursenrouge.&quot; src=&quot;https://blog.barijaona.com/web/fediverse/IMG_3922m.PNG&quot; alt=&quot;Capture d'écran d'un menu contextuel dans l'application Mona. Les éléments 'Ouvrir dans le navigateur' et 'Chargement à partir d’un serveur distant' ont été entourés en rouge.&quot; title=&quot;&quot; width=&quot;480&quot; class=&quot;photo&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans la troisième partie, nous verrons comment &lt;a href=&quot;https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html&quot; title=&quot;Le point clé dans Mastodon : le menu « &lt;code&gt;…&lt;/code&gt; » et sa commande « Ouvrir la page d'origine »&quot;&gt;contourner les supposés handicaps du fait d'avoir son compte sur une petite instance&lt;/a&gt;.&lt;/p&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+    </content>
+  </entry>
+
+  <entry>
+    <id>tag:barijaona.com,2024:/web/fediverse/construire-fil-perso-mastodon</id>
+    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
+
+    <title type="text">Construire son fil personnel Mastodon</title>
+    <published>2024-12-28T18:43:00Z</published>
+    <updated>2024-12-29T18:57:00Z</updated>
+    <category term="/web/fediverse"/>
+    <author>
+      <name>Barijaona Ramaholimihaso</name>
+      <uri>https://blog.barijaona.com</uri>
+      <email>reactions@barijaona.com</email>
+    </author>
+    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
+&lt;p&gt;J'ai eu un mal fou à retrouver &lt;a href=&quot;https://mastodon.cloud/@barijaona&quot; title=&quot;@barijaona@mastodon.cloud&quot;&gt;mes premiers toots&lt;/a&gt; (terminologie de l'époque, avril 2017). Quête sans grand intérêt, mais dont il ressort néanmoins un constat très significatif : 13 mois après, je n'avais trouvé que 38 comptes à suivre&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Au début de la rédaction de cet article, j'en suis à 505 comptes suivis&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;. Et cela fait plus de deux ans que je n'utilise plus que Mastodon 🦣, notamment parce qu'entretemps mon fil personnel est devenu passionnant.&lt;/p&gt;
+
+&lt;p&gt;Un des points de bascule aura été le rachat de Twitter par Elon Musk, avec les différentes conséquences qui s'en sont ensuivies. Mais, à mes yeux, le point le plus important est intervenu peu après et aura été le fait de dépasser le cap des 200 comptes suivis sur Mastodon. À partir de ce moment là, mon fil personnel est devenu plus vivant et plus surprenant, tout en étant complètement différent de celui qui m'est proposé par les autres réseaux sociaux, lorsque je me retrouve amené à y retourner contre ma volonté. Si au départ j'avais été un peu déçu de ne pas retrouver sur Mastodon les personnes que je connaissais sur Twitter, j'ai dépassé ce cap depuis fort longtemps. Désormais, lorsque j'ouvre Mastodon, je suis pratiquement assuré d'y trouver assez rapidement un contenu intéressant. Cela peut même devenir assez addictif, alors qu'aucun algorithme machiavélique n'est à l'œuvre…&lt;/p&gt;
+
+&lt;p&gt;Bien entendu, le point de bascule que je situe à 200 comptes suivis n'est qu'indicatif. Que se passerait-il si un utilisateur décidait de suivre 200 comptes complètement au hasard ? le meilleur ou le pire ? Je vous laisse le soin d'essayer si d'aventure l'envie vous en prenait… Inversement, ce qui a marché pour moi pourrait ne pas convenir à d'autres. Quoi qu'il en soit, cette période de fêtes de fin d'année est à mes yeux la plus propice pour tenter de faire un cadeau en faisant part de mes recettes de cuisine 📓.&lt;/p&gt;
+
+&lt;p&gt;Commençons par relever les recommandations qui, selon moi, &lt;strong&gt;ne marchent pas vraiment&lt;/strong&gt; et m'ont fait stagner au début.&lt;/p&gt;
+
+&lt;h4 id=&quot;lapagepardfautdemastodon&quot;&gt;La page par défaut de Mastodon 🤷&lt;/h4&gt;
+
+&lt;p&gt;Lorsque vous arrivez sur une &quot;instance&quot; Mastodon (c'est à dire un serveur) sans y avoir ouvert de compte, vous tombez en général sur la page &lt;strong&gt;Explore&lt;/strong&gt;. En général, soit celle-ci est confuse, soit elle est vide, ce qui est le cas pour le serveur que j'utilise, &lt;a href=&quot;https://mastodon.mg/&quot;&gt;mastodon.mg&lt;/a&gt;, qui n'affiche que 6 utilisateurs actifs&lt;a href=&quot;#fn:3&quot; id=&quot;fnref:3&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;. J'ai rarement fait des découvertes dans ces pages &lt;em&gt;Explore&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;suivreunhashtag&quot;&gt;Suivre un hashtag 😑&lt;/h4&gt;
+
+&lt;p&gt;Mastodon permet de rechercher des hashtags, puis de les suivre. C'est certainement très intéressant sur de grosses instances où l'on peut découvrir des messages provenant de comptes suivis par les personnes présentes sur la même instance, mais sur une petite instance comme mastodon.mg, le potentiel de découvertes est nécessairement plus limité…&lt;/p&gt;
+
+&lt;h4 id=&quot;posteruneintroduction&quot;&gt;Poster une #introduction 🤨&lt;/h4&gt;
+
+&lt;p&gt;On recommande souvent aux débutants de débuter sur le Fediverse en postant un message de présentation, en y incluant le hashtag #introduction. Cette pratique ne m'a jamais vraiment convaincue. Ce n'est pas avec une auto-promotion que vous donnerez à beaucoup de personnes l'envie de vous faire signe, surtout si votre profil n'affiche pas encore grand chose d'autre.&lt;/p&gt;
+
+&lt;p&gt;Je suggèrerais en tout cas de ne rédiger un message d'introduction qu'après avoir commencé à suivre quelques personnes et boosté des messages, qui illustreront vos centres d'intérêts et enrichiront le profil affiché par les visiteurs de votre instance. Mais c'est un peu comme un serpent qui se mord la queue : où et comment commencer de la manière la plus efficace ?&lt;/p&gt;
+
+&lt;p&gt;C'est ce que nous allons voir dans la &lt;a href=&quot;https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html&quot; title=&quot;Le point clé dans Mastodon : le menu « &lt;code&gt;…&lt;/code&gt; » et sa commande « Ouvrir la page d'origine »&quot;&gt;deuxième partie&lt;/a&gt; 💪🏽.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Et à l'issue de ces 13 mois, j'avais en tout et pour tout 2 (oui, deux !) abonnés.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;… et accessoirement 172 abonnés.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:3&quot;&gt;&lt;p&gt;En fait, il n'y a que deux utilisateurs qui sont régulièrement actifs : &lt;a href=&quot;https://mastodon.mg/@Sokatra&quot;&gt;Sokatra&lt;/a&gt;, premier habitant des lieux après l'administrateur système, et moi-même.&lt;a href=&quot;#fnref:3&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
+    </content>
+  </entry>
 
   <entry>
     <id>tag:barijaona.com,2024:/futile/yas-or-no</id>
@@ -236,193 +412,6 @@ your content by boosting your “toot” to their followers or reply to it.&lt;/
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2024:/macintosh/happy-40th-birthday</id>
-    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
-
-    <title type="text">Débuts</title>
-    <published>2024-01-24T18:51:00Z</published>
-    <updated>2024-01-24T18:56:00Z</updated>
-    <category term="/macintosh"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>https://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p>Janvier 1984, c'était le mois de l'annonce de deux micro-ordinateurs assez extraordinaires pour l'époque : le <a href="https://fr.wikipedia.org/wiki/Sinclair_QL" title="Wikipedia">Sinclair QL</a> le 12 janvier, et le Macintosh, le 24 du même mois.</p>
-
-<p>Ces ordinateurs étaient présentés comme 32 bits. En fait, le QL, avec son Motorola 68008, n'était en toute rigueur qu'un ordinateur 8/32 bits. Et le Mac, n'était en 1984 avec son 68000 qu'un 16/32 bits. Mais ils faisaient rêver par rapport à l'IBM PC, qui avec son Intel 8088, n'était qu'un 8/16 bits, tandis que les meilleurs clones d'IBM de l'époque se targuaient avec leur 8086 d'être de « vrais 16 bits ». Sans pouvoir se targuer de la puissance du 32 bits.</p>
-
-<p>À l'époque, il n'y avait pas véritablement de fragmentation du marché entre les micro-ordinateurs à usage personnel et ceux à usage professionnel. Avoir des cartouches comme support de stockage de masse n'était pas forcément un obstacle dirimant. Une machine pouvait être considérée comme professionnelle avec un seul lecteur de disquettes. Un deuxième lecteur était néanmoins considéré comme un élément de confort non négligeable. Quant aux disques durs, c'étaient des choses exotiques au coût pharamineux que personne de mon entourage n'avait physiquement vu.</p>
-
-<p>Pas vraiment possible pour moi de recasser la tirelire, après l'avoir fait <a href="https://blog.barijaona.com/photos/old_dai.html" title="Fouille de placards">un peu moins de trois ans plus tôt</a>. Mais ces machines faisaient saliver. Prix oblige, je regardais le Sinclair avec davantage d'intérêt, alors que le Macintosh m'apparaissait comme une extravagance inaccessible.</p>
-
-<p>Je ne suis tombé amoureux du Mac qu'en le rencontrant dans une boutique du boulevard Saint Germain de Paris qui permettait de le manipuler un peu. Et je me suis dit que mon retour prochain à Madagascar valait bien de casser à nouveau la tirelire, que ce geste n'était plus un plaisir que je m'offrais, mais un investissement. En restant raisonnable : le choix se porta sur un modèle 128 transformé en Macintosh Plus, bien plus convaincant que le Macintosh originel grâce à son mégaoctet de mémoire vive (!), son clavier avec pavé numérique et son lecteur de disquettes de 800 Ko au lieu de 400 Ko. J'ajoutais à mon achat un deuxième lecteur de disquette avant de passer quelque temps plus tard à un disque Rodime 45 Plus, <a href="https://collection.sciencemuseumgroup.org.uk/objects/co8413211/macintosh-plus-1mb-computer-micro-computer" title="Collection Science Museum" hreflang="en">qui se plaçait sous l'unité centrale du Mac</a> et que l'on connectait en SCSI…</p>
-
-<p><i lang="en">Happy Birthday, Macintosh !</i></p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/macintosh/happy-40th-birthday.html#comments" title="Commentaire(s)">Réagissez</a></div>
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2024:/macintosh/ajouter-au-carnet</id>
-    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
-
-    <title type="text">Rajout de notes avec un raccourci Apple</title>
-    <published>2024-01-14T18:24:00Z</published>
-    <updated>2024-03-31T12:09:00Z</updated>
-    <category term="/macintosh"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>https://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="html" xml:base="http://barijaona.com" xml:lang="fr">
-&lt;p&gt;Lors de &lt;a href=&quot;https://blog.barijaona.com/web/blosxom-refresh-2024.html&quot;&gt;l'épisode précédent&lt;/a&gt;, j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.&lt;/p&gt;
-
-&lt;p&gt;Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre &lt;a href=&quot;https://fr.wikipedia.org/wiki/Loi_de_Wirth&quot; title=&quot;loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n'accélère »&quot;&gt;la loi de Wirth&lt;/a&gt;. Lorsque je dois écrire quelque chose de consistent, j'utilise le vénérable BBEdit.&lt;/p&gt;
-
-&lt;p&gt;Mais pour de petits ajouts rapides, je me suis dit qu'utiliser le menu de partage intégré dans bon nombre d'applications iPhone ou Mac pouvait être un plus.&lt;/p&gt;
-
-&lt;p&gt;D'où l'idée de créer un raccourci (&lt;i lang=&quot;en&quot;&gt;Shortcut&lt;/i&gt;) et de l'intégrer à ces fonctions de partage.&lt;/p&gt;
-
-&lt;p&gt;Pour je ne sais quelle raison, l'application Raccourcis sur iOS n'arrive pas à écrire dans un dossier partagé Nextcloud, pourtant accessible via l'application Fichiers. Pour partager les données entre un Mac et un iPhone, j'ai de ce fait été contraint de réviser ma stratégie et mettre les fichiers sur iCloud Drive.&lt;/p&gt;
-
-&lt;p&gt;Une fois cette contrainte prise en compte, &lt;a href=&quot;https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e&quot; title=&quot;lien iCloud drive&quot;&gt;le raccourci auquel je suis arrivé&lt;/a&gt; me satisfait largement sur iOS, un peu moins sur macOS où l'application Raccourcis semble moins mûre. Mais l'activation du dit raccourci n'est pas si évidente, d'où la publication du présent billet (qui, si vous suivez bien, a débuté en note à usage personnel) avec les remarques d'installation qui suivent.&lt;/p&gt;
-
-&lt;h4 id=&quot;surios&quot;&gt;Sur iOS&lt;/h4&gt;
-
-&lt;h5 id=&quot;permettreauxraccourcisdapparatredanslemenudepartage:&quot;&gt;Permettre aux raccourcis d'apparaître dans le menu de partage :&lt;/h5&gt;
-
-&lt;p&gt;Application &lt;em&gt;Réglages&lt;/em&gt; ︎➙ &lt;em&gt;Raccourcis&lt;/em&gt; ➙ &lt;em&gt;Partage privé&lt;/em&gt; (à cocher)&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;copiecranraccourcisdanslapplicationrglagesdios&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios1.jpg&quot; alt=&quot;Copie écran Raccourcis dans l'application Réglages d'iOS&quot; title=&quot;Copie écran Raccourcis dans l'application Réglages d'iOS&quot; width=&quot;480&quot;&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;installerleraccourciajouteraucarnet&quot;&gt;Installer le raccourci &quot;Ajouter au carnet&quot;&lt;/h5&gt;
-
-&lt;p&gt;Cliquez &lt;a href=&quot;https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e&quot; title=&quot;lien iCloud drive&quot;&gt;ce lien&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt;. Lancer le raccourci une première fois pour vérifier qu'il fonctionne et qu'il puisse demander les autorisations d'accès au dossier &quot;&lt;em&gt;_&lt;/em&gt;Carnet&quot; dans iCloud Drive.&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;copiecrancontenuduraccourci-partie1&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios2.jpg&quot; alt=&quot;Copie écran Contenu du raccourci - Partie 1&quot; title=&quot;Copie écran Contenu du raccourci - Partie 1&quot; width=&quot;480&quot;&gt;
-&lt;img id=&quot;copiecrancontenuduraccourci-partie2&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios3.jpg&quot; alt=&quot;Copie écran Contenu du raccourci - Partie 2&quot; title=&quot;Copie écran Contenu du raccourci - Partie 2&quot; width=&quot;480&quot;&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;vrifierlesautorisationsduraccourci:&quot;&gt;Vérifier les autorisations du raccourci :&lt;/h5&gt;
-
-&lt;p&gt;Appuyer sur (…) qui permet de modifier, puis choisir l'onglet Informations ⓘ
-Vérifier que sont cochés :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Dans la feuille de partage&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Epingler dans la barre de menus&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Recevoir le contenu affiché&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Utiliser comme action rapide&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img id=&quot;copiecraninformationsduraccourci&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios4.jpg&quot; alt=&quot;Copie écran Informations du raccourci&quot; title=&quot;Copie écran Informations du raccourci&quot; width=&quot;480&quot;&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;associerlesfichierstexteunditeurquivousplat&quot;&gt;Associer les fichiers texte à un éditeur qui vous plaît&lt;/h5&gt;
-
-&lt;p&gt;Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l'application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j'utilise &lt;a href=&quot;https://apps.apple.com/app/pretext/id1347707000?l=fr-FR&quot; title=&quot;Markdown &amp;amp; Plain Text Editor&quot;&gt;Pretext&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;surmacos&quot;&gt;Sur macOS&lt;/h4&gt;
-
-&lt;h5 id=&quot;permettremenupartage2&quot;&gt;Permettre aux raccourcis d'apparaître dans le menu de partage :&lt;/h5&gt;
-
-&lt;p&gt;Activer dans &lt;em&gt;Réglages Système&lt;/em&gt; ➙ &lt;em&gt;Confidentialité et sécurité&lt;/em&gt; ➙ &lt;em&gt;Autres&lt;/em&gt; ➙ &lt;em&gt;Extensions&lt;/em&gt; ➙ &lt;em&gt;Partage&lt;/em&gt; ➙ &lt;em&gt;Raccourcis&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;copiecranrglagessystme&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos1.jpg&quot; alt=&quot;Copie écran Réglages Système&quot; title=&quot;Copie écran Réglages Système&quot; width=&quot;720&quot;&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;accepterlesraccourcisnonsignsparapple&quot;&gt;Accepter les raccourcis non signés par Apple&lt;/h5&gt;
-
-&lt;p&gt;Dans les réglages de Raccourcis.app, activer &lt;em&gt;Partage privé&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Lancer le raccourci &lt;em&gt;Ajouter au carnet&lt;/em&gt; manuellement dans Raccourcis pour vérifier qu'il fonctionne.&lt;/p&gt;
-
-&lt;p&gt;Cette fonction de partage est encore un peu buggée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel &lt;em&gt;Partager…&lt;/em&gt;, mais je peux passer par l'élément de menu &lt;em&gt;Services&lt;/em&gt; ➙ &lt;em&gt;Ajouter au carnet&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;copiecranmenucontextuelservices&quot; src=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos2.jpg&quot; alt=&quot;Copie écran menu contextuel Services&quot; title=&quot;Copie écran menu contextuel Services&quot; width=&quot;635&quot;&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;rfrences:&quot;&gt;Références :&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://discussions.apple.com/thread/251930666?answerId=251930666021#251930666021&quot; title=&quot;Apple Discussions&quot; hreflang=&quot;en&quot;&gt;Shortcuts app missing in share sheets (iOS) - SravanKrA's answer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/ios/comments/jmbjtw/filesapp_how_to_control_what_app_opens_when_you/&quot; title=&quot;Reddit&quot; hreflang=&quot;en&quot;&gt;Files.app - how to control what app opens when you click a file?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac&quot; title=&quot;Guide d’utilisation de macOS Sonoma 14&quot;&gt;Utiliser le menu Partager sur Mac&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios&quot; title=&quot;Guide d’utilisation de Raccourcis&quot;&gt;Recevoir des éléments affichés à l’écran provenant d’autres apps&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://blog.barijaona.com/macintosh/ajouter-au-carnet.html#comments&quot; title=&quot;Commentaire(s)&quot;&gt;Réagissez&lt;/a&gt;
-    </content>
-  </entry>
-
-  <entry>
-    <id>tag:barijaona.com,2024:/web/blosxom-refresh-2024</id>
-    <link rel="alternate" type="text/html" href="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
-
-    <title type="text">2024, renouveau du web décentralisé</title>
-    <published>2024-01-11T00:28:00Z</published>
-    <updated>2024-01-15T07:28:00Z</updated>
-    <category term="/web"/>
-    <author>
-      <name>Barijaona Ramaholimihaso</name>
-      <uri>https://blog.barijaona.com</uri>
-      <email>reactions@barijaona.com</email>
-    </author>
-    <content type="xhtml" xml:base="http://barijaona.com" xml:lang="fr">
-<div xmlns="http://www.w3.org/1999/xhtml"><p><i lang="en">Happy birthday, Matt Mullenweg. <a href="https://ma.tt/2024/01/birthday-gift/" title="Birthday Gift">Your note</a> had a strong influence in the follwing text. Sorry, I had not enough time to translate it. I don't know if you read French, but if it's not the case, I am confident DeepL can help.</i></p>
-
-<p>Le titre ci-dessus est à la fois une prévision à caractère général et une bonne résolution personnelle pour l'année nouvelle. Je suis raisonnablement confiant que l'on devrait assister à un relatif renouveau des "petits sites" en 2024. Et j'ai l'intention d'y contribuer dans une très modeste mesure en publiant un peu plus souvent ici. Pourquoi ? Parce que les moteurs de recherche et les réseaux sociaux pilotés par des algorithmes sont en passe de transformer le web en magma où l'on a davantage de mal à retrouver quelque chose de fiable.</p>
-
-<p>Dans ce contexte, mémoire et notes personnelles deviennent plus précieuses. Ainsi que le partage d'information d'humain à humain. Lorsque les robots sont défaillants, savoir que telle information est jugée importante par une personne physique bien identifiée acquiert bien plus de valeur. Tenir un blog personnel pourrait ainsi devenir un peu moins un exercice de <i lang="en">personal branding</i> et un peu plus l'exercice d'un devoir de mémoire et de mise en avant de cet exercice. </p>
-
-<p>Donc, je vais faire l'effort cette année de prendre plus de notes, et de les structurer un minimum. En ayant comme principale ambition que ces notes me soient personnellement utiles, tout en gardant à l'esprit que si je les trouve potentiellement utiles à d'autres personnes, j'en ferai plus volontiers des billets de blogs.</p>
-
-<p>En ce qui me concerne, j'ai beaucoup de mal à trouver un système de tenue de notes qui me satisfasse complètement. Mais je suis arrivé à trois constats :</p>
-
-<ul>
-<li>au jour le jour, <a href="https://www.barebones.com/products/bbedit/bbedit14.html" title="Why BBEdit 14 got a Notes feature" hreflang="en">comme beaucoup de monde sans doute</a>, je crée dans BBEdit une grande quantité de documents "Sans titre" pour prendre rapidement des notes. Une bonne raison à cela : il est quasiment impossible de faire planter cette application et elle récupère impeccablement la situation précédente chaque fois qu'on la relance ;</li>
-<li>j'ai trop d'onglets ouverts dans Safari, parce que je garde des pages que je me promets de relire ou qui doivent me servir d'éléments dans la réalisation d'un projet. Tout comme BBEdit, Safari est très stable et plutôt sobre en ressources. Mais c'est quand même beaucoup de cycles CPU qui sont gaspillés et qui ne le seraient pas si je sauvegardais et classais ces liens dans des notes ;</li>
-<li>il m'est arrivé plus d'une fois de retrouver des choses qui me sont très utiles dans mon blog, à travers des billets qui prenaient souvent la forme de "notes pour soi".</li>
-</ul>
-
-<p>Après avoir considéré la courbe d'apprentissage qui me serait nécessaire pour conserver mes notes privées dans un outil destiné aux <i lang="en">power users</i> comme <a href="https://forum.obsidian.md/t/how-to-curb-the-steepness-of-obsidians-learning-curve/41725" title="Forum: How to curb the steepness of Obsidian’s learning curve?" hreflang="en">Obsidian</a>, après avoir testé pendant plusieurs mois <a href="https://agenda.com" title="Notes meet calendar (macOS, iOS, iPadOS)" hreflang="en">Agenda</a>, j'ai décidé de tout recentraliser sur BBEdit, et de garder la même logique qu'un weblog : des fichiers texte classés et nommés de manière chronologique. En général, un ou deux fichiers par jour : un pour les notes professionnelles, un pour celles plus personnelles ou relevant de la serendipité.</p>
-
-<p>Et pour aller au bout de la logique précédente, autant mettre toutes ces notes dans un sous-répertoire de mon outil de blogging. Mon "nouveau" système de notes entend s'appuyer totalement sur l'intuition, assez géniale à l'époque, de <a href="https://web.archive.org/web/20030524112140/http://www.blosxom.com/" title="May 2003" hreflang="en">Blosxom</a> :</p>
-
-<blockquote>
-  <p>La philosophie de conception qui sous-tend Blosxom est axée sur le lien entre la simplicité, la convivialité et l'interopérabilité. Bloguer devrait être aussi simple que de taper dans l'éditeur de texte de son choix et d'appuyer sur Enregistrer. Le blogging devrait être aussi intuitif et naturel que de travailler avec des fichiers et des répertoires. Un système de blogs doit être extensible sans nécessiter de savoir-faire particulier ; il doit interopérer avec le système d'exploitation et le serveur Web qui se trouvent sous ses pieds et en tirer pleinement parti.</p>
-</blockquote>
-
-<p>Bon, dans la réalité, ça a demandé plus de travail que prévu. Parce que mon système personnel de blogging se base sur la génération de fichiers statiques, et parce qu'il faut que mes notes privées le demeurent, il m'a fallu me repencher sur <a href="https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/exclude" title="exclude plugin on Sourceforge" hreflang="en">un de mes plugins</a>. Et au passage, découvrir et corriger deux bugs dans Blosxom, dont <a href="https://sourceforge.net/p/blosxom/blosxom/ci/ca97975d66a1cde50c04fc35e7fec19e639e237f/" title="Commit" hreflang="en">l'un datait de treize ans</a> !</p>
-
-<h4 id="notescomplmentairespoursoi">Notes complémentaires pour soi</h4>
-
-<p>1/ lorsqu'une mise à jour de macOS écrase <code>/etc/apache2/httpd.conf</code>, il faut, pour pouvoir utiliser Blosxom en mode dynamique, réactiver dans ce fichier les modules :</p>
-
-<ul>
-<li>cgi_module</li>
-<li>rewrite_module</li>
-</ul>
-
-<p>2/ si l'on veut en sus utiliser TLS/SSL, il faut également activer les modules :</p>
-
-<ul>
-<li>ssl_module</li>
-<li>socache_shmcb_module</li>
-</ul>
-
-<p>et décommenter la ligne :</p>
-
-<pre><code class="language-">Include /private/etc/apache2/extra/httpd-ssl.conf</code></pre>
-
-<p>La gestion des clés TLS se fait avec <a href="https://certbot.eff.org" title="Electronic Frontier Foundatin" hreflang="en">certbot</a>, déjà installé <a href="https://blog.barijaona.com/web/settingup_letsencrypt.html" title="DO encrypt" hreflang="en">à l'époque via Homebrew</a>.</p>
-
-<p>3/ il me faut rajouter quelques éléments aux tests d'intégration continue de <a href="https://blosxom.sourceforge.net" title="blosxom :: the zen of blogging" hreflang="en">Blosxom</a> et publier une version 2.1.3.</p>
-<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a><br /><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html#comments" title="Commentaire(s)">Réagissez</a></div>
     </content>
   </entry>
 

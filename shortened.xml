@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/futile/yas-or-no.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/happy-40th-birthday.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,35 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
+	<title>Tirer parti des autres serveurs</title>
+	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html</link>
+	<description>Chercher un hashtag
+
+Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abonnement à un hashtag, n'était pas si intéressant lorsque l'on est résident d'une petite instance...</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-12-29T21:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html">
+	<title>Le point clé 💪🏽 dans Mastodon : le menu « `…` » et sa commande « Ouvrir la page d&apos;origine »</title>
+	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html</link>
+	<description>Le secret qu'il m'a fallu un peu de temps à découvrir, c'est que, pour enrichir et diversifier son fil personnel Mastodon, et plus particulièrement lorsqu'on est sur une petite instance, il faut partir en exploration active...</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-12-29T18:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html">
+	<title>Construire son fil personnel Mastodon</title>
+	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html</link>
+	<description>J'ai eu un mal fou à retrouver mes premiers toots (terminologie de l'époque, avril 2017)...</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2024-12-28T21:43:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/futile/yas-or-no.html">
 	<title>Yet Another What?</title>
 	<link>https://blog.barijaona.com/futile/yas-or-no.html</link>
@@ -81,33 +110,6 @@
 	<dc:subject>/macintosh</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-02-04T20:51:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/happy-40th-birthday.html">
-	<title>Débuts</title>
-	<link>https://blog.barijaona.com/macintosh/happy-40th-birthday.html</link>
-	<description>Janvier 1984, c'était le mois de l'annonce de deux micro-ordinateurs assez extraordinaires pour l'époque : le Sinclair QL le 12 janvier, et le Macintosh, le 24 du même mois...</description>
-	<dc:subject>/macintosh</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-01-24T21:51:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html">
-	<title>Rajout de notes avec un raccourci Apple</title>
-	<link>https://blog.barijaona.com/macintosh/ajouter-au-carnet.html</link>
-	<description>Lors de l'épisode précédent, j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique...</description>
-	<dc:subject>/macintosh</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-01-14T21:24:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/blosxom-refresh-2024.html">
-	<title>2024, renouveau du web décentralisé</title>
-	<link>https://blog.barijaona.com/web/blosxom-refresh-2024.html</link>
-	<description>Happy birthday, Matt Mullenweg...</description>
-	<dc:subject>/web</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-01-11T03:28:00+03:00</dc:date>
 
 </item>
 

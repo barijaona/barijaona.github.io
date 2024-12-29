@@ -5,8 +5,8 @@
     font-size: calc(1rem + 0.25vw);
     --background-color: #fafafa;
     --content-background: #fff;
+    --content-color: #000;
     --box-background: #f3f3f3;
-    --text-color: #000;
     --greyed: #C0C0C0;
     --lower-grey: #555;
     --footnote-mark: #FFF9C7;
@@ -16,8 +16,8 @@
     :root {
         --background-color: #050505;
         --content-background: #000;
+        --content-color: #d7d7d7;
         --box-background: #202020;
-        --text-color: #d7d7d7;
         --greyed: #303030;
         --lower-grey: #EEE;
         --footnote-mark: #9F9767;
@@ -33,18 +33,14 @@ body,html {
 	font-family:"Copperplate Light",Copperplate,"Trebuchet MS",Verdana,"Bitstream Vera Sans",Helvetica,Arial,Geneva,Swiss,SunSans-Regular,sans-serif
 }
 
-.photo {
-	background-color: white;
-}
-
 .box,.mt-timeline {
 	background-color: var(--box-background);
-	color: var(--text-color);
+	color: var(--content-color);
 }
 
 .content {
 	background-color: var(--content-background);
-	color: var(--text-color);
+	color: var(--content-color);
 	line-height:1.5
 }
 
@@ -116,7 +112,7 @@ dt {
 
 input {
     background-color:transparent;
-    color: var(--text-color);
+    color: var(--content-color);
 }
 
 input#motcle {
@@ -176,7 +172,8 @@ input#motcle {
 }
 
 .photo {
-	border:solid 1px black;
+	background-color: var(--content-background);
+	border:solid 1px var(--content-color);
 	padding:10px
 }
 
