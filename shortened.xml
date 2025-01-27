@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
+	<title>Rechercher sur votre instance Mastodon</title>
+	<link>https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html</link>
+	<description>Je reprends et prolonge ici le toot que j'ai publié et qui jusqu'à ce jour a engendré le plus de réactions…
+
+Oui, il est indéniable que l'utilisation du Fediverse demeure un peu plus "technique" qu'adhérer à une plate-forme de réseau social centralisatrice...</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-01-27T17:58:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
 	<title>Tirer parti des autres serveurs</title>
 	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html</link>
@@ -101,15 +112,6 @@ Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abo
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-03-31T16:08:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html">
-	<title>Périphériques</title>
-	<link>https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html</link>
-	<description>En écrivant le précédent article, j'avais complètement oublié d'évoquer un accessoire pourtant acheté en même temps que ma configuration initiale : l'imprimante Apple ImageWriter II...</description>
-	<dc:subject>/macintosh</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-02-04T20:51:00+03:00</dc:date>
 
 </item>
 

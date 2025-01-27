@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/blosxom-refresh-2024.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Elon-vertical-vs-John-horizontal.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_2.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,17 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
+	<title>Rechercher sur votre instance Mastodon</title>
+	<link>https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html</link>
+	<description>Je reprends et prolonge ici le toot que j'ai publié et qui jusqu'à ce jour a engendré le plus de réactions…
+
+Oui, il est indéniable que l'utilisation du Fediverse demeure un peu plus "technique" qu'adhérer à une plate-forme de réseau social centralisatrice...</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-01-27T17:58:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
 	<title>Tirer parti des autres serveurs</title>
 	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html</link>
@@ -101,15 +112,6 @@ Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abo
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2022-12-04T22:12:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html">
-	<title>L&apos;envol sur un pachyderme</title>
-	<link>https://blog.barijaona.com/web/fediverse/initiation_migration_mastodon_1.html</link>
-	<description>Il y a quelque chose de fascinant dans ce qui arrive à Twitter...</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2022-11-27T20:31:00+03:00</dc:date>
 
 </item>
 

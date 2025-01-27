@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,97 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
+	<title>Rechercher sur votre instance Mastodon</title>
+	<link>https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Je reprends et prolonge ici le &lt;i&gt;toot&lt;/i&gt; que j&apos;ai publié et qui jusqu&apos;à ce jour a engendré le plus de réactions…&lt;/p&gt;
+
+&lt;p&gt;Oui, il est indéniable que l&apos;utilisation du Fediverse demeure un peu plus &quot;technique&quot; qu&apos;adhérer à une plate-forme de réseau social centralisatrice. Mais les développeurs de Mastodon font un travail de fond patient et sérieux et, petit à petit, l&apos;oiseau fait son nid. Ainsi, s&apos;il fut une époque où il était très difficile de retrouver un post sur Mastodon, les choses se sont quand même améliorées avec les versions récentes&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;. L&apos;on est désormais moins confronté à la phrase maudite : &quot;J&apos;avais remarqué cela quelque part sur Mastodon et je l&apos;avais même boosté, mais où diable se trouve ce message ?&quot;.&lt;/p&gt;
+
+&lt;p&gt;L&apos;ajout de l&apos;argument de recherche &lt;code&gt;from:me&lt;/code&gt; permet de rechercher parmi vos propres messages.&lt;/p&gt;
+
+&lt;p&gt;L&apos;ajout de l&apos;argument de recherche &lt;code&gt;in:library&lt;/code&gt; permet de rechercher parmi les messages que vous avez mis en favoris ou inclus dans vos marque-pages.&lt;/p&gt;
+
+&lt;p&gt;La recherche fonctionne pour les messages qui sont publics et qui proviennent d&apos;un compte qui a configuré ses messages pour qu&apos;ils puissent faire l&apos;objet d&apos;une recherche. Par défaut, les messages ne peuvent pas faire l&apos;objet d&apos;une recherche : il faut que les utilisateurs aient consenti à ce que leur profil puisse faire l&apos;objet de recherche&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;. Vous pouvez toutefois toujours rechercher parmi vos propres messages, ainsi que parmi les messages avec lesquels vous avez interagi, par exemple en les mettant en favoris.&lt;/p&gt;
+
+&lt;h4 id=&quot;utilisateur&quot;&gt;Utilisateur&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;from:me&lt;/code&gt; affiche vos messages, comme indiqué précédemment.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;from:nom d&apos;utilisateur&lt;/code&gt; affiche les messages de la personne ayant ce nom d&apos;utilisateur. Pour les utilisateurs d&apos;autres instances, vous devez utiliser le nom d&apos;utilisateur complet. Par exemple : &lt;code&gt;from:lisamelton@mastodon.social&lt;/code&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;naturedelindex&quot;&gt;Nature de l&apos;index&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;in:library&lt;/code&gt; : comme indiqué précédemment, ce paramètre recherche dans vos propres messages, vos favoris et marque-pages, ainsi que les messages qui vous mentionnent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;in:public&lt;/code&gt; : affiche les messages publics qui sont connus de votre instance et qui peuvent faire l&apos;objet de recherche.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;in:all&lt;/code&gt; : combine les deux options précédentes. C&apos;est l&apos;option par défaut, vous n&apos;avez pas besoin de l&apos;utiliser explicitement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;exclusions&quot;&gt;Exclusions&lt;/h4&gt;
+
+&lt;p&gt;Vous pouvez exclure un terme de recherche par &lt;code&gt;-motClé&lt;/code&gt;. Ceci fonctionne également pour n&apos;importe lequel des autres opérateurs comme &lt;code&gt;-is:reply&lt;/code&gt;. Il y a aussi &lt;code&gt;+&lt;/code&gt;, mais comme le comportement par défaut est de combiner les opérateurs, vous n&apos;en avez pas besoin.&lt;/p&gt;
+
+&lt;h4 id=&quot;heure&quot;&gt;Heure&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;before:2024-04-25&lt;/code&gt; affiche les messages qui ont été postés avant le 25 avril 2024 00:00.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;after:2024-04-25&lt;/code&gt; montre les messages qui ont été postés à partir du 25 avril 2024 00:00.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;during:2024-04-25&lt;/code&gt; montre les messages qui ont été postés le 25 avril 2024. C&apos;est la forme courte pour &lt;code&gt;after:2024-04-25&lt;/code&gt; &lt;code&gt;before:2024-04-26&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ces trois opérateurs utilisent votre fuseau horaire local et non l&apos;heure universelle.&lt;/p&gt;
+
+&lt;h4 id=&quot;langue&quot;&gt;Langue&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;language:en&lt;/code&gt; recherche les messages en anglais. &lt;code&gt;language:fr&lt;/code&gt; recherche les messages en français. Vous pouvez utiliser tous les codes de langue ISO-639-1 (à deux lettres) et quelques codes ISO-639-3 (à trois lettres).&lt;/p&gt;
+
+&lt;h4 id=&quot;type&quot;&gt;Type&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;is:reply&lt;/code&gt; pour n&apos;obtenir que les réponses.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;is:sensitive&lt;/code&gt; pour n&apos;obtenir que les messages comportant un avertissement de contenu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;caractristiques&quot;&gt;Caractéristiques&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;has:media&lt;/code&gt; pour les messages contenant des images ou des vidéos.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;has:image&lt;/code&gt; pour les messages contenant des images en pièce jointe.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;has:video&lt;/code&gt; pour les messages contenant des vidéos.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;has:link&lt;/code&gt; pour les messages contenant des URL.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;has:poll&lt;/code&gt; pour les messages contenant des sondages.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;has:embed&lt;/code&gt; pour les messages contenant des éléments incorporés. Il ne s&apos;agit pas d&apos;aperçus, mais d&apos;&lt;i lang=&quot;en&quot;&gt;embeds&lt;/i&gt; réels comme une vidéo que vous pouvez regarder sans quitter votre client.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;faitsamusantsbizarreries&quot;&gt;Faits amusants / bizarreries&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;is:&lt;/code&gt; et &lt;code&gt;has:&lt;/code&gt; sont traités de la même manière. Par conséquent, vous pouvez rechercher soit &lt;code&gt;has:image&lt;/code&gt; soit &lt;code&gt;is:image&lt;/code&gt; et obtenir les mêmes résultats. Dans le cas des réponses, cela peut être trompeur : &lt;code&gt;has:reply&lt;/code&gt; ne trouve pas les messages qui ont des réponses, mais les messages qui sont des réponses.&lt;/p&gt;
+
+&lt;h4 id=&quot;sources:&quot;&gt;Sources:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;au départ, un toot de &lt;a href=&quot;https://gamedev.lgbt/@aetataureate&quot; hreflang=&quot;en&quot;&gt;@aetataureate&lt;/a&gt; aujourd&apos;hui supprimé ;&lt;/li&gt;
+&lt;li&gt;un tutoriel de Luca Hammer, &lt;i lang=&quot;en&quot;&gt;&lt;a href=&quot;https://lucahammer.com/2024/04/25/mastodon-advanced-search-guide-and-operators&quot; hreflang=&quot;en&quot;&gt;Mastodon Advanced Search Guide and Operators&lt;/a&gt;&lt;/i&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Instances Mastodon utilisant la version 4.2 ou plus récente.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Les administrateurs peuvent modifier la valeur par défaut. Toutefois, les utilisateurs gardent la main pour modifier le réglage quand à l&apos;incorporation de leurs propres messages et profil dans le moteur de recherche. Pour cela, allez dans &quot;Préférences&quot;, &quot;Profil&quot;, onglet &quot;Vie privée et confidentialité&quot;, et réglez l&apos;option &quot;Inclure mes messages publics dans les résultats de recherche&quot;. Il y a également une option &quot;Inclure la page de profil dans les moteurs de recherches&quot;.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-01-27T17:58:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
 	<title>Tirer parti des autres serveurs</title>
 	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html</link>
@@ -322,45 +413,6 @@ your content by boosting your “toot” to their followers or reply to it.&lt;/
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-03-31T16:08:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html">
-	<title>Périphériques</title>
-	<link>https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;En écrivant le &lt;a href=&quot;https://blog.barijaona.com/macintosh/happy-40th-birthday.html&quot; title=&quot;Débuts&quot;&gt;précédent article&lt;/a&gt;, j&apos;avais complètement oublié d&apos;évoquer un accessoire pourtant acheté en même temps que ma configuration initiale : l&apos;imprimante Apple ImageWriter II.&lt;/p&gt;
-
-&lt;p&gt;L&apos;ImageWriter II fut introduite par Apple sur le marché en septembre 1985 (en même temps que le disque dur Apple). Ce fut pour moi le choix par défaut, la LaserWriter présentée en janvier de la même année étant financièrement inaccessible.&lt;/p&gt;
-
-&lt;p&gt;L&apos;outil était de facto inutilisable la nuit, pour des raisons que vous devinerez en regardant cette vidéo (qui ne reflète pas fidèlement la couleur de l&apos;engin, qui avait adopté le design &lt;i lang=&quot;en&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Snow_White_design_language&quot; title=&quot;Snow White design language on Wikipedia&quot;&gt;Snow White&lt;/a&gt;&lt;/i&gt;)…&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/q6sAj-N05Xc?si=sYoUwHJFJ2UIX6kD&quot; title=&quot;YouTube video player&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;J&apos;avais adjoint à cette imprimante un &lt;a href=&quot;https://archive.org/details/ImageWriter_II_SheetFeeder_Installation_Manual/page/n18/mode/1up&quot; title=&quot;Chargeur feuille-a-feuille Image Writer™ II : Guide d&apos;installation (sur archive.org)&quot;&gt;chargeur feuille à feuille&lt;/a&gt; qui m&apos;a régulièrement fait pester, car il fallait démonter l&apos;engin pour repasser au papier listing en continu à bandes Caroll.&lt;/p&gt;
-
-&lt;p&gt;Quelque temps plus tard, je découvrais avec stupéfaction chez un cousin qu&apos;une alternative plus économique à l&apos;ImageWriter existait : l&apos;imprimante C-Itoh 8510, une fois celle-ci munie d&apos;un câble adéquat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;photodimprimantec-itoh8510surebay&quot; src=&quot;https://blog.barijaona.com/macintosh/c-itoh-8510.jpg&quot; alt=&quot;Photo d&apos;imprimante C-Itoh 8510 sur eBay&quot; title=&quot;Imprimante C-Itoh 8510 sur eBay&quot; width=&quot;560&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Si j&apos;avais eu ces informations plus tôt, peut-être aurais-je choisi cette solution, sans m&apos;embarrasser d&apos;un chargeur feuille à feuille. En effet, mon utilisation la plus régulière de l&apos;imprimante était l&apos;impression de codes source, pour pouvoir les examiner avec un recul bien plus grand que face à un écran de 9 pouces de diagonale&lt;a href=&quot;#fn:note1&quot; id=&quot;fnref:note1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;…&lt;/p&gt;
-
-&lt;p&gt;De nos jours, où l&apos;on passe par des outils de gestion de version et des éditeurs de texte dotés de l&apos;indentation automatique et de la coloration syntaxique, imprimer du code afin de le relire n&apos;a plus guère de sens. Mais prendre du recul pour lire ce code reste d&apos;actualité.&lt;/p&gt;
-
-&lt;p&gt;La vidéo ci-après me convainc qu&apos;une prochaine version pourrait dans quelques années devenir un périphérique très apprécié de mon Mac… Comme souvent avec les grosses innovations matérielles d&apos;Apple, il vaudra mieux attendre une version 2 qui éliminera certains défauts à la lumière des usages, mais il y a là un gros potentiel par rapport à ce besoin…&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GkPw6ScHyb4?si=gWN20RGJfjf2Y7kJ&amp;amp;start=497&quot; title=&quot;YouTube video player&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:note1&quot;&gt;&lt;p&gt;Le mode brouillon permettait de stresser un peu moins par rapport au coût des rubans et du papier…&lt;a href=&quot;#fnref:note1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/macintosh/peripheriques-1986-2026.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/macintosh</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-02-04T20:51:00+03:00</dc:date>
 
 </item>
 

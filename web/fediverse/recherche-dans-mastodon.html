@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="canonical" href="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
+<title>Rechercher sur votre instance Mastodon</title>
+<meta name="DESCRIPTION" content="Expérimentations et mésaventures technologiques">
+<meta name="keywords" content="blosxom, print66, lpd, weblog">
+<meta name="ICBM" content="-18.9079, 47.5333">
+<meta name="geo.region" content="MG-T">
+<meta name="viewport" content="initial-scale=1">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://blog.barijaona.com/favicon.ico">
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/barijaona6.css">
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/theme4.css">
+<link rel="styleSheet" type="text/css" media="screen" href="https://blog.barijaona.com/style/screenlayout6.css">
+<link rel="styleSheet" type="text/css" media="screen" href="https://blog.barijaona.com/style/code.css">
+<link rel="stylesheet" media="print" type="text/css" href="https://blog.barijaona.com/style/print.css">
+<meta name="fediverse:creator" content="@barijaona@mastodon.mg"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="https://blog.barijaona.com/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="https://blog.barijaona.com/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="https://blog.barijaona.com/shortened.xml">
+
+<link rel="prev" href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" title="Tirer parti des autres serveurs">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+
+
+
+<script type="module" src="https://blog.barijaona.com/style/fedifeedback.js"></script>
+<link rel="styleSheet" type="text/css" href="https://blog.barijaona.com/style/fedifeedback.css">
+
+</head>
+<body>
+<div class="contentwrapper"><div class="content"><header><a href="https://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header>
+<main><br><br><h2 class="dateofday">lundi 27 janvier 2025</h2>
+
+<article class="h-entry post">
+<h3 class="accent4"><time datetime="2025-01-27" class="timestamp dt-published"><a href="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;17:58&nbsp;]</a></time>&nbsp;<span class="p-name">Rechercher sur votre instance Mastodon</span></h3>
+<div class="post-full e-content"><p>Je reprends et prolonge ici le <i>toot</i> que j'ai publié et qui jusqu'à ce jour a engendré le plus de réactions…</p>
+
+<p>Oui, il est indéniable que l'utilisation du Fediverse demeure un peu plus "technique" qu'adhérer à une plate-forme de réseau social centralisatrice. Mais les développeurs de Mastodon font un travail de fond patient et sérieux et, petit à petit, l'oiseau fait son nid. Ainsi, s'il fut une époque où il était très difficile de retrouver un post sur Mastodon, les choses se sont quand même améliorées avec les versions récentes<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a>. L'on est désormais moins confronté à la phrase maudite : "J'avais remarqué cela quelque part sur Mastodon et je l'avais même boosté, mais où diable se trouve ce message ?".</p>
+
+<p>L'ajout de l'argument de recherche <code>from:me</code> permet de rechercher parmi vos propres messages.</p>
+
+<p>L'ajout de l'argument de recherche <code>in:library</code> permet de rechercher parmi les messages que vous avez mis en favoris ou inclus dans vos marque-pages.</p>
+
+<p>La recherche fonctionne pour les messages qui sont publics et qui proviennent d'un compte qui a configuré ses messages pour qu'ils puissent faire l'objet d'une recherche. Par défaut, les messages ne peuvent pas faire l'objet d'une recherche : il faut que les utilisateurs aient consenti à ce que leur profil puisse faire l'objet de recherche<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">2</a>. Vous pouvez toutefois toujours rechercher parmi vos propres messages, ainsi que parmi les messages avec lesquels vous avez interagi, par exemple en les mettant en favoris.</p>
+
+<h4 id="utilisateur">Utilisateur</h4>
+
+<ul>
+<li><code>from:me</code> affiche vos messages, comme indiqué précédemment.</li>
+<li><code>from:nom d'utilisateur</code> affiche les messages de la personne ayant ce nom d'utilisateur. Pour les utilisateurs d'autres instances, vous devez utiliser le nom d'utilisateur complet. Par exemple : <code>from:lisamelton@mastodon.social</code>  </li>
+</ul>
+
+<h4 id="naturedelindex">Nature de l'index</h4>
+
+<ul>
+<li><code>in:library</code> : comme indiqué précédemment, ce paramètre recherche dans vos propres messages, vos favoris et marque-pages, ainsi que les messages qui vous mentionnent.</li>
+<li><code>in:public</code> : affiche les messages publics qui sont connus de votre instance et qui peuvent faire l'objet de recherche.</li>
+<li><code>in:all</code> : combine les deux options précédentes. C'est l'option par défaut, vous n'avez pas besoin de l'utiliser explicitement.</li>
+</ul>
+
+<h4 id="exclusions">Exclusions</h4>
+
+<p>Vous pouvez exclure un terme de recherche par <code>-motClé</code>. Ceci fonctionne également pour n'importe lequel des autres opérateurs comme <code>-is:reply</code>. Il y a aussi <code>+</code>, mais comme le comportement par défaut est de combiner les opérateurs, vous n'en avez pas besoin.</p>
+
+<h4 id="heure">Heure</h4>
+
+<ul>
+<li><code>before:2024-04-25</code> affiche les messages qui ont été postés avant le 25 avril 2024 00:00.</li>
+<li><code>after:2024-04-25</code> montre les messages qui ont été postés à partir du 25 avril 2024 00:00.</li>
+<li><code>during:2024-04-25</code> montre les messages qui ont été postés le 25 avril 2024. C'est la forme courte pour <code>after:2024-04-25</code> <code>before:2024-04-26</code>.</li>
+</ul>
+
+<p>Ces trois opérateurs utilisent votre fuseau horaire local et non l'heure universelle.</p>
+
+<h4 id="langue">Langue</h4>
+
+<p><code>language:en</code> recherche les messages en anglais. <code>language:fr</code> recherche les messages en français. Vous pouvez utiliser tous les codes de langue ISO-639-1 (à deux lettres) et quelques codes ISO-639-3 (à trois lettres).</p>
+
+<h4 id="type">Type</h4>
+
+<ul>
+<li><code>is:reply</code> pour n'obtenir que les réponses.</li>
+<li><code>is:sensitive</code> pour n'obtenir que les messages comportant un avertissement de contenu.</li>
+</ul>
+
+<h4 id="caractristiques">Caractéristiques</h4>
+
+<ul>
+<li><code>has:media</code> pour les messages contenant des images ou des vidéos.</li>
+<li><code>has:image</code> pour les messages contenant des images en pièce jointe.</li>
+<li><code>has:video</code> pour les messages contenant des vidéos.</li>
+<li><code>has:link</code> pour les messages contenant des URL.</li>
+<li><code>has:poll</code> pour les messages contenant des sondages.</li>
+<li><code>has:embed</code> pour les messages contenant des éléments incorporés. Il ne s'agit pas d'aperçus, mais d'<i lang="en">embeds</i> réels comme une vidéo que vous pouvez regarder sans quitter votre client.</li>
+</ul>
+
+<h4 id="faitsamusantsbizarreries">Faits amusants / bizarreries</h4>
+
+<p><code>is:</code> et <code>has:</code> sont traités de la même manière. Par conséquent, vous pouvez rechercher soit <code>has:image</code> soit <code>is:image</code> et obtenir les mêmes résultats. Dans le cas des réponses, cela peut être trompeur : <code>has:reply</code> ne trouve pas les messages qui ont des réponses, mais les messages qui sont des réponses.</p>
+
+<h4 id="sources:">Sources:</h4>
+
+<ul>
+<li>au départ, un toot de <a href="https://gamedev.lgbt/@aetataureate" hreflang="en">@aetataureate</a> aujourd'hui supprimé ;</li>
+<li>un tutoriel de Luca Hammer, <i lang="en"><a href="https://lucahammer.com/2024/04/25/mastodon-advanced-search-guide-and-operators" hreflang="en">Mastodon Advanced Search Guide and Operators</a></i>.</li>
+</ul>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn:1"><p>Instances Mastodon utilisant la version 4.2 ou plus récente.<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:2"><p>Les administrateurs peuvent modifier la valeur par défaut. Toutefois, les utilisateurs gardent la main pour modifier le réglage quand à l'incorporation de leurs propres messages et profil dans le moteur de recherche. Pour cela, allez dans "Préférences", "Profil", onglet "Vie privée et confidentialité", et réglez l'option "Inclure mes messages publics dans les résultats de recherche". Il y a également une option "Inclure la page de profil dans les moteurs de recherches".<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br> 27/1/2025 18:05</span><br></div>
+<div id="ffb-stats"></div><p class="ffb-explanation">Avec un compte Mastodon ou du Fediverse, vous pouvez répondre à ce billet. Étant donné que le Fediverse est un système décentralisé, vous pouvez réagir en utilisant votre compte hébergé par un serveur Mastodon ou une plate-forme similaire, en suivant le lien ci-après ou en le collant dans la barre de recherche de votre application : <a href="https://mastodon.mg/@barijaona/113672116437820034" title="Réagir">https://mastodon.mg/@barijaona/113672116437820034</a></p><ffb-comments feedback="https://mastodon.mg/@barijaona/113672116437820034"></ffb-comments>
+
+<br>
+
+</main>
+<br><em>Billet classé dans la catégorie :</em> <a href="https://blog.barijaona.com/index.html">Accueil</a>&nbsp;&gt;&nbsp;<a href="https://blog.barijaona.com/web/index.html">Web</a>&nbsp;&gt;&nbsp;<a href="https://blog.barijaona.com/web/fediverse/index.html">Fediverse</a>&nbsp;&gt;&nbsp;Recherche Dans Mastodon
+<br><br></div></div>
+
+<nav><div class="topnav">
+<span class="theme1">&nbsp;<a href="https://blog.barijaona.com/" title="Les éditoriaux" class="menu" accesskey="1">Accueil</a>&nbsp;</span>|<span class="theme2">&nbsp;
+<a href="https://blog.barijaona.com/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="https://blog.barijaona.com/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="https://blog.barijaona.com/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="https://blog.barijaona.com/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="https://blog.barijaona.com/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br>
+<div class="nav1">&nbsp;<a href="https://blog.barijaona.com/web/" class="submenu" title="Historique des mutations du site">Carnet Web</a>&nbsp;|&nbsp;<a href="https://blog.barijaona.com/print66/" class="submenu" title="A freeware print daemon for Classical Macintosh" hreflang="en">Print66</a>&nbsp;|&nbsp;<a href="https://blog.barijaona.com/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
+</div></nav>
+
+<aside><div class="nav2">
+
+<div class="box">
+<div class="search">
+<form method="get" id="search" action="https://duckduckgo.com/">
+   <label for="motcle" accesskey="4">Rechercher dans le site</label>
+   <input type="text" name="q" id="motcle" maxlength="255" placeholder="mot(s) clé(s)">
+   <input type="hidden" name="sites" value="barijaona.com">
+   <input type="hidden" name="kj" value="#7F7F7F">
+   <input type="submit" value="Rechercher">
+</form>
+</div>
+
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
+
+</div></aside>
+
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" title="billet du 29 d&eacute;cembre 2024">&lt;-&nbsp;Tirer parti des autres serveurs</a></div></div></nav>
+
+<footer><div class="contentfooter">
+<br>
+<div class="source-org vcard copyright">
+<!-- Contrat Creative Commons -->
+Certains droits protégés par <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">licence Creative Commons</a>
+<!-- /Contrat Creative Commons -->
+
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   <license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+</Work>
+
+<License rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+
+</rdf:RDF>
+
+-->, 2025 Barijaona Ramaholimihaso</div><br>Réagissez par les liens de commentaires ou par courriel : <script>
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "SmE28OKlB@cESODEKlE.2KG"
+  key = "s1mFOjarbKtnukgZ6p39RQMBNGHCDEScU8lI5J7fVe4ixzWYoAydPh2LvqT0wX"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>reactions (arobace) barijaona.com</noscript>
+
+</div></footer>
+
+
+</body>
+</html>

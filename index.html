@@ -22,7 +22,7 @@
 <link rel="stylesheet" media="print" type="text/css" href="https://blog.barijaona.com/style/print.css">
 <meta name="fediverse:creator" content="@barijaona@mastodon.mg"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="https://blog.barijaona.com/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="https://blog.barijaona.com/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="https://blog.barijaona.com/shortened.xml">
 
-<link rel="prev" href="https://blog.barijaona.com/web/blosxom-refresh-2024.html" title="2024, renouveau du web décentralisé">
+<link rel="prev" href="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" title="Rajout de notes avec un raccourci Apple">
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
@@ -35,6 +35,95 @@
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="https://blog.barijaona.com"><h1>Étonnements rapides et durables</h1></a><em>Ahanements d'octets austraux</em></header>
 <main>
+<article class="h-entry post">
+<h3 class="accent4"><a href="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2025-01-27" class="timestamp dt-published">[&nbsp;lundi 27 janvier 2025,&nbsp;17:58&nbsp;]</time>&nbsp;<span class="p-name">Rechercher sur votre instance Mastodon</span></a></h3>
+<div class="post-full e-content"><p>Je reprends et prolonge ici le <i>toot</i> que j'ai publié et qui jusqu'à ce jour a engendré le plus de réactions…</p>
+
+<p>Oui, il est indéniable que l'utilisation du Fediverse demeure un peu plus "technique" qu'adhérer à une plate-forme de réseau social centralisatrice. Mais les développeurs de Mastodon font un travail de fond patient et sérieux et, petit à petit, l'oiseau fait son nid. Ainsi, s'il fut une époque où il était très difficile de retrouver un post sur Mastodon, les choses se sont quand même améliorées avec les versions récentes<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">1</a>. L'on est désormais moins confronté à la phrase maudite : "J'avais remarqué cela quelque part sur Mastodon et je l'avais même boosté, mais où diable se trouve ce message ?".</p>
+
+<p>L'ajout de l'argument de recherche <code>from:me</code> permet de rechercher parmi vos propres messages.</p>
+
+<p>L'ajout de l'argument de recherche <code>in:library</code> permet de rechercher parmi les messages que vous avez mis en favoris ou inclus dans vos marque-pages.</p>
+
+<p>La recherche fonctionne pour les messages qui sont publics et qui proviennent d'un compte qui a configuré ses messages pour qu'ils puissent faire l'objet d'une recherche. Par défaut, les messages ne peuvent pas faire l'objet d'une recherche : il faut que les utilisateurs aient consenti à ce que leur profil puisse faire l'objet de recherche<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">2</a>. Vous pouvez toutefois toujours rechercher parmi vos propres messages, ainsi que parmi les messages avec lesquels vous avez interagi, par exemple en les mettant en favoris.</p>
+
+<h4 id="utilisateur">Utilisateur</h4>
+
+<ul>
+<li><code>from:me</code> affiche vos messages, comme indiqué précédemment.</li>
+<li><code>from:nom d'utilisateur</code> affiche les messages de la personne ayant ce nom d'utilisateur. Pour les utilisateurs d'autres instances, vous devez utiliser le nom d'utilisateur complet. Par exemple : <code>from:lisamelton@mastodon.social</code>  </li>
+</ul>
+
+<h4 id="naturedelindex">Nature de l'index</h4>
+
+<ul>
+<li><code>in:library</code> : comme indiqué précédemment, ce paramètre recherche dans vos propres messages, vos favoris et marque-pages, ainsi que les messages qui vous mentionnent.</li>
+<li><code>in:public</code> : affiche les messages publics qui sont connus de votre instance et qui peuvent faire l'objet de recherche.</li>
+<li><code>in:all</code> : combine les deux options précédentes. C'est l'option par défaut, vous n'avez pas besoin de l'utiliser explicitement.</li>
+</ul>
+
+<h4 id="exclusions">Exclusions</h4>
+
+<p>Vous pouvez exclure un terme de recherche par <code>-motClé</code>. Ceci fonctionne également pour n'importe lequel des autres opérateurs comme <code>-is:reply</code>. Il y a aussi <code>+</code>, mais comme le comportement par défaut est de combiner les opérateurs, vous n'en avez pas besoin.</p>
+
+<h4 id="heure">Heure</h4>
+
+<ul>
+<li><code>before:2024-04-25</code> affiche les messages qui ont été postés avant le 25 avril 2024 00:00.</li>
+<li><code>after:2024-04-25</code> montre les messages qui ont été postés à partir du 25 avril 2024 00:00.</li>
+<li><code>during:2024-04-25</code> montre les messages qui ont été postés le 25 avril 2024. C'est la forme courte pour <code>after:2024-04-25</code> <code>before:2024-04-26</code>.</li>
+</ul>
+
+<p>Ces trois opérateurs utilisent votre fuseau horaire local et non l'heure universelle.</p>
+
+<h4 id="langue">Langue</h4>
+
+<p><code>language:en</code> recherche les messages en anglais. <code>language:fr</code> recherche les messages en français. Vous pouvez utiliser tous les codes de langue ISO-639-1 (à deux lettres) et quelques codes ISO-639-3 (à trois lettres).</p>
+
+<h4 id="type">Type</h4>
+
+<ul>
+<li><code>is:reply</code> pour n'obtenir que les réponses.</li>
+<li><code>is:sensitive</code> pour n'obtenir que les messages comportant un avertissement de contenu.</li>
+</ul>
+
+<h4 id="caractristiques">Caractéristiques</h4>
+
+<ul>
+<li><code>has:media</code> pour les messages contenant des images ou des vidéos.</li>
+<li><code>has:image</code> pour les messages contenant des images en pièce jointe.</li>
+<li><code>has:video</code> pour les messages contenant des vidéos.</li>
+<li><code>has:link</code> pour les messages contenant des URL.</li>
+<li><code>has:poll</code> pour les messages contenant des sondages.</li>
+<li><code>has:embed</code> pour les messages contenant des éléments incorporés. Il ne s'agit pas d'aperçus, mais d'<i lang="en">embeds</i> réels comme une vidéo que vous pouvez regarder sans quitter votre client.</li>
+</ul>
+
+<h4 id="faitsamusantsbizarreries">Faits amusants / bizarreries</h4>
+
+<p><code>is:</code> et <code>has:</code> sont traités de la même manière. Par conséquent, vous pouvez rechercher soit <code>has:image</code> soit <code>is:image</code> et obtenir les mêmes résultats. Dans le cas des réponses, cela peut être trompeur : <code>has:reply</code> ne trouve pas les messages qui ont des réponses, mais les messages qui sont des réponses.</p>
+
+<h4 id="sources:">Sources:</h4>
+
+<ul>
+<li>au départ, un toot de <a href="https://gamedev.lgbt/@aetataureate" hreflang="en">@aetataureate</a> aujourd'hui supprimé ;</li>
+<li>un tutoriel de Luca Hammer, <i lang="en"><a href="https://lucahammer.com/2024/04/25/mastodon-advanced-search-guide-and-operators" hreflang="en">Mastodon Advanced Search Guide and Operators</a></i>.</li>
+</ul>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn:1"><p>Instances Mastodon utilisant la version 4.2 ou plus récente.<a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:2"><p>Les administrateurs peuvent modifier la valeur par défaut. Toutefois, les utilisateurs gardent la main pour modifier le réglage quand à l'incorporation de leurs propres messages et profil dans le moteur de recherche. Pour cela, allez dans "Préférences", "Profil", onglet "Vie privée et confidentialité", et réglez l'option "Inclure mes messages publics dans les résultats de recherche". Il y a également une option "Inclure la page de profil dans les moteurs de recherches".<a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+</div></article>
+<div class="post-tools"><a class="ffb-link" href="https://mastodon.mg/@barijaona/113672116437820034">Réagir</a></div>
+<br>
+
+
 <article class="h-entry post">
 <h3 class="accent4"><a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2024-12-29" class="timestamp dt-published">[&nbsp;dimanche 29 décembre 2024,&nbsp;21:38&nbsp;]</time>&nbsp;<span class="p-name">Tirer parti des autres serveurs</span></a></h3>
 <div class="post-full e-content"><h4 id="chercherunhashtag">Chercher un hashtag</h4>
@@ -362,86 +451,6 @@ your content by boosting your “toot” to their followers or reply to it.</p><
 <br>
 
 
-<article class="h-entry post">
-<h3 class="accent3"><a href="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" rel="bookmark" title="Lien permanent vers cet article"><time datetime="2024-01-14" class="timestamp dt-published">[&nbsp;dimanche 14 janvier 2024,&nbsp;21:24&nbsp;]</time>&nbsp;<span class="p-name">Rajout de notes avec un raccourci Apple</span></a></h3>
-<div class="post-full e-content"><p>Lors de <a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html">l'épisode précédent</a>, j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.</p>
-
-<p>Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre <a href="https://fr.wikipedia.org/wiki/Loi_de_Wirth" title="loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n'accélère »">la loi de Wirth</a>. Lorsque je dois écrire quelque chose de consistent, j'utilise le vénérable BBEdit.</p>
-
-<p>Mais pour de petits ajouts rapides, je me suis dit qu'utiliser le menu de partage intégré dans bon nombre d'applications iPhone ou Mac pouvait être un plus.</p>
-
-<p>D'où l'idée de créer un raccourci (<i lang="en">Shortcut</i>) et de l'intégrer à ces fonctions de partage.</p>
-
-<p>Pour je ne sais quelle raison, l'application Raccourcis sur iOS n'arrive pas à écrire dans un dossier partagé Nextcloud, pourtant accessible via l'application Fichiers. Pour partager les données entre un Mac et un iPhone, j'ai de ce fait été contraint de réviser ma stratégie et mettre les fichiers sur iCloud Drive.</p>
-
-<p>Une fois cette contrainte prise en compte, <a href="https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e" title="lien iCloud drive">le raccourci auquel je suis arrivé</a> me satisfait largement sur iOS, un peu moins sur macOS où l'application Raccourcis semble moins mûre. Mais l'activation du dit raccourci n'est pas si évidente, d'où la publication du présent billet (qui, si vous suivez bien, a débuté en note à usage personnel) avec les remarques d'installation qui suivent.</p>
-
-<h4 id="surios">Sur iOS</h4>
-
-<h5 id="permettreauxraccourcisdapparatredanslemenudepartage:">Permettre aux raccourcis d'apparaître dans le menu de partage :</h5>
-
-<p>Application <em>Réglages</em> ︎➙ <em>Raccourcis</em> ➙ <em>Partage privé</em> (à cocher)</p>
-
-<p><img id="copiecranraccourcisdanslapplicationrglagesdios" src="https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios1.jpg" alt="Copie écran Raccourcis dans l'application Réglages d'iOS" title="Copie écran Raccourcis dans l'application Réglages d'iOS" width="480"></p>
-
-<h5 id="installerleraccourciajouteraucarnet">Installer le raccourci "Ajouter au carnet"</h5>
-
-<p>Cliquez <a href="https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e" title="lien iCloud drive">ce lien</a>.</p>
-
-<p>Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci <em>Ajouter au carnet</em>. Lancer le raccourci une première fois pour vérifier qu'il fonctionne et qu'il puisse demander les autorisations d'accès au dossier "<em>_</em>Carnet" dans iCloud Drive.</p>
-
-<p><img id="copiecrancontenuduraccourci-partie1" src="https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios2.jpg" alt="Copie écran Contenu du raccourci - Partie 1" title="Copie écran Contenu du raccourci - Partie 1" width="480">
-<img id="copiecrancontenuduraccourci-partie2" src="https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios3.jpg" alt="Copie écran Contenu du raccourci - Partie 2" title="Copie écran Contenu du raccourci - Partie 2" width="480"></p>
-
-<h5 id="vrifierlesautorisationsduraccourci:">Vérifier les autorisations du raccourci :</h5>
-
-<p>Appuyer sur (…) qui permet de modifier, puis choisir l'onglet Informations ⓘ
-Vérifier que sont cochés :</p>
-
-<ul>
-<li><em>Dans la feuille de partage</em></li>
-<li><em>Epingler dans la barre de menus</em></li>
-<li><em>Recevoir le contenu affiché</em></li>
-<li><em>Utiliser comme action rapide</em></li>
-</ul>
-
-<p><img id="copiecraninformationsduraccourci" src="https://blog.barijaona.com/macintosh/ajouter-au-carnet-ios4.jpg" alt="Copie écran Informations du raccourci" title="Copie écran Informations du raccourci" width="480"></p>
-
-<h5 id="associerlesfichierstexteunditeurquivousplat">Associer les fichiers texte à un éditeur qui vous plaît</h5>
-
-<p>Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l'application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j'utilise <a href="https://apps.apple.com/app/pretext/id1347707000?l=fr-FR" title="Markdown &amp; Plain Text Editor">Pretext</a>.</p>
-
-<h4 id="surmacos">Sur macOS</h4>
-
-<h5 id="permettremenupartage2">Permettre aux raccourcis d'apparaître dans le menu de partage :</h5>
-
-<p>Activer dans <em>Réglages Système</em> ➙ <em>Confidentialité et sécurité</em> ➙ <em>Autres</em> ➙ <em>Extensions</em> ➙ <em>Partage</em> ➙ <em>Raccourcis</em>.</p>
-
-<p><img id="copiecranrglagessystme" src="https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos1.jpg" alt="Copie écran Réglages Système" title="Copie écran Réglages Système" width="720"></p>
-
-<h5 id="accepterlesraccourcisnonsignsparapple">Accepter les raccourcis non signés par Apple</h5>
-
-<p>Dans les réglages de Raccourcis.app, activer <em>Partage privé</em>.</p>
-
-<p>Lancer le raccourci <em>Ajouter au carnet</em> manuellement dans Raccourcis pour vérifier qu'il fonctionne.</p>
-
-<p>Cette fonction de partage est encore un peu buggée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel <em>Partager…</em>, mais je peux passer par l'élément de menu <em>Services</em> ➙ <em>Ajouter au carnet</em>.</p>
-
-<p><img id="copiecranmenucontextuelservices" src="https://blog.barijaona.com/macintosh/ajouter-au-carnet-macos2.jpg" alt="Copie écran menu contextuel Services" title="Copie écran menu contextuel Services" width="635"></p>
-
-<h4 id="rfrences:">Références :</h4>
-
-<ul>
-<li><a href="https://discussions.apple.com/thread/251930666?answerId=251930666021#251930666021" title="Apple Discussions" hreflang="en">Shortcuts app missing in share sheets (iOS) - SravanKrA's answer</a></li>
-<li><a href="https://www.reddit.com/r/ios/comments/jmbjtw/filesapp_how_to_control_what_app_opens_when_you/" title="Reddit" hreflang="en">Files.app - how to control what app opens when you click a file?</a></li>
-<li><a href="https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac" title="Guide d’utilisation de macOS Sonoma 14">Utiliser le menu Partager sur Mac</a></li>
-<li><a href="https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios" title="Guide d’utilisation de Raccourcis">Recevoir des éléments affichés à l’écran provenant d’autres apps</a></li>
-</ul>
-</div></article>
-<div class="post-tools"></div>
-<br>
-
-
 </main>
 
 <br><br></div></div>
@@ -464,7 +473,7 @@ Vérifier que sont cochés :</p>
    <input type="submit" value="Rechercher">
 </form>
 </div>
-<p class="note"><a href="https://blog.barijaona.com/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar"><table class="month-calendar"><caption class="month-calendar-head">décembre 2024</caption><colgroup style="text-align:center"><col span="7"></colgroup><thead><tr><th class="month-calendar-day-head Lundi">Lun</th>
+<p class="note"><a href="https://blog.barijaona.com/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar"><table class="month-calendar"><caption class="month-calendar-head">janvier 2025</caption><colgroup style="text-align:center"><col span="7"></colgroup><thead><tr><th class="month-calendar-day-head Lundi">Lun</th>
 <th class="month-calendar-day-head Mardi">Mar</th>
 <th class="month-calendar-day-head Mercredi">Mer</th>
 <th class="month-calendar-day-head Jeudi">Jeu</th>
@@ -474,54 +483,48 @@ Vérifier que sont cochés :</p>
 </tr></thead><tbody><tr>
 <td class="month-calendar-day-noday Lundi">&nbsp;</td>
 <td class="month-calendar-day-noday Mardi">&nbsp;</td>
-<td class="month-calendar-day-noday Mercredi">&nbsp;</td>
-<td class="month-calendar-day-noday Jeudi">&nbsp;</td>
-<td class="month-calendar-day-noday Vendredi">&nbsp;</td>
-<td class="month-calendar-day-noday Samedi">&nbsp;</td>
-<td class="month-calendar-day-nolink Dimanche">1</td>
+<td class="month-calendar-day-nolink Mercredi">1</td>
+<td class="month-calendar-day-nolink Jeudi">2</td>
+<td class="month-calendar-day-nolink Vendredi">3</td>
+<td class="month-calendar-day-nolink Samedi">4</td>
+<td class="month-calendar-day-nolink Dimanche">5</td>
 </tr>
 <tr>
-<td class="month-calendar-day-nolink Lundi">2</td>
-<td class="month-calendar-day-nolink Mardi">3</td>
-<td class="month-calendar-day-nolink Mercredi">4</td>
-<td class="month-calendar-day-nolink Jeudi">5</td>
-<td class="month-calendar-day-nolink Vendredi">6</td>
-<td class="month-calendar-day-nolink Samedi">7</td>
-<td class="month-calendar-day-link Dimanche"><a title="Dimanche 8 décembre 2024" href="https://blog.barijaona.com/2024/12/index.html#1208">8</a></td></tr>
-<tr>
-<td class="month-calendar-day-nolink Lundi">9</td>
-<td class="month-calendar-day-nolink Mardi">10</td>
-<td class="month-calendar-day-nolink Mercredi">11</td>
-<td class="month-calendar-day-nolink Jeudi">12</td>
-<td class="month-calendar-day-nolink Vendredi">13</td>
-<td class="month-calendar-day-nolink Samedi">14</td>
-<td class="month-calendar-day-nolink Dimanche">15</td>
+<td class="month-calendar-day-nolink Lundi">6</td>
+<td class="month-calendar-day-nolink Mardi">7</td>
+<td class="month-calendar-day-nolink Mercredi">8</td>
+<td class="month-calendar-day-nolink Jeudi">9</td>
+<td class="month-calendar-day-nolink Vendredi">10</td>
+<td class="month-calendar-day-nolink Samedi">11</td>
+<td class="month-calendar-day-nolink Dimanche">12</td>
 </tr>
 <tr>
-<td class="month-calendar-day-nolink Lundi">16</td>
-<td class="month-calendar-day-nolink Mardi">17</td>
-<td class="month-calendar-day-nolink Mercredi">18</td>
-<td class="month-calendar-day-nolink Jeudi">19</td>
-<td class="month-calendar-day-nolink Vendredi">20</td>
-<td class="month-calendar-day-nolink Samedi">21</td>
-<td class="month-calendar-day-nolink Dimanche">22</td>
+<td class="month-calendar-day-nolink Lundi">13</td>
+<td class="month-calendar-day-nolink Mardi">14</td>
+<td class="month-calendar-day-nolink Mercredi">15</td>
+<td class="month-calendar-day-nolink Jeudi">16</td>
+<td class="month-calendar-day-nolink Vendredi">17</td>
+<td class="month-calendar-day-nolink Samedi">18</td>
+<td class="month-calendar-day-nolink Dimanche">19</td>
 </tr>
 <tr>
-<td class="month-calendar-day-nolink Lundi">23</td>
-<td class="month-calendar-day-link Mardi"><a title="Mardi 24 décembre 2024" href="https://blog.barijaona.com/2024/12/index.html#1224">24</a></td><td class="month-calendar-day-nolink Mercredi">25</td>
-<td class="month-calendar-day-nolink Jeudi">26</td>
-<td class="month-calendar-day-nolink Vendredi">27</td>
-<td class="month-calendar-day-link Samedi"><a title="Samedi 28 décembre 2024" href="https://blog.barijaona.com/2024/12/index.html#1228">28</a></td><td class="month-calendar-day-link Dimanche"><a title="Dimanche 29 décembre 2024" href="https://blog.barijaona.com/2024/12/index.html#1229">29</a></td></tr>
+<td class="month-calendar-day-nolink Lundi">20</td>
+<td class="month-calendar-day-nolink Mardi">21</td>
+<td class="month-calendar-day-nolink Mercredi">22</td>
+<td class="month-calendar-day-nolink Jeudi">23</td>
+<td class="month-calendar-day-nolink Vendredi">24</td>
+<td class="month-calendar-day-nolink Samedi">25</td>
+<td class="month-calendar-day-nolink Dimanche">26</td>
+</tr>
 <tr>
-<td class="month-calendar-day-this-day Lundi">30</td>
-<td class="month-calendar-day-future Mardi">31</td>
-<td class="month-calendar-day-noday Mercredi">&nbsp;</td>
-<td class="month-calendar-day-noday Jeudi">&nbsp;</td>
-<td class="month-calendar-day-noday Vendredi">&nbsp;</td>
+<td class="month-calendar-day-this-day Lundi"><a title="Lundi 27 janvier 2025" href="https://blog.barijaona.com/2025/01/index.html#0127">27</a></td><td class="month-calendar-day-future Mardi">28</td>
+<td class="month-calendar-day-future Mercredi">29</td>
+<td class="month-calendar-day-future Jeudi">30</td>
+<td class="month-calendar-day-future Vendredi">31</td>
 <td class="month-calendar-day-noday Samedi">&nbsp;</td>
 <td class="month-calendar-day-noday Dimanche">&nbsp;</td>
 </tr>
-<tr><td colspan="7" style="text-align:center"><a title="novembre 2024" href="https://blog.barijaona.com/2024/11/">Nov</a>&nbsp;&nbsp;...</td></tr></tbody></table></div>
+<tr><td colspan="7" style="text-align:center"><a title="décembre 2024" href="https://blog.barijaona.com/2024/12/">Dec</a>&nbsp;&nbsp;...</td></tr></tbody></table></div>
 <p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
 
 <div id="mt-timeline" class="box mt-timeline">
@@ -543,7 +546,7 @@ Vérifier que sont cochés :</p>
 
 </div></aside>
 
-<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/web/blosxom-refresh-2024.html" title="billet du 11 janvier 2024">&lt;-&nbsp;2024, renouveau du web décentralisé</a></div><div class="droite">À suivre...</div></div></nav>
+<nav><div class="contentfooter tableau"><div class="gauche"><a href="https://blog.barijaona.com/macintosh/ajouter-au-carnet.html" title="billet du 14 janvier 2024">&lt;-&nbsp;Rajout de notes avec un raccourci Apple</a></div><div class="droite">À suivre...</div></div></nav>
 
 <footer><div class="contentfooter">
 <br>
