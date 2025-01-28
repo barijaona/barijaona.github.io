@@ -74,7 +74,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;before:2024-04-25&lt;/code&gt; affiche les messages qui ont été postés avant le 25 avril 2024 00:00.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;after:2024-04-25&lt;/code&gt; montre les messages qui ont été postés à partir du 25 avril 2024 00:00.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;after:2024-04-25&lt;/code&gt; montre les messages qui ont été postés à partir du 26 avril 2024 00:00.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;during:2024-04-25&lt;/code&gt; montre les messages qui ont été postés le 25 avril 2024. C&apos;est la forme courte pour &lt;code&gt;after:2024-04-25&lt;/code&gt; &lt;code&gt;before:2024-04-26&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 

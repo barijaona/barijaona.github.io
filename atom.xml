@@ -16,7 +16,7 @@
   <rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</rights>
   <icon>https://blog.barijaona.com/favicon.ico</icon>
   
-  <updated>2025-01-27T15:05:00Z</updated>
+  <updated>2025-01-28T09:28:00Z</updated>
 
   <entry>
     <id>tag:barijaona.com,2025:/web/fediverse/recherche-dans-mastodon</id>
@@ -24,7 +24,7 @@
 
     <title type="text">Rechercher sur votre instance Mastodon</title>
     <published>2025-01-27T14:58:00Z</published>
-    <updated>2025-01-27T15:05:00Z</updated>
+    <updated>2025-01-28T09:28:00Z</updated>
     <category term="/web/fediverse"/>
     <author>
       <name>Barijaona Ramaholimihaso</name>
@@ -65,7 +65,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;before:2024-04-25&lt;/code&gt; affiche les messages qui ont été postés avant le 25 avril 2024 00:00.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;after:2024-04-25&lt;/code&gt; montre les messages qui ont été postés à partir du 25 avril 2024 00:00.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;after:2024-04-25&lt;/code&gt; montre les messages qui ont été postés à partir du 26 avril 2024 00:00.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;during:2024-04-25&lt;/code&gt; montre les messages qui ont été postés le 25 avril 2024. C'est la forme courte pour &lt;code&gt;after:2024-04-25&lt;/code&gt; &lt;code&gt;before:2024-04-26&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
