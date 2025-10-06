@@ -22,7 +22,7 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
@@ -38,16 +38,13 @@
 
   </channel>
   
-<item rdf:about="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html">
-	<title>Le futur est fédéré</title>
-	<link>https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html</link>
-	<description>Elena Rossini :
-
-
-  Le fédivers a été construit par des individus, pas par de riches entreprises...</description>
-	<dc:subject>/web/fediverse</dc:subject>
+<item rdf:about="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html">
+	<title>Une crise de plus</title>
+	<link>https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html</link>
+	<description>Madagascar vit1 "une crise" de plus...</description>
+	<dc:subject>/plusperso</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2025-06-20T22:32:00+03:00</dc:date>
+	<dc:date>2025-10-06T08:38:00+03:00</dc:date>
 
 </item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">

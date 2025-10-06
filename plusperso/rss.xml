@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,9 +10,9 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="//blog.barijaona.com">
+  <channel rdf:about="https://blog.barijaona.com">
     <title>Étonnements rapides et durables</title>
-    <link>http://blog.barijaona.com</link>
+    <link>https://blog.barijaona.com</link>
     <description>Ahanements d'octets austraux</description>
     <dc:language>fr</dc:language>
     <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
@@ -22,7 +22,8 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="//blog.barijaona.com/plusperso/jobs.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/jobs.html" />
 
       </rdf:Seq>
     </items>
@@ -31,15 +32,23 @@
 
   </channel>
   
-<item rdf:about="//blog.barijaona.com/plusperso/jobs.html">
+<item rdf:about="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html">
+	<title>Une crise de plus</title>
+	<link>https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html</link>
+	<description>Madagascar vit1 "une crise" de plus...</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-06T08:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/plusperso/jobs.html">
 	<title>Se faire de la bile</title>
-	<link>http://blog.barijaona.com/plusperso/jobs.html</link>
+	<link>https://blog.barijaona.com/plusperso/jobs.html</link>
 	<description>Alors que j'ignorais presque tout de cette maladie il y a encore 7-8 ans, j'ai du mal aujourd'hui à compter les personnes qui comptent pour moi qui sont mortes depuis d'un cancer du pancréas...</description>
-    
-    <dc:subject>/plusperso</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2011-10-09T23:51:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2011-10-09T23:51:00+03:00</dc:date>
+
+</item>
 
 </rdf:RDF>
