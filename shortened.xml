@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/futile/yas-or-no.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/blogosphere/Lunar.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/principes-sorties-crises.html">
+	<title>Sortie(s) de crise(s)</title>
+	<link>https://blog.barijaona.com/madagascar/principes-sorties-crises.html</link>
+	<description>Rappel: Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-09T07:05:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html">
 	<title>Une crise de plus</title>
 	<link>https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html</link>
@@ -103,15 +112,6 @@ Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abo
 	<dc:subject>/web/fediverse/en</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-12-08T08:19:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/blogosphere/Lunar.html">
-	<title>Maintenir vivant nos idéaux</title>
-	<link>https://blog.barijaona.com/blogosphere/Lunar.html</link>
-	<description>C'est avec émotion que j'apprends via Tristant Nitot le décès de Lunar...</description>
-	<dc:subject>/blogosphere</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-11-18T00:28:00+03:00</dc:date>
 
 </item>
 

@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/singapour-meemf.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/kopy_cop.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/etat-de-droit.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/principes-sorties-crises.html">
+	<title>Sortie(s) de crise(s)</title>
+	<link>https://blog.barijaona.com/madagascar/principes-sorties-crises.html</link>
+	<description>Rappel: Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-09T07:05:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html">
 	<title>Maintenir paraît ennuyeux…</title>
 	<link>https://blog.barijaona.com/madagascar/hopital-v2-sobre.html</link>
@@ -106,15 +115,6 @@ Face aux interrogations sur les raisons de la taille de la délégation malgache
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/madagascar/etat-de-droit.html">
-	<title>« Droit » et état de droit</title>
-	<link>https://blog.barijaona.com/madagascar/etat-de-droit.html</link>
-	<description>Commentaire actuellement en attente de modération chez Zo Razanamasy suite à la décision de la Cour électorale spéciale (CES) de rejeter sa requête de demande d'annulation de la candidature de Hery Rajaonarimampianina...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2013-11-14T06:38:00+03:00</dc:date>
 
 </item>
 
