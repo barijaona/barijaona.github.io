@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/futile/yas-or-no.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/capsat2025.html">
+	<title>L&apos;envol d&apos;une dictature militaire (?)</title>
+	<link>https://blog.barijaona.com/madagascar/capsat2025.html</link>
+	<description>Copié-collé d'une réflexion lue sur un groupe de messagerie privée, à la suite des déclarations de militaires du camp CAPSAT...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-11T14:20:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/principes-sorties-crises.html">
 	<title>Sortie(s) de crise(s)</title>
 	<link>https://blog.barijaona.com/madagascar/principes-sorties-crises.html</link>
@@ -54,6 +63,18 @@
 	<dc:subject>/plusperso</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2025-10-06T08:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html">
+	<title>Le futur est fédéré</title>
+	<link>https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html</link>
+	<description>Elena Rossini :
+
+
+  Le fédivers a été construit par des individus, pas par de riches entreprises...</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-06-20T22:32:00+03:00</dc:date>
 
 </item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
@@ -94,24 +115,6 @@ Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abo
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-12-28T21:43:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/futile/yas-or-no.html">
-	<title>Yet Another What?</title>
-	<link>https://blog.barijaona.com/futile/yas-or-no.html</link>
-	<description>Telma (ex-Télécom Malagasy) a été rebaptisé Yas...</description>
-	<dc:subject>/futile</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-24T18:11:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html">
-	<title>Same Spirit, Refreshed Tools</title>
-	<link>https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html</link>
-	<description>If you search for static site generator in a search engine, you’re unlikely to come across any mention of "Blosxom"1...</description>
-	<dc:subject>/web/fediverse/en</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-08T08:19:00+03:00</dc:date>
 
 </item>
 

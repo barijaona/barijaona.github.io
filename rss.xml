@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/futile/yas-or-no.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,26 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/capsat2025.html">
+	<title>L&apos;envol d&apos;une dictature militaire (?)</title>
+	<link>https://blog.barijaona.com/madagascar/capsat2025.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Copié-collé d&apos;une réflexion lue sur un groupe de messagerie privée, à la suite des &lt;a href=&quot;ttps://www.facebook.com/reel/1140109491545691/&quot; title=&quot;Fanambarana - Vidéo Reel Facebook&quot; hreflang=&quot;mg&quot;&gt;déclarations&lt;/a&gt; de militaires du camp CAPSAT.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CAPSAT, 11 octobre. L&apos;histoire recommence. Le scénario le plus probable, le directoire militaire est en train de se réaliser sous nos yeux. Des militaires rassemblés autour d&apos;une table appelle ouvertement à la sédition. Ils appellent tous les militaires à quitter immédiatement leurs postes et à rejoindre la Compagnie Administrative et de Service des Armées et du Trésor (CAPSAT). En sachant qu&apos;il s&apos;agit du cœur de l&apos;administration militaire malgache et le point de départ du soulèvement militaire de 2009, la suite du scénario est évidente. Pourtant l&apos;enthousiasme n&apos;est pas de mise. &lt;/p&gt;
+
+&lt;p&gt;Si les militaires s’emparent du pouvoir sans s’appuyer sur un civil, que va-t-il se passer ? Le contexte africain en donne la clé. Au Mali, au Burkina Faso, en Guinée, au Soudan, à chaque fois, le scénario est le même. Des officiers renversent un régime au nom du peuple, promettent une transition courte, puis confisquent le pouvoir pour ériger une dictature sans précédent.&lt;/p&gt;
+
+&lt;p&gt;Ne vous y trompez pas. Malgré la propagande des pays de l’AES, soutenus par la machine politique et médiatique russe, malgré les indicateurs économiques brandis comme trophées, la réalité est bien plus sombre avec le muselage systématique des médias, les arrestations arbitraires ainsi que la répression de toute voix dissidente. En définitif, ce sont des États militarisés jusqu’à l’os, où la peur a remplacé la parole.&lt;/p&gt;
+
+&lt;p&gt;C’est cette ombre qui plane aujourd’hui sur Madagascar. Une ombre lourde, patiente, prête à engloutir les dernières braises d’une jeunesse qui croyait encore au changement.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/madagascar/capsat2025.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-11T14:20:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/principes-sorties-crises.html">
 	<title>Sortie(s) de crise(s)</title>
 	<link>https://blog.barijaona.com/madagascar/principes-sorties-crises.html</link>
@@ -150,6 +170,28 @@
 	<dc:subject>/plusperso</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2025-10-06T08:38:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html">
+	<title>Le futur est fédéré</title>
+	<link>https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;&lt;a href=&quot;https://news.elenarossini.com/fedivers-video/&quot; title=&quot;Découvrez le fédivers : une nouvelle ère pour les réseaux sociaux&quot;&gt;Elena Rossini&lt;/a&gt; :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Le fédivers a été construit par des individus, pas par de riches entreprises.&lt;/p&gt;
+
+&lt;p&gt;Il n&apos;a donc littéralement aucun budget pour le marketing.&lt;/p&gt;
+
+&lt;p&gt;Sa croissance a été longue et organique, grâce au bouche-à-oreille.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Contribuons donc au bouche à oreille…&lt;/p&gt;
+
+&lt;div style=&quot;position: relative; padding-top: 56.25%;&quot;&gt;&lt;iframe title=&quot;Découvrez le fédivers : une nouvelle ère pour les réseaux sociaux&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://videos.elenarossini.com/videos/embed/hxzy97B63KJBtVC6jU5Cf4?subtitle=fr&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; sandbox=&quot;allow-same-origin allow-scripts allow-popups allow-forms&quot; style=&quot;position: absolute; inset: 0px;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/web/fediverse</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-06-20T22:32:00+03:00</dc:date>
 
 </item>
 <item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
@@ -390,103 +432,6 @@ L&apos;actionner permettra souvent de mieux comprendre le contexte dudit message
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-12-28T21:43:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/futile/yas-or-no.html">
-	<title>Yet Another What?</title>
-	<link>https://blog.barijaona.com/futile/yas-or-no.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Telma (ex-Télécom Malagasy) a été rebaptisé Yas. Mon impression est que le changement de nom est essentiellement motivé par la création d&apos;un nom panafricain afin de plaire aux marchés financiers.&lt;/p&gt;
-
-&lt;p&gt;Et je fais le constat que dans le domaine des télécoms, les marketeux et financiers ont pris le dessus sur les ingénieurs. Les geeks, s&apos;il en reste, auraient pu faire la remarque qu&apos;&lt;a href=&quot;https://en.wikipedia.org/wiki/Yet_another&quot; hreflang=&quot;en&quot;&gt;un nom commençant par YA&lt;/a&gt; est souvent un aveu humoristique que ce qui est ainsi nommé a un peu de mal à démontrer son originalité.&lt;/p&gt;
-
-&lt;p&gt;Un exemple parmi d&apos;autres : &lt;a href=&quot;https://github.com/yadm-dev/yadm&quot; hreflang=&quot;en&quot;&gt;yadm - Yet Another Dotfiles Manager&lt;/a&gt; qui rejoint une &lt;a href=&quot;https://github.com/topics/dotfiles-manager&quot; hreflang=&quot;en&quot;&gt;liste&lt;/a&gt; actuellement composée de 303 projets similaires…&lt;/p&gt;
-
-&lt;p&gt;Cette curieuse impression est confortée par la &lt;a href=&quot;https://www.yas.km/about/&quot; title=&quot;Yas Comores&quot;&gt;laborieuse explication&lt;/a&gt; déclinée sur les sites de la &quot;nouvelle&quot; marque.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Que signifie la marque Yas ?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Yas reflète qui nous sommes aujourd’hui et notre vision pour l’avenir, en vous donnant les moyens de saisir de nouvelles opportunités numériques. Cette marque dynamique et tournée vers l’avenir incarne notre énergie, notre optimisme et notre engagement à créer des expériences positives. En tant que marque née en Afrique, pour l’Afrique, l’identité moderne de Yas favorise des liens étroits avec nos publics. Notre logo audacieux, ludique et nos couleurs vives reflètent la vivacité des communautés que nous servons, montrant notre approche jeune et dynamique pour bâtir ensemble un avenir plus radieux. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;En résumé : ça ne veut rien dire, mais on nous a demandé d&apos;essayer de faire djeunz…&lt;/p&gt;
-
-&lt;p&gt;Yas, c&apos;est Yet Another… ?&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/futile/yas-or-no.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/futile</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-24T18:11:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html">
-	<title>Same Spirit, Refreshed Tools</title>
-	<link>https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;If you search for &lt;q&gt;static site generator&lt;/q&gt; in a search engine, you’re unlikely to come across any mention of &quot;Blosxom&quot;&lt;a href=&quot;#fn:amazon&quot; id=&quot;fnref:amazon&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;. However, an &lt;a href=&quot;https://siliconangle.com/2012/03/20/5-minimalist-static-html-blog-generators-to-check-out/&quot; title=&quot;5 Minimalist Static Blog Generators to Check Out&quot;&gt;article from 2012&lt;/a&gt; states that &lt;q&gt;&lt;i&gt;Blosxom is the original open source static site generator&lt;/i&gt;&lt;/q&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;alongridewithblosxom&quot;&gt;A long ride with Blosxom&lt;/h4&gt;
-
-&lt;p&gt;I could not agree more. Since &lt;a href=&quot;https://blog.barijaona.com/web/bascule_sous_blosxom.html&quot; hreflang=&quot;fr&quot;&gt;October 2003&lt;/a&gt;, this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which &lt;a href=&quot;https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html&quot; title=&quot;Announcement of Blosxom starter kit in September 2024&quot;&gt;led me to package a Blosxom starter kit&lt;/a&gt; for anyone willing to try out Blosxom&apos;s &quot;static rendering&quot;.&lt;/p&gt;
-
-&lt;p&gt;There never was a strong enough reason to change, so I stuck with my system. However, some frustrations emerged over time:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the state of abandonment of the Blosxom website&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;concerns about potential legal and privacy issues which might arise from the use of an external commenting system (though I never had specific problems with Disqus);&lt;/li&gt;
-&lt;li&gt;a relative decline in the blogging ecosystem, which led to a shift in conversations moving to social networks;&lt;/li&gt;
-&lt;li&gt;a feeling that I could get better interactions with open web standards.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;attractiontothefediverse&quot;&gt;Attraction to the Fediverse&lt;/h4&gt;
-
-&lt;p&gt;I was aware of &lt;a href=&quot;https://indieweb.org/Webmention&quot; title=&quot;W3C Recommendation for interactions across the web&quot;&gt;WebMentions&lt;/a&gt;, but was never motivated enough to give a try at implementing it.&lt;/p&gt;
-
-&lt;p&gt;Then two flushes of motivation came from discoveries :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://mementomori.social/@rolle&quot; title=&quot;Roni Laukkarinen, owner of
-mementomori.social&quot;&gt;@rolle&lt;/a&gt;&apos;s blog, with this particular post : &lt;a href=&quot;https://rolle.design/comment-to-a-wordpress-blog-post-via-the-fediverse&quot; title=&quot;rolle.design, December 2023&quot;&gt;Comment to a WordPress blog post via the Fediverse&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;a portion of Coralie Mercier&apos;s &lt;a href=&quot;https://www.w3.org/blog/2024/on-the-55th-world-standards-day-my-history-of-the-web-and-relationship-with-w3c/&quot;&gt;interview&lt;/a&gt; on the history of the Web and her relationship with W3C (starting at 14:50)
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/5sCmpE_v9aA?si=hoADtbLHmsQlTdZX&amp;amp;start=890&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;anewcommentingsystembasedonmastodon&quot;&gt;A new commenting system based on Mastodon&lt;/h4&gt;
-
-&lt;p&gt;After &lt;a href=&quot;https://w3c.social/@koalie/113288170505154472&quot; title=&quot;Discussion on W3C.social&quot;&gt;the ensuing conversation&lt;/a&gt;, I had a tentative timeframe for implementing a solution.&lt;/p&gt;
-
-&lt;p&gt;The initial setup was quite manual, but this post marks the &quot;official&quot; release of the &lt;a href=&quot;https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/fedifeedback/&quot; title=&quot;Directory content in Blosxom blosxom-plugins repository&quot;&gt;fedifeedback plugin for Blosxom&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Once installed, using the plugin is straightforward:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;publish your blog post, without enabling Fediverse discussion
-yet (i.e., no toot ID).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;write a post on Mastodon (or any similar system that supports
-the Mastodon API, like GoToSocial, PixelFed, Pleroma, Friendica, Iceshrimp, Sharkey, etc.).
-This post (“toot”) should link to your blog post and help
-increase its visibility. It will allow users to easily share and engage with
-your content by boosting your “toot” to their followers or reply to it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;grab the “toot” URL and update your blog post to include it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;republish the website.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Example: the source text of this article can be found at: &lt;a href=&quot;https://github.com/barijaona/com.barijaona.blog.source/blob/master/posts/web/fediverse/en/Fedifeedback-plugin-for-blosxom.txt&quot;&gt;https://github.com/barijaona/com.barijaona.blog.source/blob/master/posts/web/fediverse/en/Fedifeedback-plugin-for-blosxom.txt&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Some of the code (Javascript and CSS) is derived from &lt;a href=&quot;https://danielpecos.com/2022/12/25/mastodon-as-comment-system-for-your-static-blog/&quot; title=&quot;Mastodon as comment system for your static blog&quot;&gt;Daniel Pecos Martinez&lt;/a&gt;&apos;s &lt;a href=&quot;https://github.com/dpecos/mastodon-comments&quot; title=&quot;Mastodon-Comments on Github&quot;&gt;web component&lt;/a&gt;. However, I modified it significantly to align with my vision of Blosxom&apos;s philosophy. And for the first time in my life, I have included a part entitled &lt;em&gt;ENVIRONMENTAL AND SOCIAL CONSIDERATIONS&lt;/em&gt; in a software documentation…&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:amazon&quot;&gt;&lt;p&gt;Worst, the first result when searching &quot;the zen of blogging&quot; is an Amazon book titled &quot;The Zen of Blogging: Make money with your blog, fire your boss and live the good life&quot; 😢🙄&lt;a href=&quot;#fnref:amazon&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;I hope I&apos;ll have more about that in upcoming posts.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/fediverse/en/Fedifeedback-plugin-for-blosxom.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/web/fediverse/en</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-08T08:19:00+03:00</dc:date>
 
 </item>
 

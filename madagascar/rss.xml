@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/bilan2016.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/kopy_cop.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/capsat2025.html">
+	<title>L&apos;envol d&apos;une dictature militaire (?)</title>
+	<link>https://blog.barijaona.com/madagascar/capsat2025.html</link>
+	<description>Copié-collé d'une réflexion lue sur un groupe de messagerie privée, à la suite des déclarations de militaires du camp CAPSAT...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-11T14:20:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/principes-sorties-crises.html">
 	<title>Sortie(s) de crise(s)</title>
 	<link>https://blog.barijaona.com/madagascar/principes-sorties-crises.html</link>
@@ -101,20 +110,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/madagascar/kopy_cop.html">
-	<title>Kôpy ve sa tsy kôpy ianao ?</title>
-	<link>https://blog.barijaona.com/madagascar/kopy_cop.html</link>
-	<description>(reprise d'un post initialement publié le vendredi 4 décembre 2015 sur la page Facebook de la FAPBM)
-
-Face aux interrogations sur les raisons de la taille de la délégation malgache et sa visibilité réelle, il peut être utile de remettre en perspective la taille d'un évènement comme la COP en donnant quelques chiffres :
-
-
-160...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T10:50:00+03:00</dc:date>
 
 </item>
 
