@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="//blog.barijaona.com/style/rss.css" type="text/css"?>
+<?xml-stylesheet href="https://blog.barijaona.com/style/rss.css" type="text/css"?>
 <rdf:RDF 
   xmlns="http://purl.org/rss/1.0/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -10,11 +10,11 @@
   xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
 > 
 
-  <channel rdf:about="//blog.barijaona.com">
-    <title>Sous la Croix du Sud</title>
-    <link>http://blog.barijaona.com</link>
-    <description>Ahaneur d'octets austraux depuis 1998</description>
-    <language>fr</language>
+  <channel rdf:about="https://blog.barijaona.com">
+    <title>Étonnements rapides et durables</title>
+    <link>https://blog.barijaona.com</link>
+    <description>Ahanements d'octets austraux</description>
+    <dc:language>fr</dc:language>
     <dc:creator>Barijaona Ramaholimihaso (reactions@barijaona.com)</dc:creator>
     <dc:rights>Copyright Barijaona Ramaholimihaso</dc:rights>
     <admin:generatorAgent rdf:resource="http://www.blosxom.com" />
@@ -22,8 +22,9 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="//blog.barijaona.com/invites/maury_sanga3_2.html" />
-        <rdf:li rdf:resource="//blog.barijaona.com/invites/michele_rakotoson_saroy.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/invites/sankara-a-madagascar.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/invites/michele_rakotoson_saroy.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/invites/maury_sanga3_2.html" />
 
       </rdf:Seq>
     </items>
@@ -32,25 +33,32 @@
 
   </channel>
   
-<item rdf:about="//blog.barijaona.com/invites/maury_sanga3_2.html">
-	<title>Sanga 3 au jour le jour – Dimanche 9 novembre</title>
-	<link>http://blog.barijaona.com/invites/maury_sanga3_2.html</link>
-	<description>Ndlr : Madagascar accueille les 3èmes biennales internationales de la danse du 8 au 15 novembre...</description>
-    
-    <dc:subject>/invites</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2003-11-11T04:27:00+03:00</dc:date>
-    
-  </item>
-<item rdf:about="//blog.barijaona.com/invites/michele_rakotoson_saroy.html">
+<item rdf:about="https://blog.barijaona.com/invites/sankara-a-madagascar.html">
+	<title>Puisqu&apos;on parle de l&apos;armée et des scénarios à la Confédération des États du Sahel…</title>
+	<link>https://blog.barijaona.com/invites/sankara-a-madagascar.html</link>
+	<description>Merci à @Jogany, complice de longue date que j'ai un peu de mal à désigner sous son vrai nom de Joan Razafimaharo, de m'autoriser à reproduire un texte qui risquerait sinon de disparaître dans les mystères des algorithmes de Facebook...</description>
+	<dc:subject>/invites</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-11T17:46:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/invites/michele_rakotoson_saroy.html">
 	<title>À ma petite Saroy</title>
-	<link>http://blog.barijaona.com/invites/michele_rakotoson_saroy.html</link>
+	<link>https://blog.barijaona.com/invites/michele_rakotoson_saroy.html</link>
 	<description>Note : Merci à Michèle Rakotoson de m'avoir autorisé à publier sur ce site un bel et pertinent hommage aux paysans et paysannes de ce pays...</description>
-    
-    <dc:subject>/invites</dc:subject>
-    <dc:creator>Barijaona Ramaholimihaso</dc:creator>
-    <dc:date>2003-12-30T09:03:00+03:00</dc:date>
-    
-  </item>
+	<dc:subject>/invites</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2003-12-30T09:03:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/invites/maury_sanga3_2.html">
+	<title>Sanga 3 au jour le jour – Dimanche 9 novembre</title>
+	<link>https://blog.barijaona.com/invites/maury_sanga3_2.html</link>
+	<description>Ndlr : Madagascar accueille les 3èmes biennales internationales de la danse du 8 au 15 novembre...</description>
+	<dc:subject>/invites</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2003-11-11T04:27:00+03:00</dc:date>
+
+</item>
 
 </rdf:RDF>
