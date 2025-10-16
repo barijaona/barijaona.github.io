@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/invites/sankara-a-madagascar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html">
+	<title>Vers une sortie de crise plus consensuelle ?</title>
+	<link>https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html</link>
+	<description>Nouveau développement qui me semble important pour l'avenir : lors d'une conférence de presse tenue au camp du CAPSAT, le colonel Michaël Randrianirina a déclaré que les militaires étaient prêts à se conformer à une décision de la Haute Cour Constitutionnelle (HCC) en date du 14 octobre 2025...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-16T07:22:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/invites/sankara-a-madagascar.html">
 	<title>Puisqu&apos;on parle de l&apos;armée et des scénarios à la Confédération des États du Sahel…</title>
 	<link>https://blog.barijaona.com/invites/sankara-a-madagascar.html</link>
@@ -106,15 +115,6 @@ Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abo
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2024-12-29T21:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html">
-	<title>Le point clé 💪🏽 dans Mastodon : le menu « … » et sa commande « Ouvrir la page d&apos;origine »</title>
-	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p2.html</link>
-	<description>Le secret qu'il m'a fallu un peu de temps à découvrir, c'est que, pour enrichir et diversifier son fil personnel Mastodon, et plus particulièrement lorsqu'on est sur une petite instance, il faut partir en exploration active...</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-29T18:38:00+03:00</dc:date>
 
 </item>
 

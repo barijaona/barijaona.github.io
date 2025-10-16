@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/singapour-meemf.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/night_session_cop21.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_en.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html">
+	<title>Vers une sortie de crise plus consensuelle ?</title>
+	<link>https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html</link>
+	<description>Nouveau développement qui me semble important pour l'avenir : lors d'une conférence de presse tenue au camp du CAPSAT, le colonel Michaël Randrianirina a déclaré que les militaires étaient prêts à se conformer à une décision de la Haute Cour Constitutionnelle (HCC) en date du 14 octobre 2025...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-16T07:22:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/capsat2025.html">
 	<title>L&apos;envol d&apos;une dictature militaire (?)</title>
 	<link>https://blog.barijaona.com/madagascar/capsat2025.html</link>
@@ -101,15 +110,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2015-12-05T11:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html">
-	<title>Financement durable des aires protégées</title>
-	<link>https://blog.barijaona.com/madagascar/presentation_fapbm_cop21_fr.html</link>
-	<description>Une présentation par la FAPBM pour la COP21...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-05T11:36:00+03:00</dc:date>
 
 </item>
 
