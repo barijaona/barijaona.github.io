@@ -22,6 +22,8 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/cynisme.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/confiance.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/jobs.html" />
 
@@ -32,6 +34,24 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/plusperso/cynisme.html">
+	<title>Pourquoi le cynisme n&apos;est qu&apos;une lâcheté morale</title>
+	<link>https://blog.barijaona.com/plusperso/cynisme.html</link>
+	<description>[Traduction libre d'un billet de Joan Westenberg en date du 8 octobre 2025...</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-17T04:41:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/plusperso/confiance.html">
+	<title>Vigilance toujours</title>
+	<link>https://blog.barijaona.com/plusperso/confiance.html</link>
+	<description>La confiance est toujours révocable...</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-17T02:34:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html">
 	<title>Une crise de plus</title>
 	<link>https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html</link>

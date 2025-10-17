@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/cynisme.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/confiance.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/invites/sankara-a-madagascar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,24 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/plusperso/cynisme.html">
+	<title>Pourquoi le cynisme n&apos;est qu&apos;une lâcheté morale</title>
+	<link>https://blog.barijaona.com/plusperso/cynisme.html</link>
+	<description>[Traduction libre d'un billet de Joan Westenberg en date du 8 octobre 2025...</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-17T04:41:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/plusperso/confiance.html">
+	<title>Vigilance toujours</title>
+	<link>https://blog.barijaona.com/plusperso/confiance.html</link>
+	<description>La confiance est toujours révocable...</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-17T02:34:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html">
 	<title>Vers une sortie de crise plus consensuelle ?</title>
 	<link>https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html</link>
@@ -93,28 +111,6 @@
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2025-06-20T22:32:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
-	<title>Rechercher sur votre instance Mastodon</title>
-	<link>https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html</link>
-	<description>Je reprends et prolonge ici le toot que j'ai publié et qui jusqu'à ce jour a engendré le plus de réactions…
-
-Oui, il est indéniable que l'utilisation du Fediverse demeure un peu plus "technique" qu'adhérer à une plate-forme de réseau social centralisatrice...</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2025-01-27T17:58:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
-	<title>Tirer parti des autres serveurs</title>
-	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html</link>
-	<description>Chercher un hashtag
-
-Dans la première partie, j'ai expliqué que l'une des forces de Mastodon, l'abonnement à un hashtag, n'était pas si intéressant lorsque l'on est résident d'une petite instance...</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-29T21:38:00+03:00</dc:date>
 
 </item>
 

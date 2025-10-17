@@ -22,14 +22,14 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/cynisme.html" />
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/confiance.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/invites/sankara-a-madagascar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,132 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/plusperso/cynisme.html">
+	<title>Pourquoi le cynisme n&apos;est qu&apos;une lâcheté morale</title>
+	<link>https://blog.barijaona.com/plusperso/cynisme.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;[Traduction libre d&apos;un &lt;a href=&quot;https://www.joanwestenberg.com/p/why-cynicism-is-just-moral-cowardice&quot; title=&quot;Why Cynicism is Just Moral Cowardice&quot; hreflang=&quot;en&quot;&gt;billet de Joan Westenberg&lt;/a&gt; en date du 8 octobre 2025. Parce que j&apos;ai moi aussi connu au tournant de la vingtaine une période &lt;i lang=&quot;en&quot;&gt;punk&lt;/i&gt; &lt;q&gt;&lt;i lang=&quot;en&quot;&gt;No Future&lt;/i&gt;&lt;/q&gt;.]&lt;/p&gt;
+
+&lt;p&gt;« Quand la croyance est-elle devenue gênante ?&lt;/p&gt;
+
+&lt;p&gt;Notre état d’esprit par défaut a changé ces derniers temps : du scepticisme, qui peut être sain, au cynisme, qui a tendance à corrompre tout ce qu’il touche.&lt;/p&gt;
+
+&lt;p&gt;Je tiens à préciser ce que j’entends par cynisme : je parle de la pensée réflexe selon laquelle les motivations déclarées par tous sont fausses, que les institutions sont irrémédiablement corrompues, que les projets idéalistes sont soit des escroqueries, soit des illusions, qu’il n’y a aucun espoir, et que quiconque prétend le contraire est soit naïf, soit complice.&lt;/p&gt;
+
+&lt;p&gt;L&apos;attrait du cynisme réside dans le fait qu&apos;il vous donne l&apos;air intelligent sans exiger beaucoup de réflexion personnelle. Il est plus facile de démolir que de construire, d&apos;anticiper le pire que d&apos;évaluer les faits, de ricaner que de s&apos;engager, de sourire en coin plutôt que de sourire tout court.&lt;/p&gt;
+
+&lt;p&gt;Le cynique n’est jamais gêné d’avoir cru en quelque chose qui a échoué.&lt;/p&gt;
+
+&lt;p&gt;Il n&apos;est jamais pris en flagrant délit de ridicule parce qu&apos;il avait fait confiance.&lt;/p&gt;
+
+&lt;p&gt;C&apos;est une police d&apos;assurance contre la déception, et dans un monde qui déçoit régulièrement, qui peut blâmer les gens de vouloir se protéger ?&lt;/p&gt;
+
+&lt;p&gt;Mais le cynisme ne vous protège de la perte qu&apos;en vous empêchant de prendre des risques. Il vous protège de la souffrance d&apos;un idéalisme trahi, mais il le fait en rendant impossible de croire en quoi que ce soit. »&lt;/p&gt;
+
+&lt;p&gt;« Le cynique atteint l&apos;invulnérabilité en visant la stérilité. On ne peut pas être déçu par une cause à laquelle on n&apos;a jamais cru, un mouvement auquel on n&apos;a jamais adhéré, un homme auquel on n&apos;a jamais fait confiance, une idée à laquelle on n&apos;a jamais accordé une once d&apos;attention. &lt;/p&gt;
+
+&lt;p&gt;George Orwell était bien placé pour le savoir. Il a passé des années à documenter les crimes du totalitarisme et les échecs des mouvements politiques, mais il n&apos;a jamais cessé de croire que le socialisme démocratique était possible et valait la peine de se battre pour. Il était capable de garder simultanément à l&apos;esprit &lt;q&gt;&lt;i&gt;le régime de Staline est monstrueux&lt;/i&gt;&lt;/q&gt; et &lt;q&gt;&lt;i&gt;un système économique plus juste est réalisable&lt;/i&gt;&lt;/q&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ce à quoi Orwell a résisté, avec force et à contre-courant de la tendance moderne, c&apos;est au glissement du &lt;q&gt;&lt;i&gt;cette chose était corrompue&lt;/i&gt;&lt;/q&gt; vers le &lt;q&gt;&lt;i&gt;tout est forcément corrompu&lt;/i&gt;&lt;/q&gt;. Sa capacité à rester idéaliste tout en étant lucide sur les faiblesses humaines est l&apos;une des raisons pour lesquelles ses écrits restent toujours d&apos;actualité en 2025. »&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mais le bilan historique n&apos;est-il pas accablant ? La plupart des grands projets ne sont-ils pas des échecs ? La plupart des mouvements ne sont-ils pas récupérés, la plupart des institutions capturées, la plupart des idéalistes ne sont-ils pas démasqués comme étant des hypocrites ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;« Bien sûr.&lt;/p&gt;
+
+&lt;p&gt;Il existe (comme j’aime à le dire) de nombreux cas de ce genre.&lt;/p&gt;
+
+&lt;p&gt;La Révolution française a &lt;em&gt;bel et bien&lt;/em&gt; dévoré ses enfants. L&apos;Union soviétique &lt;em&gt;est devenue exactement&lt;/em&gt; le type de tyrannie qu&apos;elle prétendait renverser. Des politiciens qui militent pour des réformes &lt;em&gt;se laissent engloutir&lt;/em&gt; par le système qu&apos;ils avaient promis de changer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mais regardez ce qui se passe lorsque nous nous en arrêtons uniquement à cela : nous passons à côté de tous les cas où les choses ont vraiment fonctionné.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Le plan Marshall &lt;em&gt;a&lt;/em&gt; contribué à reconstruire l&apos;Europe. Le mouvement des droits civiques &lt;em&gt;a mis fin&lt;/em&gt; à la ségrégation raciale. La variole &lt;em&gt;a été&lt;/em&gt; éradiquée grâce à un effort de coordination internationale. Le Protocole de Montréal &lt;em&gt;a permis&lt;/em&gt; de remédier au trou dans la couche d&apos;ozone. S&apos;agit-il de réussites parfaites ? Non, elles sont toutes le fruit d&apos;une série de compromis douteux, d&apos;exécutions imparfaites et de conséquences imprévues.&lt;/p&gt;
+
+&lt;p&gt;Mais elles se sont produites.&lt;/p&gt;
+
+&lt;p&gt;Et le monde est différent // meilleur grâce à elles.&lt;/p&gt;
+
+&lt;p&gt;Le cynique universel traite ces succès soit comme des coups de chance, soit comme de la propagande, ce qui est une position impossible à tenir. Si chaque succès apparent doit être réinterprété comme un heureux hasard ou une façade pour quelque chose de sombre et louche, vous avez rendu votre vision du monde infalsifiable. Vous avez créé une théorie qui explique tout et rien. »&lt;/p&gt;
+
+&lt;p&gt;« Le cynique prétend être le seul à vouloir voir le monde tel qu&apos;il est réellement, tandis que tous les autres se complairaient dans des fictions réconfortantes. &lt;em&gt;Mais c&apos;est l&apos;inverse&lt;/em&gt;. Le cynique a simplement choisi un autre ensemble d&apos;axiomes, qui filtre tout autant la réalité que l&apos;optimisme naïf. Si l&apos;optimiste ne voit que le bien, le cynique ne voit que le mal, et tous deux sont aveugles à la réalité confuse, compliquée et désordonnée // foireuse qui se présente à eux.&lt;/p&gt;
+
+&lt;p&gt;Oui, il existe des crises de reproductibilité, des biais de publication et des incitations perverses qui récompensent les découvertes spectaculaires et ignorent le travail acharné. Le cynique s&apos;en sert pour conclure qu&apos;il ne faut se fier à aucune découverte scientifique, que l&apos;expertise n&apos;est que l&apos;entre soi de diplômés et que l&apos;évaluation par les pairs est un système de rémunération. Ce qui rend impossible de distinguer les domaines présentant de graves problèmes de ceux présentant des lacunes mineures, les études profondément biaisées de celles qui sont simplement imparfaites, les experts qui défendent un certain programme de ceux qui tentent de découvrir la vérité.&lt;/p&gt;
+
+&lt;p&gt;Quand tout est arnaque, plus rien n&apos;est arnaque. Quand chacun est motivé par des intérêts égoïstes cachés, nous abdiquons toute capacité à distinguer une personne véritablement engagée dans le bien commun d&apos;une personne véritablement escroc.&lt;/p&gt;
+
+&lt;p&gt;Le cynique pourrait dire : &lt;q&gt;&lt;i&gt;voyez-vous, c’est là le problème, il n’y a aucune différence.&lt;/q&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;C&apos;est juste abandonner.&lt;/p&gt;
+
+&lt;p&gt;Et je ne suis pas du genre à abandonner. »&lt;/p&gt;
+
+&lt;p&gt;« Je soupçonne qu&apos;une partie du cynisme moderne est due à la surcharge d&apos;informations. Nous sommes exposés à un flot incessant d&apos;histoires de corruption, d&apos;échecs et de trahisons. Pour chaque témoignage réconfortant d&apos;une association caritative faisant du bien, on compte trois révélations sur la fraude. Pour chaque intervention politique efficace, on compte dix échecs. Et tout cela est plus visible que jamais. Il est facile d&apos;examiner ce flot d&apos;informations et de conclure que le ratio échec/succès doit nous inciter à partir du principe que l&apos;échec est la norme.&lt;/p&gt;
+
+&lt;p&gt;En tant que journaliste, croyez-moi quand je vous dit qu&apos;il s’agit d’un problème d’échantillonnage. Les mauvaises nouvelles suscitent plus d&apos;attention que les bonnes. Les échecs sont plus intéressants que les réussites. L’association qui distribue efficacement des moustiquaires antipaludiques depuis vingt ans fait l&apos;objet d&apos;un seul article ; celle qui s’effondre suite à un scandale en suscite des dizaines. Notre environnement informationnel tend à donner une image plus sombre du monde qu’il ne l’est, et le cynique est soit aveugle, soit arrogant, soit assez stupide pour prendre cet échantillon biaisé pour la réalité objective.&lt;/p&gt;
+
+&lt;p&gt;De plus, le cynisme agit comme un marqueur de statut social dans certaines communautés. Le merdeux capable d&apos;expliquer pourquoi une proposition ne fonctionnera pas paraît plus intelligent que celui qui suggère qu&apos;elle pourrait fonctionner si l&apos;on ajustait ces trois paramètres. Et celui qui remet en question les motivations de chacun paraît plus sophistiqué que celui qui prend au pied de la lettre les intentions déclarées.&lt;/p&gt;
+
+&lt;p&gt;On observe alors un effet de cliquet : chaque génération d&apos;intellectuels s&apos;efforce d&apos;être plus cynique que la précédente pour prouver sa supériorité. Les penseurs des Lumières ont remis en question l&apos;autorité traditionnelle ; les romantiques ont remis en question le rationalisme des Lumières ; les modernistes ont remis en question tous les grands récits ; les postmodernistes ont remis en question la possibilité même de la vérité. Chaque étape semblait apporter une compréhension plus profonde, mais à un certain moment, la remise en question se transforme en tour de passe-passe. »&lt;/p&gt;
+
+&lt;p&gt;« Le cynique objectera que j&apos;attaque un épouvantail // personne n&apos;est vraiment cynique universel en pratique // chacun fait des exceptions pour ce qui lui tient à cœur. Et c&apos;est en partie vrai. La plupart des personnes qui adoptent des postures cyniques sont d&apos;un cynisme incohérent. Elles croient légitimes les causes qu&apos;elles défendent tout en rejetant celles des autres. Elles font confiance à leurs experts préférés tout en supposant que ceux des autres sont compromis. Elles pensent que les institutions de leur camp sont fonctionnelles tout en traitant celles de l&apos;autre camp comme irrémédiablement corrompues.&lt;/p&gt;
+
+&lt;p&gt;Mais le cynisme incohérent pourrait être encore pire que le cynisme universel. Il ajoute un raisonnement motivé et du tribalisme à un point de vue déjà problématique. Au moins, le cynique universel est impartial dans son mépris. Le cynique sélectif utilise simplement le cynisme comme couverture, l&apos;appliquant quand cela lui convient et le mettant de côté lorsque ses intérêts sont en jeu.&lt;/p&gt;
+
+&lt;p&gt;L&apos;optimisme pur n&apos;est clairement pas la solution. La confiance naïve mène à l&apos;exploitation, la foi aveugle mène au sectarisme, et l&apos;acceptation aveugle conduit à de mauvaises décisions. »&lt;/p&gt;
+
+&lt;p&gt;« Quoi donc, alors ?&lt;/p&gt;
+
+&lt;p&gt;William James a écrit sur la volonté de croire ; dans certaines situations, croire en quelque chose peut rendre plus probable que cela devienne vrai. Autrement dit, la démocratie ne fonctionne que si les citoyens y croient et y participent en conséquence. Les communautés scientifiques ne fonctionnent que si les gens croient que l&apos;honnêteté intellectuelle est possible et travaillent pour cela.&lt;/p&gt;
+
+&lt;p&gt;Le cynique répond qu&apos;il s&apos;agit là de raisonnements motivés, que nous croyons à certaines choses parce que nous voulons qu&apos;elles soient vraies plutôt que parce qu&apos;elles sont vraies. Mais les institutions, les mouvements et les normes sociales n&apos;existent que dans la mesure où les gens y croient et agissent comme si elles sont réelles. Le cynique qui traite toutes les institutions de corrompues contribue à leur corruption en les privant de l&apos;engagement de bonne foi &lt;strong&gt;qui les préserve de la corruption&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le cynisme universel est une lâcheté morale, le refus de se risquer à investir ses espoirs dans quoi que ce soit, car cela reviendrait à admettre que l&apos;on se soucie suffisamment de quelque chose pour prendre le risque de se tromper à son sujet. Le cynique se sent supérieur sans rien apporter, critique sans rien construire, a raison sur les échecs sans jamais risquer l&apos;échec lui-même.&lt;/p&gt;
+
+&lt;p&gt;Voilà le véritable argument contre le cynisme : il protège l’ego aux dépens du monde. Il vous donne l’impression d’être intelligent tout en vous rendant confortablement inutile. Il vous protège de la déception tout en vous barrant la réussite. Et tout cela à moindre coût, à un prix défiant toute concurrence, tout en prétendant être la seule position honnête, la seule position réaliste.&lt;/p&gt;
+
+&lt;p&gt;Et c&apos;est des conneries.&lt;/p&gt;
+
+&lt;p&gt;Voir les choses telles qu’elles sont, c’est voir à la fois les échecs et les succès, à la fois la corruption et l’intégrité, à la fois l’intérêt personnel et l’altruisme qui existent dans le monde.&lt;/p&gt;
+
+&lt;p&gt;L’invulnérabilité du cynique n’est en réalité qu’un autre mot pour désigner l’impuissance.&lt;/p&gt;
+
+&lt;p&gt;Et l’impuissance peut vous protéger de l’échec, mais elle vous garantit aussi que vous ne réussirez jamais rien à rien. »&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-#Madagascar&quot;&gt;#Monde
+#Malagasy
+#GenZ
+#GenZoky&lt;/code&gt;&lt;/pre&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/plusperso/cynisme.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-17T04:41:00+03:00</dc:date>
+
+</item>
+<item rdf:about="https://blog.barijaona.com/plusperso/confiance.html">
+	<title>Vigilance toujours</title>
+	<link>https://blog.barijaona.com/plusperso/confiance.html</link>
+	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;La confiance est toujours révocable.&lt;/p&gt;
+
+&lt;p&gt;Si vous avez aimé un produit ou un logiciel, et qu&apos;il se détériore, que ses conditions changent, qu&apos;il ajoute des fonctions d&apos;espionnage, vous pouvez changer d&apos;avis et cesser de lui faire confiance et de l&apos;utiliser.&lt;/p&gt;
+
+&lt;p&gt;Vous devez toujours réajuster votre jugement lorsque vous recevez de nouvelles informations.&lt;/p&gt;
+
+&lt;p&gt;Cela s&apos;applique aux produits, aux plateformes, aux entreprises, aux partis politiques et aux personnes.&lt;/p&gt;
+
+&lt;p&gt;[Traduction libre d&apos;un &lt;a href=&quot;https://infosec.exchange/@Em0nM4stodon/115385174351170926&quot; title=&quot;16 octobre 2025&quot; hreflang=&quot;en&quot;&gt;toot de Em&lt;/a&gt;]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-&quot;&gt;#Enshitification #Merdification
+#Madagascar
+#Monde
+#Politique
+#Plateformes
+#Logiciels&lt;/code&gt;&lt;/pre&gt;
+&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/plusperso/confiance.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-17T02:34:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html">
 	<title>Vers une sortie de crise plus consensuelle ?</title>
 	<link>https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html</link>
@@ -303,152 +429,6 @@ son séjour dans le Sud aurait profondément marqué Sankara. Il aurait confié 
 	<dc:subject>/web/fediverse</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2025-06-20T22:32:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html">
-	<title>Rechercher sur votre instance Mastodon</title>
-	<link>https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;p&gt;Je reprends et prolonge ici le &lt;i&gt;toot&lt;/i&gt; que j&apos;ai publié et qui jusqu&apos;à ce jour a engendré le plus de réactions…&lt;/p&gt;
-
-&lt;p&gt;Oui, il est indéniable que l&apos;utilisation du Fediverse demeure un peu plus &quot;technique&quot; qu&apos;adhérer à une plate-forme de réseau social centralisatrice. Mais les développeurs de Mastodon font un travail de fond patient et sérieux et, petit à petit, l&apos;oiseau fait son nid. Ainsi, s&apos;il fut une époque où il était très difficile de retrouver un post sur Mastodon, les choses se sont quand même améliorées avec les versions récentes&lt;a href=&quot;#fn:1&quot; id=&quot;fnref:1&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;. L&apos;on est désormais moins confronté à la phrase maudite : &quot;J&apos;avais remarqué cela quelque part sur Mastodon et je l&apos;avais même boosté, mais où diable se trouve ce message ?&quot;.&lt;/p&gt;
-
-&lt;p&gt;L&apos;ajout de l&apos;argument de recherche &lt;code&gt;from:me&lt;/code&gt; permet de rechercher parmi vos propres messages.&lt;/p&gt;
-
-&lt;p&gt;L&apos;ajout de l&apos;argument de recherche &lt;code&gt;in:library&lt;/code&gt; permet de rechercher parmi les messages que vous avez mis en favoris ou inclus dans vos marque-pages.&lt;/p&gt;
-
-&lt;p&gt;La recherche fonctionne pour les messages qui sont publics et qui proviennent d&apos;un compte qui a configuré ses messages pour qu&apos;ils puissent faire l&apos;objet d&apos;une recherche. Par défaut, les messages ne peuvent pas faire l&apos;objet d&apos;une recherche : il faut que les utilisateurs aient consenti à ce que leur profil puisse faire l&apos;objet de recherche&lt;a href=&quot;#fn:2&quot; id=&quot;fnref:2&quot; title=&quot;see footnote&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;. Vous pouvez toutefois toujours rechercher parmi vos propres messages, ainsi que parmi les messages avec lesquels vous avez interagi, par exemple en les mettant en favoris.&lt;/p&gt;
-
-&lt;h4 id=&quot;utilisateur&quot;&gt;Utilisateur&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;from:me&lt;/code&gt; affiche vos messages, comme indiqué précédemment.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;from:nom d&apos;utilisateur&lt;/code&gt; affiche les messages de la personne ayant ce nom d&apos;utilisateur. Pour les utilisateurs d&apos;autres instances, vous devez utiliser le nom d&apos;utilisateur complet. Par exemple : &lt;code&gt;from:lisamelton@mastodon.social&lt;/code&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;naturedelindex&quot;&gt;Nature de l&apos;index&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;in:library&lt;/code&gt; : comme indiqué précédemment, ce paramètre recherche dans vos propres messages, vos favoris et marque-pages, ainsi que les messages qui vous mentionnent.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;in:public&lt;/code&gt; : affiche les messages publics qui sont connus de votre instance et qui peuvent faire l&apos;objet de recherche.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;in:all&lt;/code&gt; : combine les deux options précédentes. C&apos;est l&apos;option par défaut, vous n&apos;avez pas besoin de l&apos;utiliser explicitement.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;exclusions&quot;&gt;Exclusions&lt;/h4&gt;
-
-&lt;p&gt;Vous pouvez exclure un terme de recherche par &lt;code&gt;-motClé&lt;/code&gt;. Ceci fonctionne également pour n&apos;importe lequel des autres opérateurs comme &lt;code&gt;-is:reply&lt;/code&gt;. Il y a aussi &lt;code&gt;+&lt;/code&gt;, mais comme le comportement par défaut est de combiner les opérateurs, vous n&apos;en avez pas besoin.&lt;/p&gt;
-
-&lt;h4 id=&quot;heure&quot;&gt;Heure&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;before:2024-04-25&lt;/code&gt; affiche les messages qui ont été postés avant le 25 avril 2024 00:00.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;after:2024-04-25&lt;/code&gt; montre les messages qui ont été postés à partir du 26 avril 2024 00:00.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;during:2024-04-25&lt;/code&gt; montre les messages qui ont été postés le 25 avril 2024. C&apos;est la forme courte pour &lt;code&gt;after:2024-04-25&lt;/code&gt; &lt;code&gt;before:2024-04-26&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ces trois opérateurs utilisent votre fuseau horaire local et non l&apos;heure universelle.&lt;/p&gt;
-
-&lt;h4 id=&quot;langue&quot;&gt;Langue&lt;/h4&gt;
-
-&lt;p&gt;&lt;code&gt;language:en&lt;/code&gt; recherche les messages en anglais. &lt;code&gt;language:fr&lt;/code&gt; recherche les messages en français. Vous pouvez utiliser tous les codes de langue ISO-639-1 (à deux lettres) et quelques codes ISO-639-3 (à trois lettres).&lt;/p&gt;
-
-&lt;h4 id=&quot;type&quot;&gt;Type&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;is:reply&lt;/code&gt; pour n&apos;obtenir que les réponses.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;is:sensitive&lt;/code&gt; pour n&apos;obtenir que les messages comportant un avertissement de contenu.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;caractristiques&quot;&gt;Caractéristiques&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;has:media&lt;/code&gt; pour les messages contenant des images ou des vidéos.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;has:image&lt;/code&gt; pour les messages contenant des images en pièce jointe.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;has:video&lt;/code&gt; pour les messages contenant des vidéos.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;has:link&lt;/code&gt; pour les messages contenant des URL.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;has:poll&lt;/code&gt; pour les messages contenant des sondages.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;has:embed&lt;/code&gt; pour les messages contenant des éléments incorporés. Il ne s&apos;agit pas d&apos;aperçus, mais d&apos;&lt;i lang=&quot;en&quot;&gt;embeds&lt;/i&gt; réels comme une vidéo que vous pouvez regarder sans quitter votre client.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;faitsamusantsbizarreries&quot;&gt;Faits amusants / bizarreries&lt;/h4&gt;
-
-&lt;p&gt;&lt;code&gt;is:&lt;/code&gt; et &lt;code&gt;has:&lt;/code&gt; sont traités de la même manière. Par conséquent, vous pouvez rechercher soit &lt;code&gt;has:image&lt;/code&gt; soit &lt;code&gt;is:image&lt;/code&gt; et obtenir les mêmes résultats. Dans le cas des réponses, cela peut être trompeur : &lt;code&gt;has:reply&lt;/code&gt; ne trouve pas les messages qui ont des réponses, mais les messages qui sont des réponses.&lt;/p&gt;
-
-&lt;h4 id=&quot;sources:&quot;&gt;Sources:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;au départ, un toot de &lt;a href=&quot;https://gamedev.lgbt/@aetataureate&quot; hreflang=&quot;en&quot;&gt;@aetataureate&lt;/a&gt; aujourd&apos;hui supprimé ;&lt;/li&gt;
-&lt;li&gt;un tutoriel de Luca Hammer, &lt;i lang=&quot;en&quot;&gt;&lt;a href=&quot;https://lucahammer.com/2024/04/25/mastodon-advanced-search-guide-and-operators&quot; hreflang=&quot;en&quot;&gt;Mastodon Advanced Search Guide and Operators&lt;/a&gt;&lt;/i&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;Instances Mastodon utilisant la version 4.2 ou plus récente.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;Les administrateurs peuvent modifier la valeur par défaut. Toutefois, les utilisateurs gardent la main pour modifier le réglage quand à l&apos;incorporation de leurs propres messages et profil dans le moteur de recherche. Pour cela, allez dans &quot;Préférences&quot;, &quot;Profil&quot;, onglet &quot;Vie privée et confidentialité&quot;, et réglez l&apos;option &quot;Inclure mes messages publics dans les résultats de recherche&quot;. Il y a également une option &quot;Inclure la page de profil dans les moteurs de recherches&quot;.&lt;a href=&quot;#fnref:2&quot; title=&quot;return to article&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/fediverse/recherche-dans-mastodon.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2025-01-27T17:58:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html">
-	<title>Tirer parti des autres serveurs</title>
-	<link>https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html</link>
-	<description><![CDATA[<link rel="stylesheet" href="https://blog.barijaona.com/style/rss.css" type="text/css" title="styled" />]]>&lt;h4 id=&quot;chercherunhashtag&quot;&gt;Chercher un hashtag&lt;/h4&gt;
-
-&lt;p&gt;Dans la &lt;a href=&quot;https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon.html&quot; title=&quot;Construire son fil personnel Mastodon&quot;&gt;première partie&lt;/a&gt;, j&apos;ai expliqué que l&apos;une des forces de Mastodon, l&apos;abonnement à un hashtag, n&apos;était pas si intéressant lorsque l&apos;on est résident d&apos;une petite instance.&lt;/p&gt;
-
-&lt;p&gt;Toutefois, ce n&apos;est pas un handicap car même si l&apos;on n&apos;en est pas résident, la plupart des grosses instances Mastodon laissent leur moteur de recherche accessible au visiteur anonyme. C&apos;est valable aussi bien pour les  &quot;officiels&quot; &lt;a href=&quot;https://mastodon.social/search&quot;&gt;mastodon.social&lt;/a&gt; et &lt;a href=&quot;https://mastodon.online/search&quot;&gt;mastodon.online&lt;/a&gt;, que pour les outsiders &lt;a href=&quot;https://mstdn.social/search&quot;&gt;mstdn.social&lt;/a&gt;, &lt;a href=&quot;https://mas.to/search&quot;&gt;mas.to&lt;/a&gt; et &lt;a href=&quot;https://social.vivaldi.net/search&quot;&gt;Vivaldi&lt;/a&gt; ou les plus sulfureux  &lt;a href=&quot;https://baraag.net/search&quot;&gt;baraag.net&lt;/a&gt; et &lt;a href=&quot;https://pawoo.net/search&quot;&gt;pawoo.net&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pour ma part, j&apos;ai acquis le réflexe de taper directement le modèe d&apos;URL pour rechercher un hashtag :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;https://&lt;/code&gt;&lt;em&gt;domaine.example&lt;/em&gt;&lt;code&gt;/tags/&lt;/code&gt;&lt;em&gt;LibelléDuTag&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;explorerunecommunaut&quot;&gt;Explorer une communauté&lt;/h4&gt;
-
-&lt;p&gt;Si les groses instances ont leurs vertus, les petites ont aussi les leurs. Dont la moindre n&apos;est pas d&apos;héberger des groupes de personnes plus petits, souvent plus homogènes, ce qui en facilite la modération.&lt;/p&gt;
-
-&lt;p&gt;On peut trouver des listes de serveurs sur notamment &lt;a href=&quot;https://joinmastodon.org/servers&quot; hreflang=&quot;en&quot;&gt;joinmastodon.org&lt;/a&gt;, &lt;a href=&quot;https://fedi.garden&quot; hreflang=&quot;en&quot;&gt;fedi.garden&lt;/a&gt; et &lt;a href=&quot;https://mastodonservers.net&quot; hreflang=&quot;en&quot;&gt;mastodonservers.net&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Là aussi, j&apos;ai acquis le réflexe de taper directement les URL pour trouver le fil local, à mon avis plus parlant que le répertoire des utilisateurs :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;https://&lt;/code&gt;&lt;em&gt;domaine.example&lt;/em&gt;&lt;code&gt;/public/local&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Sur certaines instances, l&apos;accès à ce fil local est réservé aux membres enregistrés, pour des raisons de protection de la vie privée. Dans d&apos;autres instances, il est pollué par des robots mal configurés, et dont les administrateurs n&apos;ont pas modifié les réglages par défaut. Mais en général, sur les instances de taille moyenne, il permet de faire de belles découvertes.&lt;/p&gt;
-
-&lt;p&gt;Plusieurs clients Mastodon permettent de suivre des fils locaux additionnels, en sus de celui de l&apos;instance où l&apos;on a son compte. Pour ma part, je jette de temps en temps un œeil sur :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dans le codage :
-&lt;ul&gt;&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://iosdev.space/public/local&quot;&gt;iosdev.space&lt;/a&gt;: a server for all SwiftLang developers&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://infosec.exchange/public/local&quot;&gt;infosec.exchange&lt;/a&gt;: a Mastodon instance for info/cyber security-minded people&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://techhub.social/public/local&quot;&gt;techhub.social&lt;/a&gt;: a hub primarily for passionate technologists&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://hachyderm.io/public/local&quot;&gt;Hachyderm&lt;/a&gt;: Hachyderm is a safe space, LGBTQIA+ and BLM, primarily comprised of tech industry professionals world wide&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Dans d&apos;autres professions :
-&lt;ul&gt;&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://hci.social/public/local&quot;&gt;hci.social&lt;/a&gt;: for Human-computer Interaction researchers and practitioners&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://mastodon.energy/public/local&quot;&gt;mastodon.energy&lt;/a&gt;: a server dedicated to professional and academic individuals or organizations working on energy transition policy, infrastructure, technology, journalism, and science&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Pour les sciences :
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://social.sciences.re/public/local&quot;&gt;Sciences·Re&lt;/a&gt; : Sciences·Re souhaite offrir un espace de partage, de collaboration et de discussion en ligne pour la communauté scientifique, académique, éducative francophone&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://scicomm.xyz/public/local&quot;&gt;scicomm.xyz&lt;/a&gt;: an instance for scientists, researchers, science students, communicators, and enthusiasts&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://mstdn.science/public/local&quot;&gt;mstdn.science&lt;/a&gt;: a place for scientists and science enthusiasts to discuss research and topics surrounding our work&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Plus généralistes :
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tooting.ch/public/local&quot;&gt;tooting.ch&lt;/a&gt; : instance Mastodon suisse pour les personnes de Suisse et hébergée par l&apos;association FairSocialNet&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://mastodon.xyz/public/local&quot;&gt;mastodon.xyz&lt;/a&gt;: open to everyone, but mainly English and French speaking&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://toad.social/public/local&quot;&gt;toad.social&lt;/a&gt;: operated by David Troy, a tech pioneer and investigative journalist addressing threats to democracy&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;&lt;a href=&quot;https://hostux.social/public/local&quot;&gt;hostux.social&lt;/a&gt;: European mastodon instance hosted in Luxembourg. Also beer, privacy and free software lovers.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span lang=&quot;en&quot;&gt;[freeradical.zone]https://freeradical.zone/public/local: infosec and privacy and technology and leftward politics and cats and dogs and...&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Entre le début de la rédaction de cette série d&apos;articles, hier matin, et sa conclusion, ce soir, je me suis abonné à 12 comptes de plus. Preuve s&apos;il en fallait que le Fediverse est plein de richesses qui restent encore à explorer !&lt;/p&gt;
-&lt;br /&gt;Barijaona Ramaholimihaso - Certains droits protégés par &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr&quot;&gt;licence Creative Commons&lt;/a&gt;&lt;br /&gt;&lt;a href="https://blog.barijaona.com/web/fediverse/construire-fil-perso-mastodon-p3.html#comments" title="Commentaire(s)"&gt;Réagissez&lt;/a&gt;</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2024-12-29T21:38:00+03:00</dc:date>
 
 </item>
 
