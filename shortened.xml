@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/appel_17octobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/cynisme.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/confiance.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/appel_17octobre.html">
+	<title>Et le Madagascar réel, bon sang ?</title>
+	<link>https://blog.barijaona.com/madagascar/appel_17octobre.html</link>
+	<description>En France, sous l'Ancien Régime, il y avait trois ordres : le Clergé, la Noblesse et le Tiers état...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-19T05:17:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/plusperso/cynisme.html">
 	<title>Pourquoi le cynisme n&apos;est qu&apos;une lâcheté morale</title>
 	<link>https://blog.barijaona.com/plusperso/cynisme.html</link>
@@ -99,18 +108,6 @@
 	<dc:subject>/plusperso</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2025-10-06T08:38:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html">
-	<title>Le futur est fédéré</title>
-	<link>https://blog.barijaona.com/web/fediverse/Le-futur-est-fedivers.html</link>
-	<description>Elena Rossini :
-
-
-  Le fédivers a été construit par des individus, pas par de riches entreprises...</description>
-	<dc:subject>/web/fediverse</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2025-06-20T22:32:00+03:00</dc:date>
 
 </item>
 
