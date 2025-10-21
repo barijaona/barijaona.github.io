@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/surprise-20-octobre-2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/cynisme.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/confiance.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/madagascar-crise-septembre2025.html" />
@@ -34,6 +35,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/plusperso/surprise-20-octobre-2025.html">
+	<title>Me voilà rattrapé par le passé…</title>
+	<link>https://blog.barijaona.com/plusperso/surprise-20-octobre-2025.html</link>
+	<description>On m'a beaucoup téléphoné hier en début de soirée pour me demander ce que je pensais du nouveau Premier ministre...</description>
+	<dc:subject>/plusperso</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-21T04:18:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/plusperso/cynisme.html">
 	<title>Pourquoi le cynisme n&apos;est qu&apos;une lâcheté morale</title>
 	<link>https://blog.barijaona.com/plusperso/cynisme.html</link>
