@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/lettre-au-PRRM.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/appel_17octobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/hopital-v2-sobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/bilan2016.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/singapour-meemf.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/night_session_cop21.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/lettre-au-PRRM.html">
+	<title>Versions</title>
+	<link>https://blog.barijaona.com/madagascar/lettre-au-PRRM.html</link>
+	<description>(Si vous avez déjà pris connaissance de la lettre des organisations environnementales, vous pouvez sauter directement vers le complément d'information...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-26T22:31:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/madagascar/appel_17octobre.html">
 	<title>Et le Madagascar réel, bon sang ?</title>
 	<link>https://blog.barijaona.com/madagascar/appel_17octobre.html</link>
@@ -101,15 +110,6 @@ C'était mardi dernier, au ministère de l'Environnement, de l'Écologie et des 
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2016-04-24T07:27:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/madagascar/night_session_cop21.html">
-	<title>Comment ça se termine une COP ?</title>
-	<link>https://blog.barijaona.com/madagascar/night_session_cop21.html</link>
-	<description>En quenouille ou en feu d'artifice ...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2015-12-10T13:18:00+03:00</dc:date>
 
 </item>
 

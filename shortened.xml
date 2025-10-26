@@ -22,6 +22,7 @@
 
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/lettre-au-PRRM.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/surprise-20-octobre-2025.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/appel_17octobre.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/plusperso/cynisme.html" />
@@ -29,7 +30,6 @@
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/sortie-plus-consensuelle.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/invites/sankara-a-madagascar.html" />
         <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/capsat2025.html" />
-        <rdf:li rdf:resource="https://blog.barijaona.com/madagascar/principes-sorties-crises.html" />
 
       </rdf:Seq>
     </items>
@@ -38,6 +38,15 @@
 
   </channel>
   
+<item rdf:about="https://blog.barijaona.com/madagascar/lettre-au-PRRM.html">
+	<title>Versions</title>
+	<link>https://blog.barijaona.com/madagascar/lettre-au-PRRM.html</link>
+	<description>(Si vous avez déjà pris connaissance de la lettre des organisations environnementales, vous pouvez sauter directement vers le complément d'information...</description>
+	<dc:subject>/madagascar</dc:subject>
+	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
+	<dc:date>2025-10-26T22:31:00+03:00</dc:date>
+
+</item>
 <item rdf:about="https://blog.barijaona.com/plusperso/surprise-20-octobre-2025.html">
 	<title>Me voilà rattrapé par le passé…</title>
 	<link>https://blog.barijaona.com/plusperso/surprise-20-octobre-2025.html</link>
@@ -99,15 +108,6 @@
 	<dc:subject>/madagascar</dc:subject>
 	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
 	<dc:date>2025-10-11T14:20:00+03:00</dc:date>
-
-</item>
-<item rdf:about="https://blog.barijaona.com/madagascar/principes-sorties-crises.html">
-	<title>Sortie(s) de crise(s)</title>
-	<link>https://blog.barijaona.com/madagascar/principes-sorties-crises.html</link>
-	<description>Rappel: Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur...</description>
-	<dc:subject>/madagascar</dc:subject>
-	<dc:creator>Barijaona Ramaholimihaso</dc:creator>
-	<dc:date>2025-10-09T07:05:00+03:00</dc:date>
 
 </item>
 
